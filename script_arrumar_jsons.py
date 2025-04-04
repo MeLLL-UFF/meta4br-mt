@@ -21,5 +21,5 @@ for item in data1:
     indice += 1
 
 # Write the new data to a new JSON file
-with open('BackTranslation/gpt/frases_traduzidas.json', 'w', encoding='utf-8') as file:
+with open('gpt/frases_traduzidas.json', 'w', encoding='utf-8') as file:
     json.dump(new_data, file, ensure_ascii=False, indent=4)

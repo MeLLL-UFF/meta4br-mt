@@ -8,7 +8,7 @@ client = openai.OpenAI(
 
 anotacoes = []
 
-with open('gpt/ENtoPT_manualdata.json', 'r', encoding='utf-8') as f:
+with open('gpt/ENtoPT.json', 'r', encoding='utf-8') as f:
     vetor = json.load(f)
 
 for objeto in vetor:
@@ -32,7 +32,7 @@ for objeto in vetor:
     anotacoes.append(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('gpt/PTtoEN_manualdata.json', 'w', encoding='utf-8') as f:
+    with open('gpt/PTtoEN.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
 

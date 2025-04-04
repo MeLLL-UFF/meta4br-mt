@@ -3,14 +3,14 @@ import json
 import openai
 
 
-df = pd.read_parquet("comparacao_datasets/manual_data.parquet", engine='pyarrow') 
+df = pd.read_parquet("comparacao_datasets/common1.parquet", engine='pyarrow') 
 
 client = openai.OpenAI(
     api_key="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"
 )
 
 anotacoes = []
-for frase in df['Sentence']:
+for frase in df['text']:
 
     # prompt = f"Traduzir a frase '{frase}' do inglês para o português"
     prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
@@ -32,7 +32,7 @@ for frase in df['Sentence']:
     anotacoes.append(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('gpt/ENtoPT_manualdata.json', 'w', encoding='utf-8') as f:
+    with open('gpt/ENtoPT.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
 

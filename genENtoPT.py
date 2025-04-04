@@ -10,8 +10,8 @@ import re
 
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
-            
-    df = pd.read_parquet("BackTranslation/comparacao_datasets/common.parquet", engine='pyarrow') 
+
+    df = pd.read_parquet("comparacao_datasets/common1.parquet", engine='pyarrow') 
 
     device = f'cuda' if torch.cuda.is_available() else 'cpu'
     
@@ -30,7 +30,7 @@ def main(model_id, hf_token, output_path):
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    json_output_path = os.path.join(output_path, "ENtoPT1.json")
+    json_output_path = os.path.join(output_path, "ENtoPT.json")
     
         
     anotacoes = []
