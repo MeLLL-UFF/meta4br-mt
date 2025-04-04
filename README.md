@@ -117,3 +117,5 @@ Citação:
     url = "https://aclanthology.org/2022.eamt-1.9",
     pages = "61--70",
 }
+
+https://huggingface.co/datasets/Sasidhar1826/manual_data_on_metaphors

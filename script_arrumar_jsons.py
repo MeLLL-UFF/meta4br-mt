@@ -1,9 +1,9 @@
 import json
 
 # Read the JSON file
-with open('BackTranslation/gpt/ENtoPT.json', 'r', encoding='utf-8') as file:
+with open('gpt/ENtoPT.json', 'r', encoding='utf-8') as file:
     data1 = json.load(file)
-with open('BackTranslation/gpt/PTtoEN.json', 'r', encoding='utf-8') as file:
+with open('gpt/PTtoEN.json', 'r', encoding='utf-8') as file:
     data2 = json.load(file)
 
 # Process each object in the JSON
