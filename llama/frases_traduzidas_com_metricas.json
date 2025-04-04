@@ -1,0 +1,3222 @@
+[
+    {
+        "ingles_original": "word becomes a rock",
+        "portugues_traduzido": "A palavra se torna uma pedra.",
+        "ingles_traduzido": "The word becomes a stone.",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.4,
+                0.25,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8844197988510132
+            ],
+            "recall": [
+                0.9103882908821106
+            ],
+            "f1": [
+                0.8972161412239075
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.4242730140686035
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9001168608665466
+            ]
+        }
+    },
+    {
+        "ingles_original": "silence becomes a thunder",
+        "portugues_traduzido": "O silêncio se torna um trovão.",
+        "ingles_traduzido": "Silence becomes thunder.",
+        "ROUGE": {
+            "rouge1": 0.8571428571428571,
+            "rouge2": 0.4,
+            "rougeL": 0.8571428571428571,
+            "rougeLsum": 0.8571428571428571
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 4,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9088221192359924
+            ],
+            "recall": [
+                0.9182304739952087
+            ],
+            "f1": [
+                0.9135020971298218
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.7950954437255859
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9306213855743408
+            ]
+        }
+    },
+    {
+        "ingles_original": "the doctor walks to the school.",
+        "portugues_traduzido": "O médico caminha para a escola.",
+        "ingles_traduzido": "The doctor walks to school.",
+        "ROUGE": {
+            "rouge1": 0.9090909090909091,
+            "rouge2": 0.6666666666666665,
+            "rougeL": 0.9090909090909091,
+            "rougeLsum": 0.9090909090909091
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.8333333333333334,
+                0.6,
+                0.25,
+                0.0
+            ],
+            "brevity_penalty": 0.846481724890614,
+            "length_ratio": 0.8571428571428571,
+            "translation_lenght": 6,
+            "reference_lenght": 7
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9562258720397949
+            ],
+            "recall": [
+                0.9437940716743469
+            ],
+            "f1": [
+                0.9499693512916565
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9397051334381104
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8940549492835999
+            ]
+        }
+    },
+    {
+        "ingles_original": "strength becomes a diamond",
+        "portugues_traduzido": "A força se torna um diamante.",
+        "ingles_traduzido": "Force becomes a diamond.",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.6666666666666666,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8818520307540894
+            ],
+            "recall": [
+                0.9555103778839111
+            ],
+            "f1": [
+                0.917204737663269
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.27738210558891296
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9061785340309143
+            ]
+        }
+    },
+    {
+        "ingles_original": "time has a mountain",
+        "portugues_traduzido": "O tempo tem uma montanha.",
+        "ingles_traduzido": "Time has a mountain.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9115222692489624
+            ],
+            "recall": [
+                0.9774556756019592
+            ],
+            "f1": [
+                0.9433382749557495
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9630624651908875
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8944474458694458
+            ]
+        }
+    },
+    {
+        "ingles_original": "mind becomes a gold",
+        "portugues_traduzido": "A mente se torna ouro.",
+        "ingles_traduzido": "The mind becomes gold.",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.25,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8498561978340149
+            ],
+            "recall": [
+                0.8961715698242188
+            ],
+            "f1": [
+                0.872399628162384
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.6646549701690674
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9223506450653076
+            ]
+        }
+    },
+    {
+        "ingles_original": "word has a rock",
+        "portugues_traduzido": "A palavra tem uma pedra.",
+        "ingles_traduzido": "\"The word has a stone.\"",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.375,
+                0.2857142857142857,
+                0.16666666666666666,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 2.0,
+            "translation_lenght": 8,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8210877776145935
+            ],
+            "recall": [
+                0.8998904824256897
+            ],
+            "f1": [
+                0.8586850166320801
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                -0.0383288636803627
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.7192829251289368
+            ]
+        }
+    },
+    {
+        "ingles_original": "dream has a star",
+        "portugues_traduzido": "O sonho tem uma estrela.",
+        "ingles_traduzido": "The dream has a star.",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8622972965240479
+            ],
+            "recall": [
+                0.9409378170967102
+            ],
+            "f1": [
+                0.8999027609825134
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.37839314341545105
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9448071718215942
+            ]
+        }
+    },
+    {
+        "ingles_original": "passion is a light",
+        "portugues_traduzido": "A paixão é uma luz.",
+        "ingles_traduzido": "Passion is a light.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8992735743522644
+            ],
+            "recall": [
+                0.9735480546951294
+            ],
+            "f1": [
+                0.9349380135536194
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0253480672836304
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9287144541740417
+            ]
+        }
+    },
+    {
+        "ingles_original": "courage has a sun",
+        "portugues_traduzido": "A coragem tem um sol.",
+        "ingles_traduzido": "Courage has a sun.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9124957323074341
+            ],
+            "recall": [
+                0.9668047428131104
+            ],
+            "f1": [
+                0.9388654828071594
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9989304542541504
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8796882033348083
+            ]
+        }
+    },
+    {
+        "ingles_original": "passion has a light",
+        "portugues_traduzido": "A paixão tem uma luz.",
+        "ingles_traduzido": "Passion has a light.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9037472605705261
+            ],
+            "recall": [
+                0.9729728698730469
+            ],
+            "f1": [
+                0.9370833039283752
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0126057863235474
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9392201900482178
+            ]
+        }
+    },
+    {
+        "ingles_original": "the driver visits the cafe.",
+        "portugues_traduzido": "O motorista visita o café.",
+        "ingles_traduzido": "The driver visits the café.",
+        "ROUGE": {
+            "rouge1": 0.8000000000000002,
+            "rouge2": 0.75,
+            "rougeL": 0.8000000000000002,
+            "rougeLsum": 0.8000000000000002
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6666666666666666,
+                0.4,
+                0.25,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 6,
+            "reference_lenght": 6
+        },
+        "BERTSCORE": {
+            "precision": [
+                1.0
+            ],
+            "recall": [
+                1.0
+            ],
+            "f1": [
+                1.0
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0576101541519165
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9420997500419617
+            ]
+        }
+    },
+    {
+        "ingles_original": "dream is a star",
+        "portugues_traduzido": "O sonho é uma estrela.",
+        "ingles_traduzido": "Dream is a star.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9126494526863098
+            ],
+            "recall": [
+                0.9738128781318665
+            ],
+            "f1": [
+                0.9422396421432495
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9557849168777466
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9145937561988831
+            ]
+        }
+    },
+    {
+        "ingles_original": "spirit is a storm",
+        "portugues_traduzido": "Espírito é uma tempestade.",
+        "ingles_traduzido": "\"Spirit is a storm.\"",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.42857142857142855,
+                0.3333333333333333,
+                0.2,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.75,
+            "translation_lenght": 7,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.858863115310669
+            ],
+            "recall": [
+                0.9634132981300354
+            ],
+            "f1": [
+                0.9081390500068665
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9124437570571899
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8262717723846436
+            ]
+        }
+    },
+    {
+        "ingles_original": "word is a rock",
+        "portugues_traduzido": "A palavra é uma pedra.",
+        "ingles_traduzido": "The word is a stone.",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.4,
+                0.25,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8476888537406921
+            ],
+            "recall": [
+                0.8706211447715759
+            ],
+            "f1": [
+                0.8590019345283508
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.16873982548713684
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8149611353874207
+            ]
+        }
+    },
+    {
+        "ingles_original": "smile becomes a wind",
+        "portugues_traduzido": "O sorriso se torna um vento.",
+        "ingles_traduzido": "The smile becomes a wind.",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9076498746871948
+            ],
+            "recall": [
+                0.9349969625473022
+            ],
+            "f1": [
+                0.9211204648017883
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.8624647855758667
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9191319346427917
+            ]
+        }
+    },
+    {
+        "ingles_original": "mind has a gold",
+        "portugues_traduzido": "O espírito tem um ouro.",
+        "ingles_traduzido": "The spirit has gold.",
+        "ROUGE": {
+            "rouge1": 0.5,
+            "rouge2": 0.0,
+            "rougeL": 0.5,
+            "rougeLsum": 0.5
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.4,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.790654182434082
+            ],
+            "recall": [
+                0.8470970988273621
+            ],
+            "f1": [
+                0.8179030418395996
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.033659592270851135
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8294141888618469
+            ]
+        }
+    },
+    {
+        "ingles_original": "hope becomes a ice",
+        "portugues_traduzido": "A esperança se transforma em gelo.",
+        "ingles_traduzido": "Hope turns to ice.",
+        "ROUGE": {
+            "rouge1": 0.5,
+            "rouge2": 0.0,
+            "rougeL": 0.5,
+            "rougeLsum": 0.5
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.2,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8440279960632324
+            ],
+            "recall": [
+                0.8350421786308289
+            ],
+            "f1": [
+                0.8395110368728638
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.07924094051122665
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8904638290405273
+            ]
+        }
+    },
+    {
+        "ingles_original": "love becomes a moon",
+        "portugues_traduzido": "O amor se torna uma lua.",
+        "ingles_traduzido": "Love turns into a moon.",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.28571428571428575,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.3333333333333333,
+                0.2,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8695138096809387
+            ],
+            "recall": [
+                0.923623263835907
+            ],
+            "f1": [
+                0.8957521915435791
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.5763877630233765
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8970564007759094
+            ]
+        }
+    },
+    {
+        "ingles_original": "the artist works in the library.",
+        "portugues_traduzido": "O artista trabalha na biblioteca.",
+        "ingles_traduzido": "The artist works at the library.",
+        "ROUGE": {
+            "rouge1": 0.8333333333333334,
+            "rouge2": 0.6,
+            "rougeL": 0.8333333333333334,
+            "rougeLsum": 0.8333333333333334
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.7142857142857143,
+                0.5,
+                0.2,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 7,
+            "reference_lenght": 7
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9847522974014282
+            ],
+            "recall": [
+                0.9847522974014282
+            ],
+            "f1": [
+                0.9847522974014282
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9750874638557434
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9129640460014343
+            ]
+        }
+    },
+    {
+        "ingles_original": "the chef writes the restaurant.",
+        "portugues_traduzido": "O cozinheiro escreve o restaurante.",
+        "ingles_traduzido": "The chef writes the restaurant.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.7598356856515925,
+            "precisions": [
+                0.8333333333333334,
+                0.8,
+                0.75,
+                0.6666666666666666
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 6,
+            "reference_lenght": 6
+        },
+        "BERTSCORE": {
+            "precision": [
+                1.000000238418579
+            ],
+            "recall": [
+                1.000000238418579
+            ],
+            "f1": [
+                1.000000238418579
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0537066459655762
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9361444115638733
+            ]
+        }
+    },
+    {
+        "ingles_original": "memory becomes a ocean",
+        "portugues_traduzido": "A memória se torna um oceano.",
+        "ingles_traduzido": "Memory becomes an ocean.",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.4,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9013225436210632
+            ],
+            "recall": [
+                0.9581414461135864
+            ],
+            "f1": [
+                0.9288639426231384
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9381914734840393
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9573150873184204
+            ]
+        }
+    },
+    {
+        "ingles_original": "the child drinks the market.",
+        "portugues_traduzido": "O filho bebe o mercado.",
+        "ingles_traduzido": "The son drinks the market.",
+        "ROUGE": {
+            "rouge1": 0.8000000000000002,
+            "rouge2": 0.5,
+            "rougeL": 0.8000000000000002,
+            "rougeLsum": 0.8000000000000002
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 6,
+            "reference_lenght": 6
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9593474864959717
+            ],
+            "recall": [
+                0.9593474864959717
+            ],
+            "f1": [
+                0.9593474864959717
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.24659810960292816
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.7598015069961548
+            ]
+        }
+    },
+    {
+        "ingles_original": "smile is a wind",
+        "portugues_traduzido": "Sorriso é um vento.",
+        "ingles_traduzido": "Smile is a wind.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8971659541130066
+            ],
+            "recall": [
+                0.9608227610588074
+            ],
+            "f1": [
+                0.9279038906097412
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.8882611989974976
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9190049767494202
+            ]
+        }
+    },
+    {
+        "ingles_original": "courage is a sun",
+        "portugues_traduzido": "A coragem é um sol.",
+        "ingles_traduzido": "Courage is a sun.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9075623154640198
+            ],
+            "recall": [
+                0.9656181335449219
+            ],
+            "f1": [
+                0.9356905817985535
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9203808307647705
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8627174496650696
+            ]
+        }
+    },
+    {
+        "ingles_original": "heart has a tree",
+        "portugues_traduzido": "O coração tem uma árvore.",
+        "ingles_traduzido": "The heart has a tree.",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8707742691040039
+            ],
+            "recall": [
+                0.950634777545929
+            ],
+            "f1": [
+                0.9089537858963013
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9058638215065002
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9115027189254761
+            ]
+        }
+    },
+    {
+        "ingles_original": "love has a moon",
+        "portugues_traduzido": "O amor tem uma lua.",
+        "ingles_traduzido": "Love has a moon.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8988685607910156
+            ],
+            "recall": [
+                0.9663658142089844
+            ],
+            "f1": [
+                0.9313958883285522
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0126736164093018
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.958317220211029
+            ]
+        }
+    },
+    {
+        "ingles_original": "eye is a flame",
+        "portugues_traduzido": "O olhar é uma chama.",
+        "ingles_traduzido": "The gaze is a flame.",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.4,
+                0.25,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8470354676246643
+            ],
+            "recall": [
+                0.8844914436340332
+            ],
+            "f1": [
+                0.8653583526611328
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.5116517543792725
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8726083636283875
+            ]
+        }
+    },
+    {
+        "ingles_original": "time is a mountain",
+        "portugues_traduzido": "O tempo é uma montanha",
+        "ingles_traduzido": "Time is a mountain.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9236505031585693
+            ],
+            "recall": [
+                0.9790476560592651
+            ],
+            "f1": [
+                0.950542688369751
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.939275324344635
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9534815549850464
+            ]
+        }
+    },
+    {
+        "ingles_original": "courage becomes a sun",
+        "portugues_traduzido": "A coragem se torna um sol.",
+        "ingles_traduzido": "Courage becomes the sun.",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.4,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8852311372756958
+            ],
+            "recall": [
+                0.9400944709777832
+            ],
+            "f1": [
+                0.9118382930755615
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.8443956971168518
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8666535019874573
+            ]
+        }
+    },
+    {
+        "ingles_original": "dream becomes a star",
+        "portugues_traduzido": "Sonho se torna uma estrela.",
+        "ingles_traduzido": "Dream becomes a star.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9164369106292725
+            ],
+            "recall": [
+                0.9752870798110962
+            ],
+            "f1": [
+                0.9449465870857239
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0117682218551636
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9554192423820496
+            ]
+        }
+    },
+    {
+        "ingles_original": "he walks to the park.",
+        "portugues_traduzido": "Ele vai até o parque a pé.",
+        "ingles_traduzido": "He is going to the park on foot.",
+        "ROUGE": {
+            "rouge1": 0.6153846153846154,
+            "rouge2": 0.36363636363636365,
+            "rougeL": 0.6153846153846154,
+            "rougeLsum": 0.6153846153846154
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.4444444444444444,
+                0.25,
+                0.14285714285714285,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 9,
+            "reference_lenght": 6
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.828222393989563
+            ],
+            "recall": [
+                0.8972817659378052
+            ],
+            "f1": [
+                0.8613701462745667
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.6117042899131775
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8343051671981812
+            ]
+        }
+    },
+    {
+        "ingles_original": "mind is a gold",
+        "portugues_traduzido": "A mente é ouro.",
+        "ingles_traduzido": "The mind is gold.",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.25,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8239003419876099
+            ],
+            "recall": [
+                0.8856123685836792
+            ],
+            "f1": [
+                0.853642463684082
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.6342695355415344
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.921472430229187
+            ]
+        }
+    },
+    {
+        "ingles_original": "eye becomes a flame",
+        "portugues_traduzido": "O olho se torna uma chama.",
+        "ingles_traduzido": "The eye becomes a flame.",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8975473642349243
+            ],
+            "recall": [
+                0.9532473087310791
+            ],
+            "f1": [
+                0.9245591759681702
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.8703343868255615
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9349616765975952
+            ]
+        }
+    },
+    {
+        "ingles_original": "heart is a tree",
+        "portugues_traduzido": "O coração é uma árvore.",
+        "ingles_traduzido": "The heart is a tree.",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8516923785209656
+            ],
+            "recall": [
+                0.9445767998695374
+            ],
+            "f1": [
+                0.8957330584526062
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.8557640314102173
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9183827042579651
+            ]
+        }
+    },
+    {
+        "ingles_original": "soul becomes a shadow",
+        "portugues_traduzido": "A alma se torna uma sombra.",
+        "ingles_traduzido": "The soul becomes a shadow.",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8974592089653015
+            ],
+            "recall": [
+                0.9579718112945557
+            ],
+            "f1": [
+                0.9267287254333496
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0179402828216553
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9536189436912537
+            ]
+        }
+    },
+    {
+        "ingles_original": "time becomes a mountain",
+        "portugues_traduzido": "O tempo se torna uma montanha.",
+        "ingles_traduzido": "Time becomes a mountain.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9028204679489136
+            ],
+            "recall": [
+                0.981020987033844
+            ],
+            "f1": [
+                0.940297544002533
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9861343502998352
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9649041295051575
+            ]
+        }
+    },
+    {
+        "ingles_original": "she writes the office.",
+        "portugues_traduzido": "Ela escreve o escritório.",
+        "ingles_traduzido": "She writes the office.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.668740304976422,
+            "precisions": [
+                0.8,
+                0.75,
+                0.6666666666666666,
+                0.5
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 5,
+            "reference_lenght": 5
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9999999403953552
+            ],
+            "recall": [
+                0.9999999403953552
+            ],
+            "f1": [
+                0.9999999403953552
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.040927767753601
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9256632924079895
+            ]
+        }
+    },
+    {
+        "ingles_original": "wisdom becomes a garden",
+        "portugues_traduzido": "A sabedoria se torna um jardim.",
+        "ingles_traduzido": "Wisdom becomes a garden.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9130405187606812
+            ],
+            "recall": [
+                0.9768903255462646
+            ],
+            "f1": [
+                0.9438868761062622
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9849439263343811
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9324638843536377
+            ]
+        }
+    },
+    {
+        "ingles_original": "soul is a shadow",
+        "portugues_traduzido": "O espírito é uma sombra.",
+        "ingles_traduzido": "The spirit is a shadow.",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.4,
+                0.25,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8573532104492188
+            ],
+            "recall": [
+                0.912688136100769
+            ],
+            "f1": [
+                0.8841557502746582
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.46900248527526855
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.899441659450531
+            ]
+        }
+    },
+    {
+        "ingles_original": "wisdom has a garden",
+        "portugues_traduzido": "A sabedoria tem um jardim.",
+        "ingles_traduzido": "Wisdom has a garden.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9052119851112366
+            ],
+            "recall": [
+                0.9658809900283813
+            ],
+            "f1": [
+                0.9345629215240479
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9994896650314331
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9222677946090698
+            ]
+        }
+    },
+    {
+        "ingles_original": "hope is a ice",
+        "portugues_traduzido": "Esperança é uma lágrima congelada.",
+        "ingles_traduzido": "\"Hope is a frozen tear.\"",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.25,
+                0.14285714285714285,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 2.0,
+            "translation_lenght": 8,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8164682984352112
+            ],
+            "recall": [
+                0.8958994746208191
+            ],
+            "f1": [
+                0.8543415665626526
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                -0.7294909954071045
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.7129482626914978
+            ]
+        }
+    },
+    {
+        "ingles_original": "spirit becomes a storm",
+        "portugues_traduzido": "O espírito se torna uma tempestade.",
+        "ingles_traduzido": "The spirit becomes a storm.",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9110992550849915
+            ],
+            "recall": [
+                0.95823734998703
+            ],
+            "f1": [
+                0.9340739846229553
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9332726001739502
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9292215704917908
+            ]
+        }
+    },
+    {
+        "ingles_original": "hope has a ice",
+        "portugues_traduzido": "A esperança tem um gelo.",
+        "ingles_traduzido": "Hope has ice.",
+        "ROUGE": {
+            "rouge1": 0.8571428571428571,
+            "rouge2": 0.4,
+            "rougeL": 0.8571428571428571,
+            "rougeLsum": 0.8571428571428571
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 4,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8744329214096069
+            ],
+            "recall": [
+                0.9093724489212036
+            ],
+            "f1": [
+                0.8915604948997498
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.2964998185634613
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8760112524032593
+            ]
+        }
+    },
+    {
+        "ingles_original": "eye has a flame",
+        "portugues_traduzido": "O olhar tem uma chama.",
+        "ingles_traduzido": "The gaze has a flame.",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.4,
+                0.25,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8679580092430115
+            ],
+            "recall": [
+                0.900848388671875
+            ],
+            "f1": [
+                0.8840973377227783
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.4752393364906311
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8639009594917297
+            ]
+        }
+    },
+    {
+        "ingles_original": "silence is a thunder",
+        "portugues_traduzido": "O silêncio é um trovão.",
+        "ingles_traduzido": "Silence is a thunder.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.941550612449646
+            ],
+            "recall": [
+                0.9675469994544983
+            ],
+            "f1": [
+                0.9543717503547668
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0127891302108765
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8767695426940918
+            ]
+        }
+    },
+    {
+        "ingles_original": "passion becomes a light",
+        "portugues_traduzido": "A paixão torna-se luz.",
+        "ingles_traduzido": "Passion becomes light.",
+        "ROUGE": {
+            "rouge1": 0.8571428571428571,
+            "rouge2": 0.4,
+            "rougeL": 0.8571428571428571,
+            "rougeLsum": 0.8571428571428571
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 4,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8850396275520325
+            ],
+            "recall": [
+                0.917817234992981
+            ],
+            "f1": [
+                0.9011304378509521
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.7588018178939819
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9119850397109985
+            ]
+        }
+    },
+    {
+        "ingles_original": "life is a river",
+        "portugues_traduzido": "A vida é um rio.",
+        "ingles_traduzido": "Life is a river.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8987619280815125
+            ],
+            "recall": [
+                0.9779399037361145
+            ],
+            "f1": [
+                0.9366806745529175
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9836459755897522
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9609339833259583
+            ]
+        }
+    },
+    {
+        "ingles_original": "silence has a thunder",
+        "portugues_traduzido": "O silêncio é um trovão.",
+        "ingles_traduzido": "\"Silence is a thunder.\"",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.2857142857142857,
+                0.16666666666666666,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.75,
+            "translation_lenght": 7,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.835657000541687
+            ],
+            "recall": [
+                0.9082658886909485
+            ],
+            "f1": [
+                0.8704498410224915
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.1514427661895752
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8177377581596375
+            ]
+        }
+    },
+    {
+        "ingles_original": "life has a river",
+        "portugues_traduzido": "A vida tem um rio.",
+        "ingles_traduzido": "Life has a river.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.911210298538208
+            ],
+            "recall": [
+                0.9720831513404846
+            ],
+            "f1": [
+                0.9406629800796509
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0252938270568848
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9469362497329712
+            ]
+        }
+    },
+    {
+        "ingles_original": "memory is a ocean",
+        "portugues_traduzido": "A memória é um oceano.",
+        "ingles_traduzido": "Memory is an ocean.",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.4,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8953099846839905
+            ],
+            "recall": [
+                0.9554542899131775
+            ],
+            "f1": [
+                0.9244048595428467
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.8938137888908386
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9381778836250305
+            ]
+        }
+    },
+    {
+        "ingles_original": "voice becomes a iron",
+        "portugues_traduzido": "A voz se torna de ferro.",
+        "ingles_traduzido": "The voice becomes iron.",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.25,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8724183440208435
+            ],
+            "recall": [
+                0.8842682838439941
+            ],
+            "f1": [
+                0.8783033490180969
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.626690685749054
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9287119507789612
+            ]
+        }
+    },
+    {
+        "ingles_original": "smile has a wind",
+        "portugues_traduzido": "\"O sorriso tem vento\"",
+        "ingles_traduzido": "\"A smile has a breeze.\"",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.375,
+                0.2857142857142857,
+                0.16666666666666666,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 2.0,
+            "translation_lenght": 8,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8356788158416748
+            ],
+            "recall": [
+                0.9013866782188416
+            ],
+            "f1": [
+                0.8672899603843689
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.5397047400474548
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8109824657440186
+            ]
+        }
+    },
+    {
+        "ingles_original": "heart becomes a tree",
+        "portugues_traduzido": "O coração se torna uma árvore.",
+        "ingles_traduzido": "The heart becomes a tree.",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8680995106697083
+            ],
+            "recall": [
+                0.9631578326225281
+            ],
+            "f1": [
+                0.9131615161895752
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.8963161706924438
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9269385933876038
+            ]
+        }
+    },
+    {
+        "ingles_original": "memory has a ocean",
+        "portugues_traduzido": "A memória tem um oceano.",
+        "ingles_traduzido": "Memory has an ocean.",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.4,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9052581191062927
+            ],
+            "recall": [
+                0.9584109783172607
+            ],
+            "f1": [
+                0.9310765266418457
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9716774225234985
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9100146889686584
+            ]
+        }
+    },
+    {
+        "ingles_original": "life becomes a river",
+        "portugues_traduzido": "Vida se torna um rio.",
+        "ingles_traduzido": "Life becomes a river.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9092971086502075
+            ],
+            "recall": [
+                0.9771599769592285
+            ],
+            "f1": [
+                0.9420078992843628
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.003830075263977
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9741176962852478
+            ]
+        }
+    },
+    {
+        "ingles_original": "my friend drinks the store.",
+        "portugues_traduzido": "Meu amigo bebe a loja.",
+        "ingles_traduzido": "My friend drinks the shop.",
+        "ROUGE": {
+            "rouge1": 0.8000000000000002,
+            "rouge2": 0.75,
+            "rougeL": 0.8000000000000002,
+            "rougeLsum": 0.8000000000000002
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6666666666666666,
+                0.4,
+                0.25,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 6,
+            "reference_lenght": 6
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.98568195104599
+            ],
+            "recall": [
+                0.98568195104599
+            ],
+            "f1": [
+                0.98568195104599
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.852689266204834
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8526419401168823
+            ]
+        }
+    },
+    {
+        "ingles_original": "soul has a shadow",
+        "portugues_traduzido": "\"A alma tem uma sombra\"",
+        "ingles_traduzido": "\"The soul has a shadow.\"",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.345720784641941,
+            "precisions": [
+                0.5,
+                0.42857142857142855,
+                0.3333333333333333,
+                0.2
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 2.0,
+            "translation_lenght": 8,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8460515141487122
+            ],
+            "recall": [
+                0.9424147605895996
+            ],
+            "f1": [
+                0.8916371464729309
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.7778921723365784
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9124965071678162
+            ]
+        }
+    },
+    {
+        "ingles_original": "the teacher visits the museum.",
+        "portugues_traduzido": "O professor visita o museu.",
+        "ingles_traduzido": "The teacher visits the museum.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.7598356856515925,
+            "precisions": [
+                0.8333333333333334,
+                0.8,
+                0.75,
+                0.6666666666666666
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 6,
+            "reference_lenght": 6
+        },
+        "BERTSCORE": {
+            "precision": [
+                1.0
+            ],
+            "recall": [
+                1.0
+            ],
+            "f1": [
+                1.0
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.0585930347442627
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.953769326210022
+            ]
+        }
+    },
+    {
+        "ingles_original": "the student works in the hospital.",
+        "portugues_traduzido": "O aluno trabalha no hospital.",
+        "ingles_traduzido": "The student works at the hospital.",
+        "ROUGE": {
+            "rouge1": 0.8333333333333334,
+            "rouge2": 0.6,
+            "rougeL": 0.8333333333333334,
+            "rougeLsum": 0.8333333333333334
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.7142857142857143,
+                0.5,
+                0.2,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.0,
+            "translation_lenght": 7,
+            "reference_lenght": 7
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9863879680633545
+            ],
+            "recall": [
+                0.9863879680633545
+            ],
+            "f1": [
+                0.9863879680633545
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                1.016399621963501
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9301013946533203
+            ]
+        }
+    },
+    {
+        "ingles_original": "strength is a diamond",
+        "portugues_traduzido": "A força é um diamante.",
+        "ingles_traduzido": "\"Strength is a diamond.\"",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.42857142857142855,
+                0.3333333333333333,
+                0.2,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.75,
+            "translation_lenght": 7,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8538627028465271
+            ],
+            "recall": [
+                0.9525817632675171
+            ],
+            "f1": [
+                0.9005248546600342
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.7359908819198608
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8862531781196594
+            ]
+        }
+    },
+    {
+        "ingles_original": "voice has a iron",
+        "portugues_traduzido": "A voz tem um ferro.",
+        "ingles_traduzido": "\"His voice has iron.\"",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.42857142857142855,
+                0.16666666666666666,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.75,
+            "translation_lenght": 7,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8062143325805664
+            ],
+            "recall": [
+                0.8693425059318542
+            ],
+            "f1": [
+                0.8365892171859741
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.16370420157909393
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8809521198272705
+            ]
+        }
+    },
+    {
+        "ingles_original": "fear becomes a fire",
+        "portugues_traduzido": "O medo se torna fogo.",
+        "ingles_traduzido": "\"Fear turns to fire.\"",
+        "ROUGE": {
+            "rouge1": 0.5,
+            "rouge2": 0.0,
+            "rougeL": 0.5,
+            "rougeLsum": 0.5
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.14285714285714285,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.75,
+            "translation_lenght": 7,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8151867985725403
+            ],
+            "recall": [
+                0.8779383301734924
+            ],
+            "f1": [
+                0.8453997373580933
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.5412803888320923
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8183034062385559
+            ]
+        }
+    },
+    {
+        "ingles_original": "spirit has a storm",
+        "portugues_traduzido": "O espírito tem uma tempestade.",
+        "ingles_traduzido": "The spirit has a storm.",
+        "ROUGE": {
+            "rouge1": 0.888888888888889,
+            "rouge2": 0.8571428571428571,
+            "rougeL": 0.888888888888889,
+            "rougeLsum": 0.888888888888889
+        },
+        "BLEU": {
+            "bleu": 0.5081327481546147,
+            "precisions": [
+                0.6666666666666666,
+                0.6,
+                0.5,
+                0.3333333333333333
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8879801034927368
+            ],
+            "recall": [
+                0.9491138458251953
+            ],
+            "f1": [
+                0.917529821395874
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9121249914169312
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9134392738342285
+            ]
+        }
+    },
+    {
+        "ingles_original": "love is a moon",
+        "portugues_traduzido": "O amor é um mês luar",
+        "ingles_traduzido": "Love is a lunar month.",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.3333333333333333,
+                0.2,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8237820863723755
+            ],
+            "recall": [
+                0.8302361369132996
+            ],
+            "f1": [
+                0.8269965648651123
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.17847388982772827
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.7568013072013855
+            ]
+        }
+    },
+    {
+        "ingles_original": "voice is a iron",
+        "portugues_traduzido": "\"A voz é uma ferro\"",
+        "ingles_traduzido": "\"The voice is iron\"",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.2,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.5,
+            "translation_lenght": 6,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8248344659805298
+            ],
+            "recall": [
+                0.888530969619751
+            ],
+            "f1": [
+                0.855498731136322
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.31506583094596863
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.8439302444458008
+            ]
+        }
+    },
+    {
+        "ingles_original": "fear has a fire",
+        "portugues_traduzido": "O medo tem um fogo.",
+        "ingles_traduzido": "\"Fear has a fire.\"",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.42857142857142855,
+                0.3333333333333333,
+                0.2,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.75,
+            "translation_lenght": 7,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8579385876655579
+            ],
+            "recall": [
+                0.9578298926353455
+            ],
+            "f1": [
+                0.9051365852355957
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.8451675176620483
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.7711988091468811
+            ]
+        }
+    },
+    {
+        "ingles_original": "wisdom is a garden",
+        "portugues_traduzido": "A sabedoria é um jardim.",
+        "ingles_traduzido": "Wisdom is a garden.",
+        "ROUGE": {
+            "rouge1": 1.0,
+            "rouge2": 1.0,
+            "rougeL": 1.0,
+            "rougeLsum": 1.0
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.6,
+                0.5,
+                0.3333333333333333,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.9081287980079651
+            ],
+            "recall": [
+                0.9694573283195496
+            ],
+            "f1": [
+                0.9377914667129517
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.9649053812026978
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.9038705229759216
+            ]
+        }
+    },
+    {
+        "ingles_original": "strength has a diamond",
+        "portugues_traduzido": "\"Tempestade tem um diamante.\"",
+        "ingles_traduzido": "\"A storm has a diamond.\"",
+        "ROUGE": {
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5714285714285715,
+            "rougeL": 0.6666666666666665,
+            "rougeLsum": 0.6666666666666665
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.375,
+                0.2857142857142857,
+                0.16666666666666666,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 2.0,
+            "translation_lenght": 8,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8093481063842773
+            ],
+            "recall": [
+                0.876174807548523
+            ],
+            "f1": [
+                0.8414366841316223
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                -1.1749441623687744
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.7042505741119385
+            ]
+        }
+    },
+    {
+        "ingles_original": "fear is a fire",
+        "portugues_traduzido": "O medo é uma chama.",
+        "ingles_traduzido": "Fear is a flame.",
+        "ROUGE": {
+            "rouge1": 0.75,
+            "rouge2": 0.6666666666666666,
+            "rougeL": 0.75,
+            "rougeLsum": 0.75
+        },
+        "BLEU": {
+            "bleu": 0.0,
+            "precisions": [
+                0.4,
+                0.25,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.25,
+            "translation_lenght": 5,
+            "reference_lenght": 4
+        },
+        "BERTSCORE": {
+            "precision": [
+                0.8807843327522278
+            ],
+            "recall": [
+                0.9508401155471802
+            ],
+            "f1": [
+                0.9144724607467651
+            ],
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+        },
+        "BLEURT": {
+            "scores": [
+                0.5560087561607361
+            ]
+        },
+        "COMET": {
+            "scores": [
+                0.868674635887146
+            ]
+        }
+    }
+]
