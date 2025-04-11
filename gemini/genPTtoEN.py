@@ -8,6 +8,7 @@ from google.genai import types
 
 client = genai.Client(api_key="AIzaSyAX8TX9GS9o7842SWgBPqG8tkQa6OOZjVM")
 
+delay = 15
 anotacoes = []
 
 with open('gemini/ENtoPT.json', 'r', encoding='utf-8') as f:
@@ -32,6 +33,7 @@ for objeto in vetor:
     with open('gemini/PTtoEN.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
+    time.sleep(delay)
 
     
   

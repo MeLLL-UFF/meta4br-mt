@@ -17,18 +17,9 @@ def main(model_id, hf_token, output_path):
     
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 
-    # pipeline = transformers.pipeline(
-    #     task="text-generation",
-    #     trust_remote_code=True,
-    #     model=model_id,
-    #     tokenizer=tokenizer,
-    #     model_kwargs={"torch_dtype": torch.bfloat16},
-    #     device=device,
-    # )
-
-    # Pro mirian precisa mudar a task, mas não achei válido criar um novo arquivo só por isso
     pipeline = transformers.pipeline(
-        task="translation_EN_to_PT",
+        # task="translation_EN_to_PT",
+        task="translation",
         trust_remote_code=True,
         model=model_id,
         tokenizer=tokenizer,
@@ -50,23 +41,18 @@ def main(model_id, hf_token, output_path):
 
         prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
 
-        # messages = [
-        #     {"role": "user", "content": prompt}
-        # ]
-
-        # O mirian só espera a frase que precisa traduzir
-        messages = frase
+        message = frase
         
         outputs = pipeline(
-            messages,
+            message,
             max_new_tokens=2000,
             do_sample=True,
             temperature=1,
             top_p=0.95,
+            src_lang="eng_Latn",
+            tgt_lang="por_Latn"
         )
 
-        # generated_texts = outputs[0]["generated_text"][1]['content']
-        # Só pro Mirian
         generated_texts = outputs[0]['translation_text']
 
         result = {

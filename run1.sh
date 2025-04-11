@@ -15,4 +15,4 @@ INPUT_PATH="logs/"
 
 MODEL_ID="Helsinki-NLP/opus-mt-en-ROMANCE"
 OUTPUT_PATH="marian/"
-CUDA_VISIBLE_DEVICES=0 python3 genENtoPT.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH > "marian/marian-log.txt" 2>&1 
+CUDA_VISIBLE_DEVICES=0 python3 tradPTtoEN.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH > "marian/marian-log.txt" 2>&1 

@@ -119,3 +119,13 @@ Citação:
 }
 
 https://huggingface.co/datasets/Sasidhar1826/manual_data_on_metaphors
+
+Modelos usados:
+
+- gpt-4o-mini
+- gemini-2.0-flash-lite
+- Llama-3.1-8B-Instruct
+- Qwen2.5-7B-Instruct
+- nllb-200-3.3B
+- Ministral-8B-Instruct-2410
+- opus-mt-en-ROMANCE (tem que forçar o pt na frase pq ele mistura mt espanhol)

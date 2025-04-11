@@ -8,15 +8,19 @@
 
 import evaluate
 import json
+import torch
+import gc
 
+torch.cuda.empty_cache()
+gc.collect()
 
 rouge = evaluate.load('rouge')
 bleu = evaluate.load("bleu")
 bertscore = evaluate.load("bertscore")
-bleurt = evaluate.load('bleurt', 'bleurt-large-512')
-comet = evaluate.load('comet')
+bleurt = evaluate.load('bleurt', 'bleurt-large-512', device='cpu')
+comet = evaluate.load('comet', device='cpu')
 
-with open('gpt/frases_traduzidas.json', 'r', encoding='utf-8') as file:
+with open('gemini/frases_traduzidas.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 vetor = []
@@ -67,6 +71,6 @@ for objeto in dados:
 
     vetor.append(result)
 
-    with open('gpt/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
+    with open('gemini/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
         json.dump(vetor, file, ensure_ascii=False, indent=4)
 

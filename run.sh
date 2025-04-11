@@ -16,4 +16,4 @@ INPUT_PATH="logs/"
 
 MODEL_ID="facebook/nllb-200-3.3B"
 OUTPUT_PATH="meta/"
-CUDA_VISIBLE_DEVICES=1 python3 genENtoPT.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH > "meta/nllb-log.txt" 2>&1 
+CUDA_VISIBLE_DEVICES=1 python3 tradPTtoEN.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH > "meta/nllb-log.txt" 2>&1 

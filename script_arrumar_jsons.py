@@ -1,9 +1,9 @@
 import json
 
 # Read the JSON file
-with open('gpt/ENtoPT.json', 'r', encoding='utf-8') as file:
+with open('meta/ENtoPT.json', 'r', encoding='utf-8') as file:
     data1 = json.load(file)
-with open('gpt/PTtoEN.json', 'r', encoding='utf-8') as file:
+with open('meta/PTtoEN.json', 'r', encoding='utf-8') as file:
     data2 = json.load(file)
 
 # Process each object in the JSON
@@ -21,5 +21,5 @@ for item in data1:
     indice += 1
 
 # Write the new data to a new JSON file
-with open('gpt/frases_traduzidas.json', 'w', encoding='utf-8') as file:
+with open('meta/frases_traduzidas.json', 'w', encoding='utf-8') as file:
     json.dump(new_data, file, ensure_ascii=False, indent=4)
