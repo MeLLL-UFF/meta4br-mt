@@ -6,7 +6,8 @@ import torch
 import json
 import gc
 import os
-import re
+
+# Arquivo pra rodar o modelo da meta e o marian
 
 def main(model_id, hf_token, output_path):
     login(token=hf_token)

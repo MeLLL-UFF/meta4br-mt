@@ -23,26 +23,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8971589207649231
-            ],
-            "recall": [
-                0.9315841794013977
-            ],
-            "f1": [
-                0.9140475392341614
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8971589803695679,
+            "recall": 0.9315842390060425,
+            "f1": 0.9140475988388062,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.9761683940887451
-            ]
+            "scores": 0.9761016368865967
         },
         "COMET": {
-            "scores": [
-                0.9273194074630737
-            ]
+            "scores": 0.927319347858429
         }
     },
     {
@@ -69,26 +59,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9389407634735107
-            ],
-            "recall": [
-                0.9584252834320068
-            ],
-            "f1": [
-                0.9485829472541809
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9389408230781555,
+            "recall": 0.9584254026412964,
+            "f1": 0.9485830068588257,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.5437696576118469
-            ]
+            "scores": 0.5435768365859985
         },
         "COMET": {
-            "scores": [
-                0.9113975167274475
-            ]
+            "scores": 0.9113903045654297
         }
     },
     {
@@ -115,26 +95,16 @@
             "reference_lenght": 7
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0000001192092896,
+            "recall": 1.0000001192092896,
+            "f1": 1.0000001192092896,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0738896131515503
-            ]
+            "scores": 1.0739086866378784
         },
         "COMET": {
-            "scores": [
-                0.9442793726921082
-            ]
+            "scores": 0.944279134273529
         }
     },
     {
@@ -161,26 +131,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8877094984054565
-            ],
-            "recall": [
-                0.9279441833496094
-            ],
-            "f1": [
-                0.9073810577392578
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8877097368240356,
+            "recall": 0.9279444217681885,
+            "f1": 0.9073812961578369,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.7456309795379639
-            ]
+            "scores": 0.745915949344635
         },
         "COMET": {
-            "scores": [
-                0.9029668569564819
-            ]
+            "scores": 0.9029667973518372
         }
     },
     {
@@ -207,26 +167,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9999999403953552
-            ],
-            "recall": [
-                0.9999999403953552
-            ],
-            "f1": [
-                0.9999999403953552
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0054786205291748
-            ]
+            "scores": 1.0054467916488647
         },
         "COMET": {
-            "scores": [
-                0.9689550399780273
-            ]
+            "scores": 0.968954861164093
         }
     },
     {
@@ -253,26 +203,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8944416046142578
-            ],
-            "recall": [
-                0.9173612594604492
-            ],
-            "f1": [
-                0.9057564735412598
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8944416046142578,
+            "recall": 0.9173612594604492,
+            "f1": 0.9057564735412598,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                -0.24803988635540009
-            ]
+            "scores": -0.2479100376367569
         },
         "COMET": {
-            "scores": [
-                0.8452210426330566
-            ]
+            "scores": 0.8452205657958984
         }
     },
     {
@@ -299,26 +239,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.87518310546875
-            ],
-            "recall": [
-                0.9058449268341064
-            ],
-            "f1": [
-                0.8902500867843628
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8751832842826843,
+            "recall": 0.9058451652526855,
+            "f1": 0.8902502059936523,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.0549517422914505
-            ]
+            "scores": 0.0548049658536911
         },
         "COMET": {
-            "scores": [
-                0.7981415390968323
-            ]
+            "scores": 0.7981410026550293
         }
     },
     {
@@ -345,26 +275,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0229636430740356
-            ]
+            "scores": 1.0230356454849243
         },
         "COMET": {
-            "scores": [
-                0.9816092848777771
-            ]
+            "scores": 0.9816091656684875
         }
     },
     {
@@ -391,26 +311,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8992736339569092
-            ],
-            "recall": [
-                0.9735480546951294
-            ],
-            "f1": [
-                0.9349380135536194
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8992736339569092,
+            "recall": 0.9735480546951294,
+            "f1": 0.9349380135536194,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0253480672836304
-            ]
+            "scores": 1.0253357887268066
         },
         "COMET": {
-            "scores": [
-                0.9325092434883118
-            ]
+            "scores": 0.9325091242790222
         }
     },
     {
@@ -437,26 +347,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0000001192092896,
+            "recall": 1.0000001192092896,
+            "f1": 1.0000001192092896,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0377639532089233
-            ]
+            "scores": 1.0378516912460327
         },
         "COMET": {
-            "scores": [
-                0.9765671491622925
-            ]
+            "scores": 0.9765670895576477
         }
     },
     {
@@ -483,26 +383,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0374069213867188
-            ]
+            "scores": 1.0374128818511963
         },
         "COMET": {
-            "scores": [
-                0.9826290011405945
-            ]
+            "scores": 0.9826290011405945
         }
     },
     {
@@ -529,26 +419,16 @@
             "reference_lenght": 6
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0576101541519165
-            ]
+            "scores": 1.0577155351638794
         },
         "COMET": {
-            "scores": [
-                0.9526598453521729
-            ]
+            "scores": 0.9526598453521729
         }
     },
     {
@@ -575,26 +455,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9999998807907104
-            ],
-            "recall": [
-                0.9999998807907104
-            ],
-            "f1": [
-                0.9999998807907104
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.001188039779663
-            ]
+            "scores": 1.001250147819519
         },
         "COMET": {
-            "scores": [
-                0.9765664339065552
-            ]
+            "scores": 0.9765663743019104
         }
     },
     {
@@ -621,26 +491,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8924791216850281
-            ],
-            "recall": [
-                0.9518487453460693
-            ],
-            "f1": [
-                0.9212083220481873
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8924791812896729,
+            "recall": 0.9518488645553589,
+            "f1": 0.9212084412574768,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.9107125997543335
-            ]
+            "scores": 0.9107962846755981
         },
         "COMET": {
-            "scores": [
-                0.9010183811187744
-            ]
+            "scores": 0.901017963886261
         }
     },
     {
@@ -667,26 +527,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9999998807907104
-            ],
-            "recall": [
-                0.9999998807907104
-            ],
-            "f1": [
-                0.9999998807907104
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999999403953552,
+            "recall": 0.9999999403953552,
+            "f1": 0.9999999403953552,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0440430641174316
-            ]
+            "scores": 1.0441111326217651
         },
         "COMET": {
-            "scores": [
-                0.9735048413276672
-            ]
+            "scores": 0.9735046625137329
         }
     },
     {
@@ -713,26 +563,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9788632392883301
-            ],
-            "recall": [
-                0.9788632392883301
-            ],
-            "f1": [
-                0.9788632392883301
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9788633584976196,
+            "recall": 0.9788633584976196,
+            "f1": 0.9788633584976196,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0382349491119385
-            ]
+            "scores": 1.0382335186004639
         },
         "COMET": {
-            "scores": [
-                0.8223520517349243
-            ]
+            "scores": 0.8223517537117004
         }
     },
     {
@@ -759,26 +599,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9791417121887207
-            ],
-            "recall": [
-                0.9407424330711365
-            ],
-            "f1": [
-                0.9595580697059631
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9791416525840759,
+            "recall": 0.9407424926757812,
+            "f1": 0.9595580697059631,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.7279558777809143
-            ]
+            "scores": 0.7279866933822632
         },
         "COMET": {
-            "scores": [
-                0.9184280037879944
-            ]
+            "scores": 0.9184278249740601
         }
     },
     {
@@ -805,26 +635,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8780403137207031
-            ],
-            "recall": [
-                0.8780403137207031
-            ],
-            "f1": [
-                0.8780403137207031
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8780405521392822,
+            "recall": 0.8780405521392822,
+            "f1": 0.8780405521392822,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.26015275716781616
-            ]
+            "scores": 0.25988438725471497
         },
         "COMET": {
-            "scores": [
-                0.9034046530723572
-            ]
+            "scores": 0.9034044146537781
         }
     },
     {
@@ -851,26 +671,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000003576278687
-            ],
-            "recall": [
-                1.0000003576278687
-            ],
-            "f1": [
-                1.0000003576278687
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999999403953552,
+            "recall": 0.9999999403953552,
+            "f1": 0.9999999403953552,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0090370178222656
-            ]
+            "scores": 1.0090595483779907
         },
         "COMET": {
-            "scores": [
-                0.9781699776649475
-            ]
+            "scores": 0.9781697988510132
         }
     },
     {
@@ -897,26 +707,16 @@
             "reference_lenght": 7
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999999403953552,
+            "recall": 0.9999999403953552,
+            "f1": 0.9999999403953552,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0512031316757202
-            ]
+            "scores": 1.0512081384658813
         },
         "COMET": {
-            "scores": [
-                0.933329164981842
-            ]
+            "scores": 0.9333288669586182
         }
     },
     {
@@ -943,26 +743,16 @@
             "reference_lenght": 6
         },
         "BERTSCORE": {
-            "precision": [
-                1.000000238418579
-            ],
-            "recall": [
-                1.000000238418579
-            ],
-            "f1": [
-                1.000000238418579
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0537066459655762
-            ]
+            "scores": 1.0537036657333374
         },
         "COMET": {
-            "scores": [
-                0.93730628490448
-            ]
+            "scores": 0.9373061060905457
         }
     },
     {
@@ -989,26 +779,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9744715094566345
-            ],
-            "recall": [
-                0.9744715094566345
-            ],
-            "f1": [
-                0.9744715094566345
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9744715094566345,
+            "recall": 0.9744715094566345,
+            "f1": 0.9744715094566345,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.9274202585220337
-            ]
+            "scores": 0.9273910522460938
         },
         "COMET": {
-            "scores": [
-                0.9811165928840637
-            ]
+            "scores": 0.9811166524887085
         }
     },
     {
@@ -1035,26 +815,16 @@
             "reference_lenght": 6
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.05592679977417
-            ]
+            "scores": 1.056106448173523
         },
         "COMET": {
-            "scores": [
-                0.9000810980796814
-            ]
+            "scores": 0.9000808000564575
         }
     },
     {
@@ -1081,26 +851,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9777052998542786
-            ],
-            "recall": [
-                0.9777052998542786
-            ],
-            "f1": [
-                0.9777052998542786
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9777052402496338,
+            "recall": 0.9777052402496338,
+            "f1": 0.9777052402496338,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0166994333267212
-            ]
+            "scores": 1.0167251825332642
         },
         "COMET": {
-            "scores": [
-                0.7722519040107727
-            ]
+            "scores": 0.7722499966621399
         }
     },
     {
@@ -1127,26 +887,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.016761064529419
-            ]
+            "scores": 1.0168825387954712
         },
         "COMET": {
-            "scores": [
-                0.9782941937446594
-            ]
+            "scores": 0.9782940149307251
         }
     },
     {
@@ -1173,26 +923,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8042149543762207
-            ],
-            "recall": [
-                0.9012383222579956
-            ],
-            "f1": [
-                0.8499667644500732
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8042152523994446,
+            "recall": 0.9012386798858643,
+            "f1": 0.8499671816825867,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                -0.9834326505661011
-            ]
+            "scores": -0.9835358262062073
         },
         "COMET": {
-            "scores": [
-                0.6668803095817566
-            ]
+            "scores": 0.6668792366981506
         }
     },
     {
@@ -1219,26 +959,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9999997615814209
-            ],
-            "recall": [
-                0.9999997615814209
-            ],
-            "f1": [
-                0.9999997615814209
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999999403953552,
+            "recall": 0.9999999403953552,
+            "f1": 0.9999999403953552,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0135204792022705
-            ]
+            "scores": 1.0136038064956665
         },
         "COMET": {
-            "scores": [
-                0.9825300574302673
-            ]
+            "scores": 0.9825299382209778
         }
     },
     {
@@ -1265,26 +995,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0342278480529785
-            ]
+            "scores": 1.0342289209365845
         },
         "COMET": {
-            "scores": [
-                0.9742935299873352
-            ]
+            "scores": 0.9742934703826904
         }
     },
     {
@@ -1311,26 +1031,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.012956976890564
-            ]
+            "scores": 1.0130687952041626
         },
         "COMET": {
-            "scores": [
-                0.9852346777915955
-            ]
+            "scores": 0.9852346777915955
         }
     },
     {
@@ -1357,26 +1067,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0284600257873535
-            ]
+            "scores": 1.0284634828567505
         },
         "COMET": {
-            "scores": [
-                0.9826969504356384
-            ]
+            "scores": 0.9826968312263489
         }
     },
     {
@@ -1403,26 +1103,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0136955976486206
-            ]
+            "scores": 1.0138458013534546
         },
         "COMET": {
-            "scores": [
-                0.9877099990844727
-            ]
+            "scores": 0.9877099990844727
         }
     },
     {
@@ -1449,26 +1139,16 @@
             "reference_lenght": 6
         },
         "BERTSCORE": {
-            "precision": [
-                0.9999997615814209
-            ],
-            "recall": [
-                0.9999997615814209
-            ],
-            "f1": [
-                0.9999997615814209
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0000001192092896,
+            "recall": 1.0000001192092896,
+            "f1": 1.0000001192092896,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0789026021957397
-            ]
+            "scores": 1.0790265798568726
         },
         "COMET": {
-            "scores": [
-                0.9662312865257263
-            ]
+            "scores": 0.9662312865257263
         }
     },
     {
@@ -1495,26 +1175,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8239003419876099
-            ],
-            "recall": [
-                0.885612428188324
-            ],
-            "f1": [
-                0.8536425828933716
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8239004015922546,
+            "recall": 0.8856123685836792,
+            "f1": 0.8536425828933716,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.6342695355415344
-            ]
+            "scores": 0.6342226266860962
         },
         "COMET": {
-            "scores": [
-                0.9334823489189148
-            ]
+            "scores": 0.9334819912910461
         }
     },
     {
@@ -1541,26 +1211,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9999997615814209
-            ],
-            "recall": [
-                0.9999997615814209
-            ],
-            "f1": [
-                0.9999997615814209
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0352187156677246
-            ]
+            "scores": 1.0352582931518555
         },
         "COMET": {
-            "scores": [
-                0.9777045845985413
-            ]
+            "scores": 0.9777042865753174
         }
     },
     {
@@ -1587,26 +1247,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.024961233139038
-            ]
+            "scores": 1.0249794721603394
         },
         "COMET": {
-            "scores": [
-                0.9755905270576477
-            ]
+            "scores": 0.9755904078483582
         }
     },
     {
@@ -1633,26 +1283,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8974592089653015
-            ],
-            "recall": [
-                0.9579718112945557
-            ],
-            "f1": [
-                0.9267287254333496
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8974592685699463,
+            "recall": 0.9579717516899109,
+            "f1": 0.9267287254333496,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0179402828216553
-            ]
+            "scores": 1.0178991556167603
         },
         "COMET": {
-            "scores": [
-                0.9524535536766052
-            ]
+            "scores": 0.9524534344673157
         }
     },
     {
@@ -1679,26 +1319,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999999403953552,
+            "recall": 0.9999999403953552,
+            "f1": 0.9999999403953552,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0289068222045898
-            ]
+            "scores": 1.0289517641067505
         },
         "COMET": {
-            "scores": [
-                0.9884732365608215
-            ]
+            "scores": 0.9884732365608215
         }
     },
     {
@@ -1725,26 +1355,16 @@
             "reference_lenght": 5
         },
         "BERTSCORE": {
-            "precision": [
-                0.936637282371521
-            ],
-            "recall": [
-                0.9547736644744873
-            ],
-            "f1": [
-                0.9456185102462769
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.936637282371521,
+            "recall": 0.9547736048698425,
+            "f1": 0.9456185102462769,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.8972542881965637
-            ]
+            "scores": 0.8973548412322998
         },
         "COMET": {
-            "scores": [
-                0.8691258430480957
-            ]
+            "scores": 0.8691260814666748
         }
     },
     {
@@ -1771,26 +1391,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.027557134628296
-            ]
+            "scores": 1.0275732278823853
         },
         "COMET": {
-            "scores": [
-                0.982645571231842
-            ]
+            "scores": 0.982645571231842
         }
     },
     {
@@ -1817,26 +1427,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0384989976882935
-            ]
+            "scores": 1.0386278629302979
         },
         "COMET": {
-            "scores": [
-                0.9813621044158936
-            ]
+            "scores": 0.9813618659973145
         }
     },
     {
@@ -1863,26 +1463,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9052119255065918
-            ],
-            "recall": [
-                0.9658809900283813
-            ],
-            "f1": [
-                0.9345629215240479
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.905211865901947,
+            "recall": 0.9658808708190918,
+            "f1": 0.9345627427101135,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.9994896650314331
-            ]
+            "scores": 0.9996105432510376
         },
         "COMET": {
-            "scores": [
-                0.9243923425674438
-            ]
+            "scores": 0.9243922829627991
         }
     },
     {
@@ -1909,26 +1499,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9451293349266052
-            ],
-            "recall": [
-                0.9183347225189209
-            ],
-            "f1": [
-                0.9315393567085266
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9451295137405396,
+            "recall": 0.9183349609375,
+            "f1": 0.9315395951271057,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.08451486378908157
-            ]
+            "scores": 0.08521275222301483
         },
         "COMET": {
-            "scores": [
-                0.9277171492576599
-            ]
+            "scores": 0.9277167916297913
         }
     },
     {
@@ -1955,26 +1535,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.7244638800621033
-            ],
-            "recall": [
-                0.8719797134399414
-            ],
-            "f1": [
-                0.7914063334465027
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.724463939666748,
+            "recall": 0.8719797134399414,
+            "f1": 0.7914063930511475,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                -0.9498991370201111
-            ]
+            "scores": -0.9502566456794739
         },
         "COMET": {
-            "scores": [
-                0.7053852677345276
-            ]
+            "scores": 0.7053844332695007
         }
     },
     {
@@ -2001,26 +1571,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.781907856464386
-            ],
-            "recall": [
-                0.8214501142501831
-            ],
-            "f1": [
-                0.8011913299560547
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.781907856464386,
+            "recall": 0.8214502334594727,
+            "f1": 0.801191508769989,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                -1.2218152284622192
-            ]
+            "scores": -1.2219516038894653
         },
         "COMET": {
-            "scores": [
-                0.7103247046470642
-            ]
+            "scores": 0.710324227809906
         }
     },
     {
@@ -2047,26 +1607,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0000001192092896,
+            "recall": 1.0000001192092896,
+            "f1": 1.0000001192092896,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0448914766311646
-            ]
+            "scores": 1.0449596643447876
         },
         "COMET": {
-            "scores": [
-                0.9786912798881531
-            ]
+            "scores": 0.9786911606788635
         }
     },
     {
@@ -2093,26 +1643,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.941550612449646
-            ],
-            "recall": [
-                0.9675469994544983
-            ],
-            "f1": [
-                0.9543717503547668
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9415505528450012,
+            "recall": 0.9675470590591431,
+            "f1": 0.9543717503547668,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0127891302108765
-            ]
+            "scores": 1.0128005743026733
         },
         "COMET": {
-            "scores": [
-                0.8793434500694275
-            ]
+            "scores": 0.8793429732322693
         }
     },
     {
@@ -2139,26 +1679,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999998807907104,
+            "recall": 0.9999998807907104,
+            "f1": 0.9999998807907104,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0346564054489136
-            ]
+            "scores": 1.0346851348876953
         },
         "COMET": {
-            "scores": [
-                0.9719756245613098
-            ]
+            "scores": 0.9719756841659546
         }
     },
     {
@@ -2185,26 +1715,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999999403953552,
+            "recall": 0.9999999403953552,
+            "f1": 0.9999999403953552,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0239841938018799
-            ]
+            "scores": 1.0240920782089233
         },
         "COMET": {
-            "scores": [
-                0.9848396182060242
-            ]
+            "scores": 0.9848395586013794
         }
     },
     {
@@ -2231,26 +1751,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999998807907104,
+            "recall": 0.9999998807907104,
+            "f1": 0.9999998807907104,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.060206651687622
-            ]
+            "scores": 1.0603305101394653
         },
         "COMET": {
-            "scores": [
-                0.9611815810203552
-            ]
+            "scores": 0.9611812829971313
         }
     },
     {
@@ -2277,26 +1787,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9436612725257874
-            ],
-            "recall": [
-                0.9436612725257874
-            ],
-            "f1": [
-                0.9436612725257874
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9436613917350769,
+            "recall": 0.9436613917350769,
+            "f1": 0.9436613917350769,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.45613759756088257
-            ]
+            "scores": 0.4561716914176941
         },
         "COMET": {
-            "scores": [
-                0.9379802346229553
-            ]
+            "scores": 0.9379799962043762
         }
     },
     {
@@ -2323,26 +1823,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9748905897140503
-            ],
-            "recall": [
-                0.9748905897140503
-            ],
-            "f1": [
-                0.9748905897140503
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9748903512954712,
+            "recall": 0.9748903512954712,
+            "f1": 0.9748903512954712,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.897390604019165
-            ]
+            "scores": 0.8975411653518677
         },
         "COMET": {
-            "scores": [
-                0.9730260372161865
-            ]
+            "scores": 0.9730257391929626
         }
     },
     {
@@ -2369,26 +1859,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9722703099250793
-            ],
-            "recall": [
-                0.9338251948356628
-            ],
-            "f1": [
-                0.9526600241661072
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9722703099250793,
+            "recall": 0.9338251352310181,
+            "f1": 0.9526599645614624,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.7556467056274414
-            ]
+            "scores": 0.7559751272201538
         },
         "COMET": {
-            "scores": [
-                0.934859573841095
-            ]
+            "scores": 0.9348593950271606
         }
     },
     {
@@ -2415,26 +1895,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0463002920150757
-            ]
+            "scores": 1.04633367061615
         },
         "COMET": {
-            "scores": [
-                0.9836010336875916
-            ]
+            "scores": 0.983600914478302
         }
     },
     {
@@ -2461,26 +1931,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8541305065155029
-            ],
-            "recall": [
-                0.9683345556259155
-            ],
-            "f1": [
-                0.9076542258262634
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8541304469108582,
+            "recall": 0.9683343172073364,
+            "f1": 0.9076541662216187,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.8969812989234924
-            ]
+            "scores": 0.8969759941101074
         },
         "COMET": {
-            "scores": [
-                0.8621415495872498
-            ]
+            "scores": 0.8621408343315125
         }
     },
     {
@@ -2507,26 +1967,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9211153984069824
-            ],
-            "recall": [
-                0.9211153984069824
-            ],
-            "f1": [
-                0.9211153984069824
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.921115517616272,
+            "recall": 0.921115517616272,
+            "f1": 0.921115517616272,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.6275606751441956
-            ]
+            "scores": 0.6278116703033447
         },
         "COMET": {
-            "scores": [
-                0.9352527260780334
-            ]
+            "scores": 0.9352520704269409
         }
     },
     {
@@ -2553,26 +2003,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0257025957107544
-            ]
+            "scores": 1.0257409811019897
         },
         "COMET": {
-            "scores": [
-                0.9906139969825745
-            ]
+            "scores": 0.9906138181686401
         }
     },
     {
@@ -2599,26 +2039,16 @@
             "reference_lenght": 6
         },
         "BERTSCORE": {
-            "precision": [
-                0.8767023086547852
-            ],
-            "recall": [
-                0.8767023086547852
-            ],
-            "f1": [
-                0.8767023086547852
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8767025470733643,
+            "recall": 0.8767025470733643,
+            "f1": 0.8767025470733643,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                -0.942322850227356
-            ]
+            "scores": -0.9420276880264282
         },
         "COMET": {
-            "scores": [
-                0.5698341131210327
-            ]
+            "scores": 0.5698339939117432
         }
     },
     {
@@ -2645,26 +2075,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9437888860702515
-            ],
-            "recall": [
-                0.9816064834594727
-            ],
-            "f1": [
-                0.9623262882232666
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9437890648841858,
+            "recall": 0.9816065430641174,
+            "f1": 0.9623264074325562,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0383607149124146
-            ]
+            "scores": 1.0384918451309204
         },
         "COMET": {
-            "scores": [
-                0.9418166279792786
-            ]
+            "scores": 0.9418166875839233
         }
     },
     {
@@ -2691,26 +2111,16 @@
             "reference_lenght": 6
         },
         "BERTSCORE": {
-            "precision": [
-                1.0
-            ],
-            "recall": [
-                1.0
-            ],
-            "f1": [
-                1.0
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0585930347442627
-            ]
+            "scores": 1.0586634874343872
         },
         "COMET": {
-            "scores": [
-                0.9534501433372498
-            ]
+            "scores": 0.9534502625465393
         }
     },
     {
@@ -2737,26 +2147,16 @@
             "reference_lenght": 7
         },
         "BERTSCORE": {
-            "precision": [
-                0.9863879680633545
-            ],
-            "recall": [
-                0.9863879680633545
-            ],
-            "f1": [
-                0.9863879680633545
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9863879680633545,
+            "recall": 0.9863879680633545,
+            "f1": 0.9863879680633545,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.016399621963501
-            ]
+            "scores": 1.0165969133377075
         },
         "COMET": {
-            "scores": [
-                0.9301013946533203
-            ]
+            "scores": 0.930101215839386
         }
     },
     {
@@ -2783,26 +2183,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9146580696105957
-            ],
-            "recall": [
-                0.9747568368911743
-            ],
-            "f1": [
-                0.9437516331672668
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9146578907966614,
+            "recall": 0.9747568368911743,
+            "f1": 0.9437515139579773,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.9732247591018677
-            ]
+            "scores": 0.973369836807251
         },
         "COMET": {
-            "scores": [
-                0.881899356842041
-            ]
+            "scores": 0.8818990588188171
         }
     },
     {
@@ -2829,26 +2219,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8101232051849365
-            ],
-            "recall": [
-                0.8751107454299927
-            ],
-            "f1": [
-                0.8413639664649963
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8101233243942261,
+            "recall": 0.8751108050346375,
+            "f1": 0.8413640260696411,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.36148175597190857
-            ]
+            "scores": 0.36167705059051514
         },
         "COMET": {
-            "scores": [
-                0.9257222414016724
-            ]
+            "scores": 0.9257222414016724
         }
     },
     {
@@ -2875,26 +2255,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9066781997680664
-            ],
-            "recall": [
-                0.9736815094947815
-            ],
-            "f1": [
-                0.93898606300354
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9066783785820007,
+            "recall": 0.9736815690994263,
+            "f1": 0.9389862418174744,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.9743987321853638
-            ]
+            "scores": 0.9744324088096619
         },
         "COMET": {
-            "scores": [
-                0.9693747162818909
-            ]
+            "scores": 0.9693745970726013
         }
     },
     {
@@ -2921,26 +2291,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.7983756065368652
-            ],
-            "recall": [
-                0.9340035319328308
-            ],
-            "f1": [
-                0.8608803749084473
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.7983757257461548,
+            "recall": 0.934003472328186,
+            "f1": 0.860880434513092,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                -0.27113038301467896
-            ]
+            "scores": -0.271488755941391
         },
         "COMET": {
-            "scores": [
-                0.6798830628395081
-            ]
+            "scores": 0.6798825263977051
         }
     },
     {
@@ -2967,26 +2327,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9999999403953552
-            ],
-            "recall": [
-                0.9999999403953552
-            ],
-            "f1": [
-                0.9999999403953552
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0090082883834839
-            ]
+            "scores": 1.0090162754058838
         },
         "COMET": {
-            "scores": [
-                0.9759830236434937
-            ]
+            "scores": 0.9759829044342041
         }
     },
     {
@@ -3013,26 +2363,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9616317749023438
-            ],
-            "recall": [
-                0.9296876788139343
-            ],
-            "f1": [
-                0.9453899264335632
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9616317749023438,
+            "recall": 0.9296877384185791,
+            "f1": 0.945389986038208,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.7526683807373047
-            ]
+            "scores": 0.752670168876648
         },
         "COMET": {
-            "scores": [
-                0.8731351494789124
-            ]
+            "scores": 0.8731351494789124
         }
     },
     {
@@ -3059,26 +2399,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.9999998807907104
-            ],
-            "recall": [
-                0.9999998807907104
-            ],
-            "f1": [
-                0.9999998807907104
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0047656297683716
-            ]
+            "scores": 1.0049022436141968
         },
         "COMET": {
-            "scores": [
-                0.9799860119819641
-            ]
+            "scores": 0.979985773563385
         }
     },
     {
@@ -3105,26 +2435,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999998807907104,
+            "recall": 0.9999998807907104,
+            "f1": 0.9999998807907104,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0255364179611206
-            ]
+            "scores": 1.0256255865097046
         },
         "COMET": {
-            "scores": [
-                0.9818476438522339
-            ]
+            "scores": 0.9818475842475891
         }
     },
     {
@@ -3151,26 +2471,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                0.8675398826599121
-            ],
-            "recall": [
-                0.9634289741516113
-            ],
-            "f1": [
-                0.9129735231399536
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.8675398826599121,
+            "recall": 0.9634288549423218,
+            "f1": 0.9129734635353088,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                0.7048658728599548
-            ]
+            "scores": 0.7047531008720398
         },
         "COMET": {
-            "scores": [
-                0.8551674485206604
-            ]
+            "scores": 0.8551663756370544
         }
     },
     {
@@ -3197,26 +2507,16 @@
             "reference_lenght": 4
         },
         "BERTSCORE": {
-            "precision": [
-                1.0000001192092896
-            ],
-            "recall": [
-                1.0000001192092896
-            ],
-            "f1": [
-                1.0000001192092896
-            ],
-            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.50.3)"
+            "precision": 0.9999999403953552,
+            "recall": 0.9999999403953552,
+            "f1": 0.9999999403953552,
+            "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.48.2)"
         },
         "BLEURT": {
-            "scores": [
-                1.0113027095794678
-            ]
+            "scores": 1.011405110359192
         },
         "COMET": {
-            "scores": [
-                0.9826620221138
-            ]
+            "scores": 0.9826619625091553
         }
     }
 ]

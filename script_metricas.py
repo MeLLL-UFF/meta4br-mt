@@ -17,10 +17,9 @@ gc.collect()
 rouge = evaluate.load('rouge')
 bleu = evaluate.load("bleu")
 bertscore = evaluate.load("bertscore")
-bleurt = evaluate.load('bleurt', 'bleurt-large-512', device='cpu')
-comet = evaluate.load('comet', device='cpu')
+bleurt = evaluate.load('bleurt', 'bleurt-large-512')
 
-with open('gemini/frases_traduzidas.json', 'r', encoding='utf-8') as file:
+with open('qwen/frases_traduzidas.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 vetor = []
@@ -34,12 +33,12 @@ for objeto in dados:
     result_bleu = bleu.compute(predictions=[prediction], references=[reference])
     result_bertscore = bertscore.compute(predictions=[prediction], references=[reference], model_type="distilbert-base-uncased")
     result_bleurt = bleurt.compute(predictions=[prediction], references=[reference])
-    result_comet = comet.compute(predictions=[prediction], references=[reference], sources=[source])
+
 
     result = {
-        "ingles_original": objeto["ingles_original"],
-        "portugues_traduzido": objeto["portugues_traduzido"],
-        "ingles_traduzido": objeto["ingles_traduzido"],
+        "ingles_original": reference,
+        "portugues_traduzido": source,
+        "ingles_traduzido": prediction,
         "ROUGE": {
             "rouge1" : result_rouge["rouge1"],
             "rouge2" : result_rouge["rouge2"],
@@ -54,23 +53,19 @@ for objeto in dados:
             "translation_lenght" : result_bleu["translation_length"],
             "reference_lenght" : result_bleu["reference_length"]
         },
-        "BERTSCORE": {
-            "precision" : result_bertscore["precision"],
-            "recall" : result_bertscore["recall"],
-            "f1" : result_bertscore["f1"],
-            "hashcode" : result_bertscore["hashcode"]
-        },
-        "BLEURT": {
-            "scores" : result_bleurt["scores"],
-
-        },
-        "COMET": {
-            "scores" : result_comet["scores"],
-        }
+       "BERTSCORE": {
+           "precision" : result_bertscore["precision"][0],
+           "recall" : result_bertscore["recall"][0],
+           "f1" : result_bertscore["f1"][0],
+           "hashcode" : result_bertscore["hashcode"]
+       },
+       "BLEURT": {
+           "scores" : result_bleurt["scores"][0],
+       }
     }
 
     vetor.append(result)
 
-    with open('gemini/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
+    with open('qwen/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
         json.dump(vetor, file, ensure_ascii=False, indent=4)
 

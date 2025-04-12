@@ -1,11 +1,13 @@
 from huggingface_hub import login
 import argparse
+import transformers
 import pandas as pd
 import torch
 import json
 import gc
 import os
-import transformers
+
+# Arquivo pra rodar o modelo da meta e o marian
 
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
