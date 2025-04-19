@@ -14,7 +14,7 @@ anotacoes = []
 with open('dataset_manualdata/gemini/ENtoPT.json', 'r', encoding='utf-8') as f:
     vetor = json.load(f)
 
-for objeto in vetor:
+for objeto in vetor[420:]:
 
     prompt = f"Traduzir a frase '{objeto['traducaoPT']}' do português para o inglês. Apenas escreva a frase traduzida, nada além disso"
 
@@ -30,7 +30,7 @@ for objeto in vetor:
     anotacoes.append(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('dataset_manualdata/gemini/PTtoEN.json', 'w', encoding='utf-8') as f:
+    with open('dataset_manualdata/gemini/PTtoEN1.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
     time.sleep(delay)
