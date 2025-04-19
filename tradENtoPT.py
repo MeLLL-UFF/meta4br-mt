@@ -42,16 +42,15 @@ def main(model_id, hf_token, output_path):
 
         prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
 
-        message = frase
         
         outputs = pipeline(
-            message,
+            frase,
             max_new_tokens=2000,
             do_sample=True,
             temperature=1,
             top_p=0.95,
-            src_lang="eng_Latn",
-            tgt_lang="por_Latn"
+            # src_lang="eng_Latn",
+            # tgt_lang="por_Latn"
         )
 
         generated_texts = outputs[0]['translation_text']
