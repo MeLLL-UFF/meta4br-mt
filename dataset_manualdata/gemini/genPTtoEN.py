@@ -11,7 +11,7 @@ client = genai.Client(api_key="AIzaSyAX8TX9GS9o7842SWgBPqG8tkQa6OOZjVM")
 delay = 15
 anotacoes = []
 
-with open('gemini/ENtoPT.json', 'r', encoding='utf-8') as f:
+with open('dataset_manualdata/gemini/ENtoPT.json', 'r', encoding='utf-8') as f:
     vetor = json.load(f)
 
 for objeto in vetor:
@@ -30,7 +30,7 @@ for objeto in vetor:
     anotacoes.append(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('gemini/PTtoEN.json', 'w', encoding='utf-8') as f:
+    with open('dataset_manualdata/gemini/PTtoEN.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
     time.sleep(delay)
