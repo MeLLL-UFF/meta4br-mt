@@ -11,24 +11,14 @@ import re
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
 
-    df = pd.read_parquet("comparacao_datasets/common1.parquet", engine='pyarrow') 
+    df = pd.read_parquet("comparacao_datasets/manual_data.parquet", engine='pyarrow') 
 
     device = f'cuda' if torch.cuda.is_available() else 'cpu'
     
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 
-    # pipeline = transformers.pipeline(
-    #     task="text-generation",
-    #     trust_remote_code=True,
-    #     model=model_id,
-    #     tokenizer=tokenizer,
-    #     model_kwargs={"torch_dtype": torch.bfloat16},
-    #     device=device,
-    # )
-
-    # Pro mirian precisa mudar a task, mas não achei válido criar um novo arquivo só por isso
     pipeline = transformers.pipeline(
-        task="translation_EN_to_PT",
+        task="text-generation",
         trust_remote_code=True,
         model=model_id,
         tokenizer=tokenizer,
@@ -36,7 +26,6 @@ def main(model_id, hf_token, output_path):
         device=device,
     )
     
-
     torch.cuda.empty_cache()
     torch.cuda.synchronize()
 
@@ -46,16 +35,13 @@ def main(model_id, hf_token, output_path):
         
     anotacoes = []
     
-    for frase in df['text']:
+    for frase in df['Sentence']:
 
         prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
 
-        # messages = [
-        #     {"role": "user", "content": prompt}
-        # ]
-
-        # O mirian só espera a frase que precisa traduzir
-        messages = frase
+        messages = [
+            {"role": "user", "content": prompt}
+        ]
         
         outputs = pipeline(
             messages,
@@ -65,10 +51,8 @@ def main(model_id, hf_token, output_path):
             top_p=0.95,
         )
 
-        # generated_texts = outputs[0]["generated_text"][1]['content']
-        # Só pro Mirian
-        generated_texts = outputs[0]['translation_text']
-
+        generated_texts = outputs[0]["generated_text"][1]['content']
+  
         result = {
             "fraseEN" : frase,        
             "traducaoPT": generated_texts

@@ -12,7 +12,7 @@ import os
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
 
-    df = pd.read_parquet("comparacao_datasets/common1.parquet", engine='pyarrow') 
+    df = pd.read_parquet("comparacao_datasets/manual_data.parquet", engine='pyarrow') 
 
     device = f'cuda' if torch.cuda.is_available() else 'cpu'
     
@@ -26,6 +26,8 @@ def main(model_id, hf_token, output_path):
         tokenizer=tokenizer,
         model_kwargs={"torch_dtype": torch.bfloat16},
         device=device,
+        src_lang="eng_Latn",
+        tgt_lang="por_Latn"
     )
     
 
@@ -38,7 +40,7 @@ def main(model_id, hf_token, output_path):
         
     anotacoes = []
     
-    for frase in df['text']:
+    for frase in df['Sentence']:
 
         prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
 
@@ -50,8 +52,6 @@ def main(model_id, hf_token, output_path):
             do_sample=True,
             temperature=1,
             top_p=0.95,
-            # src_lang="eng_Latn",
-            # tgt_lang="por_Latn"
         )
 
         generated_texts = outputs[0]['translation_text']

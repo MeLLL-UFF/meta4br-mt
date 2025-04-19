@@ -1,0 +1,3592 @@
+[
+    {
+        "ingles_original": "crack the whip",
+        "portugues_traduzido": "Bater no chicote.",
+        "ingles_traduzido": "Whipping the lash."
+    },
+    {
+        "ingles_original": "blow off steam",
+        "portugues_traduzido": "Desafogar a pressão.",
+        "ingles_traduzido": "Ease the pressure."
+    },
+    {
+        "ingles_original": "let the cat out of the bag",
+        "portugues_traduzido": "Mandar o gato para fora da saca.",
+        "ingles_traduzido": "Send the cat out of the bag."
+    },
+    {
+        "ingles_original": "They are riding bicycles in the neighborhood.",
+        "portugues_traduzido": "Eles estão cavalgando bicicletas pelo bairro.",
+        "ingles_traduzido": "They are riding bikes through the neighborhood."
+    },
+    {
+        "ingles_original": "He likes to watch movies in his free time.",
+        "portugues_traduzido": "Ele gosta de assistir filmes no seu tempo livre.",
+        "ingles_traduzido": "He likes to watch movies in his free time."
+    },
+    {
+        "ingles_original": "She enjoys painting in her free time.",
+        "portugues_traduzido": "Ela gosta de pintar no seu tempo livre.",
+        "ingles_traduzido": "She likes to paint in her free time."
+    },
+    {
+        "ingles_original": "bite off more than you can chew",
+        "portugues_traduzido": "Comer mais do que pode mastigar.",
+        "ingles_traduzido": "Eating more than it can chew."
+    },
+    {
+        "ingles_original": "my hands are tied",
+        "portugues_traduzido": "Minhas mãos estão amarradas.",
+        "ingles_traduzido": "My hands are tied."
+    },
+    {
+        "ingles_original": "dime a dozen",
+        "portugues_traduzido": "Um segredo de ninguém.",
+        "ingles_traduzido": "A secret that's no secret."
+    },
+    {
+        "ingles_original": "They are having a picnic in the park.",
+        "portugues_traduzido": "Eles estão fazendo um piquenique no parque.",
+        "ingles_traduzido": "They are having a picnic in the park."
+    },
+    {
+        "ingles_original": "leave no stone unturned",
+        "portugues_traduzido": "Deixar uma pedra sem virar.",
+        "ingles_traduzido": "Leaving a stone unturned."
+    },
+    {
+        "ingles_original": "hold the fort",
+        "portugues_traduzido": "Segurar a posição",
+        "ingles_traduzido": "Holding the position"
+    },
+    {
+        "ingles_original": "He is putting the groceries away.",
+        "portugues_traduzido": "Ele está colocando as compras fora.",
+        "ingles_traduzido": "He's putting the groceries away."
+    },
+    {
+        "ingles_original": "fit as a fiddle",
+        "portugues_traduzido": "Pronto como um violino.",
+        "ingles_traduzido": "Ready as a violin."
+    },
+    {
+        "ingles_original": "an iron fist",
+        "portugues_traduzido": "Um punho de ferro",
+        "ingles_traduzido": "A steel fist."
+    },
+    {
+        "ingles_original": "beggars can’t be choosers",
+        "portugues_traduzido": "Os mendigos não podem escolher.",
+        "ingles_traduzido": "The beggars can't choose."
+    },
+    {
+        "ingles_original": "card up your sleeve",
+        "portugues_traduzido": "Um truque guardado na manga.",
+        "ingles_traduzido": "A trick up one's sleeve."
+    },
+    {
+        "ingles_original": "beating around the bush",
+        "portugues_traduzido": "Perder tempo ou dar rodeios para chegar a um assunto.",
+        "ingles_traduzido": "Waste time beating around the bush."
+    },
+    {
+        "ingles_original": "She is giving a speech at the conference.",
+        "portugues_traduzido": "Ela está dando um discurso na conferência.",
+        "ingles_traduzido": "She is giving a speech at the conference."
+    },
+    {
+        "ingles_original": "She wrote a report for work.",
+        "portugues_traduzido": "Ela escreveu um relatório para o trabalho.",
+        "ingles_traduzido": "She wrote a report for work."
+    },
+    {
+        "ingles_original": "ace up your sleeve",
+        "portugues_traduzido": "Manobra nos bastidores.",
+        "ingles_traduzido": "Backroom deal."
+    },
+    {
+        "ingles_original": "an open book",
+        "portugues_traduzido": "Um livro aberto.",
+        "ingles_traduzido": "An open book."
+    },
+    {
+        "ingles_original": "She is giving a presentation at work.",
+        "portugues_traduzido": "Ela está dando uma apresentação no trabalho.",
+        "ingles_traduzido": "She is giving a presentation at work."
+    },
+    {
+        "ingles_original": "He went to a birthday party last night.",
+        "portugues_traduzido": "Ele foi a uma festa de aniversário ontem à noite.",
+        "ingles_traduzido": "He went to a birthday party last night."
+    },
+    {
+        "ingles_original": "color outside the lines",
+        "portugues_traduzido": "Pintar além das linhas.",
+        "ingles_traduzido": "Paint beyond the lines."
+    },
+    {
+        "ingles_original": "easy as pie",
+        "portugues_traduzido": "Fácil como uma ementa de pastel.",
+        "ingles_traduzido": "As easy as a pastel menu."
+    },
+    {
+        "ingles_original": "blind as a bat",
+        "portugues_traduzido": "cego como um morcego",
+        "ingles_traduzido": "Blind as a bat."
+    },
+    {
+        "ingles_original": "change of heart",
+        "portugues_traduzido": "Mudança de coração",
+        "ingles_traduzido": "Change of heart."
+    },
+    {
+        "ingles_original": "food for thought",
+        "portugues_traduzido": "\"Alimento para a mente\"",
+        "ingles_traduzido": "\"Nourishment for the mind\""
+    },
+    {
+        "ingles_original": "black as night",
+        "portugues_traduzido": "Pretos como a noite.",
+        "ingles_traduzido": "As black as the night."
+    },
+    {
+        "ingles_original": "a chip on your shoulder",
+        "portugues_traduzido": "Um ciúme de raiz.",
+        "ingles_traduzido": "A root of jealousy."
+    },
+    {
+        "ingles_original": "close to my heart",
+        "portugues_traduzido": "Perto do meu coração.",
+        "ingles_traduzido": "Near my heart."
+    },
+    {
+        "ingles_original": "apple of my eye",
+        "portugues_traduzido": "O fruto dos meus olhos",
+        "ingles_traduzido": "The Fruit of My Eyes"
+    },
+    {
+        "ingles_original": "get the show on the road",
+        "portugues_traduzido": "Pôr as cartas na mesa, em movimento.",
+        "ingles_traduzido": "To put all one's cards on the table, in motion."
+    },
+    {
+        "ingles_original": "easy as pie",
+        "portugues_traduzido": "\"Fácil como bolo\"",
+        "ingles_traduzido": "\"As easy as pie\""
+    },
+    {
+        "ingles_original": "back to square one",
+        "portugues_traduzido": "De volta à square one.",
+        "ingles_traduzido": "Back to square one."
+    },
+    {
+        "ingles_original": "devil's advocate",
+        "portugues_traduzido": "Apoiador do diabo",
+        "ingles_traduzido": "Devil's Advocate"
+    },
+    {
+        "ingles_original": "She went to the library to study.",
+        "portugues_traduzido": "Ela foi à biblioteca para estudar.",
+        "ingles_traduzido": "She went to the library to study."
+    },
+    {
+        "ingles_original": "fit as a fiddle",
+        "portugues_traduzido": "à vontade",
+        "ingles_traduzido": "At your leisure."
+    },
+    {
+        "ingles_original": "They went to the theater to watch a play.",
+        "portugues_traduzido": "Eles foram ao teatro assistir a uma peça.",
+        "ingles_traduzido": "They went to the theater to see a play."
+    },
+    {
+        "ingles_original": "falling through the cracks",
+        "portugues_traduzido": "caindo por entre os furos",
+        "ingles_traduzido": "Slipping through the holes."
+    },
+    {
+        "ingles_original": "She made breakfast for the family.",
+        "portugues_traduzido": "Ela preparou o café da manhã para a família.",
+        "ingles_traduzido": "She prepared breakfast for the family."
+    },
+    {
+        "ingles_original": "She is talking on the phone.",
+        "portugues_traduzido": "Ela está falando no telefone.",
+        "ingles_traduzido": "She is talking on the phone."
+    },
+    {
+        "ingles_original": "all bark and no bite",
+        "portugues_traduzido": "Somente latido e sem mordida.",
+        "ingles_traduzido": "Just a beat and no bite."
+    },
+    {
+        "ingles_original": "apple of discord",
+        "portugues_traduzido": "Pomar da Discordância.",
+        "ingles_traduzido": "Discordance Orchard."
+    },
+    {
+        "ingles_original": "spill the beans",
+        "portugues_traduzido": "Desabafar.",
+        "ingles_traduzido": "Unburden."
+    },
+    {
+        "ingles_original": "burn your bridges",
+        "portugues_traduzido": "Queimar seus pontes.",
+        "ingles_traduzido": "Burn one's bridges."
+    },
+    {
+        "ingles_original": "I need to buy groceries this afternoon.",
+        "portugues_traduzido": "Preciso comprar legumes e verduras esta tarde.",
+        "ingles_traduzido": "I need to buy vegetables and fruits this afternoon."
+    },
+    {
+        "ingles_original": "as bold as brass",
+        "portugues_traduzido": "Tão ousado quanto um corneta.",
+        "ingles_traduzido": "As bold as a cornet."
+    },
+    {
+        "ingles_original": "close to the vest",
+        "portugues_traduzido": "Muito perto do peito.",
+        "ingles_traduzido": "Right next to the chest."
+    },
+    {
+        "ingles_original": "blood is thicker than water",
+        "portugues_traduzido": "Sangue é mais denso que água.",
+        "ingles_traduzido": "Blood is denser than water."
+    },
+    {
+        "ingles_original": "back to the drawing board",
+        "portugues_traduzido": "Volta à mesa de desenho.",
+        "ingles_traduzido": "Return to the drawing board."
+    },
+    {
+        "ingles_original": "She went to the post office to send a package.",
+        "portugues_traduzido": "Ela foi à agência de correios para enviar um pacote.",
+        "ingles_traduzido": "She went to the post office to send a package."
+    },
+    {
+        "ingles_original": "as right as rain",
+        "portugues_traduzido": "Tudo bem, tudo certo, sem problemas.",
+        "ingles_traduzido": "\"Don't worry, all right, no problem.\""
+    },
+    {
+        "ingles_original": "He is planning his day ahead.",
+        "portugues_traduzido": "Ele está planejando sua agenda para o dia.",
+        "ingles_traduzido": "He is planning his schedule for the day."
+    },
+    {
+        "ingles_original": "She took a shower in the morning.",
+        "portugues_traduzido": "Ela tomou um banho de manhã.",
+        "ingles_traduzido": "She took a morning bath."
+    },
+    {
+        "ingles_original": "best of both worlds",
+        "portugues_traduzido": "O melhor de ambos os mundos.",
+        "ingles_traduzido": "The best of both worlds."
+    },
+    {
+        "ingles_original": "antsy as a cat on a hot tin roof",
+        "portugues_traduzido": "Impaciente como um gato em um telhado de lata quente.",
+        "ingles_traduzido": "Impatient like a cat on a hot tin roof."
+    },
+    {
+        "ingles_original": "He is building a model airplane.",
+        "portugues_traduzido": "Ele está construindo um modelo de avião.",
+        "ingles_traduzido": "He is building an airplane model."
+    },
+    {
+        "ingles_original": "devil's advocate",
+        "portugues_traduzido": "Advogado do diabo",
+        "ingles_traduzido": "Solicitor General"
+    },
+    {
+        "ingles_original": "burst your bubble",
+        "portugues_traduzido": "Desabafe.",
+        "ingles_traduzido": "Unloads."
+    },
+    {
+        "ingles_original": "all eyes on you",
+        "portugues_traduzido": "Tudo nos seus olhos.",
+        "ingles_traduzido": "\"Everything in your eyes.\""
+    },
+    {
+        "ingles_original": "a skeleton in the closet",
+        "portugues_traduzido": "Um segredo guardado.",
+        "ingles_traduzido": "A secret kept."
+    },
+    {
+        "ingles_original": "He is attending a business meeting.",
+        "portugues_traduzido": "Ele está participando de uma reunião de negócios.",
+        "ingles_traduzido": "He is attending a business meeting."
+    },
+    {
+        "ingles_original": "cool as a cucumber",
+        "portugues_traduzido": "Tanque como pepino.",
+        "ingles_traduzido": "Like a cucumber in a tank."
+    },
+    {
+        "ingles_original": "He took the bus to work.",
+        "portugues_traduzido": "Ele pegou o ônibus para o trabalho.",
+        "ingles_traduzido": "He took the bus to work."
+    },
+    {
+        "ingles_original": "as easy as pie",
+        "portugues_traduzido": "Como se fosse uma tira de bolo",
+        "ingles_traduzido": "As easy as pie."
+    },
+    {
+        "ingles_original": "butterfly effect",
+        "portugues_traduzido": "Efeito mariposa",
+        "ingles_traduzido": "Butterfly effect"
+    },
+    {
+        "ingles_original": "They watched a TV show in the evening.",
+        "portugues_traduzido": "Eles assistiram a um programa de TV à noite.",
+        "ingles_traduzido": "They watched a TV program at night."
+    },
+    {
+        "ingles_original": "She is brushing her teeth before bed.",
+        "portugues_traduzido": "Ela está escovando os dentes antes de dormir.",
+        "ingles_traduzido": "She is brushing her teeth before going to sleep."
+    },
+    {
+        "ingles_original": "blown out of the water",
+        "portugues_traduzido": "Fechado para discussão.",
+        "ingles_traduzido": "Closed for discussion."
+    },
+    {
+        "ingles_original": "He is feeding his pet hamster.",
+        "portugues_traduzido": "Ele está alimentando seu hamster de estimação.",
+        "ingles_traduzido": "He is feeding his pet hamster."
+    },
+    {
+        "ingles_original": "I like to drink coffee in the morning.",
+        "portugues_traduzido": "Gosto de beber café pela manhã.",
+        "ingles_traduzido": "I like to drink coffee in the morning."
+    },
+    {
+        "ingles_original": "another day, another dollar",
+        "portugues_traduzido": "Outra dia, outro dólar.",
+        "ingles_traduzido": "Another day, another dollar."
+    },
+    {
+        "ingles_original": "actions speak louder than words",
+        "portugues_traduzido": "As ações falam mais alto que as palavras.",
+        "ingles_traduzido": "Actions speak louder than words."
+    },
+    {
+        "ingles_original": "climbing up the ladder",
+        "portugues_traduzido": "Subir degraus na carreira.",
+        "ingles_traduzido": "Climbing the corporate ladder."
+    },
+    {
+        "ingles_original": "early bird catches the worm",
+        "portugues_traduzido": "O pássaro madrugador pega a minhoca.",
+        "ingles_traduzido": "The early bird catches the worm."
+    },
+    {
+        "ingles_original": "She is baking cookies in the kitchen.",
+        "portugues_traduzido": "Ela está fazendo biscoitos na cozinha.",
+        "ingles_traduzido": "She is baking cookies in the kitchen."
+    },
+    {
+        "ingles_original": "bleeding heart",
+        "portugues_traduzido": "Coração sangrento",
+        "ingles_traduzido": "Bloody Heart"
+    },
+    {
+        "ingles_original": "She is cleaning the kitchen after dinner.",
+        "portugues_traduzido": "Ela está limpando a cozinha após o jantar.",
+        "ingles_traduzido": "She is cleaning the kitchen after dinner."
+    },
+    {
+        "ingles_original": "She is drinking water.",
+        "portugues_traduzido": "Ela está bebendo água.",
+        "ingles_traduzido": "She is drinking water."
+    },
+    {
+        "ingles_original": "They are having coffee at the café.",
+        "portugues_traduzido": "Eles estão tomando café no café.",
+        "ingles_traduzido": "They are having coffee at the coffee shop."
+    },
+    {
+        "ingles_original": "hard pill to swallow",
+        "portugues_traduzido": "Um golpe duro de dor de cabeça.",
+        "ingles_traduzido": "A severe headache hit."
+    },
+    {
+        "ingles_original": "a slap on the wrist",
+        "portugues_traduzido": "Uma bronca leve ou uma ameaça sem consequências.",
+        "ingles_traduzido": "A mild rebuke or a threat with no consequences."
+    },
+    {
+        "ingles_original": "They are visiting a museum this afternoon.",
+        "portugues_traduzido": "Eles estão visitando um museu à tarde.",
+        "ingles_traduzido": "They are visiting a museum in the afternoon."
+    },
+    {
+        "ingles_original": "They are swimming at the pool.",
+        "portugues_traduzido": "Eles estão nadando na piscina.",
+        "ingles_traduzido": "They are swimming in the pool."
+    },
+    {
+        "ingles_original": "cat on a hot tin roof",
+        "portugues_traduzido": "Gato em uma folha de lata quente",
+        "ingles_traduzido": "A cat in a hot tin can."
+    },
+    {
+        "ingles_original": "She is talking to her friend on the phone.",
+        "portugues_traduzido": "Ela está conversando com a amiga ao telefone.",
+        "ingles_traduzido": "She is talking to her friend on the phone."
+    },
+    {
+        "ingles_original": "He is walking his dog in the park.",
+        "portugues_traduzido": "Ele está fazendo uma caminhada com seu cão no parque.",
+        "ingles_traduzido": "He is taking a walk with his dog in the park."
+    },
+    {
+        "ingles_original": "add fuel to the fire",
+        "portugues_traduzido": "Adicionar fogo à fogueira.",
+        "ingles_traduzido": "Add fuel to the fire."
+    },
+    {
+        "ingles_original": "in hot water",
+        "portugues_traduzido": "Em água quente.",
+        "ingles_traduzido": "In warm water."
+    },
+    {
+        "ingles_original": "boiling point",
+        "portugues_traduzido": "Ponto de ebulição.",
+        "ingles_traduzido": "Boiling point."
+    },
+    {
+        "ingles_original": "beat a dead horse",
+        "portugues_traduzido": "Matar um cavalo morto.",
+        "ingles_traduzido": "\"Killing a dead horse.\""
+    },
+    {
+        "ingles_original": "blind alley",
+        "portugues_traduzido": "Beco sem saída",
+        "ingles_traduzido": "Dead-end alley"
+    },
+    {
+        "ingles_original": "cutting corners",
+        "portugues_traduzido": "Tomar atalhos",
+        "ingles_traduzido": "Take shortcuts."
+    },
+    {
+        "ingles_original": "actions speak louder than words",
+        "portugues_traduzido": "As ações falam mais alto que as palavras.",
+        "ingles_traduzido": "Actions speak louder than words."
+    },
+    {
+        "ingles_original": "chip on the shoulder",
+        "portugues_traduzido": "uma pedra no sapato.",
+        "ingles_traduzido": "A pebble in one's shoe."
+    },
+    {
+        "ingles_original": "He washed his car yesterday.",
+        "portugues_traduzido": "Ele lavou o seu carro ontem.",
+        "ingles_traduzido": "He washed his car yesterday."
+    },
+    {
+        "ingles_original": "cold as ice",
+        "portugues_traduzido": "Frio como gelo.",
+        "ingles_traduzido": "Cold as ice."
+    },
+    {
+        "ingles_original": "He is attending a wedding.",
+        "portugues_traduzido": "Ele está indo a um casamento.",
+        "ingles_traduzido": "He's going to a wedding."
+    },
+    {
+        "ingles_original": "He is making a cup of coffee.",
+        "portugues_traduzido": "Ele está preparando um copo de café.",
+        "ingles_traduzido": "He is making a cup of coffee."
+    },
+    {
+        "ingles_original": "chasing shadows",
+        "portugues_traduzido": "Perseguindo sombras",
+        "ingles_traduzido": "Pursuing Shadows."
+    },
+    {
+        "ingles_original": "feast your eyes",
+        "portugues_traduzido": "Deleitem-se com a visão.",
+        "ingles_traduzido": "Savor the view."
+    },
+    {
+        "ingles_original": "a diamond in the rough",
+        "portugues_traduzido": "Um diamante em bruto",
+        "ingles_traduzido": "An uncut diamond."
+    },
+    {
+        "ingles_original": "He is having breakfast with his family.",
+        "portugues_traduzido": "Ele está tomando café da manhã com a sua família.",
+        "ingles_traduzido": "He's having breakfast with his family."
+    },
+    {
+        "ingles_original": "blind as a bat",
+        "portugues_traduzido": "Cego como um morcego.",
+        "ingles_traduzido": "Blind as a bat."
+    },
+    {
+        "ingles_original": "light at the end of the tunnel",
+        "portugues_traduzido": "Um raio de luz no fim do túnel.",
+        "ingles_traduzido": "A light at the end of the tunnel."
+    },
+    {
+        "ingles_original": "as old as the hills",
+        "portugues_traduzido": "velho como as colinas",
+        "ingles_traduzido": "Older than the hills."
+    },
+    {
+        "ingles_original": "break the ice",
+        "portugues_traduzido": "Romper o gelo",
+        "ingles_traduzido": "Break the ice."
+    },
+    {
+        "ingles_original": "He went for a jog in the morning.",
+        "portugues_traduzido": "Ele foi correr pela manhã.",
+        "ingles_traduzido": "He went for a run in the morning."
+    },
+    {
+        "ingles_original": "finding your feet",
+        "portugues_traduzido": "Encontrar o seu lugar",
+        "ingles_traduzido": "\"Finding your place\""
+    },
+    {
+        "ingles_original": "give someone a run for their money",
+        "portugues_traduzido": "dar a alguém uma corrida para o seu dinheiro",
+        "ingles_traduzido": "Give someone a run for their money."
+    },
+    {
+        "ingles_original": "have a bone to pick",
+        "portugues_traduzido": "Ter um ponto a discutir",
+        "ingles_traduzido": "Have a point to discuss."
+    },
+    {
+        "ingles_original": "barking up the wrong tree",
+        "portugues_traduzido": "Percutir na árvore errada",
+        "ingles_traduzido": "\"Whack the wrong tree.\""
+    },
+    {
+        "ingles_original": "He enjoyed a cup of coffee in the morning.",
+        "portugues_traduzido": "Ele desfrutava de uma xícara de café pela manhã.",
+        "ingles_traduzido": "He enjoyed a cup of coffee in the morning."
+    },
+    {
+        "ingles_original": "ball is in your court",
+        "portugues_traduzido": "A bola está na sua corte.",
+        "ingles_traduzido": "The ball is in your court."
+    },
+    {
+        "ingles_original": "blood, sweat, and tears",
+        "portugues_traduzido": "Sangue, suor e lágrimas.",
+        "ingles_traduzido": "Blood, sweat, and tears."
+    },
+    {
+        "ingles_original": "going down in flames",
+        "portugues_traduzido": "ir em chamas",
+        "ingles_traduzido": "Go up in flames"
+    },
+    {
+        "ingles_original": "break a leg",
+        "portugues_traduzido": "Boa sorte.",
+        "ingles_traduzido": "Good luck."
+    },
+    {
+        "ingles_original": "The kids played in the playground.",
+        "portugues_traduzido": "Os crianças brincaram na calçada de recreio.",
+        "ingles_traduzido": "The children played on the playground pavement."
+    },
+    {
+        "ingles_original": "change of tune",
+        "portugues_traduzido": "Mudança de tom.",
+        "ingles_traduzido": "Change of tone."
+    },
+    {
+        "ingles_original": "paint the town red",
+        "portugues_traduzido": "Pintar a cidade de vermelho.",
+        "ingles_traduzido": "Paint the city red."
+    },
+    {
+        "ingles_original": "burnt out",
+        "portugues_traduzido": "Queimado.",
+        "ingles_traduzido": "Burnt."
+    },
+    {
+        "ingles_original": "burning the midnight oil",
+        "portugues_traduzido": "Arder a meia-noite.",
+        "ingles_traduzido": "Burning at midnight."
+    },
+    {
+        "ingles_original": "come out of the woodwork",
+        "portugues_traduzido": "Sair do armário.",
+        "ingles_traduzido": "Come out of the closet."
+    },
+    {
+        "ingles_original": "blessing in disguise",
+        "portugues_traduzido": "Benção disfarçada",
+        "ingles_traduzido": "Disguised blessing."
+    },
+    {
+        "ingles_original": "He is cutting vegetables for dinner.",
+        "portugues_traduzido": "Ele está cortando legumes para o jantar.",
+        "ingles_traduzido": "He is chopping vegetables for dinner."
+    },
+    {
+        "ingles_original": "bigger than life",
+        "portugues_traduzido": "Maior do que a vida.",
+        "ingles_traduzido": "Greater than life."
+    },
+    {
+        "ingles_original": "cast iron stomach",
+        "portugues_traduzido": "Estômago de ferro.",
+        "ingles_traduzido": "Iron stomach."
+    },
+    {
+        "ingles_original": "arm and a leg",
+        "portugues_traduzido": "Um braço e uma perna.",
+        "ingles_traduzido": "One arm and one leg."
+    },
+    {
+        "ingles_original": "as hungry as a wolf",
+        "portugues_traduzido": "Faminto como um lobo.",
+        "ingles_traduzido": "Hungry like the wolf."
+    },
+    {
+        "ingles_original": "They went for a swim at the pool.",
+        "portugues_traduzido": "Eles foram para um mergulho na piscina.",
+        "ingles_traduzido": "They went for a swim in the pool."
+    },
+    {
+        "ingles_original": "blow a fuse",
+        "portugues_traduzido": "Cortar um fusível.",
+        "ingles_traduzido": "Fusing a fuse."
+    },
+    {
+        "ingles_original": "He is drawing a picture of his dog.",
+        "portugues_traduzido": "Ele está desenhando um retrato do seu cachorro.",
+        "ingles_traduzido": "He is drawing a portrait of his dog."
+    },
+    {
+        "ingles_original": "bend over backwards",
+        "portugues_traduzido": "Fazer uma grande gentileza.",
+        "ingles_traduzido": "Do a great kindness."
+    },
+    {
+        "ingles_original": "any port in a storm",
+        "portugues_traduzido": "qualquer porto é bom em uma tempestade",
+        "ingles_traduzido": "Any harbor is good in a storm."
+    },
+    {
+        "ingles_original": "I met my friends for lunch.",
+        "portugues_traduzido": "Encontrei meus amigos para o almoço.",
+        "ingles_traduzido": "I met my friends for lunch."
+    },
+    {
+        "ingles_original": "bare bones",
+        "portugues_traduzido": "Ossos nuos",
+        "ingles_traduzido": "Bare bones."
+    },
+    {
+        "ingles_original": "bottom of the totem pole",
+        "portugues_traduzido": "O fundo da pirâmide.",
+        "ingles_traduzido": "The back of the pyramid."
+    },
+    {
+        "ingles_original": "face the music",
+        "portugues_traduzido": "Aceitar a realidade.",
+        "ingles_traduzido": "To accept reality."
+    },
+    {
+        "ingles_original": "chomping at the bit",
+        "portugues_traduzido": "Arrebentando na rédea.",
+        "ingles_traduzido": "Breaking the reins."
+    },
+    {
+        "ingles_original": "on cloud nine",
+        "portugues_traduzido": "Sob o sétimo céu.",
+        "ingles_traduzido": "Under the seventh heaven."
+    },
+    {
+        "ingles_original": "between a rock and a hard place",
+        "portugues_traduzido": "Entre a pedra e uma parede de tijolos.",
+        "ingles_traduzido": "Between the stone and a brick wall."
+    },
+    {
+        "ingles_original": "batten down the hatches",
+        "portugues_traduzido": "Fechar as velas.",
+        "ingles_traduzido": "To blow out the candles."
+    },
+    {
+        "ingles_original": "all ears",
+        "portugues_traduzido": "Ouvido atento.",
+        "ingles_traduzido": "Attentive ear."
+    },
+    {
+        "ingles_original": "a fly on the wall",
+        "portugues_traduzido": "Um inseto na parede.",
+        "ingles_traduzido": "A bug on the wall."
+    },
+    {
+        "ingles_original": "as sharp as a tack",
+        "portugues_traduzido": "agudo como um prego",
+        "ingles_traduzido": "Sharp as a nail"
+    },
+    {
+        "ingles_original": "She bought a new phone last week.",
+        "portugues_traduzido": "Ela comprou um novo telefone na semana passada.",
+        "ingles_traduzido": "She bought a new phone last week."
+    },
+    {
+        "ingles_original": "don't put all your eggs in one basket",
+        "portugues_traduzido": "Não ponha todos os ovos em uma única cesta.",
+        "ingles_traduzido": "Don't put all your eggs in one basket."
+    },
+    {
+        "ingles_original": "bottom of the barrel",
+        "portugues_traduzido": "Fundos do tanque.",
+        "ingles_traduzido": "Tank's bottom."
+    },
+    {
+        "ingles_original": "carrying the weight of the world",
+        "portugues_traduzido": "Carrinho da carga do mundo.",
+        "ingles_traduzido": "The world's cargo cart."
+    },
+    {
+        "ingles_original": "cogs in the machine",
+        "portugues_traduzido": "Partes de uma máquina.",
+        "ingles_traduzido": "Parts of a machine."
+    },
+    {
+        "ingles_original": "I am traveling to the mountains this weekend.",
+        "portugues_traduzido": "Estou viajando para as montanhas neste final de semana.",
+        "ingles_traduzido": "I'm traveling to the mountains this weekend."
+    },
+    {
+        "ingles_original": "They watched a movie on the weekend.",
+        "portugues_traduzido": "Eles assistiram a um filme no fim de semana.",
+        "ingles_traduzido": "They watched a movie over the weekend."
+    },
+    {
+        "ingles_original": "blowing off steam",
+        "portugues_traduzido": "Desafogar a tensão.",
+        "ingles_traduzido": "Easing the tension."
+    },
+    {
+        "ingles_original": "face the music",
+        "portugues_traduzido": "Comprar o barato",
+        "ingles_traduzido": "Buy cheaply"
+    },
+    {
+        "ingles_original": "a heart of gold",
+        "portugues_traduzido": "Um coração de ouro.",
+        "ingles_traduzido": "A heart of gold."
+    },
+    {
+        "ingles_original": "caught in a web",
+        "portugues_traduzido": "Emaranhado em uma teia.",
+        "ingles_traduzido": "Ensnared in a web."
+    },
+    {
+        "ingles_original": "She made a salad for lunch.",
+        "portugues_traduzido": "Ela preparou um salada para o almoço.",
+        "ingles_traduzido": "She prepared a salad for lunch."
+    },
+    {
+        "ingles_original": "mind over matter",
+        "portugues_traduzido": "Cabeça contra matéria",
+        "ingles_traduzido": "Head against matter."
+    },
+    {
+        "ingles_original": "as good as done",
+        "portugues_traduzido": "Feito e pronto.",
+        "ingles_traduzido": "\"Job done.\""
+    },
+    {
+        "ingles_original": "a voice in the wilderness",
+        "portugues_traduzido": "Uma voz inaudível no deserto",
+        "ingles_traduzido": "A voice inaudible in the desert"
+    },
+    {
+        "ingles_original": "He went to the gym to lift weights.",
+        "portugues_traduzido": "Ele foi ao ginásio para levantar pesados.",
+        "ingles_traduzido": "He went to the gym to lift heavy weights."
+    },
+    {
+        "ingles_original": "another one bites the dust",
+        "portugues_traduzido": "Outra morreu pisando em terra.",
+        "ingles_traduzido": "The other died from stepping on the ground."
+    },
+    {
+        "ingles_original": "curiosity killed the cat",
+        "portugues_traduzido": "A curiosidade matou o gato.",
+        "ingles_traduzido": "Curiosity killed the cat."
+    },
+    {
+        "ingles_original": "by leaps and bounds",
+        "portugues_traduzido": "Aos saltos e vagalhões.",
+        "ingles_traduzido": "To leaps and swells."
+    },
+    {
+        "ingles_original": "They are practicing their dance routine.",
+        "portugues_traduzido": "Eles estão praticando sua rotina de dança.",
+        "ingles_traduzido": "They are practicing their dance routine."
+    },
+    {
+        "ingles_original": "honest as the day is long",
+        "portugues_traduzido": "Honesto como o dia é longo.",
+        "ingles_traduzido": "As long as day is long."
+    },
+    {
+        "ingles_original": "butter wouldn’t melt in their mouth",
+        "portugues_traduzido": "Não seria nem para dar uma mordida nesse bolo.",
+        "ingles_traduzido": "\"It wouldn't even be worth a bite of that cake.\""
+    },
+    {
+        "ingles_original": "be in hot water",
+        "portugues_traduzido": "Ter os pés na boca.",
+        "ingles_traduzido": "To have one's feet in one's mouth."
+    },
+    {
+        "ingles_original": "by the seat of your pants",
+        "portugues_traduzido": "Às apalpadas.",
+        "ingles_traduzido": "To the feels."
+    },
+    {
+        "ingles_original": "comfort zone",
+        "portugues_traduzido": "Zona de conforto",
+        "ingles_traduzido": "Comfort zone"
+    },
+    {
+        "ingles_original": "give the green light",
+        "portugues_traduzido": "Dar o sinal verde.",
+        "ingles_traduzido": "Give the green light."
+    },
+    {
+        "ingles_original": "fingers crossed",
+        "portugues_traduzido": "Dedos cruzados.",
+        "ingles_traduzido": "Crossing my fingers."
+    },
+    {
+        "ingles_original": "He went to the airport to catch a flight.",
+        "portugues_traduzido": "Ele foi ao aeroporto para pegar um voo.",
+        "ingles_traduzido": "He went to the airport to catch a flight."
+    },
+    {
+        "ingles_original": "as mad as a hatter",
+        "portugues_traduzido": "Moro na lua.",
+        "ingles_traduzido": "I live on the moon."
+    },
+    {
+        "ingles_original": "cracking the whip",
+        "portugues_traduzido": "Açoitar o corno",
+        "ingles_traduzido": "To cross someone."
+    },
+    {
+        "ingles_original": "He is reading a newspaper.",
+        "portugues_traduzido": "Ele está lendo um jornal.",
+        "ingles_traduzido": "He is reading a newspaper."
+    },
+    {
+        "ingles_original": "as easy as shooting fish in a barrel",
+        "portugues_traduzido": "Tão fácil quanto atirar em peixes num tanque.",
+        "ingles_traduzido": "\"As easy as shooting fish in a barrel.\""
+    },
+    {
+        "ingles_original": "He is taking photos with his camera.",
+        "portugues_traduzido": "Ele está tirando fotos com sua câmera.",
+        "ingles_traduzido": "He is taking pictures with his camera."
+    },
+    {
+        "ingles_original": "ants in your pants",
+        "portugues_traduzido": "Formigas no seu sutiã.",
+        "ingles_traduzido": "\"Ants in Your Bra.\""
+    },
+    {
+        "ingles_original": "He is cleaning the windows.",
+        "portugues_traduzido": "Ele está limpando as janelas.",
+        "ingles_traduzido": "He is cleaning the windows."
+    },
+    {
+        "ingles_original": "clean bill of health",
+        "portugues_traduzido": "Boa saúde de espírito ou Boa saúde, sem ressalvas.",
+        "ingles_traduzido": "Good mental health or Good health, no exceptions."
+    },
+    {
+        "ingles_original": "cold feet",
+        "portugues_traduzido": "Arrepios na barriga ou Medo de casar",
+        "ingles_traduzido": "Hiccups in the stomach or Fear of marrying."
+    },
+    {
+        "ingles_original": "burn bridges",
+        "portugues_traduzido": "Queimar pontes",
+        "ingles_traduzido": "Burn bridges."
+    },
+    {
+        "ingles_original": "cat's out of the bag",
+        "portugues_traduzido": "O gato já saiu da bolsa.",
+        "ingles_traduzido": "The cat is already out of the bag."
+    },
+    {
+        "ingles_original": "bury your head in the sand",
+        "portugues_traduzido": "Mergulhar a cabeça na areia",
+        "ingles_traduzido": "To stick one's head in the sand."
+    },
+    {
+        "ingles_original": "He read a book before bed.",
+        "portugues_traduzido": "Ele leu um livro antes de dormir.",
+        "ingles_traduzido": "He read a book before going to sleep."
+    },
+    {
+        "ingles_original": "bridge the gap",
+        "portugues_traduzido": "Ponte entre as lacunas.",
+        "ingles_traduzido": "Bridge the gaps."
+    },
+    {
+        "ingles_original": "He went to the doctor for a check-up.",
+        "portugues_traduzido": "Ele foi ao médico para uma consulta.",
+        "ingles_traduzido": "He went to the doctor for a consultation."
+    },
+    {
+        "ingles_original": "She is watching the sunset from the balcony.",
+        "portugues_traduzido": "Ela está assistindo ao pôr do sol da varanda.",
+        "ingles_traduzido": "She is watching the sunset from the balcony."
+    },
+    {
+        "ingles_original": "blessing in disguise",
+        "portugues_traduzido": "benção disfarçada",
+        "ingles_traduzido": "Disguised blessing"
+    },
+    {
+        "ingles_original": "a penny for your thoughts",
+        "portugues_traduzido": "Um centavo por seus pensamentos.",
+        "ingles_traduzido": "A penny for your thoughts."
+    },
+    {
+        "ingles_original": "He is playing the guitar in the living room.",
+        "portugues_traduzido": "Ele está tocando o violão no living.",
+        "ingles_traduzido": "He's playing the guitar in the living room."
+    },
+    {
+        "ingles_original": "He is sitting on the chair.",
+        "portugues_traduzido": "Ele está sentado na cadeira.",
+        "ingles_traduzido": "He is sitting in the chair."
+    },
+    {
+        "ingles_original": "come hell or high water",
+        "portugues_traduzido": "Não importa o que aconteça",
+        "ingles_traduzido": "Whatever happens."
+    },
+    {
+        "ingles_original": "I went to the beach for vacation.",
+        "portugues_traduzido": "Fui à praia de férias.",
+        "ingles_traduzido": "I went to the beach on vacation."
+    },
+    {
+        "ingles_original": "as cool as a cucumber",
+        "portugues_traduzido": "Asséptico como uma pepino.",
+        "ingles_traduzido": "Sterile as a cucumber."
+    },
+    {
+        "ingles_original": "break the ice",
+        "portugues_traduzido": "Romper o gelo.",
+        "ingles_traduzido": "Break the ice."
+    },
+    {
+        "ingles_original": "at the end of the day",
+        "portugues_traduzido": "No final do dia",
+        "ingles_traduzido": "\"At the end of the day\""
+    },
+    {
+        "ingles_original": "can't see the forest for the trees",
+        "portugues_traduzido": "Não ver a floresta pela selva.",
+        "ingles_traduzido": "To see the forest for the trees."
+    },
+    {
+        "ingles_original": "He is doing his homework in the study room.",
+        "portugues_traduzido": "Ele está fazendo sua lição de casa na sala de estudo.",
+        "ingles_traduzido": "He is doing his homework in the study."
+    },
+    {
+        "ingles_original": "They planted flowers in the garden.",
+        "portugues_traduzido": "Eles plantaram flores no jardim.",
+        "ingles_traduzido": "They planted flowers in the garden."
+    },
+    {
+        "ingles_original": "They are making pizza together.",
+        "portugues_traduzido": "Eles estão fazendo pizza juntos.",
+        "ingles_traduzido": "They are making pizza together."
+    },
+    {
+        "ingles_original": "blown out of proportion",
+        "portugues_traduzido": "Exagerado.",
+        "ingles_traduzido": "Over-the-top."
+    },
+    {
+        "ingles_original": "hand in glove",
+        "portugues_traduzido": "Mão na luva.",
+        "ingles_traduzido": "Hand in glove."
+    },
+    {
+        "ingles_original": "birds of a feather flock together",
+        "portugues_traduzido": "Os pássaros de uma gaiola se reúnem.",
+        "ingles_traduzido": "\"The birds from the cage assemble.\""
+    },
+    {
+        "ingles_original": "get out of hand",
+        "portugues_traduzido": "Perder o controle",
+        "ingles_traduzido": "Lose control."
+    },
+    {
+        "ingles_original": "He called his parents yesterday.",
+        "portugues_traduzido": "Ele telefonou para seus pais ontem.",
+        "ingles_traduzido": "He called his parents yesterday."
+    },
+    {
+        "ingles_original": "He wrote a letter to his friend.",
+        "portugues_traduzido": "Ele escreveu uma carta para seu amigo.",
+        "ingles_traduzido": "He wrote a letter to his friend."
+    },
+    {
+        "ingles_original": "She danced at the party last night.",
+        "portugues_traduzido": "Ela dançou na festa ontem à noite.",
+        "ingles_traduzido": "She danced at the party last night."
+    },
+    {
+        "ingles_original": "close to home",
+        "portugues_traduzido": "Perto de casa.",
+        "ingles_traduzido": "Near home."
+    },
+    {
+        "ingles_original": "if you can't stand the heat, get out of the kitchen",
+        "portugues_traduzido": "Se você não pode lidar com o calor, saia da cozinha.",
+        "ingles_traduzido": "If you can't handle the heat, stay out of the kitchen."
+    },
+    {
+        "ingles_original": "between the devil and the deep blue sea",
+        "portugues_traduzido": "Entre o diabo e a água fria.",
+        "ingles_traduzido": "Between the devil and the deep blue sea."
+    },
+    {
+        "ingles_original": "get cold feet",
+        "portugues_traduzido": "Ficar com os pés gelados",
+        "ingles_traduzido": "Freeze one's feet"
+    },
+    {
+        "ingles_original": "fish out of water",
+        "portugues_traduzido": "Um peixe fora d'água",
+        "ingles_traduzido": "A fish out of water."
+    },
+    {
+        "ingles_original": "over the moon",
+        "portugues_traduzido": "Muito animado/a ou agradado/a.",
+        "ingles_traduzido": "Very enthusiastic or pleased."
+    },
+    {
+        "ingles_original": "once in a blue moon",
+        "portugues_traduzido": "Raramente, ou excepcionalmente.",
+        "ingles_traduzido": "\"Rarely, or exceptionally.\""
+    },
+    {
+        "ingles_original": "chip off the old block",
+        "portugues_traduzido": "Um pedaço da velha madeira.",
+        "ingles_traduzido": "A piece of old wood."
+    },
+    {
+        "ingles_original": "break the mold",
+        "portugues_traduzido": "Quebrar o molde.",
+        "ingles_traduzido": "Breaking the mold."
+    },
+    {
+        "ingles_original": "ace in the hole",
+        "portugues_traduzido": "Carta da última mão",
+        "ingles_traduzido": "Letter from the bottom of the deck"
+    },
+    {
+        "ingles_original": "She is gardening in the backyard.",
+        "portugues_traduzido": "Ela está fazendo jardinagem no quintal.",
+        "ingles_traduzido": "She is gardening in the backyard."
+    },
+    {
+        "ingles_original": "blind as a bat",
+        "portugues_traduzido": "Ceio como um morcego",
+        "ingles_traduzido": "Like a bat out of hell."
+    },
+    {
+        "ingles_original": "call it a day",
+        "portugues_traduzido": "Deixar para outro dia.",
+        "ingles_traduzido": "Putting it off until tomorrow."
+    },
+    {
+        "ingles_original": "calm before the storm",
+        "portugues_traduzido": "Antes da tempestade.",
+        "ingles_traduzido": "Before the storm."
+    },
+    {
+        "ingles_original": "He attended a wedding last weekend.",
+        "portugues_traduzido": "Ele assistiu a um casamento no último final de semana.",
+        "ingles_traduzido": "He attended a wedding at the weekend."
+    },
+    {
+        "ingles_original": "chill to the bone",
+        "portugues_traduzido": "Fazer gelar os ossos.",
+        "ingles_traduzido": "To chill the blood."
+    },
+    {
+        "ingles_original": "broad strokes",
+        "portugues_traduzido": "Linhas gerais",
+        "ingles_traduzido": "Main points"
+    },
+    {
+        "ingles_original": "She is listening to music while cooking.",
+        "portugues_traduzido": "Ela está ouvindo música enquanto cozinha.",
+        "ingles_traduzido": "She is listening to music while cooking."
+    },
+    {
+        "ingles_original": "blind as a bat",
+        "portugues_traduzido": "Cego como um morcego.",
+        "ingles_traduzido": "Blind as a bat."
+    },
+    {
+        "ingles_original": "all thumbs",
+        "portugues_traduzido": "com as mãos de dedos de anel",
+        "ingles_traduzido": "\"With fingers of ringed hand\""
+    },
+    {
+        "ingles_original": "chip on your shoulder",
+        "portugues_traduzido": "Um carregado consolo na manga.",
+        "ingles_traduzido": "A heavily loaded consolation in the manga."
+    },
+    {
+        "ingles_original": "chase rainbows",
+        "portugues_traduzido": "Pursuir arco-íris",
+        "ingles_traduzido": "Chase rainbows"
+    },
+    {
+        "ingles_original": "hope for the best, prepare for the worst",
+        "portugues_traduzido": "\"Esperar pelo melhor, preparar-se para o pior\"",
+        "ingles_traduzido": "\"Hope for the best, prepare for the worst.\""
+    },
+    {
+        "ingles_original": "get a grip",
+        "portugues_traduzido": "Pegar o pulso.",
+        "ingles_traduzido": "Take a pulse."
+    },
+    {
+        "ingles_original": "finger on the pulse",
+        "portugues_traduzido": "Mano na massa.",
+        "ingles_traduzido": "Hand in the dough."
+    },
+    {
+        "ingles_original": "ball of fire",
+        "portugues_traduzido": "Bola de fogo",
+        "ingles_traduzido": "Ball of Fire"
+    },
+    {
+        "ingles_original": "He is making tea in the kitchen.",
+        "portugues_traduzido": "Ele está preparando chá na cozinha.",
+        "ingles_traduzido": "He is preparing tea in the kitchen."
+    },
+    {
+        "ingles_original": "bite your lip",
+        "portugues_traduzido": "Cala a boca.",
+        "ingles_traduzido": "Shut up."
+    },
+    {
+        "ingles_original": "live in a glass house",
+        "portugues_traduzido": "Viver em uma casa de vidro.",
+        "ingles_traduzido": "Living in a glass house."
+    },
+    {
+        "ingles_original": "into thin air",
+        "portugues_traduzido": "No espaço de ar fino",
+        "ingles_traduzido": "In a space with thin air"
+    },
+    {
+        "ingles_original": "don’t cry over spilled milk",
+        "portugues_traduzido": "Não chore por leite derramado.",
+        "ingles_traduzido": "Don't cry over spilt milk."
+    },
+    {
+        "ingles_original": "don't count your chickens before they hatch",
+        "portugues_traduzido": "Não conte seus ovos antes de eles serem postos.",
+        "ingles_traduzido": "Don't count your chickens before they hatch."
+    },
+    {
+        "ingles_original": "close to my heart",
+        "portugues_traduzido": "Perto do meu coração.",
+        "ingles_traduzido": "Near my heart."
+    },
+    {
+        "ingles_original": "He went fishing with his friends.",
+        "portugues_traduzido": "Ele foi pescar com seus amigos.",
+        "ingles_traduzido": "He went fishing with his friends."
+    },
+    {
+        "ingles_original": "as clear as mud",
+        "portugues_traduzido": "\"Tanto faz\"",
+        "ingles_traduzido": "\"It doesn't make a difference\""
+    },
+    {
+        "ingles_original": "be a fly on the wall",
+        "portugues_traduzido": "Ser uma mosca na parede.",
+        "ingles_traduzido": "Being a fly on the wall."
+    },
+    {
+        "ingles_original": "changing gears",
+        "portugues_traduzido": "Trocar de marcha",
+        "ingles_traduzido": "Shift gears."
+    },
+    {
+        "ingles_original": "call it quits",
+        "portugues_traduzido": "Desistir",
+        "ingles_traduzido": "Withdraw"
+    },
+    {
+        "ingles_original": "bottom line",
+        "portugues_traduzido": "Linha de fundo",
+        "ingles_traduzido": "Background."
+    },
+    {
+        "ingles_original": "bet the farm",
+        "portugues_traduzido": "Apônder toda a fazenda.",
+        "ingles_traduzido": "To fence in the entire estate."
+    },
+    {
+        "ingles_original": "as free as a bird",
+        "portugues_traduzido": "Livre como um pássaro.",
+        "ingles_traduzido": "Free as a bird."
+    },
+    {
+        "ingles_original": "flying by the seat of your pants",
+        "portugues_traduzido": "Voar de pernas para o ar.",
+        "ingles_traduzido": "Flying by the seat of your pants."
+    },
+    {
+        "ingles_original": "chasing your tail",
+        "portugues_traduzido": "Perssuindo o seu rabo.",
+        "ingles_traduzido": "Chasing your tail."
+    },
+    {
+        "ingles_original": "She plays the piano beautifully.",
+        "portugues_traduzido": "Ela toca piano maravilhosamente.",
+        "ingles_traduzido": "She plays the piano beautifully."
+    },
+    {
+        "ingles_original": "heart of stone",
+        "portugues_traduzido": "Cor de pedra",
+        "ingles_traduzido": "Stone Color"
+    },
+    {
+        "ingles_original": "They are going to the cinema tonight.",
+        "portugues_traduzido": "Eles vão ao cinema hoje à noite.",
+        "ingles_traduzido": "They are going to the movies tonight."
+    },
+    {
+        "ingles_original": "a taste of your own medicine",
+        "portugues_traduzido": "Um gole da sua própria medicação.",
+        "ingles_traduzido": "An own goal of his own medication."
+    },
+    {
+        "ingles_original": "break the ice",
+        "portugues_traduzido": "Romper o gelo",
+        "ingles_traduzido": "Breaking the ice."
+    },
+    {
+        "ingles_original": "cloud of suspicion",
+        "portugues_traduzido": "nuvem de suspeita",
+        "ingles_traduzido": "Cloud of suspicion."
+    },
+    {
+        "ingles_original": "diamond in the rough",
+        "portugues_traduzido": "Uma joia rústica",
+        "ingles_traduzido": "A rustic jewel"
+    },
+    {
+        "ingles_original": "beat the clock",
+        "portugues_traduzido": "Bater o relógio",
+        "ingles_traduzido": "Beat the clock."
+    },
+    {
+        "ingles_original": "He is repairing the broken chair.",
+        "portugues_traduzido": "Ele está reparando a cadeira quebrada.",
+        "ingles_traduzido": "He is fixing the broken chair."
+    },
+    {
+        "ingles_original": "She is watching a movie at the theater.",
+        "portugues_traduzido": "Ela está assistindo um filme no cinema.",
+        "ingles_traduzido": "She is watching a movie at the cinema."
+    },
+    {
+        "ingles_original": "a penny saved is a penny earned",
+        "portugues_traduzido": "Um centavo poupaido é igual a um centavo ganhado.",
+        "ingles_traduzido": "A penny saved is a penny earned."
+    },
+    {
+        "ingles_original": "He cleaned the garage on Saturday.",
+        "portugues_traduzido": "Ele limpou o garagem no sábado.",
+        "ingles_traduzido": "He cleaned the garage on Saturday."
+    },
+    {
+        "ingles_original": "a fish out of water",
+        "portugues_traduzido": "Um peixe fora d'água.",
+        "ingles_traduzido": "A fish out of water."
+    },
+    {
+        "ingles_original": "down to earth",
+        "portugues_traduzido": "De toa ou terreno",
+        "ingles_traduzido": "From mound or ground."
+    },
+    {
+        "ingles_original": "happy as a clam",
+        "portugues_traduzido": "Feliz como um calamar.",
+        "ingles_traduzido": "Happy as a clam."
+    },
+    {
+        "ingles_original": "He visited the museum with his class.",
+        "portugues_traduzido": "Ele visitou o museu com a sua turma.",
+        "ingles_traduzido": "He visited the museum with his class."
+    },
+    {
+        "ingles_original": "I visited my parents last weekend.",
+        "portugues_traduzido": "Visitei meus pais no último fim de semana.",
+        "ingles_traduzido": "I visited my parents over the weekend."
+    },
+    {
+        "ingles_original": "by the skin of your teeth",
+        "portugues_traduzido": "Por um fio de bigode.",
+        "ingles_traduzido": "By a thread."
+    },
+    {
+        "ingles_original": "crack the code",
+        "portugues_traduzido": "Descobrir a chave secreta, ou \"Decifrar o código\".",
+        "ingles_traduzido": "Discovering the secret key, or \"Cracking the code\"."
+    },
+    {
+        "ingles_original": "He watched a football match on TV.",
+        "portugues_traduzido": "Ele assistiu a uma partida de futebol na TV.",
+        "ingles_traduzido": "He watched a football game on TV."
+    },
+    {
+        "ingles_original": "climbing the corporate ladder",
+        "portugues_traduzido": "Subindo a escada corporativa.",
+        "ingles_traduzido": "Climbing the corporate ladder."
+    },
+    {
+        "ingles_original": "all in the same boat",
+        "portugues_traduzido": "À mesma falda",
+        "ingles_traduzido": "On the same slope."
+    },
+    {
+        "ingles_original": "cold feet",
+        "portugues_traduzido": "Medo de comprometer.",
+        "ingles_traduzido": "Fear of commitment."
+    },
+    {
+        "ingles_original": "a mountain to climb",
+        "portugues_traduzido": "Uma montanha para escalar.",
+        "ingles_traduzido": "A mountain to climb."
+    },
+    {
+        "ingles_original": "break the back of it",
+        "portugues_traduzido": "Quebrar o osso da questão.",
+        "ingles_traduzido": "Break the bone of the problem."
+    },
+    {
+        "ingles_original": "blowing off steam",
+        "portugues_traduzido": "Desconectar-se.",
+        "ingles_traduzido": "Logging off."
+    },
+    {
+        "ingles_original": "cook up a storm",
+        "portugues_traduzido": "Fazer um verdadeiro temporal na cozinha.",
+        "ingles_traduzido": "To really stir up a storm in the kitchen."
+    },
+    {
+        "ingles_original": "dead in the water",
+        "portugues_traduzido": "Sem chance.",
+        "ingles_traduzido": "No way."
+    },
+    {
+        "ingles_original": "bite the big one",
+        "portugues_traduzido": "Morrer.",
+        "ingles_traduzido": "To die."
+    },
+    {
+        "ingles_original": "buy a lemon",
+        "portugues_traduzido": "Comprar uma lima.",
+        "ingles_traduzido": "To buy a file."
+    },
+    {
+        "ingles_original": "get a second wind",
+        "portugues_traduzido": "Pegar uma segunda ressaca.",
+        "ingles_traduzido": "Get a second hangover."
+    },
+    {
+        "ingles_original": "He is working on his laptop.",
+        "portugues_traduzido": "Ele está trabalhando no seu laptop.",
+        "ingles_traduzido": "He's working on his laptop."
+    },
+    {
+        "ingles_original": "clear as mud",
+        "portugues_traduzido": "Cristal na água.",
+        "ingles_traduzido": "Crystal on water."
+    },
+    {
+        "ingles_original": "different strokes for different folks",
+        "portugues_traduzido": "Coisas diferentes para pessoas diferentes.",
+        "ingles_traduzido": "Different things for different people."
+    },
+    {
+        "ingles_original": "She had a cup of soup for lunch.",
+        "portugues_traduzido": "Ela tomou um copo de sopa para o almoço.",
+        "ingles_traduzido": "She took a bowl of soup for lunch."
+    },
+    {
+        "ingles_original": "cast the first stone",
+        "portugues_traduzido": "Jogue a primeira pedra.",
+        "ingles_traduzido": "Throw the first stone."
+    },
+    {
+        "ingles_original": "call a spade a spade",
+        "portugues_traduzido": "Chamar uma coisa pelo seu nome.",
+        "ingles_traduzido": "To call a spade a spade."
+    },
+    {
+        "ingles_original": "a ray of hope",
+        "portugues_traduzido": "Uma chama de esperança",
+        "ingles_traduzido": "A flicker of hope."
+    },
+    {
+        "ingles_original": "They are painting the walls of their house.",
+        "portugues_traduzido": "Eles estão pintando as paredes da sua casa.",
+        "ingles_traduzido": "They are painting the walls of their house."
+    },
+    {
+        "ingles_original": "crash course",
+        "portugues_traduzido": "Cursinho intensivo",
+        "ingles_traduzido": "Intensive prep course"
+    },
+    {
+        "ingles_original": "The sun rises in the east.",
+        "portugues_traduzido": "O sol nasce no leste.",
+        "ingles_traduzido": "The sun rises in the east."
+    },
+    {
+        "ingles_original": "an arm and a leg",
+        "portugues_traduzido": "Um braço e uma perna.",
+        "ingles_traduzido": "A limb and a leg."
+    },
+    {
+        "ingles_original": "breaking the mold",
+        "portugues_traduzido": "Rompendo o molde.",
+        "ingles_traduzido": "Breaking the mold."
+    },
+    {
+        "ingles_original": "caught red-handed",
+        "portugues_traduzido": "Foi pego em flagrante.",
+        "ingles_traduzido": "He was caught in the act."
+    },
+    {
+        "ingles_original": "blood from a stone",
+        "portugues_traduzido": "Sangue de pedra.",
+        "ingles_traduzido": "Blood of stone."
+    },
+    {
+        "ingles_original": "beyond the pale",
+        "portugues_traduzido": "Além da linha.",
+        "ingles_traduzido": "Beyond the line."
+    },
+    {
+        "ingles_original": "She is walking through the forest.",
+        "portugues_traduzido": "Ela está caminhando pela floresta.",
+        "ingles_traduzido": "She is walking through the forest."
+    },
+    {
+        "ingles_original": "blood runs thicker than water",
+        "portugues_traduzido": "O sangue é mais denso que a água.",
+        "ingles_traduzido": "Blood is denser than water."
+    },
+    {
+        "ingles_original": "follow your nose",
+        "portugues_traduzido": "Siga seu nariz.",
+        "ingles_traduzido": "Follow your nose."
+    },
+    {
+        "ingles_original": "hard nut to crack",
+        "portugues_traduzido": "Noz dura de ser quebrada.",
+        "ingles_traduzido": "\"It's hard to break a walnut.\""
+    },
+    {
+        "ingles_original": "an ounce of prevention is worth a pound of cure",
+        "portugues_traduzido": "Um grama de prevenção vale mais do que um quilo de cura.",
+        "ingles_traduzido": "A gram of prevention is worth more than a kilogram of cure."
+    },
+    {
+        "ingles_original": "come apart at the seams",
+        "portugues_traduzido": "Desmoronar por dentro.",
+        "ingles_traduzido": "To crumble from the inside."
+    },
+    {
+        "ingles_original": "She is arranging flowers in a vase.",
+        "portugues_traduzido": "Ela está arrumando flores em uma vasilha.",
+        "ingles_traduzido": "She is arranging flowers in a vase."
+    },
+    {
+        "ingles_original": "They went shopping for new clothes.",
+        "portugues_traduzido": "Eles foram ao shopping em busca de roupas novas.",
+        "ingles_traduzido": "They went to the mall in search of new clothes."
+    },
+    {
+        "ingles_original": "big league",
+        "portugues_traduzido": "Liga grande",
+        "ingles_traduzido": "Major League"
+    },
+    {
+        "ingles_original": "She is packing her suitcase for a trip.",
+        "portugues_traduzido": "Ela está arrumando sua mala para uma viagem.",
+        "ingles_traduzido": "She is packing her bag for a trip."
+    },
+    {
+        "ingles_original": "She attended a conference last week.",
+        "portugues_traduzido": "Ela assistiu a uma conferência semana passada.",
+        "ingles_traduzido": "She attended a conference last week."
+    },
+    {
+        "ingles_original": "all that glitters is not gold",
+        "portugues_traduzido": "Tudo o que brilha não é ouro.",
+        "ingles_traduzido": "\"Not all that glitters is gold.\""
+    },
+    {
+        "ingles_original": "rain on your parade",
+        "portugues_traduzido": "Desorganizar o seu espetáculo.",
+        "ingles_traduzido": "\"Disrupt your show.\""
+    },
+    {
+        "ingles_original": "as stubborn as a mule",
+        "portugues_traduzido": "Cada vez mais teimosa que um burro.",
+        "ingles_traduzido": "The more stubborn, like a mule."
+    },
+    {
+        "ingles_original": "fall on deaf ears",
+        "portugues_traduzido": "Cair no ouvido de surdos.",
+        "ingles_traduzido": "Fall on deaf ears."
+    },
+    {
+        "ingles_original": "She is preparing dinner for the guests.",
+        "portugues_traduzido": "Ela está preparando jantar para os convidados.",
+        "ingles_traduzido": "She is preparing dinner for the guests."
+    },
+    {
+        "ingles_original": "He is writing an essay for school.",
+        "portugues_traduzido": "Ele está escrevendo um ensaio para a escola.",
+        "ingles_traduzido": "He is writing an essay for school."
+    },
+    {
+        "ingles_original": "beating a dead horse",
+        "portugues_traduzido": "Bater em um cavalo morto.",
+        "ingles_traduzido": "To beat a dead horse."
+    },
+    {
+        "ingles_original": "keep your eyes peeled",
+        "portugues_traduzido": "Ficar de olho aberto.",
+        "ingles_traduzido": "Keep an eye open."
+    },
+    {
+        "ingles_original": "He visited his grandmother in the hospital.",
+        "portugues_traduzido": "Ele visitou sua avó no hospital.",
+        "ingles_traduzido": "He visited his grandmother in the hospital."
+    },
+    {
+        "ingles_original": "caught in the crossfire",
+        "portugues_traduzido": "Apanhado no fogo cruzado.",
+        "ingles_traduzido": "Caught in the crossfire."
+    },
+    {
+        "ingles_original": "a blessing in disguise",
+        "portugues_traduzido": "Uma bênção disfarçada.",
+        "ingles_traduzido": "A disguised blessing."
+    },
+    {
+        "ingles_original": "bending over backwards",
+        "portugues_traduzido": "Esticando-se ao máximo para satisfazer.",
+        "ingles_traduzido": "Stretching to the maximum to satisfy."
+    },
+    {
+        "ingles_original": "He is drawing in his sketchbook.",
+        "portugues_traduzido": "Ele está desenhando no seu caderno de esboços.",
+        "ingles_traduzido": "He is drawing in his sketchbook."
+    },
+    {
+        "ingles_original": "a new lease on life",
+        "portugues_traduzido": "Uma segunda chance na vida",
+        "ingles_traduzido": "A second chance at life."
+    },
+    {
+        "ingles_original": "climbing the ladder",
+        "portugues_traduzido": "Subir a escada do sucesso.",
+        "ingles_traduzido": "Climbing the ladder of success."
+    },
+    {
+        "ingles_original": "a rolling stone gathers no moss",
+        "portugues_traduzido": "Pedra que rola não ajunta moho.",
+        "ingles_traduzido": "A rolling stone gathers no moss."
+    },
+    {
+        "ingles_original": "better half",
+        "portugues_traduzido": "Metade melhor.",
+        "ingles_traduzido": "The better half."
+    },
+    {
+        "ingles_original": "He is eating dinner with his family.",
+        "portugues_traduzido": "Ele está jantando com sua família.",
+        "ingles_traduzido": "He is dining with his family."
+    },
+    {
+        "ingles_original": "in the bag",
+        "portugues_traduzido": "Tudo fechado.",
+        "ingles_traduzido": "Every closed."
+    },
+    {
+        "ingles_original": "dead as a doornail",
+        "portugues_traduzido": "Morta como uma estaca.",
+        "ingles_traduzido": "Dead as a nail."
+    },
+    {
+        "ingles_original": "She is playing with her children in the garden.",
+        "portugues_traduzido": "Ela está brincando com seus filhos no jardim.",
+        "ingles_traduzido": "She's playing with her children in the garden."
+    },
+    {
+        "ingles_original": "I am playing video games in my room.",
+        "portugues_traduzido": "Estou jogando video games em minha sala.",
+        "ingles_traduzido": "\"I'm playing video games in my room.\""
+    },
+    {
+        "ingles_original": "cut to the chase",
+        "portugues_traduzido": "Chegar ao ponto.",
+        "ingles_traduzido": "Reach the point."
+    },
+    {
+        "ingles_original": "cut the mustardcross that bridge when you come to it",
+        "portugues_traduzido": "Fazer o que é necessário, resolver os problemas conforme eles surgem.",
+        "ingles_traduzido": "Do the necessary, solve problems as they arise."
+    },
+    {
+        "ingles_original": "She works as a software engineer.",
+        "portugues_traduzido": "Ela trabalha como engenheira de software.",
+        "ingles_traduzido": "She works as a software engineer."
+    },
+    {
+        "ingles_original": "He is going to the post office.",
+        "portugues_traduzido": "Ele está indo para a agência dos correios.",
+        "ingles_traduzido": "He is going to the post office."
+    },
+    {
+        "ingles_original": "bare your soul",
+        "portugues_traduzido": "Despir a alma.",
+        "ingles_traduzido": "Strip the soul."
+    },
+    {
+        "ingles_original": "bad blood",
+        "portugues_traduzido": "Ressentimento.",
+        "ingles_traduzido": "Resentment."
+    },
+    {
+        "ingles_original": "She is playing piano in the evening.",
+        "portugues_traduzido": "Ela está tocando piano à noite.",
+        "ingles_traduzido": "She is playing piano at night."
+    },
+    {
+        "ingles_original": "go down in flames",
+        "portugues_traduzido": "Caírem em chamas",
+        "ingles_traduzido": "We were set on fire."
+    },
+    {
+        "ingles_original": "get your ducks in a row",
+        "portugues_traduzido": "Ter todas as coisas no lugar certeiro.",
+        "ingles_traduzido": "To have everything in its right place."
+    },
+    {
+        "ingles_original": "They cleaned the house on Saturday.",
+        "portugues_traduzido": "Eles limpam a casa no sábado.",
+        "ingles_traduzido": "They clean the house on Saturday."
+    },
+    {
+        "ingles_original": "at death's door",
+        "portugues_traduzido": "à beira da morte",
+        "ingles_traduzido": "On the brink of death."
+    },
+    {
+        "ingles_original": "cut the mustard",
+        "portugues_traduzido": "Prove-se útil",
+        "ingles_traduzido": "\"Turns out to be useful.\""
+    },
+    {
+        "ingles_original": "by the book",
+        "portugues_traduzido": "Pela letra da lei.",
+        "ingles_traduzido": "By the letter of the law."
+    },
+    {
+        "ingles_original": "She played cards with her friends.",
+        "portugues_traduzido": "Ela brincou de cartas com seus amigos.",
+        "ingles_traduzido": "She played cards with her friends."
+    },
+    {
+        "ingles_original": "an old flame",
+        "portugues_traduzido": "Um antigo flerte",
+        "ingles_traduzido": "An old flirt."
+    },
+    {
+        "ingles_original": "They are reading a novel by the fireplace.",
+        "portugues_traduzido": "Eles estão lendo um romance à lareira.",
+        "ingles_traduzido": "They are reading a novel by the fireplace."
+    },
+    {
+        "ingles_original": "caught between a rock and a hard place",
+        "portugues_traduzido": "Encontrado entre uma pedra e um lugar duro.",
+        "ingles_traduzido": "Found between a rock and a hard place."
+    },
+    {
+        "ingles_original": "a sinking ship",
+        "portugues_traduzido": "Um navio a afundar.",
+        "ingles_traduzido": "A ship is sinking."
+    },
+    {
+        "ingles_original": "drive me up the wall",
+        "portugues_traduzido": "Mandá-lo para o muro",
+        "ingles_traduzido": "Send him to the wall."
+    },
+    {
+        "ingles_original": "I called my friend last night.",
+        "portugues_traduzido": "Chamei meu amigo ontem à noite.",
+        "ingles_traduzido": "I called my friend last night."
+    },
+    {
+        "ingles_original": "burn the candle at both ends",
+        "portugues_traduzido": "Queimar o candelabro em ambos os extremos.",
+        "ingles_traduzido": "Burn the candlestick at both ends."
+    },
+    {
+        "ingles_original": "They are attending a concert tonight.",
+        "portugues_traduzido": "Eles vão a uma festa de concertos hoje à noite.",
+        "ingles_traduzido": "They are going to a concert party tonight."
+    },
+    {
+        "ingles_original": "bite the bullet",
+        "portugues_traduzido": "Tomar a carga",
+        "ingles_traduzido": "Shouldering the burden"
+    },
+    {
+        "ingles_original": "chase your tail",
+        "portugues_traduzido": "persegui-lo em torno do rabo.",
+        "ingles_traduzido": "Chase after him around the tail."
+    },
+    {
+        "ingles_original": "cool as a cucumber",
+        "portugues_traduzido": "Frio como um pepino.",
+        "ingles_traduzido": "Cold as a cucumber."
+    },
+    {
+        "ingles_original": "don't put all your eggs in one basket",
+        "portugues_traduzido": "Não jogue todos os ovos na mesma cesta.",
+        "ingles_traduzido": "Don't put all your eggs in one basket."
+    },
+    {
+        "ingles_original": "black as coal",
+        "portugues_traduzido": "Negro como carvão.",
+        "ingles_traduzido": "As black as coal."
+    },
+    {
+        "ingles_original": "ants in your pants",
+        "portugues_traduzido": "Formigas no seu bumbum.",
+        "ingles_traduzido": "Ants on your bum."
+    },
+    {
+        "ingles_original": "don't bite the hand that feeds you",
+        "portugues_traduzido": "Não mordache a mão que te alimenta.",
+        "ingles_traduzido": "Don't bite the hand that feeds you."
+    },
+    {
+        "ingles_original": "live to fight another day",
+        "portugues_traduzido": "Viver para lutar outro dia",
+        "ingles_traduzido": "Living to fight another day."
+    },
+    {
+        "ingles_original": "cat's meow",
+        "portugues_traduzido": "Gato de gato",
+        "ingles_traduzido": "Cat-to-cat."
+    },
+    {
+        "ingles_original": "by the book",
+        "portugues_traduzido": "De acordo com as regras.",
+        "ingles_traduzido": "According to the rules."
+    },
+    {
+        "ingles_original": "by the skin of your teeth",
+        "portugues_traduzido": "Por um fio de cabelo.",
+        "ingles_traduzido": "By a hair's breadth."
+    },
+    {
+        "ingles_original": "busy as a bee",
+        "portugues_traduzido": "Atarefado como uma abelha.",
+        "ingles_traduzido": "Bee buzzing around."
+    },
+    {
+        "ingles_original": "calm before the storm",
+        "portugues_traduzido": "Calmanto antes da tempestade.",
+        "ingles_traduzido": "Calming before the storm."
+    },
+    {
+        "ingles_original": "She visited the art gallery on Sunday.",
+        "portugues_traduzido": "Ela visitou a galeria de arte no domingo.",
+        "ingles_traduzido": "She visited the art gallery on Sunday."
+    },
+    {
+        "ingles_original": "They went to a restaurant for dinner.",
+        "portugues_traduzido": "Foram a um restaurante para jantar.",
+        "ingles_traduzido": "They went to a restaurant to eat."
+    },
+    {
+        "ingles_original": "all thumbs",
+        "portugues_traduzido": "\"Com as mãos feias\"",
+        "ingles_traduzido": "\"With ugly hands\""
+    },
+    {
+        "ingles_original": "She is dancing to the music.",
+        "portugues_traduzido": "Ela está dançando com a música.",
+        "ingles_traduzido": "She is dancing to the music."
+    },
+    {
+        "ingles_original": "bend the rules",
+        "portugues_traduzido": "Quebrar as regras.",
+        "ingles_traduzido": "Breaking the rules."
+    },
+    {
+        "ingles_original": "bring to the table",
+        "portugues_traduzido": "Trazer algo para a mesa.",
+        "ingles_traduzido": "Bring something to the table."
+    },
+    {
+        "ingles_original": "crash and burn",
+        "portugues_traduzido": "Bater na parede e queimar",
+        "ingles_traduzido": "Hit your head against the wall and burn."
+    },
+    {
+        "ingles_original": "They are playing chess at the table.",
+        "portugues_traduzido": "Eles estão jogando xadrez na mesa.",
+        "ingles_traduzido": "They are playing chess on the table."
+    },
+    {
+        "ingles_original": "bare bones",
+        "portugues_traduzido": "O esqueleto.",
+        "ingles_traduzido": "The skeleton."
+    },
+    {
+        "ingles_original": "an uphill battle",
+        "portugues_traduzido": "Uma batalha encolhida.",
+        "ingles_traduzido": "A tiny battle."
+    },
+    {
+        "ingles_original": "cast a shadow",
+        "portugues_traduzido": "Esbarrar no seu sombra.",
+        "ingles_traduzido": "To run into your shadow."
+    },
+    {
+        "ingles_original": "She is watching the stars at night.",
+        "portugues_traduzido": "Ela está observando as estrelas à noite.",
+        "ingles_traduzido": "She is looking at the stars at night."
+    },
+    {
+        "ingles_original": "don’t put all your eggs in one basket",
+        "portugues_traduzido": "Não ponha todos os ovos em uma cesta.",
+        "ingles_traduzido": "Don't put all your eggs in one basket."
+    },
+    {
+        "ingles_original": "face the music",
+        "portugues_traduzido": "Pagar a conta.",
+        "ingles_traduzido": "Pay the bill."
+    },
+    {
+        "ingles_original": "She is practicing yoga in the park.",
+        "portugues_traduzido": "Ela está praticando ioga no parque.",
+        "ingles_traduzido": "She is practicing yoga in the park."
+    },
+    {
+        "ingles_original": "He made a sandwich for lunch.",
+        "portugues_traduzido": "Ele fez um sanduíche para o almoço.",
+        "ingles_traduzido": "He made a sandwich for lunch."
+    },
+    {
+        "ingles_original": "hit the books",
+        "portugues_traduzido": "Estudar duro.",
+        "ingles_traduzido": "Study hard."
+    },
+    {
+        "ingles_original": "close shave",
+        "portugues_traduzido": "Corte de cabelo à mão",
+        "ingles_traduzido": "\"Hand-hair cut\""
+    },
+    {
+        "ingles_original": "a leopard can't change its spots",
+        "portugues_traduzido": "Um leão não pode mudar sua pele.",
+        "ingles_traduzido": "A leopard cannot change its spots."
+    },
+    {
+        "ingles_original": "couch potato",
+        "portugues_traduzido": "Pessoa acintosa",
+        "ingles_traduzido": "Impudent person"
+    },
+    {
+        "ingles_original": "She walked to the store.",
+        "portugues_traduzido": "Ela foi a loja a pé.",
+        "ingles_traduzido": "She went to the store on foot."
+    },
+    {
+        "ingles_original": "like riding a bike",
+        "portugues_traduzido": "Riding-a-bicicleta",
+        "ingles_traduzido": "Riding-a-bike"
+    },
+    {
+        "ingles_original": "They are playing volleyball at the beach.",
+        "portugues_traduzido": "Eles estão jogando vôlei na praia.",
+        "ingles_traduzido": "They are playing volleyball on the beach."
+    },
+    {
+        "ingles_original": "He is playing soccer with his friends.",
+        "portugues_traduzido": "Ele está jogando futebol com seus amigos.",
+        "ingles_traduzido": "He is playing soccer with his friends."
+    },
+    {
+        "ingles_original": "curiosity killed the cat",
+        "portugues_traduzido": "A curiosidade matou o gato.",
+        "ingles_traduzido": "Curiosity killed the cat."
+    },
+    {
+        "ingles_original": "barking up the wrong tree",
+        "portugues_traduzido": "Vagando em busca de algo que não existe.",
+        "ingles_traduzido": "\"Wandering in search of something that does not exist.\""
+    },
+    {
+        "ingles_original": "They are visiting the zoo.",
+        "portugues_traduzido": "Eles estão visitando o zoológico.",
+        "ingles_traduzido": "They are visiting the zoo."
+    },
+    {
+        "ingles_original": "pull the plug",
+        "portugues_traduzido": "Puxar o plugue.",
+        "ingles_traduzido": "To pull the plug."
+    },
+    {
+        "ingles_original": "beat a hasty retreat",
+        "portugues_traduzido": "Fez uma retirada apressada.",
+        "ingles_traduzido": "Made a hasty retreat."
+    },
+    {
+        "ingles_original": "I went to the store to buy some bread.",
+        "portugues_traduzido": "Eu fui ao mercado para comprar pão.",
+        "ingles_traduzido": "I went to the market to buy bread."
+    },
+    {
+        "ingles_original": "butterflies in my stomach",
+        "portugues_traduzido": "Mariposas na minha barriga.",
+        "ingles_traduzido": "Butterflies in my stomach."
+    },
+    {
+        "ingles_original": "come up against a brick wall",
+        "portugues_traduzido": "Encontrar um muro de tijolos",
+        "ingles_traduzido": "Finding a brick wall."
+    },
+    {
+        "ingles_original": "smooth sailing",
+        "portugues_traduzido": "Navegação suave",
+        "ingles_traduzido": "Smooth Navigation"
+    },
+    {
+        "ingles_original": "She is sending a letter to her friend.",
+        "portugues_traduzido": "Ela está enviando uma carta para o amigo dela.",
+        "ingles_traduzido": "She is sending a letter to her friend."
+    },
+    {
+        "ingles_original": "He is checking his email.",
+        "portugues_traduzido": "Ele está verificando seu e-mail.",
+        "ingles_traduzido": "He is checking his email."
+    },
+    {
+        "ingles_original": "an uphill battle",
+        "portugues_traduzido": "Uma batalha encarniçada ou Uma luta árdua.",
+        "ingles_traduzido": "A fierce battle or A hard-fought fight."
+    },
+    {
+        "ingles_original": "make waves",
+        "portugues_traduzido": "Fazer ondas",
+        "ingles_traduzido": "Make waves."
+    },
+    {
+        "ingles_original": "bury the hatchet",
+        "portugues_traduzido": "Fazer a paz.",
+        "ingles_traduzido": "To make peace."
+    },
+    {
+        "ingles_original": "as good as gold",
+        "portugues_traduzido": "Tão bom quanto ouro.",
+        "ingles_traduzido": "\"Priceless\""
+    },
+    {
+        "ingles_original": "She is putting on her shoes.",
+        "portugues_traduzido": "Ela está colocando os sapatos.",
+        "ingles_traduzido": "She is putting on the shoes."
+    },
+    {
+        "ingles_original": "built like a tank",
+        "portugues_traduzido": "construído como um tanque",
+        "ingles_traduzido": "Built like a tank."
+    },
+    {
+        "ingles_original": "hit the sack",
+        "portugues_traduzido": "Deitar a dormir",
+        "ingles_traduzido": "To go to sleep"
+    },
+    {
+        "ingles_original": "burst your bubble",
+        "portugues_traduzido": "Estourar o seu balão",
+        "ingles_traduzido": "\"Pop your balloon.\""
+    },
+    {
+        "ingles_original": "He is going for a bike ride.",
+        "portugues_traduzido": "Ele vai para uma corrida de bicicleta.",
+        "ingles_traduzido": "He's going for a bike ride."
+    },
+    {
+        "ingles_original": "bite the dust",
+        "portugues_traduzido": "morrer de tanto bater a cabeça",
+        "ingles_traduzido": "To beat one's head against a brick wall"
+    },
+    {
+        "ingles_original": "falling apart at the seams",
+        "portugues_traduzido": "Desfazendo-se aos pedaços.",
+        "ingles_traduzido": "Falling apart at the seams."
+    },
+    {
+        "ingles_original": "They are jogging through the park.",
+        "portugues_traduzido": "Eles estão correndo pelo parque.",
+        "ingles_traduzido": "They are running through the park."
+    },
+    {
+        "ingles_original": "backseat driver",
+        "portugues_traduzido": "Motorista de banco de trás",
+        "ingles_traduzido": "Backseat Driver"
+    },
+    {
+        "ingles_original": "a blessing in disguise",
+        "portugues_traduzido": "Uma bênção disfarçada.",
+        "ingles_traduzido": "A disguised blessing."
+    },
+    {
+        "ingles_original": "back against the wall",
+        "portugues_traduzido": "De costas contra a parede.",
+        "ingles_traduzido": "Back to the wall."
+    },
+    {
+        "ingles_original": "blue collar",
+        "portugues_traduzido": "Trabalhador braçal.",
+        "ingles_traduzido": "Manual labourer."
+    },
+    {
+        "ingles_original": "kill two birds with one stone",
+        "portugues_traduzido": "Matar dois coelhos com uma só tacada.",
+        "ingles_traduzido": "\"Kill two birds with one stone.\""
+    },
+    {
+        "ingles_original": "at the drop of a hat",
+        "portugues_traduzido": "Ao sinal de uma saia.",
+        "ingles_traduzido": "At the signal of a skirt."
+    },
+    {
+        "ingles_original": "by a hair's breadth",
+        "portugues_traduzido": "por um fio de cabelo",
+        "ingles_traduzido": "By a hair's breadth."
+    },
+    {
+        "ingles_original": "They are planning a trip to Europe.",
+        "portugues_traduzido": "Eles estão planejando uma viagem para a Europa.",
+        "ingles_traduzido": "They are planning a trip to Europe."
+    },
+    {
+        "ingles_original": "big picture",
+        "portugues_traduzido": "Visão geral.",
+        "ingles_traduzido": "Overview."
+    },
+    {
+        "ingles_original": "beat around the bush",
+        "portugues_traduzido": "Palavar a pena.",
+        "ingles_traduzido": "Rattle the chains."
+    },
+    {
+        "ingles_original": "cast in stone",
+        "portugues_traduzido": "Dito e feito.",
+        "ingles_traduzido": "Said and done."
+    },
+    {
+        "ingles_original": "They went to the supermarket yesterday.",
+        "portugues_traduzido": "Foram ao supermercado ontem.",
+        "ingles_traduzido": "They went to the supermarket yesterday."
+    },
+    {
+        "ingles_original": "She cleaned the kitchen after dinner.",
+        "portugues_traduzido": "Ela limpou a cozinha após jantar.",
+        "ingles_traduzido": "She cleaned the kitchen after dinner."
+    },
+    {
+        "ingles_original": "He traveled to Paris last year.",
+        "portugues_traduzido": "Viajou a Paris no ano passado.",
+        "ingles_traduzido": "Traveled to Paris last year."
+    },
+    {
+        "ingles_original": "face like thunder",
+        "portugues_traduzido": "Um rosto como trovão",
+        "ingles_traduzido": "A face of thunder."
+    },
+    {
+        "ingles_original": "I am learning how to cook.",
+        "portugues_traduzido": "Estou aprendendo a cozinhar.",
+        "ingles_traduzido": "I am learning to cook."
+    },
+    {
+        "ingles_original": "She is wearing a red dress.",
+        "portugues_traduzido": "Ela está usando um vestido vermelho.",
+        "ingles_traduzido": "She is wearing a red dress."
+    },
+    {
+        "ingles_original": "come rain or shine",
+        "portugues_traduzido": "Chove ou não chove.",
+        "ingles_traduzido": "It rains or it doesn't."
+    },
+    {
+        "ingles_original": "get the ball rolling",
+        "portugues_traduzido": "Pôr a roda girando",
+        "ingles_traduzido": "Get the ball rolling."
+    },
+    {
+        "ingles_original": "He went to the gym for a workout session.",
+        "portugues_traduzido": "Ele foi ao gimnasium para uma sessão de treino.",
+        "ingles_traduzido": "He went to the gym for a training session."
+    },
+    {
+        "ingles_original": "He is drinking tea in the morning.",
+        "portugues_traduzido": "Ele está tomando chá pela manhã.",
+        "ingles_traduzido": "He is having tea in the morning."
+    },
+    {
+        "ingles_original": "They enjoyed a family dinner together.",
+        "portugues_traduzido": "Eles aproveitaram uma ceia familiar juntos.",
+        "ingles_traduzido": "They enjoyed a family dinner together."
+    },
+    {
+        "ingles_original": "They are playing basketball in the yard.",
+        "portugues_traduzido": "Eles estão jogando basquete no quintal.",
+        "ingles_traduzido": "They are playing basketball in the backyard."
+    },
+    {
+        "ingles_original": "blood, sweat, and tears",
+        "portugues_traduzido": "Sangue, suor e lágrimas.",
+        "ingles_traduzido": "Blood, sweat and tears."
+    },
+    {
+        "ingles_original": "flying high",
+        "portugues_traduzido": "Voador alto.",
+        "ingles_traduzido": "High-flier."
+    },
+    {
+        "ingles_original": "bring home the bacon",
+        "portugues_traduzido": "Trazer o lanche para casa.",
+        "ingles_traduzido": "\"Taking a snack home.\""
+    },
+    {
+        "ingles_original": "give someone the cold shoulder",
+        "portugues_traduzido": "Dar um ombro frio a alguém.",
+        "ingles_traduzido": "Offer someone a cold shoulder."
+    },
+    {
+        "ingles_original": "bite your tongue",
+        "portugues_traduzido": "Morda a língua",
+        "ingles_traduzido": "Bite your tongue."
+    },
+    {
+        "ingles_original": "all in a day's work",
+        "portugues_traduzido": "Parte do normal do trabalho.",
+        "ingles_traduzido": "Part of regular work."
+    },
+    {
+        "ingles_original": "eyes in the back of your head",
+        "portugues_traduzido": "Olhos no canto da mente.",
+        "ingles_traduzido": "Eyes in the corner of the mind."
+    },
+    {
+        "ingles_original": "He ate his breakfast quickly.",
+        "portugues_traduzido": "Ele comiu seu café da manhã rapidamente.",
+        "ingles_traduzido": "He ate his breakfast quickly."
+    },
+    {
+        "ingles_original": "back on your feet",
+        "portugues_traduzido": "De volta nos pés.",
+        "ingles_traduzido": "Back on your feet."
+    },
+    {
+        "ingles_original": "blood, sweat, and tears",
+        "portugues_traduzido": "Sangue, suor e lágrimas.",
+        "ingles_traduzido": "Blood, sweat and tears."
+    },
+    {
+        "ingles_original": "They are driving to the countryside.",
+        "portugues_traduzido": "Eles estão se dirigindo para o campo.",
+        "ingles_traduzido": "They are heading for the fields."
+    },
+    {
+        "ingles_original": "She cooked dinner for her family.",
+        "portugues_traduzido": "Ela preparou jantar para sua família.",
+        "ingles_traduzido": "She prepared dinner for her family."
+    },
+    {
+        "ingles_original": "ace in the hole",
+        "portugues_traduzido": "Carta baixa.",
+        "ingles_traduzido": "Low tide."
+    },
+    {
+        "ingles_original": "hard as nails",
+        "portugues_traduzido": "Duro como unha de sapo.",
+        "ingles_traduzido": "As tough as a toad's toenail."
+    },
+    {
+        "ingles_original": "kill two birds with one stone",
+        "portugues_traduzido": "Matar dois coelhos com uma pedrada.",
+        "ingles_traduzido": "Kill two birds with one stone."
+    },
+    {
+        "ingles_original": "black and blue",
+        "portugues_traduzido": "Azul e preto",
+        "ingles_traduzido": "Blue and Black"
+    },
+    {
+        "ingles_original": "how the cookie crumbles",
+        "portugues_traduzido": "Assim vai a vida.",
+        "ingles_traduzido": "\"That's life.\""
+    },
+    {
+        "ingles_original": "He played video games all evening.",
+        "portugues_traduzido": "Ele jogou videogames a noite toda.",
+        "ingles_traduzido": "He played video games all night."
+    },
+    {
+        "ingles_original": "all bark and no bite",
+        "portugues_traduzido": "Falar sem agir.",
+        "ingles_traduzido": "Talk without action."
+    },
+    {
+        "ingles_original": "beef up",
+        "portugues_traduzido": "Reforçar a segurança.",
+        "ingles_traduzido": "To bolster security."
+    },
+    {
+        "ingles_original": "be on cloud nine",
+        "portugues_traduzido": "Estar em seventh heaven.",
+        "ingles_traduzido": "To be in seventh heaven."
+    },
+    {
+        "ingles_original": "They traveled to the mountains for vacation.",
+        "portugues_traduzido": "Eles viajaram às montanhas para feriado.",
+        "ingles_traduzido": "They traveled to the mountains for a holiday."
+    },
+    {
+        "ingles_original": "They went on a road trip last summer.",
+        "portugues_traduzido": "Eles foram em uma viagem de carro no verão passado.",
+        "ingles_traduzido": "They went on a road trip last summer."
+    },
+    {
+        "ingles_original": "clear the air",
+        "portugues_traduzido": "Clarificar as coisas.",
+        "ingles_traduzido": "Clarify things."
+    },
+    {
+        "ingles_original": "cat got your tongue",
+        "portugues_traduzido": "A gata levou a sua língua.",
+        "ingles_traduzido": "The cat carried off its tongue."
+    },
+    {
+        "ingles_original": "as busy as a bee",
+        "portugues_traduzido": "tantrico quanto uma abelha",
+        "ingles_traduzido": "As tantric as a bee."
+    },
+    {
+        "ingles_original": "They are visiting their friends in the city.",
+        "portugues_traduzido": "Eles estão visitando seus amigos na cidade.",
+        "ingles_traduzido": "They are visiting their friends in the city."
+    },
+    {
+        "ingles_original": "come out of your shell",
+        "portugues_traduzido": "Sair da sua concha.",
+        "ingles_traduzido": "Come out of your shell."
+    },
+    {
+        "ingles_original": "a storm in a teacup",
+        "portugues_traduzido": "Uma tempestade em um copo de chá.",
+        "ingles_traduzido": "A storm in a teacup."
+    },
+    {
+        "ingles_original": "a tower of strength",
+        "portugues_traduzido": "Uma torre de força",
+        "ingles_traduzido": "A Pillar of Strength"
+    },
+    {
+        "ingles_original": "all's fair in love and war",
+        "portugues_traduzido": "tudo vale pela amizade e pela guerra",
+        "ingles_traduzido": "Friendship and war are worth everything."
+    },
+    {
+        "ingles_original": "She is doing her hair in front of the mirror.",
+        "portugues_traduzido": "Ela está fazendo o cabelo na frente do espelho.",
+        "ingles_traduzido": "She is styling her hair in front of the mirror."
+    },
+    {
+        "ingles_original": "all the world's a stage",
+        "portugues_traduzido": "Tudo o mundo é um palco.",
+        "ingles_traduzido": "The world is a stage."
+    },
+    {
+        "ingles_original": "if the shoe fits, wear it",
+        "portugues_traduzido": "Se o sapato cabe, use-o.",
+        "ingles_traduzido": "If it fits, wear it."
+    },
+    {
+        "ingles_original": "They have three children.",
+        "portugues_traduzido": "Eles têm três filhos.",
+        "ingles_traduzido": "They have three children."
+    },
+    {
+        "ingles_original": "She is preparing for a job interview.",
+        "portugues_traduzido": "Ela está se preparando para uma entrevista de emprego.",
+        "ingles_traduzido": "She's getting ready for a job interview."
+    },
+    {
+        "ingles_original": "They had a barbecue in the backyard.",
+        "portugues_traduzido": "Eles fizeram um churrasco no fundo da casa.",
+        "ingles_traduzido": "They had a barbecue at the back of the house."
+    },
+    {
+        "ingles_original": "bite the bullet",
+        "portugues_traduzido": "Tomar a poção amarga.",
+        "ingles_traduzido": "To swallow the bitter draught."
+    },
+    {
+        "ingles_original": "They went hiking in the mountains.",
+        "portugues_traduzido": "Eles foram hiking nas montanhas.",
+        "ingles_traduzido": "They went hiking in the mountains."
+    },
+    {
+        "ingles_original": "keep your chin up",
+        "portugues_traduzido": "Manter o queixo para cima.",
+        "ingles_traduzido": "Keep your chin up."
+    },
+    {
+        "ingles_original": "cut from the same cloth",
+        "portugues_traduzido": "Homens de igual coração",
+        "ingles_traduzido": "Men of like hearts"
+    },
+    {
+        "ingles_original": "full plate",
+        "portugues_traduzido": "prato cheio",
+        "ingles_traduzido": "Platter full"
+    },
+    {
+        "ingles_original": "alive and kicking",
+        "portugues_traduzido": "Com vida e forte.",
+        "ingles_traduzido": "With life and vigor."
+    },
+    {
+        "ingles_original": "a place in the sun",
+        "portugues_traduzido": "Um lugar ao sol.",
+        "ingles_traduzido": "A place in the sun."
+    },
+    {
+        "ingles_original": "They went to the zoo with the kids.",
+        "portugues_traduzido": "Eles foram ao zoológico com os filhos.",
+        "ingles_traduzido": "They took the children to the zoo."
+    },
+    {
+        "ingles_original": "I took a photo of the beautiful sunset.",
+        "portugues_traduzido": "Fui até o lugar e fiz algumas fotos.",
+        "ingles_traduzido": "I went to the place and took some photos."
+    },
+    {
+        "ingles_original": "bad egg",
+        "portugues_traduzido": "Ovo podre.",
+        "ingles_traduzido": "This egg is rotten."
+    },
+    {
+        "ingles_original": "back to square one",
+        "portugues_traduzido": "Voltar à linha de partida.",
+        "ingles_traduzido": "Return to the starting line."
+    },
+    {
+        "ingles_original": "break the ice",
+        "portugues_traduzido": "Quebrar o gelo",
+        "ingles_traduzido": "Breaking the ice."
+    },
+    {
+        "ingles_original": "The train arrived at the station on time.",
+        "portugues_traduzido": "O trem chegou à estação no horário.",
+        "ingles_traduzido": "The train arrived at the station on time."
+    },
+    {
+        "ingles_original": "She took a nap after lunch.",
+        "portugues_traduzido": "Ela dormiu um pouco após o almoço.",
+        "ingles_traduzido": "She slept a bit after lunch."
+    },
+    {
+        "ingles_original": "He is watering the plants.",
+        "portugues_traduzido": "Ele está regando as plantas.",
+        "ingles_traduzido": "He is watering the plants."
+    },
+    {
+        "ingles_original": "at the helm",
+        "portugues_traduzido": "À frente do leme.",
+        "ingles_traduzido": "At the helm."
+    },
+    {
+        "ingles_original": "The dog is playing outside.",
+        "portugues_traduzido": "O cão está brincando fora de casa.",
+        "ingles_traduzido": "The dog is playing outside."
+    },
+    {
+        "ingles_original": "coming full circle",
+        "portugues_traduzido": "Voltar ao ponto de partida",
+        "ingles_traduzido": "Go back to square one."
+    },
+    {
+        "ingles_original": "hold your horses",
+        "portugues_traduzido": "Aguardem um pouco.",
+        "ingles_traduzido": "Wait a minute."
+    },
+    {
+        "ingles_original": "as smooth as silk",
+        "portugues_traduzido": "suave como seda",
+        "ingles_traduzido": "Soft as silk."
+    },
+    {
+        "ingles_original": "a shot in the dark",
+        "portugues_traduzido": "Um tiro à cega.",
+        "ingles_traduzido": "A shot in the dark."
+    },
+    {
+        "ingles_original": "burst at the seams",
+        "portugues_traduzido": "Estalar os pontos fortes ou rebentar em cada canto.",
+        "ingles_traduzido": "Burst every seam or blow every corner."
+    },
+    {
+        "ingles_original": "They went to a concert last night.",
+        "portugues_traduzido": "Foram a um concerto ontem à noite.",
+        "ingles_traduzido": "They went to a concert last night."
+    },
+    {
+        "ingles_original": "cat got your tongue",
+        "portugues_traduzido": "A gata levou a sua língua.",
+        "ingles_traduzido": "The cat took its tongue."
+    },
+    {
+        "ingles_original": "They are having a discussion in the classroom.",
+        "portugues_traduzido": "Eles estão tendo uma discussão na sala de aula.",
+        "ingles_traduzido": "They are having a discussion in the classroom."
+    },
+    {
+        "ingles_original": "behind the eight ball",
+        "portugues_traduzido": "Por detrás da bola oito.",
+        "ingles_traduzido": "Behind the Eight Ball."
+    },
+    {
+        "ingles_original": "She is painting a picture on the canvas.",
+        "portugues_traduzido": "Ela está pintando uma imagem na tela de canvas.",
+        "ingles_traduzido": "She is painting an image on the canvas screen."
+    },
+    {
+        "ingles_original": "against the grain",
+        "portugues_traduzido": "Contra a corrente.",
+        "ingles_traduzido": "Against the tide."
+    },
+    {
+        "ingles_original": "She is typing on her computer.",
+        "portugues_traduzido": "Ela está digitando no seu computador.",
+        "ingles_traduzido": "She's typing on her computer."
+    },
+    {
+        "ingles_original": "left out in the cold",
+        "portugues_traduzido": "Deixado de fora no frio.",
+        "ingles_traduzido": "Left out in the cold."
+    },
+    {
+        "ingles_original": "don't judge a book by its cover",
+        "portugues_traduzido": "Não julgue um livro pela capa.",
+        "ingles_traduzido": "\"Judge a book by its cover.\""
+    },
+    {
+        "ingles_original": "bend over backward",
+        "portugues_traduzido": "Fazer o possível para ajudar ou agradar.",
+        "ingles_traduzido": "Do one's best to help or please."
+    },
+    {
+        "ingles_original": "back to the grind",
+        "portugues_traduzido": "Voltando à rotina.",
+        "ingles_traduzido": "Returning to routine."
+    },
+    {
+        "ingles_original": "let sleeping dogs lie",
+        "portugues_traduzido": "Deixe os cães dormindo.",
+        "ingles_traduzido": "Let the dogs lie."
+    },
+    {
+        "ingles_original": "a snowball's chance in hell",
+        "portugues_traduzido": " Uma chance de bola de neve naquele inferno.",
+        "ingles_traduzido": "A chance to play with snow in that hell."
+    },
+    {
+        "ingles_original": "fighting a losing battle",
+        "portugues_traduzido": "Lutar uma batalha perdida",
+        "ingles_traduzido": "Fighting a lost battle"
+    },
+    {
+        "ingles_original": "a fish out of water",
+        "portugues_traduzido": "Um peixe fora d'água.",
+        "ingles_traduzido": "A fish out of water."
+    },
+    {
+        "ingles_original": "hit the ground running",
+        "portugues_traduzido": "Dar início às coisas logo.",
+        "ingles_traduzido": "To get things started sooner."
+    },
+    {
+        "ingles_original": "heart of stone",
+        "portugues_traduzido": "Cor de pedra",
+        "ingles_traduzido": "Stone colour."
+    },
+    {
+        "ingles_original": "He took a walk in the park.",
+        "portugues_traduzido": "Ele deu um passeio no parque.",
+        "ingles_traduzido": "He gave a stroll in the park."
+    },
+    {
+        "ingles_original": "They are enjoying a cup of coffee together.",
+        "portugues_traduzido": "Eles estão gostando de um café juntos.",
+        "ingles_traduzido": "They are enjoying a coffee together."
+    },
+    {
+        "ingles_original": "I made a cup of tea for myself.",
+        "portugues_traduzido": "Fiz um chá para mim mesmo.",
+        "ingles_traduzido": "I made myself a cup of tea."
+    },
+    {
+        "ingles_original": "cooking up a storm",
+        "portugues_traduzido": "Preparar uma tempestade na cozinha.",
+        "ingles_traduzido": "Stirring up a storm in the kitchen."
+    },
+    {
+        "ingles_original": "fall through the cracks",
+        "portugues_traduzido": "Caírem nos espaços vazios",
+        "ingles_traduzido": "We fell into empty spaces."
+    },
+    {
+        "ingles_original": "bend over backwards",
+        "portugues_traduzido": "Fazer o possível por alguém",
+        "ingles_traduzido": "To do one's best for someone."
+    },
+    {
+        "ingles_original": "dance with the devil",
+        "portugues_traduzido": "Dansar com o diabo.",
+        "ingles_traduzido": "Dancing with the devil."
+    },
+    {
+        "ingles_original": "dark horse",
+        "portugues_traduzido": "Cavalo bizarro",
+        "ingles_traduzido": "Weird Horse"
+    },
+    {
+        "ingles_original": "She enjoys walking in the park.",
+        "portugues_traduzido": "Ela gosta de caminhar pelo parque.",
+        "ingles_traduzido": "She likes walking in the park."
+    },
+    {
+        "ingles_original": "go the extra mile",
+        "portugues_traduzido": "Ir além do que se espera",
+        "ingles_traduzido": "Going beyond what is expected."
+    },
+    {
+        "ingles_original": "He is looking out the window at the rain.",
+        "portugues_traduzido": "Ele está olhando pela janela para a chuva.",
+        "ingles_traduzido": "He is looking out the window at the rain."
+    },
+    {
+        "ingles_original": "feeling under the weather",
+        "portugues_traduzido": "Estar um pouco doente",
+        "ingles_traduzido": "To feel slightly unwell."
+    },
+    {
+        "ingles_original": "bridge the gap",
+        "portugues_traduzido": "Preencher a lacuna.",
+        "ingles_traduzido": "Fill the gap."
+    },
+    {
+        "ingles_original": "clear as crystal",
+        "portugues_traduzido": "transparente como cristal",
+        "ingles_traduzido": "As transparent as crystal."
+    },
+    {
+        "ingles_original": "actions speak louder than words",
+        "portugues_traduzido": "As ações falam mais alto do que as palavras.",
+        "ingles_traduzido": "Actions speak louder than words."
+    },
+    {
+        "ingles_original": "cutting corners",
+        "portugues_traduzido": "Tomar atalhos",
+        "ingles_traduzido": "Taking shortcuts."
+    },
+    {
+        "ingles_original": "cost an arm and a leg",
+        "portugues_traduzido": "Custar o braço direito e uma perna.",
+        "ingles_traduzido": "To cry out of one's right arm and one leg."
+    },
+    {
+        "ingles_original": "a far cry",
+        "portugues_traduzido": "Um longe demais",
+        "ingles_traduzido": "Too far away"
+    },
+    {
+        "ingles_original": "carry the torch",
+        "portugues_traduzido": "Carregar a tocha.",
+        "ingles_traduzido": "Light the torch."
+    },
+    {
+        "ingles_original": "chew the fat",
+        "portugues_traduzido": "Falar pelas costas de alguém",
+        "ingles_traduzido": "Speak over someone's back."
+    },
+    {
+        "ingles_original": "at a snail's pace",
+        "portugues_traduzido": "Ao ritmo de uma escargote.",
+        "ingles_traduzido": "At the pace of a snail."
+    },
+    {
+        "ingles_original": "He is taking a nap on the couch.",
+        "portugues_traduzido": "Ele está dormindo na sofa.",
+        "ingles_traduzido": "He is sleeping on the sofa."
+    },
+    {
+        "ingles_original": "dressed to kill",
+        "portugues_traduzido": "Vestido para matar.",
+        "ingles_traduzido": "Dressed to kill."
+    },
+    {
+        "ingles_original": "all in your head",
+        "portugues_traduzido": "Tudo na sua cabeça.",
+        "ingles_traduzido": "Everything on her mind."
+    },
+    {
+        "ingles_original": "He is writing a story for school.",
+        "portugues_traduzido": "Ele está escrevendo uma história para a escola.",
+        "ingles_traduzido": "He is writing a story for school."
+    },
+    {
+        "ingles_original": "She painted a picture of a landscape.",
+        "portugues_traduzido": "Ela pintou uma imagem de um paisagem.",
+        "ingles_traduzido": "She painted an image of a landscape."
+    },
+    {
+        "ingles_original": "banging your head against a brick wall",
+        "portugues_traduzido": "bateu o papo contra uma parede",
+        "ingles_traduzido": "He hit his head against the wall."
+    },
+    {
+        "ingles_original": "She is visiting her grandmother in the hospital.",
+        "portugues_traduzido": "Ela está visitando sua avó no hospital.",
+        "ingles_traduzido": "She is visiting her grandmother in the hospital."
+    },
+    {
+        "ingles_original": "She had a meeting with her boss.",
+        "portugues_traduzido": "Ela teve uma reunião com seu chefe.",
+        "ingles_traduzido": "She had a meeting with her boss."
+    },
+    {
+        "ingles_original": "She is knitting a scarf for winter.",
+        "portugues_traduzido": "Ela está tecendo um cachecol para o inverno.",
+        "ingles_traduzido": "She is knitting a scarf for winter."
+    },
+    {
+        "ingles_original": "She took the train to the city.",
+        "portugues_traduzido": "Ela pegou o trem para a cidade.",
+        "ingles_traduzido": "She took the train to the city."
+    },
+    {
+        "ingles_original": "break a leg",
+        "portugues_traduzido": "Boa sorte.",
+        "ingles_traduzido": "Good luck."
+    },
+    {
+        "ingles_original": "They are taking pictures in front of the monument.",
+        "portugues_traduzido": "Eles estão tirando fotos em frente ao monumento.",
+        "ingles_traduzido": "They are taking pictures in front of the monument."
+    },
+    {
+        "ingles_original": "They went for a walk in the park.",
+        "portugues_traduzido": "Eles foram a uma caminhada no parque.",
+        "ingles_traduzido": "They went for a walk in the park."
+    },
+    {
+        "ingles_original": "below the belt",
+        "portugues_traduzido": "Fora do contexto, abaixo da cintura ou abaixo da linha.",
+        "ingles_traduzido": "Out of context, below the waist or below the line."
+    },
+    {
+        "ingles_original": "caught red-handed",
+        "portugues_traduzido": "Pego na flagra.",
+        "ingles_traduzido": "Caught red-handed."
+    },
+    {
+        "ingles_original": "make a mountain out of a molehill",
+        "portugues_traduzido": "Dar uma montanha para um morro.",
+        "ingles_traduzido": "Giving a mountain to a hill."
+    },
+    {
+        "ingles_original": "burning bridges",
+        "portugues_traduzido": "Queimar pontes",
+        "ingles_traduzido": "Burning bridges"
+    },
+    {
+        "ingles_original": "burn a hole in your pocket",
+        "portugues_traduzido": "Arder um buraco no seu bolso.",
+        "ingles_traduzido": "Burning a hole in your pocket."
+    },
+    {
+        "ingles_original": "He is waiting for the bus.",
+        "portugues_traduzido": "Ele está aguardando o ônibus.",
+        "ingles_traduzido": "He is waiting for the bus."
+    },
+    {
+        "ingles_original": "better safe than sorry",
+        "portugues_traduzido": "Melhor seguro do que arrependido.",
+        "ingles_traduzido": "Better safe than sorry."
+    },
+    {
+        "ingles_original": "burnt to a crisp",
+        "portugues_traduzido": "Queimado a ferro e fogo",
+        "ingles_traduzido": "Basted in fire and brimstone."
+    },
+    {
+        "ingles_original": "They are doing laundry in the basement.",
+        "portugues_traduzido": "Eles estão fazendo a lavanderia no porão.",
+        "ingles_traduzido": "They are doing the laundry in the basement."
+    },
+    {
+        "ingles_original": "as light as a feather",
+        "portugues_traduzido": "Leve como uma pluma.",
+        "ingles_traduzido": "Lifted as a feather."
+    },
+    {
+        "ingles_original": "as fit as a fiddle",
+        "portugues_traduzido": "como uma viola de sapatão",
+        "ingles_traduzido": "Like a fiddle made of woodblock."
+    },
+    {
+        "ingles_original": "They are going for a run in the morning.",
+        "portugues_traduzido": "Eles vão correr pela manhã.",
+        "ingles_traduzido": "They will run in the morning."
+    },
+    {
+        "ingles_original": "adding insult to injury",
+        "portugues_traduzido": "Agravar um ferimento.",
+        "ingles_traduzido": "Exacerbate an injury."
+    },
+    {
+        "ingles_original": "apple of discord",
+        "portugues_traduzido": "Coração de ouro.",
+        "ingles_traduzido": "Heart of Gold."
+    },
+    {
+        "ingles_original": "broken dreams",
+        "portugues_traduzido": "Sonhos quebrados.",
+        "ingles_traduzido": "Broken dreams."
+    },
+    {
+        "ingles_original": "bitten by the bug",
+        "portugues_traduzido": "Ocupado pela mosca.",
+        "ingles_traduzido": "Bugged."
+    },
+    {
+        "ingles_original": "blown away",
+        "portugues_traduzido": "Levado pela metade.",
+        "ingles_traduzido": "Carried by half."
+    },
+    {
+        "ingles_original": "big shoes to fill",
+        "portugues_traduzido": "Sapatos grandes para ser preenchidos.",
+        "ingles_traduzido": "Big shoes to fill."
+    },
+    {
+        "ingles_original": "He is cleaning the garage.",
+        "portugues_traduzido": "Ele está limpando o garagem.",
+        "ingles_traduzido": "He is cleaning the garage."
+    },
+    {
+        "ingles_original": "She played tennis with her brother.",
+        "portugues_traduzido": "Ela jogou tênis com seu irmão.",
+        "ingles_traduzido": "She played tennis with her brother."
+    },
+    {
+        "ingles_original": "grasp at straws",
+        "portugues_traduzido": "Arranhar em vão",
+        "ingles_traduzido": "Flogging a dead horse"
+    },
+    {
+        "ingles_original": "coming up roses",
+        "portugues_traduzido": "Chegando tudo bem",
+        "ingles_traduzido": "Arriving safely."
+    },
+    {
+        "ingles_original": "The car stopped at the red light.",
+        "portugues_traduzido": "O carro parou no sinal vermelho.",
+        "ingles_traduzido": "The car stopped at the red light."
+    },
+    {
+        "ingles_original": "They are sitting around the campfire.",
+        "portugues_traduzido": "Eles estão sentados em torno da fogueira do acampamento.",
+        "ingles_traduzido": "They are sitting around the campfire."
+    },
+    {
+        "ingles_original": "He is working out in the gym.",
+        "portugues_traduzido": "Ele está se exercitando no ginásio.",
+        "ingles_traduzido": "He is working out at the gym."
+    },
+    {
+        "ingles_original": "She is playing with her cat.",
+        "portugues_traduzido": "Ela está brincando com o gato.",
+        "ingles_traduzido": "She is playing with the cat."
+    },
+    {
+        "ingles_original": "He is fixing the car.",
+        "portugues_traduzido": "Ele está reparando o carro.",
+        "ingles_traduzido": "He is fixing the car."
+    },
+    {
+        "ingles_original": "I like to read books in the evening.",
+        "portugues_traduzido": "Gosto de ler livros à noite.",
+        "ingles_traduzido": "I like to read books at night."
+    },
+    {
+        "ingles_original": "They went to a museum last month.",
+        "portugues_traduzido": "Eles foram a um museu o mês passado.",
+        "ingles_traduzido": "They went to a museum last month."
+    },
+    {
+        "ingles_original": "They went to the library to borrow books.",
+        "portugues_traduzido": "Eles foram à biblioteca para emprestar livros.",
+        "ingles_traduzido": "They went to the library to borrow books."
+    },
+    {
+        "ingles_original": "flying off the handle",
+        "portugues_traduzido": "Perder a calma ou o controle, ou seja, se assustar ou ficar muito irritado de repente.",
+        "ingles_traduzido": "Lose one's temper or composure, that is, to panic or become extremely irritable suddenly."
+    },
+    {
+        "ingles_original": "catch lightning in a bottle",
+        "portugues_traduzido": "Apanhar raios em uma garrafa.",
+        "ingles_traduzido": "Catching lightning in a bottle."
+    },
+    {
+        "ingles_original": "bare your soul",
+        "portugues_traduzido": "Revelar seu íntimo.",
+        "ingles_traduzido": "To reveal your intimate side."
+    },
+    {
+        "ingles_original": "They met their friends at the café.",
+        "portugues_traduzido": "Eles se encontraram com seus amigos no café.",
+        "ingles_traduzido": "They met up with their friends at the café."
+    },
+    {
+        "ingles_original": "jump the gun",
+        "portugues_traduzido": "Pular a corda.",
+        "ingles_traduzido": "To swing on the trapeze."
+    },
+    {
+        "ingles_original": "She worked on her project all afternoon.",
+        "portugues_traduzido": "Trabalhou em seu projeto todo o período da tarde.",
+        "ingles_traduzido": "He worked on his project throughout the whole afternoon."
+    },
+    {
+        "ingles_original": "bury the hatchet",
+        "portugues_traduzido": "Colher os flocos de neve.",
+        "ingles_traduzido": "Shake off the snowflakes."
+    },
+    {
+        "ingles_original": "They are watching TV in the living room.",
+        "portugues_traduzido": "Eles estão assistindo à TV no salão.",
+        "ingles_traduzido": "They are watching TV in the living room."
+    },
+    {
+        "ingles_original": "They are eating lunch together.",
+        "portugues_traduzido": "Eles estão jantando juntos.",
+        "ingles_traduzido": "They are dining together."
+    },
+    {
+        "ingles_original": "He is taking a walk around the block.",
+        "portugues_traduzido": "Ele está fazendo uma caminhada ao redor da quadra.",
+        "ingles_traduzido": "He is taking a walk around the yard."
+    },
+    {
+        "ingles_original": "hit the nail on the head",
+        "portugues_traduzido": "Acertar na mosca.",
+        "ingles_traduzido": "To hit the nail on the head."
+    },
+    {
+        "ingles_original": "He sent an email to his colleague.",
+        "portugues_traduzido": "Ele enviou um e-mail para seu colega.",
+        "ingles_traduzido": "He sent an email to his colleague."
+    },
+    {
+        "ingles_original": "carry a torch",
+        "portugues_traduzido": "Levar a faixa.",
+        "ingles_traduzido": "Take the ribbon."
+    },
+    {
+        "ingles_original": "They took a bus to the city center.",
+        "portugues_traduzido": "Eles pegaram um ônibus para o centro da cidade.",
+        "ingles_traduzido": "They took a bus to the city centre."
+    },
+    {
+        "ingles_original": "eat your heart out",
+        "portugues_traduzido": "Esvazie-se o coração!",
+        "ingles_traduzido": "Empty out the heart!"
+    },
+    {
+        "ingles_original": "I did the laundry yesterday.",
+        "portugues_traduzido": "Fiz a lavanderia ontem.",
+        "ingles_traduzido": "\"I did the laundry yesterday.\""
+    },
+    {
+        "ingles_original": "They are taking a walk along the beach.",
+        "portugues_traduzido": "Eles estão fazendo uma caminhada ao longo da praia.",
+        "ingles_traduzido": "They are taking a walk along the beach."
+    },
+    {
+        "ingles_original": "a weight on my shoulders",
+        "portugues_traduzido": "Um peso sobre os meus ombros.",
+        "ingles_traduzido": "A weight on my shoulders."
+    },
+    {
+        "ingles_original": "can't cut the mustard",
+        "portugues_traduzido": "Não dar certo, não ter sucesso.",
+        "ingles_traduzido": "Not to succeed, to fail."
+    },
+    {
+        "ingles_original": "come down to earth",
+        "portugues_traduzido": "Aterrar na realidade.",
+        "ingles_traduzido": "Crash-landing into reality."
+    },
+    {
+        "ingles_original": "She is writing a letter to her friend.",
+        "portugues_traduzido": "Ela está escrevendo uma carta para sua amiga.",
+        "ingles_traduzido": "She is writing a letter to her friend."
+    },
+    {
+        "ingles_original": "bad apple",
+        "portugues_traduzido": "Maçã podre",
+        "ingles_traduzido": "Rotten Apple"
+    },
+    {
+        "ingles_original": "apple of my eye",
+        "portugues_traduzido": "O fruto dos meus olhos",
+        "ingles_traduzido": "The fruit of my eyes."
+    },
+    {
+        "ingles_original": "She is making a salad for lunch.",
+        "portugues_traduzido": "Ela está preparando uma salada para o almoço.",
+        "ingles_traduzido": "She is preparing a salad for lunch."
+    },
+    {
+        "ingles_original": "He repaired the broken chair.",
+        "portugues_traduzido": "Ele reparou a cadeira quebrada.",
+        "ingles_traduzido": "He fixed the broken chair."
+    },
+    {
+        "ingles_original": "icing on the cake",
+        "portugues_traduzido": "O ponto alto da sobremesa",
+        "ingles_traduzido": "The pièce de résistance."
+    },
+    {
+        "ingles_original": "She went to the dentist for a check-up.",
+        "portugues_traduzido": "Ela foi ao dentista para uma revisão.",
+        "ingles_traduzido": "She went to the dentist for a checkup."
+    },
+    {
+        "ingles_original": "armed to the teeth",
+        "portugues_traduzido": "Armadinho de bala.",
+        "ingles_traduzido": "Little bullet."
+    },
+    {
+        "ingles_original": "Water boils at 100°C.",
+        "portugues_traduzido": "A água ferve a 100°C.",
+        "ingles_traduzido": "Water boils at 100°C."
+    },
+    {
+        "ingles_original": "red herring",
+        "portugues_traduzido": "Pista falsa",
+        "ingles_traduzido": "Misdirection"
+    },
+    {
+        "ingles_original": "have a lot on your plate",
+        "portugues_traduzido": "Ter muita coisa na sua escrivaninha.",
+        "ingles_traduzido": "You've got a lot on your desk."
+    },
+    {
+        "ingles_original": "a clean slate",
+        "portugues_traduzido": "Uma folha em branco.",
+        "ingles_traduzido": "A blank page."
+    },
+    {
+        "ingles_original": "feeding the fire",
+        "portugues_traduzido": "Alimentar o fogo.",
+        "ingles_traduzido": "Nourish the fire."
+    },
+    {
+        "ingles_original": "finding a needle in a haystack",
+        "portugues_traduzido": "encontrar uma agulha em um palheiro",
+        "ingles_traduzido": "Find a needle in a haystack."
+    },
+    {
+        "ingles_original": "She is shopping for groceries.",
+        "portugues_traduzido": "Ela está comprando comidas para o supermercado.",
+        "ingles_traduzido": "She is buying groceries for the supermarket."
+    },
+    {
+        "ingles_original": "born with a silver spoon",
+        "portugues_traduzido": "nascido com uma colher de prata.",
+        "ingles_traduzido": "Born with a silver spoon."
+    },
+    {
+        "ingles_original": "let the cat out of the bag",
+        "portugues_traduzido": "Deixar o rato escapar do saco.",
+        "ingles_traduzido": "To let the cat out of the bag."
+    },
+    {
+        "ingles_original": "black mark",
+        "portugues_traduzido": "Vista desfavorável.",
+        "ingles_traduzido": "Unfavorable view."
+    },
+    {
+        "ingles_original": "call it a day",
+        "portugues_traduzido": "Deixar para amanhã",
+        "ingles_traduzido": "Leave for tomorrow."
+    },
+    {
+        "ingles_original": "batten down the hatches",
+        "portugues_traduzido": "Fechar as portinhas.",
+        "ingles_traduzido": "Close the shutters."
+    },
+    {
+        "ingles_original": "call it a night",
+        "portugues_traduzido": "Dar por encerrado o dia",
+        "ingles_traduzido": "Closing out the day."
+    },
+    {
+        "ingles_original": "I worked on my computer for two hours.",
+        "portugues_traduzido": "Trabalhei na minha computadora por duas horas.",
+        "ingles_traduzido": "I worked on my computer for two hours."
+    },
+    {
+        "ingles_original": "man of the hour",
+        "portugues_traduzido": "Homem da hora",
+        "ingles_traduzido": "Man of the moment"
+    },
+    {
+        "ingles_original": "from the bottom of my heart",
+        "portugues_traduzido": "De todo o fundo do meu coração.",
+        "ingles_traduzido": "From the bottom of my heart."
+    },
+    {
+        "ingles_original": "beat around the bush",
+        "portugues_traduzido": "Falar em torno do botão.",
+        "ingles_traduzido": "Talk around the button."
+    },
+    {
+        "ingles_original": "go the extra mile",
+        "portugues_traduzido": "Ir além do necessário.",
+        "ingles_traduzido": "To go beyond what is necessary."
+    },
+    {
+        "ingles_original": "down to earth",
+        "portugues_traduzido": "Afeito à terra.",
+        "ingles_traduzido": "Attached to the earth."
+    },
+    {
+        "ingles_original": "They are chatting in the living room.",
+        "portugues_traduzido": "Eles estão conversando na sala de estar.",
+        "ingles_traduzido": "They are talking in the living room."
+    },
+    {
+        "ingles_original": "The dog ran across the yard.",
+        "portugues_traduzido": "O cão correu pela varanda.",
+        "ingles_traduzido": "The dog ran across the porch."
+    },
+    {
+        "ingles_original": "bigger fish to fry",
+        "portugues_traduzido": "Peixes maiores para cozinhar",
+        "ingles_traduzido": "Large fish for cooking."
+    },
+    {
+        "ingles_original": "climbing the walls",
+        "portugues_traduzido": "Subir as paredes.",
+        "ingles_traduzido": "Painting the walls."
+    },
+    {
+        "ingles_original": "as clear as day",
+        "portugues_traduzido": "Tão claro como o dia.",
+        "ingles_traduzido": "As clear as the day."
+    },
+    {
+        "ingles_original": "like a fish out of water",
+        "portugues_traduzido": "Como um peixe fora d'água.",
+        "ingles_traduzido": "Out of water like a fish."
+    },
+    {
+        "ingles_original": "like father, like son",
+        "portugues_traduzido": "Como pai, como filho.",
+        "ingles_traduzido": "As a father, as a son."
+    },
+    {
+        "ingles_original": "blaze a trail",
+        "portugues_traduzido": "Cortar um caminho",
+        "ingles_traduzido": "To cut a path"
+    },
+    {
+        "ingles_original": "dare to dream",
+        "portugues_traduzido": "Coragem de sonhar.",
+        "ingles_traduzido": "Courage to dream."
+    },
+    {
+        "ingles_original": "at your wit’s end",
+        "portugues_traduzido": "Chegou ao fim do seu conhecimento.",
+        "ingles_traduzido": "Reached the end of his knowledge."
+    },
+    {
+        "ingles_original": "a piece of cake",
+        "portugues_traduzido": "Um bocadinho de bolo.",
+        "ingles_traduzido": "A small slice of cake."
+    },
+    {
+        "ingles_original": "call the shots",
+        "portugues_traduzido": "Tomar as decisões.",
+        "ingles_traduzido": "To make decisions."
+    },
+    {
+        "ingles_original": "close call",
+        "portugues_traduzido": "Um fio de cabelo.",
+        "ingles_traduzido": "A single strand of hair."
+    },
+    {
+        "ingles_original": "against the clock",
+        "portugues_traduzido": "Contra o relógio.",
+        "ingles_traduzido": "Against the clock."
+    },
+    {
+        "ingles_original": "eye of the storm",
+        "portugues_traduzido": "Olho do furacão.",
+        "ingles_traduzido": "Eye of the hurricane."
+    },
+    {
+        "ingles_original": "don't count your chickens before they hatch",
+        "portugues_traduzido": "Não conte seus ovos antes de eles chocarem.",
+        "ingles_traduzido": "\"Don't count your chickens before they hatch.\""
+    },
+    {
+        "ingles_original": "They are having a family gathering at home.",
+        "portugues_traduzido": "Eles estão tendo uma reunião familiar em casa.",
+        "ingles_traduzido": "They're having a family reunion at home."
+    },
+    {
+        "ingles_original": "big time",
+        "portugues_traduzido": "Tempo de grandes coisas",
+        "ingles_traduzido": "Time of great things."
+    },
+    {
+        "ingles_original": "a drop in the ocean",
+        "portugues_traduzido": "Um pequeno pó de água no oceano.",
+        "ingles_traduzido": "A small droplet of water in the ocean."
+    },
+    {
+        "ingles_original": "big fish in a small pond",
+        "portugues_traduzido": "Peixe grande em um pequeno tanque.",
+        "ingles_traduzido": "A big fish in a small pond."
+    },
+    {
+        "ingles_original": "She studied for the test all week.",
+        "portugues_traduzido": "Ela estudou para a prova toda semana.",
+        "ingles_traduzido": "She studied for the exam every week."
+    },
+    {
+        "ingles_original": "against all odds",
+        "portugues_traduzido": "Contra todas as probabilidades.",
+        "ingles_traduzido": "Against all odds."
+    },
+    {
+        "ingles_original": "hit the nail on the head",
+        "portugues_traduzido": "Acertar na mosca.",
+        "ingles_traduzido": "Hit the nail on the head."
+    },
+    {
+        "ingles_original": "back against the wall",
+        "portugues_traduzido": "Roda contra a parede.",
+        "ingles_traduzido": "Back to the wall."
+    },
+    {
+        "ingles_original": "They watched the sunrise at the beach.",
+        "portugues_traduzido": "Eles observaram o nascer do sol na praia.",
+        "ingles_traduzido": "They observed the sunrise on the beach."
+    },
+    {
+        "ingles_original": "butter wouldn't melt",
+        "portugues_traduzido": "\"O queijo não derreteria\"",
+        "ingles_traduzido": "\"The cheese wouldn't melt.\""
+    },
+    {
+        "ingles_original": "a taste of their own medicine",
+        "portugues_traduzido": "Um gole de sua própria medicação.",
+        "ingles_traduzido": "An own goal of one's own medication."
+    },
+    {
+        "ingles_original": "She is organizing her closet.",
+        "portugues_traduzido": "Ela está organizando sua guarda-roupa.",
+        "ingles_traduzido": "She is organizing her closet."
+    },
+    {
+        "ingles_original": "She went to the gym for a workout.",
+        "portugues_traduzido": "Ela foi ao gimnásio para fazer exercícios físicos.",
+        "ingles_traduzido": "She went to the gym to do physical exercises."
+    },
+    {
+        "ingles_original": "dropping like flies",
+        "portugues_traduzido": "Caindo como moscas.",
+        "ingles_traduzido": "Falling like flies."
+    },
+    {
+        "ingles_original": "a taste of freedom",
+        "portugues_traduzido": "Um gostinho de liberdade.",
+        "ingles_traduzido": "A taste of freedom."
+    },
+    {
+        "ingles_original": "hold your horses",
+        "portugues_traduzido": "Aguente um pouco.",
+        "ingles_traduzido": "Hold on a bit."
+    },
+    {
+        "ingles_original": "The weather is very cold today.",
+        "portugues_traduzido": "O tempo está muito frio hoje.",
+        "ingles_traduzido": "It's very cold today."
+    },
+    {
+        "ingles_original": "blood runs cold",
+        "portugues_traduzido": "O sangue frio corre na veia.",
+        "ingles_traduzido": "Cold blood runs in the veins."
+    },
+    {
+        "ingles_original": "don't cry over spilled milk",
+        "portugues_traduzido": "Não se chateie com leite derramado.",
+        "ingles_traduzido": "Don't sweat the small stuff."
+    },
+    {
+        "ingles_original": "back to basics",
+        "portugues_traduzido": "Voltar aos princípios básicos.",
+        "ingles_traduzido": "\"Return to basics.\""
+    },
+    {
+        "ingles_original": "go the extra mile",
+        "portugues_traduzido": "Ir além do necessário, agir com excedente, fazer o que está além do esperado.",
+        "ingles_traduzido": "To go beyond the necessary, act with excess, do what is beyond the expected."
+    },
+    {
+        "ingles_original": "carved in stone",
+        "portugues_traduzido": "Esculpidas na pedra.",
+        "ingles_traduzido": "Carved in stone."
+    },
+    {
+        "ingles_original": "She brushed her teeth before bed.",
+        "portugues_traduzido": "Ela escovou os dentes antes de dormir.",
+        "ingles_traduzido": "She brushed her teeth before sleep."
+    },
+    {
+        "ingles_original": "chip off the old block",
+        "portugues_traduzido": "Um pedaço da mesma madeira.",
+        "ingles_traduzido": "A piece of the same wood."
+    },
+    {
+        "ingles_original": "cat nap",
+        "portugues_traduzido": "Preguiçosa",
+        "ingles_traduzido": "Indolent"
+    },
+    {
+        "ingles_original": "chip on your shoulder",
+        "portugues_traduzido": "Um pontapé na bunda.",
+        "ingles_traduzido": "A kick in the pants."
+    },
+    {
+        "ingles_original": "as gentle as a lamb",
+        "portugues_traduzido": "Suave como um cordeiro.",
+        "ingles_traduzido": "As smooth as a lamb."
+    },
+    {
+        "ingles_original": "They went to a theme park for the day.",
+        "portugues_traduzido": "Eles foram a um parque de diversões durante o dia.",
+        "ingles_traduzido": "They went to an amusement park during the day."
+    },
+    {
+        "ingles_original": "burn the midnight oil",
+        "portugues_traduzido": "Queimar a meia-noite",
+        "ingles_traduzido": "\"Burn Midnight\""
+    },
+    {
+        "ingles_original": "blind leading the blind",
+        "portugues_traduzido": "O cego guiando o cego.",
+        "ingles_traduzido": "The blind leading the blind."
+    },
+    {
+        "ingles_original": "blue in the face",
+        "portugues_traduzido": "Morrer de azul.",
+        "ingles_traduzido": "Dying of blue."
+    },
+    {
+        "ingles_original": "She is taking a picture of the flowers in the garden.",
+        "portugues_traduzido": "Ela está tirando uma foto das flores no jardim.",
+        "ingles_traduzido": "She is taking a picture of the flowers in the garden."
+    },
+    {
+        "ingles_original": "They are having a barbecue in the garden.",
+        "portugues_traduzido": "Eles estão tendo um churrasco no jardim.",
+        "ingles_traduzido": "They are having a barbecue in the garden."
+    },
+    {
+        "ingles_original": "jump the gun",
+        "portugues_traduzido": "Pular o início.",
+        "ingles_traduzido": "Skip the start."
+    },
+    {
+        "ingles_original": "They are walking through the city streets.",
+        "portugues_traduzido": "Eles estão andando pelas ruas da cidade.",
+        "ingles_traduzido": "They are walking through the streets of the city."
+    },
+    {
+        "ingles_original": "She reads a book every night.",
+        "portugues_traduzido": "Ela lê um livro toda a noite.",
+        "ingles_traduzido": "She reads a book all night."
+    },
+    {
+        "ingles_original": "chained to the desk",
+        "portugues_traduzido": "Acorrentado à escrivaninha.",
+        "ingles_traduzido": "Hooked to the desk."
+    },
+    {
+        "ingles_original": "He did some gardening in the afternoon.",
+        "portugues_traduzido": "Ele fez alguns jardins pela tarde.",
+        "ingles_traduzido": "He did some gardens in the afternoon."
+    },
+    {
+        "ingles_original": "They enjoyed a picnic in the park.",
+        "portugues_traduzido": "Eles aproveitaram um piquenique no parque.",
+        "ingles_traduzido": "They enjoyed a picnic in the park."
+    },
+    {
+        "ingles_original": "dive in headfirst",
+        "portugues_traduzido": "Imergir cabeça primeira",
+        "ingles_traduzido": "Submerge head first."
+    },
+    {
+        "ingles_original": "have the upper hand",
+        "portugues_traduzido": "Ter a mão mais forte.",
+        "ingles_traduzido": "Having the upper hand."
+    },
+    {
+        "ingles_original": "She is ironing her clothes.",
+        "portugues_traduzido": "Ela está passando as roupas.",
+        "ingles_traduzido": "She's doing the laundry."
+    },
+    {
+        "ingles_original": "He plays soccer every weekend.",
+        "portugues_traduzido": "Ele joga futebol todos os fins de semana.",
+        "ingles_traduzido": "He plays football every weekend."
+    },
+    {
+        "ingles_original": "at the drop of a hat",
+        "portugues_traduzido": "Ao sinal dado.",
+        "ingles_traduzido": "On the signal."
+    },
+    {
+        "ingles_original": "have a heart of stone",
+        "portugues_traduzido": "Ter um cor de pedra.",
+        "ingles_traduzido": "To be stone-faced."
+    },
+    {
+        "ingles_original": "He worked on his computer for hours.",
+        "portugues_traduzido": "Ele trabalhou na sua computadora por horas.",
+        "ingles_traduzido": "He worked on his computer for hours."
+    },
+    {
+        "ingles_original": "airing dirty laundry",
+        "portugues_traduzido": "Expor a vergonha de alguém.",
+        "ingles_traduzido": "To expose someone to shame."
+    },
+    {
+        "ingles_original": "dead in the water",
+        "portugues_traduzido": "Sem chance",
+        "ingles_traduzido": "No chance"
+    },
+    {
+        "ingles_original": "another string to your bow",
+        "portugues_traduzido": "Outro corda a seu arco.",
+        "ingles_traduzido": "Another string to your bow."
+    },
+    {
+        "ingles_original": "easy come, easy go",
+        "portugues_traduzido": "Vem fácil, vai fácil.",
+        "ingles_traduzido": "It comes easy, it goes easy."
+    },
+    {
+        "ingles_original": "bend over backwards",
+        "portugues_traduzido": "Fazer favores até do avesso.",
+        "ingles_traduzido": "To do favors even at odd ends."
+    },
+    {
+        "ingles_original": "bolt from the blue",
+        "portugues_traduzido": "Mau agouro.",
+        "ingles_traduzido": "Bad omen."
+    },
+    {
+        "ingles_original": "dropping the ball",
+        "portugues_traduzido": "Deixar cair a bola",
+        "ingles_traduzido": "To drop the ball"
+    },
+    {
+        "ingles_original": "born with a silver spoon",
+        "portugues_traduzido": "Nascido com colher de prata.",
+        "ingles_traduzido": "Born with a silver spoon in one's mouth."
+    },
+    {
+        "ingles_original": "as plain as day",
+        "portugues_traduzido": "Claro como a luz do dia.",
+        "ingles_traduzido": "As clear as the light of day."
+    },
+    {
+        "ingles_original": "like a fish to water",
+        "portugues_traduzido": "Como um peixe na água.",
+        "ingles_traduzido": "Like a fish in the water."
+    },
+    {
+        "ingles_original": "change your tune",
+        "portugues_traduzido": "Mudar de música.",
+        "ingles_traduzido": "Change the music."
+    },
+    {
+        "ingles_original": "adding fuel to the fire",
+        "portugues_traduzido": "Aumentar a inflamação do fogo.",
+        "ingles_traduzido": "To fan the flames of inflammation."
+    },
+    {
+        "ingles_original": "They are playing board games in the living room.",
+        "portugues_traduzido": "Eles estão jogando jogos de tabuleiro na sala de estar.",
+        "ingles_traduzido": "They are playing board games in the living room."
+    },
+    {
+        "ingles_original": "dying to know",
+        "portugues_traduzido": "Morrer de curiosidade.",
+        "ingles_traduzido": "To die of curiosity."
+    },
+    {
+        "ingles_original": "She is making a smoothie for breakfast.",
+        "portugues_traduzido": "Ela está preparando um suco delicioso para o café da manhã.",
+        "ingles_traduzido": "She's preparing a delicious juice for breakfast."
+    },
+    {
+        "ingles_original": "in the same boat",
+        "portugues_traduzido": "No mesmo barco.",
+        "ingles_traduzido": "In the same boat."
+    },
+    {
+        "ingles_original": "better late than never",
+        "portugues_traduzido": "Melhor tarde do que nunca.",
+        "ingles_traduzido": "Better late than never."
+    },
+    {
+        "ingles_original": "frog in your throat",
+        "portugues_traduzido": "Lacrimejas na garganta",
+        "ingles_traduzido": "Gritting one's teeth."
+    },
+    {
+        "ingles_original": "down in the dumps",
+        "portugues_traduzido": "Com o ânimo abatido.",
+        "ingles_traduzido": "With a defeated spirit."
+    },
+    {
+        "ingles_original": "blood is thicker than water",
+        "portugues_traduzido": "\"O sangue é mais denso que a água.\"",
+        "ingles_traduzido": "Blood is denser than water."
+    },
+    {
+        "ingles_original": "as high as a kite",
+        "portugues_traduzido": "Tão alto quanto um vela.",
+        "ingles_traduzido": "Taller than a flagpost."
+    },
+    {
+        "ingles_original": "foot in the door",
+        "portugues_traduzido": "Pé na porta",
+        "ingles_traduzido": "Foot in the door"
+    },
+    {
+        "ingles_original": "crying over spilled milk",
+        "portugues_traduzido": "Lamentar por leite derramado.",
+        "ingles_traduzido": "To cry over spilt milk."
+    },
+    {
+        "ingles_original": "He is studying for his exams.",
+        "portugues_traduzido": "Ele está estudando para seus exames.",
+        "ingles_traduzido": "He is studying for his exams."
+    },
+    {
+        "ingles_original": "darkest before dawn",
+        "portugues_traduzido": "Mais escuro antes do amanhecer.",
+        "ingles_traduzido": "Darkness is heavier just before dawn."
+    },
+    {
+        "ingles_original": "They are taking a family vacation.",
+        "portugues_traduzido": "Eles estão indo em férias de família.",
+        "ingles_traduzido": "They're going on family vacation."
+    },
+    {
+        "ingles_original": "cat got your tongue",
+        "portugues_traduzido": "O gato cometeu sua língua.",
+        "ingles_traduzido": "The cat pulled its own tongue."
+    },
+    {
+        "ingles_original": "barking up the wrong tree",
+        "portugues_traduzido": "Errar no alvo ou perseguir um rumo errado",
+        "ingles_traduzido": "Miss the mark or pursue the wrong course."
+    },
+    {
+        "ingles_original": "bird's eye view",
+        "portugues_traduzido": "Visão de pássaro",
+        "ingles_traduzido": "Bird's eye view."
+    },
+    {
+        "ingles_original": "by a long shot",
+        "portugues_traduzido": "De longe",
+        "ingles_traduzido": "From a distance."
+    },
+    {
+        "ingles_original": "add insult to injury",
+        "portugues_traduzido": "Agravar a injúria",
+        "ingles_traduzido": "To add insult to injury."
+    }
+]
