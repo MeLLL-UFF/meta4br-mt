@@ -4,6 +4,29 @@ Este projeto visa estudar como LLMs (gpt, qwen, mistral e llama) fazem o back tr
 
 Além disso, iremos usar algumas métricas para julgar se a tradução está sendo boa ou não, usaremos [ROUGE](https://huggingface.co/spaces/evaluate-metric/rouge), [BLEU](https://huggingface.co/spaces/evaluate-metric/bleu), [BERTScore](https://huggingface.co/spaces/evaluate-metric/bertscore), [BLEURT](https://huggingface.co/spaces/evaluate-metric/bleurt) e [COMET](https://huggingface.co/spaces/evaluate-metric/comet), todas estão documentados no huggingface.
 
+Nessa pasta, ocorre o desenvolvimento da terceira vertente do projeto que consiste em fazer BackTranslation. Aqui iremos escolher dois datasets de metáforas em inglês para realizar a tradução dele para o português pelas LLMs e novamente para o inglês para checarmos se as frases se mantêm iguais. Para o dataset, escolhemos os menores que temos separados, que no caso foram os arquivos "common.parquet" com 70 frases e o "manual_data.parquet" com 718 frases.
+
+Dito isso, devemos rodar as farses do inglês para o português e depois do português para o inglês novamente. Para isso, iremos usar os seguintes prompts para conversar com as LLMs:
+
+
+promptPT = **"Traduzir a frase <frase> do inglês para o português. Apenas escreva a frase traduzida, nada além disso"** 
+
+promptEN = **"Traduzir a frase <frase> do português para o inglês. Apenas escreva a frase traduzida, nada além disso"**
+
+Se analisarmos que as respostas foram muito confusas, podemos analisar a melhora desses prompts, incluindo maiores detalhes e contextos.
+
+No arquivo genENtoPT temos:
+{
+    "fraseEN: "abc",
+    "traducaoPT": "dfg"
+}
+
+Depois, pegamos esse "traducaoPT" para virar a nova frase no arquivo genPTtoEN
+{
+    "frasePT": "dfg",
+    "traducaoEN": "hij"
+}
+
 Citação:
 **ROUGE**
 - @inproceedings{lin-2004-rouge,

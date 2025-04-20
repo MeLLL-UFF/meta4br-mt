@@ -4,7 +4,7 @@ from comet import download_model, load_from_checkpoint
 model_path = download_model("Unbabel/wmt22-comet-da")
 model = load_from_checkpoint(model_path)
 
-with open('qwen/frases_traduzidas_com_metricas.json', 'r', encoding='utf-8') as file:
+with open('dataset_manualdata/gemini/frases_traduzidas_com_metricas.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
     comet_data = []
@@ -22,7 +22,7 @@ with open('qwen/frases_traduzidas_com_metricas.json', 'r', encoding='utf-8') as 
     for i in range(len(dados)):
         dados[i]["COMET"] = {"scores" : scores[i]}
 
-    with open('qwen/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
+    with open('dataset_manualdata/gemini/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
         json.dump(dados, file, ensure_ascii=False, indent=4)
 
-    print("COMET scores computed and saved to 'qwen/frases_traduzidas_com_metricas.json'")
+    print("COMET scores computed and saved to 'dataset_manualdata/gemini/frases_traduzidas_com_metricas.json'")
