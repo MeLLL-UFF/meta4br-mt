@@ -3,31 +3,53 @@
         "ingles_original": "word becomes a rock",
         "portugues_traduzido": "A palavra torna-se uma rocha",
         "ingles_traduzido": "The word becomes a rock",
-        "tokens": [
+        "tokens_original": [
             "▁word",
             "▁becomes",
             "▁a",
             "▁rock"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁The",
+            "▁",
+            "word",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁rock"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "silence becomes a thunder",
         "portugues_traduzido": "o silêncio torna-se um trovão",
         "ingles_traduzido": "silence becomes a thunder",
-        "tokens": [
+        "tokens_original": [
             "▁silence",
             "▁becomes",
             "▁a",
             "▁thunder"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁silence",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁th",
+            "un",
+            "der"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "the doctor walks to the school.",
         "portugues_traduzido": "O médico vai até à escola.",
         "ingles_traduzido": "The doctor goes to school.",
-        "tokens": [
+        "tokens_original": [
             "▁the",
             "▁doctor",
             "▁walks",
@@ -36,109 +58,205 @@
             "▁school",
             "."
         ],
-        "num_tokens": 7
+        "num_tokens_original": 7,
+        "tokens_traduzido": [
+            "▁The",
+            "▁doctor",
+            "▁go",
+            "es",
+            "▁to",
+            "▁s",
+            "cho",
+            "ol",
+            "."
+        ],
+        "num_tokens_traduzido": 9
     },
     {
         "ingles_original": "strength becomes a diamond",
         "portugues_traduzido": "a força torna-se um diamante",
         "ingles_traduzido": "the force becomes a diamond",
-        "tokens": [
+        "tokens_original": [
             "▁strength",
             "▁becomes",
             "▁a",
             "▁diamond"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁the",
+            "▁force",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁dia",
+            "mond"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "time has a mountain",
         "portugues_traduzido": "tempo tem uma montanha",
         "ingles_traduzido": "Time has a mountain",
-        "tokens": [
+        "tokens_original": [
             "▁time",
             "▁has",
             "▁a",
             "▁mountain"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Tim",
+            "e",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁mo",
+            "un",
+            "tain"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "mind becomes a gold",
         "portugues_traduzido": "mente torna-se um ouro",
         "ingles_traduzido": "mind becomes a gold",
-        "tokens": [
+        "tokens_original": [
             "▁mind",
             "▁becomes",
             "▁a",
             "▁gold"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁mi",
+            "nd",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁gol",
+            "d"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "word has a rock",
         "portugues_traduzido": "A palavra tem uma pedra",
         "ingles_traduzido": "The word has a stone",
-        "tokens": [
+        "tokens_original": [
             "▁word",
             "▁has",
             "▁a",
             "▁rock"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁The",
+            "▁",
+            "word",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁sto",
+            "ne"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "dream has a star",
         "portugues_traduzido": "sonho tem uma estrela",
         "ingles_traduzido": "Dream has a star",
-        "tokens": [
+        "tokens_original": [
             "▁dream",
             "▁has",
             "▁a",
             "▁star"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁D",
+            "re",
+            "am",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁sta",
+            "r"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "passion is a light",
         "portugues_traduzido": "paixão é uma luz",
         "ingles_traduzido": "Passion is a light",
-        "tokens": [
+        "tokens_original": [
             "▁passion",
             "▁is",
             "▁a",
             "▁light"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Pas",
+            "sion",
+            "▁i",
+            "s",
+            "▁a",
+            "▁l",
+            "ight"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "courage has a sun",
         "portugues_traduzido": "coragem tem um sol",
         "ingles_traduzido": "courage has a sun",
-        "tokens": [
+        "tokens_original": [
             "▁courage",
             "▁has",
             "▁a",
             "▁sun"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁courage",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁su",
+            "n"
+        ],
+        "num_tokens_traduzido": 6
     },
     {
         "ingles_original": "passion has a light",
         "portugues_traduzido": "paixão tem uma luz",
         "ingles_traduzido": "Passion has a light",
-        "tokens": [
+        "tokens_original": [
             "▁passion",
             "▁has",
             "▁a",
             "▁light"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Pas",
+            "sion",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁l",
+            "ight"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "the driver visits the cafe.",
         "portugues_traduzido": "O motorista visita o café.",
         "ingles_traduzido": "The driver visits the coffee.",
-        "tokens": [
+        "tokens_original": [
             "▁the",
             "▁driver",
             "▁visits",
@@ -146,97 +264,187 @@
             "▁cafe",
             "."
         ],
-        "num_tokens": 6
+        "num_tokens_original": 6,
+        "tokens_traduzido": [
+            "▁The",
+            "▁driver",
+            "▁vis",
+            "it",
+            "s",
+            "▁the",
+            "▁co",
+            "ffe",
+            "e",
+            "."
+        ],
+        "num_tokens_traduzido": 10
     },
     {
         "ingles_original": "dream is a star",
         "portugues_traduzido": "sonho é uma estrela",
         "ingles_traduzido": "Dream is a star",
-        "tokens": [
+        "tokens_original": [
             "▁dream",
             "▁is",
             "▁a",
             "▁star"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁D",
+            "re",
+            "am",
+            "▁i",
+            "s",
+            "▁a",
+            "▁sta",
+            "r"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "spirit is a storm",
         "portugues_traduzido": "espírito é uma tempestade",
         "ingles_traduzido": "spirit is a storm",
-        "tokens": [
+        "tokens_original": [
             "▁spirit",
             "▁is",
             "▁a",
             "▁storm"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁spirit",
+            "▁i",
+            "s",
+            "▁a",
+            "▁s",
+            "tor",
+            "m"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "word is a rock",
         "portugues_traduzido": "A palavra é uma pedra",
         "ingles_traduzido": "The word is a stone",
-        "tokens": [
+        "tokens_original": [
             "▁word",
             "▁is",
             "▁a",
             "▁rock"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁The",
+            "▁",
+            "word",
+            "▁i",
+            "s",
+            "▁a",
+            "▁sto",
+            "ne"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "smile becomes a wind",
         "portugues_traduzido": "sorrir torna-se um vento",
         "ingles_traduzido": "♪ Smile becomes a wind ♪",
-        "tokens": [
+        "tokens_original": [
             "▁smile",
             "▁becomes",
             "▁a",
             "▁wind"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁♪",
+            "▁S",
+            "mi",
+            "le",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁wi",
+            "nd",
+            "▁♪"
+        ],
+        "num_tokens_traduzido": 11
     },
     {
         "ingles_original": "mind has a gold",
         "portugues_traduzido": "mente tem um ouro",
         "ingles_traduzido": "mind has a gold",
-        "tokens": [
+        "tokens_original": [
             "▁mind",
             "▁has",
             "▁a",
             "▁gold"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁mi",
+            "nd",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁gol",
+            "d"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "hope becomes a ice",
         "portugues_traduzido": "a esperança torna-se um gelo",
         "ingles_traduzido": "Hope becomes an ice",
-        "tokens": [
+        "tokens_original": [
             "▁hope",
             "▁becomes",
             "▁a",
             "▁ice"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Ho",
+            "pe",
+            "▁be",
+            "com",
+            "es",
+            "▁an",
+            "▁i",
+            "ce"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "love becomes a moon",
         "portugues_traduzido": "O amor torna-se uma lua",
         "ingles_traduzido": "Love becomes a moon",
-        "tokens": [
+        "tokens_original": [
             "▁love",
             "▁becomes",
             "▁a",
             "▁moon"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Love",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁mo",
+            "on"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "the artist works in the library.",
         "portugues_traduzido": "o artista trabalha na biblioteca.",
         "ingles_traduzido": "The artist works in the library.",
-        "tokens": [
+        "tokens_original": [
             "▁the",
             "▁artist",
             "▁works",
@@ -245,13 +453,27 @@
             "▁library",
             "."
         ],
-        "num_tokens": 7
+        "num_tokens_original": 7,
+        "tokens_traduzido": [
+            "▁The",
+            "▁arti",
+            "st",
+            "▁",
+            "work",
+            "s",
+            "▁in",
+            "▁the",
+            "▁libra",
+            "ry",
+            "."
+        ],
+        "num_tokens_traduzido": 11
     },
     {
         "ingles_original": "the chef writes the restaurant.",
         "portugues_traduzido": "O chef escreve o restaurante.",
         "ingles_traduzido": "The chef writes the restaurant.",
-        "tokens": [
+        "tokens_original": [
             "▁the",
             "▁chef",
             "▁writes",
@@ -259,25 +481,49 @@
             "▁restaurant",
             "."
         ],
-        "num_tokens": 6
+        "num_tokens_original": 6,
+        "tokens_traduzido": [
+            "▁The",
+            "▁chef",
+            "▁w",
+            "rite",
+            "s",
+            "▁the",
+            "▁restaurant",
+            "."
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "memory becomes a ocean",
         "portugues_traduzido": "memória torna-se um oceano",
         "ingles_traduzido": "memory becomes an ocean",
-        "tokens": [
+        "tokens_original": [
             "▁memory",
             "▁becomes",
             "▁a",
             "▁ocean"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁me",
+            "mor",
+            "y",
+            "▁be",
+            "com",
+            "es",
+            "▁an",
+            "▁o",
+            "ce",
+            "an"
+        ],
+        "num_tokens_traduzido": 10
     },
     {
         "ingles_original": "the child drinks the market.",
         "portugues_traduzido": "A criança bebe o mercado.",
         "ingles_traduzido": "The child drinks the market.",
-        "tokens": [
+        "tokens_original": [
             "▁the",
             "▁child",
             "▁drinks",
@@ -285,109 +531,206 @@
             "▁market",
             "."
         ],
-        "num_tokens": 6
+        "num_tokens_original": 6,
+        "tokens_traduzido": [
+            "▁The",
+            "▁chi",
+            "ld",
+            "▁d",
+            "rink",
+            "s",
+            "▁the",
+            "▁",
+            "market",
+            "."
+        ],
+        "num_tokens_traduzido": 10
     },
     {
         "ingles_original": "smile is a wind",
         "portugues_traduzido": "sorrir é um vento",
         "ingles_traduzido": "♪ Smile is a wind ♪",
-        "tokens": [
+        "tokens_original": [
             "▁smile",
             "▁is",
             "▁a",
             "▁wind"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁♪",
+            "▁S",
+            "mi",
+            "le",
+            "▁i",
+            "s",
+            "▁a",
+            "▁wi",
+            "nd",
+            "▁♪"
+        ],
+        "num_tokens_traduzido": 10
     },
     {
         "ingles_original": "courage is a sun",
         "portugues_traduzido": "coragem é um sol",
         "ingles_traduzido": "courage is a sun",
-        "tokens": [
+        "tokens_original": [
             "▁courage",
             "▁is",
             "▁a",
             "▁sun"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁courage",
+            "▁i",
+            "s",
+            "▁a",
+            "▁su",
+            "n"
+        ],
+        "num_tokens_traduzido": 6
     },
     {
         "ingles_original": "heart has a tree",
         "portugues_traduzido": "coração tem uma árvore",
         "ingles_traduzido": "heart has a tree",
-        "tokens": [
+        "tokens_original": [
             "▁heart",
             "▁has",
             "▁a",
             "▁tree"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁he",
+            "art",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁tre",
+            "e"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "love has a moon",
         "portugues_traduzido": "O amor tem uma lua",
         "ingles_traduzido": "Love has a moon",
-        "tokens": [
+        "tokens_original": [
             "▁love",
             "▁has",
             "▁a",
             "▁moon"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Love",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁mo",
+            "on"
+        ],
+        "num_tokens_traduzido": 6
     },
     {
         "ingles_original": "eye is a flame",
         "portugues_traduzido": "olho é uma chama",
         "ingles_traduzido": "Eye is a flame",
-        "tokens": [
+        "tokens_original": [
             "▁eye",
             "▁is",
             "▁a",
             "▁flame"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁E",
+            "ye",
+            "▁i",
+            "s",
+            "▁a",
+            "▁fla",
+            "me"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "time is a mountain",
         "portugues_traduzido": "o tempo é uma montanha",
         "ingles_traduzido": "Time is a mountain",
-        "tokens": [
+        "tokens_original": [
             "▁time",
             "▁is",
             "▁a",
             "▁mountain"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Tim",
+            "e",
+            "▁i",
+            "s",
+            "▁a",
+            "▁mo",
+            "un",
+            "tain"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "courage becomes a sun",
         "portugues_traduzido": "coragem torna-se um sol",
         "ingles_traduzido": "courage becomes a sun",
-        "tokens": [
+        "tokens_original": [
             "▁courage",
             "▁becomes",
             "▁a",
             "▁sun"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁courage",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁su",
+            "n"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "dream becomes a star",
         "portugues_traduzido": "sonho torna-se uma estrela",
         "ingles_traduzido": "Dream becomes a star",
-        "tokens": [
+        "tokens_original": [
             "▁dream",
             "▁becomes",
             "▁a",
             "▁star"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁D",
+            "re",
+            "am",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁sta",
+            "r"
+        ],
+        "num_tokens_traduzido": 9
     },
     {
         "ingles_original": "he walks to the park.",
         "portugues_traduzido": "Ele anda até ao parque.",
         "ingles_traduzido": "He's walking to the park.",
-        "tokens": [
+        "tokens_original": [
             "▁he",
             "▁walks",
             "▁to",
@@ -395,302 +738,582 @@
             "▁park",
             "."
         ],
-        "num_tokens": 6
+        "num_tokens_original": 6,
+        "tokens_traduzido": [
+            "▁He",
+            "'",
+            "s",
+            "▁wa",
+            "l",
+            "king",
+            "▁to",
+            "▁the",
+            "▁par",
+            "k",
+            "."
+        ],
+        "num_tokens_traduzido": 11
     },
     {
         "ingles_original": "mind is a gold",
         "portugues_traduzido": "mente é um ouro",
         "ingles_traduzido": "mind is a gold",
-        "tokens": [
+        "tokens_original": [
             "▁mind",
             "▁is",
             "▁a",
             "▁gold"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁mi",
+            "nd",
+            "▁i",
+            "s",
+            "▁a",
+            "▁gol",
+            "d"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "eye becomes a flame",
         "portugues_traduzido": "olho torna-se uma chama",
         "ingles_traduzido": "Eye becomes a flame",
-        "tokens": [
+        "tokens_original": [
             "▁eye",
             "▁becomes",
             "▁a",
             "▁flame"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁E",
+            "ye",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁fla",
+            "me"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "heart is a tree",
         "portugues_traduzido": "coração é uma árvore",
         "ingles_traduzido": "heart is a tree",
-        "tokens": [
+        "tokens_original": [
             "▁heart",
             "▁is",
             "▁a",
             "▁tree"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁he",
+            "art",
+            "▁i",
+            "s",
+            "▁a",
+            "▁tre",
+            "e"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "soul becomes a shadow",
         "portugues_traduzido": "alma torna-se uma sombra",
         "ingles_traduzido": "soul becomes a shadow",
-        "tokens": [
+        "tokens_original": [
             "▁soul",
             "▁becomes",
             "▁a",
             "▁shadow"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁sou",
+            "l",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁sha",
+            "do",
+            "w"
+        ],
+        "num_tokens_traduzido": 9
     },
     {
         "ingles_original": "time becomes a mountain",
         "portugues_traduzido": "o tempo torna-se uma montanha",
         "ingles_traduzido": "Time becomes a mountain",
-        "tokens": [
+        "tokens_original": [
             "▁time",
             "▁becomes",
             "▁a",
             "▁mountain"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Tim",
+            "e",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁mo",
+            "un",
+            "tain"
+        ],
+        "num_tokens_traduzido": 9
     },
     {
         "ingles_original": "she writes the office.",
         "portugues_traduzido": "Ela escreve o escritório.",
         "ingles_traduzido": "She writes the office.",
-        "tokens": [
+        "tokens_original": [
             "▁she",
             "▁writes",
             "▁the",
             "▁office",
             "."
         ],
-        "num_tokens": 5
+        "num_tokens_original": 5,
+        "tokens_traduzido": [
+            "▁She",
+            "▁w",
+            "rite",
+            "s",
+            "▁the",
+            "▁office",
+            "."
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "wisdom becomes a garden",
         "portugues_traduzido": "sabedoria torna-se um jardim",
         "ingles_traduzido": "wisdom becomes a garden",
-        "tokens": [
+        "tokens_original": [
             "▁wisdom",
             "▁becomes",
             "▁a",
             "▁garden"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁wi",
+            "s",
+            "dom",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁garde",
+            "n"
+        ],
+        "num_tokens_traduzido": 9
     },
     {
         "ingles_original": "soul is a shadow",
         "portugues_traduzido": "alma é uma sombra",
         "ingles_traduzido": "soul is a shadow",
-        "tokens": [
+        "tokens_original": [
             "▁soul",
             "▁is",
             "▁a",
             "▁shadow"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁sou",
+            "l",
+            "▁i",
+            "s",
+            "▁a",
+            "▁sha",
+            "do",
+            "w"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "wisdom has a garden",
         "portugues_traduzido": "sabedoria tem um jardim",
         "ingles_traduzido": "wisdom has a garden",
-        "tokens": [
+        "tokens_original": [
             "▁wisdom",
             "▁has",
             "▁a",
             "▁garden"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁wi",
+            "s",
+            "dom",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁garde",
+            "n"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "hope is a ice",
         "portugues_traduzido": "esperança é um gelo",
         "ingles_traduzido": "Hope is an ice",
-        "tokens": [
+        "tokens_original": [
             "▁hope",
             "▁is",
             "▁a",
             "▁ice"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Ho",
+            "pe",
+            "▁i",
+            "s",
+            "▁an",
+            "▁i",
+            "ce"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "spirit becomes a storm",
         "portugues_traduzido": "espírito torna-se uma tempestade",
         "ingles_traduzido": "spirit becomes a storm",
-        "tokens": [
+        "tokens_original": [
             "▁spirit",
             "▁becomes",
             "▁a",
             "▁storm"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁spirit",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁s",
+            "tor",
+            "m"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "hope has a ice",
         "portugues_traduzido": "esperança tem um gelo",
         "ingles_traduzido": "Hope has an ice",
-        "tokens": [
+        "tokens_original": [
             "▁hope",
             "▁has",
             "▁a",
             "▁ice"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Ho",
+            "pe",
+            "▁ha",
+            "s",
+            "▁an",
+            "▁i",
+            "ce"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "eye has a flame",
         "portugues_traduzido": "olho tem uma chama",
         "ingles_traduzido": "Eye has a flame",
-        "tokens": [
+        "tokens_original": [
             "▁eye",
             "▁has",
             "▁a",
             "▁flame"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁E",
+            "ye",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁fla",
+            "me"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "silence is a thunder",
         "portugues_traduzido": "o silêncio é um trovão",
         "ingles_traduzido": "Silence is a thunder",
-        "tokens": [
+        "tokens_original": [
             "▁silence",
             "▁is",
             "▁a",
             "▁thunder"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Si",
+            "le",
+            "nce",
+            "▁i",
+            "s",
+            "▁a",
+            "▁th",
+            "un",
+            "der"
+        ],
+        "num_tokens_traduzido": 9
     },
     {
         "ingles_original": "passion becomes a light",
         "portugues_traduzido": "paixão torna-se uma luz",
         "ingles_traduzido": "passion becomes a light",
-        "tokens": [
+        "tokens_original": [
             "▁passion",
             "▁becomes",
             "▁a",
             "▁light"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁passion",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁l",
+            "ight"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "life is a river",
         "portugues_traduzido": "a vida é um rio",
         "ingles_traduzido": "life is a river",
-        "tokens": [
+        "tokens_original": [
             "▁life",
             "▁is",
             "▁a",
             "▁river"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁",
+            "life",
+            "▁i",
+            "s",
+            "▁a",
+            "▁ri",
+            "ver"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "silence has a thunder",
         "portugues_traduzido": "o silêncio tem um trovão",
         "ingles_traduzido": "The silence has a thunder",
-        "tokens": [
+        "tokens_original": [
             "▁silence",
             "▁has",
             "▁a",
             "▁thunder"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁The",
+            "▁silence",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁th",
+            "un",
+            "der"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "life has a river",
         "portugues_traduzido": "a vida tem um rio",
         "ingles_traduzido": "life has a river",
-        "tokens": [
+        "tokens_original": [
             "▁life",
             "▁has",
             "▁a",
             "▁river"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁",
+            "life",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁ri",
+            "ver"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "memory is a ocean",
         "portugues_traduzido": "memória é um oceano",
         "ingles_traduzido": "memory is an ocean",
-        "tokens": [
+        "tokens_original": [
             "▁memory",
             "▁is",
             "▁a",
             "▁ocean"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁me",
+            "mor",
+            "y",
+            "▁i",
+            "s",
+            "▁an",
+            "▁o",
+            "ce",
+            "an"
+        ],
+        "num_tokens_traduzido": 9
     },
     {
         "ingles_original": "voice becomes a iron",
         "portugues_traduzido": "a voz torna-se um ferro",
         "ingles_traduzido": "the voice becomes an iron",
-        "tokens": [
+        "tokens_original": [
             "▁voice",
             "▁becomes",
             "▁a",
             "▁iron"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁the",
+            "▁voi",
+            "ce",
+            "▁be",
+            "com",
+            "es",
+            "▁an",
+            "▁i",
+            "ron"
+        ],
+        "num_tokens_traduzido": 9
     },
     {
         "ingles_original": "smile has a wind",
         "portugues_traduzido": "sorrir tem um vento",
         "ingles_traduzido": "♪ Smile there's a wind ♪",
-        "tokens": [
+        "tokens_original": [
             "▁smile",
             "▁has",
             "▁a",
             "▁wind"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁♪",
+            "▁S",
+            "mi",
+            "le",
+            "▁the",
+            "re",
+            "'",
+            "s",
+            "▁a",
+            "▁wi",
+            "nd",
+            "▁♪"
+        ],
+        "num_tokens_traduzido": 12
     },
     {
         "ingles_original": "heart becomes a tree",
         "portugues_traduzido": "coração torna-se uma árvore",
         "ingles_traduzido": "heart becomes a tree",
-        "tokens": [
+        "tokens_original": [
             "▁heart",
             "▁becomes",
             "▁a",
             "▁tree"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁he",
+            "art",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁tre",
+            "e"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "memory has a ocean",
         "portugues_traduzido": "memória tem um oceano",
         "ingles_traduzido": "memory has an ocean",
-        "tokens": [
+        "tokens_original": [
             "▁memory",
             "▁has",
             "▁a",
             "▁ocean"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁me",
+            "mor",
+            "y",
+            "▁ha",
+            "s",
+            "▁an",
+            "▁o",
+            "ce",
+            "an"
+        ],
+        "num_tokens_traduzido": 9
     },
     {
         "ingles_original": "life becomes a river",
         "portugues_traduzido": "a vida torna-se um rio",
         "ingles_traduzido": "life becomes a river",
-        "tokens": [
+        "tokens_original": [
             "▁life",
             "▁becomes",
             "▁a",
             "▁river"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁",
+            "life",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁ri",
+            "ver"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "my friend drinks the store.",
         "portugues_traduzido": "O meu amigo bebe a loja.",
         "ingles_traduzido": "My friend drinks the store.",
-        "tokens": [
+        "tokens_original": [
             "▁my",
             "▁friend",
             "▁drinks",
@@ -698,25 +1321,49 @@
             "▁store",
             "."
         ],
-        "num_tokens": 6
+        "num_tokens_original": 6,
+        "tokens_traduzido": [
+            "▁My",
+            "▁fri",
+            "end",
+            "▁d",
+            "rink",
+            "s",
+            "▁the",
+            "▁s",
+            "tore",
+            "."
+        ],
+        "num_tokens_traduzido": 10
     },
     {
         "ingles_original": "soul has a shadow",
         "portugues_traduzido": "alma tem uma sombra",
         "ingles_traduzido": "soul has a shadow",
-        "tokens": [
+        "tokens_original": [
             "▁soul",
             "▁has",
             "▁a",
             "▁shadow"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁sou",
+            "l",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁sha",
+            "do",
+            "w"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "the teacher visits the museum.",
         "portugues_traduzido": "o professor visita o museu.",
         "ingles_traduzido": "The teacher visits the museum.",
-        "tokens": [
+        "tokens_original": [
             "▁the",
             "▁teacher",
             "▁visits",
@@ -724,13 +1371,28 @@
             "▁museum",
             "."
         ],
-        "num_tokens": 6
+        "num_tokens_original": 6,
+        "tokens_traduzido": [
+            "▁The",
+            "▁te",
+            "a",
+            "cher",
+            "▁vis",
+            "it",
+            "s",
+            "▁the",
+            "▁mus",
+            "e",
+            "um",
+            "."
+        ],
+        "num_tokens_traduzido": 12
     },
     {
         "ingles_original": "the student works in the hospital.",
         "portugues_traduzido": "o aluno trabalha no hospital.",
         "ingles_traduzido": "The student works at the hospital.",
-        "tokens": [
+        "tokens_original": [
             "▁the",
             "▁student",
             "▁works",
@@ -739,126 +1401,245 @@
             "▁hospital",
             "."
         ],
-        "num_tokens": 7
+        "num_tokens_original": 7,
+        "tokens_traduzido": [
+            "▁The",
+            "▁s",
+            "tu",
+            "dent",
+            "▁",
+            "work",
+            "s",
+            "▁a",
+            "t",
+            "▁the",
+            "▁hospital",
+            "."
+        ],
+        "num_tokens_traduzido": 12
     },
     {
         "ingles_original": "strength is a diamond",
         "portugues_traduzido": "a força é um diamante",
         "ingles_traduzido": "The force is a diamond.",
-        "tokens": [
+        "tokens_original": [
             "▁strength",
             "▁is",
             "▁a",
             "▁diamond"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁The",
+            "▁force",
+            "▁i",
+            "s",
+            "▁a",
+            "▁dia",
+            "mond",
+            "."
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "voice has a iron",
         "portugues_traduzido": "voz tem um ferro",
         "ingles_traduzido": "voice has an iron",
-        "tokens": [
+        "tokens_original": [
             "▁voice",
             "▁has",
             "▁a",
             "▁iron"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁voi",
+            "ce",
+            "▁ha",
+            "s",
+            "▁an",
+            "▁i",
+            "ron"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "fear becomes a fire",
         "portugues_traduzido": "O medo torna-se um fogo",
         "ingles_traduzido": "Fear becomes a fire",
-        "tokens": [
+        "tokens_original": [
             "▁fear",
             "▁becomes",
             "▁a",
             "▁fire"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Fe",
+            "ar",
+            "▁be",
+            "com",
+            "es",
+            "▁a",
+            "▁fi",
+            "re"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "spirit has a storm",
         "portugues_traduzido": "espírito tem uma tempestade",
         "ingles_traduzido": "spirit has a storm",
-        "tokens": [
+        "tokens_original": [
             "▁spirit",
             "▁has",
             "▁a",
             "▁storm"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁spirit",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁s",
+            "tor",
+            "m"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "love is a moon",
         "portugues_traduzido": "O amor é uma lua",
         "ingles_traduzido": "Love is a moon",
-        "tokens": [
+        "tokens_original": [
             "▁love",
             "▁is",
             "▁a",
             "▁moon"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Love",
+            "▁i",
+            "s",
+            "▁a",
+            "▁mo",
+            "on"
+        ],
+        "num_tokens_traduzido": 6
     },
     {
         "ingles_original": "voice is a iron",
         "portugues_traduzido": "a voz é um ferro",
         "ingles_traduzido": "The voice is an iron",
-        "tokens": [
+        "tokens_original": [
             "▁voice",
             "▁is",
             "▁a",
             "▁iron"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁The",
+            "▁voi",
+            "ce",
+            "▁i",
+            "s",
+            "▁an",
+            "▁i",
+            "ron"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "fear has a fire",
         "portugues_traduzido": "O medo tem um fogo",
         "ingles_traduzido": "Fear has a fire",
-        "tokens": [
+        "tokens_original": [
             "▁fear",
             "▁has",
             "▁a",
             "▁fire"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Fe",
+            "ar",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁fi",
+            "re"
+        ],
+        "num_tokens_traduzido": 7
     },
     {
         "ingles_original": "wisdom is a garden",
         "portugues_traduzido": "sabedoria é um jardim",
         "ingles_traduzido": "wisdom is a garden",
-        "tokens": [
+        "tokens_original": [
             "▁wisdom",
             "▁is",
             "▁a",
             "▁garden"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁wi",
+            "s",
+            "dom",
+            "▁i",
+            "s",
+            "▁a",
+            "▁garde",
+            "n"
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "strength has a diamond",
         "portugues_traduzido": "a força tem um diamante",
         "ingles_traduzido": "The force has a diamond.",
-        "tokens": [
+        "tokens_original": [
             "▁strength",
             "▁has",
             "▁a",
             "▁diamond"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁The",
+            "▁force",
+            "▁ha",
+            "s",
+            "▁a",
+            "▁dia",
+            "mond",
+            "."
+        ],
+        "num_tokens_traduzido": 8
     },
     {
         "ingles_original": "fear is a fire",
         "portugues_traduzido": "O medo é um fogo",
         "ingles_traduzido": "Fear is a fire",
-        "tokens": [
+        "tokens_original": [
             "▁fear",
             "▁is",
             "▁a",
             "▁fire"
         ],
-        "num_tokens": 4
+        "num_tokens_original": 4,
+        "tokens_traduzido": [
+            "▁Fe",
+            "ar",
+            "▁i",
+            "s",
+            "▁a",
+            "▁fi",
+            "re"
+        ],
+        "num_tokens_traduzido": 7
     }
 ]
