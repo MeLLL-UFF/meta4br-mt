@@ -12,13 +12,14 @@ client = openai.OpenAI(
 anotacoes = []
 for frase in df['Sentence']:
 
-    # prompt = f"Traduzir a frase '{frase}' do inglês para o português"
-    prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
+    prompt1 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
+    prompt2 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"
+
 
     response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "user", "content": prompt},
+                {"role": "user", "content": prompt2},
             ],
             max_tokens=2000
     )
@@ -32,7 +33,7 @@ for frase in df['Sentence']:
     anotacoes.append(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('dataset_manualdata/gpt/ENtoPT.json', 'w', encoding='utf-8') as f:
+    with open('dataset_manualdata/gpt/prompt2/ENtoPT.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
 
