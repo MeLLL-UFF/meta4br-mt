@@ -27,6 +27,14 @@ Depois, pegamos esse "traducaoPT" para virar a nova frase no arquivo genPTtoEN
     "traducaoEN": "hij"
 }
 
+Ordem que estou rodando os scripts:
+1) genENtoPT.py
+2) genPTtoEN.py
+3) script_juntar_jsons.py
+4) script_metricas.py
+5) script_comet.py
+6) script_tokens.py
+
 Citação:
 **ROUGE**
 - @inproceedings{lin-2004-rouge,
