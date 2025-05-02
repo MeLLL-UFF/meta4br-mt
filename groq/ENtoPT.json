@@ -1,42 +1,2874 @@
 [
-    {
-        "fraseEN": "crack the whip",
-        "traducaoPT": "esticar o chicote"
-    },
-    {
-        "fraseEN": "blow off steam",
-        "traducaoPT": "Desabafar"
-    },
-    {
-        "fraseEN": "let the cat out of the bag",
-        "traducaoPT": "Deixar o gato sair da bolsa."
-    },
-    {
-        "fraseEN": "They are riding bicycles in the neighborhood.",
-        "traducaoPT": "Eles estão andando de bicicleta no bairro."
-    },
-    {
-        "fraseEN": "He likes to watch movies in his free time.",
-        "traducaoPT": "Ele gosta de assistir a filmes no seu tempo livre."
-    },
-    {
-        "fraseEN": "She enjoys painting in her free time.",
-        "traducaoPT": "Ela gosta de pintar no tempo livre."
-    },
-    {
-        "fraseEN": "bite off more than you can chew",
-        "traducaoPT": "Morder mais do que se pode mastigar"
-    },
-    {
-        "fraseEN": "my hands are tied",
-        "traducaoPT": "minhas mãos estão atadas"
-    },
-    {
-        "fraseEN": "dime a dozen",
-        "traducaoPT": "uma dúzia por ninharia"
-    },
-    {
-        "fraseEN": "They are having a picnic in the park.",
-        "traducaoPT": "Eles estão fazendo um piquenique no parque."
-    }
+     {
+          "fraseEN": "crack the whip",
+          "traducaoPT": "dará um ultimato"
+     },
+     {
+          "fraseEN": "blow off steam",
+          "traducaoPT": "desabafar"
+     },
+     {
+          "fraseEN": "let the cat out of the bag",
+          "traducaoPT": "Deixar o gato sair da bolsa"
+     },
+     {
+          "fraseEN": "They are riding bicycles in the neighborhood.",
+          "traducaoPT": "Eles estão andando de bicicletas no bairro."
+     },
+     {
+          "fraseEN": "He likes to watch movies in his free time.",
+          "traducaoPT": "Ele gosta de assistir a filmes no seu tempo livre."
+     },
+     {
+          "fraseEN": "She enjoys painting in her free time.",
+          "traducaoPT": "Ela gosta de pintar no seu tempo livre."
+     },
+     {
+          "fraseEN": "bite off more than you can chew",
+          "traducaoPT": "Morder mais do que pode mastigar"
+     },
+     {
+          "fraseEN": "my hands are tied",
+          "traducaoPT": "minhas mãos estão atadas"
+     },
+     {
+          "fraseEN": "dime a dozen",
+          "traducaoPT": "um por dúzia"
+     },
+     {
+          "fraseEN": "They are having a picnic in the park.",
+          "traducaoPT": "Eles estão fazendo um piquenique no parque."
+     },
+     {
+          "fraseEN": "leave no stone unturned",
+          "traducaoPT": "Não deixar pedra sobre pedra"
+     },
+     {
+          "fraseEN": "hold the fort",
+          "traducaoPT": "Segure a fortaleza"
+     },
+     {
+          "fraseEN": "He is putting the groceries away.",
+          "traducaoPT": "Ele está guardando as compras."
+     },
+     {
+          "fraseEN": "fit as a fiddle",
+          "traducaoPT": "em perfeita forma"
+     },
+     {
+          "fraseEN": "an iron fist",
+          "traducaoPT": "um punho de ferro"
+     },
+     {
+          "fraseEN": "beggars can’t be choosers",
+          "traducaoPT": "Mendigos não podem ser difíceis."
+     },
+     {
+          "fraseEN": "card up your sleeve",
+          "traducaoPT": "um ás na manga"
+     },
+     {
+          "fraseEN": "beating around the bush",
+          "traducaoPT": "Dar voltas ao assunto"
+     },
+     {
+          "fraseEN": "She is giving a speech at the conference.",
+          "traducaoPT": "Ela está fazendo um discurso na conferência."
+     },
+     {
+          "fraseEN": "She wrote a report for work.",
+          "traducaoPT": "Ela escreveu um relatório para o trabalho."
+     },
+     {
+          "fraseEN": "ace up your sleeve",
+          "traducaoPT": "um ás na manga"
+     },
+     {
+          "fraseEN": "an open book",
+          "traducaoPT": "um livro aberto"
+     },
+     {
+          "fraseEN": "She is giving a presentation at work.",
+          "traducaoPT": "Ela está fazendo uma apresentação no trabalho."
+     },
+     {
+          "fraseEN": "He went to a birthday party last night.",
+          "traducaoPT": "Ele foi a uma festa de aniversário ontem à noite."
+     },
+     {
+          "fraseEN": "color outside the lines",
+          "traducaoPT": "pintar fora das linhas"
+     },
+     {
+          "fraseEN": "easy as pie",
+          "traducaoPT": "tão fácil quanto um bolo"
+     },
+     {
+          "fraseEN": "blind as a bat",
+          "traducaoPT": "cego como uma toupeira"
+     },
+     {
+          "fraseEN": "change of heart",
+          "traducaoPT": "Mudança de coração"
+     },
+     {
+          "fraseEN": "food for thought",
+          "traducaoPT": "comida para o pensamento"
+     },
+     {
+          "fraseEN": "black as night",
+          "traducaoPT": "preto como a noite"
+     },
+     {
+          "fraseEN": "a chip on your shoulder",
+          "traducaoPT": "um peso na consciência"
+     },
+     {
+          "fraseEN": "close to my heart",
+          "traducaoPT": "perto do meu coração"
+     },
+     {
+          "fraseEN": "apple of my eye",
+          "traducaoPT": "maçã do meu olho"
+     },
+     {
+          "fraseEN": "get the show on the road",
+          "traducaoPT": "Começar o espetáculo"
+     },
+     {
+          "fraseEN": "easy as pie",
+          "traducaoPT": "Fácil como andar de bicicleta"
+     },
+     {
+          "fraseEN": "back to square one",
+          "traducaoPT": "De volta à estaca zero"
+     },
+     {
+          "fraseEN": "devil's advocate",
+          "traducaoPT": "Advogado do diabo"
+     },
+     {
+          "fraseEN": "She went to the library to study.",
+          "traducaoPT": "Ela foi à biblioteca para estudar."
+     },
+     {
+          "fraseEN": "fit as a fiddle",
+          "traducaoPT": "saudável como uma rosa"
+     },
+     {
+          "fraseEN": "They went to the theater to watch a play.",
+          "traducaoPT": "Eles foram ao teatro para assistir a uma peça."
+     },
+     {
+          "fraseEN": "falling through the cracks",
+          "traducaoPT": "Cair nas lacunas"
+     },
+     {
+          "fraseEN": "She made breakfast for the family.",
+          "traducaoPT": "Ela fez o café da manhã para a família."
+     },
+     {
+          "fraseEN": "She is talking on the phone.",
+          "traducaoPT": "Ela está falando ao telefone."
+     },
+     {
+          "fraseEN": "all bark and no bite",
+          "traducaoPT": "tudo fala e nenhuma ação"
+     },
+     {
+          "fraseEN": "apple of discord",
+          "traducaoPT": "maçã da discórdia"
+     },
+     {
+          "fraseEN": "spill the beans",
+          "traducaoPT": "contar tudo"
+     },
+     {
+          "fraseEN": "burn your bridges",
+          "traducaoPT": "Queimar suas pontes"
+     },
+     {
+          "fraseEN": "I need to buy groceries this afternoon.",
+          "traducaoPT": "Preciso comprar mantimentos esta tarde."
+     },
+     {
+          "fraseEN": "as bold as brass",
+          "traducaoPT": "tão descarado quanto uma cobra de pau"
+     },
+     {
+          "fraseEN": "close to the vest",
+          "traducaoPT": "Perto do peito"
+     },
+     {
+          "fraseEN": "blood is thicker than water",
+          "traducaoPT": "Sangue é mais espesso do que água"
+     },
+     {
+          "fraseEN": "back to the drawing board",
+          "traducaoPT": "De volta à prancheta de desenho"
+     },
+     {
+          "fraseEN": "She went to the post office to send a package.",
+          "traducaoPT": "Ela foi ao correio para enviar um pacote."
+     },
+     {
+          "fraseEN": "as right as rain",
+          "traducaoPT": "tão certo quanto água é molhada"
+     },
+     {
+          "fraseEN": "He is planning his day ahead.",
+          "traducaoPT": "Ele está planejando seu dia adiante."
+     },
+     {
+          "fraseEN": "She took a shower in the morning.",
+          "traducaoPT": "Ela tomou um banho de manhã."
+     },
+     {
+          "fraseEN": "best of both worlds",
+          "traducaoPT": "O melhor de dois mundos"
+     },
+     {
+          "fraseEN": "antsy as a cat on a hot tin roof",
+          "traducaoPT": "inquieta como um gato em um telhado de zinco quente"
+     },
+     {
+          "fraseEN": "He is building a model airplane.",
+          "traducaoPT": "Ele está construindo um avião de modelo."
+     },
+     {
+          "fraseEN": "devil's advocate",
+          "traducaoPT": "advogado do diabo"
+     },
+     {
+          "fraseEN": "burst your bubble",
+          "traducaoPT": "estourar sua bolha"
+     },
+     {
+          "fraseEN": "all eyes on you",
+          "traducaoPT": "Todos os olhos estão em você"
+     },
+     {
+          "fraseEN": "a skeleton in the closet",
+          "traducaoPT": "um esqueleto no armário"
+     },
+     {
+          "fraseEN": "He is attending a business meeting.",
+          "traducaoPT": "Ele está participando de uma reunião de negócios."
+     },
+     {
+          "fraseEN": "cool as a cucumber",
+          "traducaoPT": "Frio como um pepino"
+     },
+     {
+          "fraseEN": "He took the bus to work.",
+          "traducaoPT": "Ele pegou o ônibus para ir trabalhar."
+     },
+     {
+          "fraseEN": "as easy as pie",
+          "traducaoPT": "tão fácil como tirar mel de uma colmeia"
+     },
+     {
+          "fraseEN": "butterfly effect",
+          "traducaoPT": "Efeito Borboleta"
+     },
+     {
+          "fraseEN": "They watched a TV show in the evening.",
+          "traducaoPT": "Eles assistiram a um programa de TV à noite."
+     },
+     {
+          "fraseEN": "She is brushing her teeth before bed.",
+          "traducaoPT": "Ela está escovando os dentes antes de dormir."
+     },
+     {
+          "fraseEN": "blown out of the water",
+          "traducaoPT": "derrubado da água"
+     },
+     {
+          "fraseEN": "He is feeding his pet hamster.",
+          "traducaoPT": "Ele está alimentando seu hamster de estimação."
+     },
+     {
+          "fraseEN": "I like to drink coffee in the morning.",
+          "traducaoPT": "Eu gosto de beber café de manhã."
+     },
+     {
+          "fraseEN": "another day, another dollar",
+          "traducaoPT": "mais um dia, mais um dólar"
+     },
+     {
+          "fraseEN": "actions speak louder than words",
+          "traducaoPT": "Ações falam mais alto do que palavras."
+     },
+     {
+          "fraseEN": "climbing up the ladder",
+          "traducaoPT": "subindo a escada"
+     },
+     {
+          "fraseEN": "early bird catches the worm",
+          "traducaoPT": "Quem madruga, aproveita."
+     },
+     {
+          "fraseEN": "She is baking cookies in the kitchen.",
+          "traducaoPT": "Ela está assando biscoitos na cozinha."
+     },
+     {
+          "fraseEN": "bleeding heart",
+          "traducaoPT": "Coração sensível ou coração mole"
+     },
+     {
+          "fraseEN": "She is cleaning the kitchen after dinner.",
+          "traducaoPT": "Ela está limpando a cozinha após o jantar."
+     },
+     {
+          "fraseEN": "She is drinking water.",
+          "traducaoPT": "Ela está bebendo água."
+     },
+     {
+          "fraseEN": "They are having coffee at the café.",
+          "traducaoPT": "Eles estão tomando café no café."
+     },
+     {
+          "fraseEN": "hard pill to swallow",
+          "traducaoPT": "pílula difícil de engolir"
+     },
+     {
+          "fraseEN": "a slap on the wrist",
+          "traducaoPT": "uma leve repreensão"
+     },
+     {
+          "fraseEN": "They are visiting a museum this afternoon.",
+          "traducaoPT": "Eles estão visitando um museu esta tarde."
+     },
+     {
+          "fraseEN": "They are swimming at the pool.",
+          "traducaoPT": "Eles estão nadando na piscina."
+     },
+     {
+          "fraseEN": "cat on a hot tin roof",
+          "traducaoPT": "gato em um telhado de zinco quente"
+     },
+     {
+          "fraseEN": "She is talking to her friend on the phone.",
+          "traducaoPT": "Ela está conversando com a amiga ao telefone."
+     },
+     {
+          "fraseEN": "He is walking his dog in the park.",
+          "traducaoPT": "Ele está caminhando com seu cachorro no parque."
+     },
+     {
+          "fraseEN": "add fuel to the fire",
+          "traducaoPT": "acrescentar lenha à fogueira"
+     },
+     {
+          "fraseEN": "in hot water",
+          "traducaoPT": "em águas quentes"
+     },
+     {
+          "fraseEN": "boiling point",
+          "traducaoPT": "ponto de ebulição"
+     },
+     {
+          "fraseEN": "beat a dead horse",
+          "traducaoPT": "bater em um cavalo morto"
+     },
+     {
+          "fraseEN": "blind alley",
+          "traducaoPT": "beco sem saída"
+     },
+     {
+          "fraseEN": "cutting corners",
+          "traducaoPT": "Fazer economias às custas da qualidade"
+     },
+     {
+          "fraseEN": "actions speak louder than words",
+          "traducaoPT": "Ações falam mais alto do que palavras."
+     },
+     {
+          "fraseEN": "chip on the shoulder",
+          "traducaoPT": "Peso na consciência"
+     },
+     {
+          "fraseEN": "He washed his car yesterday.",
+          "traducaoPT": "Ele lavou o seu carro ontem."
+     },
+     {
+          "fraseEN": "cold as ice",
+          "traducaoPT": "frio como gelo"
+     },
+     {
+          "fraseEN": "He is attending a wedding.",
+          "traducaoPT": "Ele está participando de um casamento."
+     },
+     {
+          "fraseEN": "He is making a cup of coffee.",
+          "traducaoPT": "Ele está preparando uma xícara de café."
+     },
+     {
+          "fraseEN": "chasing shadows",
+          "traducaoPT": "perseguindo sombras"
+     },
+     {
+          "fraseEN": "feast your eyes",
+          "traducaoPT": "Banqueteie seus olhos ou Delicie seus olhos"
+     },
+     {
+          "fraseEN": "a diamond in the rough",
+          "traducaoPT": "um diamante bruto"
+     },
+     {
+          "fraseEN": "He is having breakfast with his family.",
+          "traducaoPT": "Ele está tomando o café da manhã com sua família."
+     },
+     {
+          "fraseEN": "blind as a bat",
+          "traducaoPT": "Cego como um morcego"
+     },
+     {
+          "fraseEN": "light at the end of the tunnel",
+          "traducaoPT": "luz no fim do túnel"
+     },
+     {
+          "fraseEN": "as old as the hills",
+          "traducaoPT": "tão velho quanto as montanhas"
+     },
+     {
+          "fraseEN": "break the ice",
+          "traducaoPT": "Quebrar o gelo"
+     },
+     {
+          "fraseEN": "He went for a jog in the morning.",
+          "traducaoPT": "Ele foi correr de manhã."
+     },
+     {
+          "fraseEN": "finding your feet",
+          "traducaoPT": "encontrar seu rumo"
+     },
+     {
+          "fraseEN": "give someone a run for their money",
+          "traducaoPT": "dar a alguém um desafio difícil"
+     },
+     {
+          "fraseEN": "have a bone to pick",
+          "traducaoPT": "ter uma queixa ou uma pendência a resolver"
+     },
+     {
+          "fraseEN": "barking up the wrong tree",
+          "traducaoPT": "Subindo a árvore errada"
+     },
+     {
+          "fraseEN": "He enjoyed a cup of coffee in the morning.",
+          "traducaoPT": "Ele aproveitou uma xícara de café pela manhã."
+     },
+     {
+          "fraseEN": "ball is in your court",
+          "traducaoPT": "A bola está com você"
+     },
+     {
+          "fraseEN": "blood, sweat, and tears",
+          "traducaoPT": "Sangue, suor e lágrimas"
+     },
+     {
+          "fraseEN": "going down in flames",
+          "traducaoPT": "descendo em chamas"
+     },
+     {
+          "fraseEN": "break a leg",
+          "traducaoPT": "Quebra uma perna"
+     },
+     {
+          "fraseEN": "The kids played in the playground.",
+          "traducaoPT": "As crianças brincaram no parquinho."
+     },
+     {
+          "fraseEN": "change of tune",
+          "traducaoPT": "mudança de tom ou mudança de discurso"
+     },
+     {
+          "fraseEN": "paint the town red",
+          "traducaoPT": "pintar a cidade de vermelho"
+     },
+     {
+          "fraseEN": "burnt out",
+          "traducaoPT": "Queimado por dentro"
+     },
+     {
+          "fraseEN": "burning the midnight oil",
+          "traducaoPT": "Queimando a meia-noite de óleo ou Trabalhando até altas horas da noite"
+     },
+     {
+          "fraseEN": "come out of the woodwork",
+          "traducaoPT": "sair do armário"
+     },
+     {
+          "fraseEN": "blessing in disguise",
+          "traducaoPT": "Bênção disfarçada"
+     },
+     {
+          "fraseEN": "He is cutting vegetables for dinner.",
+          "traducaoPT": "Ele está cortando vegetais para o jantar."
+     },
+     {
+          "fraseEN": "bigger than life",
+          "traducaoPT": "maior do que a vida"
+     },
+     {
+          "fraseEN": "cast iron stomach",
+          "traducaoPT": "estômago de ferro fundido"
+     },
+     {
+          "fraseEN": "arm and a leg",
+          "traducaoPT": "um braço e uma perna"
+     },
+     {
+          "fraseEN": "as hungry as a wolf",
+          "traducaoPT": "tão faminto como um lobo"
+     },
+     {
+          "fraseEN": "They went for a swim at the pool.",
+          "traducaoPT": "Eles foram nadar na piscina."
+     },
+     {
+          "fraseEN": "blow a fuse",
+          "traducaoPT": "Queimar uma fusível"
+     },
+     {
+          "fraseEN": "He is drawing a picture of his dog.",
+          "traducaoPT": "Ele está desenhando uma imagem do seu cão."
+     },
+     {
+          "fraseEN": "bend over backwards",
+          "traducaoPT": "Inclinar-se ao extremo"
+     },
+     {
+          "fraseEN": "any port in a storm",
+          "traducaoPT": "Qualquer porto em uma tempestade"
+     },
+     {
+          "fraseEN": "I met my friends for lunch.",
+          "traducaoPT": "Encontrei meus amigos para almoçar."
+     },
+     {
+          "fraseEN": "bare bones",
+          "traducaoPT": "Osso nu ou estrutura básica"
+     },
+     {
+          "fraseEN": "bottom of the totem pole",
+          "traducaoPT": "fundo da escala social"
+     },
+     {
+          "fraseEN": "face the music",
+          "traducaoPT": "enfrentar a realidade"
+     },
+     {
+          "fraseEN": "chomping at the bit",
+          "traducaoPT": "mordendo o freio"
+     },
+     {
+          "fraseEN": "on cloud nine",
+          "traducaoPT": "No sétimo céu"
+     },
+     {
+          "fraseEN": "between a rock and a hard place",
+          "traducaoPT": "Entre a cruz e a espada"
+     },
+     {
+          "fraseEN": "batten down the hatches",
+          "traducaoPT": "Abrir os portãs e preparar-se para o pior."
+     },
+     {
+          "fraseEN": "all ears",
+          "traducaoPT": "Tudo ouvidos"
+     },
+     {
+          "fraseEN": "a fly on the wall",
+          "traducaoPT": "uma mosca na parede"
+     },
+     {
+          "fraseEN": "as sharp as a tack",
+          "traducaoPT": "tão afiado quanto um prego"
+     },
+     {
+          "fraseEN": "She bought a new phone last week.",
+          "traducaoPT": "Ela comprou um novo telefone na semana passada."
+     },
+     {
+          "fraseEN": "don't put all your eggs in one basket",
+          "traducaoPT": "não coloque todos os seus ovos na mesma cesta"
+     },
+     {
+          "fraseEN": "bottom of the barrel",
+          "traducaoPT": "fundo do barril"
+     },
+     {
+          "fraseEN": "carrying the weight of the world",
+          "traducaoPT": "carregando o peso do mundo"
+     },
+     {
+          "fraseEN": "cogs in the machine",
+          "traducaoPT": "engrenagens da máquina"
+     },
+     {
+          "fraseEN": "I am traveling to the mountains this weekend.",
+          "traducaoPT": "Estou viajando para as montanhas este fim de semana."
+     },
+     {
+          "fraseEN": "They watched a movie on the weekend.",
+          "traducaoPT": "Eles assistiram a um filme no fim de semana."
+     },
+     {
+          "fraseEN": "blowing off steam",
+          "traducaoPT": "desencanando"
+     },
+     {
+          "fraseEN": "face the music",
+          "traducaoPT": "enfrentar as consequências"
+     },
+     {
+          "fraseEN": "a heart of gold",
+          "traducaoPT": "um coração de ouro"
+     },
+     {
+          "fraseEN": "caught in a web",
+          "traducaoPT": "preso em uma teia"
+     },
+     {
+          "fraseEN": "She made a salad for lunch.",
+          "traducaoPT": "Ela fez uma salada para o almoço."
+     },
+     {
+          "fraseEN": "mind over matter",
+          "traducaoPT": "Mente sobre matéria"
+     },
+     {
+          "fraseEN": "as good as done",
+          "traducaoPT": "tanto feito"
+     },
+     {
+          "fraseEN": "a voice in the wilderness",
+          "traducaoPT": "uma voz no deserto"
+     },
+     {
+          "fraseEN": "He went to the gym to lift weights.",
+          "traducaoPT": "Ele foi à academia para levantar pesos."
+     },
+     {
+          "fraseEN": "another one bites the dust",
+          "traducaoPT": "mais um cai na poeira"
+     },
+     {
+          "fraseEN": "curiosity killed the cat",
+          "traducaoPT": "A curiosidade matou o gato"
+     },
+     {
+          "fraseEN": "by leaps and bounds",
+          "traducaoPT": "De grandes saltos"
+     },
+     {
+          "fraseEN": "They are practicing their dance routine.",
+          "traducaoPT": "Eles estão praticando a rotina de dança."
+     },
+     {
+          "fraseEN": "honest as the day is long",
+          "traducaoPT": "tão honesto quanto o dia é longo"
+     },
+     {
+          "fraseEN": "butter wouldn’t melt in their mouth",
+          "traducaoPT": "manteiga não derreteria na sua boca"
+     },
+     {
+          "fraseEN": "be in hot water",
+          "traducaoPT": "estar em apuros"
+     },
+     {
+          "fraseEN": "by the seat of your pants",
+          "traducaoPT": "pela calça"
+     },
+     {
+          "fraseEN": "comfort zone",
+          "traducaoPT": "zona de conforto"
+     },
+     {
+          "fraseEN": "give the green light",
+          "traducaoPT": "dar sinal verde"
+     },
+     {
+          "fraseEN": "fingers crossed",
+          "traducaoPT": "Mantendo os dedos cruzados"
+     },
+     {
+          "fraseEN": "He went to the airport to catch a flight.",
+          "traducaoPT": "Ele foi para o aeroporto para pegar um voo."
+     },
+     {
+          "fraseEN": "as mad as a hatter",
+          "traducaoPT": "louco como um chapéu de palha"
+     },
+     {
+          "fraseEN": "cracking the whip",
+          "traducaoPT": "dar o golpe de misericórdia"
+     },
+     {
+          "fraseEN": "He is reading a newspaper.",
+          "traducaoPT": "Ele está lendo um jornal."
+     },
+     {
+          "fraseEN": "as easy as shooting fish in a barrel",
+          "traducaoPT": "tão fácil quanto atirar em peixes dentro de um barril"
+     },
+     {
+          "fraseEN": "He is taking photos with his camera.",
+          "traducaoPT": "Ele está tirando fotos com sua câmera."
+     },
+     {
+          "fraseEN": "ants in your pants",
+          "traducaoPT": "formigas nas calças"
+     },
+     {
+          "fraseEN": "He is cleaning the windows.",
+          "traducaoPT": "Ele está limpando as janelas."
+     },
+     {
+          "fraseEN": "clean bill of health",
+          "traducaoPT": "Atestado de boa saúde"
+     },
+     {
+          "fraseEN": "cold feet",
+          "traducaoPT": "Pés frios"
+     },
+     {
+          "fraseEN": "burn bridges",
+          "traducaoPT": "Queimar pontes"
+     },
+     {
+          "fraseEN": "cat's out of the bag",
+          "traducaoPT": "o gato saiu da bolsa"
+     },
+     {
+          "fraseEN": "bury your head in the sand",
+          "traducaoPT": "Enterrar a cabeça na areia"
+     },
+     {
+          "fraseEN": "He read a book before bed.",
+          "traducaoPT": "Ele leu um livro antes de dormir."
+     },
+     {
+          "fraseEN": "bridge the gap",
+          "traducaoPT": "Preencher a lacuna"
+     },
+     {
+          "fraseEN": "He went to the doctor for a check-up.",
+          "traducaoPT": "Ele foi ao médico para uma consulta."
+     },
+     {
+          "fraseEN": "She is watching the sunset from the balcony.",
+          "traducaoPT": "Ela está vendo o pôr do sol do balcão."
+     },
+     {
+          "fraseEN": "blessing in disguise",
+          "traducaoPT": "uma bênção disfarçada"
+     },
+     {
+          "fraseEN": "a penny for your thoughts",
+          "traducaoPT": "Um centavo pelos seus pensamentos"
+     },
+     {
+          "fraseEN": "He is playing the guitar in the living room.",
+          "traducaoPT": "Ele está tocando violão na sala de estar."
+     },
+     {
+          "fraseEN": "He is sitting on the chair.",
+          "traducaoPT": "Ele está sentado na cadeira."
+     },
+     {
+          "fraseEN": "come hell or high water",
+          "traducaoPT": "quer chova ou faça sol, ou venha o que vier"
+     },
+     {
+          "fraseEN": "I went to the beach for vacation.",
+          "traducaoPT": "Eu fui à praia de férias."
+     },
+     {
+          "fraseEN": "as cool as a cucumber",
+          "traducaoPT": "tão calmo quanto um pepino"
+     },
+     {
+          "fraseEN": "break the ice",
+          "traducaoPT": "Quebrar o gelo"
+     },
+     {
+          "fraseEN": "at the end of the day",
+          "traducaoPT": "no final do dia"
+     },
+     {
+          "fraseEN": "can't see the forest for the trees",
+          "traducaoPT": "não ver a floresta por causa das árvores"
+     },
+     {
+          "fraseEN": "He is doing his homework in the study room.",
+          "traducaoPT": "Ele está fazendo o dever de casa na sala de estudo."
+     },
+     {
+          "fraseEN": "They planted flowers in the garden.",
+          "traducaoPT": "Eles plantaram flores no jardim."
+     },
+     {
+          "fraseEN": "They are making pizza together.",
+          "traducaoPT": "Eles estão fazendo pizza juntos."
+     },
+     {
+          "fraseEN": "blown out of proportion",
+          "traducaoPT": "levado às últimas consequências"
+     },
+     {
+          "fraseEN": "hand in glove",
+          "traducaoPT": "mão na luva"
+     },
+     {
+          "fraseEN": "birds of a feather flock together",
+          "traducaoPT": "Pássaros de 同o pena se reúnem juntos, porém é mais comum a expressão \"Quem com quem se anda, com quem se casa\""
+     },
+     {
+          "fraseEN": "get out of hand",
+          "traducaoPT": "saír do controle"
+     },
+     {
+          "fraseEN": "He called his parents yesterday.",
+          "traducaoPT": "Ele ligou para os pais ontem."
+     },
+     {
+          "fraseEN": "He wrote a letter to his friend.",
+          "traducaoPT": "Ele escreveu uma carta para o seu amigo."
+     },
+     {
+          "fraseEN": "She danced at the party last night.",
+          "traducaoPT": "Ela dançou na festa ontem à noite."
+     },
+     {
+          "fraseEN": "close to home",
+          "traducaoPT": "perto de casa"
+     },
+     {
+          "fraseEN": "if you can't stand the heat, get out of the kitchen",
+          "traducaoPT": "Se você não aguenta o calor, saia da cozinha."
+     },
+     {
+          "fraseEN": "between the devil and the deep blue sea",
+          "traducaoPT": "Entre a cruz e a espada"
+     },
+     {
+          "fraseEN": "get cold feet",
+          "traducaoPT": "ficar com medo de última hora"
+     },
+     {
+          "fraseEN": "fish out of water",
+          "traducaoPT": "peixe fora d'água"
+     },
+     {
+          "fraseEN": "over the moon",
+          "traducaoPT": "Sobre a lua"
+     },
+     {
+          "fraseEN": "once in a blue moon",
+          "traducaoPT": "Uma vez na lua azul"
+     },
+     {
+          "fraseEN": "chip off the old block",
+          "traducaoPT": "Um pedaço do velho bloco"
+     },
+     {
+          "fraseEN": "break the mold",
+          "traducaoPT": "quebrar o molde"
+     },
+     {
+          "fraseEN": "ace in the hole",
+          "traducaoPT": "trunfo na manga"
+     },
+     {
+          "fraseEN": "She is gardening in the backyard.",
+          "traducaoPT": "Ela está fazendo jardinagem no quintal."
+     },
+     {
+          "fraseEN": "blind as a bat",
+          "traducaoPT": "ciego como um morcego"
+     },
+     {
+          "fraseEN": "call it a day",
+          "traducaoPT": "dar por encerrado o dia"
+     },
+     {
+          "fraseEN": "calm before the storm",
+          "traducaoPT": "calma antes da tempestade"
+     },
+     {
+          "fraseEN": "He attended a wedding last weekend.",
+          "traducaoPT": "Ele participou de um casamento no fim de semana passado."
+     },
+     {
+          "fraseEN": "chill to the bone",
+          "traducaoPT": "gelar até os ossos"
+     },
+     {
+          "fraseEN": "broad strokes",
+          "traducaoPT": "pinceladas gerais"
+     },
+     {
+          "fraseEN": "She is listening to music while cooking.",
+          "traducaoPT": "Ela está ouvindo música enquanto cozinha."
+     },
+     {
+          "fraseEN": "blind as a bat",
+          "traducaoPT": "cego como uma toupeira"
+     },
+     {
+          "fraseEN": "all thumbs",
+          "traducaoPT": "todo dedos"
+     },
+     {
+          "fraseEN": "chip on your shoulder",
+          "traducaoPT": "Um peso nas costas"
+     },
+     {
+          "fraseEN": "chase rainbows",
+          "traducaoPT": "Perseguir arco-íris"
+     },
+     {
+          "fraseEN": "hope for the best, prepare for the worst",
+          "traducaoPT": "Esperar o melhor, preparar-se para o pior"
+     },
+     {
+          "fraseEN": "get a grip",
+          "traducaoPT": "Pegue o controle da situação"
+     },
+     {
+          "fraseEN": "finger on the pulse",
+          "traducaoPT": "dedo no pulso"
+     },
+     {
+          "fraseEN": "ball of fire",
+          "traducaoPT": "bola de fogo"
+     },
+     {
+          "fraseEN": "He is making tea in the kitchen.",
+          "traducaoPT": "Ele está fazendo chá na cozinha."
+     },
+     {
+          "fraseEN": "bite your lip",
+          "traducaoPT": "Morda o seu lábio"
+     },
+     {
+          "fraseEN": "live in a glass house",
+          "traducaoPT": "Viver em uma casa de vidro"
+     },
+     {
+          "fraseEN": "into thin air",
+          "traducaoPT": "no ar rarefeito"
+     },
+     {
+          "fraseEN": "don’t cry over spilled milk",
+          "traducaoPT": "não chore sobre o leite derramado"
+     },
+     {
+          "fraseEN": "don't count your chickens before they hatch",
+          "traducaoPT": "Não conte com os ovos antes de eles nascerem"
+     },
+     {
+          "fraseEN": "close to my heart",
+          "traducaoPT": "próximo ao meu coração"
+     },
+     {
+          "fraseEN": "He went fishing with his friends.",
+          "traducaoPT": "Ele foi pescar com seus amigos."
+     },
+     {
+          "fraseEN": "as clear as mud",
+          "traducaoPT": "tão claro quanto lama"
+     },
+     {
+          "fraseEN": "be a fly on the wall",
+          "traducaoPT": "Ser uma mosca na parede"
+     },
+     {
+          "fraseEN": "changing gears",
+          "traducaoPT": "mudando de marcha ou trocando de marcha"
+     },
+     {
+          "fraseEN": "call it quits",
+          "traducaoPT": "Desistir ou abandonar"
+     },
+     {
+          "fraseEN": "bottom line",
+          "traducaoPT": "o resultado final"
+     },
+     {
+          "fraseEN": "bet the farm",
+          "traducaoPT": "Arriscar tudo"
+     },
+     {
+          "fraseEN": "as free as a bird",
+          "traducaoPT": "livre como um pássaro"
+     },
+     {
+          "fraseEN": "flying by the seat of your pants",
+          "traducaoPT": "voando pela brisa das calças"
+     },
+     {
+          "fraseEN": "chasing your tail",
+          "traducaoPT": "Correr atrás do próprio rabo"
+     },
+     {
+          "fraseEN": "She plays the piano beautifully.",
+          "traducaoPT": "Ela toca piano lindamente."
+     },
+     {
+          "fraseEN": "heart of stone",
+          "traducaoPT": "Coração de pedra"
+     },
+     {
+          "fraseEN": "They are going to the cinema tonight.",
+          "traducaoPT": "Eles vão ao cinema hoje à noite."
+     },
+     {
+          "fraseEN": "a taste of your own medicine",
+          "traducaoPT": "um gostinho da sua própria medicina"
+     },
+     {
+          "fraseEN": "break the ice",
+          "traducaoPT": "Quebrar o gelo"
+     },
+     {
+          "fraseEN": "cloud of suspicion",
+          "traducaoPT": "Nuvem de suspeita"
+     },
+     {
+          "fraseEN": "diamond in the rough",
+          "traducaoPT": "uma joia bruta"
+     },
+     {
+          "fraseEN": "beat the clock",
+          "traducaoPT": "bater o relógio"
+     },
+     {
+          "fraseEN": "He is repairing the broken chair.",
+          "traducaoPT": "Ele está consertando a cadeira quebrada."
+     },
+     {
+          "fraseEN": "She is watching a movie at the theater.",
+          "traducaoPT": "Ela está assistindo a um filme no cinema."
+     },
+     {
+          "fraseEN": "a penny saved is a penny earned",
+          "traducaoPT": "um centavo economizado é um centavo ganho"
+     },
+     {
+          "fraseEN": "He cleaned the garage on Saturday.",
+          "traducaoPT": "Ele limpou a garagem no sábado."
+     },
+     {
+          "fraseEN": "a fish out of water",
+          "traducaoPT": "um peixe fora d'água"
+     },
+     {
+          "fraseEN": "down to earth",
+          "traducaoPT": "Pé no chão"
+     },
+     {
+          "fraseEN": "happy as a clam",
+          "traducaoPT": "Feliz como uma ostra"
+     },
+     {
+          "fraseEN": "He visited the museum with his class.",
+          "traducaoPT": "Ele visitou o museu com sua turma."
+     },
+     {
+          "fraseEN": "I visited my parents last weekend.",
+          "traducaoPT": "Eu visitei meus pais no último fim de semana."
+     },
+     {
+          "fraseEN": "by the skin of your teeth",
+          "traducaoPT": "por um fio de cabelo"
+     },
+     {
+          "fraseEN": "crack the code",
+          "traducaoPT": "decifrar o código"
+     },
+     {
+          "fraseEN": "He watched a football match on TV.",
+          "traducaoPT": "Ele assistiu a uma partida de futebol na TV."
+     },
+     {
+          "fraseEN": "climbing the corporate ladder",
+          "traducaoPT": "subindo a escada corporativa"
+     },
+     {
+          "fraseEN": "all in the same boat",
+          "traducaoPT": "todos no mesmo barco"
+     },
+     {
+          "fraseEN": "cold feet",
+          "traducaoPT": "Pés frios"
+     },
+     {
+          "fraseEN": "a mountain to climb",
+          "traducaoPT": "uma montanha para escalar"
+     },
+     {
+          "fraseEN": "break the back of it",
+          "traducaoPT": "quebrar as costas disso"
+     },
+     {
+          "fraseEN": "blowing off steam",
+          "traducaoPT": "desabafando"
+     },
+     {
+          "fraseEN": "cook up a storm",
+          "traducaoPT": "cozinhar uma tempestade"
+     },
+     {
+          "fraseEN": "dead in the water",
+          "traducaoPT": "morta na água"
+     },
+     {
+          "fraseEN": "bite the big one",
+          "traducaoPT": "morder o bolo"
+     },
+     {
+          "fraseEN": "buy a lemon",
+          "traducaoPT": "comprar um limão"
+     },
+     {
+          "fraseEN": "get a second wind",
+          "traducaoPT": "ganhar um segundo fôlego"
+     },
+     {
+          "fraseEN": "He is working on his laptop.",
+          "traducaoPT": "Ele está trabalhando no seu laptop."
+     },
+     {
+          "fraseEN": "clear as mud",
+          "traducaoPT": "claro como água turva"
+     },
+     {
+          "fraseEN": "different strokes for different folks",
+          "traducaoPT": "Gostos diferentes para pessoas diferentes"
+     },
+     {
+          "fraseEN": "She had a cup of soup for lunch.",
+          "traducaoPT": "Ela comeu uma xícara de sopa no almoço."
+     },
+     {
+          "fraseEN": "cast the first stone",
+          "traducaoPT": "lançar a primeira pedra"
+     },
+     {
+          "fraseEN": "call a spade a spade",
+          "traducaoPT": "chamar as coisas pelo nome"
+     },
+     {
+          "fraseEN": "a ray of hope",
+          "traducaoPT": "um raio de esperança"
+     },
+     {
+          "fraseEN": "They are painting the walls of their house.",
+          "traducaoPT": "Eles estão pintando as paredes da sua casa."
+     },
+     {
+          "fraseEN": "crash course",
+          "traducaoPT": "curso intensivo"
+     },
+     {
+          "fraseEN": "The sun rises in the east.",
+          "traducaoPT": "O sol nasce no leste."
+     },
+     {
+          "fraseEN": "an arm and a leg",
+          "traducaoPT": "um braço e uma perna"
+     },
+     {
+          "fraseEN": "breaking the mold",
+          "traducaoPT": "quebrando o molde"
+     },
+     {
+          "fraseEN": "caught red-handed",
+          "traducaoPT": "Pego em flagrante"
+     },
+     {
+          "fraseEN": "blood from a stone",
+          "traducaoPT": "sangue de uma pedra"
+     },
+     {
+          "fraseEN": "beyond the pale",
+          "traducaoPT": "além do aceitável"
+     },
+     {
+          "fraseEN": "She is walking through the forest.",
+          "traducaoPT": "Ela está caminhando pela floresta."
+     },
+     {
+          "fraseEN": "blood runs thicker than water",
+          "traducaoPT": "Sangue mais grosso que água"
+     },
+     {
+          "fraseEN": "follow your nose",
+          "traducaoPT": "Siga o seu nariz"
+     },
+     {
+          "fraseEN": "hard nut to crack",
+          "traducaoPT": "noz dura de rachar"
+     },
+     {
+          "fraseEN": "an ounce of prevention is worth a pound of cure",
+          "traducaoPT": "Uma onça de prevenção vale mais do que uma libra de cura"
+     },
+     {
+          "fraseEN": "come apart at the seams",
+          "traducaoPT": "desfazer-se nas costuras"
+     },
+     {
+          "fraseEN": "She is arranging flowers in a vase.",
+          "traducaoPT": "Ela está arranjando flores em um vaso."
+     },
+     {
+          "fraseEN": "They went shopping for new clothes.",
+          "traducaoPT": "Eles foram fazer compras de roupas novas."
+     },
+     {
+          "fraseEN": "big league",
+          "traducaoPT": "grande liga"
+     },
+     {
+          "fraseEN": "She is packing her suitcase for a trip.",
+          "traducaoPT": "Ela está arrumando sua mala para uma viagem."
+     },
+     {
+          "fraseEN": "She attended a conference last week.",
+          "traducaoPT": "Ela participou de uma conferência na semana passada."
+     },
+     {
+          "fraseEN": "all that glitters is not gold",
+          "traducaoPT": "não é ouro tudo que reluz"
+     },
+     {
+          "fraseEN": "rain on your parade",
+          "traducaoPT": "estragar sua festa"
+     },
+     {
+          "fraseEN": "as stubborn as a mule",
+          "traducaoPT": "tão teimoso quanto um burro"
+     },
+     {
+          "fraseEN": "fall on deaf ears",
+          "traducaoPT": "cair em orelhas moucas"
+     },
+     {
+          "fraseEN": "She is preparing dinner for the guests.",
+          "traducaoPT": "Ela está preparando o jantar para os convidados."
+     },
+     {
+          "fraseEN": "He is writing an essay for school.",
+          "traducaoPT": "Ele está escrevendo um ensaio para a escola."
+     },
+     {
+          "fraseEN": "beating a dead horse",
+          "traducaoPT": "dar murro em ponta de faca"
+     },
+     {
+          "fraseEN": "keep your eyes peeled",
+          "traducaoPT": "Mantenha os olhos abertos"
+     },
+     {
+          "fraseEN": "He visited his grandmother in the hospital.",
+          "traducaoPT": "Ele visitou sua avó no hospital."
+     },
+     {
+          "fraseEN": "caught in the crossfire",
+          "traducaoPT": "pego no fogo cruzado"
+     },
+     {
+          "fraseEN": "a blessing in disguise",
+          "traducaoPT": "uma bênção disfarçada"
+     },
+     {
+          "fraseEN": "bending over backwards",
+          "traducaoPT": "Dobrando-se ao contrário"
+     },
+     {
+          "fraseEN": "He is drawing in his sketchbook.",
+          "traducaoPT": "Ele está desenhando em seu caderno de esboços."
+     },
+     {
+          "fraseEN": "a new lease on life",
+          "traducaoPT": "um novo fôlego na vida"
+     },
+     {
+          "fraseEN": "climbing the ladder",
+          "traducaoPT": "subindo a escada"
+     },
+     {
+          "fraseEN": "a rolling stone gathers no moss",
+          "traducaoPT": "uma pedra que rola não ganha musgo"
+     },
+     {
+          "fraseEN": "better half",
+          "traducaoPT": "metade melhor"
+     },
+     {
+          "fraseEN": "He is eating dinner with his family.",
+          "traducaoPT": "Ele está jantando com sua família."
+     },
+     {
+          "fraseEN": "in the bag",
+          "traducaoPT": "no papo"
+     },
+     {
+          "fraseEN": "dead as a doornail",
+          "traducaoPT": "morto como um prego"
+     },
+     {
+          "fraseEN": "She is playing with her children in the garden.",
+          "traducaoPT": "Ela está brincando com as crianças no jardim."
+     },
+     {
+          "fraseEN": "I am playing video games in my room.",
+          "traducaoPT": "Estou jogando videogames no meu quarto."
+     },
+     {
+          "fraseEN": "cut to the chase",
+          "traducaoPT": "Vamos direto ao ponto"
+     },
+     {
+          "fraseEN": "cut the mustardcross that bridge when you come to it",
+          "traducaoPT": "cortar o queijo, passar a ponte quando chegar a ela"
+     },
+     {
+          "fraseEN": "She works as a software engineer.",
+          "traducaoPT": "Ela trabalha como engenheira de software."
+     },
+     {
+          "fraseEN": "He is going to the post office.",
+          "traducaoPT": "Ele está indo ao correio."
+     },
+     {
+          "fraseEN": "bare your soul",
+          "traducaoPT": "Desvendar a sua alma"
+     },
+     {
+          "fraseEN": "bad blood",
+          "traducaoPT": "Más relações ou mágoa entre pessoas"
+     },
+     {
+          "fraseEN": "She is playing piano in the evening.",
+          "traducaoPT": "Ela toca piano à noite."
+     },
+     {
+          "fraseEN": "go down in flames",
+          "traducaoPT": "cair em chamas"
+     },
+     {
+          "fraseEN": "get your ducks in a row",
+          "traducaoPT": "Coloque as suas coisas em ordem"
+     },
+     {
+          "fraseEN": "They cleaned the house on Saturday.",
+          "traducaoPT": "Eles limparam a casa no sábado."
+     },
+     {
+          "fraseEN": "at death's door",
+          "traducaoPT": "às portas da morte"
+     },
+     {
+          "fraseEN": "cut the mustard",
+          "traducaoPT": "dar conta do recado"
+     },
+     {
+          "fraseEN": "by the book",
+          "traducaoPT": "ao pé da letra"
+     },
+     {
+          "fraseEN": "She played cards with her friends.",
+          "traducaoPT": "Ela jogou cartas com seus amigos."
+     },
+     {
+          "fraseEN": "an old flame",
+          "traducaoPT": "um velho amor"
+     },
+     {
+          "fraseEN": "They are reading a novel by the fireplace.",
+          "traducaoPT": "Eles estão lendo um romance ao lado da lareira."
+     },
+     {
+          "fraseEN": "caught between a rock and a hard place",
+          "traducaoPT": "Preso entre a cruz e a espada ou preso entre o martelo e a bigorna"
+     },
+     {
+          "fraseEN": "a sinking ship",
+          "traducaoPT": "um navio afundando"
+     },
+     {
+          "fraseEN": "drive me up the wall",
+          "traducaoPT": "me deixar louco"
+     },
+     {
+          "fraseEN": "I called my friend last night.",
+          "traducaoPT": "Eu liguei para o meu amigo ontem à noite."
+     },
+     {
+          "fraseEN": "burn the candle at both ends",
+          "traducaoPT": "Queimar a vela pelos dois lados"
+     },
+     {
+          "fraseEN": "They are attending a concert tonight.",
+          "traducaoPT": "Eles estão assistindo a um concerto hoje à noite."
+     },
+     {
+          "fraseEN": "bite the bullet",
+          "traducaoPT": "morder a bala"
+     },
+     {
+          "fraseEN": "chase your tail",
+          "traducaoPT": "correr atrás do próprio rabo"
+     },
+     {
+          "fraseEN": "cool as a cucumber",
+          "traducaoPT": "Frio como um pepino"
+     },
+     {
+          "fraseEN": "don't put all your eggs in one basket",
+          "traducaoPT": "Não coloque todos os ovos na mesma cesta."
+     },
+     {
+          "fraseEN": "black as coal",
+          "traducaoPT": "preto como carvão"
+     },
+     {
+          "fraseEN": "ants in your pants",
+          "traducaoPT": "formigas nas calças"
+     },
+     {
+          "fraseEN": "don't bite the hand that feeds you",
+          "traducaoPT": "não morda a mão que te alimenta"
+     },
+     {
+          "fraseEN": "live to fight another day",
+          "traducaoPT": "Viver para lutar outro dia"
+     },
+     {
+          "fraseEN": "cat's meow",
+          "traducaoPT": "o máximo"
+     },
+     {
+          "fraseEN": "by the book",
+          "traducaoPT": "ao pé da letra"
+     },
+     {
+          "fraseEN": "by the skin of your teeth",
+          "traducaoPT": "por um triz"
+     },
+     {
+          "fraseEN": "busy as a bee",
+          "traducaoPT": "Ocupado como uma abelha"
+     },
+     {
+          "fraseEN": "calm before the storm",
+          "traducaoPT": "calma antes da tempestade"
+     },
+     {
+          "fraseEN": "She visited the art gallery on Sunday.",
+          "traducaoPT": "Ela visitou a galeria de arte no domingo."
+     },
+     {
+          "fraseEN": "They went to a restaurant for dinner.",
+          "traducaoPT": "Eles foram a um restaurante para jantar."
+     },
+     {
+          "fraseEN": "all thumbs",
+          "traducaoPT": "Tudo dedos"
+     },
+     {
+          "fraseEN": "She is dancing to the music.",
+          "traducaoPT": "Ela está dançando ao som da música."
+     },
+     {
+          "fraseEN": "bend the rules",
+          "traducaoPT": "flexionar as regras"
+     },
+     {
+          "fraseEN": "bring to the table",
+          "traducaoPT": "trazer para a mesa"
+     },
+     {
+          "fraseEN": "crash and burn",
+          "traducaoPT": "Crashar e arder"
+     },
+     {
+          "fraseEN": "They are playing chess at the table.",
+          "traducaoPT": "Eles estão jogando xadrez na mesa."
+     },
+     {
+          "fraseEN": "bare bones",
+          "traducaoPT": "Ossos nus"
+     },
+     {
+          "fraseEN": "an uphill battle",
+          "traducaoPT": "uma luta difícil ou uma batalha ingrata"
+     },
+     {
+          "fraseEN": "cast a shadow",
+          "traducaoPT": "lançar uma sombra"
+     },
+     {
+          "fraseEN": "She is watching the stars at night.",
+          "traducaoPT": "Ela está observando as estrelas à noite."
+     },
+     {
+          "fraseEN": "don’t put all your eggs in one basket",
+          "traducaoPT": "não coloque todos os seus ovos na mesma cesta"
+     },
+     {
+          "fraseEN": "face the music",
+          "traducaoPT": "enfrentar a realidade"
+     },
+     {
+          "fraseEN": "She is practicing yoga in the park.",
+          "traducaoPT": "Ela está praticando yoga no parque."
+     },
+     {
+          "fraseEN": "He made a sandwich for lunch.",
+          "traducaoPT": "Ele fez um sanduíche para o almoço."
+     },
+     {
+          "fraseEN": "hit the books",
+          "traducaoPT": "Pegar nos livros"
+     },
+     {
+          "fraseEN": "close shave",
+          "traducaoPT": "Escapada por pouco"
+     },
+     {
+          "fraseEN": "a leopard can't change its spots",
+          "traducaoPT": "um leopardo não pode mudar suas manchas"
+     },
+     {
+          "fraseEN": "couch potato",
+          "traducaoPT": "batata de sofá"
+     },
+     {
+          "fraseEN": "She walked to the store.",
+          "traducaoPT": "Ela caminhou até a loja."
+     },
+     {
+          "fraseEN": "like riding a bike",
+          "traducaoPT": "como andar de bicicleta"
+     },
+     {
+          "fraseEN": "They are playing volleyball at the beach.",
+          "traducaoPT": "Eles estão jogando volei na praia."
+     },
+     {
+          "fraseEN": "He is playing soccer with his friends.",
+          "traducaoPT": "Ele está jogando futebol com seus amigos."
+     },
+     {
+          "fraseEN": "curiosity killed the cat",
+          "traducaoPT": "A curiosidade matou o gato."
+     },
+     {
+          "fraseEN": "barking up the wrong tree",
+          "traducaoPT": "Subir na árvore errada"
+     },
+     {
+          "fraseEN": "They are visiting the zoo.",
+          "traducaoPT": "Eles estão visitando o zoológico."
+     },
+     {
+          "fraseEN": "pull the plug",
+          "traducaoPT": "desligar a tomada"
+     },
+     {
+          "fraseEN": "beat a hasty retreat",
+          "traducaoPT": "bater em retirada apressada"
+     },
+     {
+          "fraseEN": "I went to the store to buy some bread.",
+          "traducaoPT": "Fui à loja para comprar algumas fatias de pão."
+     },
+     {
+          "fraseEN": "butterflies in my stomach",
+          "traducaoPT": "Borboletas no estômago"
+     },
+     {
+          "fraseEN": "come up against a brick wall",
+          "traducaoPT": "deparar com uma parede de tijolos"
+     },
+     {
+          "fraseEN": "smooth sailing",
+          "traducaoPT": "Navegação tranquila"
+     },
+     {
+          "fraseEN": "She is sending a letter to her friend.",
+          "traducaoPT": "Ela está enviando uma carta para sua amiga."
+     },
+     {
+          "fraseEN": "He is checking his email.",
+          "traducaoPT": "Ele está verificando seu e-mail."
+     },
+     {
+          "fraseEN": "an uphill battle",
+          "traducaoPT": "uma batalha difícil ou uma luta contra a corrente"
+     },
+     {
+          "fraseEN": "make waves",
+          "traducaoPT": "fazer ondas"
+     },
+     {
+          "fraseEN": "bury the hatchet",
+          "traducaoPT": "Enterrar o machado"
+     },
+     {
+          "fraseEN": "as good as gold",
+          "traducaoPT": "tão bom quanto ouro"
+     },
+     {
+          "fraseEN": "She is putting on her shoes.",
+          "traducaoPT": "Ela está calçando os seus sapatos."
+     },
+     {
+          "fraseEN": "built like a tank",
+          "traducaoPT": "Construído como um tanque"
+     },
+     {
+          "fraseEN": "hit the sack",
+          "traducaoPT": "ir para a cama"
+     },
+     {
+          "fraseEN": "burst your bubble",
+          "traducaoPT": "estourar o seu sonho"
+     },
+     {
+          "fraseEN": "He is going for a bike ride.",
+          "traducaoPT": "Ele vai dar uma volta de bicicleta."
+     },
+     {
+          "fraseEN": "bite the dust",
+          "traducaoPT": "morder o pó"
+     },
+     {
+          "fraseEN": "falling apart at the seams",
+          "traducaoPT": "desmanchando-se pelas costuras"
+     },
+     {
+          "fraseEN": "They are jogging through the park.",
+          "traducaoPT": "Eles estão correndo pelo parque."
+     },
+     {
+          "fraseEN": "backseat driver",
+          "traducaoPT": "motorista do banco de trás"
+     },
+     {
+          "fraseEN": "a blessing in disguise",
+          "traducaoPT": "uma bênção disfarçada"
+     },
+     {
+          "fraseEN": "back against the wall",
+          "traducaoPT": "com as costas contra a parede"
+     },
+     {
+          "fraseEN": "blue collar",
+          "traducaoPT": "colarinho azul"
+     },
+     {
+          "fraseEN": "kill two birds with one stone",
+          "traducaoPT": "matar dois coelhos com uma cajadada"
+     },
+     {
+          "fraseEN": "at the drop of a hat",
+          "traducaoPT": "ao cair de uma chapéu"
+     },
+     {
+          "fraseEN": "by a hair's breadth",
+          "traducaoPT": "Por um triz"
+     },
+     {
+          "fraseEN": "They are planning a trip to Europe.",
+          "traducaoPT": "Eles estão planejando uma viagem à Europa."
+     },
+     {
+          "fraseEN": "big picture",
+          "traducaoPT": "quadro geral"
+     },
+     {
+          "fraseEN": "beat around the bush",
+          "traducaoPT": "Dar voltas ao assunto"
+     },
+     {
+          "fraseEN": "cast in stone",
+          "traducaoPT": "Gravado em pedra"
+     },
+     {
+          "fraseEN": "They went to the supermarket yesterday.",
+          "traducaoPT": "Eles foram ao supermercado ontem."
+     },
+     {
+          "fraseEN": "She cleaned the kitchen after dinner.",
+          "traducaoPT": "Ela limpou a cozinha após o jantar."
+     },
+     {
+          "fraseEN": "He traveled to Paris last year.",
+          "traducaoPT": "Ele viajou para Paris no ano passado."
+     },
+     {
+          "fraseEN": "face like thunder",
+          "traducaoPT": "Rosto como tempestade"
+     },
+     {
+          "fraseEN": "I am learning how to cook.",
+          "traducaoPT": "Estou aprendendo a cozinhar."
+     },
+     {
+          "fraseEN": "She is wearing a red dress.",
+          "traducaoPT": "Ela está usando um vestido vermelho."
+     },
+     {
+          "fraseEN": "come rain or shine",
+          "traducaoPT": "Chova ou faça sol"
+     },
+     {
+          "fraseEN": "get the ball rolling",
+          "traducaoPT": "dar início às coisas"
+     },
+     {
+          "fraseEN": "He went to the gym for a workout session.",
+          "traducaoPT": "Ele foi à academia para uma sessão de treino."
+     },
+     {
+          "fraseEN": "He is drinking tea in the morning.",
+          "traducaoPT": "Ele está tomando chá de manhã."
+     },
+     {
+          "fraseEN": "They enjoyed a family dinner together.",
+          "traducaoPT": "Eles desfrutaram de um jantar em família juntos."
+     },
+     {
+          "fraseEN": "They are playing basketball in the yard.",
+          "traducaoPT": "Eles estão jogando basquete no quintal."
+     },
+     {
+          "fraseEN": "blood, sweat, and tears",
+          "traducaoPT": "sangue, suor e lágrimas"
+     },
+     {
+          "fraseEN": "flying high",
+          "traducaoPT": "Voando alto"
+     },
+     {
+          "fraseEN": "bring home the bacon",
+          "traducaoPT": "Trazer o pão para casa"
+     },
+     {
+          "fraseEN": "give someone the cold shoulder",
+          "traducaoPT": "dar as costas a alguém"
+     },
+     {
+          "fraseEN": "bite your tongue",
+          "traducaoPT": "Morda a língua."
+     },
+     {
+          "fraseEN": "all in a day's work",
+          "traducaoPT": "Tudo faz parte do serviço"
+     },
+     {
+          "fraseEN": "eyes in the back of your head",
+          "traducaoPT": "olhos atrás da cabeça"
+     },
+     {
+          "fraseEN": "He ate his breakfast quickly.",
+          "traducaoPT": "Ele comeu seu café da manhã rapidamente."
+     },
+     {
+          "fraseEN": "back on your feet",
+          "traducaoPT": "de volta às suas pernas"
+     },
+     {
+          "fraseEN": "blood, sweat, and tears",
+          "traducaoPT": "sangue, suor e lágrimas"
+     },
+     {
+          "fraseEN": "They are driving to the countryside.",
+          "traducaoPT": "Eles estão dirigindo para o campo."
+     },
+     {
+          "fraseEN": "She cooked dinner for her family.",
+          "traducaoPT": "Ela cozinhou o jantar para sua família."
+     },
+     {
+          "fraseEN": "ace in the hole",
+          "traducaoPT": "ás na manga"
+     },
+     {
+          "fraseEN": "hard as nails",
+          "traducaoPT": "duro como pregos"
+     },
+     {
+          "fraseEN": "kill two birds with one stone",
+          "traducaoPT": "matar dois coelhos com uma cajadada"
+     },
+     {
+          "fraseEN": "black and blue",
+          "traducaoPT": "preto e azul"
+     },
+     {
+          "fraseEN": "how the cookie crumbles",
+          "traducaoPT": "como a bolacha se desfaz"
+     },
+     {
+          "fraseEN": "He played video games all evening.",
+          "traducaoPT": "Ele jogou videogames a noite toda."
+     },
+     {
+          "fraseEN": "all bark and no bite",
+          "traducaoPT": "tudo barulho e nada de ação"
+     },
+     {
+          "fraseEN": "beef up",
+          "traducaoPT": "Fortalecer ou reforçar."
+     },
+     {
+          "fraseEN": "be on cloud nine",
+          "traducaoPT": "está nas nuvens"
+     },
+     {
+          "fraseEN": "They traveled to the mountains for vacation.",
+          "traducaoPT": "Eles viajaram para as montanhas para férias."
+     },
+     {
+          "fraseEN": "They went on a road trip last summer.",
+          "traducaoPT": "Eles foram em uma viagem de carro no verão passado."
+     },
+     {
+          "fraseEN": "clear the air",
+          "traducaoPT": "Limpar o ar"
+     },
+     {
+          "fraseEN": "cat got your tongue",
+          "traducaoPT": "O gato pegou sua língua"
+     },
+     {
+          "fraseEN": "as busy as a bee",
+          "traducaoPT": "tão ocupado quanto uma abelha"
+     },
+     {
+          "fraseEN": "They are visiting their friends in the city.",
+          "traducaoPT": "Eles estão visitando seus amigos na cidade."
+     },
+     {
+          "fraseEN": "come out of your shell",
+          "traducaoPT": "Sai da sua concha"
+     },
+     {
+          "fraseEN": "a storm in a teacup",
+          "traducaoPT": "Tempestade em um copo de chá"
+     },
+     {
+          "fraseEN": "a tower of strength",
+          "traducaoPT": "uma torre de força"
+     },
+     {
+          "fraseEN": "all's fair in love and war",
+          "traducaoPT": "em casos de amor e guerra, tudo é justo"
+     },
+     {
+          "fraseEN": "She is doing her hair in front of the mirror.",
+          "traducaoPT": "Ela está fazendo o cabelo na frente do espelho."
+     },
+     {
+          "fraseEN": "all the world's a stage",
+          "traducaoPT": "Todo o mundo é um palco"
+     },
+     {
+          "fraseEN": "if the shoe fits, wear it",
+          "traducaoPT": "se o calçado serve, use-o"
+     },
+     {
+          "fraseEN": "They have three children.",
+          "traducaoPT": "Eles têm três filhos."
+     },
+     {
+          "fraseEN": "She is preparing for a job interview.",
+          "traducaoPT": "Ela está se preparando para uma entrevista de emprego."
+     },
+     {
+          "fraseEN": "They had a barbecue in the backyard.",
+          "traducaoPT": "Eles fizeram um churrasco no quintal."
+     },
+     {
+          "fraseEN": "bite the bullet",
+          "traducaoPT": "Morder a bala"
+     },
+     {
+          "fraseEN": "They went hiking in the mountains.",
+          "traducaoPT": "Eles foram caminhar nas montanhas."
+     },
+     {
+          "fraseEN": "keep your chin up",
+          "traducaoPT": "Mantenha a cabeça erguida"
+     },
+     {
+          "fraseEN": "cut from the same cloth",
+          "traducaoPT": "cortados do mesmo tecido"
+     },
+     {
+          "fraseEN": "full plate",
+          "traducaoPT": "prato cheio"
+     },
+     {
+          "fraseEN": "alive and kicking",
+          "traducaoPT": "vivo e ativo"
+     },
+     {
+          "fraseEN": "a place in the sun",
+          "traducaoPT": "Um lugar ao sol"
+     },
+     {
+          "fraseEN": "They went to the zoo with the kids.",
+          "traducaoPT": "Eles foram ao zoológico com as crianças."
+     },
+     {
+          "fraseEN": "I took a photo of the beautiful sunset.",
+          "traducaoPT": "Eu tirei uma foto do lindo pôr do sol."
+     },
+     {
+          "fraseEN": "bad egg",
+          "traducaoPT": "Ovo podre"
+     },
+     {
+          "fraseEN": "back to square one",
+          "traducaoPT": "De volta à estaca zero"
+     },
+     {
+          "fraseEN": "break the ice",
+          "traducaoPT": "Quebrar o gelo"
+     },
+     {
+          "fraseEN": "The train arrived at the station on time.",
+          "traducaoPT": "O trem chegou à estação no horário."
+     },
+     {
+          "fraseEN": "She took a nap after lunch.",
+          "traducaoPT": "Ela tirou uma soneca após o almoço."
+     },
+     {
+          "fraseEN": "He is watering the plants.",
+          "traducaoPT": "Ele está regando as plantas."
+     },
+     {
+          "fraseEN": "at the helm",
+          "traducaoPT": "ao leme"
+     },
+     {
+          "fraseEN": "The dog is playing outside.",
+          "traducaoPT": "O cachorro está brincando fora."
+     },
+     {
+          "fraseEN": "coming full circle",
+          "traducaoPT": "fechando o círculo"
+     },
+     {
+          "fraseEN": "hold your horses",
+          "traducaoPT": "Contenha-se ou Controle-se."
+     },
+     {
+          "fraseEN": "as smooth as silk",
+          "traducaoPT": "tão liso quanto a seda"
+     },
+     {
+          "fraseEN": "a shot in the dark",
+          "traducaoPT": "um tiro no escuro"
+     },
+     {
+          "fraseEN": "burst at the seams",
+          "traducaoPT": "estourar pelas costuras"
+     },
+     {
+          "fraseEN": "They went to a concert last night.",
+          "traducaoPT": "Eles foram a um concerto na noite passada."
+     },
+     {
+          "fraseEN": "cat got your tongue",
+          "traducaoPT": "O gato pegou sua língua"
+     },
+     {
+          "fraseEN": "They are having a discussion in the classroom.",
+          "traducaoPT": "Eles estão tendo uma discussão na sala de aula."
+     },
+     {
+          "fraseEN": "behind the eight ball",
+          "traducaoPT": "atrás da bola oito"
+     },
+     {
+          "fraseEN": "She is painting a picture on the canvas.",
+          "traducaoPT": "Ela está pintando uma imagem na tela."
+     },
+     {
+          "fraseEN": "against the grain",
+          "traducaoPT": "Contra a corrente ou contra a maré"
+     },
+     {
+          "fraseEN": "She is typing on her computer.",
+          "traducaoPT": "Ela está digitando no seu computador."
+     },
+     {
+          "fraseEN": "left out in the cold",
+          "traducaoPT": "Deixado ao relento"
+     },
+     {
+          "fraseEN": "don't judge a book by its cover",
+          "traducaoPT": "não julgue um livro pela capa"
+     },
+     {
+          "fraseEN": "bend over backward",
+          "traducaoPT": "inclinarse para trás"
+     },
+     {
+          "fraseEN": "back to the grind",
+          "traducaoPT": "De volta ao trabalho"
+     },
+     {
+          "fraseEN": "let sleeping dogs lie",
+          "traducaoPT": "Deixe os cães dormirem."
+     },
+     {
+          "fraseEN": "a snowball's chance in hell",
+          "traducaoPT": "Uma chance igual à de uma bola de neve no inferno"
+     },
+     {
+          "fraseEN": "fighting a losing battle",
+          "traducaoPT": "Lutando uma batalha perdida"
+     },
+     {
+          "fraseEN": "a fish out of water",
+          "traducaoPT": "um peixe fora d'água"
+     },
+     {
+          "fraseEN": "hit the ground running",
+          "traducaoPT": "Partir com o pé direito"
+     },
+     {
+          "fraseEN": "heart of stone",
+          "traducaoPT": "Coração de pedra"
+     },
+     {
+          "fraseEN": "He took a walk in the park.",
+          "traducaoPT": "Ele deu um passeio no parque."
+     },
+     {
+          "fraseEN": "They are enjoying a cup of coffee together.",
+          "traducaoPT": "Eles estão desfrutando de uma xícara de café juntos."
+     },
+     {
+          "fraseEN": "I made a cup of tea for myself.",
+          "traducaoPT": "Fiz uma xícara de chá para mim mesmo."
+     },
+     {
+          "fraseEN": "cooking up a storm",
+          "traducaoPT": "cozinhando uma tempestade"
+     },
+     {
+          "fraseEN": "fall through the cracks",
+          "traducaoPT": "cair nas brechas"
+     },
+     {
+          "fraseEN": "bend over backwards",
+          "traducaoPT": "dobrar-se ao contrário"
+     },
+     {
+          "fraseEN": "dance with the devil",
+          "traducaoPT": "dançar com o diabo"
+     },
+     {
+          "fraseEN": "dark horse",
+          "traducaoPT": "cavalo negro"
+     },
+     {
+          "fraseEN": "She enjoys walking in the park.",
+          "traducaoPT": "Ela gosta de caminhar no parque."
+     },
+     {
+          "fraseEN": "go the extra mile",
+          "traducaoPT": "ir além do necessário"
+     },
+     {
+          "fraseEN": "He is looking out the window at the rain.",
+          "traducaoPT": "Ele está olhando pela janela para a chuva."
+     },
+     {
+          "fraseEN": "feeling under the weather",
+          "traducaoPT": "Sentindo-se mal ou indisposto"
+     },
+     {
+          "fraseEN": "bridge the gap",
+          "traducaoPT": "preencher a lacuna"
+     },
+     {
+          "fraseEN": "clear as crystal",
+          "traducaoPT": "claro como cristal"
+     },
+     {
+          "fraseEN": "actions speak louder than words",
+          "traducaoPT": "Ações falam mais alto do que palavras"
+     },
+     {
+          "fraseEN": "cutting corners",
+          "traducaoPT": "Cortar cantos"
+     },
+     {
+          "fraseEN": "cost an arm and a leg",
+          "traducaoPT": "Custar os olhos da cara"
+     },
+     {
+          "fraseEN": "a far cry",
+          "traducaoPT": "muito longe ou muito diferente"
+     },
+     {
+          "fraseEN": "carry the torch",
+          "traducaoPT": "levar a tocha"
+     },
+     {
+          "fraseEN": "chew the fat",
+          "traducaoPT": "Papar o tempo."
+     },
+     {
+          "fraseEN": "at a snail's pace",
+          "traducaoPT": "Ao ritmo de um caracol"
+     },
+     {
+          "fraseEN": "He is taking a nap on the couch.",
+          "traducaoPT": "Ele está dormindo no sofá."
+     },
+     {
+          "fraseEN": "dressed to kill",
+          "traducaoPT": "Vestido para matar"
+     },
+     {
+          "fraseEN": "all in your head",
+          "traducaoPT": "tudo na sua cabeça"
+     },
+     {
+          "fraseEN": "He is writing a story for school.",
+          "traducaoPT": "Ele está escrevendo uma história para a escola."
+     },
+     {
+          "fraseEN": "She painted a picture of a landscape.",
+          "traducaoPT": "Ela pintou um quadro de uma paisagem."
+     },
+     {
+          "fraseEN": "banging your head against a brick wall",
+          "traducaoPT": "bater a cabeça contra uma parede de tijolos"
+     },
+     {
+          "fraseEN": "She is visiting her grandmother in the hospital.",
+          "traducaoPT": "Ela está visitando sua avó no hospital."
+     },
+     {
+          "fraseEN": "She had a meeting with her boss.",
+          "traducaoPT": "Ela teve uma reunião com seu chefe."
+     },
+     {
+          "fraseEN": "She is knitting a scarf for winter.",
+          "traducaoPT": "Ela está tricotando uma echarpe para o inverno."
+     },
+     {
+          "fraseEN": "She took the train to the city.",
+          "traducaoPT": "Ela pegou o trem para a cidade."
+     },
+     {
+          "fraseEN": "break a leg",
+          "traducaoPT": "Boa sorte"
+     },
+     {
+          "fraseEN": "They are taking pictures in front of the monument.",
+          "traducaoPT": "Eles estão tirando fotos na frente do monumento."
+     },
+     {
+          "fraseEN": "They went for a walk in the park.",
+          "traducaoPT": "Eles foram para uma caminhada no parque."
+     },
+     {
+          "fraseEN": "below the belt",
+          "traducaoPT": "abaixo da cintura"
+     },
+     {
+          "fraseEN": "caught red-handed",
+          "traducaoPT": "Pego em flagrante"
+     },
+     {
+          "fraseEN": "make a mountain out of a molehill",
+          "traducaoPT": "Fazer uma montanha de um grão de areia"
+     },
+     {
+          "fraseEN": "burning bridges",
+          "traducaoPT": "Queimando pontes"
+     },
+     {
+          "fraseEN": "burn a hole in your pocket",
+          "traducaoPT": "queimar um buraco no seu bolso"
+     },
+     {
+          "fraseEN": "He is waiting for the bus.",
+          "traducaoPT": "Ele está esperando pelo ônibus."
+     },
+     {
+          "fraseEN": "better safe than sorry",
+          "traducaoPT": "Melhor prevenir do que remediar"
+     },
+     {
+          "fraseEN": "burnt to a crisp",
+          "traducaoPT": "queimado até ficar crocante"
+     },
+     {
+          "fraseEN": "They are doing laundry in the basement.",
+          "traducaoPT": "Eles estão lavando roupa no porão."
+     },
+     {
+          "fraseEN": "as light as a feather",
+          "traducaoPT": "leve como uma pluma"
+     },
+     {
+          "fraseEN": "as fit as a fiddle",
+          "traducaoPT": "tão saudável quanto um violino"
+     },
+     {
+          "fraseEN": "They are going for a run in the morning.",
+          "traducaoPT": "Eles vão correr de manhã."
+     },
+     {
+          "fraseEN": "adding insult to injury",
+          "traducaoPT": "acrescentar injúria ao dano"
+     },
+     {
+          "fraseEN": "apple of discord",
+          "traducaoPT": "maçã da discórdia"
+     },
+     {
+          "fraseEN": "broken dreams",
+          "traducaoPT": "Sonhos quebrados"
+     },
+     {
+          "fraseEN": "bitten by the bug",
+          "traducaoPT": "mordido pelo bicho"
+     },
+     {
+          "fraseEN": "blown away",
+          "traducaoPT": "Extremamente impressionado"
+     },
+     {
+          "fraseEN": "big shoes to fill",
+          "traducaoPT": "grandes sapatos para encher"
+     },
+     {
+          "fraseEN": "He is cleaning the garage.",
+          "traducaoPT": "Ele está limpando a garagem."
+     },
+     {
+          "fraseEN": "She played tennis with her brother.",
+          "traducaoPT": "Ela jogou tênis com seu irmão."
+     },
+     {
+          "fraseEN": "grasp at straws",
+          "traducaoPT": "Agarrar-se a palhas"
+     },
+     {
+          "fraseEN": "coming up roses",
+          "traducaoPT": "saindo tudo bem"
+     },
+     {
+          "fraseEN": "The car stopped at the red light.",
+          "traducaoPT": "O carro parou no semáforo vermelho."
+     },
+     {
+          "fraseEN": "They are sitting around the campfire.",
+          "traducaoPT": "Eles estão sentados em volta da fogueira do acampamento."
+     },
+     {
+          "fraseEN": "He is working out in the gym.",
+          "traducaoPT": "Ele está treinando na academia."
+     },
+     {
+          "fraseEN": "She is playing with her cat.",
+          "traducaoPT": "Ela está brincando com o seu gato."
+     },
+     {
+          "fraseEN": "He is fixing the car.",
+          "traducaoPT": "Ele está consertando o carro."
+     },
+     {
+          "fraseEN": "I like to read books in the evening.",
+          "traducaoPT": "Eu gosto de ler livros à noite."
+     },
+     {
+          "fraseEN": "They went to a museum last month.",
+          "traducaoPT": "Eles foram a um museu no mês passado."
+     },
+     {
+          "fraseEN": "They went to the library to borrow books.",
+          "traducaoPT": "Eles foram à biblioteca para pegar livros emprestados."
+     },
+     {
+          "fraseEN": "flying off the handle",
+          "traducaoPT": "Perdendo completamente a calma ou o controle"
+     },
+     {
+          "fraseEN": "catch lightning in a bottle",
+          "traducaoPT": "Capturar o relâmpago em uma garrafa"
+     },
+     {
+          "fraseEN": "bare your soul",
+          "traducaoPT": "Desabafe sua alma"
+     },
+     {
+          "fraseEN": "They met their friends at the café.",
+          "traducaoPT": "Eles encontraram seus amigos no café."
+     },
+     {
+          "fraseEN": "jump the gun",
+          "traducaoPT": "disparar a partida antes da hora"
+     },
+     {
+          "fraseEN": "She worked on her project all afternoon.",
+          "traducaoPT": "Ela trabalhou em seu projeto durante toda a tarde."
+     },
+     {
+          "fraseEN": "bury the hatchet",
+          "traducaoPT": "Enterrar o machado"
+     },
+     {
+          "fraseEN": "They are watching TV in the living room.",
+          "traducaoPT": "Eles estão assistindo TV na sala de estar."
+     },
+     {
+          "fraseEN": "They are eating lunch together.",
+          "traducaoPT": "Eles estão almoçando juntos."
+     },
+     {
+          "fraseEN": "He is taking a walk around the block.",
+          "traducaoPT": "Ele está dando uma volta ao quarteirão."
+     },
+     {
+          "fraseEN": "hit the nail on the head",
+          "traducaoPT": "acertar em cheio"
+     },
+     {
+          "fraseEN": "He sent an email to his colleague.",
+          "traducaoPT": "Ele enviou um e-mail ao seu colega."
+     },
+     {
+          "fraseEN": "carry a torch",
+          "traducaoPT": "carregar uma tocha"
+     },
+     {
+          "fraseEN": "They took a bus to the city center.",
+          "traducaoPT": "Eles pegaram um ônibus para o centro da cidade."
+     },
+     {
+          "fraseEN": "eat your heart out",
+          "traducaoPT": " coma o seu coração poura fora"
+     },
+     {
+          "fraseEN": "I did the laundry yesterday.",
+          "traducaoPT": "Eu fiz a lavanderia ontem."
+     },
+     {
+          "fraseEN": "They are taking a walk along the beach.",
+          "traducaoPT": "Eles estão dando uma caminhada ao longo da praia."
+     },
+     {
+          "fraseEN": "a weight on my shoulders",
+          "traducaoPT": "um peso sobre os meus ombros"
+     },
+     {
+          "fraseEN": "can't cut the mustard",
+          "traducaoPT": "não está à altura da situação"
+     },
+     {
+          "fraseEN": "come down to earth",
+          "traducaoPT": "desça do seu mundinho"
+     },
+     {
+          "fraseEN": "She is writing a letter to her friend.",
+          "traducaoPT": "Ela está escrevendo uma carta para sua amiga."
+     },
+     {
+          "fraseEN": "bad apple",
+          "traducaoPT": "maçã podre"
+     },
+     {
+          "fraseEN": "apple of my eye",
+          "traducaoPT": "maçã do meu olho"
+     },
+     {
+          "fraseEN": "She is making a salad for lunch.",
+          "traducaoPT": "Ela está fazendo uma salada para o almoço."
+     },
+     {
+          "fraseEN": "He repaired the broken chair.",
+          "traducaoPT": "Ele consertou a cadeira quebrada."
+     },
+     {
+          "fraseEN": "icing on the cake",
+          "traducaoPT": "o cúmulo da cobertura"
+     },
+     {
+          "fraseEN": "She went to the dentist for a check-up.",
+          "traducaoPT": "Ela foi ao dentista para um check-up."
+     },
+     {
+          "fraseEN": "armed to the teeth",
+          "traducaoPT": "armado até os dentes"
+     },
+     {
+          "fraseEN": "Water boils at 100°C.",
+          "traducaoPT": "A água ferve a 100°C."
+     },
+     {
+          "fraseEN": "red herring",
+          "traducaoPT": "arma de fumação"
+     },
+     {
+          "fraseEN": "have a lot on your plate",
+          "traducaoPT": "ter muito o que fazer"
+     },
+     {
+          "fraseEN": "a clean slate",
+          "traducaoPT": "uma folha em branco"
+     },
+     {
+          "fraseEN": "feeding the fire",
+          "traducaoPT": "alimentando o fogo"
+     },
+     {
+          "fraseEN": "finding a needle in a haystack",
+          "traducaoPT": "Encontrar uma agulha no palheiro"
+     },
+     {
+          "fraseEN": "She is shopping for groceries.",
+          "traducaoPT": "Ela está fazendo compras de supermercado."
+     },
+     {
+          "fraseEN": "born with a silver spoon",
+          "traducaoPT": "Nascido com uma colher de prata"
+     },
+     {
+          "fraseEN": "let the cat out of the bag",
+          "traducaoPT": "Deixar o gato sair da bolsa"
+     },
+     {
+          "fraseEN": "black mark",
+          "traducaoPT": "marca negra"
+     },
+     {
+          "fraseEN": "call it a day",
+          "traducaoPT": "dar por terminado o dia"
+     },
+     {
+          "fraseEN": "batten down the hatches",
+          "traducaoPT": "Feche bem as escotilhas."
+     },
+     {
+          "fraseEN": "call it a night",
+          "traducaoPT": "Encerrar o dia"
+     },
+     {
+          "fraseEN": "I worked on my computer for two hours.",
+          "traducaoPT": "Eu trabalhei no meu computador por duas horas."
+     },
+     {
+          "fraseEN": "man of the hour",
+          "traducaoPT": "Homem da hora"
+     },
+     {
+          "fraseEN": "from the bottom of my heart",
+          "traducaoPT": "do fundo do meu coração"
+     },
+     {
+          "fraseEN": "beat around the bush",
+          "traducaoPT": "Dar voltas em torno do assunto"
+     },
+     {
+          "fraseEN": "go the extra mile",
+          "traducaoPT": "Ir além do esperado"
+     },
+     {
+          "fraseEN": "down to earth",
+          "traducaoPT": "pé no chão"
+     },
+     {
+          "fraseEN": "They are chatting in the living room.",
+          "traducaoPT": "Eles estão conversando na sala de estar."
+     },
+     {
+          "fraseEN": "The dog ran across the yard.",
+          "traducaoPT": "O cão atravessou o quintal."
+     },
+     {
+          "fraseEN": "bigger fish to fry",
+          "traducaoPT": "peixes maiores para cozinhar"
+     },
+     {
+          "fraseEN": "climbing the walls",
+          "traducaoPT": "Subindo pelas paredes"
+     },
+     {
+          "fraseEN": "as clear as day",
+          "traducaoPT": "tão claro como o dia"
+     },
+     {
+          "fraseEN": "like a fish out of water",
+          "traducaoPT": "Como um peixe fora da água"
+     },
+     {
+          "fraseEN": "like father, like son",
+          "traducaoPT": "Tal pai, tal filho"
+     },
+     {
+          "fraseEN": "blaze a trail",
+          "traducaoPT": "Abrir um caminho"
+     },
+     {
+          "fraseEN": "dare to dream",
+          "traducaoPT": "Osa sonhar"
+     },
+     {
+          "fraseEN": "at your wit’s end",
+          "traducaoPT": "no limite da sua paciência"
+     },
+     {
+          "fraseEN": "a piece of cake",
+          "traducaoPT": "um bolo"
+     },
+     {
+          "fraseEN": "call the shots",
+          "traducaoPT": "dirigir os acontecimentos"
+     },
+     {
+          "fraseEN": "close call",
+          "traducaoPT": "Quase acidente"
+     },
+     {
+          "fraseEN": "against the clock",
+          "traducaoPT": "Contra o relógio"
+     },
+     {
+          "fraseEN": "eye of the storm",
+          "traducaoPT": "olho do furacão"
+     },
+     {
+          "fraseEN": "don't count your chickens before they hatch",
+          "traducaoPT": "Não conte com os ovos antes que eles eclodam."
+     },
+     {
+          "fraseEN": "They are having a family gathering at home.",
+          "traducaoPT": "Eles estão tendo uma reunião familiar em casa."
+     },
+     {
+          "fraseEN": "big time",
+          "traducaoPT": "de grande forma"
+     },
+     {
+          "fraseEN": "a drop in the ocean",
+          "traducaoPT": "uma gota no oceano"
+     },
+     {
+          "fraseEN": "big fish in a small pond",
+          "traducaoPT": "Peixe grande num lago pequeno"
+     },
+     {
+          "fraseEN": "She studied for the test all week.",
+          "traducaoPT": "Ela estudou para a prova a semana toda."
+     },
+     {
+          "fraseEN": "against all odds",
+          "traducaoPT": "Contra todas as probabilidades"
+     },
+     {
+          "fraseEN": "hit the nail on the head",
+          "traducaoPT": "acertar em cheio"
+     },
+     {
+          "fraseEN": "back against the wall",
+          "traducaoPT": "de costas contra a parede"
+     },
+     {
+          "fraseEN": "They watched the sunrise at the beach.",
+          "traducaoPT": "Eles assistiram ao nascer do sol na praia."
+     },
+     {
+          "fraseEN": "butter wouldn't melt",
+          "traducaoPT": "manteiga não derreteria na boca dele"
+     },
+     {
+          "fraseEN": "a taste of their own medicine",
+          "traducaoPT": "um gosto da própria medicina"
+     },
+     {
+          "fraseEN": "She is organizing her closet.",
+          "traducaoPT": "Ela está organizando seu armário."
+     },
+     {
+          "fraseEN": "She went to the gym for a workout.",
+          "traducaoPT": "Ela foi à academia para um treino."
+     },
+     {
+          "fraseEN": "dropping like flies",
+          "traducaoPT": "caíndo como moscas"
+     },
+     {
+          "fraseEN": "a taste of freedom",
+          "traducaoPT": "um sabor de liberdade"
+     },
+     {
+          "fraseEN": "hold your horses",
+          "traducaoPT": "Contenha-se, ou segure as cavalos (no sentido literal), ou mais comumente:  Contenha-se, ou tenha paciência, ou ainda: Não se apresse, ou Não tenha tanta pressa."
+     },
+     {
+          "fraseEN": "The weather is very cold today.",
+          "traducaoPT": "O tempo está muito frio hoje."
+     },
+     {
+          "fraseEN": "blood runs cold",
+          "traducaoPT": "Sangue gelado"
+     },
+     {
+          "fraseEN": "don't cry over spilled milk",
+          "traducaoPT": "não chore sobre o leite derramado"
+     },
+     {
+          "fraseEN": "back to basics",
+          "traducaoPT": "Voltar aos fundamentos"
+     },
+     {
+          "fraseEN": "go the extra mile",
+          "traducaoPT": "ir além do necessário"
+     },
+     {
+          "fraseEN": "carved in stone",
+          "traducaoPT": "esculpido na pedra"
+     },
+     {
+          "fraseEN": "She brushed her teeth before bed.",
+          "traducaoPT": "Ela escovou os dentes antes de dormir."
+     },
+     {
+          "fraseEN": "chip off the old block",
+          "traducaoPT": "puxe o pai ou filho da mesma pá"
+     },
+     {
+          "fraseEN": "cat nap",
+          "traducaoPT": "Soneca"
+     },
+     {
+          "fraseEN": "chip on your shoulder",
+          "traducaoPT": "uma pancada nas costas"
+     },
+     {
+          "fraseEN": "as gentle as a lamb",
+          "traducaoPT": "tão gentil como um cordeiro"
+     },
+     {
+          "fraseEN": "They went to a theme park for the day.",
+          "traducaoPT": "Eles foram a um parque temático para o dia."
+     },
+     {
+          "fraseEN": "burn the midnight oil",
+          "traducaoPT": "Queimar a meia-noite a óleo"
+     },
+     {
+          "fraseEN": "blind leading the blind",
+          "traducaoPT": "cego levando cegos"
+     },
+     {
+          "fraseEN": "blue in the face",
+          "traducaoPT": "até ficar azul no rosto"
+     },
+     {
+          "fraseEN": "She is taking a picture of the flowers in the garden.",
+          "traducaoPT": "Ela está tirando uma foto das flores no jardim."
+     },
+     {
+          "fraseEN": "They are having a barbecue in the garden.",
+          "traducaoPT": "Eles estão fazendo um churrasco no jardim."
+     },
+     {
+          "fraseEN": "jump the gun",
+          "traducaoPT": "disparar antes da hora certa"
+     },
+     {
+          "fraseEN": "They are walking through the city streets.",
+          "traducaoPT": "Eles estão caminhando pelas ruas da cidade."
+     },
+     {
+          "fraseEN": "She reads a book every night.",
+          "traducaoPT": "Ela lê um livro todas as noites."
+     },
+     {
+          "fraseEN": "chained to the desk",
+          "traducaoPT": "acorrentado à mesa"
+     },
+     {
+          "fraseEN": "He did some gardening in the afternoon.",
+          "traducaoPT": "Ele fez algum jardim à tarde."
+     },
+     {
+          "fraseEN": "They enjoyed a picnic in the park.",
+          "traducaoPT": "Eles aproveitaram um piquenique no parque."
+     },
+     {
+          "fraseEN": "dive in headfirst",
+          "traducaoPT": "Se jogue de cabeça"
+     },
+     {
+          "fraseEN": "have the upper hand",
+          "traducaoPT": "ter a vantagem"
+     },
+     {
+          "fraseEN": "She is ironing her clothes.",
+          "traducaoPT": "Ela está passando as roupas."
+     },
+     {
+          "fraseEN": "He plays soccer every weekend.",
+          "traducaoPT": "Ele joga futebol todos os fins de semana."
+     },
+     {
+          "fraseEN": "at the drop of a hat",
+          "traducaoPT": "ao primeiro sinal"
+     },
+     {
+          "fraseEN": "have a heart of stone",
+          "traducaoPT": "ter um coração de pedra"
+     },
+     {
+          "fraseEN": "He worked on his computer for hours.",
+          "traducaoPT": "Ele trabalhou no seu computador por horas."
+     },
+     {
+          "fraseEN": "airing dirty laundry",
+          "traducaoPT": "Lavando roupa suja em público"
+     },
+     {
+          "fraseEN": "dead in the water",
+          "traducaoPT": "morta na água"
+     },
+     {
+          "fraseEN": "another string to your bow",
+          "traducaoPT": "mais uma corda no seu arco"
+     },
+     {
+          "fraseEN": "easy come, easy go",
+          "traducaoPT": "Vem fácil, vai fácil"
+     },
+     {
+          "fraseEN": "bend over backwards",
+          "traducaoPT": "Inclinar-se ao extremo para agradar"
+     },
+     {
+          "fraseEN": "bolt from the blue",
+          "traducaoPT": "raio em céu sereno"
+     },
+     {
+          "fraseEN": "dropping the ball",
+          "traducaoPT": "deixar cair a bola"
+     },
+     {
+          "fraseEN": "born with a silver spoon",
+          "traducaoPT": "Nascido com uma colher de prata"
+     },
+     {
+          "fraseEN": "as plain as day",
+          "traducaoPT": "tão claro quanto o dia"
+     },
+     {
+          "fraseEN": "like a fish to water",
+          "traducaoPT": "como peixe na água"
+     },
+     {
+          "fraseEN": "change your tune",
+          "traducaoPT": "Mude sua conduta ou mudar de atitude"
+     },
+     {
+          "fraseEN": "adding fuel to the fire",
+          "traducaoPT": "acrescentando lenha à fogueira"
+     },
+     {
+          "fraseEN": "They are playing board games in the living room.",
+          "traducaoPT": "Eles estão jogando jogos de tabuleiro na sala de estar."
+     },
+     {
+          "fraseEN": "dying to know",
+          "traducaoPT": "Morrendo de curiosidade"
+     },
+     {
+          "fraseEN": "She is making a smoothie for breakfast.",
+          "traducaoPT": "Ela está fazendo um smoothie para o café da manhã."
+     },
+     {
+          "fraseEN": "in the same boat",
+          "traducaoPT": "no mesmo barco"
+     },
+     {
+          "fraseEN": "better late than never",
+          "traducaoPT": "Melhor tarde do que nunca"
+     },
+     {
+          "fraseEN": "frog in your throat",
+          "traducaoPT": "uma rã na garganta"
+     },
+     {
+          "fraseEN": "down in the dumps",
+          "traducaoPT": "abaixo ou deprimido"
+     },
+     {
+          "fraseEN": "blood is thicker than water",
+          "traducaoPT": "Sangue é mais espesso do que água."
+     },
+     {
+          "fraseEN": "as high as a kite",
+          "traducaoPT": "Alto como um pipa"
+     },
+     {
+          "fraseEN": "foot in the door",
+          "traducaoPT": "Pé na porta"
+     },
+     {
+          "fraseEN": "crying over spilled milk",
+          "traducaoPT": "Chorar sobre o leite derramado"
+     },
+     {
+          "fraseEN": "He is studying for his exams.",
+          "traducaoPT": "Ele está estudando para as suas provas."
+     },
+     {
+          "fraseEN": "darkest before dawn",
+          "traducaoPT": "mais escuro antes do amanhecer"
+     },
+     {
+          "fraseEN": "They are taking a family vacation.",
+          "traducaoPT": "Eles estão tirando férias em família."
+     },
+     {
+          "fraseEN": "cat got your tongue",
+          "traducaoPT": "o gato pegou sua língua"
+     },
+     {
+          "fraseEN": "barking up the wrong tree",
+          "traducaoPT": "está seguindo o caminho errado"
+     },
+     {
+          "fraseEN": "bird's eye view",
+          "traducaoPT": "Visão aérea"
+     },
+     {
+          "fraseEN": "by a long shot",
+          "traducaoPT": "De longe"
+     },
+     {
+          "fraseEN": "add insult to injury",
+          "traducaoPT": "acrescentar a ofensa ao dano"
+     }
 ]
