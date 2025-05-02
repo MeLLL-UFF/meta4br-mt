@@ -4,7 +4,7 @@ from comet import download_model, load_from_checkpoint
 model_path = download_model("Unbabel/wmt22-comet-da")
 model = load_from_checkpoint(model_path)
 
-with open('groq/frases_traduzidas_com_metricas.json', 'r', encoding='utf-8') as file:
+with open('dataset_manualdata/qwen/prompt2/frases_traduzidas_com_metricas.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
     comet_data = []
@@ -21,6 +21,7 @@ with open('groq/frases_traduzidas_com_metricas.json', 'r', encoding='utf-8') as 
 
     for i in range(len(dados)):
         dados[i]["COMET"] = {"scores" : scores[i]}
+        print("AAAA ")
 
-    with open('groq/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
+    with open('dataset_manualdata/qwen/prompt2/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
         json.dump(dados, file, ensure_ascii=False, indent=4)

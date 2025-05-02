@@ -1,0 +1,5028 @@
+[
+    {
+        "ingles_original": "crack the whip",
+        "portugues_traduzido": "Comandar com mão de ferro.\n",
+        "ingles_traduzido": "To rule with an iron fist.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "blow off steam",
+        "portugues_traduzido": "Desabafar\n",
+        "ingles_traduzido": "To vent\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "let the cat out of the bag",
+        "portugues_traduzido": "Revelar o segredo.\n",
+        "ingles_traduzido": "Reveal the secret.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "They are riding bicycles in the neighborhood.",
+        "portugues_traduzido": "Eles estão andando de bicicleta no bairro.\n",
+        "ingles_traduzido": "They are riding bikes in the neighborhood.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "He likes to watch movies in his free time.",
+        "portugues_traduzido": "Ele gosta de assistir filmes em seu tempo livre.\n",
+        "ingles_traduzido": "He likes to watch movies in his free time.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "She enjoys painting in her free time.",
+        "portugues_traduzido": "Ela gosta de pintar no tempo livre.\n",
+        "ingles_traduzido": "She likes to paint in her free time.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "bite off more than you can chew",
+        "portugues_traduzido": "Morder mais do que pode mastigar.\n",
+        "ingles_traduzido": "Bite off more than one can chew.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "my hands are tied",
+        "portugues_traduzido": "Estou de mãos atadas.\n",
+        "ingles_traduzido": "I'm hamstrung.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "dime a dozen",
+        "portugues_traduzido": "À dime a dúzia\n",
+        "ingles_traduzido": "Tell me the dozen.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "They are having a picnic in the park.",
+        "portugues_traduzido": "Eles estão fazendo um piquenique no parque.\n",
+        "ingles_traduzido": "They are having a picnic in the park.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "leave no stone unturned",
+        "portugues_traduzido": "Não deixar pedra sobre pedra\n",
+        "ingles_traduzido": "Leave no stone unturned\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "hold the fort",
+        "portugues_traduzido": "Defendam o forte\n",
+        "ingles_traduzido": "Defend the fort\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "He is putting the groceries away.",
+        "portugues_traduzido": "Ele está guardando as compras.\n",
+        "ingles_traduzido": "He is putting away the groceries.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "fit as a fiddle",
+        "portugues_traduzido": "Em perfeita forma.\n",
+        "ingles_traduzido": "In perfect shape.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "an iron fist",
+        "portugues_traduzido": "Punho de ferro\n",
+        "ingles_traduzido": "Iron Fist\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "beggars can’t be choosers",
+        "portugues_traduzido": "Quem pede não escolhe.\n",
+        "ingles_traduzido": "Beggars can't be choosers.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "card up your sleeve",
+        "portugues_traduzido": "Carta na manga\n",
+        "ingles_traduzido": "Ace in the hole\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "beating around the bush",
+        "portugues_traduzido": "Enrolar\n",
+        "ingles_traduzido": "To roll.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "She is giving a speech at the conference.",
+        "portugues_traduzido": "Ela está fazendo um discurso na conferência.\n",
+        "ingles_traduzido": "She's giving a speech at the conference.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "She wrote a report for work.",
+        "portugues_traduzido": "Ela escreveu um relatório para o trabalho.\n",
+        "ingles_traduzido": "She wrote a report for work.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "ace up your sleeve",
+        "portugues_traduzido": "Carta na manga\n",
+        "ingles_traduzido": "Ace in the hole\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "an open book",
+        "portugues_traduzido": "Um livro aberto\n",
+        "ingles_traduzido": "An open book\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "She is giving a presentation at work.",
+        "portugues_traduzido": "Ela está apresentando no trabalho.\n",
+        "ingles_traduzido": "She is presenting at work.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "He went to a birthday party last night.",
+        "portugues_traduzido": "Ele foi a uma festa de aniversário ontem à noite.\n",
+        "ingles_traduzido": "He went to a birthday party last night.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "color outside the lines",
+        "portugues_traduzido": "Colorir fora das linhas\n",
+        "ingles_traduzido": "Color outside the lines\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "easy as pie",
+        "portugues_traduzido": "Fácil como uma torta.\n",
+        "ingles_traduzido": "Easy as pie.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "blind as a bat",
+        "portugues_traduzido": "Cego como um morcego\n",
+        "ingles_traduzido": "Blind as a bat\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "change of heart",
+        "portugues_traduzido": "Mudança de coração\n",
+        "ingles_traduzido": "Change of heart\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "food for thought",
+        "portugues_traduzido": "Comida para pensar\n",
+        "ingles_traduzido": "Food for thought\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "black as night",
+        "portugues_traduzido": "Negro como a noite\n",
+        "ingles_traduzido": "Black as night\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "a chip on your shoulder",
+        "portugues_traduzido": "Rancor.\n",
+        "ingles_traduzido": "Rancor.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "close to my heart",
+        "portugues_traduzido": "Perto do meu coração.\n",
+        "ingles_traduzido": "Close to my heart.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "apple of my eye",
+        "portugues_traduzido": "A menina dos meus olhos\n",
+        "ingles_traduzido": "Apple of my eye\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "get the show on the road",
+        "portugues_traduzido": "Começar o show.\n",
+        "ingles_traduzido": "Start the show.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "easy as pie",
+        "portugues_traduzido": "Fácil como uma torta.\n",
+        "ingles_traduzido": "Easy as pie.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "back to square one",
+        "portugues_traduzido": "De volta à estaca zero\n",
+        "ingles_traduzido": "Back to square one\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "devil's advocate",
+        "portugues_traduzido": "Advogado do diabo\n",
+        "ingles_traduzido": "Devil's advocate\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She went to the library to study.",
+        "portugues_traduzido": "Ela foi à biblioteca para estudar.\n",
+        "ingles_traduzido": "She went to the library to study.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "fit as a fiddle",
+        "portugues_traduzido": "Em ótima forma.\n",
+        "ingles_traduzido": "In great shape.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "They went to the theater to watch a play.",
+        "portugues_traduzido": "Eles foram ao teatro para assistir a uma peça.\n",
+        "ingles_traduzido": "They went to the theater to see a play.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "falling through the cracks",
+        "portugues_traduzido": "Caindo pelas frestas\n",
+        "ingles_traduzido": "Falling through the cracks\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She made breakfast for the family.",
+        "portugues_traduzido": "Ela preparou o café da manhã para a família.\n",
+        "ingles_traduzido": "She made breakfast for the family.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "She is talking on the phone.",
+        "portugues_traduzido": "Ela está falando ao telefone.\n",
+        "ingles_traduzido": "She is talking on the phone.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "all bark and no bite",
+        "portugues_traduzido": "Só ladra, mas não morde.\n",
+        "ingles_traduzido": "She barks, but she doesn't bite.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "apple of discord",
+        "portugues_traduzido": "Maçã da discórdia\n",
+        "ingles_traduzido": "Apple of discord\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "spill the beans",
+        "portugues_traduzido": "Contar tudo\n",
+        "ingles_traduzido": "Tell all\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "burn your bridges",
+        "portugues_traduzido": "Queime as pontes.\n",
+        "ingles_traduzido": "Burn the bridges.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "I need to buy groceries this afternoon.",
+        "portugues_traduzido": "Preciso comprar mantimentos esta tarde.\n",
+        "ingles_traduzido": "I need to buy groceries this afternoon.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "as bold as brass",
+        "portugues_traduzido": "Descarado como o latão.\n",
+        "ingles_traduzido": "Brazen as brass.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "close to the vest",
+        "portugues_traduzido": "Guardar segredo.\n",
+        "ingles_traduzido": "Keep a secret.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "blood is thicker than water",
+        "portugues_traduzido": "Sangue do meu sangue.\n",
+        "ingles_traduzido": "Blood of my blood.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "back to the drawing board",
+        "portugues_traduzido": "De volta à prancheta.\n",
+        "ingles_traduzido": "Back to the drawing board.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "She went to the post office to send a package.",
+        "portugues_traduzido": "Ela foi aos correios para enviar um pacote.\n",
+        "ingles_traduzido": "She went to the post office to send a package.\n",
+        "num_tokens_original": 12,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "as right as rain",
+        "portugues_traduzido": "Em perfeita ordem\n",
+        "ingles_traduzido": "In perfect order\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He is planning his day ahead.",
+        "portugues_traduzido": "Ele está planejando o dia dele.\n",
+        "ingles_traduzido": "He's planning his day.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "She took a shower in the morning.",
+        "portugues_traduzido": "Ela tomou banho de manhã.\n",
+        "ingles_traduzido": "She took a shower in the morning.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "best of both worlds",
+        "portugues_traduzido": "O melhor dos dois mundos.\n",
+        "ingles_traduzido": "The best of both worlds.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "antsy as a cat on a hot tin roof",
+        "portugues_traduzido": "Nervoso como gato em telhado de lata quente.\n",
+        "ingles_traduzido": "Nervous as a cat on a hot tin roof.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 14
+    },
+    {
+        "ingles_original": "He is building a model airplane.",
+        "portugues_traduzido": "Ele está construindo um avião de brinquedo.\n",
+        "ingles_traduzido": "He is building a toy airplane.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "devil's advocate",
+        "portugues_traduzido": "Advogado do diabo\n",
+        "ingles_traduzido": "Devil's advocate\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "burst your bubble",
+        "portugues_traduzido": "Estragar a festa\n",
+        "ingles_traduzido": "Ruin the party\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "all eyes on you",
+        "portugues_traduzido": "Todos os olhos em você.\n",
+        "ingles_traduzido": "All eyes on you.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "a skeleton in the closet",
+        "portugues_traduzido": "Um segredo sujo.\n",
+        "ingles_traduzido": "A dirty secret.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "He is attending a business meeting.",
+        "portugues_traduzido": "Ele está participando de uma reunião de negócios.\n",
+        "ingles_traduzido": "He is attending a business meeting.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "cool as a cucumber",
+        "portugues_traduzido": "Calmo como um pepino.\n",
+        "ingles_traduzido": "Cool as a cucumber.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "He took the bus to work.",
+        "portugues_traduzido": "Ele pegou o ônibus para o trabalho.\n",
+        "ingles_traduzido": "He took the bus to work.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "as easy as pie",
+        "portugues_traduzido": "Tão fácil quanto uma torta.\n",
+        "ingles_traduzido": "As easy as pie.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "butterfly effect",
+        "portugues_traduzido": "Efeito borboleta\n",
+        "ingles_traduzido": "Butterfly effect\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "They watched a TV show in the evening.",
+        "portugues_traduzido": "Eles assistiram a um programa de TV à noite.\n",
+        "ingles_traduzido": "They watched a TV show at night.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "She is brushing her teeth before bed.",
+        "portugues_traduzido": "Ela está escovando os dentes antes de dormir.\n",
+        "ingles_traduzido": "She is brushing her teeth before bed.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "blown out of the water",
+        "portugues_traduzido": "Superado completamente\n",
+        "ingles_traduzido": "Completely overcome\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He is feeding his pet hamster.",
+        "portugues_traduzido": "Ele está alimentando seu hamster de estimação.\n",
+        "ingles_traduzido": "He is feeding his pet hamster.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "I like to drink coffee in the morning.",
+        "portugues_traduzido": "Eu gosto de tomar café de manhã.\n",
+        "ingles_traduzido": "I like to drink coffee in the morning.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "another day, another dollar",
+        "portugues_traduzido": "Mais um dia, mais um dólar.\n",
+        "ingles_traduzido": "Another day, another dollar.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "actions speak louder than words",
+        "portugues_traduzido": "Ações valem mais que palavras.\n",
+        "ingles_traduzido": "Actions speak louder than words.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "climbing up the ladder",
+        "portugues_traduzido": "Subindo na vida.\n",
+        "ingles_traduzido": "Making progress.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "early bird catches the worm",
+        "portugues_traduzido": "Deus ajuda quem cedo madruga.\n",
+        "ingles_traduzido": "God helps those who help themselves.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "She is baking cookies in the kitchen.",
+        "portugues_traduzido": "Ela está assando biscoitos na cozinha.\n",
+        "ingles_traduzido": "She is baking cookies in the kitchen.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "bleeding heart",
+        "portugues_traduzido": "Coração mole\n",
+        "ingles_traduzido": "Soft heart\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "She is cleaning the kitchen after dinner.",
+        "portugues_traduzido": "Ela está limpando a cozinha depois do jantar.\n",
+        "ingles_traduzido": "She is cleaning the kitchen after dinner.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "She is drinking water.",
+        "portugues_traduzido": "Ela está bebendo água.\n",
+        "ingles_traduzido": "She is drinking water.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "They are having coffee at the café.",
+        "portugues_traduzido": "Eles estão tomando café no café.\n",
+        "ingles_traduzido": "They are drinking coffee at the café.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "hard pill to swallow",
+        "portugues_traduzido": "Verdade difícil de engolir\n",
+        "ingles_traduzido": "Tough pill to swallow\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "a slap on the wrist",
+        "portugues_traduzido": "Uma bronca leve\n",
+        "ingles_traduzido": "A mild scolding\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "They are visiting a museum this afternoon.",
+        "portugues_traduzido": "Eles estão visitando um museu esta tarde.\n",
+        "ingles_traduzido": "They are visiting a museum this afternoon.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They are swimming at the pool.",
+        "portugues_traduzido": "Eles estão nadando na piscina.\n",
+        "ingles_traduzido": "They are swimming in the pool.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "cat on a hot tin roof",
+        "portugues_traduzido": "Gata em Telhado de Zinco Quente\n",
+        "ingles_traduzido": "Cat on a Hot Tin Roof\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "She is talking to her friend on the phone.",
+        "portugues_traduzido": "Ela está falando com sua amiga no telefone.\n",
+        "ingles_traduzido": "She is talking to her friend on the phone.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "He is walking his dog in the park.",
+        "portugues_traduzido": "Ele está passeando com o cachorro no parque.\n",
+        "ingles_traduzido": "He is walking the dog in the park.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "add fuel to the fire",
+        "portugues_traduzido": "Botar lenha na fogueira\n",
+        "ingles_traduzido": "To add fuel to the fire\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "in hot water",
+        "portugues_traduzido": "Em maus lençóis\n",
+        "ingles_traduzido": "In deep trouble\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "boiling point",
+        "portugues_traduzido": "Ponto de ebulição\n",
+        "ingles_traduzido": "Boiling point\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "beat a dead horse",
+        "portugues_traduzido": "Bater em cachorro morto.\n",
+        "ingles_traduzido": "Beating a dead horse.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "blind alley",
+        "portugues_traduzido": "Beco sem saída\n",
+        "ingles_traduzido": "Dead end\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "cutting corners",
+        "portugues_traduzido": "Fazer as coisas pela metade\n",
+        "ingles_traduzido": "To do things halfway\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "actions speak louder than words",
+        "portugues_traduzido": "Ações valem mais que palavras.\n",
+        "ingles_traduzido": "Actions speak louder than words.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "chip on the shoulder",
+        "portugues_traduzido": "Rancor\n",
+        "ingles_traduzido": "Bitterness\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He washed his car yesterday.",
+        "portugues_traduzido": "Ele lavou o carro dele ontem.\n",
+        "ingles_traduzido": "He washed his car yesterday.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "cold as ice",
+        "portugues_traduzido": "Frio como gelo\n",
+        "ingles_traduzido": "Cold as ice\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He is attending a wedding.",
+        "portugues_traduzido": "Ele está indo a um casamento.\n",
+        "ingles_traduzido": "He is going to a wedding.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He is making a cup of coffee.",
+        "portugues_traduzido": "Ele está fazendo uma xícara de café.\n",
+        "ingles_traduzido": "He's making a cup of coffee.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "chasing shadows",
+        "portugues_traduzido": "Perseguindo sombras\n",
+        "ingles_traduzido": "Chasing shadows\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "feast your eyes",
+        "portugues_traduzido": "Delicie seus olhos\n",
+        "ingles_traduzido": "Feast your eyes\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "a diamond in the rough",
+        "portugues_traduzido": "Um diamante bruto.\n",
+        "ingles_traduzido": "A rough diamond.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "He is having breakfast with his family.",
+        "portugues_traduzido": "Ele está tomando café da manhã com a família dele.\n",
+        "ingles_traduzido": "He is having breakfast with his family.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "blind as a bat",
+        "portugues_traduzido": "Cego como um morcego.\n",
+        "ingles_traduzido": "Blind as a bat.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "light at the end of the tunnel",
+        "portugues_traduzido": "Luz no fim do túnel\n",
+        "ingles_traduzido": "Light at the end of the tunnel\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "as old as the hills",
+        "portugues_traduzido": "Tão velho quanto as colinas\n",
+        "ingles_traduzido": "As old as the hills\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "break the ice",
+        "portugues_traduzido": "Quebrar o gelo\n",
+        "ingles_traduzido": "Break the ice\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He went for a jog in the morning.",
+        "portugues_traduzido": "Ele foi correr de manhã.\n",
+        "ingles_traduzido": "He went for a run in the morning.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "finding your feet",
+        "portugues_traduzido": "Adaptando-se\n",
+        "ingles_traduzido": "Adapting\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "give someone a run for their money",
+        "portugues_traduzido": "Dar trabalho a alguém.\n",
+        "ingles_traduzido": "To give someone work.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "have a bone to pick",
+        "portugues_traduzido": "Ter algo a reclamar\n",
+        "ingles_traduzido": "To have something to complain about\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "barking up the wrong tree",
+        "portugues_traduzido": "Estar a bater na porta errada.\n",
+        "ingles_traduzido": "You're barking up the wrong tree.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "He enjoyed a cup of coffee in the morning.",
+        "portugues_traduzido": "Ele apreciou uma xícara de café pela manhã.\n",
+        "ingles_traduzido": "He enjoyed a cup of coffee in the morning.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "ball is in your court",
+        "portugues_traduzido": "A bola está no seu campo.\n",
+        "ingles_traduzido": "The ball is in your court.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "blood, sweat, and tears",
+        "portugues_traduzido": "Sangue, suor e lágrimas\n",
+        "ingles_traduzido": "Blood, sweat, and tears\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "going down in flames",
+        "portugues_traduzido": "Indo para o fundo em chamas\n",
+        "ingles_traduzido": "Going down in flames\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "break a leg",
+        "portugues_traduzido": "Boa sorte!\n",
+        "ingles_traduzido": "Good luck!\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "The kids played in the playground.",
+        "portugues_traduzido": "As crianças brincaram no parquinho.\n",
+        "ingles_traduzido": "The children played at the playground.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "change of tune",
+        "portugues_traduzido": "Mudança de tom\n",
+        "ingles_traduzido": "Change of tone\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "paint the town red",
+        "portugues_traduzido": "Tornar a noite agitada\n",
+        "ingles_traduzido": "Make the night eventful.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "burnt out",
+        "portugues_traduzido": "Esgotado\n",
+        "ingles_traduzido": "Out of stock\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "burning the midnight oil",
+        "portugues_traduzido": "Queimando pestana\n",
+        "ingles_traduzido": "Burning the midnight oil\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "come out of the woodwork",
+        "portugues_traduzido": "Aparecer do nada.\n",
+        "ingles_traduzido": "To appear out of nowhere.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "blessing in disguise",
+        "portugues_traduzido": "Mal que vem para o bem.\n",
+        "ingles_traduzido": "Every cloud has a silver lining.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He is cutting vegetables for dinner.",
+        "portugues_traduzido": "Ele está cortando vegetais para o jantar.\n",
+        "ingles_traduzido": "He is chopping vegetables for dinner.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "bigger than life",
+        "portugues_traduzido": "Maior que a vida\n",
+        "ingles_traduzido": "Larger than life\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "cast iron stomach",
+        "portugues_traduzido": "Estômago de aço\n",
+        "ingles_traduzido": "Iron stomach\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "arm and a leg",
+        "portugues_traduzido": "Um braço e uma perna\n",
+        "ingles_traduzido": "An arm and a leg\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "as hungry as a wolf",
+        "portugues_traduzido": "Faminto como um lobo.\n",
+        "ingles_traduzido": "Hungry as a wolf.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They went for a swim at the pool.",
+        "portugues_traduzido": "Eles foram nadar na piscina.\n",
+        "ingles_traduzido": "They went swimming in the pool.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "blow a fuse",
+        "portugues_traduzido": "Ficar furioso\n",
+        "ingles_traduzido": "To fly into a rage\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "He is drawing a picture of his dog.",
+        "portugues_traduzido": "Ele está desenhando um retrato do seu cachorro.\n",
+        "ingles_traduzido": "He is drawing a portrait of his dog.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "bend over backwards",
+        "portugues_traduzido": "Se esforçar ao máximo\n",
+        "ingles_traduzido": "To give it your all\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "any port in a storm",
+        "portugues_traduzido": "Qualquer porto em tempestade.\n",
+        "ingles_traduzido": "Any port in a storm.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "I met my friends for lunch.",
+        "portugues_traduzido": "Encontrei meus amigos para almoçar.\n",
+        "ingles_traduzido": "I met my friends for lunch.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "bare bones",
+        "portugues_traduzido": "O essencial\n",
+        "ingles_traduzido": "The essential\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "bottom of the totem pole",
+        "portugues_traduzido": "No fim da hierarquia.\n",
+        "ingles_traduzido": "At the bottom of the hierarchy.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "face the music",
+        "portugues_traduzido": "Assumir as consequências\n",
+        "ingles_traduzido": "Face the consequences.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "chomping at the bit",
+        "portugues_traduzido": "Morrendo de vontade\n",
+        "ingles_traduzido": "Dying to\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "on cloud nine",
+        "portugues_traduzido": "Nas nuvens\n",
+        "ingles_traduzido": "In the clouds\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "between a rock and a hard place",
+        "portugues_traduzido": "Entre a cruz e a espada\n",
+        "ingles_traduzido": "Between a rock and a hard place\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "batten down the hatches",
+        "portugues_traduzido": "Abaixar as escotilhas.\n",
+        "ingles_traduzido": "\"Batten down the hatches.\"\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "all ears",
+        "portugues_traduzido": "Todo ouvidos\n",
+        "ingles_traduzido": "All ears\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "a fly on the wall",
+        "portugues_traduzido": "Uma mosca na parede\n",
+        "ingles_traduzido": "A fly on the wall\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "as sharp as a tack",
+        "portugues_traduzido": "Esperto como uma raposa.\n",
+        "ingles_traduzido": "As cunning as a fox.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "She bought a new phone last week.",
+        "portugues_traduzido": "Ela comprou um telefone novo na semana passada.\n",
+        "ingles_traduzido": "She bought a new phone last week.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "don't put all your eggs in one basket",
+        "portugues_traduzido": "Não coloque todos os ovos na mesma cesta.\n",
+        "ingles_traduzido": "Don't put all your eggs in one basket.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "bottom of the barrel",
+        "portugues_traduzido": "O fundo do poço\n",
+        "ingles_traduzido": "The bottom of the barrel\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "carrying the weight of the world",
+        "portugues_traduzido": "Carregando o peso do mundo.\n",
+        "ingles_traduzido": "Carrying the weight of the world.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "cogs in the machine",
+        "portugues_traduzido": "Peças da engrenagem\n",
+        "ingles_traduzido": "Gear pieces\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "I am traveling to the mountains this weekend.",
+        "portugues_traduzido": "Eu vou viajar para as montanhas este fim de semana.\n",
+        "ingles_traduzido": "I am going to travel to the mountains this weekend.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "They watched a movie on the weekend.",
+        "portugues_traduzido": "Eles assistiram a um filme no fim de semana.\n",
+        "ingles_traduzido": "They watched a movie on the weekend.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "blowing off steam",
+        "portugues_traduzido": "Desabafando\n",
+        "ingles_traduzido": "Unburdening\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "face the music",
+        "portugues_traduzido": "Arrumar a casa\n",
+        "ingles_traduzido": "Clean the house\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "a heart of gold",
+        "portugues_traduzido": "Um coração de ouro.\n",
+        "ingles_traduzido": "A heart of gold.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "caught in a web",
+        "portugues_traduzido": "Preso em uma teia\n",
+        "ingles_traduzido": "Caught in a web\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She made a salad for lunch.",
+        "portugues_traduzido": "Ela fez uma salada para o almoço.\n",
+        "ingles_traduzido": "She made a salad for lunch.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "mind over matter",
+        "portugues_traduzido": "Mente sobre matéria\n",
+        "ingles_traduzido": "Mind over matter\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "as good as done",
+        "portugues_traduzido": "Praticamente feito.\n",
+        "ingles_traduzido": "Pretty much done.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "a voice in the wilderness",
+        "portugues_traduzido": "Uma voz no deserto\n",
+        "ingles_traduzido": "A voice in the wilderness\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "He went to the gym to lift weights.",
+        "portugues_traduzido": "Ele foi à academia para levantar pesos.\n",
+        "ingles_traduzido": "He went to the gym to lift weights.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "another one bites the dust",
+        "portugues_traduzido": "Mais um se foi.\n",
+        "ingles_traduzido": "Another one bites the dust.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "curiosity killed the cat",
+        "portugues_traduzido": "A curiosidade matou o gato.\n",
+        "ingles_traduzido": "Curiosity killed the cat.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "by leaps and bounds",
+        "portugues_traduzido": "A olhos vistos\n",
+        "ingles_traduzido": "Visibly\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "They are practicing their dance routine.",
+        "portugues_traduzido": "Eles estão ensaiando sua rotina de dança.\n",
+        "ingles_traduzido": "They are rehearsing their dance routine.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "honest as the day is long",
+        "portugues_traduzido": "Honesto como a luz do dia.\n",
+        "ingles_traduzido": "Honest as the day is long.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "butter wouldn’t melt in their mouth",
+        "portugues_traduzido": "Não ter sangue de barata.\n",
+        "ingles_traduzido": "Don't be a pushover.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "be in hot water",
+        "portugues_traduzido": "Estar em maus lençóis\n",
+        "ingles_traduzido": "To be in a tight spot\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "by the seat of your pants",
+        "portugues_traduzido": "Na raça.\n",
+        "ingles_traduzido": "By hook or by crook.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "comfort zone",
+        "portugues_traduzido": "Zona de conforto\n",
+        "ingles_traduzido": "Comfort zone\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "give the green light",
+        "portugues_traduzido": "Dar o sinal verde\n",
+        "ingles_traduzido": "Give the green light\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "fingers crossed",
+        "portugues_traduzido": "Dedos cruzados\n",
+        "ingles_traduzido": "Fingers crossed\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "He went to the airport to catch a flight.",
+        "portugues_traduzido": "Ele foi ao aeroporto para pegar um voo.\n",
+        "ingles_traduzido": "He went to the airport to catch a flight.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "as mad as a hatter",
+        "portugues_traduzido": "Louco como um chapeleiro.\n",
+        "ingles_traduzido": "Mad as a hatter.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "cracking the whip",
+        "portugues_traduzido": "Mandando no pedaço\n",
+        "ingles_traduzido": "Calling the shots\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He is reading a newspaper.",
+        "portugues_traduzido": "Ele está lendo um jornal.\n",
+        "ingles_traduzido": "He is reading a newspaper.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "as easy as shooting fish in a barrel",
+        "portugues_traduzido": "Tão fácil quanto atirar em peixes num barril.\n",
+        "ingles_traduzido": "As easy as shooting fish in a barrel.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "He is taking photos with his camera.",
+        "portugues_traduzido": "Ele está tirando fotos com sua câmera.\n",
+        "ingles_traduzido": "He is taking pictures with his camera.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "ants in your pants",
+        "portugues_traduzido": "Bichos-carpinteiros no traseiro.\n",
+        "ingles_traduzido": "Woodpeckers in the rear.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He is cleaning the windows.",
+        "portugues_traduzido": "Ele está limpando as janelas.\n",
+        "ingles_traduzido": "He is cleaning the windows.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "clean bill of health",
+        "portugues_traduzido": "Atestado de saúde",
+        "ingles_traduzido": "Health certificate\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "cold feet",
+        "portugues_traduzido": "Pé frio\n",
+        "ingles_traduzido": "Cold feet\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "burn bridges",
+        "portugues_traduzido": "Queimar pontes\n",
+        "ingles_traduzido": "Burn bridges\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "cat's out of the bag",
+        "portugues_traduzido": "O gato saiu da sacola.\n",
+        "ingles_traduzido": "The cat is out of the bag.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "bury your head in the sand",
+        "portugues_traduzido": "Enterrar a cabeça na areia.\n",
+        "ingles_traduzido": "Bury your head in the sand.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "He read a book before bed.",
+        "portugues_traduzido": "Ele leu um livro antes de dormir.\n",
+        "ingles_traduzido": "He read a book before bed.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "bridge the gap",
+        "portugues_traduzido": "Preencher a lacuna\n",
+        "ingles_traduzido": "Fill the gap\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He went to the doctor for a check-up.",
+        "portugues_traduzido": "Ele foi ao médico para um check-up.\n",
+        "ingles_traduzido": "He went to the doctor for a check-up.\n",
+        "num_tokens_original": 12,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "She is watching the sunset from the balcony.",
+        "portugues_traduzido": "Ela está assistindo o pôr do sol da varanda.\n",
+        "ingles_traduzido": "She is watching the sunset from the balcony.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "blessing in disguise",
+        "portugues_traduzido": "Benção disfarçada\n",
+        "ingles_traduzido": "Blessing in disguise\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "a penny for your thoughts",
+        "portugues_traduzido": "Um centavo pelos seus pensamentos.\n",
+        "ingles_traduzido": "A penny for your thoughts.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "He is playing the guitar in the living room.",
+        "portugues_traduzido": "Ele está tocando guitarra na sala de estar.\n",
+        "ingles_traduzido": "He is playing guitar in the living room.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "He is sitting on the chair.",
+        "portugues_traduzido": "Ele está sentado na cadeira.\n",
+        "ingles_traduzido": "He is sitting on the chair.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "come hell or high water",
+        "portugues_traduzido": "Custe o que custar\n",
+        "ingles_traduzido": "Come what may.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "I went to the beach for vacation.",
+        "portugues_traduzido": "Eu fui à praia para as férias.\n",
+        "ingles_traduzido": "I went to the beach for vacation.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "as cool as a cucumber",
+        "portugues_traduzido": "Calmo como um pepino.\n",
+        "ingles_traduzido": "Cool as a cucumber.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "break the ice",
+        "portugues_traduzido": "Quebrar o gelo\n",
+        "ingles_traduzido": "Break the ice\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "at the end of the day",
+        "portugues_traduzido": "No fim das contas\n",
+        "ingles_traduzido": "Ultimately\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 3
+    },
+    {
+        "ingles_original": "can't see the forest for the trees",
+        "portugues_traduzido": "Não conseguir ver a floresta por causa das árvores.\n",
+        "ingles_traduzido": "Can't see the forest for the trees.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "He is doing his homework in the study room.",
+        "portugues_traduzido": "Ele está fazendo o dever de casa no escritório.\n",
+        "ingles_traduzido": "He is doing homework in the office.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They planted flowers in the garden.",
+        "portugues_traduzido": "Eles plantaram flores no jardim.\n",
+        "ingles_traduzido": "They planted flowers in the garden.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "They are making pizza together.",
+        "portugues_traduzido": "Eles estão fazendo pizza juntos.\n",
+        "ingles_traduzido": "They are making pizza together.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "blown out of proportion",
+        "portugues_traduzido": "Fora de proporção\n",
+        "ingles_traduzido": "Out of proportion\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "hand in glove",
+        "portugues_traduzido": "De mãos dadas\n",
+        "ingles_traduzido": "Hand in hand\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "birds of a feather flock together",
+        "portugues_traduzido": "Semelhante atrai semelhante.\n",
+        "ingles_traduzido": "Like attracts like.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "get out of hand",
+        "portugues_traduzido": "Sair do controle\n",
+        "ingles_traduzido": "Lose control\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "He called his parents yesterday.",
+        "portugues_traduzido": "Ele ligou para os pais dele ontem.\n",
+        "ingles_traduzido": "He called his parents yesterday.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "He wrote a letter to his friend.",
+        "portugues_traduzido": "Ele escreveu uma carta para o amigo dele.\n",
+        "ingles_traduzido": "He wrote a letter to his friend.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "She danced at the party last night.",
+        "portugues_traduzido": "Ela dançou na festa ontem à noite.\n",
+        "ingles_traduzido": "She danced at the party last night.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "close to home",
+        "portugues_traduzido": "Perto de casa\n",
+        "ingles_traduzido": "Near home\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "if you can't stand the heat, get out of the kitchen",
+        "portugues_traduzido": "Se não aguenta o calor, saia da cozinha.\n",
+        "ingles_traduzido": "If you can't stand the heat, get out of the kitchen.\n",
+        "num_tokens_original": 15,
+        "num_tokens_traduzido": 17
+    },
+    {
+        "ingles_original": "between the devil and the deep blue sea",
+        "portugues_traduzido": "Entre a cruz e a espada\n",
+        "ingles_traduzido": "Between a rock and a hard place\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "get cold feet",
+        "portugues_traduzido": "Sentir medo (de última hora)\n",
+        "ingles_traduzido": "To get cold feet (at the last minute)\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "fish out of water",
+        "portugues_traduzido": "Peixe fora d'água\n",
+        "ingles_traduzido": "Fish out of water\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "over the moon",
+        "portugues_traduzido": "Nas nuvens\n",
+        "ingles_traduzido": "In the clouds\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "once in a blue moon",
+        "portugues_traduzido": "Raramente\n",
+        "ingles_traduzido": "Rarely\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "chip off the old block",
+        "portugues_traduzido": "Filho de peixe, peixinho é.\n",
+        "ingles_traduzido": "Like father, like son.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "break the mold",
+        "portugues_traduzido": "Romper com os padrões\n",
+        "ingles_traduzido": "Break the mold.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "ace in the hole",
+        "portugues_traduzido": "Trunfo na manga\n",
+        "ingles_traduzido": "Ace in the hole\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She is gardening in the backyard.",
+        "portugues_traduzido": "Ela está jardinando no quintal.\n",
+        "ingles_traduzido": "She is gardening in the backyard.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "blind as a bat",
+        "portugues_traduzido": "Cego como um morcego.\n",
+        "ingles_traduzido": "Blind as a bat.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "call it a day",
+        "portugues_traduzido": "Dar por encerrado o expediente\n",
+        "ingles_traduzido": "To close the workday.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "calm before the storm",
+        "portugues_traduzido": "Calmaria antes da tempestade.\n",
+        "ingles_traduzido": "Calm before the storm.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "He attended a wedding last weekend.",
+        "portugues_traduzido": "Ele foi a um casamento no fim de semana passado.\n",
+        "ingles_traduzido": "He went to a wedding last weekend.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "chill to the bone",
+        "portugues_traduzido": "Arrepiante\n",
+        "ingles_traduzido": "Hair-raising\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "broad strokes",
+        "portugues_traduzido": "Em linhas gerais\n",
+        "ingles_traduzido": "Generally speaking\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "She is listening to music while cooking.",
+        "portugues_traduzido": "Ela está ouvindo música enquanto cozinha.\n",
+        "ingles_traduzido": "She is listening to music while cooking.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "blind as a bat",
+        "portugues_traduzido": "Cego como um morcego\n",
+        "ingles_traduzido": "Blind as a bat\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "all thumbs",
+        "portugues_traduzido": "Desastrado\n",
+        "ingles_traduzido": "Clumsy\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "chip on your shoulder",
+        "portugues_traduzido": "Rancor.\n",
+        "ingles_traduzido": "Bitterness.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "chase rainbows",
+        "portugues_traduzido": "Correr atrás de arco-íris\n",
+        "ingles_traduzido": "Chasing rainbows\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "hope for the best, prepare for the worst",
+        "portugues_traduzido": "Esperar o melhor, preparar-se para o pior.\n",
+        "ingles_traduzido": "Hope for the best, prepare for the worst.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "get a grip",
+        "portugues_traduzido": "Controle-se\n",
+        "ingles_traduzido": "Control yourself.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "finger on the pulse",
+        "portugues_traduzido": "Estar por dentro\n",
+        "ingles_traduzido": "To be in the know\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "ball of fire",
+        "portugues_traduzido": "Bola de fogo\n",
+        "ingles_traduzido": "Fireball\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "He is making tea in the kitchen.",
+        "portugues_traduzido": "Ele está fazendo chá na cozinha.\n",
+        "ingles_traduzido": "He is making tea in the kitchen.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "bite your lip",
+        "portugues_traduzido": "Morder o lábio\n",
+        "ingles_traduzido": "To bite one's lip\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "live in a glass house",
+        "portugues_traduzido": "Morar em casa de vidro\n",
+        "ingles_traduzido": "Living in a glass house\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "into thin air",
+        "portugues_traduzido": "No ar rarefeito\n",
+        "ingles_traduzido": "In the rarefied air\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "don’t cry over spilled milk",
+        "portugues_traduzido": "Não chore sobre o leite derramado.\n",
+        "ingles_traduzido": "Don't cry over spilt milk.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "don't count your chickens before they hatch",
+        "portugues_traduzido": "Não conte com o ovo no cu da galinha.\n",
+        "ingles_traduzido": "Don't count your chickens before they hatch.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "close to my heart",
+        "portugues_traduzido": "Perto do meu coração\n",
+        "ingles_traduzido": "Near my heart\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He went fishing with his friends.",
+        "portugues_traduzido": "Ele foi pescar com seus amigos.\n",
+        "ingles_traduzido": "He went fishing with his friends.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "as clear as mud",
+        "portugues_traduzido": "Mais claro que lama.\n",
+        "ingles_traduzido": "Clear as mud.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "be a fly on the wall",
+        "portugues_traduzido": "Ser uma mosca na parede\n",
+        "ingles_traduzido": "To be a fly on the wall\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "changing gears",
+        "portugues_traduzido": "Mudando de marcha\n",
+        "ingles_traduzido": "Shifting gears\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "call it quits",
+        "portugues_traduzido": "Desistir\n",
+        "ingles_traduzido": "Give up.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "bottom line",
+        "portugues_traduzido": "Resultado final\n",
+        "ingles_traduzido": "Final result\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "bet the farm",
+        "portugues_traduzido": "Apostar tudo\n",
+        "ingles_traduzido": "Bet it all\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "as free as a bird",
+        "portugues_traduzido": "Livre como um pássaro.\n",
+        "ingles_traduzido": "Free as a bird.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "flying by the seat of your pants",
+        "portugues_traduzido": "Voando no improviso\n",
+        "ingles_traduzido": "Flying by the seat of my pants\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "chasing your tail",
+        "portugues_traduzido": "Correndo atrás do próprio rabo\n",
+        "ingles_traduzido": "Chasing your own tail\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "She plays the piano beautifully.",
+        "portugues_traduzido": "Ela toca piano lindamente.\n",
+        "ingles_traduzido": "She plays the piano beautifully.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "heart of stone",
+        "portugues_traduzido": "Coração de pedra\n",
+        "ingles_traduzido": "Stone heart\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "They are going to the cinema tonight.",
+        "portugues_traduzido": "Eles vão ao cinema hoje à noite.\n",
+        "ingles_traduzido": "They are going to the movies tonight.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "a taste of your own medicine",
+        "portugues_traduzido": "Um pouco do seu próprio veneno.\n",
+        "ingles_traduzido": "A taste of your own medicine.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "break the ice",
+        "portugues_traduzido": "Quebrar o gelo\n",
+        "ingles_traduzido": "Break the ice\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "cloud of suspicion",
+        "portugues_traduzido": "Nuvem de suspeitas\n",
+        "ingles_traduzido": "Cloud of suspicion\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "diamond in the rough",
+        "portugues_traduzido": "Diamante bruto\n",
+        "ingles_traduzido": "Rough diamond\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "beat the clock",
+        "portugues_traduzido": "Vencer o tempo\n",
+        "ingles_traduzido": "Beating time\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He is repairing the broken chair.",
+        "portugues_traduzido": "Ele está consertando a cadeira quebrada.\n",
+        "ingles_traduzido": "He is fixing the broken chair.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "She is watching a movie at the theater.",
+        "portugues_traduzido": "Ela está assistindo a um filme no cinema.\n",
+        "ingles_traduzido": "She is watching a movie at the cinema.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "a penny saved is a penny earned",
+        "portugues_traduzido": "Um centavo poupado é um centavo ganho.\n",
+        "ingles_traduzido": "A penny saved is a penny earned.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "He cleaned the garage on Saturday.",
+        "portugues_traduzido": "Ele limpou a garagem no sábado.\n",
+        "ingles_traduzido": "He cleaned the garage on Saturday.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "a fish out of water",
+        "portugues_traduzido": "Um peixe fora d'água\n",
+        "ingles_traduzido": "A fish out of water\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "down to earth",
+        "portugues_traduzido": "Pé no chão\n",
+        "ingles_traduzido": "Down to earth\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "happy as a clam",
+        "portugues_traduzido": "Feliz da vida\n",
+        "ingles_traduzido": "Happy as can be\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "He visited the museum with his class.",
+        "portugues_traduzido": "Ele visitou o museu com a turma dele.\n",
+        "ingles_traduzido": "He visited the museum with his class.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "I visited my parents last weekend.",
+        "portugues_traduzido": "Visitei meus pais no fim de semana passado.\n",
+        "ingles_traduzido": "I visited my parents last weekend.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "by the skin of your teeth",
+        "portugues_traduzido": "Por um triz.\n",
+        "ingles_traduzido": "By a hair.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "crack the code",
+        "portugues_traduzido": "Decifrar o código\n",
+        "ingles_traduzido": "Decode the code\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He watched a football match on TV.",
+        "portugues_traduzido": "Ele assistiu a uma partida de futebol na TV.\n",
+        "ingles_traduzido": "He watched a soccer game on TV.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "climbing the corporate ladder",
+        "portugues_traduzido": "Subindo na carreira.\n",
+        "ingles_traduzido": "Climbing the career ladder.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "all in the same boat",
+        "portugues_traduzido": "Todos no mesmo barco.\n",
+        "ingles_traduzido": "We're all in the same boat.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "cold feet",
+        "portugues_traduzido": "Pé frio\n",
+        "ingles_traduzido": "Cold feet\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "a mountain to climb",
+        "portugues_traduzido": "Uma montanha para escalar\n",
+        "ingles_traduzido": "A mountain to climb\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "break the back of it",
+        "portugues_traduzido": "Dar cabo disso\n",
+        "ingles_traduzido": "Get rid of it.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "blowing off steam",
+        "portugues_traduzido": "Desabafando\n",
+        "ingles_traduzido": "Venting\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "cook up a storm",
+        "portugues_traduzido": "Cozinhar como um louco\n",
+        "ingles_traduzido": "Cook like crazy\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "dead in the water",
+        "portugues_traduzido": "Sem saída\n",
+        "ingles_traduzido": "No way out\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "bite the big one",
+        "portugues_traduzido": "Ir para o beleléu.\n",
+        "ingles_traduzido": "Go to hell.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "buy a lemon",
+        "portugues_traduzido": "Comprar um carro \"bomba\"\n",
+        "ingles_traduzido": "Buying a \"lemon\" car.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "get a second wind",
+        "portugues_traduzido": "Renovar as energias\n",
+        "ingles_traduzido": "Recharge your batteries.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "He is working on his laptop.",
+        "portugues_traduzido": "Ele está trabalhando em seu laptop.\n",
+        "ingles_traduzido": "He is working on his laptop.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "clear as mud",
+        "portugues_traduzido": "Mais confuso que lama.\n",
+        "ingles_traduzido": "More confusing than mud.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "different strokes for different folks",
+        "portugues_traduzido": "Cada um com seus gostos.\n",
+        "ingles_traduzido": "To each their own.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "She had a cup of soup for lunch.",
+        "portugues_traduzido": "Ela comeu uma xícara de sopa no almoço.\n",
+        "ingles_traduzido": "She ate a cup of soup for lunch.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "cast the first stone",
+        "portugues_traduzido": "Atire a primeira pedra.\n",
+        "ingles_traduzido": "Let he who is without sin cast the first stone.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "call a spade a spade",
+        "portugues_traduzido": "Chamar o pão pão.\n",
+        "ingles_traduzido": "To call bread bread.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "a ray of hope",
+        "portugues_traduzido": "Um raio de esperança\n",
+        "ingles_traduzido": "A ray of hope\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "They are painting the walls of their house.",
+        "portugues_traduzido": "Eles estão pintando as paredes da casa deles.\n",
+        "ingles_traduzido": "They are painting the walls of their house.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "crash course",
+        "portugues_traduzido": "Curso intensivo\n",
+        "ingles_traduzido": "Intensive course\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "The sun rises in the east.",
+        "portugues_traduzido": "O sol nasce no leste.\n",
+        "ingles_traduzido": "The sun rises in the east.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "an arm and a leg",
+        "portugues_traduzido": "Um braço e uma perna\n",
+        "ingles_traduzido": "An arm and a leg\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "breaking the mold",
+        "portugues_traduzido": "Quebrando barreiras\n",
+        "ingles_traduzido": "Breaking barriers\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "caught red-handed",
+        "portugues_traduzido": "De mãos dadas na massa\n",
+        "ingles_traduzido": "Hand in hand in the dough\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "blood from a stone",
+        "portugues_traduzido": "Sangue de pedra\n",
+        "ingles_traduzido": "Stone blood\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "beyond the pale",
+        "portugues_traduzido": "Além do limite.\n",
+        "ingles_traduzido": "Beyond the limit.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She is walking through the forest.",
+        "portugues_traduzido": "Ela está caminhando pela floresta.\n",
+        "ingles_traduzido": "She is walking through the forest.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "blood runs thicker than water",
+        "portugues_traduzido": "Sangue do meu sangue.\n",
+        "ingles_traduzido": "Blood of my blood.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "follow your nose",
+        "portugues_traduzido": "Siga seu nariz.\n",
+        "ingles_traduzido": "Follow your nose.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "hard nut to crack",
+        "portugues_traduzido": "Difícil de resolver\n",
+        "ingles_traduzido": "Hard to solve\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "an ounce of prevention is worth a pound of cure",
+        "portugues_traduzido": "Um grama de prevenção vale um quilo de cura.\n",
+        "ingles_traduzido": "An ounce of prevention is worth a pound of cure.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "come apart at the seams",
+        "portugues_traduzido": "Desmoronar\n",
+        "ingles_traduzido": "To crumble\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "She is arranging flowers in a vase.",
+        "portugues_traduzido": "Ela está arranjando flores em um vaso.\n",
+        "ingles_traduzido": "She is arranging flowers in a vase.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They went shopping for new clothes.",
+        "portugues_traduzido": "Eles foram comprar roupas novas.\n",
+        "ingles_traduzido": "They went to buy new clothes.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "big league",
+        "portugues_traduzido": "Liga principal\n",
+        "ingles_traduzido": "Main league\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "She is packing her suitcase for a trip.",
+        "portugues_traduzido": "Ela está fazendo as malas para uma viagem.\n",
+        "ingles_traduzido": "She is packing her bags for a trip.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "She attended a conference last week.",
+        "portugues_traduzido": "Ela participou de uma conferência na semana passada.\n",
+        "ingles_traduzido": "She attended a conference last week.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "all that glitters is not gold",
+        "portugues_traduzido": "Nem tudo que reluz é ouro.\n",
+        "ingles_traduzido": "All that glitters is not gold.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "rain on your parade",
+        "portugues_traduzido": "Estragar a festa.\n",
+        "ingles_traduzido": "Ruin the party.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "as stubborn as a mule",
+        "portugues_traduzido": "Teimoso como uma mula.\n",
+        "ingles_traduzido": "Stubborn as a mule.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "fall on deaf ears",
+        "portugues_traduzido": "Cair em ouvidos moucos\n",
+        "ingles_traduzido": "Fall on deaf ears\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She is preparing dinner for the guests.",
+        "portugues_traduzido": "Ela está preparando o jantar para os convidados.\n",
+        "ingles_traduzido": "She is preparing dinner for the guests.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "He is writing an essay for school.",
+        "portugues_traduzido": "Ele está escrevendo uma redação para a escola.\n",
+        "ingles_traduzido": "He is writing an essay for school.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "beating a dead horse",
+        "portugues_traduzido": "Bater em cachorro morto.\n",
+        "ingles_traduzido": "Beating a dead horse.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "keep your eyes peeled",
+        "portugues_traduzido": "Fique de olhos bem abertos.\n",
+        "ingles_traduzido": "Keep your eyes peeled.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "He visited his grandmother in the hospital.",
+        "portugues_traduzido": "Ele visitou sua avó no hospital.\n",
+        "ingles_traduzido": "He visited his grandmother in the hospital.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "caught in the crossfire",
+        "portugues_traduzido": "Pego no fogo cruzado\n",
+        "ingles_traduzido": "Caught in the crossfire\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "a blessing in disguise",
+        "portugues_traduzido": "Uma bênção disfarçada.\n",
+        "ingles_traduzido": "A blessing in disguise.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "bending over backwards",
+        "portugues_traduzido": "Se esforçar ao máximo\n",
+        "ingles_traduzido": "Try your best.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "He is drawing in his sketchbook.",
+        "portugues_traduzido": "Ele está desenhando em seu caderno de esboços.\n",
+        "ingles_traduzido": "He is sketching in his sketchbook.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "a new lease on life",
+        "portugues_traduzido": "Uma nova chance.\n",
+        "ingles_traduzido": "A new chance.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "climbing the ladder",
+        "portugues_traduzido": "Subindo a escada\n",
+        "ingles_traduzido": "Going up the stairs\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "a rolling stone gathers no moss",
+        "portugues_traduzido": "\"Pedra que rola não cria lodo.\"\n",
+        "ingles_traduzido": "A rolling stone gathers no moss.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "better half",
+        "portugues_traduzido": "Minha cara-metade\n",
+        "ingles_traduzido": "My better half\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He is eating dinner with his family.",
+        "portugues_traduzido": "Ele está jantando com a família dele.\n",
+        "ingles_traduzido": "He is having dinner with his family.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "in the bag",
+        "portugues_traduzido": "No papo.\n",
+        "ingles_traduzido": "No sweat.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "dead as a doornail",
+        "portugues_traduzido": "Morto como um prego\n",
+        "ingles_traduzido": "Dead as a doornail\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "She is playing with her children in the garden.",
+        "portugues_traduzido": "Ela está brincando com seus filhos no jardim.\n",
+        "ingles_traduzido": "She is playing with her children in the garden.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "I am playing video games in my room.",
+        "portugues_traduzido": "Estou jogando video games no meu quarto.\n",
+        "ingles_traduzido": "I am playing video games in my room.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "cut to the chase",
+        "portugues_traduzido": "Vá direto ao ponto.\n",
+        "ingles_traduzido": "Get to the point.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "cut the mustardcross that bridge when you come to it",
+        "portugues_traduzido": "Não se preocupe com isso, deixe para depois quando precisar.\n",
+        "ingles_traduzido": "Don't worry about it, save it for when you need it.\n",
+        "num_tokens_original": 12,
+        "num_tokens_traduzido": 17
+    },
+    {
+        "ingles_original": "She works as a software engineer.",
+        "portugues_traduzido": "Ela trabalha como engenheira de software.\n",
+        "ingles_traduzido": "She works as a software engineer.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He is going to the post office.",
+        "portugues_traduzido": "Ele vai aos correios.\n",
+        "ingles_traduzido": "He is going to the post office.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "bare your soul",
+        "portugues_traduzido": "Exponha sua alma.\n",
+        "ingles_traduzido": "Bare your soul.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "bad blood",
+        "portugues_traduzido": "Rancor\n",
+        "ingles_traduzido": "Grudge\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "She is playing piano in the evening.",
+        "portugues_traduzido": "Ela está tocando piano à noite.\n",
+        "ingles_traduzido": "She is playing the piano at night.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "go down in flames",
+        "portugues_traduzido": "Ir por água abaixo\n",
+        "ingles_traduzido": "Go down the drain\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "get your ducks in a row",
+        "portugues_traduzido": "Organize-se.\n",
+        "ingles_traduzido": "Get organized.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "They cleaned the house on Saturday.",
+        "portugues_traduzido": "Eles limparam a casa no sábado.\n",
+        "ingles_traduzido": "They cleaned the house on Saturday.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "at death's door",
+        "portugues_traduzido": "À beira da morte\n",
+        "ingles_traduzido": "On the brink of death\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "cut the mustard",
+        "portugues_traduzido": "Dar conta do recado\n",
+        "ingles_traduzido": "To deliver the goods\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "by the book",
+        "portugues_traduzido": "À risca\n",
+        "ingles_traduzido": "To a T\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "She played cards with her friends.",
+        "portugues_traduzido": "Ela jogou cartas com as amigas dela.\n",
+        "ingles_traduzido": "She played cards with her friends.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "an old flame",
+        "portugues_traduzido": "Um antigo amor.\n",
+        "ingles_traduzido": "An old love.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "They are reading a novel by the fireplace.",
+        "portugues_traduzido": "Eles estão lendo um romance perto da lareira.\n",
+        "ingles_traduzido": "They are reading a novel near the fireplace.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "caught between a rock and a hard place",
+        "portugues_traduzido": "Entre a cruz e a espada\n",
+        "ingles_traduzido": "Between a rock and a hard place\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "a sinking ship",
+        "portugues_traduzido": "Um navio afundando\n",
+        "ingles_traduzido": "A sinking ship\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "drive me up the wall",
+        "portugues_traduzido": "Me tira do sério.\n",
+        "ingles_traduzido": "You drive me crazy.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "I called my friend last night.",
+        "portugues_traduzido": "Liguei para meu amigo ontem à noite.\n",
+        "ingles_traduzido": "I called my friend last night.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "burn the candle at both ends",
+        "portugues_traduzido": "Viver perigosamente\n",
+        "ingles_traduzido": "Live dangerously\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "They are attending a concert tonight.",
+        "portugues_traduzido": "Eles estão indo a um show esta noite.\n",
+        "ingles_traduzido": "They are going to a concert tonight.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "bite the bullet",
+        "portugues_traduzido": "Engolir o sapo\n",
+        "ingles_traduzido": "To swallow a frog\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "chase your tail",
+        "portugues_traduzido": "Correr atrás do próprio rabo\n",
+        "ingles_traduzido": "Chasing your tail\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "cool as a cucumber",
+        "portugues_traduzido": "Calmo como um pepino.\n",
+        "ingles_traduzido": "Cool as a cucumber.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "don't put all your eggs in one basket",
+        "portugues_traduzido": "Não coloque todos os ovos na mesma cesta.\n",
+        "ingles_traduzido": "Don't put all your eggs in one basket.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "black as coal",
+        "portugues_traduzido": "Preto como carvão\n",
+        "ingles_traduzido": "Black as coal\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "ants in your pants",
+        "portugues_traduzido": "Bichos carpinteiros.\n",
+        "ingles_traduzido": "Woodpeckers.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "don't bite the hand that feeds you",
+        "portugues_traduzido": "Não morda a mão que te alimenta.\n",
+        "ingles_traduzido": "Don't bite the hand that feeds you.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "live to fight another day",
+        "portugues_traduzido": "Viver para lutar outro dia.\n",
+        "ingles_traduzido": "Live to fight another day.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "cat's meow",
+        "portugues_traduzido": "O máximo\n",
+        "ingles_traduzido": "The most\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "by the book",
+        "portugues_traduzido": "À risca\n",
+        "ingles_traduzido": "To the letter\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "by the skin of your teeth",
+        "portugues_traduzido": "Por um triz.\n",
+        "ingles_traduzido": "By a hair.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "busy as a bee",
+        "portugues_traduzido": "Ocupado como uma abelha\n",
+        "ingles_traduzido": "Busy as a bee\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "calm before the storm",
+        "portugues_traduzido": "Calmaria antes da tempestade\n",
+        "ingles_traduzido": "Calm before the storm\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "She visited the art gallery on Sunday.",
+        "portugues_traduzido": "Ela visitou a galeria de arte no domingo.\n",
+        "ingles_traduzido": "She visited the art gallery on Sunday.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They went to a restaurant for dinner.",
+        "portugues_traduzido": "Eles foram a um restaurante para jantar.\n",
+        "ingles_traduzido": "They went to a restaurant for dinner.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "all thumbs",
+        "portugues_traduzido": "Desajeitado(a)\n",
+        "ingles_traduzido": "Clumsy\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "She is dancing to the music.",
+        "portugues_traduzido": "Ela está dançando ao som da música.\n",
+        "ingles_traduzido": "She is dancing to the music.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "bend the rules",
+        "portugues_traduzido": "Flexibilizar as regras\n",
+        "ingles_traduzido": "Loosen the rules\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "bring to the table",
+        "portugues_traduzido": "Apresentar\n",
+        "ingles_traduzido": "Present\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 3
+    },
+    {
+        "ingles_original": "crash and burn",
+        "portugues_traduzido": "Entrar em colapso\n",
+        "ingles_traduzido": "To collapse\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "They are playing chess at the table.",
+        "portugues_traduzido": "Eles estão jogando xadrez na mesa.\n",
+        "ingles_traduzido": "They are playing chess on the table.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "bare bones",
+        "portugues_traduzido": "Essencial\n",
+        "ingles_traduzido": "Essential\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 3
+    },
+    {
+        "ingles_original": "an uphill battle",
+        "portugues_traduzido": "Uma batalha difícil\n",
+        "ingles_traduzido": "A tough battle\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "cast a shadow",
+        "portugues_traduzido": "Projetar uma sombra\n",
+        "ingles_traduzido": "To cast a shadow\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She is watching the stars at night.",
+        "portugues_traduzido": "Ela está observando as estrelas à noite.\n",
+        "ingles_traduzido": "She is watching the stars at night.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "don’t put all your eggs in one basket",
+        "portugues_traduzido": "Não coloque todos os ovos na mesma cesta.\n",
+        "ingles_traduzido": "Don't put all your eggs in one basket.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "face the music",
+        "portugues_traduzido": "Arque com as consequências.\n",
+        "ingles_traduzido": "Face the consequences.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She is practicing yoga in the park.",
+        "portugues_traduzido": "Ela está praticando ioga no parque.\n",
+        "ingles_traduzido": "She is practicing yoga in the park.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "He made a sandwich for lunch.",
+        "portugues_traduzido": "Ele fez um sanduíche para o almoço.\n",
+        "ingles_traduzido": "He made a sandwich for lunch.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "hit the books",
+        "portugues_traduzido": "Estudar bastante.\n",
+        "ingles_traduzido": "Study hard.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "close shave",
+        "portugues_traduzido": "Por um triz\n",
+        "ingles_traduzido": "By a hair's breadth\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "a leopard can't change its spots",
+        "portugues_traduzido": "\"A onça não muda suas manchas.\"\n",
+        "ingles_traduzido": "\"The leopard doesn't change its spots.\"\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "couch potato",
+        "portugues_traduzido": "Jerico\n",
+        "ingles_traduzido": "Jericho\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "She walked to the store.",
+        "portugues_traduzido": "Ela caminhou para a loja.\n",
+        "ingles_traduzido": "She walked to the store.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "like riding a bike",
+        "portugues_traduzido": "Como andar de bicicleta.\n",
+        "ingles_traduzido": "How to ride a bike.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They are playing volleyball at the beach.",
+        "portugues_traduzido": "Eles estão jogando vôlei na praia.\n",
+        "ingles_traduzido": "They are playing volleyball on the beach.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "He is playing soccer with his friends.",
+        "portugues_traduzido": "Ele está jogando futebol com os amigos dele.\n",
+        "ingles_traduzido": "He is playing soccer with his friends.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "curiosity killed the cat",
+        "portugues_traduzido": "A curiosidade matou o gato.\n",
+        "ingles_traduzido": "Curiosity killed the cat.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "barking up the wrong tree",
+        "portugues_traduzido": "Causando confusão.\n",
+        "ingles_traduzido": "Causing confusion.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "They are visiting the zoo.",
+        "portugues_traduzido": "Eles estão visitando o zoológico.\n",
+        "ingles_traduzido": "They are visiting the zoo.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "pull the plug",
+        "portugues_traduzido": "Desligar tudo\n",
+        "ingles_traduzido": "Turn everything off.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "beat a hasty retreat",
+        "portugues_traduzido": "Bater em retirada.\n",
+        "ingles_traduzido": "Fall back.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "I went to the store to buy some bread.",
+        "portugues_traduzido": "Fui à loja comprar pão.\n",
+        "ingles_traduzido": "I went to the store to buy bread.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "butterflies in my stomach",
+        "portugues_traduzido": "Borboletas no estômago\n",
+        "ingles_traduzido": "Butterflies in the stomach\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "come up against a brick wall",
+        "portugues_traduzido": "Encontrar uma barreira intransponível\n",
+        "ingles_traduzido": "To encounter an insurmountable barrier.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "smooth sailing",
+        "portugues_traduzido": "Navegação tranquila\n",
+        "ingles_traduzido": "Smooth sailing\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "She is sending a letter to her friend.",
+        "portugues_traduzido": "Ela está enviando uma carta para sua amiga.\n",
+        "ingles_traduzido": "She is sending a letter to her friend.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "He is checking his email.",
+        "portugues_traduzido": "Ele está checando seus e-mails.\n",
+        "ingles_traduzido": "He is checking his emails.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "an uphill battle",
+        "portugues_traduzido": "Uma batalha difícil\n",
+        "ingles_traduzido": "A tough battle\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "make waves",
+        "portugues_traduzido": "Causar impacto\n",
+        "ingles_traduzido": "Make an impact\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "bury the hatchet",
+        "portugues_traduzido": "Enterrar as armas\n",
+        "ingles_traduzido": "Bury the hatchet\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "as good as gold",
+        "portugues_traduzido": "Bom como ouro\n",
+        "ingles_traduzido": "Good as gold\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "She is putting on her shoes.",
+        "portugues_traduzido": "Ela está calçando os sapatos.\n",
+        "ingles_traduzido": "She is putting on her shoes.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "built like a tank",
+        "portugues_traduzido": "Construído como um tanque.\n",
+        "ingles_traduzido": "Built like a tank.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "hit the sack",
+        "portugues_traduzido": "Cair na cama\n",
+        "ingles_traduzido": "Fall into bed\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "burst your bubble",
+        "portugues_traduzido": "Estragar a surpresa\n",
+        "ingles_traduzido": "Spoil the surprise\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "He is going for a bike ride.",
+        "portugues_traduzido": "Ele vai andar de bicicleta.\n",
+        "ingles_traduzido": "He will ride a bike.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "bite the dust",
+        "portugues_traduzido": "Cair em desgraça.\n",
+        "ingles_traduzido": "To fall from grace.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "falling apart at the seams",
+        "portugues_traduzido": "Desmoronando\n",
+        "ingles_traduzido": "Falling apart\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "They are jogging through the park.",
+        "portugues_traduzido": "Eles estão correndo no parque.\n",
+        "ingles_traduzido": "They are running in the park.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "backseat driver",
+        "portugues_traduzido": "\"Carona chata\"\n",
+        "ingles_traduzido": "Annoying ride\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "a blessing in disguise",
+        "portugues_traduzido": "Uma bênção disfarçada\n",
+        "ingles_traduzido": "A blessing in disguise\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "back against the wall",
+        "portugues_traduzido": "Encurralado\n",
+        "ingles_traduzido": "Cornered\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "blue collar",
+        "portugues_traduzido": "Trabalhador braçal\n",
+        "ingles_traduzido": "Manual laborer\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "kill two birds with one stone",
+        "portugues_traduzido": "Matar dois coelhos com uma cajadada só.\n",
+        "ingles_traduzido": "Kill two birds with one stone.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "at the drop of a hat",
+        "portugues_traduzido": "A qualquer momento.\n",
+        "ingles_traduzido": "Any time.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "by a hair's breadth",
+        "portugues_traduzido": "Por um triz\n",
+        "ingles_traduzido": "By a hair's breadth\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They are planning a trip to Europe.",
+        "portugues_traduzido": "Eles estão planejando uma viagem para a Europa.\n",
+        "ingles_traduzido": "They are planning a trip to Europe.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "big picture",
+        "portugues_traduzido": "Visão geral\n",
+        "ingles_traduzido": "Overview\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 3
+    },
+    {
+        "ingles_original": "beat around the bush",
+        "portugues_traduzido": "Ficar enrolando\n",
+        "ingles_traduzido": "To stall\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "cast in stone",
+        "portugues_traduzido": "Escrito em pedra\n",
+        "ingles_traduzido": "Written in stone\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "They went to the supermarket yesterday.",
+        "portugues_traduzido": "Eles foram ao supermercado ontem.\n",
+        "ingles_traduzido": "They went to the supermarket yesterday.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "She cleaned the kitchen after dinner.",
+        "portugues_traduzido": "Ela limpou a cozinha depois do jantar.\n",
+        "ingles_traduzido": "She cleaned the kitchen after dinner.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He traveled to Paris last year.",
+        "portugues_traduzido": "Ele viajou para Paris no ano passado.\n",
+        "ingles_traduzido": "He traveled to Paris last year.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "face like thunder",
+        "portugues_traduzido": "Cara de poucos amigos\n",
+        "ingles_traduzido": "Sourpuss\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "I am learning how to cook.",
+        "portugues_traduzido": "Estou aprendendo a cozinhar.\n",
+        "ingles_traduzido": "I am learning to cook.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "She is wearing a red dress.",
+        "portugues_traduzido": "Ela está vestindo um vestido vermelho.\n",
+        "ingles_traduzido": "She is wearing a red dress.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "come rain or shine",
+        "portugues_traduzido": "Chova ou faça sol\n",
+        "ingles_traduzido": "Rain or shine\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "get the ball rolling",
+        "portugues_traduzido": "Começar a fazer algo\n",
+        "ingles_traduzido": "To start doing something\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "He went to the gym for a workout session.",
+        "portugues_traduzido": "Ele foi à academia para uma sessão de treino.\n",
+        "ingles_traduzido": "He went to the gym for a workout.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "He is drinking tea in the morning.",
+        "portugues_traduzido": "Ele está bebendo chá de manhã.\n",
+        "ingles_traduzido": "He is drinking tea in the morning.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They enjoyed a family dinner together.",
+        "portugues_traduzido": "Eles apreciaram um jantar em família juntos.\n",
+        "ingles_traduzido": "They enjoyed a family dinner together.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "They are playing basketball in the yard.",
+        "portugues_traduzido": "Eles estão jogando basquete no quintal.\n",
+        "ingles_traduzido": "They are playing basketball in the backyard.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "blood, sweat, and tears",
+        "portugues_traduzido": "Sangue, suor e lágrimas.\n",
+        "ingles_traduzido": "Blood, sweat, and tears.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "flying high",
+        "portugues_traduzido": "Voando alto\n",
+        "ingles_traduzido": "Flying high\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "bring home the bacon",
+        "portugues_traduzido": "Trazer o sustento para casa\n",
+        "ingles_traduzido": "Bring home the bacon\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "give someone the cold shoulder",
+        "portugues_traduzido": "Dar o desprezo a alguém.\n",
+        "ingles_traduzido": "To snub someone.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "bite your tongue",
+        "portugues_traduzido": "Morda a língua\n",
+        "ingles_traduzido": "Bite your tongue.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "all in a day's work",
+        "portugues_traduzido": "Tudo em um dia de trabalho.\n",
+        "ingles_traduzido": "All in a day's work.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "eyes in the back of your head",
+        "portugues_traduzido": "Olhos na nuca\n",
+        "ingles_traduzido": "Eyes in the back of your head\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He ate his breakfast quickly.",
+        "portugues_traduzido": "Ele comeu o café da manhã rapidamente.\n",
+        "ingles_traduzido": "He ate breakfast quickly.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "back on your feet",
+        "portugues_traduzido": "Recuperar-se\n",
+        "ingles_traduzido": "Recover\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 3
+    },
+    {
+        "ingles_original": "blood, sweat, and tears",
+        "portugues_traduzido": "Sangue, suor e lágrimas.\n",
+        "ingles_traduzido": "Blood, sweat, and tears.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "They are driving to the countryside.",
+        "portugues_traduzido": "Eles estão indo para o campo.\n",
+        "ingles_traduzido": "They are going to the field.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "She cooked dinner for her family.",
+        "portugues_traduzido": "Ela preparou o jantar para a família dela.\n",
+        "ingles_traduzido": "She prepared dinner for her family.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "ace in the hole",
+        "portugues_traduzido": "Carta na manga\n",
+        "ingles_traduzido": "Ace up your sleeve\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "hard as nails",
+        "portugues_traduzido": "Durão/Aço duro.\n",
+        "ingles_traduzido": "Tough/Hard steel.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "kill two birds with one stone",
+        "portugues_traduzido": "Matar dois coelhos com uma cajadada só.\n",
+        "ingles_traduzido": "To kill two birds with one stone.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "black and blue",
+        "portugues_traduzido": "Roxo e negro\n",
+        "ingles_traduzido": "Purple and black\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "how the cookie crumbles",
+        "portugues_traduzido": "É assim que a banda toca.\n",
+        "ingles_traduzido": "That's how the cookie crumbles.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "He played video games all evening.",
+        "portugues_traduzido": "Ele jogou videogame a noite toda.\n",
+        "ingles_traduzido": "He played video games all night.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "all bark and no bite",
+        "portugues_traduzido": "Só ladra, mas não morde.\n",
+        "ingles_traduzido": "She barks, but doesn't bite.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "beef up",
+        "portugues_traduzido": "Fortalecer\n",
+        "ingles_traduzido": "Strengthen\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "be on cloud nine",
+        "portugues_traduzido": "Estar nas nuvens.\n",
+        "ingles_traduzido": "To be in the clouds.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They traveled to the mountains for vacation.",
+        "portugues_traduzido": "Eles viajaram para as montanhas de férias.\n",
+        "ingles_traduzido": "They traveled to the mountains for vacation.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They went on a road trip last summer.",
+        "portugues_traduzido": "Eles fizeram uma viagem de carro no verão passado.\n",
+        "ingles_traduzido": "They took a road trip last summer.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "clear the air",
+        "portugues_traduzido": "Esclarecer as coisas\n",
+        "ingles_traduzido": "To clarify things\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "cat got your tongue",
+        "portugues_traduzido": "Ficou sem fala?\n",
+        "ingles_traduzido": "Lost for words?\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "as busy as a bee",
+        "portugues_traduzido": "Tão ocupado como uma abelha.\n",
+        "ingles_traduzido": "As busy as a bee.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They are visiting their friends in the city.",
+        "portugues_traduzido": "Eles estão visitando seus amigos na cidade.\n",
+        "ingles_traduzido": "They are visiting their friends in the city.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "come out of your shell",
+        "portugues_traduzido": "Saia da sua concha.\n",
+        "ingles_traduzido": "Come out of your shell.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "a storm in a teacup",
+        "portugues_traduzido": "Tempestade em copo d'água\n",
+        "ingles_traduzido": "A storm in a teacup\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "a tower of strength",
+        "portugues_traduzido": "Uma torre de força\n",
+        "ingles_traduzido": "A power tower\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "all's fair in love and war",
+        "portugues_traduzido": "Em amor e guerra, vale tudo.\n",
+        "ingles_traduzido": "All's fair in love and war.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "She is doing her hair in front of the mirror.",
+        "portugues_traduzido": "Ela está arrumando o cabelo em frente ao espelho.\n",
+        "ingles_traduzido": "She is fixing her hair in front of the mirror.\n",
+        "num_tokens_original": 12,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "all the world's a stage",
+        "portugues_traduzido": "O mundo inteiro é um palco.\n",
+        "ingles_traduzido": "All the world's a stage.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "if the shoe fits, wear it",
+        "portugues_traduzido": "Se a carapuça servir, use-a.\n",
+        "ingles_traduzido": "If the shoe fits, wear it.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They have three children.",
+        "portugues_traduzido": "Eles têm três filhos.\n",
+        "ingles_traduzido": "They have three children.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "She is preparing for a job interview.",
+        "portugues_traduzido": "Ela está se preparando para uma entrevista de emprego.\n",
+        "ingles_traduzido": "She is preparing for a job interview.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They had a barbecue in the backyard.",
+        "portugues_traduzido": "Eles fizeram um churrasco no quintal.\n",
+        "ingles_traduzido": "They had a barbecue in the backyard.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "bite the bullet",
+        "portugues_traduzido": "Engolir o choro\n",
+        "ingles_traduzido": "To swallow one's tears\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They went hiking in the mountains.",
+        "portugues_traduzido": "Eles fizeram trilha nas montanhas.\n",
+        "ingles_traduzido": "They hiked in the mountains.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "keep your chin up",
+        "portugues_traduzido": "Anime-se!\n",
+        "ingles_traduzido": "Cheer up!\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "cut from the same cloth",
+        "portugues_traduzido": "Feitos da mesma estirpe\n",
+        "ingles_traduzido": "Made of the same stock\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "full plate",
+        "portugues_traduzido": "Prato cheio\n",
+        "ingles_traduzido": "A full plate\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "alive and kicking",
+        "portugues_traduzido": "Vivo e forte\n",
+        "ingles_traduzido": "Alive and strong\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "a place in the sun",
+        "portugues_traduzido": "Um lugar ao sol\n",
+        "ingles_traduzido": "A Place in the Sun\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "They went to the zoo with the kids.",
+        "portugues_traduzido": "Eles foram ao zoológico com as crianças.\n",
+        "ingles_traduzido": "They went to the zoo with the children.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "I took a photo of the beautiful sunset.",
+        "portugues_traduzido": "Eu tirei uma foto do belo pôr do sol.\n",
+        "ingles_traduzido": "I took a picture of the beautiful sunset.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "bad egg",
+        "portugues_traduzido": "Mau caráter\n",
+        "ingles_traduzido": "Bad character\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "back to square one",
+        "portugues_traduzido": "De volta à estaca zero\n",
+        "ingles_traduzido": "Back to square one\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "break the ice",
+        "portugues_traduzido": "Quebrar o gelo\n",
+        "ingles_traduzido": "Break the ice\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "The train arrived at the station on time.",
+        "portugues_traduzido": "O trem chegou à estação na hora certa.\n",
+        "ingles_traduzido": "The train arrived at the station on time.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "She took a nap after lunch.",
+        "portugues_traduzido": "Ela tirou uma soneca depois do almoço.\n",
+        "ingles_traduzido": "She took a nap after lunch.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He is watering the plants.",
+        "portugues_traduzido": "Ele está regando as plantas.\n",
+        "ingles_traduzido": "He is watering the plants.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "at the helm",
+        "portugues_traduzido": "No comando\n",
+        "ingles_traduzido": "In command\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "The dog is playing outside.",
+        "portugues_traduzido": "O cachorro está brincando lá fora.\n",
+        "ingles_traduzido": "The dog is playing outside.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "coming full circle",
+        "portugues_traduzido": "Completar um ciclo\n",
+        "ingles_traduzido": "To complete a cycle\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "hold your horses",
+        "portugues_traduzido": "Calma aí\n",
+        "ingles_traduzido": "Hold on\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "as smooth as silk",
+        "portugues_traduzido": "Macio como seda.\n",
+        "ingles_traduzido": "Silky smooth.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "a shot in the dark",
+        "portugues_traduzido": "Um tiro no escuro\n",
+        "ingles_traduzido": "A shot in the dark\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "burst at the seams",
+        "portugues_traduzido": "Estar prestes a explodir.\n",
+        "ingles_traduzido": "About to explode.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "They went to a concert last night.",
+        "portugues_traduzido": "Eles foram a um show ontem à noite.\n",
+        "ingles_traduzido": "They went to a concert last night.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "cat got your tongue",
+        "portugues_traduzido": "O gato comeu sua língua?\n",
+        "ingles_traduzido": "Cat got your tongue?\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "They are having a discussion in the classroom.",
+        "portugues_traduzido": "Eles estão tendo uma discussão na sala de aula.\n",
+        "ingles_traduzido": "They are having a discussion in the classroom.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "behind the eight ball",
+        "portugues_traduzido": "Em maus lençóis\n",
+        "ingles_traduzido": "In deep trouble\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "She is painting a picture on the canvas.",
+        "portugues_traduzido": "Ela está pintando um quadro na tela.\n",
+        "ingles_traduzido": "She is painting a picture on the canvas.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "against the grain",
+        "portugues_traduzido": "Contra a corrente\n",
+        "ingles_traduzido": "Against the current\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "She is typing on her computer.",
+        "portugues_traduzido": "Ela está digitando no computador.\n",
+        "ingles_traduzido": "She is typing on the computer.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "left out in the cold",
+        "portugues_traduzido": "Deixado ao léu\n",
+        "ingles_traduzido": "Left to the elements\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "don't judge a book by its cover",
+        "portugues_traduzido": "Não julgue um livro pela capa.\n",
+        "ingles_traduzido": "Don't judge a book by its cover.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "bend over backward",
+        "portugues_traduzido": "Se esforçar ao máximo\n",
+        "ingles_traduzido": "Try your best\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "back to the grind",
+        "portugues_traduzido": "De volta à labuta\n",
+        "ingles_traduzido": "Back to the grind\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "let sleeping dogs lie",
+        "portugues_traduzido": "Deixe os mortos quietos.\n",
+        "ingles_traduzido": "Let the dead lie.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "a snowball's chance in hell",
+        "portugues_traduzido": "Nenhuma chance.\n",
+        "ingles_traduzido": "No way.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "fighting a losing battle",
+        "portugues_traduzido": "Lutar uma batalha perdida\n",
+        "ingles_traduzido": "To fight a losing battle\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "a fish out of water",
+        "portugues_traduzido": "Um peixe fora d'água\n",
+        "ingles_traduzido": "A fish out of water\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "hit the ground running",
+        "portugues_traduzido": "Começar com o pé direito\n",
+        "ingles_traduzido": "Start off on the right foot.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "heart of stone",
+        "portugues_traduzido": "Coração de pedra\n",
+        "ingles_traduzido": "Stone heart\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "He took a walk in the park.",
+        "portugues_traduzido": "Ele deu um passeio no parque.\n",
+        "ingles_traduzido": "He took a walk in the park.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They are enjoying a cup of coffee together.",
+        "portugues_traduzido": "Eles estão apreciando uma xícara de café juntos.\n",
+        "ingles_traduzido": "They are enjoying a cup of coffee together.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "I made a cup of tea for myself.",
+        "portugues_traduzido": "Fiz uma xícara de chá para mim.\n",
+        "ingles_traduzido": "I made myself a cup of tea.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "cooking up a storm",
+        "portugues_traduzido": "Fazendo um estrondo\n",
+        "ingles_traduzido": "Making a splash\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "fall through the cracks",
+        "portugues_traduzido": "Passar despercebido.\n",
+        "ingles_traduzido": "To go unnoticed.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "bend over backwards",
+        "portugues_traduzido": "Fazer de tudo\n",
+        "ingles_traduzido": "Do anything\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "dance with the devil",
+        "portugues_traduzido": "Dance com o diabo.\n",
+        "ingles_traduzido": "Dance with the devil.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "dark horse",
+        "portugues_traduzido": "Cavalo negro\n",
+        "ingles_traduzido": "Black horse\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "She enjoys walking in the park.",
+        "portugues_traduzido": "Ela gosta de caminhar no parque.\n",
+        "ingles_traduzido": "She likes to walk in the park.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "go the extra mile",
+        "portugues_traduzido": "Ir além\n",
+        "ingles_traduzido": "Go beyond\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "He is looking out the window at the rain.",
+        "portugues_traduzido": "Ele está olhando a chuva pela janela.\n",
+        "ingles_traduzido": "He is watching the rain through the window.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "feeling under the weather",
+        "portugues_traduzido": "Sentindo-se mal.\n",
+        "ingles_traduzido": "Feeling bad.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "bridge the gap",
+        "portugues_traduzido": "Preencher a lacuna\n",
+        "ingles_traduzido": "Fill in the gap\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "clear as crystal",
+        "portugues_traduzido": "Claro como cristal\n",
+        "ingles_traduzido": "Clear as crystal\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "actions speak louder than words",
+        "portugues_traduzido": "Ações valem mais que palavras.\n",
+        "ingles_traduzido": "Actions speak louder than words.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "cutting corners",
+        "portugues_traduzido": "Fazer as coisas pela metade\n",
+        "ingles_traduzido": "To do things halfway\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "cost an arm and a leg",
+        "portugues_traduzido": "Custar os olhos da cara.\n",
+        "ingles_traduzido": "To cost an arm and a leg.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "a far cry",
+        "portugues_traduzido": "Uma grande diferença\n",
+        "ingles_traduzido": "A big difference\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "carry the torch",
+        "portugues_traduzido": "Passar o bastão\n",
+        "ingles_traduzido": "Pass the baton\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "chew the fat",
+        "portugues_traduzido": "Pôr a conversa em dia\n",
+        "ingles_traduzido": "Catch up.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "at a snail's pace",
+        "portugues_traduzido": "A passos de cágado\n",
+        "ingles_traduzido": "At a snail's pace\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "He is taking a nap on the couch.",
+        "portugues_traduzido": "Ele está tirando uma soneca no sofá.\n",
+        "ingles_traduzido": "He is napping on the couch.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "dressed to kill",
+        "portugues_traduzido": "Arrasando.\n",
+        "ingles_traduzido": "Killing it.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "all in your head",
+        "portugues_traduzido": "Tudo na sua cabeça.\n",
+        "ingles_traduzido": "It's all in your head.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "He is writing a story for school.",
+        "portugues_traduzido": "Ele está escrevendo uma história para a escola.\n",
+        "ingles_traduzido": "He is writing a story for school.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "She painted a picture of a landscape.",
+        "portugues_traduzido": "Ela pintou um quadro de uma paisagem.\n",
+        "ingles_traduzido": "She painted a picture of a landscape.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "banging your head against a brick wall",
+        "portugues_traduzido": "Bater a cabeça contra a parede.\n",
+        "ingles_traduzido": "To bang one's head against a wall.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "She is visiting her grandmother in the hospital.",
+        "portugues_traduzido": "Ela está visitando sua avó no hospital.\n",
+        "ingles_traduzido": "She is visiting her grandmother in the hospital.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "She had a meeting with her boss.",
+        "portugues_traduzido": "Ela teve uma reunião com seu chefe.\n",
+        "ingles_traduzido": "She had a meeting with her boss.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "She is knitting a scarf for winter.",
+        "portugues_traduzido": "Ela está tricotando um cachecol para o inverno.\n",
+        "ingles_traduzido": "She is knitting a scarf for the winter.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "She took the train to the city.",
+        "portugues_traduzido": "Ela pegou o trem para a cidade.\n",
+        "ingles_traduzido": "She took the train to the city.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "break a leg",
+        "portugues_traduzido": "Boa sorte!\n",
+        "ingles_traduzido": "Good luck!\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "They are taking pictures in front of the monument.",
+        "portugues_traduzido": "Eles estão tirando fotos em frente ao monumento.\n",
+        "ingles_traduzido": "They are taking photos in front of the monument.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "They went for a walk in the park.",
+        "portugues_traduzido": "Eles foram passear no parque.\n",
+        "ingles_traduzido": "They went for a walk in the park.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "below the belt",
+        "portugues_traduzido": "Abaixo da cintura\n",
+        "ingles_traduzido": "Below the waist\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "caught red-handed",
+        "portugues_traduzido": "De mãos dadas na massa\n",
+        "ingles_traduzido": "Hand in hand in the dough\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "make a mountain out of a molehill",
+        "portugues_traduzido": "Fazer tempestade em copo d'água\n",
+        "ingles_traduzido": "To make a mountain out of a molehill.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "burning bridges",
+        "portugues_traduzido": "Queimando pontes\n",
+        "ingles_traduzido": "Burning bridges\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "burn a hole in your pocket",
+        "portugues_traduzido": "Furar o bolso.\n",
+        "ingles_traduzido": "To rip someone off.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "He is waiting for the bus.",
+        "portugues_traduzido": "Ele está esperando o ônibus.\n",
+        "ingles_traduzido": "He is waiting for the bus.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "better safe than sorry",
+        "portugues_traduzido": "Mais vale prevenir do que remediar.\n",
+        "ingles_traduzido": "Prevention is better than cure.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "burnt to a crisp",
+        "portugues_traduzido": "Queimado(a) até virar carvão.\n",
+        "ingles_traduzido": "Burnt to a crisp.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They are doing laundry in the basement.",
+        "portugues_traduzido": "Eles estão lavando roupa no porão.\n",
+        "ingles_traduzido": "They are doing laundry in the basement.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "as light as a feather",
+        "portugues_traduzido": "Leve como uma pluma\n",
+        "ingles_traduzido": "Light as a feather\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "as fit as a fiddle",
+        "portugues_traduzido": "Em plena forma\n",
+        "ingles_traduzido": "In good shape\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "They are going for a run in the morning.",
+        "portugues_traduzido": "Eles vão correr de manhã.\n",
+        "ingles_traduzido": "They will run in the morning.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "adding insult to injury",
+        "portugues_traduzido": "Para piorar as coisas\n",
+        "ingles_traduzido": "To make matters worse\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "apple of discord",
+        "portugues_traduzido": "Maçã da discórdia\n",
+        "ingles_traduzido": "Apple of discord\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "broken dreams",
+        "portugues_traduzido": "Sonhos desfeitos\n",
+        "ingles_traduzido": "Dreams Unravelled\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "bitten by the bug",
+        "portugues_traduzido": "Picado pela curiosidade.\n",
+        "ingles_traduzido": "Bitten by curiosity.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "blown away",
+        "portugues_traduzido": "Impressionado\n",
+        "ingles_traduzido": "Impressed\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "big shoes to fill",
+        "portugues_traduzido": "Grandes responsabilidades\n",
+        "ingles_traduzido": "Big responsibilities\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "He is cleaning the garage.",
+        "portugues_traduzido": "Ele está limpando a garagem.\n",
+        "ingles_traduzido": "He is cleaning the garage.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "She played tennis with her brother.",
+        "portugues_traduzido": "Ela jogou tênis com o irmão dela.\n",
+        "ingles_traduzido": "She played tennis with her brother.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "grasp at straws",
+        "portugues_traduzido": "Aferrar-se a uma palhinha\n",
+        "ingles_traduzido": "To clutch at straws\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "coming up roses",
+        "portugues_traduzido": "Tudo vai dar certo.\n",
+        "ingles_traduzido": "Everything will be alright.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "The car stopped at the red light.",
+        "portugues_traduzido": "O carro parou no sinal vermelho.\n",
+        "ingles_traduzido": "The car stopped at the red light.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They are sitting around the campfire.",
+        "portugues_traduzido": "Eles estão sentados ao redor da fogueira.\n",
+        "ingles_traduzido": "They are sitting around the campfire.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He is working out in the gym.",
+        "portugues_traduzido": "Ele está malhando na academia.\n",
+        "ingles_traduzido": "He is working out at the gym.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "She is playing with her cat.",
+        "portugues_traduzido": "Ela está brincando com seu gato.\n",
+        "ingles_traduzido": "She is playing with her cat.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He is fixing the car.",
+        "portugues_traduzido": "Ele está consertando o carro.\n",
+        "ingles_traduzido": "He is fixing the car.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "I like to read books in the evening.",
+        "portugues_traduzido": "Gosto de ler livros à noite.\n",
+        "ingles_traduzido": "I like to read books at night.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They went to a museum last month.",
+        "portugues_traduzido": "Eles foram a um museu no mês passado.\n",
+        "ingles_traduzido": "They went to a museum last month.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "They went to the library to borrow books.",
+        "portugues_traduzido": "Eles foram à biblioteca pegar livros emprestados.\n",
+        "ingles_traduzido": "They went to the library to borrow books.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "flying off the handle",
+        "portugues_traduzido": "Sair do sério\n",
+        "ingles_traduzido": "To lose it\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "catch lightning in a bottle",
+        "portugues_traduzido": "Capturar um raio em uma garrafa\n",
+        "ingles_traduzido": "Catching lightning in a bottle\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "bare your soul",
+        "portugues_traduzido": "Abrir o coração.\n",
+        "ingles_traduzido": "Open your heart.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "They met their friends at the café.",
+        "portugues_traduzido": "Eles encontraram seus amigos no café.\n",
+        "ingles_traduzido": "They met their friends at the café.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "jump the gun",
+        "portugues_traduzido": "Antecipar-se\n",
+        "ingles_traduzido": "To anticipate\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "She worked on her project all afternoon.",
+        "portugues_traduzido": "Ela trabalhou no projeto a tarde toda.\n",
+        "ingles_traduzido": "She worked on the project all afternoon.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "bury the hatchet",
+        "portugues_traduzido": "Enterrar as armas\n",
+        "ingles_traduzido": "Bury the hatchet\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "They are watching TV in the living room.",
+        "portugues_traduzido": "Eles estão assistindo TV na sala.\n",
+        "ingles_traduzido": "They are watching TV in the living room.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "They are eating lunch together.",
+        "portugues_traduzido": "Eles estão almoçando juntos.\n",
+        "ingles_traduzido": "They are having lunch together.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "He is taking a walk around the block.",
+        "portugues_traduzido": "Ele está dando uma volta no quarteirão.\n",
+        "ingles_traduzido": "He's walking around the block.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "hit the nail on the head",
+        "portugues_traduzido": "Acertar em cheio\n",
+        "ingles_traduzido": "Hit the bullseye\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "He sent an email to his colleague.",
+        "portugues_traduzido": "Ele enviou um email para o colega dele.\n",
+        "ingles_traduzido": "He sent an email to his colleague.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "carry a torch",
+        "portugues_traduzido": "Manter acesa a chama\n",
+        "ingles_traduzido": "Keep the flame alive.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "They took a bus to the city center.",
+        "portugues_traduzido": "Eles pegaram um ônibus para o centro da cidade.\n",
+        "ingles_traduzido": "They took a bus downtown.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "eat your heart out",
+        "portugues_traduzido": "Morra de inveja!\n",
+        "ingles_traduzido": "Die of envy!\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "I did the laundry yesterday.",
+        "portugues_traduzido": "Eu lavei a roupa ontem.\n",
+        "ingles_traduzido": "I washed the clothes yesterday.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They are taking a walk along the beach.",
+        "portugues_traduzido": "Eles estão passeando na praia.\n",
+        "ingles_traduzido": "They are walking on the beach.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "a weight on my shoulders",
+        "portugues_traduzido": "Um peso nos meus ombros.\n",
+        "ingles_traduzido": "A weight on my shoulders.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "can't cut the mustard",
+        "portugues_traduzido": "Não ter o mínimo necessário.\n",
+        "ingles_traduzido": "Not having the bare minimum.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "come down to earth",
+        "portugues_traduzido": "Voltar à realidade\n",
+        "ingles_traduzido": "Get back to reality\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She is writing a letter to her friend.",
+        "portugues_traduzido": "Ela está escrevendo uma carta para a amiga dela.\n",
+        "ingles_traduzido": "She is writing a letter to her friend.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "bad apple",
+        "portugues_traduzido": "Mau elemento\n",
+        "ingles_traduzido": "Bad egg\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "apple of my eye",
+        "portugues_traduzido": "Menina dos meus olhos\n",
+        "ingles_traduzido": "Apple of my eye\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She is making a salad for lunch.",
+        "portugues_traduzido": "Ela está fazendo uma salada para o almoço.\n",
+        "ingles_traduzido": "She is making a salad for lunch.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "He repaired the broken chair.",
+        "portugues_traduzido": "Ele consertou a cadeira quebrada.\n",
+        "ingles_traduzido": "He fixed the broken chair.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "icing on the cake",
+        "portugues_traduzido": "Cereja no topo do bolo\n",
+        "ingles_traduzido": "The icing on the cake\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "She went to the dentist for a check-up.",
+        "portugues_traduzido": "Ela foi ao dentista para uma revisão.\n",
+        "ingles_traduzido": "She went to the dentist for a check-up.\n",
+        "num_tokens_original": 12,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "armed to the teeth",
+        "portugues_traduzido": "Armado até os dentes\n",
+        "ingles_traduzido": "Armed to the teeth\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "Water boils at 100°C.",
+        "portugues_traduzido": "A água ferve a 100°C.\n",
+        "ingles_traduzido": "Water boils at 100°C.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "red herring",
+        "portugues_traduzido": "Cortina de fumaça\n",
+        "ingles_traduzido": "Smoke screen\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "have a lot on your plate",
+        "portugues_traduzido": "Estar com muito trabalho.\n",
+        "ingles_traduzido": "I'm swamped.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "a clean slate",
+        "portugues_traduzido": "Um recomeço.\n",
+        "ingles_traduzido": "A fresh start.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "feeding the fire",
+        "portugues_traduzido": "Alimentando o fogo\n",
+        "ingles_traduzido": "Feeding the fire\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "finding a needle in a haystack",
+        "portugues_traduzido": "Procurar uma agulha no palheiro\n",
+        "ingles_traduzido": "Looking for a needle in a haystack.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "She is shopping for groceries.",
+        "portugues_traduzido": "Ela está comprando mantimentos.\n",
+        "ingles_traduzido": "She is buying groceries.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "born with a silver spoon",
+        "portugues_traduzido": "Nascido em berço de ouro.\n",
+        "ingles_traduzido": "Born with a silver spoon in their mouth.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "let the cat out of the bag",
+        "portugues_traduzido": "Revelar um segredo\n",
+        "ingles_traduzido": "To reveal a secret\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "black mark",
+        "portugues_traduzido": "Mancha negra\n",
+        "ingles_traduzido": "Black stain\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "call it a day",
+        "portugues_traduzido": "Dar o dia por encerrado.\n",
+        "ingles_traduzido": "Call it a day.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "batten down the hatches",
+        "portugues_traduzido": "Arriar as escotilhas\n",
+        "ingles_traduzido": "Secure the hatches.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "call it a night",
+        "portugues_traduzido": "Vamos parar por hoje.\n",
+        "ingles_traduzido": "Let's call it a day.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "I worked on my computer for two hours.",
+        "portugues_traduzido": "Eu trabalhei no meu computador por duas horas.\n",
+        "ingles_traduzido": "I worked on my computer for two hours.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "man of the hour",
+        "portugues_traduzido": "O homem do momento\n",
+        "ingles_traduzido": "Man of the moment\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "from the bottom of my heart",
+        "portugues_traduzido": "Do fundo do meu coração\n",
+        "ingles_traduzido": "From the bottom of my heart\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "beat around the bush",
+        "portugues_traduzido": "Ficar enrolando\n",
+        "ingles_traduzido": "To stall\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "go the extra mile",
+        "portugues_traduzido": "Ir além\n",
+        "ingles_traduzido": "Go beyond\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "down to earth",
+        "portugues_traduzido": "Pé no chão\n",
+        "ingles_traduzido": "Down to earth\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "They are chatting in the living room.",
+        "portugues_traduzido": "Eles estão conversando na sala.\n",
+        "ingles_traduzido": "They are talking in the living room.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "The dog ran across the yard.",
+        "portugues_traduzido": "O cachorro correu pelo quintal.\n",
+        "ingles_traduzido": "The dog ran through the yard.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "bigger fish to fry",
+        "portugues_traduzido": "Problemas maiores para resolver\n",
+        "ingles_traduzido": "Bigger problems to solve.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "climbing the walls",
+        "portugues_traduzido": "Subindo pelas paredes\n",
+        "ingles_traduzido": "Climbing the walls\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "as clear as day",
+        "portugues_traduzido": "Claro como o dia.\n",
+        "ingles_traduzido": "Clear as day.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "like a fish out of water",
+        "portugues_traduzido": "Como peixe fora d'água\n",
+        "ingles_traduzido": "Like a fish out of water\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "like father, like son",
+        "portugues_traduzido": "Tal pai, tal filho.\n",
+        "ingles_traduzido": "Like father, like son.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "blaze a trail",
+        "portugues_traduzido": "Abrir caminho\n",
+        "ingles_traduzido": "Make way\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "dare to dream",
+        "portugues_traduzido": "Ouse sonhar\n",
+        "ingles_traduzido": "Dare to dream\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "at your wit’s end",
+        "portugues_traduzido": "No fim da paciência\n",
+        "ingles_traduzido": "At the end of patience\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "a piece of cake",
+        "portugues_traduzido": "Coisa fácil\n",
+        "ingles_traduzido": "Easy peasy\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "call the shots",
+        "portugues_traduzido": "Dar as cartas\n",
+        "ingles_traduzido": "Deal the cards\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "close call",
+        "portugues_traduzido": "Por pouco.\n",
+        "ingles_traduzido": "Close call.\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "against the clock",
+        "portugues_traduzido": "Contra o tempo\n",
+        "ingles_traduzido": "Against time\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "eye of the storm",
+        "portugues_traduzido": "Olho do furacão\n",
+        "ingles_traduzido": "Eye of the storm\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "don't count your chickens before they hatch",
+        "portugues_traduzido": "Não conte com o ovo no cu da galinha.\n",
+        "ingles_traduzido": "Don't count your chickens before they hatch.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "They are having a family gathering at home.",
+        "portugues_traduzido": "Eles estão fazendo uma reunião familiar em casa.\n",
+        "ingles_traduzido": "They are having a family gathering at home.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "big time",
+        "portugues_traduzido": "Em grande estilo\n",
+        "ingles_traduzido": "In style\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "a drop in the ocean",
+        "portugues_traduzido": "Uma gota no oceano\n",
+        "ingles_traduzido": "A drop in the ocean\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "big fish in a small pond",
+        "portugues_traduzido": "Peixe grande em lago pequeno\n",
+        "ingles_traduzido": "Big fish in a small pond\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "She studied for the test all week.",
+        "portugues_traduzido": "Ela estudou para a prova a semana toda.\n",
+        "ingles_traduzido": "She studied for the test all week.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "against all odds",
+        "portugues_traduzido": "Contra todas as probabilidades\n",
+        "ingles_traduzido": "Against all odds\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "hit the nail on the head",
+        "portugues_traduzido": "Acertar em cheio\n",
+        "ingles_traduzido": "To hit the mark\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "back against the wall",
+        "portugues_traduzido": "Encurralado\n",
+        "ingles_traduzido": "Cornered\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "They watched the sunrise at the beach.",
+        "portugues_traduzido": "Eles assistiram o nascer do sol na praia.\n",
+        "ingles_traduzido": "They watched the sunrise on the beach.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "butter wouldn't melt",
+        "portugues_traduzido": "Não seria capaz de fazer mal a uma mosca.\n",
+        "ingles_traduzido": "They wouldn't hurt a fly.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "a taste of their own medicine",
+        "portugues_traduzido": "Provar do próprio veneno\n",
+        "ingles_traduzido": "To taste one's own medicine\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "She is organizing her closet.",
+        "portugues_traduzido": "Ela está organizando o armário dela.\n",
+        "ingles_traduzido": "She is organizing her closet.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "She went to the gym for a workout.",
+        "portugues_traduzido": "Ela foi à academia para treinar.\n",
+        "ingles_traduzido": "She went to the gym to work out.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "dropping like flies",
+        "portugues_traduzido": "Caindo como moscas\n",
+        "ingles_traduzido": "Dropping like flies\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "a taste of freedom",
+        "portugues_traduzido": "Um gostinho de liberdade.\n",
+        "ingles_traduzido": "A taste of freedom.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "hold your horses",
+        "portugues_traduzido": "Calma aí!\n",
+        "ingles_traduzido": "Hold on!\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "The weather is very cold today.",
+        "portugues_traduzido": "O tempo está muito frio hoje.\n",
+        "ingles_traduzido": "The weather is very cold today.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "blood runs cold",
+        "portugues_traduzido": "O sangue gela.\n",
+        "ingles_traduzido": "My blood runs cold.\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "don't cry over spilled milk",
+        "portugues_traduzido": "Não chore pelo leite derramado.\n",
+        "ingles_traduzido": "Don't cry over spilled milk.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "back to basics",
+        "portugues_traduzido": "De volta ao básico\n",
+        "ingles_traduzido": "Back to basics\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "go the extra mile",
+        "portugues_traduzido": "Ir além do esperado\n",
+        "ingles_traduzido": "Go above and beyond.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "carved in stone",
+        "portugues_traduzido": "Esculpido em pedra\n",
+        "ingles_traduzido": "Carved in stone\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She brushed her teeth before bed.",
+        "portugues_traduzido": "Ela escovou os dentes antes de dormir.\n",
+        "ingles_traduzido": "She brushed her teeth before bed.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "chip off the old block",
+        "portugues_traduzido": "Filho de peixe, peixinho é.\n",
+        "ingles_traduzido": "Like father, like son.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "cat nap",
+        "portugues_traduzido": "Cochilo.\n",
+        "ingles_traduzido": "Nap.\n",
+        "num_tokens_original": 3,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "chip on your shoulder",
+        "portugues_traduzido": "Rancor\n",
+        "ingles_traduzido": "Grudge\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "as gentle as a lamb",
+        "portugues_traduzido": "Tão dócil quanto um cordeiro.\n",
+        "ingles_traduzido": "As gentle as a lamb.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They went to a theme park for the day.",
+        "portugues_traduzido": "Eles foram a um parque temático passar o dia.\n",
+        "ingles_traduzido": "They went to a theme park for the day.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "burn the midnight oil",
+        "portugues_traduzido": "Queimar pestanas\n",
+        "ingles_traduzido": "Burn the midnight oil\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "blind leading the blind",
+        "portugues_traduzido": "Um cego guiando outro cego.\n",
+        "ingles_traduzido": "A blind man leading another blind man.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "blue in the face",
+        "portugues_traduzido": "Exausto de tanto falar/fazer\n",
+        "ingles_traduzido": "Tired of talking/doing so much.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "She is taking a picture of the flowers in the garden.",
+        "portugues_traduzido": "Ela está tirando uma foto das flores no jardim.\n",
+        "ingles_traduzido": "She is taking a picture of the flowers in the garden.\n",
+        "num_tokens_original": 13,
+        "num_tokens_traduzido": 14
+    },
+    {
+        "ingles_original": "They are having a barbecue in the garden.",
+        "portugues_traduzido": "Eles estão fazendo um churrasco no jardim.\n",
+        "ingles_traduzido": "They are having a barbecue in the garden.\n",
+        "num_tokens_original": 10,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "jump the gun",
+        "portugues_traduzido": "Antecipar-se\n",
+        "ingles_traduzido": "To anticipate\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "They are walking through the city streets.",
+        "portugues_traduzido": "Eles estão caminhando pelas ruas da cidade.\n",
+        "ingles_traduzido": "They are walking through the city streets.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "She reads a book every night.",
+        "portugues_traduzido": "Ela lê um livro todas as noites.\n",
+        "ingles_traduzido": "She reads a book every night.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "chained to the desk",
+        "portugues_traduzido": "Preso à mesa\n",
+        "ingles_traduzido": "Stuck to the table\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "He did some gardening in the afternoon.",
+        "portugues_traduzido": "Ele fez jardinagem à tarde.\n",
+        "ingles_traduzido": "He gardened in the afternoon.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "They enjoyed a picnic in the park.",
+        "portugues_traduzido": "Eles aproveitaram um piquenique no parque.\n",
+        "ingles_traduzido": "They enjoyed a picnic in the park.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "dive in headfirst",
+        "portugues_traduzido": "Mergulhar de cabeça\n",
+        "ingles_traduzido": "To dive in headfirst\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "have the upper hand",
+        "portugues_traduzido": "Levar vantagem\n",
+        "ingles_traduzido": "To gain an advantage\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "She is ironing her clothes.",
+        "portugues_traduzido": "Ela está passando suas roupas.\n",
+        "ingles_traduzido": "She is ironing her clothes.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "He plays soccer every weekend.",
+        "portugues_traduzido": "Ele joga futebol todo fim de semana.\n",
+        "ingles_traduzido": "He plays soccer every weekend.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "at the drop of a hat",
+        "portugues_traduzido": "Imediatamente\n",
+        "ingles_traduzido": "Immediately\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 3
+    },
+    {
+        "ingles_original": "have a heart of stone",
+        "portugues_traduzido": "Ter um coração de pedra.\n",
+        "ingles_traduzido": "To have a heart of stone.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "He worked on his computer for hours.",
+        "portugues_traduzido": "Ele trabalhou no computador por horas.\n",
+        "ingles_traduzido": "He worked on the computer for hours.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "airing dirty laundry",
+        "portugues_traduzido": "Expor a roupa suja.\n",
+        "ingles_traduzido": "Air the dirty laundry.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "dead in the water",
+        "portugues_traduzido": "*   **Em dificuldades**\n",
+        "ingles_traduzido": "**In trouble**\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "another string to your bow",
+        "portugues_traduzido": "Outra arma no seu arco.\n",
+        "ingles_traduzido": "Another arrow in your quiver.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "easy come, easy go",
+        "portugues_traduzido": "Fácil vem, fácil vai.\n",
+        "ingles_traduzido": "Easy come, easy go.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "bend over backwards",
+        "portugues_traduzido": "Se esforçar ao máximo\n",
+        "ingles_traduzido": "Try your best\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "bolt from the blue",
+        "portugues_traduzido": "Raio em céu azul\n",
+        "ingles_traduzido": "Lightning in a clear sky\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "dropping the ball",
+        "portugues_traduzido": "Deixar a peteca cair\n",
+        "ingles_traduzido": "To drop the ball\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "born with a silver spoon",
+        "portugues_traduzido": "Nascer em berço de ouro.\n",
+        "ingles_traduzido": "Born with a silver spoon in one's mouth.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 13
+    },
+    {
+        "ingles_original": "as plain as day",
+        "portugues_traduzido": "Claro como o dia.\n",
+        "ingles_traduzido": "Clear as day.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "like a fish to water",
+        "portugues_traduzido": "Como peixe na água.\n",
+        "ingles_traduzido": "Like a fish in water.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "change your tune",
+        "portugues_traduzido": "Mudar o discurso\n",
+        "ingles_traduzido": "Change the narrative\n",
+        "num_tokens_original": 4,
+        "num_tokens_traduzido": 5
+    },
+    {
+        "ingles_original": "adding fuel to the fire",
+        "portugues_traduzido": "Botando lenha na fogueira.\n",
+        "ingles_traduzido": "Adding fuel to the fire.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "They are playing board games in the living room.",
+        "portugues_traduzido": "Eles estão jogando jogos de tabuleiro na sala de estar.\n",
+        "ingles_traduzido": "They are playing board games in the living room.\n",
+        "num_tokens_original": 11,
+        "num_tokens_traduzido": 12
+    },
+    {
+        "ingles_original": "dying to know",
+        "portugues_traduzido": "Morrendo de curiosidade.\n",
+        "ingles_traduzido": "Dying to know.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "She is making a smoothie for breakfast.",
+        "portugues_traduzido": "Ela está fazendo um smoothie para o café da manhã.\n",
+        "ingles_traduzido": "She's making a smoothie for breakfast.\n",
+        "num_tokens_original": 9,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "in the same boat",
+        "portugues_traduzido": "Na mesma situação\n",
+        "ingles_traduzido": "In the same situation\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "better late than never",
+        "portugues_traduzido": "Antes tarde do que nunca.\n",
+        "ingles_traduzido": "Better late than never.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 7
+    },
+    {
+        "ingles_original": "frog in your throat",
+        "portugues_traduzido": "Garganta seca\n",
+        "ingles_traduzido": "Dry throat\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "down in the dumps",
+        "portugues_traduzido": "Para baixo astral\n",
+        "ingles_traduzido": "Down in the dumps\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "blood is thicker than water",
+        "portugues_traduzido": "Sangue é mais espesso que água.\n",
+        "ingles_traduzido": "Blood is thicker than water.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "as high as a kite",
+        "portugues_traduzido": "Chapado\n",
+        "ingles_traduzido": "Stoned\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "foot in the door",
+        "portugues_traduzido": "Pé na porta\n",
+        "ingles_traduzido": "Foot in the door\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "crying over spilled milk",
+        "portugues_traduzido": "Chorar sobre o leite derramado.\n",
+        "ingles_traduzido": "Don't cry over spilled milk.\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 10
+    },
+    {
+        "ingles_original": "He is studying for his exams.",
+        "portugues_traduzido": "Ele está estudando para as provas.\n",
+        "ingles_traduzido": "He is studying for the exams.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "darkest before dawn",
+        "portugues_traduzido": "A noite mais escura precede a alvorada.\n",
+        "ingles_traduzido": "The darkest night is just before the dawn.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 11
+    },
+    {
+        "ingles_original": "They are taking a family vacation.",
+        "portugues_traduzido": "Eles estão de férias em família.\n",
+        "ingles_traduzido": "They are on a family vacation.\n",
+        "num_tokens_original": 8,
+        "num_tokens_traduzido": 9
+    },
+    {
+        "ingles_original": "cat got your tongue",
+        "portugues_traduzido": "O gato comeu sua língua.\n",
+        "ingles_traduzido": "The cat got your tongue.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 8
+    },
+    {
+        "ingles_original": "barking up the wrong tree",
+        "portugues_traduzido": "Estar enganado.\n",
+        "ingles_traduzido": "To be mistaken.\n",
+        "num_tokens_original": 7,
+        "num_tokens_traduzido": 6
+    },
+    {
+        "ingles_original": "bird's eye view",
+        "portugues_traduzido": "Vista panorâmica\n",
+        "ingles_traduzido": "Panoramic view\n",
+        "num_tokens_original": 6,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "by a long shot",
+        "portugues_traduzido": "De longe\n",
+        "ingles_traduzido": "From afar\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 4
+    },
+    {
+        "ingles_original": "add insult to injury",
+        "portugues_traduzido": "Piorar as coisas\n",
+        "ingles_traduzido": "Make things worse.\n",
+        "num_tokens_original": 5,
+        "num_tokens_traduzido": 6
+    }
+]
