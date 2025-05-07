@@ -35,7 +35,7 @@ def main(model_id, hf_token, output_path):
         
     anotacoes = []
     
-    for frase in df['Sentence']:
+    for frase in df['Text']:
 
         prompt1 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
         prompt2 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"

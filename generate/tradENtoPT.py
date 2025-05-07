@@ -12,9 +12,9 @@ import os
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
 
-    df = pd.read_parquet("comparacao_datasets/manual_data.parquet", engine='pyarrow') 
+    df = pd.read_csv("comparacao_datasets/newsmet.csv", encoding='utf-8')
 
-    device = f'cuda' if torch.cuda.is_available() else 'cpu'
+    device = 0 if torch.cuda.is_available() else -1
     
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 
@@ -35,12 +35,12 @@ def main(model_id, hf_token, output_path):
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    json_output_path = os.path.join(output_path, "ENtoPT.json")
+    json_output_path = os.path.join(output_path, "prompt1/ENtoPT.json")
     
         
     anotacoes = []
     
-    for frase in df['Sentence']:
+    for frase in df['Text']:
 
         prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
 
@@ -48,7 +48,7 @@ def main(model_id, hf_token, output_path):
 
         outputs = pipeline(
             message,
-            max_new_tokens=2000,
+            max_new_tokens=512,
             do_sample=True,
             temperature=1,
             top_p=0.95,
@@ -62,9 +62,6 @@ def main(model_id, hf_token, output_path):
         }
         
         anotacoes.append(result)
-          
-        torch.cuda.empty_cache()
-        gc.collect()
         
         with open(json_output_path, "w", encoding="utf-8") as f:
             json.dump(anotacoes, f, ensure_ascii=False, indent=4)

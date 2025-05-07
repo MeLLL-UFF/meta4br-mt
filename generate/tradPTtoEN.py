@@ -30,8 +30,8 @@ def main(model_id, hf_token, output_path):
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    arquivo_entrada = os.path.join(output_path, "ENtoPT.json")
-    arquivo_saida = os.path.join(output_path, "PTtoEN.json")
+    arquivo_entrada = os.path.join(output_path, "prompt1/ENtoPT.json")
+    arquivo_saida = os.path.join(output_path, "prompt1/PTtoEN.json")
 
     anotacoes = []
 
@@ -44,7 +44,6 @@ def main(model_id, hf_token, output_path):
         # Tradução de português (por_Latn) para inglês (eng_Latn)
         outputs = pipeline(
             frase,
-            max_new_tokens=2000,
             do_sample=True,
             temperature=1,
             top_p=0.95,
@@ -61,11 +60,12 @@ def main(model_id, hf_token, output_path):
 
         anotacoes.append(result)
 
-        torch.cuda.empty_cache()
-        gc.collect()
-
         with open(arquivo_saida, 'w', encoding='utf-8') as f:
             json.dump(anotacoes, f, ensure_ascii=False, indent=5)
+        
+        gc.collect()
+        torch.cuda.empty_cache()
+        torch.cuda.synchronize()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run translation with Hugging Face pipeline.")
