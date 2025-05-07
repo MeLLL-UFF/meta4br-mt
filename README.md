@@ -2,18 +2,24 @@
 
 Este projeto visa estudar como LLMs (gpt, qwen, mistral e llama) fazem o back translation que consiste traduzir uma frase de uma língua A para B e novamente traduzir da língua B para A. No nosso contexto, estamos usando o dataset [common.parquet](https://huggingface.co/datasets/Sasidhar1826/common_metaphors_detection_dataset) do huggingface que contém 600 frases em inglês com ou sem metáforas. 
 
-Além disso, iremos usar algumas métricas para julgar se a tradução está sendo boa ou não, usaremos [ROUGE](https://huggingface.co/spaces/evaluate-metric/rouge), [BLEU](https://huggingface.co/spaces/evaluate-metric/bleu), [BERTScore](https://huggingface.co/spaces/evaluate-metric/bertscore), [BLEURT](https://huggingface.co/spaces/evaluate-metric/bleurt) e [COMET](https://huggingface.co/spaces/evaluate-metric/comet), todas estão documentados no huggingface.
+Além disso, iremos usar algumas métricas para julgar se a tradução está sendo boa ou não, usaremos [ROUGE](https://huggingface.co/spaces/evaluate-metric/rouge), [BLEU](https://huggingface.co/spaces/evaluate-metric/bleu), [BERTScore](https://huggingface.co/spaces/evaluate-metric/bertscore), [BLEURT](https://huggingface.co/spaces/evaluate-metric/bleurt) e [COMET](https://huggingface.co/spaces/evaluate-metric/comet), todas estão documentadas no huggingface.
 
 Nessa pasta, ocorre o desenvolvimento da terceira vertente do projeto que consiste em fazer BackTranslation. Aqui iremos escolher dois datasets de metáforas em inglês para realizar a tradução dele para o português pelas LLMs e novamente para o inglês para checarmos se as frases se mantêm iguais. Para o dataset, escolhemos os menores que temos separados, que no caso foram os arquivos "common.parquet" com 70 frases e o "manual_data.parquet" com 718 frases.
 
-Dito isso, devemos rodar as farses do inglês para o português e depois do português para o inglês novamente. Para isso, iremos usar os seguintes prompts para conversar com as LLMs:
+Dito isso, devemos rodar as frases do inglês para o português e depois do português para o inglês novamente. Para isso, iremos usar os seguintes prompts para conversar com as LLMs:
 
 
-promptPT = **"Traduzir a frase <frase> do inglês para o português. Apenas escreva a frase traduzida, nada além disso"** 
+promptPT1 = **"Traduzir a frase <frase> do inglês para o português. Apenas escreva a frase traduzida, nada além disso"** 
 
-promptEN = **"Traduzir a frase <frase> do português para o inglês. Apenas escreva a frase traduzida, nada além disso"**
+promptEN1 = **"Traduzir a frase <frase> do português para o inglês. Apenas escreva a frase traduzida, nada além disso"**
 
-Se analisarmos que as respostas foram muito confusas, podemos analisar a melhora desses prompts, incluindo maiores detalhes e contextos.
+
+Desejamos fazer uma análise com um prompt um pouco mais detalhado:
+
+promptPT2 = **"Traduzir a frase <frase> do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"** 
+
+promptEN2 = **"Traduzir a frase <frase> do português para o inglês. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"**
+
 
 No arquivo genENtoPT temos:
 {
@@ -35,7 +41,8 @@ Ordem que estou rodando os scripts:
 5) script_comet.py
 6) script_tokens.py
 
-Citação:
+## Citações:
+
 **ROUGE**
 - @inproceedings{lin-2004-rouge,
     title = "{ROUGE}: A Package for Automatic Evaluation of Summaries",
@@ -147,7 +154,11 @@ Citação:
     publisher = "European Association for Machine Translation",
     url = "https://aclanthology.org/2022.eamt-1.9",
     pages = "61--70",
+
 }
+
+**Artigo do dataset newsmet**
+
 @inproceedings{joseph-etal-2023-newsmet,
     title = "{N}ews{M}et : A {\textquoteleft}do it all' Dataset of Contemporary Metaphors in News Headlines",
     author = "Joseph, Rohan  and
@@ -169,11 +180,14 @@ Citação:
     abstract = "Metaphors are highly creative constructs of human language that grow old and eventually die. Popular datasets used for metaphor processing tasks were constructed from dated source texts. In this paper, we propose NewsMet, a large high-quality contemporary dataset of news headlines hand-annotated with metaphorical verbs. The dataset comprises headlines from various sources including political, satirical, reliable and fake. Our dataset serves the purpose of evaluation for the tasks of metaphor interpretation and generation. The experiments reveal several insights and limitations of using LLMs to automate metaphor processing tasks as frequently seen in the recent literature. The dataset is publicly available for research purposes \url{https://github.com/AxleBlaze3/NewsMet_Metaphor_Dataset}."
 }
 
-https://huggingface.co/datasets/Sasidhar1826/manual_data_on_metaphors
-https://github.com/AxleBlaze3/NewsMet_Metaphor_Dataset
+## Links dos datasets utilizados:
+
+- https://huggingface.co/datasets/Sasidhar1826/manual_data_on_metaphors
+
+- https://github.com/AxleBlaze3/NewsMet_Metaphor_Dataset
 
 
-Modelos usados:
+## Modelos usados:
 
 - gpt-4o-mini
 - gemini-2.0-flash-lite
