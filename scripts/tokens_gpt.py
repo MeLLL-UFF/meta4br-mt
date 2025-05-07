@@ -1,11 +1,13 @@
 import json
 import tiktoken
 
-with open('dataset_manualdata/gpt/prompt2/frases_traduzidas.json', 'r', encoding='utf-8') as file:
+with open('dataset_newsmet/gpt/prompt1/frases_traduzidas.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 vetor = []
 i = 1
+
+encoding = tiktoken.get_encoding("o200k_base")
 
 for objeto in dados:
     original = objeto['ingles_original']
@@ -23,6 +25,6 @@ for objeto in dados:
     print(f"Frase {i}")
     i += 1
 
-with open('dataset_manualdata/gpt/prompt2/frases_traduzidas.json', 'w', encoding='utf-8') as file:
+with open('dataset_newsmet/gpt/prompt1/frases_traduzidas.json', 'w', encoding='utf-8') as file:
     json.dump(vetor, file, ensure_ascii=False, indent=4)
 

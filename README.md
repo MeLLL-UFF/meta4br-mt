@@ -148,8 +148,30 @@ Citação:
     url = "https://aclanthology.org/2022.eamt-1.9",
     pages = "61--70",
 }
+@inproceedings{joseph-etal-2023-newsmet,
+    title = "{N}ews{M}et : A {\textquoteleft}do it all' Dataset of Contemporary Metaphors in News Headlines",
+    author = "Joseph, Rohan  and
+      Liu, Timothy  and
+      Ng, Aik Beng  and
+      See, Simon  and
+      Rai, Sunny",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.641/",
+    doi = "10.18653/v1/2023.findings-acl.641",
+    pages = "10090--10104",
+    abstract = "Metaphors are highly creative constructs of human language that grow old and eventually die. Popular datasets used for metaphor processing tasks were constructed from dated source texts. In this paper, we propose NewsMet, a large high-quality contemporary dataset of news headlines hand-annotated with metaphorical verbs. The dataset comprises headlines from various sources including political, satirical, reliable and fake. Our dataset serves the purpose of evaluation for the tasks of metaphor interpretation and generation. The experiments reveal several insights and limitations of using LLMs to automate metaphor processing tasks as frequently seen in the recent literature. The dataset is publicly available for research purposes \url{https://github.com/AxleBlaze3/NewsMet_Metaphor_Dataset}."
+}
 
 https://huggingface.co/datasets/Sasidhar1826/manual_data_on_metaphors
+https://github.com/AxleBlaze3/NewsMet_Metaphor_Dataset
+
 
 Modelos usados:
 
@@ -160,3 +182,4 @@ Modelos usados:
 - nllb-200-3.3B
 - Ministral-8B-Instruct-2410
 - opus-mt-en-ROMANCE (tem que forçar o pt na frase pq ele mistura mt espanhol)
+- opus-mt-ROMANCE-en

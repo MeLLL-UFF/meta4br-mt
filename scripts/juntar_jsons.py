@@ -1,9 +1,9 @@
 import json
 
 # Read the JSON file
-with open('dataset_manualdata/gemini/prompt2/ENtoPT.json', 'r', encoding='utf-8') as file:
+with open('dataset_newsmet/marian/prompt1/ENtoPT.json', 'r', encoding='utf-8') as file:
     data1 = json.load(file)
-with open('dataset_manualdata/gemini/prompt2/PTtoEN.json', 'r', encoding='utf-8') as file:
+with open('dataset_newsmet/marian/prompt1/PTtoEN.json', 'r', encoding='utf-8') as file:
     data2 = json.load(file)
 
 # Process each object in the JSON
@@ -21,6 +21,6 @@ for item in data1:
     indice += 1
 
 # Write the new data to a new JSON file
-with open('dataset_manualdata/gemini/prompt2/frases_traduzidas.json', 'w', encoding='utf-8') as file:
+with open('dataset_newsmet/marian/prompt1/frases_traduzidas.json', 'w', encoding='utf-8') as file:
     json.dump(new_data, file, ensure_ascii=False, indent=4)
 

@@ -1,10 +1,10 @@
 import transformers
 import json
 
-with open('groq/frases_traduzidas.json', 'r', encoding='utf-8') as file:
+with open('dataset_newsmet/marian/prompt1/frases_traduzidas.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
-tokenizer = transformers.AutoTokenizer.from_pretrained("Qwen/Qwen2.5-7B-Instruct", trust_remote_code=True)
+tokenizer = transformers.AutoTokenizer.from_pretrained("Helsinki-NLP/opus-mt-ROMANCE-en", trust_remote_code=True)
 
 vetor = []
 i = 1
@@ -25,6 +25,6 @@ for objeto in dados:
     print(f"Frase {i}")
     i += 1
 
-with open('groq/frases_traduzidas.json', 'w', encoding='utf-8') as file:
+with open('dataset_newsmet/marian/prompt1/frases_traduzidas.json', 'w', encoding='utf-8') as file:
     json.dump(vetor, file, ensure_ascii=False, indent=4)
 
