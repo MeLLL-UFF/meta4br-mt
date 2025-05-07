@@ -6,14 +6,14 @@ from google.genai import types
 
 #pip install -U -q "google-genai"
 
-df = pd.read_parquet("comparacao_datasets/manual_data.parquet", engine='pyarrow') 
+df = pd.read_csv("comparacao_datasets/newsmet.csv", encoding='utf-8')
 
 client = genai.Client(api_key="AIzaSyAX8TX9GS9o7842SWgBPqG8tkQa6OOZjVM")
 delay = 15
 
 anotacoes = []
 
-for frase in df['Sentence']:
+for frase in df['Text']:
 
     prompt1 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
     prompt2 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"
@@ -21,7 +21,7 @@ for frase in df['Sentence']:
 
     response = client.models.generate_content(
         model="gemini-2.0-flash-lite",
-        contents=prompt2,
+        contents=prompt1,
     )
 
     
@@ -33,7 +33,7 @@ for frase in df['Sentence']:
     anotacoes.append(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('dataset_manualdata/gemini/prompt2/PTtoEN.json', 'w', encoding='utf-8') as f:
+    with open('dataset_newsmet/gemini/prompt1/ENtoPT.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
     time.sleep(delay)
