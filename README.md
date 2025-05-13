@@ -183,3 +183,5 @@ Modelos usados:
 - Ministral-8B-Instruct-2410
 - opus-mt-en-ROMANCE (tem que forçar o pt na frase pq ele mistura mt espanhol)
 - opus-mt-ROMANCE-en
+
+Criamos um prompt2 com mais detalhes, mas não rodamos ele nos modelos da meta nem no marian porque eles não usam prompt, como sào puramente de tradução, só recebem a frase como input.

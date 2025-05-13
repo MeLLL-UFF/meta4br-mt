@@ -19,7 +19,7 @@ for frase in df['Text']:
     response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "user", "content": prompt1},
+                {"role": "user", "content": prompt2},
             ],
             max_tokens=2000
     )
@@ -33,7 +33,7 @@ for frase in df['Text']:
     anotacoes.append(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('dataset_newsmet/gpt/prompt1/ENtoPT.json', 'w', encoding='utf-8') as f:
+    with open('dataset_newsmet/gpt/prompt2/ENtoPT.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
 

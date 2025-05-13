@@ -30,7 +30,7 @@ def main(model_id, hf_token, output_path):
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    json_output_path = os.path.join(output_path, "prompt1/ENtoPT.json")
+    json_output_path = os.path.join(output_path, "prompt2/ENtoPT.json")
     
         
     anotacoes = []
@@ -41,7 +41,7 @@ def main(model_id, hf_token, output_path):
         prompt2 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"
 
         messages = [
-            {"role": "user", "content": prompt1}
+            {"role": "user", "content": prompt2}
         ]
         
         outputs = pipeline(

@@ -42,8 +42,6 @@ def main(model_id, hf_token, output_path):
     
     for frase in df['Text']:
 
-        prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
-
         message = ">>pt<<" + frase
 
         outputs = pipeline(
