@@ -20,7 +20,7 @@ with open('dataset_newsmet/qwen/prompt2/frases_traduzidas_com_metricas.json', 'r
     scores = results.scores
 
     for i in range(len(dados)):
-        dados[i]["COMET"] = {"scores" : scores[i]}
+        dados[i]["COMET22"] = {"scores" : scores[i]}
 
     with open('dataset_newsmet/qwen/prompt2/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
         json.dump(dados, file, ensure_ascii=False, indent=4)
