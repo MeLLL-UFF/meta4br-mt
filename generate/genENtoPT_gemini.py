@@ -18,7 +18,7 @@ delay = 15
 
 anotacoes = []
 
-for frase in df['Text'][992:]:
+for frase in df['Text'][990:993]:
 
     prompt1 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
     prompt2 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"

@@ -1,14 +1,15 @@
-# pip install evaluate 
-# pip install rouge-score 
-# pip install absl-py 
-# pip install nltk 
-# pip install bert_score 
-# pip install git+https://github.com/google-research/bleurt.git
-# pip install unbabel-comet
+# pip3 install evaluate 
+# pip3 install rouge-score 
+# pip3 install absl-py 
+# pip3 install nltk 
+# pip3 install bert_score 
+# pip3 install git+https://github.com/google-research/bleurt.git
+# pip3 install unbabel-comet
 
 import evaluate
 import json
 import torch
+import sacrebleu
 import gc
 
 torch.cuda.empty_cache()
@@ -19,12 +20,13 @@ bleu = evaluate.load("bleu")
 bertscore = evaluate.load("bertscore")
 bleurt = evaluate.load('bleurt', 'bleurt-large-512')
 
-with open('dataset_newsmet/qwen/prompt2/frases_traduzidas.json', 'r', encoding='utf-8') as file:
+with open('dataset_newsmet/gemini/prompt2/frases_traduzidas.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 vetor = []
 
 for objeto in dados:
+
     prediction = objeto["ingles_traduzido"]
     reference = objeto["ingles_original"]
     source = objeto["portugues_traduzido"]
@@ -33,6 +35,7 @@ for objeto in dados:
     result_bleu = bleu.compute(predictions=[prediction], references=[reference])
     result_bertscore = bertscore.compute(predictions=[prediction], references=[reference], model_type="distilbert-base-uncased")
     result_bleurt = bleurt.compute(predictions=[prediction], references=[reference])
+
 
 
     result = {
@@ -66,6 +69,6 @@ for objeto in dados:
 
     vetor.append(result)
 
-    with open('dataset_newsmet/qwen/prompt2/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
+    with open('dataset_newsmet/gemini/prompt2/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
         json.dump(vetor, file, ensure_ascii=False, indent=4)
 

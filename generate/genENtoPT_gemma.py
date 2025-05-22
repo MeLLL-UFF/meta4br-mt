@@ -1,58 +1,13 @@
-# import pandas as pd
-# import json
-# import time
-# from google import genai
-# from google.genai import types
-
-# #pip install -U -q "google-genai"
-
-# client = genai.Client(
-#     vertexai=True,
-#     project="metaphor-459717",
-#     location="us-central1",
-# )
-
-# delay = 15
-# anotacoes = []
-
-# with open('dataset_newsmet/gemini/prompt2/ENtoPT.json', 'r', encoding='utf-8') as f:
-#     vetor = json.load(f)
-
-# for objeto in vetor:
-
-#     prompt1 = f"Traduzir a frase '{objeto['traducaoPT']}' do português para o inglês. Apenas escreva a frase traduzida, nada além disso"
-#     prompt2 = f"Traduzir a frase '{objeto['traducaoPT']}' do português para o inglês. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"
-
-#     response = client.models.generate_content(
-#         model="gemini-2.0-flash-lite",
-#         contents=prompt2,
-#     )
-    
-#     result = {
-#         "frasePT": objeto['traducaoPT'],
-#         "traducaoEN": response.text
-#     }
-#     anotacoes.append(result)
-
-#     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-#     with open('dataset_newsmet/gemini/prompt2/PTtoEN.json', 'w', encoding='utf-8') as f:
-#         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
-
-#     time.sleep(delay)
-
-    
-  
-
 """
-python3 generate/genENtoPT_gemini.py \
-  --input_dataset dataset_newsmet/gemini/prompt2 \
-  --output_base dataset_manualdata/gemini \
+python3 generate/genENtoPT_gemma.py \
+  --input_dataset comparacao_datasets/manual_data.parquet \
+  --output_base dataset_manualdata/gemma \
   --start_index 1817 \
   --batch_size 5 \
   --max_workers 5 \
   --sleep 2
 
-python3 generate/genPTtoEN_gemini.py --input_dataset dataset_newsmet/gemini/prompt2/ENtoPT.json  --output_base dataset_newsmet/gemini --start_index 0 --batch_size 5 --max_workers 5 --sleep 2
+python3 generate/genENtoPT_gemma.py --input_dataset comparacao_datasets/manual_data.parquet --output_base dataset_manualdata/gemma --start_index 1817 --batch_size 5 --max_workers 5 --sleep 2
 
 """
 
@@ -68,7 +23,7 @@ client = genai.Client(
     location="us-east1",
 )
 
-MODEL = "gemini-2.0-flash-lite"
+MODEL = "gemma-3-27b-it"
 
 def build_config():
     return types.GenerateContentConfig(
@@ -88,10 +43,9 @@ def _fetch_translation(args_tuple):
         contents = [types.Content(role="user", parts=[types.Part.from_text(text=prompt_text)])]
         response = client.models.generate_content(model=MODEL, contents=contents, config=build_config())
         translated = response.text.strip()
-
     except Exception as e:
         translated = f"Error: {e}"
-    return dict(frasePT=frase, traducaoEN=translated)
+    return dict(fraseEN=frase, traducaoPT=translated)
 
 def batched_translation(frases, prompt_template, batch_size, sleep_time, max_workers, out_path, resultados_existentes):
     resultados = resultados_existentes.copy()
@@ -106,7 +60,7 @@ def batched_translation(frases, prompt_template, batch_size, sleep_time, max_wor
             resultados.extend(novos_resultados)
 
             # Salvar após cada batch
-            with open("dataset_newsmet/gemini/prompt2/PTtoEN4.json", 'w', encoding='utf-8') as f:
+            with open(out_path, 'w', encoding='utf-8') as f:
                 json.dump(resultados, f, ensure_ascii=False, indent=2)
 
             print(f"Batch {start}-{end} salvo em {out_path}")
@@ -115,18 +69,14 @@ def batched_translation(frases, prompt_template, batch_size, sleep_time, max_wor
 
 
 def main(args):
-    with open(args.input_dataset, 'r', encoding='utf-8') as f:
-        dados = json.load(f)
-    frases_pt = []
-    for objeto in dados[args.start_index:]:
-        frases_pt.append(objeto["traducaoPT"])
+    df = pd.read_parquet(args.input_dataset)
+    frases = df[args.column][args.start_index:].tolist()
 
+    prompt1 = "Traduzir a frase '{}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso."
+    prompt2 = "Traduzir a frase '{}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora."
 
-    prompt1 = "Traduzir a frase '{}' do português para o inglês. Apenas escreva a frase traduzida, nada além disso."
-    prompt2 = "Traduzir a frase '{}' do português para o inglês. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora."
-
-    for prompt_id, prompt_template in enumerate([prompt2], start=2): #mudar aqui enumerate([prompt1, prompt2], start=1
-        out_path = Path(args.output_base) / f"prompt{str(prompt_id)}" / f"PTtoEN2.json"
+    for prompt_id, prompt_template in enumerate([prompt1], start=1): #mudar aqui enumerate([prompt1, prompt2], start=1
+        out_path = Path(args.output_base) / f"prompt{str(prompt_id)}" / f"ENtoPT.json"
         out_path.parent.mkdir(parents=True, exist_ok=True)
         resultados = []
 
@@ -135,8 +85,8 @@ def main(args):
             with open(out_path, 'r', encoding='utf-8') as f:
                 resultados = json.load(f)
 
-        frases_processadas = set(r["frasePT"] for r in resultados if isinstance(r, dict) and "frasePT" in r)
-        frases_faltantes = [f for f in frases_pt if f not in frases_processadas]
+        frases_processadas = set(r["fraseEN"] for r in resultados)
+        frases_faltantes = [f for f in frases if f not in frases_processadas]
 
         novos_resultados = batched_translation(
             frases=frases_faltantes,
