@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/luisa.stellet/Library/CloudStorage/GoogleDrive-luisastellet@id.uff.br/Meu Drive/Iniciacao Cientifica/metaphorPTback/generate/genENtoPT_locais.py", line 1, in <module>
-    from huggingface_hub import login
-ModuleNotFoundError: No module named 'huggingface_hub'
