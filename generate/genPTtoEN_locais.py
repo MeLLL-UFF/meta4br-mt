@@ -25,7 +25,8 @@ def main(model_id, hf_token, output_path):
         model=model_id,
         tokenizer=tokenizer,
         model_kwargs={"torch_dtype": torch.bfloat16},
-        device=device,
+        # device=device,
+        device_map="auto",
     )
 
     torch.cuda.empty_cache()

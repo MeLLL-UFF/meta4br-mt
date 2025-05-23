@@ -11,7 +11,7 @@ import re
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
 
-    df = pd.read_csv("comparacao_datasets/newsmet.csv", encoding='utf-8')
+    df = pd.read_parquet("comparacao_datasets/manual_data.parquet")
 
     device = f'cuda' if torch.cuda.is_available() else 'cpu'
     
@@ -23,30 +23,31 @@ def main(model_id, hf_token, output_path):
         model=model_id,
         tokenizer=tokenizer,
         model_kwargs={"torch_dtype": torch.bfloat16},
-        device=device,
+        # device=device,
+        device_map="auto",
     )
     
     torch.cuda.empty_cache()
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    json_output_path = os.path.join(output_path, "prompt1/ENtoPT.json")
+    json_output_path = os.path.join(output_path, "prompt2/ENtoPT.json")
     
         
     anotacoes = []
     
-    for frase in df['Text']:
+    for frase in df['Sentence']:
 
         prompt1 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
         prompt2 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"
 
         messages = [
-            {"role": "user", "content": prompt1}
+            {"role": "user", "content": prompt2}
         ]
         
         outputs = pipeline(
             messages,
-            max_new_tokens=2000,
+            max_new_tokens=200,
             do_sample=True,
             temperature=1,
             top_p=0.95,
