@@ -24,6 +24,7 @@ with open('dataset_newsmet/gemini/prompt2/frases_traduzidas.json', 'r', encoding
     dados = json.load(file)
 
 vetor = []
+i = 1
 
 for objeto in dados:
 
@@ -68,6 +69,9 @@ for objeto in dados:
     }
 
     vetor.append(result)
+
+    print(f"frase {i}\n")
+    i += 1
 
     with open('dataset_newsmet/gemini/prompt2/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
         json.dump(vetor, file, ensure_ascii=False, indent=4)
