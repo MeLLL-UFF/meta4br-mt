@@ -1,10 +1,11 @@
 import transformers
 import json
 from google import genai
+from transformers import AutoTokenizer
 
 client = genai.Client(api_key="AIzaSyAX8TX9GS9o7842SWgBPqG8tkQa6OOZjVM")
 
-with open('dataset_manualdata/gemini/prompt2/frases_traduzidas.json', 'r', encoding='utf-8') as file:
+with open('dataset_newsmet/gemini/prompt2/frases_traduzidas.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 vetor = []
@@ -30,6 +31,6 @@ for objeto in dados:
     print(f"Frase {i}")
     i += 1
 
-with open('dataset_manualdata/gemini/prompt2/frases_traduzidas.json', 'w', encoding='utf-8') as file:
-    json.dump(vetor, file, ensure_ascii=False, indent=4)
+    with open('dataset_newsmet/gemini/prompt2/frases_traduzidas.json', 'w', encoding='utf-8') as file:
+        json.dump(vetor, file, ensure_ascii=False, indent=4)
 
