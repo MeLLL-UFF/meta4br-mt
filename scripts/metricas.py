@@ -20,7 +20,7 @@ bleu = evaluate.load("bleu")
 bertscore = evaluate.load("bertscore")
 bleurt = evaluate.load('bleurt', 'bleurt-large-512')
 
-with open('dataset_newsmet/gemini/prompt2/frases_traduzidas.json', 'r', encoding='utf-8') as file:
+with open('dataset_manualdata/gemma3/prompt2/frases_traduzidas.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 vetor = []
@@ -73,6 +73,6 @@ for objeto in dados:
     print(f"frase {i}\n")
     i += 1
 
-    with open('dataset_newsmet/gemini/prompt2/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
+    with open('dataset_manualdata/gemma3/prompt2/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
         json.dump(vetor, file, ensure_ascii=False, indent=4)
 
