@@ -1,718 +1,1017 @@
-56,48,457,578,616,431,254
-56,48,370,539,602,643,342
-50,48,448,594,552,514,314
-15,37,55,272,302,329,1
-23,25,44,306,162,205,1
-1,1,3,140,13,116,1
-3,9,151,345,394,606,257
-1,48,172,13,199,32,1
-14,48,309,465,495,354,79
-1,1,3,102,30,115,1
-1,48,63,9,226,512,27
-43,48,390,524,490,586,188
-12,48,37,280,221,585,74
-56,48,449,542,524,509,286
-14,48,217,378,389,302,24
-56,48,415,508,584,457,241
-43,48,329,624,558,456,237
-18,48,179,296,433,685,268
-1,1,2,230,91,336,1
-1,1,3,125,98,492,6
-30,48,290,494,551,574,265
-1,48,166,60,127,144,1
-1,1,3,119,93,123,1
-1,1,3,144,48,338,1
-34,48,332,619,467,515,148
-38,48,367,551,493,59,127
-1,48,132,5,331,527,123
-26,48,256,433,405,269,80
-1,48,192,191,251,198,1
-1,48,163,148,99,408,1
-49,48,397,517,601,323,281
-1,48,144,18,268,164,1
-7,30,205,223,344,635,119
-56,48,491,616,606,82,133
-38,48,367,551,492,48,138
-1,48,130,94,163,117,1
-1,48,3,250,280,127,1
-1,1,2,194,123,193,1
-56,48,449,542,523,519,213
-8,19,8,292,186,159,1
-1,48,3,199,234,536,186
-1,1,2,149,117,107,1
-5,29,99,349,349,122,66
-56,48,401,559,570,583,354
-1,48,3,211,273,642,156
-56,48,462,467,529,380,349
-26,48,295,443,422,362,75
-1,1,4,41,23,211,1
-45,48,395,653,595,508,374
-56,48,410,593,566,255,226
-1,30,67,14,131,56,1
-37,48,306,440,460,466,139
-6,12,13,293,227,87,38
-56,48,511,661,621,136,393
-5,17,53,429,286,454,61
-10,31,24,336,248,162,1
-7,18,100,93,125,311,1
-11,15,178,400,412,626,277
-1,1,3,50,55,191,1
-1,48,3,250,280,127,1
-1,48,152,243,174,524,17
-1,48,117,11,231,335,1
-46,48,406,570,583,256,118
-1,1,2,48,51,386,1
-18,48,157,353,458,310,86
-1,1,3,71,106,186,1
-30,48,282,510,466,48,159
-1,48,5,321,303,312,1
-26,34,90,322,305,245,1
-1,1,3,38,60,36,1
-56,48,431,487,658,432,263
-1,1,3,116,52,264,1
-36,48,216,470,407,282,249
-1,30,148,188,194,104,1
-1,30,108,31,156,28,1
-31,48,258,396,434,238,66
-5,22,119,260,369,683,278
-1,1,5,89,82,394,40
-34,48,279,646,614,66,284
-1,1,3,26,130,177,1
-1,1,3,63,8,26,1
-10,11,3,100,173,78,1
-27,48,230,413,410,395,38
-46,48,418,567,647,88,184
-1,1,4,83,42,76,1
-12,48,25,291,203,63,1
-1,22,93,219,250,404,94
-1,1,3,162,109,24,1
-9,23,50,383,298,244,38
-46,48,394,522,573,423,173
-40,48,355,674,589,522,327
-1,48,3,271,147,216,1
-18,48,195,325,402,621,144
-56,48,303,456,510,374,280
-56,48,465,617,671,619,378
-1,30,108,31,158,29,1
-56,48,509,622,634,609,386
-13,48,65,312,256,179,1
-1,48,158,264,164,155,1
-1,1,3,12,28,370,1
-1,1,3,65,133,293,1
-1,48,189,282,213,403,3
-31,48,272,466,525,542,200
-34,48,281,453,462,418,131
-1,1,3,57,32,292,1
-45,48,388,628,499,2,29
-3,9,129,389,254,42,1
-1,30,91,218,178,463,11
-1,48,3,258,235,219,1
-9,23,126,347,255,251,38
-26,48,263,445,457,349,185
-36,48,316,491,619,470,201
-49,48,364,636,580,650,364
-56,48,365,503,618,505,239
-1,1,3,172,153,298,1
-5,22,184,40,192,369,25
-1,22,82,115,108,15,1
-31,48,175,343,319,444,161
-56,48,514,675,635,305,181
-12,20,15,235,185,378,1
-26,48,318,485,393,52,58
-56,48,506,621,613,653,299
-34,48,312,501,501,487,198
-1,48,155,261,338,669,170
-31,48,337,475,517,673,365
-10,48,226,297,279,200,1
-12,32,19,267,381,361,38
-26,48,222,328,333,364,38
-14,48,201,441,473,306,71
-7,30,186,373,373,33,60
-7,48,235,407,395,636,152
-31,48,156,363,348,14,1
-56,48,414,664,620,674,270
-18,41,121,450,390,525,194
-56,48,416,640,665,692,380
-21,48,197,414,444,554,77
-1,1,3,157,21,111,1
-56,48,485,654,578,678,372
-39,48,387,609,603,96,166
-26,48,313,571,475,420,93
-50,48,405,550,574,689,392
-1,48,169,122,351,652,210
-44,48,343,665,599,300,331
-31,48,291,547,516,655,312
-1,48,193,187,361,570,78
-1,30,106,43,258,109,19
-27,48,276,474,446,459,150
-1,1,4,111,19,13,1
-1,9,52,10,204,297,14
-46,48,452,568,590,441,230
-1,22,97,251,288,565,1
-47,48,320,548,518,577,293
-9,8,45,245,187,215,1
-1,1,3,106,71,43,1
-56,48,444,603,637,584,305
-26,48,313,571,474,415,93
-1,48,3,206,151,192,22
-1,48,3,233,400,475,154
-1,1,2,159,41,23,1
-1,48,140,237,283,537,59
-56,48,479,582,515,530,129
-1,18,3,253,189,360,1
-1,1,3,202,145,271,1
-45,48,396,643,541,627,290
-1,48,124,72,307,72,1
-10,48,239,356,562,670,320
-33,48,190,416,355,230,1
-4,14,191,268,374,442,121
-44,48,359,648,643,27,337
-34,48,347,615,642,416,335
-56,48,492,652,677,646,383
-1,48,5,274,167,372,1
-1,48,3,224,150,452,38
-56,48,508,563,540,437,145
-1,1,3,178,159,289,1
-47,48,356,579,559,556,319
-43,48,328,481,561,521,317
-1,1,3,105,60,25,1
-34,48,289,600,504,301,233
-10,31,6,238,154,358,1
-56,48,498,512,664,665,394
-1,1,3,62,134,412,16
-43,48,325,459,416,3,114
-56,48,478,546,527,248,315
-14,48,300,377,377,315,38
-50,48,487,618,555,83,234
-43,48,308,533,633,644,347
-12,20,68,279,241,158,1
-43,48,326,471,471,390,38
-1,1,3,184,136,351,1
-1,1,3,120,137,391,1
-10,48,226,297,279,234,1
-1,30,85,36,206,108,1
-1,1,3,134,105,260,1
-12,48,21,276,289,314,1
-56,48,503,581,653,473,306
-10,24,39,298,229,151,1
-7,48,200,332,397,118,120
-1,48,174,213,320,168,1
-38,48,366,545,479,501,176
-26,27,243,495,491,332,189
-2,4,78,390,313,523,105
-1,1,3,197,73,20,1
-1,1,3,44,4,208,1
-56,48,400,430,487,637,179
-43,48,489,606,646,139,122
-1,22,77,249,391,614,212
-56,48,451,496,512,663,195
-1,1,5,176,18,308,1
-1,1,3,208,92,49,1
-1,1,3,185,76,275,1
-40,48,259,338,403,152,38
-1,2,26,35,230,197,1
-31,48,338,667,669,533,368
-54,48,348,537,623,460,351
-7,18,116,402,318,235,1
-56,48,510,569,546,246,298
-56,48,497,590,598,273,297
-56,48,427,623,672,667,387
-1,48,3,263,90,489,1
-46,48,376,525,661,647,301
-1,1,4,25,85,320,1
-1,48,132,5,332,496,90
-56,48,437,562,484,91,1
-7,18,84,320,171,341,228
-1,1,3,95,10,367,1
-56,48,483,451,686,662,389
-56,48,464,626,533,233,332
-1,1,3,68,26,71,1
-1,48,132,5,332,495,90
-56,48,420,611,641,567,371
-56,48,495,577,631,623,363
-56,48,350,588,596,516,206
-1,6,40,79,197,210,1
-56,48,471,454,465,607,202
-53,48,481,630,592,407,168
-56,48,335,399,376,236,89
-1,1,4,80,67,140,1
-34,48,323,417,531,568,225
-21,39,246,455,347,241,42
-45,48,340,461,513,598,310
-1,30,202,248,292,188,1
-42,48,302,553,640,504,231
-1,48,144,18,267,164,1
-1,1,3,201,44,142,1
-1,48,143,153,107,279,1
-4,14,183,331,362,405,142
-34,48,51,314,432,469,38
-56,48,363,428,478,651,292
-56,48,417,504,498,388,106
-43,48,362,544,526,541,341
-7,48,228,337,314,227,38
-51,48,435,589,648,540,345
-34,48,286,420,426,401,143
-1,1,4,143,27,50,1
-1,48,3,256,244,137,1
-10,24,71,333,195,254,1
-12,48,223,472,346,503,38
-1,48,3,258,235,219,1
-1,48,3,247,152,18,1
-45,48,327,460,409,563,215
-56,48,385,663,617,385,291
-12,32,14,286,270,252,1
-9,7,18,340,237,129,1
-1,14,33,180,253,272,109
-1,1,2,90,113,528,1
-1,18,3,61,172,98,1
-1,48,224,246,418,411,117
-1,48,105,47,316,592,124
-1,1,4,216,124,239,1
-1,1,3,166,15,103,1
-48,48,361,637,681,680,338
-1,48,2,270,285,334,38
-22,48,32,409,238,225,1
-18,48,171,323,312,382,72
-41,48,475,486,503,290,66
-56,48,478,546,527,248,315
-1,48,113,126,200,366,1
-47,48,402,561,553,359,221
-56,48,380,532,624,645,334
-34,48,330,599,521,477,258
-56,48,493,598,652,562,362
-56,48,456,673,627,625,366
-1,48,185,231,170,8,1
-56,48,399,540,532,258,171
-1,1,4,186,6,257,1
-10,48,250,275,155,433,81
-56,48,436,493,514,47,128
-16,42,81,391,296,37,1
-35,47,294,530,486,648,223
-56,48,472,580,654,81,83
-1,48,4,92,126,126,1
-1,1,3,154,96,135,1
-34,48,288,515,424,147,38
-1,1,3,207,45,55,1
-1,30,103,32,337,9,1
-1,48,182,212,240,355,66
-1,48,137,7,306,493,219
-43,48,331,670,612,376,343
-56,48,425,541,519,299,30
-1,1,3,46,62,365,1
-13,48,141,346,263,30,1
-1,48,176,232,180,633,13
-56,48,398,596,572,443,275
-1,5,23,226,214,163,1
-56,48,432,473,649,551,262
-1,1,4,54,81,114,1
-1,1,3,107,5,149,1
-56,48,273,348,388,156,112
-1,1,3,37,120,203,1
-1,1,3,97,12,348,1
-1,22,61,6,37,446,62
-46,48,434,586,538,539,243
-7,48,248,361,387,546,125
-7,30,208,294,360,545,266
-1,1,3,141,129,185,1
-1,1,3,75,65,67,1
-1,48,107,239,419,624,183
-46,48,344,365,399,288,55
-1,1,3,220,115,207,1
-10,48,198,415,406,603,248
-1,48,136,49,228,234,1
-56,48,467,647,678,500,355
-1,1,3,112,72,316,2
-39,48,352,457,485,113,113
-45,48,265,426,447,167,23
-1,22,89,209,293,447,69
-34,48,280,565,548,581,274
-10,24,27,289,210,571,12
-40,48,412,528,520,630,294
-1,48,115,3,284,672,196
-1,1,5,215,135,124,1
-9,8,34,200,166,45,1
-34,48,377,462,496,461,174
-55,48,386,608,567,468,309
-1,1,2,203,22,175,1
-10,13,64,241,277,414,8
-46,48,333,597,507,608,251
-56,48,459,520,608,620,328
-32,48,128,309,315,262,1
-56,48,371,484,605,679,370
-40,48,413,483,560,232,164
-1,1,2,59,94,170,1
-47,48,368,432,488,448,50
-46,48,440,671,657,430,199
-1,48,170,51,326,465,38
-1,1,2,227,70,253,1
-56,48,310,526,549,261,46
-1,1,3,183,112,325,1
-45,48,358,672,609,326,321
-1,48,3,55,161,171,1
-56,48,442,519,676,686,360
-1,1,3,160,39,102,1
-36,48,237,401,451,656,214
-17,39,80,334,260,237,1
-43,48,321,644,585,660,295
-31,48,238,379,408,464,153
-18,48,157,353,458,310,86
-1,9,52,10,201,231,1
-1,48,159,229,89,265,1
-56,48,501,529,663,661,385
-1,14,41,113,308,77,1
-5,22,215,354,317,389,95
-45,48,507,625,563,682,375
-1,48,170,51,327,465,38
-48,48,361,637,681,677,356
-1,48,138,193,357,529,132
-7,30,188,344,225,220,38
-1,1,3,117,110,125,1
-15,28,36,288,202,119,38
-56,48,420,611,628,604,358
-1,1,3,78,119,313,1
-26,48,277,382,421,615,141
-20,48,275,513,511,576,307
-45,48,439,477,522,535,149
-1,1,3,150,143,58,1
-56,48,485,654,578,671,381
-45,48,254,448,371,532,279
-10,48,162,398,353,480,76
-1,1,3,64,80,484,1
-1,9,135,91,207,249,1
-26,48,313,571,475,421,93
-1,1,3,177,53,38,1
-1,1,3,169,29,196,1
-56,48,438,560,505,424,137
-56,48,502,627,679,640,326
-10,48,120,326,297,304,15
-1,48,3,285,417,534,235
-1,1,3,56,118,199,1
-37,48,267,505,443,65,1
-10,31,11,284,191,61,1
-1,1,3,147,38,243,1
-1,48,124,72,307,72,1
-39,48,305,564,576,544,330
-1,1,3,15,101,214,1
-45,48,317,478,439,5,1
-56,48,393,554,611,632,303
-2,10,12,318,212,62,1
-1,48,101,146,427,409,9
-56,48,389,511,542,172,175
-34,48,257,394,329,19,38
-1,1,3,69,139,75,1
-1,1,3,21,17,181,1
-56,48,314,463,366,84,39
-43,48,334,490,534,520,253
-1,48,131,108,414,641,162
-43,48,460,668,556,120,379
-1,1,4,22,84,160,1
-34,48,266,439,379,97,92
-56,48,445,645,545,204,300
-26,48,227,381,450,649,177
-10,13,48,255,211,350,1
-46,48,408,657,673,676,388
-31,48,297,424,497,543,187
-26,48,168,384,384,322,1
-43,48,369,638,690,467,340
-1,48,136,49,228,200,1
-56,48,486,610,650,638,324
-1,48,161,128,411,560,135
-4,14,142,335,324,488,111
-44,48,409,587,569,375,155
-1,48,3,290,340,659,322
-1,1,4,181,46,173,1
-14,48,181,281,198,212,1
-7,30,210,397,425,690,283
-14,48,285,435,370,613,244
-1,1,2,103,69,218,1
-1,1,3,88,68,138,1
-1,1,3,145,11,321,1
-56,48,391,438,636,617,289
-21,48,133,234,247,89,1
-1,1,3,139,7,182,1
-50,48,353,480,380,250,38
-56,48,454,635,607,550,367
-2,4,16,351,216,319,1
-1,1,3,77,97,178,1
-1,1,3,135,58,295,1
-10,11,42,300,245,90,38
-1,22,82,115,95,21,1
-34,48,134,393,536,502,110
-56,48,374,558,645,440,209
-45,48,378,585,547,572,57
-1,48,165,240,278,578,108
-52,48,424,499,468,46,1
-24,39,249,404,489,426,180
-7,48,43,295,177,392,1
-18,48,206,352,274,599,238
-1,22,82,115,108,10,1
-1,1,2,158,160,363,1
-1,1,3,142,49,146,1
-46,48,376,525,661,647,301
-26,48,219,330,345,658,151
-4,14,142,335,325,478,130
-26,48,251,446,330,353,1
-56,48,447,605,575,668,350
-12,20,35,278,157,105,1
-56,48,401,559,570,583,354
-56,48,480,583,670,491,333
-47,48,383,509,587,687,353
-1,1,3,182,54,371,1
-15,21,29,324,218,268,1
-43,48,381,442,482,453,66
-30,48,292,574,435,121,32
-7,48,252,375,437,474,182
-1,1,3,124,63,217,1
-1,30,114,76,215,439,87
-1,30,110,262,290,157,7
-31,48,278,489,449,22,73
-1,22,79,189,169,222,1
-6,3,20,257,264,318,34
-1,30,88,138,208,112,1
-1,14,73,17,236,494,104
-1,1,3,123,3,44,1
-1,1,3,110,34,228,1
-1,1,3,127,86,187,1
-43,48,311,531,554,377,116
-1,1,3,195,83,166,1
-18,48,209,316,352,247,38
-1,30,112,244,368,610,53
-56,48,357,498,594,594,276
-56,48,505,584,630,368,190
-1,30,122,165,242,270,1
-9,7,10,307,232,141,1
-9,23,7,299,219,339,20
-40,48,270,458,461,291,38
-1,48,130,94,163,79,1
-1,48,3,258,235,219,1
-1,1,3,66,36,69,1
-1,1,2,179,24,381,1
-1,1,3,67,142,345,1
-56,48,382,405,535,629,250
-1,1,3,87,79,34,1
-56,48,430,549,544,429,192
-56,48,484,552,579,605,240
-10,48,234,327,276,331,37
-1,30,127,34,294,479,33
-56,48,360,502,667,579,325
-10,31,28,369,275,223,38
-30,48,292,574,442,148,31
-1,1,3,133,50,133,1
-56,48,468,669,687,600,390
-3,16,47,277,209,276,1
-26,48,304,536,480,449,163
-1,1,2,27,25,224,1
-56,48,403,506,656,328,191
-1,14,54,24,188,6,1
-56,48,421,659,682,694,391
-31,48,293,449,301,1,100
-56,48,458,614,600,85,255
-38,48,392,555,537,587,261
-27,48,204,395,386,422,38
-1,30,98,173,243,16,1
-56,48,450,658,615,406,260
-1,48,3,256,244,137,1
-1,1,3,225,43,294,1
-1,1,4,96,87,176,1
-15,40,70,388,239,54,1
-45,48,429,557,550,436,287
-56,48,375,523,610,557,208
-36,48,284,488,591,675,348
-7,30,232,372,378,143,70
-1,48,2,317,196,165,1
-29,43,92,329,265,154,1
-46,48,422,527,472,483,41
-1,1,3,192,104,278,1
-14,48,231,339,420,575,220
-43,48,299,469,456,410,38
-26,48,271,521,300,64,28
-1,30,108,31,158,29,1
-56,48,482,676,684,664,396
-1,22,76,28,339,684,167
-56,48,419,620,593,387,236
-1,48,177,196,363,595,63
-56,48,463,633,597,486,376
-1,48,86,168,310,266,21
-9,8,30,254,184,330,4
-26,48,296,573,459,490,285
-14,30,242,308,291,17,1
-1,1,3,74,59,309,1
-1,1,3,221,61,229,1
-32,48,218,403,385,281,91
-1,1,3,121,140,153,1
-1,1,3,214,138,130,1
-1,1,3,23,148,226,1
-1,1,3,129,144,35,1
-56,48,514,675,635,305,181
-1,1,3,136,35,209,1
-1,1,3,171,33,100,1
-56,48,455,666,660,611,361
-1,48,4,4,269,566,204
-3,9,118,304,282,518,193
-40,48,211,392,453,307,38
-53,48,466,632,662,631,313
-1,1,3,114,128,383,1
-37,48,339,566,477,284,45
-18,48,194,118,372,435,165
-1,1,3,73,111,145,1
-7,48,247,310,438,393,147
-56,48,446,507,528,450,157
-25,38,214,422,428,397,47
-51,48,441,660,683,589,336
-1,48,3,211,273,642,156
-34,48,49,252,401,195,38
-18,48,240,385,350,517,85
-56,48,477,591,506,590,359
-1,48,125,190,287,691,160
-1,1,3,42,149,346,1
-1,1,3,236,56,39,1
-56,48,379,642,689,616,352
-56,48,513,602,509,60,267
-1,1,3,101,116,169,1
-1,1,1,84,64,283,1
-10,31,17,287,190,396,1
-1,1,3,222,75,296,1
-1,1,4,85,165,327,1
-26,34,72,313,272,7,1
-1,1,3,132,57,57,1
-1,1,3,198,114,356,1
-56,48,443,576,668,471,308
-5,22,196,315,392,399,56
-26,48,233,434,445,548,52
-10,11,3,164,205,95,1
-56,48,469,592,651,526,288
-1,1,3,151,16,400,1
-56,48,490,662,666,552,377
-1,1,3,58,78,40,1
-13,48,46,283,183,190,1
-31,45,187,362,415,481,26
-1,22,66,8,233,602,203
-1,1,3,217,141,11,1
-43,48,315,612,508,324,158
-22,33,95,350,321,150,1
-1,48,153,29,309,666,205
-13,26,102,387,323,201,1
-31,48,150,371,356,352,38
-1,30,75,163,224,263,1
-47,48,336,651,639,547,272
-34,48,341,421,441,202,66
-1,1,3,70,122,92,1
-40,48,268,412,564,472,82
-7,30,205,223,344,622,136
-1,1,3,53,66,51,1
-13,26,59,341,262,99,38
-45,48,407,601,470,402,48
-1,1,3,161,103,303,1
-43,48,373,431,565,506,207
-1,1,4,39,1,4,1
-1,48,3,305,179,639,102
-22,43,264,419,469,445,146
-43,48,342,514,500,267,169
-26,48,262,408,398,476,140
-17,27,96,370,383,419,126
-37,48,236,410,358,580,216
-22,46,241,386,455,458,197
-50,48,448,594,571,434,296
-56,48,346,613,581,582,357
-56,48,437,562,484,91,1
-34,48,287,427,494,618,264
-14,30,269,376,430,438,1
-1,1,3,82,20,213,1
-27,48,245,406,367,569,97
-1,22,94,52,223,41,1
-1,48,164,167,359,681,218
-1,48,149,19,182,379,1
-1,48,260,301,429,497,99
-17,48,167,452,452,242,103
-12,48,22,342,259,428,44
-47,48,433,650,638,417,84
-56,48,474,534,674,596,339
-18,48,229,380,334,511,65
-1,22,69,170,249,73,1
-43,48,354,575,604,206,304
-56,48,411,444,582,373,107
-1,48,173,204,328,591,68
-56,48,512,535,626,287,329
-1,48,147,156,299,597,43
-45,48,372,497,577,507,256
-56,48,499,677,688,677,395
-1,48,3,104,341,347,1
-18,48,104,205,454,285,1
-1,14,56,81,266,498,18
-9,8,57,259,176,189,1
-56,48,494,649,557,455,271
-1,30,111,152,252,499,51
-1,22,83,273,261,12,1
-1,1,4,109,132,184,1
-1,48,3,2,217,132,1
-4,14,139,357,364,588,282
-56,48,486,610,650,638,324
-10,31,9,303,193,277,1
-27,48,225,476,440,384,211
-17,48,221,366,382,513,88
-1,1,3,45,47,134,1
-28,35,145,359,295,131,1
-26,48,213,364,396,634,227
-1,48,154,98,181,68,1
-56,48,484,552,579,601,247
-33,36,207,355,343,344,1
-10,48,253,269,222,628,178
-1,30,74,20,281,188,1
-1,48,3,266,40,80,1
-46,48,422,527,472,482,41
-1,48,3,174,121,357,1
-1,1,2,30,31,70,1
-56,48,428,655,644,240,318
-26,48,307,500,448,561,344
-56,48,504,556,675,53,232
-1,30,109,99,342,485,115
-8,11,60,319,175,161,1
-27,48,255,418,481,553,245
-1,48,123,210,304,531,134
-20,44,298,604,543,688,346
-1,1,3,228,102,194,1
-9,8,62,242,168,94,1
-56,48,473,595,680,612,302
-1,1,3,131,77,425,1
-1,1,2,130,14,31,1
-34,48,319,464,476,657,172
-1,1,3,137,100,343,1
-10,11,38,311,246,110,1
-10,48,87,367,354,558,229
-34,48,345,447,463,462,222
-1,1,3,16,74,340,35
-1,1,3,86,2,221,1
-52,48,500,629,655,413,323
-5,22,199,360,322,101,64
-1,1,4,175,9,286,1
-56,48,423,543,632,337,316
-56,48,496,631,629,538,382
-49,48,351,639,622,259,224
-37,48,324,482,375,333,246
-45,48,301,516,625,693,384
-56,48,470,538,502,564,273
-31,48,261,423,404,510,67
-22,46,241,386,455,458,197
-18,48,220,358,311,549,98
-13,48,212,437,365,86,36
-26,48,283,436,431,180,217
-46,48,384,518,539,451,54
-1,1,3,155,88,106,1
-1,48,160,1,257,559,10
-10,13,31,265,220,93,1
-18,48,274,492,423,274,96
-1,48,146,33,146,74,5
-37,48,404,572,483,398,242
-56,48,453,607,588,573,311
-1,30,67,14,131,56,1
-47,48,426,656,685,654,369
-56,48,476,641,530,317,252
-27,48,203,374,413,427,101
-12,32,58,302,271,342,1
-19,48,244,411,335,128,49
-36,48,180,368,336,174,1
-30,48,292,574,436,121,32
-39,48,322,479,568,555,259
-43,48,349,425,464,183,66
-56,48,488,468,586,280,269
-56,48,461,634,659,593,373
+ingles_original,portugues_traduzido,ingles_traduzido,ROUGE,BLEU,BERTSCORE,BLEURT,COMET22,KIWI-XL,XCOMET-XL,Soma_ranking
+crack the whip,"Endurecer, aplicar medidas rigorosas.
+","Harden, implement strict measures.",56,48,457,578,616,431,254,2440
+blow off steam,"Desabafar.
+",To vent.,56,48,370,539,602,643,342,2600
+let the cat out of the bag,Revelar o segredo,Reveal the secret.,50,48,448,594,552,514,314,2520
+They are riding bicycles in the neighborhood.,Eles estão andando de bicicleta no bairro.,They are riding their bikes in the neighborhood.,15,37,55,272,302,329,1,1011
+He likes to watch movies in his free time.,Ele gosta de assistir filmes no tempo livre.,He enjoys watching movies in his free time.,23,25,44,306,162,205,1,766
+She enjoys painting in her free time.,Ela gosta de pintar no tempo livre.,She enjoys painting in her free time.,1,1,3,140,13,116,1,275
+bite off more than you can chew,Morder mais do que se pode mastigar.,To bite off more than you can chew.,3,9,151,345,394,606,257,1765
+my hands are tied,"As minhas mãos estão atadas.
+",My hands are tied.,1,48,172,13,199,32,1,466
+dime a dozen,Uma dúzia.,A dozen.,14,48,309,465,495,354,79,1764
+They are having a picnic in the park.,Eles estão fazendo um piquenique no parque.,They are having a picnic in the park.,1,1,3,102,30,115,1,253
+leave no stone unturned,"Não deixar pedra sobre pedra.
+",Leave no stone unturned.,1,48,63,9,226,512,27,886
+hold the fort,"Mantenha a posição.
+",Hold your position.,43,48,390,524,490,586,188,2269
+He is putting the groceries away.,Ele está guardando as compras.,He is putting away the groceries.,12,48,37,280,221,585,74,1257
+fit as a fiddle,Em ótima forma.,"In great shape.
+",56,48,449,542,524,509,286,2414
+an iron fist,Punho de ferro,Iron fist,14,48,217,378,389,302,24,1372
+beggars can’t be choosers,"Quem não tem com o que pagar, não escolhe.
+",He who has nothing to pay has no choice.,56,48,415,508,584,457,241,2309
+card up your sleeve,"Ter um ás na manga.
+",To have a trick up one's sleeve.,43,48,329,624,558,456,237,2295
+beating around the bush,"Enrolar a palha.
+",Beat around the bush.,18,48,179,296,433,685,268,1927
+She is giving a speech at the conference.,Ela está fazendo um discurso na conferência.,She is giving a speech at the conference.,1,1,2,230,91,336,1,662
+She wrote a report for work.,"Ela escreveu um relatório para o trabalho.
+",She wrote a report for work.,1,1,3,125,98,492,6,726
+ace up your sleeve,Um trunfo na manga.,An ace up one's sleeve.,30,48,290,494,551,574,265,2252
+an open book,"Um livro aberto.
+",An open book.,1,48,166,60,127,144,1,547
+She is giving a presentation at work.,"Ela está fazendo uma apresentação no trabalho.
+",She is giving a presentation at work.,1,1,3,119,93,123,1,341
+He went to a birthday party last night.,"Ele foi a uma festa de aniversário ontem à noite.
+",He went to a birthday party last night.,1,1,3,144,48,338,1,536
+color outside the lines,"Pinte fora das linhas.
+",Think outside the box.,34,48,332,619,467,515,148,2163
+easy as pie,"Fácil como descascar uma laranja.
+",As easy as peeling an orange.,38,48,367,551,493,59,127,1683
+blind as a bat,"Cego como um morcego.
+",Blind as a bat.,1,48,132,5,331,527,123,1167
+change of heart,Mudança de opinião,Change of opinion,26,48,256,433,405,269,80,1517
+food for thought,Comida para pensar.,Food for thought.,1,48,192,191,251,198,1,882
+black as night,Preto como a noite.,Black as night.,1,48,163,148,99,408,1,868
+a chip on your shoulder,"Um rancor no coração.
+",A grudge in the heart.,49,48,397,517,601,323,281,2216
+close to my heart,"Perto do meu coração.
+",Close to my heart.,1,48,144,18,268,164,1,644
+apple of my eye,A menina dos meus olhos.,The apple of my eye.,7,30,205,223,344,635,119,1563
+get the show on the road,"Vamos começar!
+",Let's start!,56,48,491,616,606,82,133,2032
+easy as pie,Fácil como descascar uma laranja.,As easy as peeling an orange.,38,48,367,551,492,48,138,1682
+back to square one,"De volta à estaca zero.
+",Back to square one.,1,48,130,94,163,117,1,554
+devil's advocate,Defensor do diabo,Devil's advocate,1,48,3,250,280,127,1,710
+She went to the library to study.,"Ela foi à biblioteca para estudar.
+",She went to the library to study.,1,1,2,194,123,193,1,515
+fit as a fiddle,"Em ótima forma.
+",In great shape.,56,48,449,542,523,519,213,2350
+They went to the theater to watch a play.,Eles foram ao teatro para assistir a uma peça.,They went to the theater to see a play.,8,19,8,292,186,159,1,673
+falling through the cracks,Caindo entre as frestas,Falling through the cracks,1,48,3,199,234,536,186,1207
+She made breakfast for the family.,Ela fez o café da manhã para a família.,She made breakfast for the family.,1,1,2,149,117,107,1,378
+She is talking on the phone.,"Ela está falando ao telefone.
+",She is on the phone.,5,29,99,349,349,122,66,1019
+all bark and no bite,"Muito barulho, pouca mordida.
+",Much ado about nothing.,56,48,401,559,570,583,354,2571
+apple of discord,Maçã da discórdia,Apple of discord,1,48,3,211,273,642,156,1334
+spill the beans,"Contar tudo.
+","Tell everything.
+",56,48,462,467,529,380,349,2291
+burn your bridges,Queimar as pontes.,To burn bridges.,26,48,295,443,422,362,75,1671
+I need to buy groceries this afternoon.,Preciso comprar mantimentos esta tarde.,I need to buy groceries this afternoon.,1,1,4,41,23,211,1,282
+as bold as brass,Descarado como ninguém,Shameless as anyone,45,48,395,653,595,508,374,2618
+close to the vest,Em segredo.,In secret.,56,48,410,593,566,255,226,2154
+blood is thicker than water,O sangue é mais grosso que a água.,Blood is thicker than water.,1,30,67,14,131,56,1,300
+back to the drawing board,"De volta ao ponto de partida.
+",Back to square one.,37,48,306,440,460,466,139,1896
+She went to the post office to send a package.,Ela foi ao correio para enviar um pacote.,She went to the post office to mail a package.,6,12,13,293,227,87,38,676
+as right as rain,De volta à forma.,"Back in shape.
+",56,48,511,661,621,136,393,2426
+He is planning his day ahead.,"Ele está planejando o dia dele.
+",He is planning his day.,5,17,53,429,286,454,61,1305
+She took a shower in the morning.,"Ela tomou um banho pela manhã.
+",She took a bath in the morning.,10,31,24,336,248,162,1,812
+best of both worlds,O melhor dos dois mundos,The best of both worlds,7,18,100,93,125,311,1,655
+antsy as a cat on a hot tin roof,Nervoso que nem gato em telhado quente.,As jumpy as a cat on a hot tin roof.,11,15,178,400,412,626,277,1919
+He is building a model airplane.,Ele está construindo um avião de modelo.,He is building a model airplane.,1,1,3,50,55,191,1,302
+devil's advocate,Defensor do diabo,Devil's advocate,1,48,3,250,280,127,1,710
+burst your bubble,"Estourar sua bolha.
+",Burst your bubble.,1,48,152,243,174,524,17,1159
+all eyes on you,"Todos os olhos em você.
+",All eyes on you.,1,48,117,11,231,335,1,744
+a skeleton in the closet,Um segredo vergonhoso.,A shameful secret.,46,48,406,570,583,256,118,2027
+He is attending a business meeting.,Ele está participando de uma reunião de negócios.,He is attending a business meeting.,1,1,2,48,51,386,1,490
+cool as a cucumber,Calmo como uma pepino.,Calm as a cucumber.,18,48,157,353,458,310,86,1430
+He took the bus to work.,Ele pegou o ônibus para o trabalho.,He took the bus to work.,1,1,3,71,106,186,1,369
+as easy as pie,Fácil como descascar uma laranja.,As easy as peeling an orange.,30,48,282,510,466,48,159,1543
+butterfly effect,Efeito borboleta,Butterfly effect,1,48,5,321,303,312,1,991
+They watched a TV show in the evening.,"Eles assistiram a um programa de TV à noite.
+",They watched a TV show at night.,26,34,90,322,305,245,1,1023
+She is brushing her teeth before bed.,Ela está escovando os dentes antes de dormir.,She is brushing her teeth before bed.,1,1,3,38,60,36,1,140
+blown out of the water,"Deixado para trás.
+",Left behind.,56,48,431,487,658,432,263,2375
+He is feeding his pet hamster.,Ele está alimentando seu hamster de estimação.,He is feeding his pet hamster.,1,1,3,116,52,264,1,438
+I like to drink coffee in the morning.,"Eu gosto de tomar café de manhã.
+",I like to have breakfast.,36,48,216,470,407,282,249,1708
+"another day, another dollar","Mais um dia, mais um dólar.
+","Another day, another dollar.",1,30,148,188,194,104,1,666
+actions speak louder than words,As ações falam mais alto do que as palavras.,Actions speak louder than words.,1,30,108,31,156,28,1,355
+climbing up the ladder,"Subindo a escada.
+",Climbing the stairs.,31,48,258,396,434,238,66,1471
+early bird catches the worm,"Quem madruga, Deus ajuda.
+",The early bird catches the worm.,5,22,119,260,369,683,278,1736
+She is baking cookies in the kitchen.,Ela está assando biscoitos na cozinha.,She is baking cookies in the kitchen.,1,1,5,89,82,394,40,612
+bleeding heart,Coração mole.,Soft heart,34,48,279,646,614,66,284,1971
+She is cleaning the kitchen after dinner.,Ela está limpando a cozinha depois do jantar.,She is cleaning the kitchen after dinner.,1,1,3,26,130,177,1,339
+She is drinking water.,Ela está bebendo água.,She is drinking water.,1,1,3,63,8,26,1,103
+They are having coffee at the café.,Eles estão tomando café no café.,They are having coffee at the cafe.,10,11,3,100,173,78,1,376
+hard pill to swallow,"Uma pílula difícil de engolir.
+",A bitter pill to swallow.,27,48,230,413,410,395,38,1561
+a slap on the wrist,Uma advertência branda.,A mild warning.,46,48,418,567,647,88,184,1998
+They are visiting a museum this afternoon.,Eles estão visitando um museu esta tarde.,They are visiting a museum this afternoon.,1,1,4,83,42,76,1,208
+They are swimming at the pool.,Eles estão nadando na piscina.,They are swimming in the pool.,12,48,25,291,203,63,1,643
+cat on a hot tin roof,"Gato sobre um telhado de lata quente.
+",Cat on a hot tin roof.,1,22,93,219,250,404,94,1083
+She is talking to her friend on the phone.,Ela está falando com sua amiga ao telefone.,She is talking to her friend on the phone.,1,1,3,162,109,24,1,301
+He is walking his dog in the park.,Ele está passeando com o cachorro no parque.,He is walking the dog in the park.,9,23,50,383,298,244,38,1045
+add fuel to the fire,Agravar a situação.,Worsen the situation.,46,48,394,522,573,423,173,2179
+in hot water,Em apuros,In trouble,40,48,355,674,589,522,327,2555
+boiling point,Ponto de ebulição,Boiling point,1,48,3,271,147,216,1,687
+beat a dead horse,Bater em um cavalo morto.,Beating a dead horse.,18,48,195,325,402,621,144,1753
+blind alley,Rua sem saída,Dead end street,56,48,303,456,510,374,280,2027
+cutting corners,Fazer porcaria/mal feito/de qualquer jeito.,To do a shoddy job.,56,48,465,617,671,619,378,2854
+actions speak louder than words,"As ações falam mais alto que as palavras.
+",Actions speak louder than words.,1,30,108,31,158,29,1,358
+chip on the shoulder,"Ranço.
+","Rancidity.
+",56,48,509,622,634,609,386,2864
+He washed his car yesterday.,Ele lavou o carro ontem.,He washed the car yesterday.,13,48,65,312,256,179,1,874
+cold as ice,"Frio como gelo.
+",Cold as ice.,1,48,158,264,164,155,1,791
+He is attending a wedding.,Ele está comparecendo a um casamento.,He is attending a wedding.,1,1,3,12,28,370,1,416
+He is making a cup of coffee.,Ele está preparando uma xícara de café.,He is making a cup of coffee.,1,1,3,65,133,293,1,497
+chasing shadows,"Perseguindo sombras.
+",Chasing shadows.,1,48,189,282,213,403,3,1139
+feast your eyes,"Contemplem com os olhos.
+",Behold with your eyes.,31,48,272,466,525,542,200,2084
+a diamond in the rough,Uma pedra preciosa bruta,A rough gemstone,34,48,281,453,462,418,131,1827
+He is having breakfast with his family.,Ele está tomando café da manhã com sua família.,He is having breakfast with his family.,1,1,3,57,32,292,1,387
+blind as a bat,"Cego de nascença.
+",Blind from birth.,45,48,388,628,499,2,29,1639
+light at the end of the tunnel,"Uma luz no fim do túnel.
+",A light at the end of the tunnel.,3,9,129,389,254,42,1,827
+as old as the hills,"Antigo como as colinas.
+",As old as the hills.,1,30,91,218,178,463,11,992
+break the ice,Quebrar o gelo,Break the ice,1,48,3,258,235,219,1,765
+He went for a jog in the morning.,Ele foi correr de manhã.,He went for a run in the morning.,9,23,126,347,255,251,38,1049
+finding your feet,"Encontrar o seu lugar.
+",Finding your place.,26,48,263,445,457,349,185,1773
+give someone a run for their money,"Dar trabalho a alguém.
+",To give someone a hard time.,36,48,316,491,619,470,201,2181
+have a bone to pick,Ter uma conta a ajustar.,To have an outstanding balance.,49,48,364,636,580,650,364,2691
+barking up the wrong tree,Estar a perseguir uma pista errada.,Chasing a false lead.,56,48,365,503,618,505,239,2334
+He enjoyed a cup of coffee in the morning.,Ele apreciou uma xícara de café pela manhã.,He enjoyed a cup of coffee in the morning.,1,1,3,172,153,298,1,629
+ball is in your court,"A bola está com você.
+",The ball is in your court.,5,22,184,40,192,369,25,837
+"blood, sweat, and tears","Sangue, suor e lágrimas.
+","Blood, sweat, and tears.",1,22,82,115,108,15,1,344
+going down in flames,Caindo em chamas,Falling in flames,31,48,175,343,319,444,161,1521
+break a leg,"Boa sorte!
+",Good luck!,56,48,514,675,635,305,181,2414
+The kids played in the playground.,As crianças brincaram no parquinho.,The children played in the playground.,12,20,15,235,185,378,1,846
+change of tune,"Mudança de opinião.
+",Change of opinion.,26,48,318,485,393,52,58,1380
+paint the town red,Fazer a noite toda.,Stay up all night.,56,48,506,621,613,653,299,2796
+burnt out,Esgotado(a).,Sold out.,34,48,312,501,501,487,198,2081
+burning the midnight oil,"Queimando a madruga.
+",Burning the midnight oil.,1,48,155,261,338,669,170,1642
+come out of the woodwork,Sair dos armários.,Come out.,31,48,337,475,517,673,365,2446
+blessing in disguise,Uma bênção disfarçada.,A blessing in disguise.,10,48,226,297,279,200,1,1061
+He is cutting vegetables for dinner.,Ele está cortando legumes para o jantar.,He is chopping vegetables for dinner.,12,32,19,267,381,361,38,1110
+bigger than life,"Maior que a vida.
+",Larger than life.,26,48,222,328,333,364,38,1359
+cast iron stomach,Estômago de ferro,Iron stomach,14,48,201,441,473,306,71,1554
+arm and a leg,Um braço e uma perna.,An arm and a leg.,7,30,186,373,373,33,60,1062
+as hungry as a wolf,Faminto como um lobo.,Hungry as a wolf.,7,48,235,407,395,636,152,1880
+They went for a swim at the pool.,Eles foram nadar na piscina.,They went swimming in the pool.,31,48,156,363,348,14,1,961
+blow a fuse,Pifar.,To smoke.,56,48,414,664,620,674,270,2746
+He is drawing a picture of his dog.,Ele está desenhando um retrato do seu cachorro.,He is drawing a portrait of your dog.,18,41,121,450,390,525,194,1739
+bend over backwards,"Fazer o possível e o impossível.
+",Go the extra mile.,56,48,416,640,665,692,380,2897
+any port in a storm,Qualquer porto seguro em tempestade.,Any safe harbor in a storm.,21,48,197,414,444,554,77,1755
+I met my friends for lunch.,"Eu encontrei meus amigos para almoçar.
+",I met my friends for lunch.,1,1,3,157,21,111,1,295
+bare bones,"No essencial.
+",Essentially.,56,48,485,654,578,678,372,2871
+bottom of the totem pole,"A base da hierarquia.
+",The foundation of the hierarchy.,39,48,387,609,603,96,166,1948
+face the music,"Assumir as consequências.
+",Face the consequences.,26,48,313,571,475,420,93,1946
+chomping at the bit,"Mordendo as pontas dos dedos.
+",Biting the ends of their fingers.,50,48,405,550,574,689,392,2708
+on cloud nine,"Nas nuvens.
+",On cloud nine.,1,48,169,122,351,652,210,1553
+between a rock and a hard place,"Entre a cruz e a espada.
+",Between the cross and the sword.,44,48,343,665,599,300,331,2330
+batten down the hatches,"Aproeite as escotilhas.
+",Enjoy the hatches.,31,48,291,547,516,655,312,2400
+all ears,"Todo ouvidos.
+",All ears.,1,48,193,187,361,570,78,1438
+a fly on the wall,"Uma mosca na parede.
+",A fly on the wall.,1,30,106,43,258,109,19,566
+as sharp as a tack,"Afiado como uma agulha.
+",Sharp as a needle.,27,48,276,474,446,459,150,1880
+She bought a new phone last week.,Ela comprou um celular novo na semana passada.,She bought a new phone last week.,1,1,4,111,19,13,1,150
+don't put all your eggs in one basket,Não coloque todos os seus ovos em uma única cesta.,Don't put all your eggs in one basket.,1,9,52,10,204,297,14,587
+bottom of the barrel,"O pior que há.
+",The worst of it.,46,48,452,568,590,441,230,2375
+carrying the weight of the world,"Carregando o peso do mundo.
+",Carrying the weight of the world.,1,22,97,251,288,565,1,1225
+cogs in the machine,peças de uma engrenagem / engrenagens / meros executores,Gears and cogs / mere instruments.,47,48,320,548,518,577,293,2351
+I am traveling to the mountains this weekend.,Estou viajando para as montanhas neste fim de semana.,I'm traveling to the mountains this weekend.,9,8,45,245,187,215,1,710
+They watched a movie on the weekend.,"Eles assistiram a um filme no fim de semana.
+",They watched a movie on the weekend.,1,1,3,106,71,43,1,226
+blowing off steam,"Desabafar.
+",Vent.,56,48,444,603,637,584,305,2677
+face the music,Assumir as consequências.,Face the consequences.,26,48,313,571,474,415,93,1940
+a heart of gold,Um coração de ouro,A heart of gold,1,48,3,206,151,192,22,623
+caught in a web,Enredado em uma teia,Caught in a web,1,48,3,233,400,475,154,1314
+She made a salad for lunch.,Ela fez uma salada para o almoço.,She made a salad for lunch.,1,1,2,159,41,23,1,228
+mind over matter,"Mente sobre a matéria.
+",Mind over matter.,1,48,140,237,283,537,59,1305
+as good as done,Quase pronto.,Almost ready.,56,48,479,582,515,530,129,2339
+a voice in the wilderness,Uma voz no deserto,A voice in the wilderness,1,18,3,253,189,360,1,825
+He went to the gym to lift weights.,Ele foi para a academia para levantar pesos.,He went to the gym to lift weights.,1,1,3,202,145,271,1,624
+another one bites the dust,Mais um tomba.,Another fall.,45,48,396,643,541,627,290,2590
+curiosity killed the cat,A curiosidade matou o gato.,Curiosity killed the cat.,1,48,124,72,307,72,1,625
+by leaps and bounds,"De saltos e saltos.
+",Leaps and bounds.,10,48,239,356,562,670,320,2205
+They are practicing their dance routine.,Eles estão ensaiando a coreografia deles.,They are rehearsing their choreography.,33,48,190,416,355,230,1,1273
+honest as the day is long,Honesto como o dia é comprido.,As honest as the day is long.,4,14,191,268,374,442,121,1414
+butter wouldn’t melt in their mouth,Eles não fariam mal a uma mosca.,They wouldn't hurt a fly.,44,48,359,648,643,27,337,2106
+be in hot water,"Estar em apuros.
+",To be in trouble.,34,48,347,615,642,416,335,2437
+by the seat of your pants,De improviso.,Impromptu.,56,48,492,652,677,646,383,2954
+comfort zone,Zona de conforto,Comfort zone,1,48,5,274,167,372,1,868
+give the green light,Dar sinal verde,Give the green light,1,48,3,224,150,452,38,916
+fingers crossed,Com sorte.,Good luck.,56,48,508,563,540,437,145,2297
+He went to the airport to catch a flight.,Ele foi ao aeroporto para pegar um voo.,He went to the airport to catch a flight.,1,1,3,178,159,289,1,632
+as mad as a hatter,"Louco como um louco.
+",Crazy like a fox.,47,48,356,579,559,556,319,2464
+cracking the whip,Endurecer as rédeas.,Tighten the reins.,43,48,328,481,561,521,317,2299
+He is reading a newspaper.,Ele está lendo um jornal.,He is reading a newspaper.,1,1,3,105,60,25,1,196
+as easy as shooting fish in a barrel,Fácil como roubar doces de um bebê.,As easy as stealing candy from a baby.,34,48,289,600,504,301,233,2009
+He is taking photos with his camera.,Ele está tirando fotos com a câmera dele.,He is taking pictures with his camera.,10,31,6,238,154,358,1,798
+ants in your pants,Nervos à flor da pele,On edge.,56,48,498,512,664,665,394,2837
+He is cleaning the windows.,Ele está limpando as janelas.,He is cleaning the windows.,1,1,3,62,134,412,16,629
+clean bill of health,Saúde perfeita,Perfect health,43,48,325,459,416,3,114,1408
+cold feet,Falta de coragem,Lack of courage,56,48,478,546,527,248,315,2218
+burn bridges,Queimar pontes,To burn bridges.,14,48,300,377,377,315,38,1469
+cat's out of the bag,O segredo foi revelado.,The secret was revealed.,50,48,487,618,555,83,234,2075
+bury your head in the sand,Enche o sandeiro com a cabeça.,Fill the sander with your head.,43,48,308,533,633,644,347,2556
+He read a book before bed.,Ele leu um livro antes de dormir.,He read a book before sleeping.,12,20,68,279,241,158,1,779
+bridge the gap,"Superar a diferença.
+",Overcome the difference.,43,48,326,471,471,390,38,1787
+He went to the doctor for a check-up.,Ele foi ao médico para um check-up.,He went to the doctor for a check-up.,1,1,3,184,136,351,1,677
+She is watching the sunset from the balcony.,Ela está observando o pôr do sol da varanda.,She is watching the sunset from the balcony.,1,1,3,120,137,391,1,654
+blessing in disguise,"Uma bênção disfarçada.
+",A blessing in disguise.,10,48,226,297,279,234,1,1095
+a penny for your thoughts,"Um centavo pelo seu pensamento.
+",A penny for your thoughts.,1,30,85,36,206,108,1,467
+He is playing the guitar in the living room.,Ele está tocando a guitarra na sala de estar.,He is playing the guitar in the living room.,1,1,3,134,105,260,1,505
+He is sitting on the chair.,Ele está sentado na cadeira.,He is sitting in the chair.,12,48,21,276,289,314,1,961
+come hell or high water,"De qualquer forma, custe o que custar.",No matter what it takes.,56,48,503,581,653,473,306,2620
+I went to the beach for vacation.,Eu fui à praia de férias.,I went to the beach on vacation.,10,24,39,298,229,151,1,752
+as cool as a cucumber,Tranquilo como um pepino.,Cool as a cucumber.,7,48,200,332,397,118,120,1222
+break the ice,"Quebrar o gelo.
+",Break the ice.,1,48,174,213,320,168,1,925
+at the end of the day,"No fim das contas.
+",In the end.,38,48,366,545,479,501,176,2153
+can't see the forest for the trees,Não enxergar a floresta por causa das árvores.,To miss the forest for the trees.,26,27,243,495,491,332,189,1803
+He is doing his homework in the study room.,Ele está fazendo a lição de casa na sala de estudos.,He is doing his homework in the study.,2,4,78,390,313,523,105,1415
+They planted flowers in the garden.,"Eles plantaram flores no jardim.
+",They planted flowers in the garden.,1,1,3,197,73,20,1,296
+They are making pizza together.,Eles estão fazendo pizza juntos.,They are making pizza together.,1,1,3,44,4,208,1,262
+blown out of proportion,"Exagerado.
+",Exaggerated.,56,48,400,430,487,637,179,2237
+hand in glove,Em perfeita harmonia.,In perfect harmony.,43,48,489,606,646,139,122,2093
+birds of a feather flock together,"Pássaros de mesma pena voam juntos.
+",Birds of a feather flock together.,1,22,77,249,391,614,212,1566
+get out of hand,Descontrolar.,"To lose control.
+",56,48,451,496,512,663,195,2421
+He called his parents yesterday.,"Ele ligou para os pais dele ontem.
+",He called his parents yesterday.,1,1,5,176,18,308,1,510
+He wrote a letter to his friend.,Ele escreveu uma carta para o seu amigo.,He wrote a letter to his friend.,1,1,3,208,92,49,1,355
+She danced at the party last night.,Ela dançou na festa ontem à noite.,She danced at the party last night.,1,1,3,185,76,275,1,542
+close to home,"Perto de casa.
+",Near home.,40,48,259,338,403,152,38,1278
+"if you can't stand the heat, get out of the kitchen","Se você não aguenta o calor, saia da cozinha.
+","If you can't stand the heat, get out of the kitchen.",1,2,26,35,230,197,1,492
+between the devil and the deep blue sea,"Entre o martelo e a bigorna.
+",Between the hammer and the anvil.,31,48,338,667,669,533,368,2654
+get cold feet,Arranjar um pretexto / Desanimar / Ficar com medo / Dar calafrios,Come up with an excuse / Get discouraged / Get scared / Get chills,54,48,348,537,623,460,351,2421
+fish out of water,Peixe fora d'água,A fish out of water,7,18,116,402,318,235,1,1097
+over the moon,"Extremamente feliz.
+",Extremely happy.,56,48,510,569,546,246,298,2273
+once in a blue moon,De vez em quando.,From time to time.,56,48,497,590,598,273,297,2359
+chip off the old block,"Cópia fiel do pai.
+",Spitting image of his father.,56,48,427,623,672,667,387,2880
+break the mold,Quebrar o molde,Break the mold,1,48,3,263,90,489,1,895
+ace in the hole,Ás na manga,Ace up my sleeve,46,48,376,525,661,647,301,2604
+She is gardening in the backyard.,Ela está jardinando no quintal.,She is gardening in the backyard.,1,1,4,25,85,320,1,437
+blind as a bat,Cego como um morcego.,Blind as a bat.,1,48,132,5,332,496,90,1104
+call it a day,Basta por hoje.,That's enough for today.,56,48,437,562,484,91,1,1679
+calm before the storm,Calmaria antes da tempestade,The calm before the storm,7,18,84,320,171,341,228,1169
+He attended a wedding last weekend.,Ele compareceu a um casamento no fim de semana passado.,He attended a wedding last weekend.,1,1,3,95,10,367,1,478
+chill to the bone,Calafrio na espinha.,Goosebumps.,56,48,483,451,686,662,389,2775
+broad strokes,Em linhas gerais.,"In general.
+",56,48,464,626,533,233,332,2292
+She is listening to music while cooking.,Ela está ouvindo música enquanto cozinha.,She is listening to music while cooking.,1,1,3,68,26,71,1,171
+blind as a bat,Cego como um morcego.,Blind as a bat.,1,48,132,5,332,495,90,1103
+all thumbs,Sem jeito,Clumsy,56,48,420,611,641,567,371,2714
+chip on your shoulder,Rancor.,"Resentment.
+",56,48,495,577,631,623,363,2793
+chase rainbows,"Buscar ilusões.
+",Seek illusions.,56,48,350,588,596,516,206,2360
+"hope for the best, prepare for the worst","Esperar o melhor, preparar-se para o pior.","Hope for the best, prepare for the worst.",1,6,40,79,197,210,1,534
+get a grip,"Controle-se.
+",Control yourself.,56,48,471,454,465,607,202,2303
+finger on the pulse,Estar por dentro das últimas tendências.,To be up-to-date with the latest trends.,53,48,481,630,592,407,168,2379
+ball of fire,Bola de fogo,Fireball,56,48,335,399,376,236,89,1539
+He is making tea in the kitchen.,"Ele está fazendo chá na cozinha.
+",He is making tea in the kitchen.,1,1,4,80,67,140,1,294
+bite your lip,"Morder o lábio.
+",To bite one's lip.,34,48,323,417,531,568,225,2146
+live in a glass house,"Mora em uma casa de vidro.
+",She lives in a glass house.,21,39,246,455,347,241,42,1391
+into thin air,"No ar, desaparecendo.","In the air, disappearing.",45,48,340,461,513,598,310,2315
+don’t cry over spilled milk,Não chore por leite derramado.,Don't cry over spilled milk.,1,30,202,248,292,188,1,962
+don't count your chickens before they hatch,Não conte com o que não tem.,Don't count on what you don't have.,42,48,302,553,640,504,231,2320
+close to my heart,"Perto do meu coração.
+",Close to my heart.,1,48,144,18,267,164,1,643
+He went fishing with his friends.,Ele foi pescar com seus amigos.,He went fishing with his friends.,1,1,3,201,44,142,1,393
+as clear as mud,Tão claro quanto barro.,As clear as mud.,1,48,143,153,107,279,1,732
+be a fly on the wall,Ser uma mosca na parede,To be a fly on the wall.,4,14,183,331,362,405,142,1441
+changing gears,Mudando de marcha,Shifting gears,34,48,51,314,432,469,38,1386
+call it quits,Desistir.,Give up.,56,48,363,428,478,651,292,2316
+bottom line,Em resumo.,In summary.,56,48,417,504,498,388,106,2017
+bet the farm,Apostar tudo o que se tem.,To bet everything.,43,48,362,544,526,541,341,2405
+as free as a bird,Livre como um pássaro.,Free as a bird.,7,48,228,337,314,227,38,1199
+flying by the seat of your pants,"Improvisando na hora.
+",Improvising on the spot.,51,48,435,589,648,540,345,2656
+chasing your tail,Correndo atrás do próprio rabo.,Chasing one's own tail.,34,48,286,420,426,401,143,1758
+She plays the piano beautifully.,"Ela toca piano lindamente.
+",She plays the piano beautifully.,1,1,4,143,27,50,1,227
+heart of stone,Coração de pedra,Heart of stone,1,48,3,256,244,137,1,690
+They are going to the cinema tonight.,Eles vão ao cinema hoje à noite.,They are going to the movies tonight.,10,24,71,333,195,254,1,888
+a taste of your own medicine,Uma dose do próprio remédio.,A taste of their own medicine.,12,48,223,472,346,503,38,1642
+break the ice,Quebrar o gelo,Break the ice,1,48,3,258,235,219,1,765
+cloud of suspicion,Nuvem de suspeita,Cloud of suspicion,1,48,3,247,152,18,1,470
+diamond in the rough,"Uma joia bruta.
+",A rough diamond.,45,48,327,460,409,563,215,2067
+beat the clock,Vencer o tempo,Defeat time,56,48,385,663,617,385,291,2445
+He is repairing the broken chair.,Ele está consertando a cadeira quebrada.,He is fixing the broken chair.,12,32,14,286,270,252,1,867
+She is watching a movie at the theater.,Ela está assistindo a um filme no cinema.,She is watching a movie at the cinema.,9,7,18,340,237,129,1,741
+a penny saved is a penny earned,Um tostão guardado é um tostão ganho.,A penny saved is a penny earned.,1,14,33,180,253,272,109,862
+He cleaned the garage on Saturday.,Ele limpou a garagem no sábado.,He cleaned the garage on Saturday.,1,1,2,90,113,528,1,736
+a fish out of water,Um peixe fora d'água,A fish out of water,1,18,3,61,172,98,1,354
+down to earth,Pé no chão,Down-to-earth,1,48,224,246,418,411,117,1465
+happy as a clam,"Feliz como uma ostra.
+",Happy as a clam.,1,48,105,47,316,592,124,1233
+He visited the museum with his class.,Ele visitou o museu com sua turma.,He visited the museum with his class.,1,1,4,216,124,239,1,586
+I visited my parents last weekend.,Visitei meus pais no fim de semana passado.,I visited my parents last weekend.,1,1,3,166,15,103,1,290
+by the skin of your teeth,Por pouco.,"By a hair.
+",48,48,361,637,681,680,338,2793
+crack the code,Decifrar o código,Crack the code,1,48,2,270,285,334,38,978
+He watched a football match on TV.,"Ele assistiu a uma partida de futebol na TV.
+",He watched a soccer game on TV.,22,48,32,409,238,225,1,975
+climbing the corporate ladder,Subir na hierarquia corporativa.,Climb the corporate ladder.,18,48,171,323,312,382,72,1326
+all in the same boat,Todos no mesmo barco.,We're all in this together.,41,48,475,486,503,290,66,1909
+cold feet,Falta de coragem,Lack of courage,56,48,478,546,527,248,315,2218
+a mountain to climb,"Uma montanha para escalar.
+",A mountain to climb.,1,48,113,126,200,366,1,855
+break the back of it,"Superar a parte mais difícil.
+",Overcoming the hardest part.,47,48,402,561,553,359,221,2191
+blowing off steam,Desabafar.,To vent.,56,48,380,532,624,645,334,2619
+cook up a storm,"Cozinhar um banquete.
+",To cook a feast.,34,48,330,599,521,477,258,2267
+dead in the water,"Sem perspectiva.
+",No prospects.,56,48,493,598,652,562,362,2771
+bite the big one,"Explodir
+",To explode,56,48,456,673,627,625,366,2851
+buy a lemon,"Compre uma limão.
+",Buy a lemon.,1,48,185,231,170,8,1,644
+get a second wind,"Ter uma nova energia.
+",To have new energy.,56,48,399,540,532,258,171,2004
+He is working on his laptop.,Ele está trabalhando em seu laptop.,He is working on his laptop.,1,1,4,186,6,257,1,456
+clear as mud,Tão claro quanto lodo.,As clear as mud.,10,48,250,275,155,433,81,1252
+different strokes for different folks,Cada um tem seu jeito.,Everyone has their own way.,56,48,436,493,514,47,128,1722
+She had a cup of soup for lunch.,Ela tomou uma sopa no almoço.,She had soup for lunch.,16,42,81,391,296,37,1,864
+cast the first stone,Atire a primeira pedra.,Let the one among you who is without sin cast the first stone.,35,47,294,530,486,648,223,2263
+call a spade a spade,Chamar as coisas pelos seus nomes.,Calling things by their names.,56,48,472,580,654,81,83,1974
+a ray of hope,Um raio de esperança,A ray of hope,1,48,4,92,126,126,1,398
+They are painting the walls of their house.,"Eles estão pintando as paredes de sua casa.
+",They are painting the walls of their house.,1,1,3,154,96,135,1,391
+crash course,Curso intensivo,Intensive course,34,48,288,515,424,147,38,1494
+The sun rises in the east.,O sol nasce no leste.,The sun rises in the east.,1,1,3,207,45,55,1,313
+an arm and a leg,"Um braço e uma perna.
+",An arm and a leg.,1,30,103,32,337,9,1,513
+breaking the mold,"Quebrando o molde.
+","Breaking the mold.
+",1,48,182,212,240,355,66,1104
+caught red-handed,"Flagrado de mão cheia.
+",Caught red-handed.,1,48,137,7,306,493,219,1211
+blood from a stone,Leite de pedra.,Stone milk,43,48,331,670,612,376,343,2423
+beyond the pale,Fora dos limites aceitáveis.,Outside acceptable limits.,56,48,425,541,519,299,30,1918
+She is walking through the forest.,Ela está caminhando pela floresta.,She is walking through the forest.,1,1,3,46,62,365,1,479
+blood runs thicker than water,"O sangue é mais grosso que a água.
+",Blood is thicker than water.,13,48,141,346,263,30,1,842
+follow your nose,Siga seu nariz.,Follow your nose.,1,48,176,232,180,633,13,1283
+hard nut to crack,"Pessoa difícil de lidar.
+",Difficult person.,56,48,398,596,572,443,275,2388
+an ounce of prevention is worth a pound of cure,Uma onça de prevenção vale mais que uma libra de cura.,An ounce of prevention is worth a pound of cure.,1,5,23,226,214,163,1,633
+come apart at the seams,"Desmoronar, desmantelar-se, desintegrar-se.
+","To collapse, to dismantle, to disintegrate.",56,48,432,473,649,551,262,2471
+She is arranging flowers in a vase.,Ela está arranjando flores em um vaso.,She is arranging flowers in a vase.,1,1,4,54,81,114,1,256
+They went shopping for new clothes.,Eles foram fazer compras de roupas novas.,They went shopping for new clothes.,1,1,3,107,5,149,1,267
+big league,Grandes ligas,Major Leagues,56,48,273,348,388,156,112,1381
+She is packing her suitcase for a trip.,Ela está arrumando sua mala para uma viagem.,She is packing her suitcase for a trip.,1,1,3,37,120,203,1,366
+She attended a conference last week.,Ela compareceu a uma conferência na semana passada.,She attended a conference last week.,1,1,3,97,12,348,1,463
+all that glitters is not gold,Nem tudo que reluz é ouro.,All that glitters is not gold.,1,22,61,6,37,446,62,635
+rain on your parade,Estragar seus planos.,To ruin your plans.,46,48,434,586,538,539,243,2434
+as stubborn as a mule,Teimoso como uma mula.,Stubborn as a mule.,7,48,248,361,387,546,125,1722
+fall on deaf ears,Cair em ouvidos moucos.,To fall on deaf ears.,7,30,208,294,360,545,266,1710
+She is preparing dinner for the guests.,Ela está preparando o jantar para os convidados.,She is preparing dinner for the guests.,1,1,3,141,129,185,1,461
+He is writing an essay for school.,Ele está escrevendo uma redação para a escola.,He is writing an essay for school.,1,1,3,75,65,67,1,213
+beating a dead horse,"Bater em um cavalo morto.
+",Beating a dead horse.,1,48,107,239,419,624,183,1621
+keep your eyes peeled,"Fique de olho.
+",Keep an eye out.,46,48,344,365,399,288,55,1545
+He visited his grandmother in the hospital.,Ele visitou sua avó no hospital.,He visited his grandmother in the hospital.,1,1,3,220,115,207,1,548
+caught in the crossfire,No fogo cruzado,In the crossfire,10,48,198,415,406,603,248,1928
+a blessing in disguise,"Uma bênção disfarçada.
+",A blessing in disguise.,1,48,136,49,228,234,1,697
+bending over backwards,Fazer de tudo para agradar.,"Go out of one's way to please.
+",56,48,467,647,678,500,355,2751
+He is drawing in his sketchbook.,"Ele está desenhando em seu caderno de esboços.
+",He is drawing in his sketchbook.,1,1,3,112,72,316,2,507
+a new lease on life,Um novo fôlego de vida.,A breath of fresh life.,39,48,352,457,485,113,113,1607
+climbing the ladder,Subindo a escada,Going up the stairs,45,48,265,426,447,167,23,1421
+a rolling stone gathers no moss,"Pedra em movimento não junta musgo.
+",A rolling stone gathers no moss.,1,22,89,209,293,447,69,1130
+better half,"metade querida
+",darling half,34,48,280,565,548,581,274,2330
+He is eating dinner with his family.,Ele está jantando com sua família.,He is having dinner with his family.,10,24,27,289,210,571,12,1143
+in the bag,"Na mão.
+",In hand.,40,48,412,528,520,630,294,2472
+dead as a doornail,Morto como uma pedra.,Dead as a doornail.,1,48,115,3,284,672,196,1319
+She is playing with her children in the garden.,Ela está brincando com seus filhos no jardim.,She is playing with her children in the garden.,1,1,5,215,135,124,1,482
+I am playing video games in my room.,"Estou jogando videogame no meu quarto.
+",I'm playing video games in my room.,9,8,34,200,166,45,1,463
+cut to the chase,Venha ao ponto.,Get to the point.,34,48,377,462,496,461,174,2052
+cut the mustardcross that bridge when you come to it,Resolva isso quando chegar a hora.,Deal with it when the time comes.,55,48,386,608,567,468,309,2441
+She works as a software engineer.,Ela trabalha como engenheira de software.,She works as a software engineer.,1,1,2,203,22,175,1,405
+He is going to the post office.,Ele vai para o correio.,He's going to the post office.,10,13,64,241,277,414,8,1027
+bare your soul,"Desabafar a alma.
+",To vent one's soul.,46,48,333,597,507,608,251,2390
+bad blood,"Rancor.
+",Resentment.,56,48,459,520,608,620,328,2639
+She is playing piano in the evening.,Ela está tocando piano à noite.,She is playing the piano at night.,32,48,128,309,315,262,1,1095
+go down in flames,"Réu em chamas.
+",Defendant ablaze.,56,48,371,484,605,679,370,2613
+get your ducks in a row,"Colocar tudo em ordem.
+",Get everything in order.,40,48,413,483,560,232,164,1940
+They cleaned the house on Saturday.,Eles limparam a casa no sábado.,They cleaned the house on Saturday.,1,1,2,59,94,170,1,328
+at death's door,À beira da morte.,On the brink of death.,47,48,368,432,488,448,50,1881
+cut the mustard,"Não corresponder ao padrão.
+",Does not match the pattern.,46,48,440,671,657,430,199,2491
+by the book,"Pelo livro.
+",By the book.,1,48,170,51,326,465,38,1099
+She played cards with her friends.,Ela jogou cartas com seus amigos.,She played cards with her friends.,1,1,2,227,70,253,1,555
+an old flame,Um amor do passado,A past love,56,48,310,526,549,261,46,1796
+They are reading a novel by the fireplace.,Eles estão lendo um romance junto à lareira.,They are reading a novel by the fireplace.,1,1,3,183,112,325,1,626
+caught between a rock and a hard place,Entre a cruz e a espada.,Between the cross and the sword.,45,48,358,672,609,326,321,2379
+a sinking ship,Um navio afundando,A sinking ship,1,48,3,55,161,171,1,440
+drive me up the wall,Me tirar do sério.,To get under my skin.,56,48,442,519,676,686,360,2787
+I called my friend last night.,"Eu liguei para meu amigo ontem à noite.
+",I called my friend last night.,1,1,3,160,39,102,1,307
+burn the candle at both ends,"Gastar as duas pontas da vela.
+",To burn both ends of the candle.,36,48,237,401,451,656,214,2043
+They are attending a concert tonight.,"Eles estão indo a um show hoje à noite.
+",They are going to a concert tonight.,17,39,80,334,260,237,1,968
+bite the bullet,Engolir o sapo.,Swallow the frog.,43,48,321,644,585,660,295,2596
+chase your tail,Correr atrás do próprio rabo.,Chasing your own tail.,31,48,238,379,408,464,153,1721
+cool as a cucumber,Calmo como uma pepino.,Calm as a cucumber.,18,48,157,353,458,310,86,1430
+don't put all your eggs in one basket,Não coloque todos os seus ovos na mesma cesta.,Don't put all your eggs in one basket.,1,9,52,10,201,231,1,505
+black as coal,Preto como carvão.,Black as coal.,1,48,159,229,89,265,1,792
+ants in your pants,"Agitação.
+",Restlessness.,56,48,501,529,663,661,385,2843
+don't bite the hand that feeds you,"Não morda a mão que o alimenta.
+",Don't bite the hand that feeds you.,1,14,41,113,308,77,1,555
+live to fight another day,Viver para lutar outro dia.,To live to fight another day.,5,22,215,354,317,389,95,1397
+cat's meow,"O auê.
+","What's the commotion?
+",45,48,507,625,563,682,375,2845
+by the book,"Pelo livro.
+",By the book.,1,48,170,51,327,465,38,1100
+by the skin of your teeth,"Por pouco.
+",By a hair.,48,48,361,637,681,677,356,2808
+busy as a bee,Ocupado que nem uma abelha.,Busy as a bee.,1,48,138,193,357,529,132,1398
+calm before the storm,"A calmaria antes da tempestade.
+",The calm before the storm.,7,30,188,344,225,220,38,1052
+She visited the art gallery on Sunday.,"Ela visitou a galeria de arte no domingo.
+",She visited the art gallery on Sunday.,1,1,3,117,110,125,1,358
+They went to a restaurant for dinner.,Eles foram a um restaurante para jantar.,They went to a restaurant to have dinner.,15,28,36,288,202,119,38,726
+all thumbs,Desajeitado/a,Clumsy,56,48,420,611,628,604,358,2725
+She is dancing to the music.,Ela está dançando ao som da música.,She is dancing to the music.,1,1,3,78,119,313,1,516
+bend the rules,Contornar as regras,Circumvent the rules,26,48,277,382,421,615,141,1910
+bring to the table,"Trazer para a mesa / Contribuir com / Agregar / Oferecer.
+",Bring to the table / Contribute / Add / Offer,20,48,275,513,511,576,307,2250
+crash and burn,Queimar por terra,"Burn it all down.
+",45,48,439,477,522,535,149,2215
+They are playing chess at the table.,Eles estão jogando xadrez na mesa.,They are playing chess at the table.,1,1,3,150,143,58,1,357
+bare bones,"No essencial.
+","Essentially.
+",56,48,485,654,578,671,381,2873
+an uphill battle,Uma batalha árdua,A hard-fought battle,45,48,254,448,371,532,279,1977
+cast a shadow,Lançar uma sombra,To cast a shadow,10,48,162,398,353,480,76,1527
+She is watching the stars at night.,Ela está observando as estrelas à noite.,She is watching the stars at night.,1,1,3,64,80,484,1,634
+don’t put all your eggs in one basket,Não coloque todos os ovos na mesma cesta.,Don't put all your eggs in one basket.,1,9,135,91,207,249,1,693
+face the music,"Assumir as consequências.
+",Face the consequences.,26,48,313,571,475,421,93,1947
+She is practicing yoga in the park.,Ela está praticando yoga no parque.,She is practicing yoga in the park.,1,1,3,177,53,38,1,274
+He made a sandwich for lunch.,Ele fez um sanduíche para o almoço.,He made a sandwich for lunch.,1,1,3,169,29,196,1,400
+hit the books,Estudar bastante,Study hard.,56,48,438,560,505,424,137,2168
+close shave,"Aperto por pouco.
+",Barely made it.,56,48,502,627,679,640,326,2878
+a leopard can't change its spots,Um leopardo não muda suas manchas.,A leopard doesn't change its spots.,10,48,120,326,297,304,15,1120
+couch potato,Preguiçoso de sofá,Couch potato,1,48,3,285,417,534,235,1523
+She walked to the store.,"Ela caminhou até a loja.
+",She walked to the store.,1,1,3,56,118,199,1,379
+like riding a bike,"Como andar de bicicleta.
+",How to ride a bike.,37,48,267,505,443,65,1,1366
+They are playing volleyball at the beach.,Eles estão jogando vôlei na praia.,They are playing volleyball on the beach.,10,31,11,284,191,61,1,589
+He is playing soccer with his friends.,"Ele está jogando futebol com seus amigos.
+",He is playing soccer with his friends.,1,1,3,147,38,243,1,434
+curiosity killed the cat,A curiosidade matou o gato.,Curiosity killed the cat.,1,48,124,72,307,72,1,625
+barking up the wrong tree,Procurando na lagoa errada.,Looking in the wrong pond.,39,48,305,564,576,544,330,2406
+They are visiting the zoo.,Eles estão visitando o zoológico.,They are visiting the zoo.,1,1,3,15,101,214,1,336
+pull the plug,"Desligar o aparelho.
+",Turn off the device.,45,48,317,478,439,5,1,1333
+beat a hasty retreat,Dar um fora rápido.,To shut someone down quickly.,56,48,393,554,611,632,303,2597
+I went to the store to buy some bread.,"Eu fui à loja comprar pão.
+",I went to the store to buy bread.,2,10,12,318,212,62,1,617
+butterflies in my stomach,"Borboletas no estômago.
+",Butterflies in my stomach.,1,48,101,146,427,409,9,1141
+come up against a brick wall,Encontrar uma barreira intransponível.,To encounter an insurmountable barrier.,56,48,389,511,542,172,175,1893
+smooth sailing,"Náutica tranquila
+",Tranquil sailing,34,48,257,394,329,19,38,1119
+She is sending a letter to her friend.,"Ela está enviando uma carta para sua amiga.
+",She is sending a letter to her friend.,1,1,3,69,139,75,1,289
+He is checking his email.,Ele está verificando seu e-mail.,He is checking his email.,1,1,3,21,17,181,1,225
+an uphill battle,"Uma luta difícil.
+",A difficult fight.,56,48,314,463,366,84,39,1370
+make waves,"Causar sensação.
+",To make a splash.,43,48,334,490,534,520,253,2222
+bury the hatchet,Enterrar o machado.,Bury the hatchet.,1,48,131,108,414,641,162,1505
+as good as gold,Que bom moço,Good boy,43,48,460,668,556,120,379,2274
+She is putting on her shoes.,"Ela está calçando os sapatos.
+",She is putting on her shoes.,1,1,4,22,84,160,1,273
+built like a tank,"Forte como um tanque.
+",Strong as a tank.,34,48,266,439,379,97,92,1355
+hit the sack,Ir para a cama,Go to bed.,56,48,445,645,545,204,300,2243
+burst your bubble,"Estourar sua bolha.
+",Pop your bubble.,26,48,227,381,450,649,177,1958
+He is going for a bike ride.,"Ele vai dar uma volta de bicicleta.
+",He's going for a bike ride.,10,13,48,255,211,350,1,888
+bite the dust,Ir para o beleléu.,To go to the dogs.,46,48,408,657,673,676,388,2896
+falling apart at the seams,"Desmoronando aos pedaços.
+",Falling apart.,31,48,297,424,497,543,187,2027
+They are jogging through the park.,"Eles estão correndo no parque.
+",They are running in the park.,26,48,168,384,384,322,1,1333
+backseat driver,"Motorista rabugento/chato/intrometido.
+",Grumpy/cranky/nosy driver.,43,48,369,638,690,467,340,2595
+a blessing in disguise,Uma bênção disfarçada.,A blessing in disguise.,1,48,136,49,228,200,1,663
+back against the wall,"Encurralado.
+",Cornered.,56,48,486,610,650,638,324,2812
+blue collar,Colarinho azul,Blue-collar,1,48,161,128,411,560,135,1444
+kill two birds with one stone,Matar dois coelhos com uma cajadada só.,To kill two birds with one stone.,4,14,142,335,324,488,111,1418
+at the drop of a hat,"De repente, num piscar de olhos.","Suddenly, in the blink of an eye.",44,48,409,587,569,375,155,2187
+by a hair's breadth,Por uma distância mínima/Por pouco/Por um triz,By a hair's breadth,1,48,3,290,340,659,322,1663
+They are planning a trip to Europe.,Eles estão planejando uma viagem para a Europa.,They are planning a trip to Europe.,1,1,4,181,46,173,1,407
+big picture,O quadro geral,The big picture,14,48,181,281,198,212,1,935
+beat around the bush,"Enrolar a palha.
+",To beat around the bush.,7,30,210,397,425,690,283,2042
+cast in stone,"Escrito em pedra.
+",In stone.,14,48,285,435,370,613,244,2009
+They went to the supermarket yesterday.,Eles foram ao supermercado ontem.,They went to the supermarket yesterday.,1,1,2,103,69,218,1,395
+She cleaned the kitchen after dinner.,Ela limpou a cozinha depois do jantar.,She cleaned the kitchen after dinner.,1,1,3,88,68,138,1,300
+He traveled to Paris last year.,Ele viajou para Paris no ano passado.,He traveled to Paris last year.,1,1,3,145,11,321,1,483
+face like thunder,Com a carranca de trovão.,With a thunderous scowl.,56,48,391,438,636,617,289,2475
+I am learning how to cook.,"Estou aprendendo a cozinhar.
+",I'm learning to cook.,21,48,133,234,247,89,1,773
+She is wearing a red dress.,Ela está vestindo um vestido vermelho.,She is wearing a red dress.,1,1,3,139,7,182,1,334
+come rain or shine,Mesmo que chova ou faça sol.,Even if it rains or shines.,50,48,353,480,380,250,38,1599
+get the ball rolling,Começar.,Start.,56,48,454,635,607,550,367,2717
+He went to the gym for a workout session.,"Ele foi à academia para uma sessão de treino.
+",He went to the gym for a workout.,2,4,16,351,216,319,1,909
+He is drinking tea in the morning.,Ele está bebendo chá de manhã.,He is drinking tea in the morning.,1,1,3,77,97,178,1,358
+They enjoyed a family dinner together.,Eles desfrutaram de um jantar em família juntos.,They enjoyed a family dinner together.,1,1,3,135,58,295,1,494
+They are playing basketball in the yard.,Eles estão jogando basquete no quintal.,They are playing basketball in the backyard.,10,11,42,300,245,90,38,736
+"blood, sweat, and tears","Sangue, suor e lágrimas","Blood, sweat, and tears.",1,22,82,115,95,21,1,337
+flying high,Voando alto,Soaring high,34,48,134,393,536,502,110,1757
+bring home the bacon,Ganhar o pão de cada dia.,Earn one's daily bread.,56,48,374,558,645,440,209,2330
+give someone the cold shoulder,Ignorar alguém,Ignore someone.,45,48,378,585,547,572,57,2232
+bite your tongue,"Morda a língua.
+",Bite your tongue.,1,48,165,240,278,578,108,1418
+all in a day's work,Faz parte do trabalho.,It's part of the job.,52,48,424,499,468,46,1,1538
+eyes in the back of your head,Ter olhos nas costas,To have eyes in the back of one's head.,24,39,249,404,489,426,180,1811
+He ate his breakfast quickly.,Ele comeu o café da manhã rapidamente.,He ate breakfast quickly.,7,48,43,295,177,392,1,963
+back on your feet,"De volta aos seus pés.
+",Back at your feet.,18,48,206,352,274,599,238,1735
+"blood, sweat, and tears","Sangue, suor e lágrimas.","Blood, sweat, and tears.",1,22,82,115,108,10,1,339
+They are driving to the countryside.,Eles estão dirigindo para o campo.,They are driving to the countryside.,1,1,2,158,160,363,1,686
+She cooked dinner for her family.,Ela cozinhou o jantar para a família dela.,She cooked dinner for her family.,1,1,3,142,49,146,1,343
+ace in the hole,Ás na manga,Ace up my sleeve,46,48,376,525,661,647,301,2604
+hard as nails,Duro que só.,Tough as nails.,26,48,219,330,345,658,151,1777
+kill two birds with one stone,"Matar dois coelhos com uma cajadada só.
+",To kill two birds with one stone.,4,14,142,335,325,478,130,1428
+black and blue,"Roxo e azul.
+",Purple and blue.,26,48,251,446,330,353,1,1455
+how the cookie crumbles,Como as coisas acontecem.,Things happen.,56,48,447,605,575,668,350,2749
+He played video games all evening.,Ele jogou videogame a noite toda.,He played video games all night.,12,20,35,278,157,105,1,608
+all bark and no bite,"Muito barulho, pouca mordida.
+",Much ado about nothing.,56,48,401,559,570,583,354,2571
+beef up,Reforçar,Strengthen,56,48,480,583,670,491,333,2661
+be on cloud nine,"Estar nas nuvens.
+",To be over the moon.,47,48,383,509,587,687,353,2614
+They traveled to the mountains for vacation.,Eles viajaram para as montanhas para as férias.,They traveled to the mountains for vacation.,1,1,3,182,54,371,1,613
+They went on a road trip last summer.,"Eles fizeram uma viagem de carro no verão passado.
+",They took a road trip last summer.,15,21,29,324,218,268,1,876
+clear the air,Esclarecer a situação,Clarify the situation.,43,48,381,442,482,453,66,1915
+cat got your tongue,O gato comeu sua língua?,Did the cat eat your tongue?,30,48,292,574,435,121,32,1532
+as busy as a bee,"Atarefado como uma abelha.
+",Busy as a bee.,7,48,252,375,437,474,182,1775
+They are visiting their friends in the city.,"Eles estão visitando seus amigos na cidade.
+",They are visiting their friends in the city.,1,1,3,124,63,217,1,410
+come out of your shell,"Saia da sua concha.
+",Come out of your shell.,1,30,114,76,215,439,87,962
+a storm in a teacup,Uma tempestade num copo d'água.,A storm in a teacup.,1,30,110,262,290,157,7,857
+a tower of strength,Uma torre de força,A power tower,31,48,278,489,449,22,73,1390
+all's fair in love and war,Tudo é justo no amor e na guerra.,All's fair in love and war.,1,22,79,189,169,222,1,683
+She is doing her hair in front of the mirror.,Ela está fazendo o cabelo em frente ao espelho.,She's doing her hair in front of the mirror.,6,3,20,257,264,318,34,902
+all the world's a stage,O mundo inteiro é um palco.,All the world's a stage.,1,30,88,138,208,112,1,578
+"if the shoe fits, wear it","Se o sapato serve, use-o.
+","If the shoe fits, wear it.",1,14,73,17,236,494,104,939
+They have three children.,Eles têm três filhos.,They have three children.,1,1,3,123,3,44,1,176
+She is preparing for a job interview.,Ela está se preparando para uma entrevista de emprego.,She is preparing for a job interview.,1,1,3,110,34,228,1,378
+They had a barbecue in the backyard.,Eles fizeram um churrasco no quintal.,They had a barbecue in the backyard.,1,1,3,127,86,187,1,406
+bite the bullet,"Engolir o veneno.
+",Swallow the poison.,43,48,311,531,554,377,116,1980
+They went hiking in the mountains.,Eles foram fazer trilha nas montanhas.,They went hiking in the mountains.,1,1,3,195,83,166,1,450
+keep your chin up,Mantenha a cabeça erguida.,Keep your head up.,18,48,209,316,352,247,38,1228
+cut from the same cloth,"Costurados no mesmo molde.
+",Cut from the same cloth.,1,30,112,244,368,610,53,1418
+full plate,Prato cheio,A real feast,56,48,357,498,594,594,276,2423
+alive and kicking,"Vivo e bem.
+",I'm doing well.,56,48,505,584,630,368,190,2381
+a place in the sun,"Um lugar ao sol.
+",A place in the sun.,1,30,122,165,242,270,1,831
+They went to the zoo with the kids.,Eles foram ao zoológico com as crianças.,They went to the zoo with the children.,9,7,10,307,232,141,1,707
+I took a photo of the beautiful sunset.,"Eu tirei uma foto do lindo pôr do sol.
+",I took a picture of the beautiful sunset.,9,23,7,299,219,339,20,916
+bad egg,O ovo estragado,The rotten egg,40,48,270,458,461,291,38,1606
+back to square one,De volta à estaca zero.,Back to square one.,1,48,130,94,163,79,1,516
+break the ice,Quebrar o gelo,Break the ice,1,48,3,258,235,219,1,765
+The train arrived at the station on time.,O trem chegou à estação no horário.,The train arrived at the station on time.,1,1,3,66,36,69,1,177
+She took a nap after lunch.,Ela tirou uma soneca depois do almoço.,She took a nap after lunch.,1,1,2,179,24,381,1,589
+He is watering the plants.,Ele está regando as plantas.,He is watering the plants.,1,1,3,67,142,345,1,560
+at the helm,"No comando.
+",In command.,56,48,382,405,535,629,250,2305
+The dog is playing outside.,"O cachorro está brincando lá fora.
+",The dog is playing outside.,1,1,3,87,79,34,1,206
+coming full circle,"Voltando ao ponto de partida.
+",Back to square one.,56,48,430,549,544,429,192,2248
+hold your horses,"Calma!
+",Calm down!,56,48,484,552,579,605,240,2564
+as smooth as silk,Liso como seda.,Smooth as silk.,10,48,234,327,276,331,37,1263
+a shot in the dark,"Um palpite no escuro.
+",A shot in the dark.,1,30,127,34,294,479,33,998
+burst at the seams,"Transbordando.
+",Overflowing.,56,48,360,502,667,579,325,2537
+They went to a concert last night.,"Eles foram a um show ontem à noite.
+",They went to a show last night.,10,31,28,369,275,223,38,974
+cat got your tongue,O gato comeu a sua língua?,Did the cat eat your tongue?,30,48,292,574,442,148,31,1565
+They are having a discussion in the classroom.,Eles estão tendo uma discussão na sala de aula.,They are having a discussion in the classroom.,1,1,3,133,50,133,1,322
+behind the eight ball,"Em apuros, numa enrascada, em uma situação difícil.
+","In trouble, in a fix, in a difficult situation.",56,48,468,669,687,600,390,2918
+She is painting a picture on the canvas.,Ela está pintando um quadro em tela.,She is painting a picture on canvas.,3,16,47,277,209,276,1,829
+against the grain,Contra a corrente,Against the current,26,48,304,536,480,449,163,2006
+She is typing on her computer.,Ela está digitando no computador dela.,She is typing on her computer.,1,1,2,27,25,224,1,281
+left out in the cold,"Deixado de lado.
+",Set aside.,56,48,403,506,656,328,191,2188
+don't judge a book by its cover,"Não julgue um livro pela capa.
+",Don't judge a book by its cover.,1,14,54,24,188,6,1,288
+bend over backward,Fazer o possível e o impossível.,To move heaven and earth.,56,48,421,659,682,694,391,2951
+back to the grind,De volta à rotina.,"Back to routine.
+",31,48,293,449,301,1,100,1223
+let sleeping dogs lie,Não perturbe a paz.,Do not disturb the peace.,56,48,458,614,600,85,255,2116
+a snowball's chance in hell,"Uma chance mínima.
+",A slim chance.,38,48,392,555,537,587,261,2418
+fighting a losing battle,Lutar uma batalha perdida,To fight a losing battle.,27,48,204,395,386,422,38,1520
+a fish out of water,"Um peixe fora d'água.
+",A fish out of water.,1,30,98,173,243,16,1,562
+hit the ground running,"Começar com tudo.
+",Start with everything.,56,48,450,658,615,406,260,2493
+heart of stone,Coração de pedra,Heart of stone,1,48,3,256,244,137,1,690
+He took a walk in the park.,Ele deu uma caminhada no parque.,He took a walk in the park.,1,1,3,225,43,294,1,568
+They are enjoying a cup of coffee together.,"Eles estão aproveitando uma xícara de café juntos.
+",They are enjoying a cup of coffee together.,1,1,4,96,87,176,1,366
+I made a cup of tea for myself.,Eu preparei uma xícara de chá para mim.,I made myself a cup of tea.,15,40,70,388,239,54,1,807
+cooking up a storm,"Cozinhando sem parar.
+",Cooking non-stop.,45,48,429,557,550,436,287,2352
+fall through the cracks,Passar despercebido,To go unnoticed,56,48,375,523,610,557,208,2377
+bend over backwards,"Fazer de tudo, contorcer-se, ir longe demais.","Go to any lengths, bend over backwards, push the boundaries.",36,48,284,488,591,675,348,2470
+dance with the devil,"Dançar com o diabo.
+",To dance with the devil.,7,30,232,372,378,143,70,1232
+dark horse,Cavalo escuro,Dark horse,1,48,2,317,196,165,1,730
+She enjoys walking in the park.,Ela gosta de caminhar no parque.,She likes to walk in the park.,29,43,92,329,265,154,1,913
+go the extra mile,Ir além do esperado.,Go above and beyond.,46,48,422,527,472,483,41,2039
+He is looking out the window at the rain.,"Ele está olhando pela janela para a chuva.
+",He is looking out the window at the rain.,1,1,3,192,104,278,1,580
+feeling under the weather,Me sentindo meio mal.,"Feeling a bit under the weather.
+",14,48,231,339,420,575,220,1847
+bridge the gap,Superar a diferença,Overcome the difference,43,48,299,469,456,410,38,1763
+clear as crystal,Claro como água.,Clear as water.,26,48,271,521,300,64,28,1258
+actions speak louder than words,"As ações falam mais alto que as palavras.
+",Actions speak louder than words.,1,30,108,31,158,29,1,358
+cutting corners,Fazer gambiarras,To MacGyver something,56,48,482,676,684,664,396,3006
+cost an arm and a leg,"Custar os olhos da cara.
+",Cost an arm and a leg.,1,22,76,28,339,684,167,1317
+a far cry,"Um abismo.
+",An abyss.,56,48,419,620,593,387,236,2359
+carry the torch,"Carregar a tocha.
+",Carry the torch.,1,48,177,196,363,595,63,1443
+chew the fat,"Bater um papo.
+",Have a chat.,56,48,463,633,597,486,376,2659
+at a snail's pace,Num ritmo de lesma.,At a snail's pace.,1,48,86,168,310,266,21,900
+He is taking a nap on the couch.,Ele está tirando uma soneca no sofá.,He's taking a nap on the couch.,9,8,30,254,184,330,4,819
+dressed to kill,"Arrumado(a) para impressionar.
+",Dressed to impress.,26,48,296,573,459,490,285,2177
+all in your head,Tudo na sua cabeça.,It's all in your head.,14,30,242,308,291,17,1,903
+He is writing a story for school.,Ele está escrevendo uma história para a escola.,He is writing a story for school.,1,1,3,74,59,309,1,448
+She painted a picture of a landscape.,Ela pintou um quadro de uma paisagem.,She painted a picture of a landscape.,1,1,3,221,61,229,1,517
+banging your head against a brick wall,"Bater a cabeça na parede.
+",To bang your head against the wall.,32,48,218,403,385,281,91,1458
+She is visiting her grandmother in the hospital.,Ela está visitando sua avó no hospital.,She is visiting her grandmother in the hospital.,1,1,3,121,140,153,1,420
+She had a meeting with her boss.,"Ela teve uma reunião com seu chefe.
+",She had a meeting with her boss.,1,1,3,214,138,130,1,488
+She is knitting a scarf for winter.,Ela está tricotando um cachecol para o inverno.,She is knitting a scarf for winter.,1,1,3,23,148,226,1,403
+She took the train to the city.,"Ela pegou o trem para a cidade.
+",She took the train to the city.,1,1,3,129,144,35,1,314
+break a leg,"Boa sorte!
+",Good luck!,56,48,514,675,635,305,181,2414
+They are taking pictures in front of the monument.,Eles estão tirando fotos em frente ao monumento.,They are taking pictures in front of the monument.,1,1,3,136,35,209,1,386
+They went for a walk in the park.,Eles foram passear no parque.,They went for a walk in the park.,1,1,3,171,33,100,1,310
+below the belt,"Péssimo, traiçoeiro, golpe abaixo.
+","Awful, treacherous, a low blow.",56,48,455,666,660,611,361,2857
+caught red-handed,Flagrado em flagrante,Caught red-handed,1,48,4,4,269,566,204,1096
+make a mountain out of a molehill,"Fazer uma montanha de um grão de areia.
+",To make a mountain out of a molehill.,3,9,118,304,282,518,193,1427
+burning bridges,Queimar pontes,To burn bridges,40,48,211,392,453,307,38,1489
+burn a hole in your pocket,Comer o bolso.,"To cost an arm and a leg.
+",53,48,466,632,662,631,313,2805
+He is waiting for the bus.,Ele está esperando o ônibus.,He is waiting for the bus.,1,1,3,114,128,383,1,631
+better safe than sorry,Mais vale prevenir do que remediar.,Prevention is better than cure.,37,48,339,566,477,284,45,1796
+burnt to a crisp,"Queimado até virar carvão.
+",Burned to a crisp.,18,48,194,118,372,435,165,1350
+They are doing laundry in the basement.,Eles estão lavando roupa no porão.,They are doing laundry in the basement.,1,1,3,73,111,145,1,335
+as light as a feather,Leve como uma pena.,Light as a feather.,7,48,247,310,438,393,147,1590
+as fit as a fiddle,"Em perfeita forma.
+",In perfect shape.,56,48,446,507,528,450,157,2192
+They are going for a run in the morning.,Eles vão correr de manhã.,They will run in the morning.,25,38,214,422,428,397,47,1571
+adding insult to injury,"Atingir quando já estava caído.
+",To kick someone when they're down.,51,48,441,660,683,589,336,2808
+apple of discord,Maçã da discórdia,Apple of discord,1,48,3,211,273,642,156,1334
+broken dreams,Sonhos desfeitos,Shattered dreams,34,48,49,252,401,195,38,1017
+bitten by the bug,"Picado pelo inseto.
+",Bitten by the insect.,18,48,240,385,350,517,85,1643
+blown away,"Maravilhado(a), impressionado(a), impressionado(a), chocado(a), atônito(a).
+","Amazed, impressed, stunned, shocked, astonished.",56,48,477,591,506,590,359,2627
+big shoes to fill,Sapatos grandes para se encher.,Big shoes to fill.,1,48,125,190,287,691,160,1502
+He is cleaning the garage.,Ele está limpando a garagem.,He is cleaning the garage.,1,1,3,42,149,346,1,543
+She played tennis with her brother.,Ela jogou tênis com o irmão dela.,She played tennis with her brother.,1,1,3,236,56,39,1,337
+grasp at straws,Se agarrar a palhaços.,If you cling to clowns.,56,48,379,642,689,616,352,2782
+coming up roses,Tudo está indo bem.,Everything is going well.,56,48,513,602,509,60,267,2055
+The car stopped at the red light.,"O carro parou no semáforo vermelho.
+",The car stopped at the red light.,1,1,3,101,116,169,1,392
+They are sitting around the campfire.,"Eles estão sentados ao redor da fogueira.
+",They are sitting around the campfire.,1,1,1,84,64,283,1,435
+He is working out in the gym.,Ele está se exercitando na academia.,He is working out at the gym.,10,31,17,287,190,396,1,932
+She is playing with her cat.,"Ela está brincando com seu gato.
+",She is playing with her cat.,1,1,3,222,75,296,1,599
+He is fixing the car.,"Ele está consertando o carro.
+",He is fixing the car.,1,1,4,85,165,327,1,584
+I like to read books in the evening.,Eu gosto de ler livros à noite.,I like to read books at night.,26,34,72,313,272,7,1,725
+They went to a museum last month.,Eles foram a um museu no mês passado.,They went to a museum last month.,1,1,3,132,57,57,1,252
+They went to the library to borrow books.,Eles foram à biblioteca para pegar livros emprestados.,They went to the library to borrow books.,1,1,3,198,114,356,1,674
+flying off the handle,"Perder a cabeça.
+",Lose one's head.,56,48,443,576,668,471,308,2570
+catch lightning in a bottle,"Capturar um raio em uma garrafa.
+",To catch lightning in a bottle.,5,22,196,315,392,399,56,1385
+bare your soul,"Desvende sua alma.
+",Uncover your soul.,26,48,233,434,445,548,52,1786
+They met their friends at the café.,Eles encontraram seus amigos no café.,They met their friends at the cafe.,10,11,3,164,205,95,1,489
+jump the gun,"Antecipar-se à hora.
+",Be ahead of time.,56,48,469,592,651,526,288,2630
+She worked on her project all afternoon.,"Ela trabalhou em seu projeto a tarde toda.
+",She worked on her project all afternoon.,1,1,3,151,16,400,1,573
+bury the hatchet,Fazer as pazes,To make peace,56,48,490,662,666,552,377,2851
+They are watching TV in the living room.,Eles estão assistindo TV na sala.,They are watching TV in the living room.,1,1,3,58,78,40,1,182
+They are eating lunch together.,Eles estão almoçando juntos.,They are having lunch together.,13,48,46,283,183,190,1,764
+He is taking a walk around the block.,"Ele está dando uma volta no quarteirão.
+",He's walking around the block.,31,45,187,362,415,481,26,1547
+hit the nail on the head,"Acertou em cheio.
+",Hit the nail on the head.,1,22,66,8,233,602,203,1135
+He sent an email to his colleague.,"Ele enviou um e-mail para seu colega.
+",He sent an email to his colleague.,1,1,3,217,141,11,1,375
+carry a torch,Guardar uma chama.,Keep a flame.,43,48,315,612,508,324,158,2008
+They took a bus to the city center.,Eles pegaram um ônibus para o centro da cidade.,They took a bus to downtown.,22,33,95,350,321,150,1,972
+eat your heart out,"Coma seu coração.
+",Eat your heart out.,1,48,153,29,309,666,205,1411
+I did the laundry yesterday.,"Eu lavei a roupa ontem.
+",I washed the laundry yesterday.,13,26,102,387,323,201,1,1053
+They are taking a walk along the beach.,Eles estão passeando pela praia.,They are walking on the beach.,31,48,150,371,356,352,38,1346
+a weight on my shoulders,Um peso sobre meus ombros.,A weight on my shoulders.,1,30,75,163,224,263,1,757
+can't cut the mustard,Não está à altura.,Doesn't measure up.,47,48,336,651,639,547,272,2540
+come down to earth,"Voltar à realidade.
+",Come back to reality.,34,48,341,421,441,202,66,1553
+She is writing a letter to her friend.,"Ela está escrevendo uma carta para sua amiga.
+",She is writing a letter to her friend.,1,1,3,70,122,92,1,290
+bad apple,Uma maçã podre,A rotten apple,40,48,268,412,564,472,82,1886
+apple of my eye,"A menina dos meus olhos.
+",The apple of my eye.,7,30,205,223,344,622,136,1567
+She is making a salad for lunch.,Ela está fazendo uma salada para o almoço.,She is making a salad for lunch.,1,1,3,53,66,51,1,176
+He repaired the broken chair.,Ele consertou a cadeira quebrada.,He fixed the broken chair.,13,26,59,341,262,99,38,838
+icing on the cake,O toque final,The finishing touch,45,48,407,601,470,402,48,2021
+She went to the dentist for a check-up.,Ela foi ao dentista para um check-up.,She went to the dentist for a check-up.,1,1,3,161,103,303,1,573
+armed to the teeth,Armado até os dentes.,"Heavily armed.
+",43,48,373,431,565,506,207,2173
+Water boils at 100°C.,A água ferve a 100°C.,Water boils at 100°C.,1,1,4,39,1,4,1,51
+red herring,Pista falsa,Red herring,1,48,3,305,179,639,102,1277
+have a lot on your plate,"Ter muito o que fazer.
+",To have a lot on one's plate.,22,43,264,419,469,445,146,1808
+a clean slate,"Uma tela em branco.
+",A blank canvas.,43,48,342,514,500,267,169,1883
+feeding the fire,"Alimentando o fogo.
+",Fueling the fire.,26,48,262,408,398,476,140,1758
+finding a needle in a haystack,"Encontrar uma agulha num palheiro.
+",To find a needle in a haystack.,17,27,96,370,383,419,126,1438
+She is shopping for groceries.,Ela está fazendo compras de mantimentos.,She's grocery shopping.,37,48,236,410,358,580,216,1885
+born with a silver spoon,Nascido com uma colher de prata na boca.,Born with a silver spoon in one's mouth.,22,46,241,386,455,458,197,1805
+let the cat out of the bag,"Revelar o segredo.
+",Reveal the secret.,50,48,448,594,571,434,296,2441
+black mark,Mácula,"Spot
+",56,48,346,613,581,582,357,2583
+call it a day,Basta por hoje.,That's enough for today.,56,48,437,562,484,91,1,1679
+batten down the hatches,"Aproximar as escotilhas/portas.
+",Close the hatches/doors.,34,48,287,427,494,618,264,2172
+call it a night,Vamos dar por encerrada a noite.,Let's call it a night.,14,30,269,376,430,438,1,1558
+I worked on my computer for two hours.,Eu trabalhei no meu computador por duas horas.,I worked on my computer for two hours.,1,1,3,82,20,213,1,321
+man of the hour,O homenageado da hora,The person of the hour,27,48,245,406,367,569,97,1759
+from the bottom of my heart,"Do fundo do meu coração.
+",From the bottom of my heart.,1,22,94,52,223,41,1,434
+beat around the bush,"Enrolar a conversa.
+",Beat around the bush.,1,48,164,167,359,681,218,1638
+go the extra mile,"Fazer um esforço extra.
+",Go the extra mile.,1,48,149,19,182,379,1,779
+down to earth,"Pé no chão.
+",Down-to-earth.,1,48,260,301,429,497,99,1635
+They are chatting in the living room.,Eles estão conversando na sala.,They are talking in the room.,17,48,167,452,452,242,103,1481
+The dog ran across the yard.,O cachorro correu pelo quintal.,The dog ran through the yard.,12,48,22,342,259,428,44,1155
+bigger fish to fry,Assuntos mais importantes para tratar.,Most important matters to address.,47,48,433,650,638,417,84,2317
+climbing the walls,"Andando de um lado para o outro.
+",Pacing back and forth.,56,48,474,534,674,596,339,2721
+as clear as day,"Como a luz do dia.
+",As bright as day.,18,48,229,380,334,511,65,1585
+like a fish out of water,"Como um peixe fora d'água.
+",Like a fish out of water.,1,22,69,170,249,73,1,585
+"like father, like son","Filho de pai é filho.
+",A son of a father is a son.,43,48,354,575,604,206,304,2134
+blaze a trail,"Abrir um caminho.
+",To pave the way.,56,48,411,444,582,373,107,2021
+dare to dream,"Ousar sonhar.
+",Dare to dream.,1,48,173,204,328,591,68,1413
+at your wit’s end,Sem saber o que fazer.,Not knowing what to do.,56,48,512,535,626,287,329,2393
+a piece of cake,Uma moleza.,A piece of cake.,1,48,147,156,299,597,43,1291
+call the shots,"Dar as ordens.
+",To give the orders.,45,48,372,497,577,507,256,2302
+close call,"Por pouco.
+",By a hair.,56,48,499,677,688,677,395,3040
+against the clock,Contra o tempo,Against the clock,1,48,3,104,341,347,1,845
+eye of the storm,Olho do furacão,Eye of the hurricane,18,48,104,205,454,285,1,1115
+don't count your chickens before they hatch,"Não conte com o ovo antes da galinha sair.
+",Don't count your chickens before they hatch.,1,14,56,81,266,498,18,934
+They are having a family gathering at home.,"Eles estão tendo um encontro familiar em casa.
+",They're having a family gathering at home.,9,8,57,259,176,189,1,699
+big time,"Em grande estilo.
+",In style.,56,48,494,649,557,455,271,2530
+a drop in the ocean,Uma gota no oceano,A drop in the ocean.,1,30,111,152,252,499,51,1096
+big fish in a small pond,Peixe grande em lago pequeno.,Big fish in a small pond.,1,22,83,273,261,12,1,653
+She studied for the test all week.,"Ela estudou para a prova a semana toda.
+",She studied for the test all week.,1,1,4,109,132,184,1,432
+against all odds,Contra todas as probabilidades,Against all odds,1,48,3,2,217,132,1,404
+hit the nail on the head,Acertar em cheio.,To hit the nail on the head.,4,14,139,357,364,588,282,1748
+back against the wall,"Encurralado.
+",Cornered.,56,48,486,610,650,638,324,2812
+They watched the sunrise at the beach.,Eles assistiram ao nascer do sol na praia.,They watched the sunrise on the beach.,10,31,9,303,193,277,1,824
+butter wouldn't melt,Não derreteria manteiga.,I wouldn't melt butter.,27,48,225,476,440,384,211,1811
+a taste of their own medicine,"Uma provação da própria medicina.
+",A taste of one's own medicine.,17,48,221,366,382,513,88,1635
+She is organizing her closet.,Ela está organizando seu guarda-roupa.,She is organizing her closet.,1,1,3,45,47,134,1,232
+She went to the gym for a workout.,Ela foi à academia para se exercitar.,She went to the gym to work out.,28,35,145,359,295,131,1,994
+dropping like flies,Caindo como moscas.,Falling like flies.,26,48,213,364,396,634,227,1908
+a taste of freedom,"Um gostinho de liberdade.
+",A taste of freedom.,1,48,154,98,181,68,1,551
+hold your horses,Calma!,Calm down!,56,48,484,552,579,601,247,2567
+The weather is very cold today.,O tempo está muito frio hoje.,It's very cold today.,33,36,207,355,343,344,1,1319
+blood runs cold,"O sangue gela.
+",My blood runs cold.,10,48,253,269,222,628,178,1608
+don't cry over spilled milk,Não chore por leite derramado.,Don't cry over spilled milk.,1,30,74,20,281,188,1,595
+back to basics,Voltar ao básico,Back to basics,1,48,3,266,40,80,1,439
+go the extra mile,Ir além do esperado.,Go above and beyond.,46,48,422,527,472,482,41,2038
+carved in stone,Esculpido em pedra,Carved in stone,1,48,3,174,121,357,1,705
+She brushed her teeth before bed.,Ela escovou os dentes antes de dormir.,She brushed her teeth before bed.,1,1,2,30,31,70,1,136
+chip off the old block,Cópia fiel do pai.,A faithful copy of his father.,56,48,428,655,644,240,318,2389
+cat nap,Soneca,Nap,26,48,307,500,448,561,344,2234
+chip on your shoulder,"Complexo de inferioridade.
+",Inferiority complex.,56,48,504,556,675,53,232,2124
+as gentle as a lamb,Tão manso quanto um cordeiro.,As gentle as a lamb.,1,30,109,99,342,485,115,1181
+They went to a theme park for the day.,Eles foram para um parque temático por um dia.,They went to a theme park for a day.,8,11,60,319,175,161,1,735
+burn the midnight oil,"Queimar o óleo da noite.
+",Burn the night's oil.,27,48,255,418,481,553,245,2027
+blind leading the blind,Cegos guiando cegos.,Blind leading the blind.,1,48,123,210,304,531,134,1351
+blue in the face,"Falar até ficar roxo.
+",To talk someone blue in the face.,20,44,298,604,543,688,346,2543
+She is taking a picture of the flowers in the garden.,Ela está tirando uma foto das flores no jardim.,She is taking a picture of the flowers in the garden.,1,1,3,228,102,194,1,530
+They are having a barbecue in the garden.,"Eles estão fazendo um churrasco no jardim.
+",They're having a barbecue in the garden.,9,8,62,242,168,94,1,584
+jump the gun,Antecipar-se demais,To get ahead of oneself.,56,48,473,595,680,612,302,2766
+They are walking through the city streets.,Eles estão andando pelas ruas da cidade.,They are walking through the city streets.,1,1,3,131,77,425,1,639
+She reads a book every night.,"Ela lê um livro todas as noites.
+",She reads a book every night.,1,1,2,130,14,31,1,180
+chained to the desk,"Preso à mesa.
+",Tied to the table.,34,48,319,464,476,657,172,2170
+He did some gardening in the afternoon.,Ele fez alguns trabalhos de jardinagem à tarde.,He did some gardening in the afternoon.,1,1,3,137,100,343,1,586
+They enjoyed a picnic in the park.,Eles fizeram um piquenique no parque.,They had a picnic in the park.,10,11,38,311,246,110,1,727
+dive in headfirst,Mergulhar de cabeça,To dive in headfirst,10,48,87,367,354,558,229,1653
+have the upper hand,"Ter a vantagem.
+",To have the advantage.,34,48,345,447,463,462,222,2021
+She is ironing her clothes.,Ela está passando suas roupas.,She is ironing her clothes.,1,1,3,16,74,340,35,470
+He plays soccer every weekend.,Ele joga futebol todo fim de semana.,He plays soccer every weekend.,1,1,3,86,2,221,1,315
+at the drop of a hat,"De repente, sem hesitar, à primeira vista.
+","Suddenly, without hesitation, at first glance.",52,48,500,629,655,413,323,2620
+have a heart of stone,"Ter um coração de pedra.
+",To have a heart of stone.,5,22,199,360,322,101,64,1073
+He worked on his computer for hours.,Ele trabalhou no computador dele por horas.,He worked on his computer for hours.,1,1,4,175,9,286,1,477
+airing dirty laundry,"Expor a vida privada.
+",Expose one's private life.,56,48,423,543,632,337,316,2355
+dead in the water,"Sem perspectiva.
+",No prospect.,56,48,496,631,629,538,382,2780
+another string to your bow,Mais uma carta na manga.,Another card up my sleeve.,49,48,351,639,622,259,224,2192
+"easy come, easy go","O que vem fácil, vai fácil.
+","What comes easy, goes easy.",37,48,324,482,375,333,246,1845
+bend over backwards,"Fazer de tudo, ir longe demais, se dobrar em dez.
+","Go to any lengths, bend over backward, give in ten times.",45,48,301,516,625,693,384,2612
+bolt from the blue,"Do nada.
+",Out of nowhere.,56,48,470,538,502,564,273,2451
+dropping the ball,"Deixar a bola cair.
+",Let the ball drop.,31,48,261,423,404,510,67,1744
+born with a silver spoon,Nascido com uma colher de prata na boca.,Born with a silver spoon in one's mouth.,22,46,241,386,455,458,197,1805
+as plain as day,"Tão claro quanto o dia.
+",As clear as day.,18,48,220,358,311,549,98,1602
+like a fish to water,Como um peixe na água.,Like a fish in water.,13,48,212,437,365,86,36,1197
+change your tune,Mude de ideia.,Change your mind.,26,48,283,436,431,180,217,1621
+adding fuel to the fire,"Agravando a situação.
+",Worsening the situation.,46,48,384,518,539,451,54,2040
+They are playing board games in the living room.,Eles estão jogando jogos de tabuleiro na sala de estar.,They are playing board games in the living room.,1,1,3,155,88,106,1,355
+dying to know,"Morrendo de curiosidade.
+",Dying to know.,1,48,160,1,257,559,10,1036
+She is making a smoothie for breakfast.,Ela está fazendo um smoothie para o café da manhã.,She's making a smoothie for breakfast.,10,13,31,265,220,93,1,633
+in the same boat,"Na mesma situação.
+",In the same situation.,18,48,274,492,423,274,96,1625
+better late than never,Mais vale tarde do que nunca.,Better late than never.,1,48,146,33,146,74,5,453
+frog in your throat,Um caroço na garganta.,A lump in my throat.,37,48,404,572,483,398,242,2184
+down in the dumps,Abaixo espiritualmente,Spiritually low,56,48,453,607,588,573,311,2636
+blood is thicker than water,O sangue é mais grosso que a água.,Blood is thicker than water.,1,30,67,14,131,56,1,300
+as high as a kite,"Bem alto, viajado, chapado.
+","Very high, traveled, stoned.",47,48,426,656,685,654,369,2885
+foot in the door,Um pequeno começo,A small start,56,48,476,641,530,317,252,2320
+crying over spilled milk,Chorar por leite derramado.,To cry over spilled milk.,27,48,203,374,413,427,101,1593
+He is studying for his exams.,Ele está estudando para as provas.,He is studying for the exams.,12,32,58,302,271,342,1,1018
+darkest before dawn,"A noite mais escura antes do amanhecer.
+",The darkest night before dawn.,19,48,244,411,335,128,49,1234
+They are taking a family vacation.,"Eles estão tirando férias em família.
+",They are on vacation with their family.,36,48,180,368,336,174,1,1143
+cat got your tongue,O gato comeu sua língua?,Did the cat eat your tongue?,30,48,292,574,436,121,32,1533
+barking up the wrong tree,"Procurando no lugar errado.
+","Looking in the wrong place.
+",39,48,322,479,568,555,259,2270
+bird's eye view,Vista aérea,Aerial view,43,48,349,425,464,183,66,1578
+by a long shot,"De maneira alguma.
+",No way.,56,48,488,468,586,280,269,2195
+add insult to injury,Atingir/Juntar-se a um golpe com outro.,Join forces with someone else.,56,48,461,634,659,593,373,2824

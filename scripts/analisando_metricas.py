@@ -2,13 +2,6 @@ import json
 import pandas as pd
 import csv
 
-respostas = {
-    "manualdata_prompt1": [],
-    "manualdata_prompt2": [],
-    "newsmet_prompt1": [],
-    "newsmet_prompt2": []
-}
-
 datasets = ["manualdata", "newsmet"]
 modelos = ["gemini", "gemma3", "gemmaX", "gpt", "llama", "marian", "meta", "mistral", "qwen"]
 
@@ -57,8 +50,6 @@ def preencher_objeto(vet_prompt, modelo, dataset):
         "matriz" : preencher_matriz(arquivo)
     }
 
-    return object
-
 
 def escrever_matriz_em_csv(matriz, arquivo):
     path = f"{arquivo[0:arquivo.rfind('/frases_traduzidas_com_metricas.json')]}/matriz.csv"
@@ -83,8 +74,9 @@ def print_matriz(matriz):
         print_linha() 
 
 
-for dataset in datasets:
+if __name__ == "__main__":
+    for dataset in datasets:
         for modelo in modelos:
-            # respostas[f"{dataset}_prompt1"].append(preencher_objeto(f"{dataset}_prompt1", modelo, dataset))
-            respostas[f"{dataset}_prompt2"].append(preencher_objeto(f"{dataset}_prompt2", modelo, dataset))
+            preencher_objeto(f"{dataset}_prompt1", modelo, dataset)
+            preencher_objeto(f"{dataset}_prompt2", modelo, dataset)
 
