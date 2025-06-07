@@ -14,12 +14,9 @@ def montar_df(modelos, dataset, df, object, metricas, frases):
         caminho = f"dataset_{dataset}/{modelo}/frases_traduzidas_com_metricas.json"
         with open(caminho, "r") as f:
             dados_modelos[modelo] = json.load(f)
-        if len(dados_modelos[modelo]) == 0:
-            print(f"Modelo {modelo} do dataset {dataset} não possui dados.")
-            break
     
     for i, frase in enumerate(frases):
-        # print(f"Frase {i+1} de {len(frases)}")
+        print(f"Frase {i+1} de {len(frases)}")
         for modelo in modelos:
             dados = dados_modelos[modelo]
             if i >= len(dados):
@@ -34,37 +31,13 @@ def montar_df(modelos, dataset, df, object, metricas, frases):
     df = pd.DataFrame(object)
     print(df.head())
     return df
-
-def check_missing_models(df, expected_models, dataset_name):
-    # Extrair os nomes base dos modelos esperados (removendo '/prompt1/' etc)
-    expected_models_base = [m.split('/')[0] for m in expected_models]
-    expected_models_base = list(set(expected_models_base))  # Remover duplicados
-    
-    # Modelos presentes nos dados
-    present_models = df['modelo'].unique()
-    
-    # Modelos faltantes
-    missing_models = [m for m in expected_models_base if m not in present_models]
-    
-    print(f"\nDataset: {dataset_name}")
-    print("Modelos esperados:", expected_models_base)
-    print("Modelos presentes:", present_models)
-    print("Modelos faltantes:", missing_models)
-    
-    return missing_models
-
-def check_models_per_sentence(df, sentence_index):
-        frase = df['frases_ingles'].unique()[sentence_index]
-        models_for_sentence = df[df['frases_ingles'] == frase]['modelo'].unique()
-        print(f"\nFrase: {frase}")
-        print("Modelos presentes:", models_for_sentence)
-        print("Modelos faltantes:", [m for m in all_models if m not in models_for_sentence])
         
 
 if __name__ == "__main__":
     datasets = ["manualdata", "newsmet"]
     modelos_prompt1 = ["gemini/prompt1/", "gemma3/prompt1/", "gemmaX", "gpt/prompt1/", "llama/prompt1/", "marian", "meta", "mistral/prompt1/", "qwen/prompt1/"]
-    modelos_prompt2 = ["gemini/prompt2/", "gemma3/prompt2/" "gemmaX", "gpt/prompt2/", "llama/prompt2/" "marian", "meta", "mistral/prompt2/","qwen/prompt2/"]
+    modelos_prompt2 = ["gemini/prompt2/", "gemma3/prompt2/", "gemmaX", "gpt/prompt2/", "llama/prompt2/", "marian", "meta", "mistral/prompt2/","qwen/prompt2/"]
+    todos_modelos = ["gemini/prompt1/", "gemma3/prompt1/", "gpt/prompt1/", "llama/prompt1/", "mistral/prompt1/", "qwen/prompt1/", "gemini/prompt2/", "gemma3/prompt2/", "gpt/prompt2/", "llama/prompt2/", "mistral/prompt2/","qwen/prompt2/", "gemmaX", "marian", "meta"]
     vet_manualdata = pd.read_parquet("comparacao_datasets/manual_data.parquet")["Sentence"].tolist()
     vet_newsmet = pd.read_csv("comparacao_datasets/newsmet.csv")["Text"].tolist()
 
@@ -80,51 +53,41 @@ if __name__ == "__main__":
         df = pd.DataFrame()
         if dataset == "manualdata":
             df = montar_df(modelos_prompt1, dataset, df, object, metricas, vet_manualdata)
-            df.to_csv(f"dataset_{dataset}/icc_prompt1.csv", index=False)
+            df.to_csv(f"dataset_{dataset}/df_prompt1.csv", index=False)
+            df = montar_df(modelos_prompt2, dataset, df, object, metricas, vet_manualdata)
+            df.to_csv(f"dataset_{dataset}/df_prompt2.csv", index=False)
+            df = montar_df(todos_modelos, dataset, df, object, metricas, vet_manualdata)
+            df.to_csv(f"dataset_{dataset}/df_geral.csv", index=False)
         elif dataset == "newsmet":
             df = montar_df(modelos_prompt1, dataset, df, object, metricas, vet_newsmet)
-            df.to_csv(f"dataset_{dataset}/icc_prompt2.csv", index=False)
-    df_manualdata = pd.read_csv("dataset_manualdata/icc.csv")
-    print(df_manualdata.columns)
-    print(df_manualdata.head())
+            df.to_csv(f"dataset_{dataset}/df_prompt1.csv", index=False)
+            df = montar_df(modelos_prompt2, dataset, df, object, metricas, vet_newsmet)
+            df.to_csv(f"dataset_{dataset}/df_prompt2.csv", index=False)
+            df = montar_df(todos_modelos, dataset, df, object, metricas, vet_newsmet)
+            df.to_csv(f"dataset_{dataset}/df_geral.csv", index=False)
 
-    df_newsmet = pd.read_csv("dataset_newsmet/icc.csv")
-    print(df_manualdata.columns)
-    print(df_manualdata.head())
+    df_manualdata1 = pd.read_csv("dataset_manualdata/df_prompt1.csv")
+    df_manualdata2 = pd.read_csv("dataset_manualdata/df_prompt2.csv")
+    df_manualdata_geral = pd.read_csv("dataset_manualdata/df_geral.csv")
 
-    # Verifica se todas as frases têm o mesmo número de modelos
-    contagem = df_manualdata.groupby("frases_ingles")["modelo"].nunique()
-    print(contagem.value_counts())
-
-    # Verifica se todas as frases têm o mesmo número de modelos
-    contagem = df_newsmet.groupby("frases_ingles")["modelo"].nunique()
-    print(contagem.value_counts())
-
-    # Lista de modelos esperados (ajuste conforme necessário)
-    all_models = modelos_prompt1 + modelos_prompt2
-    all_models = list(set([m.split('/')[0] for m in all_models]))  # Obter nomes únicos
-
-    # Verificar para cada dataset
-    missing_manual = check_missing_models(df_manualdata, modelos_prompt1, "manualdata (prompt1)")
-    missing_newsmet = check_missing_models(df_newsmet, modelos_prompt1, "newsmet (prompt1)")
-
-    print(missing_manual)
-    print(missing_newsmet)
-        # Verificar quantas frases cada modelo possui
-    print("\nContagem de frases por modelo (manualdata):")
-    print(df_manualdata.groupby('modelo')['frases_ingles'].nunique())
-
-    print("\nContagem de frases por modelo (newsmet):")
-    print(df_newsmet.groupby('modelo')['frases_ingles'].nunique())
+    df_newsmet1 = pd.read_csv("dataset_newsmet/df_prompt1.csv")
+    df_newsmet2 = pd.read_csv("dataset_newsmet/df_prompt2.csv")
+    df_newsmet_geral = pd.read_csv("dataset_newsmet/df_geral.csv")
 
 
-    icc_manualdata = pg.intraclass_corr(data=df_manualdata, targets='frases_ingles', raters='modelo', ratings='score').round(3)
-    df_manualdata.to_csv("dataset_manualdata/icc_final.csv", index=False)
-    print(df_manualdata.head())
+    icc_manualdata1 = pg.intraclass_corr(data=df_manualdata1, targets='frases_ingles', raters='modelo', ratings='score').round(3)
+    icc_manualdata1.to_csv("dataset_manualdata/icc_final_prompt1.csv", index=False)
+    icc_manualdata2 = pg.intraclass_corr(data=df_manualdata2, targets='frases_ingles', raters='modelo', ratings='score').round(3)
+    icc_manualdata2.to_csv("dataset_manualdata/icc_final_prompt2.csv", index=False)
+    icc_manualdata_geral = pg.intraclass_corr(data=df_manualdata_geral, targets='frases_ingles', raters='modelo', ratings='score').round(3)
+    icc_manualdata_geral.to_csv("dataset_manualdata/icc_final_geral.csv", index=False)
 
-    icc_newsmet = pg.intraclass_corr(data=df_newsmet, targets='frases_ingles', raters='modelo', ratings='score').round(3)
-    df_newsmet.to_csv("dataset_newsmet/icc_final.csv", index=False)
-    print(df_newsmet.head())
+    icc_newsmet1 = pg.intraclass_corr(data=df_newsmet1, targets='frases_ingles', raters='modelo', ratings='score').round(3)
+    icc_newsmet1.to_csv("dataset_newsmet/icc_final_prompt1.csv", index=False)
+    icc_newsmet2 = pg.intraclass_corr(data=df_newsmet2, targets='frases_ingles', raters='modelo', ratings='score').round(3)
+    icc_newsmet2.to_csv("dataset_newsmet/icc_final_prompt2.csv", index=False)
+    icc_newsmet_geral = pg.intraclass_corr(data=df_newsmet_geral, targets='frases_ingles', raters='modelo', ratings='score').round(3)
+    icc_newsmet_geral.to_csv("dataset_newsmet/icc_final_geral.csv", index=False)
 
 # Então, no seu caso, a resposta depende de o que você quer medir com o ICC:
 # 🔸 Se você quer avaliar consistência entre modelos:

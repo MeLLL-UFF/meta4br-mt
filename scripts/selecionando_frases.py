@@ -3,8 +3,8 @@ import numpy as np
 import json
 
 datasets = ["manualdata", "newsmet"]
-modelos1 = ["gemini/prompt1", "gemma3/prompt1", "gpt/prompt1", "llama/prompt1", "mistral/prompt1", "qwen/prompt1"]
-modelos2 = ["gemini/prompt2", "gemma3/prompt2", "gpt/prompt2", "llama/prompt2", "mistral/prompt2", "qwen/prompt2"]
+modelos1 = ["gemini/prompt1", "gemma3/prompt1", "gpt/prompt1", "llama/prompt1", "mistral/prompt1", "qwen/prompt1", "gemmaX", "meta", "marian"]
+modelos2 = ["gemini/prompt2", "gemma3/prompt2", "gpt/prompt2", "llama/prompt2", "mistral/prompt2", "qwen/prompt2", "gemmaX", "meta", "marian"]
 modelos3 = ["gemmaX", "meta", "marian"]
 
 
