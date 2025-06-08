@@ -1,4 +1,0 @@
-Modelo,_media,Bleu_media,Bertscore_media,Bleurt_media,Comet22_media,Kiwi-XL_media,XComet-XL_media
-gemmaX,,0.246,0.954,0.763,0.899,0.918,0.981
-marian,,0.26,0.95,0.614,0.859,0.773,0.932
-meta,,0.1,0.884,0.245,0.783,0.705,0.84

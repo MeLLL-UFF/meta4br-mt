@@ -88,15 +88,3 @@ if __name__ == "__main__":
     icc_newsmet2.to_csv("dataset_newsmet/icc_final_prompt2.csv", index=False)
     icc_newsmet_geral = pg.intraclass_corr(data=df_newsmet_geral, targets='frases_ingles', raters='modelo', ratings='score').round(3)
     icc_newsmet_geral.to_csv("dataset_newsmet/icc_final_geral.csv", index=False)
-
-# Então, no seu caso, a resposta depende de o que você quer medir com o ICC:
-# 🔸 Se você quer avaliar consistência entre modelos:
-# targets = frase_id (ou a frase em inglês)
-# raters = modelo
-# ratings = score (por exemplo: ROUGE-L)
-# Aqui, você mede se os modelos concordam entre si ao avaliar uma mesma frase segundo uma métrica específica.
-# 🔸 Se você quiser avaliar consistência entre métricas (menos comum nesse caso):
-# targets = frase_id
-# raters = metrica
-# ratings = score
-# Isso mediria se as métricas concordam entre si ao avaliar uma mesma tradução.
