@@ -15,8 +15,8 @@ model_xcomet = load_from_checkpoint(xcomet_model_path)
 
 # datasets = ["dataset_newsmet/", "dataset_manueladata/"]
 # pastas =["gemma3/prompt1/", "gemma3/prompt2/", "gpt/prompt1/", "gpt/prompt2/", "llama/promp1/", "llama/prompt2/", "marian/", "meta/", "mistral/prompt1/", "mistral/prompt2/", "qwen/prompt1/", "qwen/prompt2/"]
-datasets = ["dataset_newsmet/"]
-pastas = ["gemma3/prompt1/"]
+datasets = ["dataset_manualdata/"]
+pastas = ["gemini/prompt2/"]
 
 for dataset in datasets:
     for pasta in pastas:
