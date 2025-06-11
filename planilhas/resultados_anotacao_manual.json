@@ -1,0 +1,340 @@
+[
+    {
+        "modelo": "gpt",
+        "total_frases": 70,
+        "contem_metafora": {
+            "Sim": 64,
+            "Não": 6
+        },
+        "fluencia": {
+            "5.0": 37,
+            "4.0": 16,
+            "2.0": 9,
+            "1.0": 2
+        },
+        "inteligibilidade": {
+            "5.0": 43,
+            "4.0": 10,
+            "2.0": 9,
+            "1.0": 2
+        },
+        "compreensão": {
+            "5.0": 44,
+            "4.0": 9,
+            "2.0": 9,
+            "1.0": 2
+        },
+        "equivalencia_total": {
+            "Sim": 45,
+            "Não": 19
+        },
+        "equivalencia_parcial": {
+            "Não": 56,
+            "Sim": 8
+        },
+        "nao_equivalencia": {
+            "Não": 54,
+            "Sim": 11
+        },
+        "traducao_incorreta": {
+            "Não": 70
+        },
+        "erro_fonte": {
+            "Não": 70
+        },
+        "nao_traducao": {
+            "Não": 70
+        }
+    },
+    {
+        "modelo": "gemini",
+        "total_frases": 70,
+        "contem_metafora": {
+            "Sim": 64,
+            "Não": 6
+        },
+        "fluencia": {
+            "5.0": 37,
+            "4.0": 17,
+            "2.0": 8,
+            "1.0": 2
+        },
+        "inteligibilidade": {
+            "5.0": 45,
+            "4.0": 9,
+            "2.0": 8,
+            "1.0": 2
+        },
+        "compreensão": {
+            "5.0": 46,
+            "4.0": 8,
+            "2.0": 8,
+            "1.0": 2
+        },
+        "equivalencia_total": {
+            "Sim": 47,
+            "Não": 17
+        },
+        "equivalencia_parcial": {
+            "Não": 57,
+            "Sim": 7
+        },
+        "nao_equivalencia": {
+            "Não": 54,
+            "Sim": 10
+        },
+        "traducao_incorreta": {
+            "Não": 70
+        },
+        "erro_fonte": {
+            "Não": 70
+        },
+        "nao_traducao": {
+            "Não": 70
+        }
+    },
+    {
+        "modelo": "llama",
+        "total_frases": 70,
+        "contem_metafora": {
+            "Sim": 64,
+            "Não": 6
+        },
+        "fluencia": {
+            "5.0": 38,
+            "4.0": 12,
+            "2.0": 9,
+            "1.0": 4,
+            "3.0": 1
+        },
+        "inteligibilidade": {
+            "5.0": 41,
+            "2.0": 10,
+            "4.0": 9,
+            "1.0": 4
+        },
+        "compreensão": {
+            "5.0": 41,
+            "2.0": 10,
+            "4.0": 9,
+            "1.0": 4
+        },
+        "equivalencia_total": {
+            "Sim": 40,
+            "Não": 24
+        },
+        "equivalencia_parcial": {
+            "Não": 53,
+            "Sim": 11
+        },
+        "nao_equivalencia": {
+            "Não": 55,
+            "Sim": 9
+        },
+        "traducao_incorreta": {
+            "Não": 67,
+            "Sim": 3
+        },
+        "erro_fonte": {
+            "Não": 70
+        },
+        "nao_traducao": {
+            "Não": 70
+        }
+    },
+    {
+        "modelo": "mistral",
+        "total_frases": 70,
+        "contem_metafora": {
+            "Sim": 64,
+            "Não": 6
+        },
+        "fluencia": {
+            "4.0": 28,
+            "5.0": 23,
+            "2.0": 9,
+            "1.0": 4
+        },
+        "inteligibilidade": {
+            "5.0": 41,
+            "4.0": 10,
+            "2.0": 9,
+            "1.0": 4
+        },
+        "compreensão": {
+            "5.0": 41,
+            "4.0": 10,
+            "2.0": 9,
+            "1.0": 4
+        },
+        "equivalencia_total": {
+            "Sim": 41,
+            "Não": 23
+        },
+        "equivalencia_parcial": {
+            "Não": 53,
+            "Sim": 11
+        },
+        "nao_equivalencia": {
+            "Não": 52,
+            "Sim": 12
+        },
+        "traducao_incorreta": {
+            "Não": 65,
+            "Sim": 5
+        },
+        "erro_fonte": {
+            "Não": 70
+        },
+        "nao_traducao": {
+            "Não": 69,
+            "Sim": 1
+        }
+    },
+    {
+        "modelo": "qwen",
+        "total_frases": 70,
+        "contem_metafora": {
+            "Sim": 64,
+            "Não": 6
+        },
+        "fluencia": {
+            "4.0": 43,
+            "1.0": 8,
+            "2.0": 6,
+            "5.0": 6,
+            "3.0": 1
+        },
+        "inteligibilidade": {
+            "5.0": 38,
+            "4.0": 12,
+            "1.0": 8,
+            "2.0": 6
+        },
+        "compreensão": {
+            "5.0": 40,
+            "4.0": 10,
+            "1.0": 8,
+            "2.0": 6
+        },
+        "equivalencia_total": {
+            "Sim": 39,
+            "Não": 25
+        },
+        "equivalencia_parcial": {
+            "Não": 53,
+            "Sim": 11
+        },
+        "nao_equivalencia": {
+            "Não": 50,
+            "Sim": 14
+        },
+        "traducao_incorreta": {
+            "Não": 63,
+            "Sim": 7
+        },
+        "erro_fonte": {
+            "Não": 70
+        },
+        "nao_traducao": {
+            "Não": 69,
+            "Sim": 1
+        }
+    },
+    {
+        "modelo": "meta",
+        "total_frases": 70,
+        "contem_metafora": {
+            "Sim": 64,
+            "Não": 6
+        },
+        "fluencia": {
+            "5.0": 32,
+            "4.0": 18,
+            "2.0": 7,
+            "1.0": 7
+        },
+        "inteligibilidade": {
+            "5.0": 41,
+            "4.0": 9,
+            "2.0": 7,
+            "1.0": 7
+        },
+        "compreensão": {
+            "5.0": 41,
+            "4.0": 9,
+            "2.0": 7,
+            "1.0": 7
+        },
+        "equivalencia_total": {
+            "Sim": 39,
+            "Não": 25
+        },
+        "equivalencia_parcial": {
+            "Não": 53,
+            "Sim": 11
+        },
+        "nao_equivalencia": {
+            "Não": 51,
+            "Sim": 13
+        },
+        "traducao_incorreta": {
+            "Não": 63,
+            "Sim": 7
+        },
+        "erro_fonte": {
+            "Não": 70
+        },
+        "nao_traducao": {
+            "Não": 70
+        }
+    },
+    {
+        "modelo": "marian",
+        "total_frases": 70,
+        "contem_metafora": {
+            "Sim": 64,
+            "Não": 6
+        },
+        "fluencia": {
+            "4.0": 28,
+            "5.0": 23,
+            "2.0": 10,
+            "1.0": 3
+        },
+        "inteligibilidade": {
+            "5.0": 41,
+            "4.0": 10,
+            "2.0": 10,
+            "1.0": 3
+        },
+        "compreensão": {
+            "5.0": 42,
+            "2.0": 10,
+            "4.0": 9,
+            "1.0": 3
+        },
+        "equivalencia_total": {
+            "Sim": 42,
+            "Não": 22
+        },
+        "equivalencia_parcial": {
+            "Não": 55,
+            "Sim": 9
+        },
+        "nao_equivalencia": {
+            "Não": 51,
+            "Sim": 13
+        },
+        "traducao_incorreta": {
+            "Não": 67,
+            "Sim": 3
+        },
+        "erro_fonte": {
+            "Não": 70
+        },
+        "nao_traducao": {
+            "Não": 70
+        }
+    }
+]

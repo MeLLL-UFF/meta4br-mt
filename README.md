@@ -197,8 +197,5 @@ Ordem que estou rodando os scripts:
 - Ministral-8B-Instruct-2410
 - opus-mt-en-ROMANCE (tem que forçar o pt na frase pq ele mistura mt espanhol)
 - opus-mt-ROMANCE-en
-<<<<<<< HEAD
 
 Criamos um prompt2 com mais detalhes, mas não rodamos ele nos modelos da meta nem no marian porque eles não usam prompt, como sào puramente de tradução, só recebem a frase como input.
-=======
->>>>>>> 1c995d8f85deaebc849ca684b92f153073ed4d18
