@@ -11,7 +11,7 @@ import re
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
 
-    df = pd.read_parquet("comparacao_datasets/manual_data.parquet")
+    df = pd.read_parquet("comparacao_datasets/common1.parquet")
 
     device = f'cuda' if torch.cuda.is_available() else 'cpu'
     
@@ -31,7 +31,7 @@ def main(model_id, hf_token, output_path):
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    json_output_path = os.path.join(output_path, "prompt2/ENtoPT.json")
+    json_output_path = os.path.join(output_path, "ENtoPT.json")
     
         
     anotacoes = []
@@ -42,7 +42,7 @@ def main(model_id, hf_token, output_path):
         prompt2 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"
 
         messages = [
-            {"role": "user", "content": prompt2}
+            {"role": "user", "content": prompt1}
         ]
         
         outputs = pipeline(
