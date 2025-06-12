@@ -53,11 +53,12 @@ def main(model_id, hf_token, output_path):
             
         outputs = pipeline(
             messages,
-            max_new_tokens=2000,
+            max_new_tokens=200,
             do_sample=True,
             temperature=1,
             top_p=0.95,
         )
+        
 
         generated_texts = outputs[0]["generated_text"][1]['content']
 

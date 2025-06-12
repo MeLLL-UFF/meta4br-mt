@@ -336,5 +336,53 @@
         "nao_traducao": {
             "Não": 70
         }
+    },
+    {
+        "modelo": "gemmaX",
+        "total_frases": 70,
+        "contem_metafora": {
+            "Sim": 64,
+            "Não": 6
+        },
+        "fluencia": {
+            "5.0": 43,
+            "2.0": 9,
+            "4.0": 9,
+            "1.0": 3
+        },
+        "inteligibilidade": {
+            "5.0": 42,
+            "4.0": 10,
+            "2.0": 9,
+            "1.0": 3
+        },
+        "compreensão": {
+            "5.0": 43,
+            "4.0": 9,
+            "2.0": 9,
+            "1.0": 3
+        },
+        "equivalencia_total": {
+            "Sim": 43,
+            "Não": 21
+        },
+        "equivalencia_parcial": {
+            "Não": 55,
+            "Sim": 9
+        },
+        "nao_equivalencia": {
+            "Não": 57,
+            "Sim": 10
+        },
+        "traducao_incorreta": {
+            "Não": 68,
+            "Sim": 2
+        },
+        "erro_fonte": {
+            "Não": 70
+        },
+        "nao_traducao": {
+            "Não": 70
+        }
     }
 ]
