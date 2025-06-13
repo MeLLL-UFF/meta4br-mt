@@ -1,0 +1,4 @@
+Modelo,Bleu_desvio,Rouge_desvio,Bertscore_desvio,Bleurt_desvio,Comet22_desvio,Kiwi-XL_desvio,XComet-XL_desvio
+gemmaX,0.274,0.152,0.036,0.253,0.057,0.135,0.049
+marian,0.277,0.142,0.034,0.4,0.087,0.246,0.096
+meta,0.174,0.225,0.07,0.574,0.135,0.327,0.215

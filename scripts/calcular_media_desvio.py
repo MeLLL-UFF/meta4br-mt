@@ -3,14 +3,16 @@ import json
 import os
 
 
-def carregar_dados(modelos, dataset):
-    todos_dados = []
+def carregar_dados(modelos, dataset, frases):
+    todos_dados_com_metafora = []
+    todos_dados_sem_metafora = []
     for modelo in modelos:
         caminho = f"dataset_{dataset}/{modelo}/frases_traduzidas_com_metricas.json"
         with open(caminho, "r") as f:
             dados_json = json.load(f)
         for d in dados_json:
-            dados_flat = {
+            dados_metricas = {
+                "frase": d["ingles_original"],
                 "Modelo": modelo.split("/")[0],
                 "BLEU": d["BLEU"]["bleu"],
                 "ROUGE": d["ROUGE"]["rougeL"],
@@ -20,8 +22,10 @@ def carregar_dados(modelos, dataset):
                 "KIWI-XL": d["KIWI-XL"]["scores"],
                 "XCOMET-XL": d["XCOMET-XL"]["scores"]
             }
-            todos_dados.append(dados_flat)
-    return pd.DataFrame(todos_dados)
+
+            if(dados_metricas["frase"] in frases): todos_dados_com_metafora.append(dados_metricas)
+            else : todos_dados_sem_metafora.append(dados_metricas)
+    return pd.DataFrame(todos_dados_com_metafora), pd.DataFrame(todos_dados_sem_metafora)
 
 
 def calcular_estatisticas(df):
@@ -60,18 +64,35 @@ if __name__ == "__main__":
     modelos_tradicionais = ["gemmaX", "marian", "meta"]
 
     for dataset in datasets:
-        for grupo_modelos in modelos:
-            df = carregar_dados(grupo_modelos, dataset)
-            medias, desvios = calcular_estatisticas(df)
+        if dataset == "newsmet":
+            df_original = pd.read_csv(f"comparacao_datasets/{dataset}.csv")
+            frases = list(set(df_original.loc[df_original["predicted_label"] == "metaphorical", "Text"]))
 
+        elif dataset == "manualdata":
+            df_original = pd.read_parquet(f"comparacao_datasets/manual_data.parquet")
+            frases = list(set(df_original.loc[df_original["Label"] == 1, "Sentence"]))
+
+        for grupo_modelos in modelos:
             prompt_nome = grupo_modelos[0].split("/")[1]
             pasta = f"dataset_{dataset}/[CSV] media_desvio_padrao"
             os.makedirs(pasta, exist_ok=True)
 
-            medias.to_csv(f"{pasta}/medias_{prompt_nome}.csv", index=False)
-            desvios.to_csv(f"{pasta}/desvio_padrao_{prompt_nome}.csv", index=False)
+            df_com_metafora, df_sem_metafora = carregar_dados(grupo_modelos, dataset, frases)
 
-        df_trad = carregar_dados(modelos_tradicionais, dataset)
-        medias, desvios = calcular_estatisticas(df_trad)
-        medias.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/medias_tradicionais.csv", index=False)
-        desvios.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/desvio_padrao_tradicionais.csv", index=False)
+            medias, desvios = calcular_estatisticas(df_com_metafora)
+            medias.to_csv(f"{pasta}/junto/medias_{prompt_nome}_com_metafora.csv", index=False)
+            desvios.to_csv(f"{pasta}/junto/desvio_padrao_{prompt_nome}_com_metafora.csv", index=False)
+
+            medias, desvios = calcular_estatisticas(df_sem_metafora)
+            medias.to_csv(f"{pasta}/junto/medias_{prompt_nome}_sem_metafora.csv", index=False)
+            desvios.to_csv(f"{pasta}/junto/desvio_padrao_{prompt_nome}_sem_metafora.csv", index=False)
+
+        df_trad_com_metafora, df_trad_sem_metafora = carregar_dados(modelos_tradicionais, dataset, frases)
+
+        medias, desvios = calcular_estatisticas(df_trad_com_metafora)
+        medias.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/medias_tradicionais_com_metafora.csv", index=False)
+        desvios.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/desvio_padrao_tradicionais_com_metafora.csv", index=False)
+
+        medias, desvios = calcular_estatisticas(df_sem_metafora)
+        medias.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/medias_tradicionais_sem_metafora.csv", index=False)
+        desvios.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/desvio_padrao_tradicionais_sem_metafora.csv", index=False)

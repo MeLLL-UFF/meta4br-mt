@@ -384,5 +384,56 @@
         "nao_traducao": {
             "Não": 70
         }
+    },
+    {
+        "modelo": "gemma3",
+        "total_frases": 70,
+        "contem_metafora": {
+            "Sim": 64,
+            "Não": 6
+        },
+        "fluencia": {
+            "5.0": 45,
+            "2.0": 9,
+            "4.0": 8,
+            "1.0": 1,
+            "3.0": 1
+        },
+        "inteligibilidade": {
+            "5.0": 45,
+            "2.0": 9,
+            "4.0": 8,
+            "1.0": 1,
+            "3.0": 1
+        },
+        "compreensão": {
+            "5.0": 45,
+            "2.0": 9,
+            "4.0": 8,
+            "1.0": 1,
+            "3.0": 1
+        },
+        "equivalencia_total": {
+            "Sim": 45,
+            "Não": 19
+        },
+        "equivalencia_parcial": {
+            "Não": 56,
+            "Sim": 8
+        },
+        "nao_equivalencia": {
+            "Não": 53,
+            "Sim": 11
+        },
+        "traducao_incorreta": {
+            "Não": 70
+        },
+        "erro_fonte": {
+            "Não": 70
+        },
+        "nao_traducao": {
+            "Não": 69,
+            "Sim": 1
+        }
     }
 ]

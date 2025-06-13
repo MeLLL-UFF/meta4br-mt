@@ -3,7 +3,7 @@
 import pandas as pd
 import json
 
-modelos = ["gpt", "gemini",  "llama", "mistral", "qwen", "meta", "marian", "gemmaX"]
+modelos = ["gpt", "gemini",  "llama", "mistral", "qwen", "meta", "marian", "gemmaX", "gemma3"]
 
 def calcular_metricas(df, modelo):
     print(df.columns.tolist())
