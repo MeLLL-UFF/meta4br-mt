@@ -80,19 +80,19 @@ if __name__ == "__main__":
             df_com_metafora, df_sem_metafora = carregar_dados(grupo_modelos, dataset, frases)
 
             medias, desvios = calcular_estatisticas(df_com_metafora)
-            medias.to_csv(f"{pasta}/junto/medias_{prompt_nome}_com_metafora.csv", index=False)
-            desvios.to_csv(f"{pasta}/junto/desvio_padrao_{prompt_nome}_com_metafora.csv", index=False)
+            medias.to_csv(f"{pasta}/separado/medias_{prompt_nome}_com_metafora.csv", index=False)
+            desvios.to_csv(f"{pasta}/separado/desvio_padrao_{prompt_nome}_com_metafora.csv", index=False)
 
             medias, desvios = calcular_estatisticas(df_sem_metafora)
-            medias.to_csv(f"{pasta}/junto/medias_{prompt_nome}_sem_metafora.csv", index=False)
-            desvios.to_csv(f"{pasta}/junto/desvio_padrao_{prompt_nome}_sem_metafora.csv", index=False)
+            medias.to_csv(f"{pasta}/separado/medias_{prompt_nome}_sem_metafora.csv", index=False)
+            desvios.to_csv(f"{pasta}/separado/desvio_padrao_{prompt_nome}_sem_metafora.csv", index=False)
 
         df_trad_com_metafora, df_trad_sem_metafora = carregar_dados(modelos_tradicionais, dataset, frases)
 
         medias, desvios = calcular_estatisticas(df_trad_com_metafora)
-        medias.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/medias_tradicionais_com_metafora.csv", index=False)
-        desvios.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/desvio_padrao_tradicionais_com_metafora.csv", index=False)
+        medias.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/separado/medias_tradicionais_com_metafora.csv", index=False)
+        desvios.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/separado/desvio_padrao_tradicionais_com_metafora.csv", index=False)
 
-        medias, desvios = calcular_estatisticas(df_sem_metafora)
-        medias.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/medias_tradicionais_sem_metafora.csv", index=False)
-        desvios.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/desvio_padrao_tradicionais_sem_metafora.csv", index=False)
+        medias, desvios = calcular_estatisticas(df_trad_sem_metafora)
+        medias.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/separado/medias_tradicionais_sem_metafora.csv", index=False)
+        desvios.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/separado/desvio_padrao_tradicionais_sem_metafora.csv", index=False)

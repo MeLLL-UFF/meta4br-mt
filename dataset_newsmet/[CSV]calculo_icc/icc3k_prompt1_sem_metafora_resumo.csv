@@ -1,0 +1,8 @@
+arquivo,metrica,icc3k
+icc_BERTSCORE_prompt1_sem_metafora.csv,BERTSCORE,0.829
+icc_COMET22_prompt1_sem_metafora.csv,COMET22,0.862
+icc_BLEURT_prompt1_sem_metafora.csv,BLEURT,0.811
+icc_KIWI-XL_prompt1_sem_metafora.csv,KIWI-XL,0.811
+icc_BLEU_prompt1_sem_metafora.csv,BLEU,0.888
+icc_XCOMET-XL_prompt1_sem_metafora.csv,XCOMET-XL,0.683
+icc_ROUGE_prompt1_sem_metafora.csv,ROUGE,0.851
