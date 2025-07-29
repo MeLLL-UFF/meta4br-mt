@@ -7,72 +7,102 @@ modelos1 = ["gemini/prompt1", "gemma3/prompt1", "gpt/prompt1", "llama/prompt1", 
 modelos2 = ["gemini/prompt2", "gemma3/prompt2", "gpt/prompt2", "llama/prompt2", "mistral/prompt2", "qwen/prompt2", "gemmaX", "meta", "marian"]
 modelos3 = ["gemmaX", "meta", "marian"]
 
-
 def pegar_melhores_piores(path, melhores_frases, piores_frases, primeiro_modelo):
     df = pd.read_csv(f"{path}matriz.csv")
 
-    # Esse cálculo de limite tá bom ???
     ultima_coluna = df.iloc[:, -1].values
     limite = len(ultima_coluna) // 2
 
-    # Com o limite, as frases não se cruzam!!
-    ranking_melhores = sorted([int(elem) for i, elem in enumerate(ultima_coluna) if i <= limite])
-    ranking_piores = sorted([int(elem) for i, elem in enumerate(ultima_coluna) if i > limite], reverse=True)
+    ranking_melhores = sorted([(i, int(val)) for i, val in enumerate(ultima_coluna) if i <= limite], key=lambda x: x[1])
+    ranking_piores = sorted([(i, int(val)) for i, val in enumerate(ultima_coluna) if i > limite], key=lambda x: x[1], reverse=True)
 
-    
+    indices_melhores = set(i for i, _ in ranking_melhores)
+    indices_piores = set(i for i, _ in ranking_piores)
+
     for i in range(len(df)):
-        if(primeiro_modelo):
-            if(df.iloc[i, -1] in ranking_melhores):
-                melhores_frases.append({"frase": df.iloc[i, 0], "hits" : 1})
-            elif(df.iloc[i, -1] in ranking_piores):
-                piores_frases.append({"frase": df.iloc[i, 0], "hits" : 1})
-        else:
-            if(df.iloc[i, -1] in ranking_melhores):
-                for frase in melhores_frases:
-                    if(frase["frase"] == df.iloc[i, 0]):
-                        frase["hits"] += 1
-            elif(df.iloc[i, -1] in ranking_piores):
-                for frase in piores_frases:
-                    if(frase["frase"] == df.iloc[i, 0]):
-                        frase["hits"] += 1
+        frase = df.iloc[i, 0]
+        score = df.iloc[i, -1]
+        if i in indices_melhores:
+            if primeiro_modelo:
+                melhores_frases.append({"frase": frase, "hits": 1, "score": score})
+            else:
+                for f in melhores_frases:
+                    if f["frase"] == frase:
+                        f["hits"] += 1
+                        break
+        elif i in indices_piores:
+            if primeiro_modelo:
+                piores_frases.append({"frase": frase, "hits": 1, "score": score})
+            else:
+                for f in piores_frases:
+                    if f["frase"] == frase:
+                        f["hits"] += 1
+                        break
 
     return melhores_frases, piores_frases
 
-def salvar_csv(melhores_frases, piores_frases, dataset, prompt_id):
-    melhores_df = pd.DataFrame(melhores_frases, columns=["frase"])
-    piores_df = pd.DataFrame(piores_frases, columns=["frase"])
-
-    melhores_df.to_csv(f"dataset_{dataset}/melhores_frases_{prompt_id}.csv", index=False, encoding='utf-8')
-    piores_df.to_csv(f"dataset_{dataset}/piores_frases_{prompt_id}.csv", index=False, encoding='utf-8')
+def salvar_csv(frases_com_score, dataset, prompt_id, tipo):
+    df = pd.DataFrame(frases_com_score, columns=["frase", "score"])
+    df.to_csv(f"dataset_{dataset}/[CSV] selecao_frases_criticas/{tipo}_frases_{prompt_id}.csv", index=False, encoding='utf-8')
 
 def escolher_frases(modelos, dataset, melhores_frases, piores_frases, prompt_id):
     for indice, modelo in enumerate(modelos):
         path = f"dataset_{dataset}/{modelo}/"
-        if(indice == 0):
-            melhores_frases, piores_frases = pegar_melhores_piores(path, melhores_frases, piores_frases, True)
-        else:
-            melhores_frases, piores_frases = pegar_melhores_piores(path, melhores_frases, piores_frases, False)
+        primeiro = (indice == 0)
+        melhores_frases, piores_frases = pegar_melhores_piores(path, melhores_frases, piores_frases, primeiro)
         print(f"Modelo {modelo}")
-    
-    print(f"Melhores {melhores_frases}")
-    print(f"Piores {piores_frases}")
 
-    # Deixando só as frases que aparecem em todos os modelos
-    melhores_frases = [obj["frase"] for obj in melhores_frases if obj["hits"] == len(modelos) or obj["hits"] == 2*len(modelos)]
-    piores_frases = [obj["frase"] for obj in piores_frases if obj["hits"] == len(modelos) or obj["hits"] == 2 *len(modelos)]
+    n_modelos = len(modelos)
+    melhores_unicas = {}
+    piores_unicas = {}
 
-    salvar_csv(melhores_frases, piores_frases, dataset, prompt_id)
+    for f in melhores_frases:
+        if f["hits"] == n_modelos:
+            melhores_unicas[f["frase"]] = f["score"]
+    for f in piores_frases:
+        if f["hits"] == n_modelos:
+            piores_unicas[f["frase"]] = f["score"]
+
+    melhores_ordenadas = sorted(melhores_unicas.items(), key=lambda x: x[1])
+    piores_ordenadas = sorted(piores_unicas.items(), key=lambda x: x[1], reverse=True)
+
+    salvar_csv(melhores_ordenadas, dataset, prompt_id, "melhores")
+    salvar_csv(piores_ordenadas, dataset, prompt_id, "piores")
+
+    return melhores_ordenadas, piores_ordenadas
 
 if __name__ == "__main__":
     for dataset in datasets:
         melhores_frases = []
         piores_frases = []
-        # A comparação para achar as frases finais que deverão ser anotadas deve analisar prompt1 e 2 juntos ou separados? tipo, pego a interseçao entre prompt1 e prompt2 mesmo né?
-        escolher_frases(modelos1, dataset, melhores_frases, piores_frases, "prompt1_apenas")
+
+        melhores_ordenadas1, piores_ordenadas1 = escolher_frases(modelos1, dataset, melhores_frases, piores_frases, "prompt1_apenas")
+
         melhores_frases = []
         piores_frases = []
-        escolher_frases(modelos2, dataset, melhores_frases, piores_frases, "prompt2_apenas")
+        melhores_ordenadas2, piores_ordenadas2 = escolher_frases(modelos2, dataset, melhores_frases, piores_frases, "prompt2_apenas")
+
         melhores_frases = []
         piores_frases = []
-        escolher_frases(modelos3, dataset, melhores_frases, piores_frases, "prompt_unico")
+        melhores_ordenadas3, piores_ordenadas3 = escolher_frases(modelos3, dataset, melhores_frases, piores_frases, "prompt_unico")
+
+        # Juntar os rankings e preservar o melhor score
+        todas_melhores = melhores_ordenadas1 + melhores_ordenadas2 + melhores_ordenadas3
+        todas_piores = piores_ordenadas1 + piores_ordenadas2 + piores_ordenadas3
+
+        melhores_dict = {}
+        for frase, score in todas_melhores:
+            if frase not in melhores_dict or score < melhores_dict[frase]:
+                melhores_dict[frase] = score
+        piores_dict = {}
+        for frase, score in todas_piores:
+            if frase not in piores_dict or score > piores_dict[frase]:
+                piores_dict[frase] = score
+
+        melhores_final = sorted(melhores_dict.items(), key=lambda x: x[1])
+        piores_final = sorted(piores_dict.items(), key=lambda x: x[1], reverse=True)
+
+        pd.DataFrame([{"frase": frase} for frase, _ in melhores_final]).to_csv(f"dataset_{dataset}/[CSV] selecao_frases_criticas/melhores_frases_geral.csv", index=False, encoding='utf-8')
+
+        pd.DataFrame([{"frase": frase} for frase, _ in piores_final]).to_csv(f"dataset_{dataset}/[CSV] selecao_frases_criticas/piores_frases_geral.csv", index=False, encoding='utf-8')
 
