@@ -1,9 +1,17 @@
 #!/bin/bash
 #BEFORE RUN IT, RUN ON TERMINAL ----> chmod +x run.sh
 
-HF_TOKEN="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"
-INPUT_PATH="logs/"
+CONFIG_FILE="./config.env"
 
+# HF_TOKEN=$(head -n 1 tokens.txt) # a priemira linha é o token do HF
+TOKEN="$HF_TOKEN"
+
+if [ -z "$TOKEN" ]; then
+  echo "Erro: variável de ambiente HF_TOKEN não está definida."
+  exit 1
+fi
+
+INPUT_PATH="logs/"
 
 # MODEL_ID="meta-llama/Llama-3.1-8B-Instruct"
 # OUTPUT_PATH="dataset_newsmet/llama/"

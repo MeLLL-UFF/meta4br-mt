@@ -1,9 +1,17 @@
 import pandas as pd
 import json
 import openai
+import os
+
+api_key = os.environ.get("OPENAI_TOKEN")
+
+if api_key :
+    print("Token lido:", api_key)
+else:
+    print("Variável de ambiente HF_TOKEN não encontrada.")
 
 client = openai.OpenAI(
-    api_key="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"
+    api_key = api_key
 )
 
 anotacoes = []
