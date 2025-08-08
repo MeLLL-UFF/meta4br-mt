@@ -4,7 +4,7 @@ Este repositório fornece os recursos para o artigo *Meta4BR: Avaliando a Fideli
 
 ---
 
-## CITING
+## CITAÇÃO
 
 > x
 
@@ -12,6 +12,6 @@ Este repositório fornece os recursos para o artigo *Meta4BR: Avaliando a Fideli
 
 
 
-## FUNDING
+## FINANCIAMENTO
 
 Os autores agradecem o apoio do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), dos Institutos Nacionais de Ciência e Tecnologia IAIA e TILD-IAR e da Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro (FAPERJ), processos SEI-260003/002930/2024 e SEI-260003/000614/2023.
