@@ -3,12 +3,20 @@
 import json
 from groq import Groq
 import pandas as pd
+import os
 
-df = pd.read_parquet("comparacao_datasets/manual_data.parquet", engine='pyarrow') 
+api_key = os.environ.get("GROQ_TOKEN")
+
+if api_key :
+    print("Token lido:", api_key)
+else:
+    print("Variável de ambiente GROQ_TOKEN não encontrada.")
 
 client = Groq(
-    api_key="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"
+    api_key = api_key
 )
+
+df = pd.read_parquet("comparacao_datasets/manual_data.parquet", engine='pyarrow') 
 
 with open('groq/ENtoPT.json', 'r', encoding='utf-8') as f:
     dados = json.load(f)

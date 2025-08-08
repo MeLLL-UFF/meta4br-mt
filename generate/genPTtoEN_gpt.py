@@ -8,7 +8,7 @@ api_key = os.environ.get("OPENAI_TOKEN")
 if api_key :
     print("Token lido:", api_key)
 else:
-    print("Variável de ambiente HF_TOKEN não encontrada.")
+    print("Variável de ambiente OPENAI_TOKEN não encontrada.")
 
 client = openai.OpenAI(
     api_key = api_key

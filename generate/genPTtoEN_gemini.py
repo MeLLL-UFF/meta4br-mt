@@ -61,10 +61,11 @@ from pathlib import Path
 import pandas as pd
 from google import genai
 from google.genai import types
+import os
 
 client = genai.Client(
     vertexai=True,
-    project="metaphor-459717",
+    project= os.environ.get("GEMINI_TOKEN"),
     location="us-east1",
 )
 

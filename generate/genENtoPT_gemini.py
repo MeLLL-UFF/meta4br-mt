@@ -3,6 +3,7 @@ import json
 import time
 from google import genai
 from google.genai import types
+import os
 
 #pip3 install -U -q "google-genai"
 
@@ -10,7 +11,7 @@ df = pd.read_parquet("comparacao_datasets/manual_data.parquet")
 
 client = genai.Client(
     vertexai=True,
-    project="metaphor-459717",
+    project= os.environ.get("GEMINI_TOKEN"),
     location="us-east1",
 )
 
