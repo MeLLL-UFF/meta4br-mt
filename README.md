@@ -6,7 +6,7 @@ Este repositório fornece os recursos para o artigo *Meta4BR: Avaliando a Fideli
 
 ## CITAÇÃO
 
-> x
+> TBA
 
 ## BIBTEX
 
