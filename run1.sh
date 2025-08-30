@@ -1,6 +1,16 @@
-#BEFORE RUN IT, RUN ON TERMINAL ----> chmod +x run1.sh
+#!/bin/bash
+#BEFORE RUN IT, RUN ON TERMINAL ----> chmod +x run.sh
 
-HF_TOKEN="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"
+CONFIG_FILE="./config.env"
+
+# HF_TOKEN=$(head -n 1 tokens.txt) # a priemira linha é o token do HF
+TOKEN="$HF_TOKEN"
+
+if [ -z "$TOKEN" ]; then
+  echo "Erro: variável de ambiente HF_TOKEN não está definida."
+  exit 1
+fi
+
 INPUT_PATH="logs/"
 
 
