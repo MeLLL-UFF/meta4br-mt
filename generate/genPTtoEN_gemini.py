@@ -125,6 +125,8 @@ def main(args):
 
     prompt1 = "Traduzir a frase '{}' do português para o inglês. Apenas escreva a frase traduzida, nada além disso."
     prompt2 = "Traduzir a frase '{}' do português para o inglês. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora."
+    prompt3 = "Você é um especialista em metáforas e tradução criativa. Traduza '{}' para o inglês, mantendo o sentido metafórico original. Responda apenas com a tradução."
+    prompt4 = "Você é um especialista em metáforas e tradução criativa. Somente traduza '{}' para o inglês, mantendo o sentido metafórico original. Por exemplo, 'kick the bucket' deve ser traduzido como 'bater as botas', e não como 'chutar o balde'. Responda apenas com a tradução."
 
     for prompt_id, prompt_template in enumerate([prompt2], start=2): #mudar aqui enumerate([prompt1, prompt2], start=1
         out_path = Path(args.output_base) / f"prompt{str(prompt_id)}" / f"PTtoEN2.json"
