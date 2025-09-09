@@ -1,2 +1,17 @@
 dataset_newsmet/.DS_Store
 dataset_manualdata/.DS_Store
+/venv
+dataset_manualdata/qwen/qwen-log.txt
+dataset_manualdata/llama/llama-log.txt
+dataset_manualdata/ministral/mistral-log.txtgemma3-log.txt
+dataset_manualdata/meta/nllb-log.txt
+dataset_manualdata/marian/marian-log.txt
+dataset_manualdata/gemma3/gemma3-log.txt
+dataset_manualdata/qwen/qwen-log.txt
+dataset_newsmet/qwen/qwen-log.txt
+dataset_newsmet/llama/llama-log.txt
+dataset_newsmet/ministral/mistral-log.txtgemma3-log.txt
+dataset_newsmet/meta/nllb-log.txt
+dataset_newsmet/marian/marian-log.txt
+dataset_newsmet/gemma3/gemma3-log.txt
+dataset_newsmet/qwen/qwen-log.txt
