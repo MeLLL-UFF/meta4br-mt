@@ -8,10 +8,10 @@ import gc
 import os
 import re
 
-def main(model_id, hf_token, output_path):
+def main(model_id, hf_token, output_path, prompt_id):
     login(token=hf_token)
 
-    df = pd.read_parquet("comparacao_datasets/common1.parquet")
+    df = pd.read_csv("comparacao_datasets/newsmet.csv")
 
     device = f'cuda' if torch.cuda.is_available() else 'cpu'
     
@@ -22,8 +22,7 @@ def main(model_id, hf_token, output_path):
         trust_remote_code=True,
         model=model_id,
         tokenizer=tokenizer,
-        model_kwargs={"torch_dtype": torch.bfloat16},
-        # device=device,
+        model_kwargs={"dtype": torch.bfloat16},
         device_map="auto",
     )
     
@@ -31,20 +30,25 @@ def main(model_id, hf_token, output_path):
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    json_output_path = os.path.join(output_path, "ENtoPT.json")
+    json_output_path = os.path.join(output_path, f"{prompt_id}/ENtoPT.json")
     
         
     anotacoes = []
     
-    for frase in df['Sentence']:
+    for frase in df['Text']:
 
-        prompt1 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
-        prompt2 = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"
-        prompt3 = f"Você é um especialista em metáforas e tradução criativa. Traduza {frase} para o português, mantendo o sentido metafórico original. Responda apenas com a tradução."
-        prompt4 = f"Você é um especialista em metáforas e tradução criativa. Somente traduza {frase} para o português, mantendo o sentido metafórico original. Por exemplo, 'kick the bucket' deve ser traduzido como 'bater as botas', e não como 'chutar o balde'. Responda apenas com a tradução."
+        match prompt_id:
+            case "prompt1":
+                prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso"
+            case "prompt2":
+                prompt = f"Traduzir a frase '{frase}' do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"
+            case "prompt3":
+                prompt = f"Você é um especialista em metáforas e tradução criativa. Traduza {frase} para o português, mantendo o sentido metafórico original. Responda apenas com a tradução."
+            case "prompt4":
+                prompt = f"Você é um especialista em metáforas e tradução criativa. Somente traduza {frase} para o português, mantendo o sentido metafórico original. Por exemplo, 'kick the bucket' deve ser traduzido como 'bater as botas', e não como 'chutar o balde'. Responda apenas com a tradução."
 
         messages = [
-            {"role": "user", "content": prompt1}
+            {"role": "user", "content": prompt}
         ]
         
         outputs = pipeline(
@@ -66,7 +70,6 @@ def main(model_id, hf_token, output_path):
           
         torch.cuda.empty_cache()
         gc.collect()
-        
         with open(json_output_path, "w", encoding="utf-8") as f:
             json.dump(anotacoes, f, ensure_ascii=False, indent=4)
 
@@ -76,7 +79,9 @@ if __name__ == "__main__":
     parser.add_argument('--model_id', type=str, required=True, help="Hugging Face Model ID.")
     parser.add_argument('--hf_token', type=str, required=True, help="Hugging Face API token.")
     parser.add_argument('--output_path', type=str, required=True, help="Path to save the generated outputs.")
+    parser.add_argument('--prompt_id', type=str, required=True, help="Número do prompt a ser usado.")
+
 
     args = parser.parse_args()
 
-    main(args.model_id, args.hf_token, args.output_path)
+    main(args.model_id, args.hf_token, args.output_path, args.prompt_id)

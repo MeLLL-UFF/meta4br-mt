@@ -3,13 +3,11 @@ import json
 import openai
 import os
 
-df = pd.read_csv("comparacao_datasets/newsmet.csv", encoding='utf-8')
+df = pd.read_csv("comparacao_datasets/newsmet.csv")
 
 api_key = os.environ.get("OPENAI_TOKEN")
 
-if api_key :
-    print("Token lido:", api_key)
-else:
+if not api_key :
     print("Variável de ambiente OPENAI_TOKEN não encontrada.")
 
 client = openai.OpenAI(
@@ -28,21 +26,22 @@ for frase in df['Text']:
     response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "user", "content": prompt2},
+                {"role": "user", "content": prompt4},
             ],
-            max_tokens=2000
+            max_tokens=200
     )
 
     response_gpt = response.choices[0].message.content
-    
+
     result = {
         "fraseEN": frase,
         "traducaoPT": response_gpt
     }
+    print(result)
     anotacoes.append(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('dataset_newsmet/gpt/prompt2/ENtoPT.json', 'w', encoding='utf-8') as f:
+    with open('dataset_newsmet/gpt/prompt4/ENtoPT.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
 

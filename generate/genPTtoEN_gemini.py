@@ -44,15 +44,8 @@
   
 
 """
-python3 generate/genENtoPT_gemini.py \
-  --input_dataset dataset_newsmet/gemini/prompt2 \
-  --output_base dataset_manualdata/gemini \
-  --start_index 1817 \
-  --batch_size 5 \
-  --max_workers 5 \
-  --sleep 2
 
-python3 generate/genPTtoEN_gemini.py --input_dataset dataset_newsmet/gemini/prompt2/ENtoPT.json  --output_base dataset_newsmet/gemini --start_index 0 --batch_size 5 --max_workers 5 --sleep 2
+python3 generate/genPTtoEN_gemini.py --input_dataset dataset_newsmet/gemini/prompt4/ENtoPT.json  --output_base dataset_newsmet/gemini --start_index 0 --batch_size 5 --max_workers 5 --sleep 2
 
 """
 
@@ -65,7 +58,7 @@ import os
 
 client = genai.Client(
     vertexai=True,
-    project= os.environ.get("GEMINI_TOKEN"),
+    project= "metaphor-459717",
     location="us-east1",
 )
 
@@ -107,8 +100,8 @@ def batched_translation(frases, prompt_template, batch_size, sleep_time, max_wor
             resultados.extend(novos_resultados)
 
             # Salvar após cada batch
-            with open("dataset_newsmet/gemini/prompt2/PTtoEN4.json", 'w', encoding='utf-8') as f:
-                json.dump(resultados, f, ensure_ascii=False, indent=2)
+            with open("dataset_newsmet/gemini/prompt4/PTtoEN.json", 'w', encoding='utf-8') as f:
+                json.dump(resultados, f, ensure_ascii=False, indent=5)
 
             print(f"Batch {start}-{end} salvo em {out_path}")
 
@@ -121,6 +114,7 @@ def main(args):
     frases_pt = []
     for objeto in dados[args.start_index:]:
         frases_pt.append(objeto["traducaoPT"])
+    print(len(frases_pt))
 
 
     prompt1 = "Traduzir a frase '{}' do português para o inglês. Apenas escreva a frase traduzida, nada além disso."
@@ -128,8 +122,8 @@ def main(args):
     prompt3 = "Você é um especialista em metáforas e tradução criativa. Traduza '{}' para o inglês, mantendo o sentido metafórico original. Responda apenas com a tradução."
     prompt4 = "Você é um especialista em metáforas e tradução criativa. Somente traduza '{}' para o inglês, mantendo o sentido metafórico original. Por exemplo, 'kick the bucket' deve ser traduzido como 'bater as botas', e não como 'chutar o balde'. Responda apenas com a tradução."
 
-    for prompt_id, prompt_template in enumerate([prompt2], start=2): #mudar aqui enumerate([prompt1, prompt2], start=1
-        out_path = Path(args.output_base) / f"prompt{str(prompt_id)}" / f"PTtoEN2.json"
+    for prompt_id, prompt_template in enumerate([prompt4], start=4): #mudar aqui enumerate([prompt1, prompt2], start=1
+        out_path = Path(args.output_base) / f"prompt{str(prompt_id)}" / f"PTtoEN.json"
         out_path.parent.mkdir(parents=True, exist_ok=True)
         resultados = []
 

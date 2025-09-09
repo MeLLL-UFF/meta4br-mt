@@ -5,9 +5,7 @@ import os
 
 api_key = os.environ.get("OPENAI_TOKEN")
 
-if api_key :
-    print("Token lido:", api_key)
-else:
+if not api_key :
     print("Variável de ambiente OPENAI_TOKEN não encontrada.")
 
 client = openai.OpenAI(
@@ -16,7 +14,7 @@ client = openai.OpenAI(
 
 anotacoes = []
 
-with open('dataset_newsmet/gpt/prompt2/ENtoPT.json', 'r', encoding='utf-8') as f:
+with open('dataset_newsmet/gpt/prompt4/ENtoPT.json', 'r', encoding='utf-8') as f:
     vetor = json.load(f)
 
 for objeto in vetor:
@@ -29,9 +27,9 @@ for objeto in vetor:
     response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "user", "content": prompt2},
+                {"role": "user", "content": prompt4},
             ],
-            max_tokens=2000
+            max_tokens=200
     )
 
     response_gpt = response.choices[0].message.content
@@ -41,9 +39,10 @@ for objeto in vetor:
         "traducaoEN": response_gpt
     }
     anotacoes.append(result)
+    print(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('dataset_newsmet/gpt/prompt2/PTtoEN.json', 'w', encoding='utf-8') as f:
+    with open('dataset_newsmet/gpt/prompt4/PTtoEN.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
 

@@ -13,9 +13,10 @@ fi
 
 INPUT_PATH="logs/"
 
-# MODEL_ID="meta-llama/Llama-3.1-8B-Instruct"
-# OUTPUT_PATH="dataset_newsmet/llama/"
-# CUDA_VISIBLE_DEVICES=0 python3 generate/genPTtoEN_locais.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH > "dataset_newsmet/llama/prompt2/llama-log.txt" 2>&1 
+MODEL_ID="meta-llama/Llama-3.1-8B-Instruct"
+OUTPUT_PATH="dataset_newsmet/llama/"
+PROMPT_ID="prompt4"
+CUDA_VISIBLE_DEVICES=0 python3 generate/genPTtoEN_locais.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH --prompt_id $PROMPT_ID > "dataset_newsmet/llama/llama-log.txt" 2>&1 
 
 # MODEL_ID="Helsinki-NLP/opus-mt-ROMANCE-en"
 # OUTPUT_PATH="dataset_newsmet/marian/"
@@ -27,4 +28,16 @@ INPUT_PATH="logs/"
 
 MODEL_ID="google/gemma-3-12b-it"
 OUTPUT_PATH="dataset_newsmet/gemma3/"
-python3 generate/genPTtoEN_locais.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH > "dataset_newsmet/gemma3/prompt2/gemma3-log.txt" 2>&1 
+PROMPT_ID="prompt3"
+CUDA_VISIBLE_DEVICES=0 python3 generate/genENtoPT_locais.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH --prompt_id $PROMPT_ID > "dataset_newsmet/gemma3/gemma3-log.txt" 2>&1 
+
+MODEL_ID="google/gemma-3-12b-it"
+OUTPUT_PATH="dataset_newsmet/gemma3/"
+PROMPT_ID="prompt3"
+CUDA_VISIBLE_DEVICES=0 python3 generate/genPTtoEN_locais.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH --prompt_id $PROMPT_ID > "dataset_newsmet/gemma3/gemma3-log.txt" 2>&1 
+
+MODEL_ID="google/gemma-3-12b-it"
+OUTPUT_PATH="dataset_newsmet/gemma3/"
+PROMPT_ID="prompt4"
+CUDA_VISIBLE_DEVICES=0 python3 generate/genPTtoEN_locais.py --model_id $MODEL_ID --hf_token $HF_TOKEN --output_path $OUTPUT_PATH --prompt_id $PROMPT_ID > "dataset_newsmet/gemma3/gemma3-log.txt" 2>&1 
+
