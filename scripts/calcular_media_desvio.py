@@ -56,7 +56,7 @@ def calcular_estatisticas(df):
 
 
 if __name__ == "__main__":
-    datasets = ["manualdata", "newsmet"]
+    datasets = ["manual_data", "newsmet"]
     modelos = [
         ["gpt/prompt1/", "gemini/prompt1/", "gemma3/prompt1/", "llama/prompt1/", "mistral/prompt1/", "qwen/prompt1/"],
         ["gpt/prompt2/", "gemini/prompt2/", "gemma3/prompt2/", "llama/prompt2/", "mistral/prompt2/", "qwen/prompt2/"]
@@ -68,7 +68,7 @@ if __name__ == "__main__":
             df_original = pd.read_csv(f"comparacao_datasets/{dataset}.csv")
             frases = list(set(df_original.loc[df_original["predicted_label"] == "metaphorical", "Text"]))
 
-        elif dataset == "manualdata":
+        elif dataset == "manual_data":
             df_original = pd.read_parquet(f"comparacao_datasets/manual_data.parquet")
             frases = list(set(df_original.loc[df_original["Label"] == 1, "Sentence"]))
 

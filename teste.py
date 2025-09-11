@@ -21,7 +21,7 @@ def process_phrases():
 
     # Define os caminhos para os arquivos matriz.csv de cada modelo
     model_paths = [
-        # alternar entre manualdata e newsmet
+        # alternar entre manual_data e newsmet
         'dataset_newsmet/gemma3/prompt2/matriz.csv',
         'dataset_newsmet/mistral/prompt2/matriz.csv',
         'dataset_newsmet/gemini/prompt2/matriz.csv',

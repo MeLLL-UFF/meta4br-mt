@@ -2,7 +2,7 @@ import csv
 import pandas as pd
 import json
 
-datasets = ["newsmet", "manualdata"]
+datasets = ["newsmet", "manual_data"]
 modelos = ["gemini/prompt1", "gemini/prompt2", "gemma3/prompt1", "gemma3/prompt2", "gemmaX", "gpt/prompt1", "gpt/prompt2", "llama/prompt1", "llama/prompt2", "marian", "meta", "mistral/prompt1", "mistral/prompt2", "qwen/prompt1", "qwen/prompt2"]
 
 for dataset in datasets:

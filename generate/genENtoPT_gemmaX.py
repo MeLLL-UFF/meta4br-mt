@@ -25,5 +25,5 @@ for frase in df['Sentence'][463:]:
     anotacoes.append(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('dataset_manualdata/gemmaX/ENtoPT1.json', 'w', encoding='utf-8') as f:
+    with open('dataset_manual_data/gemmaX/ENtoPT1.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)

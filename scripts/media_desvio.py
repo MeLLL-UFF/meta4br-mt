@@ -103,7 +103,7 @@ def ler_csv_por_coluna(caminho_arquivo):
     return dict(colunas)
 
 if __name__ == "__main__":
-    datasets = ["manualdata", "newsmet"]
+    datasets = ["manual_data", "newsmet"]
     modelos = [
         ["gpt/prompt1/", "gemini/prompt1/", "gemma3/prompt1/", "llama/prompt1/", "mistral/prompt1/", "qwen/prompt1/"],
         ["gpt/prompt2/", "gemini/prompt2/", "gemma3/prompt2/",  "llama/prompt2/", "mistral/prompt2/","qwen/prompt2/"],

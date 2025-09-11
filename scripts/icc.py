@@ -23,7 +23,7 @@ def montar_df(modelos, dataset, object, metricas, frases, padrao):
             if ((df_original["Text"] == frase) & (df_original["predicted_label"] == padrao)).any():
                 continue
 
-        elif dataset == "manualdata":
+        elif dataset == "manual_data":
             df_original = pd.read_parquet(f"comparacao_datasets/manual_data.parquet")
             if not ((df_original["Sentence"] == frase) & (df_original["Label"] == padrao)).any():
                 continue
@@ -96,14 +96,14 @@ def resumir_iccs(complemento, dataset, metaphor_or_not):
 
 
 if __name__ == "__main__":
-    datasets = ["manualdata", "newsmet"]
+    datasets = ["manual_data", "newsmet"]
     modelos = [
         ["gemini/prompt1/", "gemma3/prompt1/", "gemmaX", "gpt/prompt1/", "llama/prompt1/", "marian", "meta", "mistral/prompt1/", "qwen/prompt1/"],
         ["gemini/prompt2/", "gemma3/prompt2/", "gemmaX", "gpt/prompt2/", "llama/prompt2/", "marian", "meta", "mistral/prompt2/","qwen/prompt2/"]
     ]
     modelos_gerais = ["gemini/prompt1/", "gemma3/prompt1/", "gpt/prompt1/", "llama/prompt1/", "mistral/prompt1/", "qwen/prompt1/", "gemini/prompt2/", "gemma3/prompt2/",  "gpt/prompt2/", "llama/prompt2/",  "mistral/prompt2/", "qwen/prompt2/","gemmaX", "marian", "meta",]
 
-    vet_manualdata = pd.read_parquet("comparacao_datasets/manual_data.parquet")["Sentence"].tolist()
+    vet_manual_data = pd.read_parquet("comparacao_datasets/manual_data.parquet")["Sentence"].tolist()
     vet_newsmet = pd.read_csv("comparacao_datasets/newsmet.csv")["Text"].tolist()
 
     metricas = ["ROUGE/rougeL", "BLEU/bleu", "BERTSCORE/f1", "BLEURT/scores", "COMET22/scores", "KIWI-XL/scores", "XCOMET-XL/scores"]
@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
         # df_com_metafora = pd.DataFrame()
         # df_sem_metafora = pd.DataFrame()
-        # if dataset == "manualdata":
+        # if dataset == "manual_data":
         #     for modelo in modelos:
         #         object = {
         #             "frases_ingles": [],
@@ -119,9 +119,9 @@ if __name__ == "__main__":
         #             "modelo": [],
         #             "score": [],
         #         }
-        #         df_com_metafora = montar_df(modelo, dataset, object, metricas, vet_manualdata, 0)
+        #         df_com_metafora = montar_df(modelo, dataset, object, metricas, vet_manual_data, 0)
         #         df_com_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_{modelo[0].split("/")[1]}_com_metafora.csv", index=False)
-        #         df_sem_metafora = montar_df(modelo, dataset, object, metricas, vet_manualdata, 1)
+        #         df_sem_metafora = montar_df(modelo, dataset, object, metricas, vet_manual_data, 1)
         #         df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_{modelo[0].split("/")[1]}_sem_metafora.csv", index=False)
                 
         #     object = {
@@ -131,9 +131,9 @@ if __name__ == "__main__":
         #         "score": [],
         #     }
 
-        #     df_com_metafora = montar_df(modelos_gerais, dataset, object, metricas, vet_manualdata, 0)
+        #     df_com_metafora = montar_df(modelos_gerais, dataset, object, metricas, vet_manual_data, 0)
         #     df_com_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_geral_com_metafora.csv", index=False)
-        #     df_sem_metafora = montar_df(modelos_gerais, dataset, object, metricas, vet_manualdata, 1)
+        #     df_sem_metafora = montar_df(modelos_gerais, dataset, object, metricas, vet_manual_data, 1)
         #     df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_geral_sem_metafora.csv", index=False)
 
         # elif dataset == "newsmet":

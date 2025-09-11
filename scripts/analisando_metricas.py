@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import csv
 
-datasets = ["manualdata", "newsmet"]
+datasets = ["manual_data", "newsmet"]
 modelos = ["gemini", "gemma3", "gemmaX", "gpt", "llama", "marian", "meta", "mistral", "qwen"]
 
 
