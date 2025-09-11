@@ -7,7 +7,25 @@ import os
 
 #pip3 install -U -q "google-genai"
 
-df = pd.read_csv("comparacao_datasets/newsmet.csv")
+### Decidir qual dataset irá usar
+dataset_id = 1 # 1 - newsmet | 2 - manual_data 
+
+### Nome do prompt e nome da pasta que serão salvas as saídas das LLMs
+prompt_id = "prompt3" 
+
+# Só ajustando as variáveis pro código ficar mais automatizado, com menos alterações
+match dataset_id:
+    case 1:
+        dataset = "newsmet"
+        df = pd.read_parquet("dataset_newsmet/newsmet_dataset.parquet")
+        term = "Text"
+    case 2:
+        dataset = "manual_data"
+        df = pd.read_csv("dataset_manual_data/manual_data.csv")
+        term = "Sentence"
+    case _:
+        print("Dataset inválido")
+        exit()
 
 client = genai.Client(
     vertexai=True,
@@ -15,12 +33,10 @@ client = genai.Client(
     location="us-east1",
 )
 
-prompt_id = "prompt3"
-
 # delay = 10 
 anotacoes = []
 
-for frase in df['Text']:
+for frase in df[term]:
 
     match prompt_id:
         case "prompt1":
@@ -37,7 +53,6 @@ for frase in df['Text']:
         model="gemini-2.0-flash-lite",
         contents=prompt,
     )
-
     
     result = {
         "fraseEN": frase,
@@ -47,8 +62,7 @@ for frase in df['Text']:
     print(result)
     anotacoes.append(result)
 
-    # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open(f'dataset_newsmet/gemini/{prompt_id}/ENtoPT.json', 'w', encoding='utf-8') as f:
+    with open(f'dataset_{dataset}/gemini/{prompt_id}/ENtoPT.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
     # time.sleep(delay)
