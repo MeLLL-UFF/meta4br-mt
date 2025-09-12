@@ -11,11 +11,6 @@ import os
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
 
-################################################################################################
-#                                      AJUSTES INICIAIS
-    ### Definir nome do prompt/nome da pasta que serão salvas as saídas das LLMs
-    prompt_id = "prompt3" 
-
     dataset_name = output_path.split("_", 1)[1].split("/")[0]
 
     if dataset_name == "newsmet":
@@ -24,8 +19,6 @@ def main(model_id, hf_token, output_path):
     elif dataset_name == "manual_data":
         df = pd.read_parquet("comparacao_datasets/manual_data.parquet")
         term = "Sentence"
-
-################################################################################################
 
     device = 0 if torch.cuda.is_available() else -1
     
@@ -37,19 +30,17 @@ def main(model_id, hf_token, output_path):
         trust_remote_code=True,
         model=model_id,
         tokenizer=tokenizer,
-        model_kwargs={"torch_dtype": torch.bfloat16},
+        model_kwargs={"dtype": torch.bfloat16},
         device=device,
         src_lang="eng_Latn",
         tgt_lang="por_Latn"
     )
     
-
     torch.cuda.empty_cache()
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    arquivo_saida = os.path.join(output_path, f"{prompt_id}/PTtoEN.json")
-    
+    arquivo_saida = os.path.join(output_path, "/PTtoEN.json")
         
     anotacoes = []
     

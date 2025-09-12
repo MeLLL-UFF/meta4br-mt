@@ -2,7 +2,24 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import pandas as pd
 import json
 
-with open('dataset_manual_data/gemmaX/ENtoPT.json', 'r', encoding='utf-8') as f:
+################################################################################################
+#                                        AJUSTES INICIAIS
+
+### Decidir qual dataset irá usar
+dataset_id = 1 # 1 - newsmet | 2 - manual_data 
+
+################################################################################################
+
+match dataset_id:
+    case 1:
+        dataset = "newsmet"
+    case 2:
+        dataset = "manual_data"
+    case _:
+        print("Dataset inválido")
+        exit()
+
+with open(f'dataset_{dataset}/gemmaX/ENtoPT.json', 'r', encoding='utf-8') as f:
     dados = json.load(f)
 
 model_id = "ModelSpace/GemmaX2-28-9B-v0.1"
@@ -28,5 +45,5 @@ for frase in dados:
     }
     anotacoes.append(result)
 
-    with open('dataset_manual_data/gemmaX/PTtoEN1.json', 'w', encoding='utf-8') as f:
+    with open(f'dataset_{dataset}/gemmaX/PTtoEN.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)

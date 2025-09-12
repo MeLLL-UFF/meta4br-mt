@@ -11,9 +11,6 @@ import re
 def main(model_id, hf_token, output_path, prompt_id):
     login(token=hf_token)
 
-################################################################################################
-#                                        AJUSTES INICIAIS
-
     dataset_name = output_path.split("_", 1)[1].split("/")[0]
 
     if dataset_name == "newsmet":
@@ -22,8 +19,6 @@ def main(model_id, hf_token, output_path, prompt_id):
     elif dataset_name == "manual_data":
         df = pd.read_parquet("comparacao_datasets/manual_data.parquet")
         term = "Sentence"
-
-################################################################################################
 
     device = f'cuda' if torch.cuda.is_available() else 'cpu'
     

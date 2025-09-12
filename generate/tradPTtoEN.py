@@ -12,13 +12,6 @@ import os
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
 
-################################################################################################
-#                                      AJUSTES INICIAIS
-    ### Nome do prompt e nome da pasta que serão salvas as saídas das LLMs
-    prompt_id = "prompt3" 
-
-################################################################################################
-
     device = f'cuda' if torch.cuda.is_available() else 'cpu'
 
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
@@ -27,7 +20,7 @@ def main(model_id, hf_token, output_path):
         task="translation",
         model=model_id,
         tokenizer=tokenizer,
-        model_kwargs={"torch_dtype": torch.bfloat16},
+        model_kwargs={"dtype": torch.bfloat16},
         device=device,
         tgt_lang="eng_Latn",
         src_lang="por_Latn"
@@ -37,8 +30,8 @@ def main(model_id, hf_token, output_path):
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    arquivo_entrada = os.path.join(output_path, f"{prompt_id}/ENtoPT.json")
-    arquivo_saida = os.path.join(output_path, f"{prompt_id}/PTtoEN.json")
+    arquivo_entrada = os.path.join(output_path, "/ENtoPT.json")
+    arquivo_saida = os.path.join(output_path, "/PTtoEN.json")
 
     anotacoes = []
 

@@ -4,17 +4,18 @@ import time
 from google import genai
 from google.genai import types
 
-################################################################################################
-#                                       AJUSTES INICIAIS        
 #pip install -U -q "google-genai"
 
+################################################################################################
+#                                       AJUSTES INICIAIS        
 ### Decidir qual dataset irá usar
 dataset_id = 1 # 1 - newsmet | 2 - manual_data 
 
 ### Nome do prompt e nome da pasta que serão salvas as saídas das LLMs
 prompt_id = "prompt3" 
 
-# Só ajustando as variáveis pro código ficar mais automatizado, com menos alterações
+################################################################################################
+
 match dataset_id:
     case 1:
         dataset = "newsmet"
@@ -23,8 +24,6 @@ match dataset_id:
     case _:
         print("Dataset inválido")
         exit()
-
-################################################################################################
 
 client = genai.Client(
     vertexai=True,

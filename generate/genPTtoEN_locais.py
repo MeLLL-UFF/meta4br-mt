@@ -25,7 +25,6 @@ def main(model_id, hf_token, output_path, prompt_id):
         model=model_id,
         tokenizer=tokenizer,
         model_kwargs={"dtype": torch.bfloat16},
-        # device=device,
         device_map="auto",
     )
 
