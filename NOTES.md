@@ -6,20 +6,7 @@ Além disso, iremos usar algumas métricas para julgar se a tradução está sen
 
 Nessa pasta, ocorre o desenvolvimento da terceira vertente do projeto que consiste em fazer BackTranslation. Aqui iremos escolher dois datasets de metáforas em inglês para realizar a tradução dele para o português pelas LLMs e novamente para o inglês para checarmos se as frases se mantêm iguais. Para o dataset, escolhemos os menores que temos separados, que no caso foram os arquivos "common.parquet" com 70 frases e o "manual_data.parquet" com 718 frases.
 
-Dito isso, devemos rodar as frases do inglês para o português e depois do português para o inglês novamente. Para isso, iremos usar os seguintes prompts para conversar com as LLMs:
-
-
-promptPT1 = **"Traduzir a frase <frase> do inglês para o português. Apenas escreva a frase traduzida, nada além disso"** 
-
-promptEN1 = **"Traduzir a frase <frase> do português para o inglês. Apenas escreva a frase traduzida, nada além disso"**
-
-
-Desejamos fazer uma análise com um prompt um pouco mais detalhado:
-
-promptPT2 = **"Traduzir a frase <frase> do inglês para o português. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"** 
-
-promptEN2 = **"Traduzir a frase <frase> do português para o inglês. Apenas escreva a frase traduzida, nada além disso. A frase pode ou não conter metáfora"**
-
+Dito isso, devemos rodar as frases do inglês para o português e depois do português para o inglês novamente. 
 
 No arquivo genENtoPT temos:
 {
@@ -34,12 +21,31 @@ Depois, pegamos esse "traducaoPT" para virar a nova frase no arquivo genPTtoEN
 }
 
 Ordem que estou rodando os scripts:
-1) genENtoPT.py
-2) genPTtoEN.py
-3) script_juntar_jsons.py
-4) script_metricas.py
-5) script_comet.py
-6) script_tokens.py
+1) genENtoPT_*.py
+2) genPTtoEN_*.py
+3) script/juntar_jsons.py
+4) script/metricas.py
+5) script/rodar_comet.py
+6) script/tokens*.py
+
+* Indica que existem algumas variações no nome, várias opções de arquivos com a mesma sintaxe.
+
+
+Na pasta comparacao_datasets ficam os datasets
+
+Na pasta generate tem os arquivos Python pra rodar tanto EN->PT quanto PT->EN
+- *_gemini.py (Pro Gemini)
+- *_gemmaX.py (Pro GemmaX)
+- *_gpt.py (Pro Gpt)
+- *_locais.py (Pros modelos gerais do huggingface)
+- trad*.py (Pros modelos específicos de tradução do huggingface)
+
+Na pasta script tem os códigos Python para diversas tarefas, geralmente um pra cada análise que fizemos em cima das traduções
+
+Para ter os tokens, rodar os códigos script/tokens*.py
+
+Os outros scripts foram pra outras tarefas muito específicas, cálculo de ranking de frases, seleção das melhores e piores, cálculo de media e desvio padrão, além de aplicação do ICC. Se precisar de algum desses pode me falar que explícito a ordem certinha de uso 
+
 
 ## Citações:
 

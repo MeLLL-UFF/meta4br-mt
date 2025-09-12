@@ -23,3 +23,5 @@
 Os autores agradecem o apoio do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), dos Institutos Nacionais de Ciência e Tecnologia IAIA e TILD-IAR e da Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro (FAPERJ), processos SEI-260003/002930/2024 e SEI-260003/000614/2023.
 </p>
 </br>
+
+Mais informações sobre a organização do repositório podem ser encontrados no arquivo `Notes.md`.
