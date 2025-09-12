@@ -3,6 +3,27 @@ import json
 import openai
 import os
 
+################################################################################################
+#                                      AJUSTES INICIAIS
+#pip install --upgrade openai 
+
+### Decidir qual dataset irá usar
+dataset_id = 1 # 1 - newsmet | 2 - manual_data 
+
+### Nome do prompt e nome da pasta que serão salvas as saídas das LLMs
+prompt_id = "prompt3" 
+
+# Só ajustando as variáveis pro código ficar mais automatizado, com menos alterações
+match dataset_id:
+    case 1:
+        dataset = "newsmet"
+    case 2:
+        dataset = "manual_data"
+    case _:
+        print("Dataset inválido")
+        exit()
+
+################################################################################################
 api_key = os.environ.get("OPENAI_TOKEN")
 
 if not api_key :
@@ -14,7 +35,7 @@ client = openai.OpenAI(
 
 anotacoes = []
 
-with open('dataset_newsmet/gpt/prompt4/ENtoPT.json', 'r', encoding='utf-8') as f:
+with open(f'dataset_{dataset}/gpt/{prompt_id}/ENtoPT.json', 'r', encoding='utf-8') as f:
     vetor = json.load(f)
 
 for objeto in vetor:
@@ -27,7 +48,7 @@ for objeto in vetor:
     response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "user", "content": prompt4},
+                {"role": "user", "content": prompt_id},
             ],
             max_tokens=200
     )
@@ -42,7 +63,7 @@ for objeto in vetor:
     print(result)
 
     # Isso aqui acaba reescrevendo o json mil vezes, mas é bom pq se der problema na máquina, não perco todas as frases, consigo continuar de onde parei
-    with open('dataset_newsmet/gpt/prompt4/PTtoEN.json', 'w', encoding='utf-8') as f:
+    with open(f'dataset_{dataset}/gpt/{prompt_id}/PTtoEN.json', 'w', encoding='utf-8') as f:
         json.dump(anotacoes, f, ensure_ascii=False, indent=5)
 
 

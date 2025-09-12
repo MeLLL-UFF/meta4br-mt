@@ -38,7 +38,6 @@ def main(model_id, hf_token, output_path, prompt_id):
 
     anotacoes = []
 
-
     with open(arquivo_entrada, 'r', encoding='utf-8') as f:
         vetor = json.load(f)
 
@@ -65,10 +64,8 @@ def main(model_id, hf_token, output_path, prompt_id):
             temperature=1,
             top_p=0.95,
         )
-        
 
         generated_texts = outputs[0]["generated_text"][1]['content']
-
 
         result = {
             "frasePT": objeto['traducaoPT'],

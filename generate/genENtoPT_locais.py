@@ -11,7 +11,19 @@ import re
 def main(model_id, hf_token, output_path, prompt_id):
     login(token=hf_token)
 
-    df = pd.read_csv("comparacao_datasets/newsmet.csv")
+################################################################################################
+#                                        AJUSTES INICIAIS
+
+    dataset_name = output_path.split("_", 1)[1].split("/")[0]
+
+    if dataset_name == "newsmet":
+        df = pd.read_csv("comparacao_datasets/newsmet.csv")
+        term = "Text"
+    elif dataset_name == "manual_data":
+        df = pd.read_parquet("comparacao_datasets/manual_data.parquet")
+        term = "Sentence"
+
+################################################################################################
 
     device = f'cuda' if torch.cuda.is_available() else 'cpu'
     
@@ -35,7 +47,7 @@ def main(model_id, hf_token, output_path, prompt_id):
         
     anotacoes = []
     
-    for frase in df['Text']:
+    for frase in df[term]:
 
         match prompt_id:
             case "prompt1":

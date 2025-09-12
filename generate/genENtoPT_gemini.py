@@ -5,6 +5,9 @@ from google import genai
 from google.genai import types
 import os
 
+################################################################################################
+#                                        AJUSTES INICIAIS
+
 #pip3 install -U -q "google-genai"
 
 ### Decidir qual dataset irá usar
@@ -17,15 +20,17 @@ prompt_id = "prompt3"
 match dataset_id:
     case 1:
         dataset = "newsmet"
-        df = pd.read_parquet("dataset_newsmet/newsmet_dataset.parquet")
+        df = pd.read_csv("comparacao_datasets/newsmet.csv")
         term = "Text"
     case 2:
         dataset = "manual_data"
-        df = pd.read_csv("dataset_manual_data/manual_data.csv")
+        df = pd.read_parquet("comparacao_datasets/manual_data.parquet")
         term = "Sentence"
     case _:
         print("Dataset inválido")
         exit()
+
+################################################################################################
 
 client = genai.Client(
     vertexai=True,

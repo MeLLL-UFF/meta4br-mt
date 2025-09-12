@@ -4,15 +4,28 @@ import transformers
 import pandas as pd
 import torch
 import json
-import gc
 import os
 
-# Arquivo pra rodar o modelo da meta e o marian
+# Arquivo pra rodar o modelo da meta, o marian e o gemmaX
 
 def main(model_id, hf_token, output_path):
     login(token=hf_token)
 
-    df = pd.read_csv("comparacao_datasets/newsmet.csv", encoding='utf-8')
+################################################################################################
+#                                      AJUSTES INICIAIS
+    ### Definir nome do prompt/nome da pasta que serão salvas as saídas das LLMs
+    prompt_id = "prompt3" 
+
+    dataset_name = output_path.split("_", 1)[1].split("/")[0]
+
+    if dataset_name == "newsmet":
+        df = pd.read_csv("comparacao_datasets/newsmet.csv")
+        term = "Text"
+    elif dataset_name == "manual_data":
+        df = pd.read_parquet("comparacao_datasets/manual_data.parquet")
+        term = "Sentence"
+
+################################################################################################
 
     device = 0 if torch.cuda.is_available() else -1
     
@@ -35,18 +48,18 @@ def main(model_id, hf_token, output_path):
     torch.cuda.synchronize()
 
     os.makedirs(output_path, exist_ok=True)
-    json_output_path = os.path.join(output_path, "prompt1/ENtoPT.json")
+    arquivo_saida = os.path.join(output_path, f"{prompt_id}/PTtoEN.json")
     
         
     anotacoes = []
     
-    for frase in df['Text']:
+    for frase in df[term]:
 
         message = ">>pt<<" + frase
 
         outputs = pipeline(
             message,
-            max_new_tokens=512,
+            max_new_tokens=200,
             do_sample=True,
             temperature=1,
             top_p=0.95,
@@ -61,7 +74,7 @@ def main(model_id, hf_token, output_path):
         
         anotacoes.append(result)
         
-        with open(json_output_path, "w", encoding="utf-8") as f:
+        with open(arquivo_saida, "w", encoding="utf-8") as f:
             json.dump(anotacoes, f, ensure_ascii=False, indent=4)
 
     

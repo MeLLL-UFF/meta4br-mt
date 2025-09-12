@@ -4,6 +4,8 @@ import time
 from google import genai
 from google.genai import types
 
+################################################################################################
+#                                       AJUSTES INICIAIS        
 #pip install -U -q "google-genai"
 
 ### Decidir qual dataset irá usar
@@ -21,6 +23,8 @@ match dataset_id:
     case _:
         print("Dataset inválido")
         exit()
+
+################################################################################################
 
 client = genai.Client(
     vertexai=True,
@@ -57,6 +61,8 @@ for objeto in vetor:
 
     # time.sleep(delay)
 
+################################################################################################
+#                                    CÓDIGO DO GABRIEL
 # """
 
 # python3 generate/genPTtoEN_gemini.py --input_dataset dataset_newsmet/gemini/prompt4/ENtoPT.json  --output_base dataset_newsmet/gemini --start_index 0 --batch_size 5 --max_workers 5 --sleep 2
