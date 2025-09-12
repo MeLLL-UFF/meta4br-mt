@@ -15,11 +15,6 @@ import gc
 
 def calcular_metricas(dataset_name, model_name, prompt_id):
 
-    if model_name in ["gemmaX", "marian", "meta"]: # Os modelos de tradução, que não possuem prompt
-        prompt_id = ""
-    else:
-        prompt_id = f"/{prompt_id}"
-
     torch.cuda.empty_cache()
     gc.collect()
 
@@ -28,7 +23,7 @@ def calcular_metricas(dataset_name, model_name, prompt_id):
     bertscore = evaluate.load("bertscore")
     bleurt = evaluate.load('bleurt', 'bleurt-large-512')
 
-    with open(f'dataset_{dataset_name}/{model_name}{prompt_id}/frases_traduzidas.json', 'r', encoding='utf-8') as file:
+    with open(f'dataset_{dataset_name}/{model_name}/{prompt_id}frases_traduzidas.json', 'r', encoding='utf-8') as file:
         dados = json.load(file)
 
     vetor = []
@@ -76,20 +71,28 @@ def calcular_metricas(dataset_name, model_name, prompt_id):
 
         vetor.append(result)
 
-        print(f"frase {i}\n")
         i += 1
 
-        with open(f'dataset_{dataset_name}/{model_name}{prompt_id}/frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
+        with open(f'dataset_{dataset_name}/{model_name}/{prompt_id}frases_traduzidas_com_metricas.json', 'w', encoding='utf-8') as file:
             json.dump(vetor, file, ensure_ascii=False, indent=4)
 
-        print(f'Arquivo salvo em dataset_{dataset_name}/{model_name}{prompt_id}/frases_traduzidas_com_metricas.json')
 
 #Se não quer juntar de uma vez pra todos os datasets, todos os modelos e todos os prompts (foi fazendo pro partes), deve alterar os FORs abaixo)
 if __name__ == "__main__":
-    for dataset in ["newsmet", "manual_data"]:
-        for model in ["gemini", "gemma3", "gpt", "llama", "mistral", "qwen"]:
+    for dataset in ["manual_data", "newsmet"]:
+        for model in ["gemini", "gemma3", "gpt", "llama", "mistral", "qwen", "gemmaX", "marian", "meta"]:
             for prompt in ["prompt1", "prompt2", "prompt3", "prompt4"]:
-                if model in ["gemma3", "marian", "meta"]: # Os modelos de tradução, que não possuem prompt
+
+                # Os modelos de tradução, que não possuem prompt
+                if model in ["gemmaX", "marian", "meta"]: 
                     if prompt == "prompt2": # Só roda 1 vez para os modelos de tradução
                         break
+
+                    prompt = ""
+
+                else :
+                    prompt = prompt + "/"
+
+                print(f'Rodando: dataset_{dataset}/{model}/{prompt}frases_traduzidas_com_metricas.json')
                 calcular_metricas(dataset, model, prompt)
+                print(f'Arquivo salvo em dataset_{dataset}/{model}/{prompt}frases_traduzidas_com_metricas.json')
