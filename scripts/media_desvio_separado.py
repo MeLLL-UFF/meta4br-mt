@@ -88,7 +88,7 @@ if __name__ == "__main__":
         desvios.to_csv(f"{pasta}desvio_padrao_tradicionais_sem_metafora.csv", index=False)
         print(f"CSV salvo em {pasta}*_tradicionais_sem_metafora.csv")
 
-        for prompt in ["prompt3", "prompt4"]:
+        for prompt in ["prompt1", "prompt2", "prompt3", "prompt4"]:
 
             df_com_metafora, df_sem_metafora = carregar_dados(modelos, dataset, frases, prompt + "/") # "/" só pra ajudar nos nomes das pastas nas funções
             medias, desvios = calcular_estatisticas(df_com_metafora)

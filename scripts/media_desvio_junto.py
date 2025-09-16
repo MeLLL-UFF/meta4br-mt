@@ -51,7 +51,7 @@ def calcular_desvio_padrao(modelos, dataset, prompt):
 
     df = pd.DataFrame(columns=["Modelo", "Bleu_desvio","Rouge_desvio",  "Bertscore_desvio", "Bleurt_desvio", "Comet22_desvio", "Kiwi-XL_desvio", "XComet-XL_desvio"])
 
-    tabela = ler_csv_por_coluna(f"dataset_{dataset}/[CSV] media_desvio_padrao/medias_{prompt}.csv")
+    tabela = ler_csv_por_coluna(f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/medias_{prompt}.csv")
     
     for i, modelo in enumerate(modelos):
         
@@ -115,18 +115,26 @@ if __name__ == "__main__":
     metricas = ["ROUGE/rougeL", "BLEU/bleu", "BERTSCORE/f1", "BLEURT/scores", "COMET22/scores", "KIWI-XL/scores", "XCOMET-XL/scores"]
 
     for dataset in ["manual_data", "newsmet"]:
+
+        pasta = f"dataset_{dataset}/[CSV] media_desvio_padrao/junto/"
         
         # Modelos de tradução não possuem vários prompts
         df = calcular_medias(modelos_traducao, dataset, "")
-        df.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/medias_tradicionais.csv", index=False)
+        df.to_csv(f"{pasta}medias_tradicionais.csv", index=False)
+        print(f"CSV salvo em {pasta}medias_tradicionais.csv")
 
         df = calcular_desvio_padrao(modelos_traducao, dataset, "tradicionais")
-        df.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/desvio_padrao_tradicionais.csv", index=False)
+        df.to_csv(f"{pasta}desvio_padrao_tradicionais.csv", index=False)
+        print(f"CSV salvo em {pasta}desvio_padrao_tradicionais_com_metafora.csv")
+
 
         for prompt in ["prompt1", "prompt2", "prompt3", "prompt4"]:
             
             df = calcular_medias(modelos, dataset, prompt + "/")
-            df.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/medias_{prompt}.csv", index=False)
+            df.to_csv(f"{pasta}medias_{prompt}.csv", index=False)
+            print(f"CSV salvo em {pasta}medias_{prompt}.csv")
+
 
             df = calcular_desvio_padrao(modelos, dataset, prompt)
-            df.to_csv(f"dataset_{dataset}/[CSV] media_desvio_padrao/desvio_padrao_{prompt}.csv", index=False)
+            df.to_csv(f"{pasta}desvio_padrao_{prompt}.csv", index=False)
+            print(f"CSV salvo em {pasta}desvio_padrao_{prompt}.csv")
