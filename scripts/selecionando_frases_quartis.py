@@ -2,107 +2,117 @@ import pandas as pd
 import numpy as np
 import json
 
-datasets = ["manual_data", "newsmet"]
-modelos1 = ["gemini/prompt1", "gemma3/prompt1", "gpt/prompt1", "llama/prompt1", "mistral/prompt1", "qwen/prompt1", "gemmaX", "meta", "marian"]
-modelos2 = ["gemini/prompt2", "gemma3/prompt2", "gpt/prompt2", "llama/prompt2", "mistral/prompt2", "qwen/prompt2", "gemmaX", "meta", "marian"]
-modelos3 = ["gemmaX", "meta", "marian"]
+#Um ranking sum geral por modelo/prompt
+def calcular_vetor_soma_por_prompt(modelos, prompt_id, dataset):
+    soma_total = 0
+    vetor_soma_final = []
+    for modelo in modelos:
+        if modelo in ["gemmaX", "marian", "meta"]:
+            matriz = pd.read_csv(f'dataset_{dataset}/{modelo}/matriz.csv')
+        else:
+            matriz = pd.read_csv(f'dataset_{dataset}/{modelo}/{prompt_id}/matriz.csv')
 
-def pegar_melhores_piores(path, melhores_frases, piores_frases, primeiro_modelo):
-    df = pd.read_csv(f"{path}matriz.csv")
+        frases_originais = matriz.iloc[:, 0].tolist()
+        vetor_soma_final.append(matriz.iloc[:, -1].tolist())
 
-    ultima_coluna = df.iloc[:, -1].values
-    limite = len(ultima_coluna) // 2
+    # temos uma matriz, onde cada linha tem os ranking para cada modelo
+    # gemini 1 2 6 3 6 3 6 
+    # gpt 2 6 7 4 7 4 
+    
+    # soma os valores de cada coluna
+    soma_por_coluna = []
+    for i in range(len(vetor_soma_final[0])):  # Para cada posição (coluna)
+        soma_coluna = sum(linha[i] for linha in vetor_soma_final)
+        soma_por_coluna.append(soma_coluna)  
 
-    ranking_melhores = sorted([(i, int(val)) for i, val in enumerate(ultima_coluna) if i <= limite], key=lambda x: x[1])
-    ranking_piores = sorted([(i, int(val)) for i, val in enumerate(ultima_coluna) if i > limite], key=lambda x: x[1], reverse=True)
+    # Criar relação entre frase e ranking total
+    resultado = []
+    for i in range(len(soma_por_coluna)):
+        resultado.append({
+            "frase": frases_originais[i],
+            "ranking_total": soma_por_coluna[i]
+        })      
 
-    indices_melhores = set(i for i, _ in ranking_melhores)
-    indices_piores = set(i for i, _ in ranking_piores)
+    df_resultado = pd.DataFrame(resultado).sort_values('ranking_total', ascending=True)
 
-    for i in range(len(df)):
-        frase = df.iloc[i, 0]
-        score = df.iloc[i, -1]
-        if i in indices_melhores:
-            if primeiro_modelo:
-                melhores_frases.append({"frase": frase, "hits": 1, "score": score})
+    return df_resultado
+
+#Um ranking sum geral por modelo/prompt
+def calcular_vetor_soma_geral(modelos, prompt_ids, dataset):
+    soma_total = 0
+    vetor_soma_final = []
+    for modelo in modelos:
+        for prompt in prompt_ids:
+
+            if modelo in ["gemmaX", "marian", "meta"]:
+                matriz = pd.read_csv(f'dataset_{dataset}/{modelo}/matriz.csv')
+                if prompt == "prompt2": #rodar 1 vez só qm é de tradução pq n tem varios prompts
+                    break
             else:
-                for f in melhores_frases:
-                    if f["frase"] == frase:
-                        f["hits"] += 1
-                        break
-        elif i in indices_piores:
-            if primeiro_modelo:
-                piores_frases.append({"frase": frase, "hits": 1, "score": score})
-            else:
-                for f in piores_frases:
-                    if f["frase"] == frase:
-                        f["hits"] += 1
-                        break
+                matriz = pd.read_csv(f'dataset_{dataset}/{modelo}/{prompt}/matriz.csv')
 
-    return melhores_frases, piores_frases
+            frases_originais = matriz.iloc[:, 0].tolist()
+            vetor_soma_final.append(matriz.iloc[:, -1].tolist())
 
-def salvar_csv(frases_com_score, dataset, prompt_id, tipo):
-    df = pd.DataFrame(frases_com_score, columns=["frase", "score"])
-    df.to_csv(f"dataset_{dataset}/[CSV] selecao_frases_criticas/{tipo}_frases_{prompt_id}.csv", index=False, encoding='utf-8')
+    # temos uma matriz, onde cada linha tem os ranking para cada modelo
+    # gemini 1 2 6 3 6 3 6 
+    # gpt 2 6 7 4 7 4 
+    
+    # soma os valores de cada coluna
+    soma_por_coluna = []
+    for i in range(len(vetor_soma_final[0])):  # Para cada posição (coluna)
+        soma_coluna = sum(linha[i] for linha in vetor_soma_final)
+        soma_por_coluna.append(soma_coluna)  
 
-def escolher_frases(modelos, dataset, melhores_frases, piores_frases, prompt_id):
-    for indice, modelo in enumerate(modelos):
-        path = f"dataset_{dataset}/{modelo}/"
-        primeiro = (indice == 0)
-        melhores_frases, piores_frases = pegar_melhores_piores(path, melhores_frases, piores_frases, primeiro)
-        print(f"Modelo {modelo}")
+    # Criar relação entre frase e ranking total
+    resultado = []
+    for i in range(len(soma_por_coluna)):
+        resultado.append({
+            "frase": frases_originais[i],
+            "ranking_total": soma_por_coluna[i]
+        })      
 
-    n_modelos = len(modelos)
-    melhores_unicas = {}
-    piores_unicas = {}
+    df_resultado = pd.DataFrame(resultado).sort_values('ranking_total', ascending=True)
 
-    for f in melhores_frases:
-        if f["hits"] == n_modelos:
-            melhores_unicas[f["frase"]] = f["score"]
-    for f in piores_frases:
-        if f["hits"] == n_modelos:
-            piores_unicas[f["frase"]] = f["score"]
+    return df_resultado
 
-    melhores_ordenadas = sorted(melhores_unicas.items(), key=lambda x: x[1])
-    piores_ordenadas = sorted(piores_unicas.items(), key=lambda x: x[1], reverse=True)
+def definir_quartis(df_soma_total):
+    # Pegar a coluna 'ranking_total' e calcular quartis
+    rankings = df_soma_total['ranking_total']
+    
+    q1 = rankings.quantile(0.25)
+    q2 = rankings.quantile(0.50) 
+    q3 = rankings.quantile(0.75)
+    
+    # Classificar as frases por quartil
+    df_soma_total['quartil'] = pd.cut(rankings, 
+                                    bins=[-np.inf, q1, q2, q3, np.inf], 
+                                    labels=['Q1_melhor', 'Q2', 'Q3', 'Q4_pior'])
+    
+    return df_soma_total
 
-    salvar_csv(melhores_ordenadas, dataset, prompt_id, "melhores")
-    salvar_csv(piores_ordenadas, dataset, prompt_id, "piores")
+def selecionar_100_frases(df_quartis, dataset, end_name):
+    # Pegar 25 frases de cada quartil
+    q1_selecionadas = df_quartis[df_quartis['quartil'] == 'Q1_melhor'].head(25)
+    q2_selecionadas = df_quartis[df_quartis['quartil'] == 'Q2'].head(25)
+    q3_selecionadas = df_quartis[df_quartis['quartil'] == 'Q3'].head(25)
+    q4_selecionadas = df_quartis[df_quartis['quartil'] == 'Q4_pior'].head(25)
+    
+    frases_finais = pd.concat([q1_selecionadas, q2_selecionadas, q3_selecionadas, q4_selecionadas], ignore_index=True)
 
-    return melhores_ordenadas, piores_ordenadas
-
+    frases_finais.to_csv(f'dataset_{dataset}/[CSV] selecao_frases_criticas/frases_quartis_{end_name}.csv', index=False)
+    
+# Para usar:
 if __name__ == "__main__":
-    for dataset in datasets:
-        melhores_frases = []
-        piores_frases = []
+    modelos = ["gemini", "gemma3", "gpt", "llama", "mistral", "qwen", "gemmaX", "meta", "marian"]
+    prompt_ids = ["prompt1", "prompt2", "prompt3", "prompt4"] 
 
-        melhores_ordenadas1, piores_ordenadas1 = escolher_frases(modelos1, dataset, melhores_frases, piores_frases, "prompt1_apenas")
+    for dataset in ["manual_data", "newsmet"]:
+        for prompt in prompt_ids:
+            df_soma_total_por_prompt = calcular_vetor_soma_por_prompt(modelos, prompt, dataset)
+            df_quartis_por_prompt = definir_quartis(df_soma_total_por_prompt)
+            selecionar_100_frases(df_quartis_por_prompt, dataset, prompt)
 
-        melhores_frases = []
-        piores_frases = []
-        melhores_ordenadas2, piores_ordenadas2 = escolher_frases(modelos2, dataset, melhores_frases, piores_frases, "prompt2_apenas")
-
-        melhores_frases = []
-        piores_frases = []
-        melhores_ordenadas3, piores_ordenadas3 = escolher_frases(modelos3, dataset, melhores_frases, piores_frases, "prompt_unico")
-
-        # Juntar os rankings e preservar o melhor score
-        todas_melhores = melhores_ordenadas1 + melhores_ordenadas2 + melhores_ordenadas3
-        todas_piores = piores_ordenadas1 + piores_ordenadas2 + piores_ordenadas3
-
-        melhores_dict = {}
-        for frase, score in todas_melhores:
-            if frase not in melhores_dict or score < melhores_dict[frase]:
-                melhores_dict[frase] = score
-        piores_dict = {}
-        for frase, score in todas_piores:
-            if frase not in piores_dict or score > piores_dict[frase]:
-                piores_dict[frase] = score
-
-        melhores_final = sorted(melhores_dict.items(), key=lambda x: x[1])
-        piores_final = sorted(piores_dict.items(), key=lambda x: x[1], reverse=True)
-
-        pd.DataFrame([{"frase": frase} for frase, _ in melhores_final]).to_csv(f"dataset_{dataset}/[CSV] selecao_frases_criticas/melhores_frases_geral.csv", index=False, encoding='utf-8')
-
-        pd.DataFrame([{"frase": frase} for frase, _ in piores_final]).to_csv(f"dataset_{dataset}/[CSV] selecao_frases_criticas/piores_frases_geral.csv", index=False, encoding='utf-8')
-
+        df_soma_total_geral = calcular_vetor_soma_geral(modelos, prompt_ids, dataset)
+        df_quartis_geral = definir_quartis(df_soma_total_geral)
+        selecionar_100_frases(df_quartis_geral, dataset, "geral")
