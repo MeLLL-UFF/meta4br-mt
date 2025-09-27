@@ -2,13 +2,15 @@ import csv
 import pandas as pd
 import json
 
+# Aqui eu adiciono cabeçalho e as colunas de frase_original, frase_traduzida_pt, frase_traduzida_en
+
 for dataset in ["manual_data", "newsmet"]:
     for modelo in ["gemini", "gemma3", "gemmaX", "gpt", "llama", "marian", "meta", "mistral", "qwen"]:
-        for prompt in ["prompt3", "prompt4"]:
+        for prompt in ["prompt1", "prompt2", "prompt3", "prompt4"]:
             
             if modelo in ["gemmaX", "marian", "meta"]:
                 path = f"dataset_{dataset}/{modelo}/"
-                if prompt == "prompt3": #Rodar só uma vez
+                if prompt == "prompt2": #Rodar só uma vez
                     break 
             else:
                 path = f"dataset_{dataset}/{modelo}/{prompt}/"
