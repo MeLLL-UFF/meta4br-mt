@@ -3,8 +3,9 @@ import numpy as np
 import json
 
 datasets = ["manual_data", "newsmet"]
-modelos_gerais = ["gemini", "gemma3", "gpt", "llama", "mistral", "qwen", "gemmaX", "meta", "marian"]
-modelos_especificos = ["gemmaX", "meta", "marian"]
+modelos1 = ["gemini/prompt1", "gemma3/prompt1", "gpt/prompt1", "llama/prompt1", "mistral/prompt1", "qwen/prompt1", "gemmaX", "meta", "marian"]
+modelos2 = ["gemini/prompt2", "gemma3/prompt2", "gpt/prompt2", "llama/prompt2", "mistral/prompt2", "qwen/prompt2", "gemmaX", "meta", "marian"]
+modelos3 = ["gemmaX", "meta", "marian"]
 
 def pegar_melhores_piores(path, melhores_frases, piores_frases, primeiro_modelo):
     df = pd.read_csv(f"{path}matriz.csv")
@@ -40,16 +41,13 @@ def pegar_melhores_piores(path, melhores_frases, piores_frases, primeiro_modelo)
 
     return melhores_frases, piores_frases
 
-def salvar_csv(frases_com_score, dataset, end_name, tipo):
+def salvar_csv(frases_com_score, dataset, prompt_id, tipo):
     df = pd.DataFrame(frases_com_score, columns=["frase", "score"])
-    df.to_csv(f"dataset_{dataset}/[CSV] selecao_frases_criticas/{tipo}_frases_{end_name}.csv", index=False, encoding='utf-8')
+    df.to_csv(f"dataset_{dataset}/[CSV] selecao_frases_criticas/{tipo}_frases_{prompt_id}.csv", index=False, encoding='utf-8')
 
-def escolher_frases(modelos, dataset, melhores_frases, piores_frases, end_name, prompt_id):
+def escolher_frases(modelos, dataset, melhores_frases, piores_frases, prompt_id):
     for indice, modelo in enumerate(modelos):
-        if prompt_id != "":
-            path = f"dataset_{dataset}/{modelo}/{prompt_id}/"
-        else:
-            path = f"dataset_{dataset}/{modelo}/"
+        path = f"dataset_{dataset}/{modelo}/"
         primeiro = (indice == 0)
         melhores_frases, piores_frases = pegar_melhores_piores(path, melhores_frases, piores_frases, primeiro)
         print(f"Modelo {modelo}")
@@ -68,31 +66,29 @@ def escolher_frases(modelos, dataset, melhores_frases, piores_frases, end_name, 
     melhores_ordenadas = sorted(melhores_unicas.items(), key=lambda x: x[1])
     piores_ordenadas = sorted(piores_unicas.items(), key=lambda x: x[1], reverse=True)
 
-    salvar_csv(melhores_ordenadas, dataset, end_name, "melhores")
-    salvar_csv(piores_ordenadas, dataset, end_name, "piores")
+    salvar_csv(melhores_ordenadas, dataset, prompt_id, "melhores")
+    salvar_csv(piores_ordenadas, dataset, prompt_id, "piores")
 
     return melhores_ordenadas, piores_ordenadas
 
 if __name__ == "__main__":
     for dataset in datasets:
-
-        #modelos gerais com prompts diferentes
-        for i in range(4): # 4 prompts atualmente
-            melhores_frases = []
-            piores_frases = []
-            melhores_ordenadas, piores_ordenadas = escolher_frases(modelos_gerais, dataset, melhores_frases, piores_frases, f"prompt{i+1}_apenas", f"prompt{i+1}")
-
-            todas_melhores += melhores_ordenadas
-            todas_piores += piores_ordenadas
-
-        #modelos específicos com mesmo prompt
         melhores_frases = []
         piores_frases = []
-        melhores_ordenadas, piores_ordenadas = escolher_frases(modelos_especificos, dataset, melhores_frases, piores_frases, "prompt_unico", "")
+
+        melhores_ordenadas1, piores_ordenadas1 = escolher_frases(modelos1, dataset, melhores_frases, piores_frases, "prompt1_apenas")
+
+        melhores_frases = []
+        piores_frases = []
+        melhores_ordenadas2, piores_ordenadas2 = escolher_frases(modelos2, dataset, melhores_frases, piores_frases, "prompt2_apenas")
+
+        melhores_frases = []
+        piores_frases = []
+        melhores_ordenadas3, piores_ordenadas3 = escolher_frases(modelos3, dataset, melhores_frases, piores_frases, "prompt_unico")
 
         # Juntar os rankings e preservar o melhor score
-        todas_melhores +=  melhores_ordenadas
-        todas_piores +=  piores_ordenadas
+        todas_melhores = melhores_ordenadas1 + melhores_ordenadas2 + melhores_ordenadas3
+        todas_piores = piores_ordenadas1 + piores_ordenadas2 + piores_ordenadas3
 
         melhores_dict = {}
         for frase, score in todas_melhores:

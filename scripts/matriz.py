@@ -77,6 +77,6 @@ def print_matriz(matriz):
 if __name__ == "__main__":
     for dataset in datasets:
         for modelo in modelos:
-            preencher_objeto(f"{dataset}_prompt1", modelo, dataset)
-            preencher_objeto(f"{dataset}_prompt2", modelo, dataset)
+            preencher_objeto(f"{dataset}_prompt3", modelo, dataset)
+            preencher_objeto(f"{dataset}_prompt4", modelo, dataset)
 
