@@ -92,13 +92,21 @@ def definir_quartis(df_soma_total):
     return df_soma_total
 
 def selecionar_100_frases(df_quartis, dataset, end_name):
-    # Pegar 25 frases de cada quartil
-    q1_selecionadas = df_quartis[df_quartis['quartil'] == 'Q1_melhor'].head(25)
-    q2_selecionadas = df_quartis[df_quartis['quartil'] == 'Q2'].head(25)
-    q3_selecionadas = df_quartis[df_quartis['quartil'] == 'Q3'].head(25)
-    q4_selecionadas = df_quartis[df_quartis['quartil'] == 'Q4_pior'].head(25)
+
+    # Pegar 25 frases aleatórias de cada quartil
+    # Por que random_state=42? Para garantir que a seleção seja sempre a mesma em execuções diferentes. Toda vez que você rodar o script, as mesmas 25 frases serão selecionadas. Outros pesquisadores podem reproduzir os resultados exatos. Útil para comparações e validação científica.
+    q1_selecionadas = df_quartis[df_quartis['quartil'] == 'Q1_melhor'].sample(25, random_state=42)
+    q2_selecionadas = df_quartis[df_quartis['quartil'] == 'Q2'].sample(25, random_state=42)
+    q3_selecionadas = df_quartis[df_quartis['quartil'] == 'Q3'].sample(25, random_state=42)
+    q4_selecionadas = df_quartis[df_quartis['quartil'] == 'Q4_pior'].sample(25, random_state=42)
     
     frases_finais = pd.concat([q1_selecionadas, q2_selecionadas, q3_selecionadas, q4_selecionadas], ignore_index=True)
+
+    # Ordenar por ranking_total (do melhor para o pior)
+    frases_finais = frases_finais.sort_values('ranking_total', ascending=True)
+    
+    # Resetar índice após ordenação
+    frases_finais = frases_finais.reset_index(drop=True)
 
     frases_finais.to_csv(f'dataset_{dataset}/[CSV] selecao_frases_criticas/frases_quartis_{end_name}.csv', index=False)
     
