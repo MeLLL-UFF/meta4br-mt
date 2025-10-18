@@ -108,7 +108,7 @@ def selecionar_100_frases(df_quartis, dataset, end_name):
     # Resetar índice após ordenação
     frases_finais = frases_finais.reset_index(drop=True)
 
-    frases_finais.to_csv(f'dataset_{dataset}/[CSV] selecao_frases_criticas/frases_quartis_{end_name}.csv', index=False)
+    frases_finais.to_csv(f'dataset_{dataset}/[CSV] selecao_frases_criticas/frases_quartis_{end_name}.csv', index=False)        
     
 # Para usar:
 if __name__ == "__main__":
