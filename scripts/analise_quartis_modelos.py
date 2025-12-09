@@ -298,7 +298,7 @@ def metricas_numericas(dfs_por_modelo, dataset_name):
     df_contagem = pd.DataFrame(resultados_contagem)
     
     # Criar figura com 3 subplots
-    fig, axes = plt.subplots(1, 3, figsize=(20, 6))
+    fig, axes = plt.subplots(1, 3, figsize=(28, 8))
     
     # Gráfico 1: Médias
     ax1 = axes[0]
@@ -312,15 +312,23 @@ def metricas_numericas(dfs_por_modelo, dataset_name):
     ax1.bar([i + width/2 for i in x], df_media['compreensao_media'], width, 
             label='Compreensão', color=cor_compreensao, alpha=0.85)
     
-    ax1.set_xlabel('Modelo', fontsize=12)
-    ax1.set_ylabel('Média de Pontuação', fontsize=12)
-    ax1.set_title('Média: Inteligibilidade vs Compreensão', fontsize=13, fontweight='bold')
+    ax1.set_xlabel('Modelo', fontsize=14, fontweight='bold')
+    ax1.set_ylabel('Média de Pontuação', fontsize=14, fontweight='bold')
+    ax1.set_title('Média: Inteligibilidade vs Compreensão', fontsize=15, fontweight='bold')
     ax1.set_xticks(x)
-    ax1.set_xticklabels(df_media['modelo'], rotation=45, ha='right')
+    ax1.set_xticklabels(df_media['modelo'], rotation=45, ha='right', fontsize=12)
     ax1.set_ylim([0, 5])
-    ax1.legend(fontsize=9)
+    ax1.legend(fontsize=11)
     ax1.grid(axis='y', alpha=0.3)
-    adicionar_labels(ax1, fmt="{:.1f}", offset=0.5)
+    # Labels pequenos e espaçados
+    for patch in ax1.patches:
+        height = patch.get_height()
+        ax1.annotate(f'{height:.1f}',
+                    xy=(patch.get_x() + patch.get_width() / 2, height),
+                    xytext=(0, 3),
+                    textcoords="offset points",
+                    ha='center', va='bottom',
+                    fontsize=8, color='black')
     
     # Gráfico 2: Contagem em Inteligibilidade
     ax2 = axes[1]
@@ -334,14 +342,23 @@ def metricas_numericas(dfs_por_modelo, dataset_name):
         ax2.bar([i + (idx - 2) * width for i in x], valores, width, 
                 label=f'Nota {nota}', color=cores_notas[idx], alpha=0.85)
     
-    ax2.set_xlabel('Modelo', fontsize=12)
-    ax2.set_ylabel('Quantidade', fontsize=12)
-    ax2.set_title('Contagem de Notas em Inteligibilidade', fontsize=13, fontweight='bold')
+    ax2.set_xlabel('Modelo', fontsize=14, fontweight='bold')
+    ax2.set_ylabel('Quantidade', fontsize=14, fontweight='bold')
+    ax2.set_title('Contagem de Notas em Inteligibilidade', fontsize=15, fontweight='bold')
     ax2.set_xticks(x)
-    ax2.set_xticklabels(df_contagem['modelo'], rotation=45, ha='right')
-    ax2.legend(loc='upper right', fontsize=9)
+    ax2.set_xticklabels(df_contagem['modelo'], rotation=45, ha='right', fontsize=12)
+    ax2.legend(loc='upper right', fontsize=10)
     ax2.grid(axis='y', alpha=0.3)
-    adicionar_labels(ax2, fmt="{:.0f}", offset=0.3)
+    # Labels pequenos e espaçados
+    for patch in ax2.patches:
+        height = patch.get_height()
+        if height > 0:
+            ax2.annotate(f'{int(height)}',
+                        xy=(patch.get_x() + patch.get_width() / 2, height),
+                        xytext=(0, 2),
+                        textcoords="offset points",
+                        ha='center', va='bottom',
+                        fontsize=7, color='black')
     
     # Gráfico 3: Contagem em Compreensão
     ax3 = axes[2]
@@ -350,16 +367,25 @@ def metricas_numericas(dfs_por_modelo, dataset_name):
         ax3.bar([i + (idx - 2) * width for i in x], valores, width, 
                 label=f'Nota {nota}', color=cores_notas[idx], alpha=0.85)
     
-    ax3.set_xlabel('Modelo', fontsize=12)
-    ax3.set_ylabel('Quantidade', fontsize=12)
-    ax3.set_title('Contagem de Notas em Compreensão', fontsize=13, fontweight='bold')
+    ax3.set_xlabel('Modelo', fontsize=14, fontweight='bold')
+    ax3.set_ylabel('Quantidade', fontsize=14, fontweight='bold')
+    ax3.set_title('Contagem de Notas em Compreensão', fontsize=15, fontweight='bold')
     ax3.set_xticks(x)
-    ax3.set_xticklabels(df_contagem['modelo'], rotation=45, ha='right')
-    ax3.legend(loc='upper right', fontsize=9)
+    ax3.set_xticklabels(df_contagem['modelo'], rotation=45, ha='right', fontsize=12)
+    ax3.legend(loc='upper right', fontsize=10)
     ax3.grid(axis='y', alpha=0.3)
-    adicionar_labels(ax3, fmt="{:.0f}", offset=0.3)
+    # Labels pequenos e espaçados
+    for patch in ax3.patches:
+        height = patch.get_height()
+        if height > 0:
+            ax3.annotate(f'{int(height)}',
+                        xy=(patch.get_x() + patch.get_width() / 2, height),
+                        xytext=(0, 2),
+                        textcoords="offset points",
+                        ha='center', va='bottom',
+                        fontsize=7, color='black')
     
-    plt.tight_layout()
+    plt.tight_layout(pad=4.0)
     
     output_dir = Path("analise_quartis/modelos/metricas_numericas")
     output_dir.mkdir(parents=True, exist_ok=True)
