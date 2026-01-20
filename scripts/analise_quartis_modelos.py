@@ -164,7 +164,7 @@ def grafico_preservacao_metaforas(dfs_por_modelo, dataset_name):
 
     output_dir = Path("analise_quartis/modelos/preservacao_metaforas")
     output_dir.mkdir(parents=True, exist_ok=True)
-    fig.savefig(output_dir / f"{dataset_name}_preservacao_metaforas.png", dpi=300, bbox_inches='tight')
+    fig.savefig(output_dir / f"{dataset_name}.png", dpi=300, bbox_inches='tight')
     plt.close(fig)
     
     return df_resultados
@@ -249,7 +249,7 @@ def analisar_equivalencia(dfs_por_modelo, dataset_name):
 
     output_dir.parent.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(resultados).sort_values('total', ascending=False).to_json(
-        output_dir / f"{dataset_name}.json",
+        output_dir / f"{dataset_name}_equivalencia.json",
         orient='records', indent=2, force_ascii=False
     )
 
@@ -419,7 +419,7 @@ for dataset in ["manual_data", "newsmet"]:
     
     output_dir = Path("analise_quartis/modelos/preservacao_metaforas")
     output_dir.mkdir(parents=True, exist_ok=True)
-    resultados.to_json(output_dir / f'{dataset}.json', orient='records', indent=2, force_ascii=False)
+    resultados.to_json(output_dir / f'{dataset}_preservacao_metaforas.json', orient='records', indent=2, force_ascii=False)
     
     analisar_equivalencia(dfs_por_modelo, dataset)
 

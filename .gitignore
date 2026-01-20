@@ -15,3 +15,4 @@ dataset_newsmet/meta/nllb-log.txt
 dataset_newsmet/marian/marian-log.txt
 dataset_newsmet/gemma3/gemma3-log.txt
 dataset_newsmet/qwen/qwen-log.txt
+.DS_Store
