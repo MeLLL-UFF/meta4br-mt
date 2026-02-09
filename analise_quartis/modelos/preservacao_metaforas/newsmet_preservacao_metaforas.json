@@ -1,31 +1,10 @@
 [
   {
-    "modelo":"gemma3",
-    "total":78,
-    "metafora_original":29,
-    "metafora_traducao":33,
-    "perdeu_metafora":4,
-    "ganhou_metafora":8,
-    "manteve_sem_metafora":41,
-    "manteve_com_metafora":25,
-    "taxa_preservacao":86.2068965517
-  },
-  {
-    "modelo":"gemini",
-    "total":68,
-    "metafora_original":26,
-    "metafora_traducao":28,
-    "perdeu_metafora":3,
-    "ganhou_metafora":5,
-    "manteve_sem_metafora":37,
-    "manteve_com_metafora":23,
-    "taxa_preservacao":88.4615384615
-  },
-  {
     "modelo":"llama",
     "total":55,
     "metafora_original":24,
     "metafora_traducao":23,
+    "diferenca_original_traducao":1,
     "perdeu_metafora":3,
     "ganhou_metafora":2,
     "manteve_sem_metafora":29,
@@ -37,6 +16,7 @@
     "total":53,
     "metafora_original":19,
     "metafora_traducao":17,
+    "diferenca_original_traducao":2,
     "perdeu_metafora":2,
     "ganhou_metafora":0,
     "manteve_sem_metafora":34,
@@ -48,6 +28,7 @@
     "total":50,
     "metafora_original":17,
     "metafora_traducao":15,
+    "diferenca_original_traducao":2,
     "perdeu_metafora":2,
     "ganhou_metafora":0,
     "manteve_sem_metafora":33,
@@ -55,21 +36,35 @@
     "taxa_preservacao":88.2352941176
   },
   {
-    "modelo":"mistral",
-    "total":47,
-    "metafora_original":17,
-    "metafora_traducao":12,
-    "perdeu_metafora":5,
+    "modelo":"gemini",
+    "total":68,
+    "metafora_original":26,
+    "metafora_traducao":28,
+    "diferenca_original_traducao":2,
+    "perdeu_metafora":3,
+    "ganhou_metafora":5,
+    "manteve_sem_metafora":37,
+    "manteve_com_metafora":23,
+    "taxa_preservacao":88.4615384615
+  },
+  {
+    "modelo":"marian",
+    "total":29,
+    "metafora_original":15,
+    "metafora_traducao":13,
+    "diferenca_original_traducao":2,
+    "perdeu_metafora":2,
     "ganhou_metafora":0,
-    "manteve_sem_metafora":30,
-    "manteve_com_metafora":12,
-    "taxa_preservacao":70.5882352941
+    "manteve_sem_metafora":14,
+    "manteve_com_metafora":13,
+    "taxa_preservacao":86.6666666667
   },
   {
     "modelo":"qwen",
     "total":44,
     "metafora_original":15,
     "metafora_traducao":12,
+    "diferenca_original_traducao":3,
     "perdeu_metafora":3,
     "ganhou_metafora":0,
     "manteve_sem_metafora":29,
@@ -81,6 +76,7 @@
     "total":32,
     "metafora_original":10,
     "metafora_traducao":7,
+    "diferenca_original_traducao":3,
     "perdeu_metafora":4,
     "ganhou_metafora":1,
     "manteve_sem_metafora":21,
@@ -88,14 +84,27 @@
     "taxa_preservacao":60.0
   },
   {
-    "modelo":"marian",
-    "total":29,
-    "metafora_original":15,
-    "metafora_traducao":13,
-    "perdeu_metafora":2,
+    "modelo":"gemma3",
+    "total":78,
+    "metafora_original":29,
+    "metafora_traducao":33,
+    "diferenca_original_traducao":4,
+    "perdeu_metafora":4,
+    "ganhou_metafora":8,
+    "manteve_sem_metafora":41,
+    "manteve_com_metafora":25,
+    "taxa_preservacao":86.2068965517
+  },
+  {
+    "modelo":"mistral",
+    "total":47,
+    "metafora_original":17,
+    "metafora_traducao":12,
+    "diferenca_original_traducao":5,
+    "perdeu_metafora":5,
     "ganhou_metafora":0,
-    "manteve_sem_metafora":14,
-    "manteve_com_metafora":13,
-    "taxa_preservacao":86.6666666667
+    "manteve_sem_metafora":30,
+    "manteve_com_metafora":12,
+    "taxa_preservacao":70.5882352941
   }
 ]

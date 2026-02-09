@@ -1,20 +1,10 @@
 [
   {
-    "modelo":"llama",
-    "total":74,
-    "metafora_original":38,
-    "metafora_traducao":32,
-    "perdeu_metafora":8,
-    "ganhou_metafora":2,
-    "manteve_sem_metafora":34,
-    "manteve_com_metafora":30,
-    "taxa_preservacao":78.9473684211
-  },
-  {
     "modelo":"gemma3",
     "total":72,
     "metafora_original":35,
     "metafora_traducao":36,
+    "diferenca_original_traducao":1,
     "perdeu_metafora":6,
     "ganhou_metafora":7,
     "manteve_sem_metafora":30,
@@ -22,54 +12,11 @@
     "taxa_preservacao":82.8571428571
   },
   {
-    "modelo":"gpt",
-    "total":65,
-    "metafora_original":39,
-    "metafora_traducao":34,
-    "perdeu_metafora":5,
-    "ganhou_metafora":0,
-    "manteve_sem_metafora":26,
-    "manteve_com_metafora":34,
-    "taxa_preservacao":87.1794871795
-  },
-  {
-    "modelo":"qwen",
-    "total":63,
-    "metafora_original":35,
-    "metafora_traducao":28,
-    "perdeu_metafora":8,
-    "ganhou_metafora":1,
-    "manteve_sem_metafora":27,
-    "manteve_com_metafora":27,
-    "taxa_preservacao":77.1428571429
-  },
-  {
-    "modelo":"mistral",
-    "total":62,
-    "metafora_original":34,
-    "metafora_traducao":25,
-    "perdeu_metafora":10,
-    "ganhou_metafora":1,
-    "manteve_sem_metafora":27,
-    "manteve_com_metafora":24,
-    "taxa_preservacao":70.5882352941
-  },
-  {
-    "modelo":"gemini",
-    "total":50,
-    "metafora_original":29,
-    "metafora_traducao":25,
-    "perdeu_metafora":6,
-    "ganhou_metafora":2,
-    "manteve_sem_metafora":19,
-    "manteve_com_metafora":23,
-    "taxa_preservacao":79.3103448276
-  },
-  {
     "modelo":"gemmaX",
     "total":45,
     "metafora_original":24,
     "metafora_traducao":20,
+    "diferenca_original_traducao":4,
     "perdeu_metafora":4,
     "ganhou_metafora":0,
     "manteve_sem_metafora":21,
@@ -77,10 +24,35 @@
     "taxa_preservacao":83.3333333333
   },
   {
+    "modelo":"gemini",
+    "total":50,
+    "metafora_original":29,
+    "metafora_traducao":25,
+    "diferenca_original_traducao":4,
+    "perdeu_metafora":6,
+    "ganhou_metafora":2,
+    "manteve_sem_metafora":19,
+    "manteve_com_metafora":23,
+    "taxa_preservacao":79.3103448276
+  },
+  {
+    "modelo":"gpt",
+    "total":65,
+    "metafora_original":39,
+    "metafora_traducao":34,
+    "diferenca_original_traducao":5,
+    "perdeu_metafora":5,
+    "ganhou_metafora":0,
+    "manteve_sem_metafora":26,
+    "manteve_com_metafora":34,
+    "taxa_preservacao":87.1794871795
+  },
+  {
     "modelo":"marian",
     "total":44,
     "metafora_original":23,
     "metafora_traducao":17,
+    "diferenca_original_traducao":6,
     "perdeu_metafora":6,
     "ganhou_metafora":0,
     "manteve_sem_metafora":21,
@@ -88,14 +60,51 @@
     "taxa_preservacao":73.9130434783
   },
   {
+    "modelo":"llama",
+    "total":74,
+    "metafora_original":38,
+    "metafora_traducao":32,
+    "diferenca_original_traducao":6,
+    "perdeu_metafora":8,
+    "ganhou_metafora":2,
+    "manteve_sem_metafora":34,
+    "manteve_com_metafora":30,
+    "taxa_preservacao":78.9473684211
+  },
+  {
+    "modelo":"qwen",
+    "total":63,
+    "metafora_original":35,
+    "metafora_traducao":28,
+    "diferenca_original_traducao":7,
+    "perdeu_metafora":8,
+    "ganhou_metafora":1,
+    "manteve_sem_metafora":27,
+    "manteve_com_metafora":27,
+    "taxa_preservacao":77.1428571429
+  },
+  {
     "modelo":"meta",
     "total":28,
     "metafora_original":18,
     "metafora_traducao":9,
+    "diferenca_original_traducao":9,
     "perdeu_metafora":9,
     "ganhou_metafora":0,
     "manteve_sem_metafora":10,
     "manteve_com_metafora":9,
     "taxa_preservacao":50.0
+  },
+  {
+    "modelo":"mistral",
+    "total":62,
+    "metafora_original":34,
+    "metafora_traducao":25,
+    "diferenca_original_traducao":9,
+    "perdeu_metafora":10,
+    "ganhou_metafora":1,
+    "manteve_sem_metafora":27,
+    "manteve_com_metafora":24,
+    "taxa_preservacao":70.5882352941
   }
 ]

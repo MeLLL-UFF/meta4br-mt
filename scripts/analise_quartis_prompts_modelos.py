@@ -69,11 +69,13 @@ def grafico_preservacao_metaforas(dfs_por_modelo_prompt, dataset_name):
         ganhou_metafora = (~df_temp['original_sim'] & df_temp['traducao_sim']).sum()
         manteve_sem_metafora = (~df_temp['original_sim'] & ~df_temp['traducao_sim']).sum()
         
+        diferenca_original_traducao = abs(metafora_original - metafora_traducao)
         resultados.append({
             'modelo_prompt': modelo_prompt,
             'total': total,
             'metafora_original': metafora_original,
             'metafora_traducao': metafora_traducao,
+            'diferenca_original_traducao': diferenca_original_traducao,
             'perdeu_metafora': perdeu_metafora,
             'ganhou_metafora': ganhou_metafora,
             'manteve_sem_metafora': manteve_sem_metafora,
@@ -81,12 +83,15 @@ def grafico_preservacao_metaforas(dfs_por_modelo_prompt, dataset_name):
             'taxa_preservacao': (manteve_com_metafora / metafora_original * 100) if metafora_original > 0 else 0
         })
     
-    df_resultados = pd.DataFrame(resultados).sort_values('total', ascending=False)
+    df_resultados = pd.DataFrame(resultados).sort_values('diferenca_original_traducao', ascending=True)
+    
+    # Para o gráfico de taxa de preservação: ordenar por taxa decrescente (maiores primeiro)
+    df_taxa = df_resultados.sort_values('taxa_preservacao', ascending=False)
     
     # Gráfico 1: Comparação Original vs Tradução
     fig, axes = plt.subplots(2, 2, figsize=(18, 12))
     
-    # Subplot 1: Metáforas Original vs Tradução
+    # Subplot 1: Metáforas Original vs Tradução (ordenado por menores diferenças)
     ax1 = axes[0, 0]
     x = range(len(df_resultados))
     width = 0.35
@@ -96,14 +101,14 @@ def grafico_preservacao_metaforas(dfs_por_modelo_prompt, dataset_name):
     ax1.bar([i + width/2 for i in x], df_resultados['metafora_traducao'], width, label='Tradução', color=cor_traducao, alpha=0.85)
     ax1.set_xlabel('Modelo/Prompt')
     ax1.set_ylabel('Quantidade de Metáforas')
-    ax1.set_title('Metáforas: Original vs Tradução')
+    ax1.set_title('Metáforas: Original vs Tradução (Ordenado por Menores Diferenças)')
     ax1.set_xticks(x)
-    ax1.set_xticklabels(df_resultados['modelo_prompt'], rotation=45, ha='right', fontsize=9)
+    ax1.set_xticklabels(df_resultados['modelo_prompt'], rotation=90, ha='right', fontsize=9)
     ax1.legend()
     ax1.grid(axis='y', alpha=0.3)
     adicionar_labels(ax1)
     
-    # Subplot 2: Preservadas, Perdidas e alteradas
+    # Subplot 2: Preservadas, Perdidas e alteradas (ordenado por menores diferenças)
     ax2 = axes[0, 1]
     x = range(len(df_resultados))
     width = 0.2
@@ -121,20 +126,21 @@ def grafico_preservacao_metaforas(dfs_por_modelo_prompt, dataset_name):
     ax2.set_ylabel('Quantidade')
     ax2.set_title('Análise de Preservação de Metáforas')
     ax2.set_xticks(x)
-    ax2.set_xticklabels(df_resultados['modelo_prompt'], rotation=45, ha='right', fontsize=9)
+    ax2.set_xticklabels(df_resultados['modelo_prompt'], rotation=90, ha='right', fontsize=9)
     ax2.legend()
     ax2.grid(axis='y', alpha=0.3)
     adicionar_labels(ax2)
     
-    # Subplot 3: Taxa de Preservação (%)
+    # Subplot 3: Taxa de Preservação (%) (ordenado por maiores taxas)
     ax3 = axes[1, 0]
-    colors = ['#ec4899' if x >= 80 else '#c084fc' if x >= 60 else '#60a5fa' for x in df_resultados['taxa_preservacao']]
-    ax3.bar(range(len(df_resultados)), df_resultados['taxa_preservacao'], color=colors, alpha=0.9)
+    x_taxa = range(len(df_taxa))
+    colors = ['#ec4899' if x >= 80 else '#c084fc' if x >= 60 else '#60a5fa' for x in df_taxa['taxa_preservacao']]
+    ax3.bar(x_taxa, df_taxa['taxa_preservacao'], color=colors, alpha=0.9)
     ax3.set_xlabel('Modelo/Prompt')
     ax3.set_ylabel('Taxa de Preservação (%)')
-    ax3.set_title('Taxa de Preservação de Metáforas por Modelo/Prompt')
-    ax3.set_xticks(range(len(df_resultados)))
-    ax3.set_xticklabels(df_resultados['modelo_prompt'], rotation=45, ha='right', fontsize=9)
+    ax3.set_title('Taxa de Preservação de Metáforas por Modelo/Prompt (Ordenado por Maiores Taxas)')
+    ax3.set_xticks(x_taxa)
+    ax3.set_xticklabels(df_taxa['modelo_prompt'], rotation=90, ha='right', fontsize=9)
     ax3.grid(axis='y', alpha=0.3)
     adicionar_labels(ax3, fmt="{:.1f}%", offset=1.5)
     
@@ -142,9 +148,9 @@ def grafico_preservacao_metaforas(dfs_por_modelo_prompt, dataset_name):
     ax4 = axes[1, 1]
     ax4.axis('tight')
     ax4.axis('off')
-    tabela_dados = df_resultados[['modelo_prompt', 'total', 'metafora_original', 'metafora_traducao', 'perdeu_metafora', 'ganhou_metafora', 'manteve_sem_metafora', 'manteve_com_metafora', 'taxa_preservacao']].copy()
+    tabela_dados = df_resultados[['modelo_prompt', 'total', 'metafora_original', 'metafora_traducao', 'diferenca_original_traducao', 'perdeu_metafora', 'ganhou_metafora', 'manteve_sem_metafora', 'manteve_com_metafora', 'taxa_preservacao']].copy()
     tabela_dados['taxa_preservacao'] = tabela_dados['taxa_preservacao'].round(1).astype(str) + '%'
-    tabela_dados.columns = ['Modelo/Prompt', 'Total', 'Original', 'Tradução', 'Perdeu', 'Ganhou', 'Sem->Sem', 'Com->Com', 'Taxa (%)']
+    tabela_dados.columns = ['Modelo/Prompt', 'Total', 'Original', 'Tradução', 'Diferença', 'Perdeu', 'Ganhou', 'Sem->Sem', 'Com->Com', 'Taxa (%)']
     
     table = ax4.table(cellText=tabela_dados.values, colLabels=tabela_dados.columns,
                      cellLoc='center', loc='center', bbox=[0, 0, 1, 1])
@@ -211,7 +217,27 @@ def analisar_equivalencia(dfs_por_modelo_prompt, dataset_name):
             **contagens
         })
 
-    df_heatmap = pd.DataFrame(heatmap_data).reindex(["/".join(c) for c in combos_ordem])
+    # Função para ordenar por prompt e depois alfabeticamente por modelo
+    def ordem_modelo_prompt(mp_str):
+        # Extrai modelo e prompt
+        partes = mp_str.split('/')
+        modelo = partes[0] if partes else ''
+        prompt = partes[1] if len(partes) > 1 else ''
+        
+        # Extrai número do prompt (prompt1, prompt2, etc)
+        prompt_num = 0
+        if prompt.startswith('prompt'):
+            try:
+                prompt_num = int(prompt.replace('prompt', ''))
+            except:
+                prompt_num = 0
+        
+        # Ordena por: (número do prompt, modelo alfabeticamente)
+        return (prompt_num, modelo.lower())
+
+    # Ordenar modelos_prompts
+    modelos_prompts_ordenados = sorted(heatmap_data.keys(), key=ordem_modelo_prompt)
+    df_heatmap = pd.DataFrame(heatmap_data)[modelos_prompts_ordenados].reindex(["/".join(c) for c in combos_ordem])
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 6))
 
@@ -219,7 +245,7 @@ def analisar_equivalencia(dfs_por_modelo_prompt, dataset_name):
     ax1.set_title('Combinações de Equivalência por modelo/prompt')
     ax1.set_xlabel('Modelo/Prompt')
     ax1.set_ylabel('Combo (Total/Parcial/Não)')
-    ax1.set_xticklabels(ax1.get_xticklabels(), rotation=45, ha='right', fontsize=9)
+    ax1.set_xticklabels(ax1.get_xticklabels(), rotation=90, ha='right', fontsize=9)
 
     cores_equiv = {'total': '#e91e63', 'parcial': '#9f0886', 'nao': "#5a0796"}
     tipos = ['total', 'parcial', 'nao']
@@ -314,33 +340,34 @@ def metricas_numericas(dfs_por_modelo_prompt, dataset_name):
         # Ordena por: (número do prompt, modelo alfabeticamente)
         return (prompt_num, modelo.lower())
     
-    # Aplicar ordenação
-    df_media['sort_key'] = df_media['modelo_prompt'].apply(ordem_modelo_prompt)
-    df_media = df_media.sort_values('sort_key').drop('sort_key', axis=1)
+    # Para o gráfico de média: ordenar por média decrescente (maiores primeiro)
+    df_media['media_geral'] = (df_media['inteligibilidade_media'] + df_media['compreensao_media']) / 2
+    df_media_sorted = df_media.sort_values('media_geral', ascending=False).drop('media_geral', axis=1)
     
+    # Para os gráficos de contagem: manter ordenação por modelo/prompt
     df_contagem['sort_key'] = df_contagem['modelo_prompt'].apply(ordem_modelo_prompt)
     df_contagem = df_contagem.sort_values('sort_key').drop('sort_key', axis=1)
     
     # Criar figura com 3 subplots
     fig, axes = plt.subplots(1, 3, figsize=(30, 8))
     
-    # Gráfico 1: Médias
+    # Gráfico 1: Médias (ordenado por média decrescente)
     ax1 = axes[0]
-    x = range(len(df_media))
+    x = range(len(df_media_sorted))
     width = 0.35
     cor_inteligibilidade = '#c084fc'  # Lilás
     cor_compreensao = '#ec4899'      # Rosa
     
-    ax1.bar([i - width/2 for i in x], df_media['inteligibilidade_media'], width, 
+    ax1.bar([i - width/2 for i in x], df_media_sorted['inteligibilidade_media'], width, 
             label='Inteligibilidade', color=cor_inteligibilidade, alpha=0.85)
-    ax1.bar([i + width/2 for i in x], df_media['compreensao_media'], width, 
+    ax1.bar([i + width/2 for i in x], df_media_sorted['compreensao_media'], width, 
             label='Compreensão', color=cor_compreensao, alpha=0.85)
     
     ax1.set_xlabel('Modelo/Prompt', fontsize=14, fontweight='bold')
     ax1.set_ylabel('Média de Pontuação', fontsize=14, fontweight='bold')
-    ax1.set_title('Média: Inteligibilidade vs Compreensão', fontsize=15, fontweight='bold')
+    ax1.set_title('Média: Inteligibilidade vs Compreensão (Ordenado por Maior Média)', fontsize=15, fontweight='bold')
     ax1.set_xticks(x)
-    ax1.set_xticklabels(df_media['modelo_prompt'], rotation=45, ha='right', fontsize=11)
+    ax1.set_xticklabels(df_media_sorted['modelo_prompt'], rotation=90, ha='right', fontsize=11)
     ax1.set_ylim([0, 5])
     ax1.legend(fontsize=11)
     ax1.grid(axis='y', alpha=0.3)
@@ -370,7 +397,7 @@ def metricas_numericas(dfs_por_modelo_prompt, dataset_name):
     ax2.set_ylabel('Quantidade', fontsize=14, fontweight='bold')
     ax2.set_title('Contagem de Notas em Inteligibilidade', fontsize=15, fontweight='bold')
     ax2.set_xticks(x)
-    ax2.set_xticklabels(df_contagem['modelo_prompt'], rotation=45, ha='right', fontsize=11)
+    ax2.set_xticklabels(df_contagem['modelo_prompt'], rotation=90, ha='right', fontsize=11)
     ax2.legend(loc='upper right', fontsize=10)
     ax2.grid(axis='y', alpha=0.3)
     # Labels pequenos e espaçados
@@ -395,7 +422,7 @@ def metricas_numericas(dfs_por_modelo_prompt, dataset_name):
     ax3.set_ylabel('Quantidade', fontsize=14, fontweight='bold')
     ax3.set_title('Contagem de Notas em Compreensão', fontsize=15, fontweight='bold')
     ax3.set_xticks(x)
-    ax3.set_xticklabels(df_contagem['modelo_prompt'], rotation=45, ha='right', fontsize=11)
+    ax3.set_xticklabels(df_contagem['modelo_prompt'], rotation=90, ha='right', fontsize=11)
     ax3.legend(loc='upper right', fontsize=10)
     ax3.grid(axis='y', alpha=0.3)
     # Labels pequenos e espaçados

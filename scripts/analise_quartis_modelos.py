@@ -73,11 +73,13 @@ def grafico_preservacao_metaforas(dfs_por_modelo, dataset_name):
         ganhou_metafora = (~df_temp['original_sim'] & df_temp['traducao_sim']).sum()
         manteve_sem_metafora = (~df_temp['original_sim'] & ~df_temp['traducao_sim']).sum()
         
+        diferenca_original_traducao = abs(metafora_original - metafora_traducao)
         resultados.append({
             'modelo': modelo,
             'total': total,
             'metafora_original': metafora_original,
             'metafora_traducao': metafora_traducao,
+            'diferenca_original_traducao': diferenca_original_traducao,
             'perdeu_metafora': perdeu_metafora,
             'ganhou_metafora': ganhou_metafora,
             'manteve_sem_metafora': manteve_sem_metafora,
@@ -85,7 +87,10 @@ def grafico_preservacao_metaforas(dfs_por_modelo, dataset_name):
             'taxa_preservacao': (manteve_com_metafora / metafora_original * 100) if metafora_original > 0 else 0
         })
     
-    df_resultados = pd.DataFrame(resultados).sort_values('total', ascending=False)
+    df_resultados = pd.DataFrame(resultados).sort_values('diferenca_original_traducao', ascending=True)
+    
+    # Para o gráfico de taxa de preservação: ordenar por taxa decrescente (maiores primeiro)
+    df_taxa = df_resultados.sort_values('taxa_preservacao', ascending=False)
     
     # Gráfico 1: Comparação Original vs Tradução
     fig, axes = plt.subplots(2, 2, figsize=(15, 12))
@@ -100,9 +105,9 @@ def grafico_preservacao_metaforas(dfs_por_modelo, dataset_name):
     ax1.bar([i + width/2 for i in x], df_resultados['metafora_traducao'], width, label='Tradução', color=cor_traducao, alpha=0.85)
     ax1.set_xlabel('Modelo')
     ax1.set_ylabel('Quantidade de Metáforas')
-    ax1.set_title('Metáforas: Original vs Tradução')
+    ax1.set_title('Metáforas: Original vs Tradução (Ordenado por Menores Diferenças)')
     ax1.set_xticks(x)
-    ax1.set_xticklabels(df_resultados['modelo'], rotation=45, ha='right')
+    ax1.set_xticklabels(df_resultados['modelo'], rotation=90, ha='right')
     ax1.legend()
     ax1.grid(axis='y', alpha=0.3)
     adicionar_labels(ax1)
@@ -125,20 +130,21 @@ def grafico_preservacao_metaforas(dfs_por_modelo, dataset_name):
     ax2.set_ylabel('Quantidade')
     ax2.set_title('Análise de Preservação de Metáforas')
     ax2.set_xticks(x)
-    ax2.set_xticklabels(df_resultados['modelo'], rotation=45, ha='right')
+    ax2.set_xticklabels(df_resultados['modelo'], rotation=90, ha='right')
     ax2.legend()
     ax2.grid(axis='y', alpha=0.3)
     adicionar_labels(ax2)
     
-    # Subplot 3: Taxa de Preservação (%)
+    # Subplot 3: Taxa de Preservação (%) (ordenado por maiores taxas)
     ax3 = axes[1, 0]
-    colors = ['#ec4899' if x >= 80 else '#c084fc' if x >= 60 else '#60a5fa' for x in df_resultados['taxa_preservacao']]
-    ax3.bar(range(len(df_resultados)), df_resultados['taxa_preservacao'], color=colors, alpha=0.9)
+    x_taxa = range(len(df_taxa))
+    colors = ['#ec4899' if x >= 80 else '#c084fc' if x >= 60 else '#60a5fa' for x in df_taxa['taxa_preservacao']]
+    ax3.bar(x_taxa, df_taxa['taxa_preservacao'], color=colors, alpha=0.9)
     ax3.set_xlabel('Modelo')
     ax3.set_ylabel('Taxa de Preservação (%)')
-    ax3.set_title('Taxa de Preservação de Metáforas por Modelo')
-    ax3.set_xticks(range(len(df_resultados)))
-    ax3.set_xticklabels(df_resultados['modelo'], rotation=45, ha='right')
+    ax3.set_title('Taxa de Preservação de Metáforas por Modelo (Ordenado por Maiores Taxas)')
+    ax3.set_xticks(x_taxa)
+    ax3.set_xticklabels(df_taxa['modelo'], rotation=90, ha='right')
     ax3.grid(axis='y', alpha=0.3)
     adicionar_labels(ax3, fmt="{:.1f}%", offset=1.5)
     
@@ -146,9 +152,9 @@ def grafico_preservacao_metaforas(dfs_por_modelo, dataset_name):
     ax4 = axes[1, 1]
     ax4.axis('tight')
     ax4.axis('off')
-    tabela_dados = df_resultados[['modelo', 'total', 'metafora_original', 'metafora_traducao', 'perdeu_metafora', 'ganhou_metafora', 'manteve_sem_metafora', 'manteve_com_metafora', 'taxa_preservacao']].copy()
+    tabela_dados = df_resultados[['modelo', 'total', 'metafora_original', 'metafora_traducao', 'diferenca_original_traducao', 'perdeu_metafora', 'ganhou_metafora', 'manteve_sem_metafora', 'manteve_com_metafora', 'taxa_preservacao']].copy()
     tabela_dados['taxa_preservacao'] = tabela_dados['taxa_preservacao'].round(1).astype(str) + '%'
-    tabela_dados.columns = ['Modelo', 'Total', 'Original', 'Tradução', 'Perdeu', 'Ganhou', 'Sem->Sem', 'Com->Com', 'Taxa (%)']
+    tabela_dados.columns = ['Modelo', 'Total', 'Original', 'Tradução', 'Diferença', 'Perdeu', 'Ganhou', 'Sem->Sem', 'Com->Com', 'Taxa (%)']
     
     table = ax4.table(cellText=tabela_dados.values, colLabels=tabela_dados.columns,
                      cellLoc='center', loc='center', bbox=[0, 0, 1, 1])
