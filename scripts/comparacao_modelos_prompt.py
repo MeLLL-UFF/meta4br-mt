@@ -118,8 +118,10 @@ def analisar_consistencia(dataset_nome, base_dir):
 
         for idx in range(inicio_lote, fim_lote):
             for (modelo_a, prompt_a), (modelo_b, prompt_b) in pares_modelos_prompts:
-                trad_a = str(traducoes[(modelo_a, prompt_a)].iloc[idx]["portugues_traduzido"])
-                trad_b = str(traducoes[(modelo_b, prompt_b)].iloc[idx]["portugues_traduzido"])
+                _a = str(traducoes[(modelo_a, prompt_a)].iloc[idx]["portugues_traduzido"]).strip()
+                _b = str(traducoes[(modelo_b, prompt_b)].iloc[idx]["portugues_traduzido"]).strip()
+                trad_a = _a if _a and _a.lower() != "nan" else "[vazio]"
+                trad_b = _b if _b and _b.lower() != "nan" else "[vazio]"
 
                 prompt_a_label = prompt_a if prompt_a is not None else "sem_prompt"
                 prompt_b_label = prompt_b if prompt_b is not None else "sem_prompt"
@@ -167,7 +169,7 @@ def analisar_consistencia(dataset_nome, base_dir):
 
             pares_discrepantes = [
                 p for p in detalhes_pares
-                if p["bertscore"] < limite_inferior or p["bertscore"] > limite_superior
+                if p["bertscore"] < limite_inferior
             ]
 
             status = "consistente" if len(pares_discrepantes) == 0 else "discrepante"
@@ -191,7 +193,7 @@ def analisar_consistencia(dataset_nome, base_dir):
                 num_discrepantes += 1
 
             for par in detalhes_pares:
-                par_status = "discrepante" if par["bertscore"] < limite_inferior or par["bertscore"] > limite_superior else "consistente"
+                par_status = "discrepante" if par["bertscore"] < limite_inferior else "consistente"
                 todas_comparacoes_buffer.append({
                     "indice": idx,
                     "ingles_original": ingles_original[idx],
