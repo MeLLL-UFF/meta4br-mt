@@ -1,0 +1,761 @@
+indice,ingles_original,par_discrepante,modelo_a,prompt_a,trad_a,modelo_b,prompt_b,trad_b,bertscore,mediana_bertscore,limite_inferior,limite_superior
+54,Defense Secretary James Mattis Delivers Statement on North Korea…,gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"O Secretário de Defesa James Mattis entrega um recado sobre a Coreia do Norte…
+",gemma3,prompt4,"O Secretário de Defesa James Mattis faz declaração sobre a Coreia do Norte…
+
+...a Coreia do Norte está dançando na corda bamba, e nós não vamos deixar que ela caia de cara no chão. Eles estão jogando com fogo, e podem acabar se queimando. Não vamos tolerar que eles nos atirem pedras e esperem que nós apenas suportemos. Estamos preparando o terreno para uma resposta robusta, caso precisem aprender uma lição da maneira mais difícil. Não vamos dar a eles a chance de se dar ao luxo de subestimar a determinação dos Estados Unidos. Vamos deixá-los em alerta máximo, para que saibam que qualquer movimento deles será respondido com força e precisão. Estamos em guarda, e não vamos piscar enquanto eles tentam nos blefar. É hora de eles calarem a boca e pararem de fazer exigências. A diplomacia é uma avenida aberta, mas só se",0.66,0.9,0.68,1.13
+54,Defense Secretary James Mattis Delivers Statement on North Korea…,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"O Secretário de Defesa James Mattis faz declaração sobre a Coreia do Norte…
+
+...a Coreia do Norte está dançando na corda bamba, e nós não vamos deixar que ela caia de cara no chão. Eles estão jogando com fogo, e podem acabar se queimando. Não vamos tolerar que eles nos atirem pedras e esperem que nós apenas suportemos. Estamos preparando o terreno para uma resposta robusta, caso precisem aprender uma lição da maneira mais difícil. Não vamos dar a eles a chance de se dar ao luxo de subestimar a determinação dos Estados Unidos. Vamos deixá-los em alerta máximo, para que saibam que qualquer movimento deles será respondido com força e precisão. Estamos em guarda, e não vamos piscar enquanto eles tentam nos blefar. É hora de eles calarem a boca e pararem de fazer exigências. A diplomacia é uma avenida aberta, mas só se",gemmaX,sem_prompt,Secretário da Defesa James Mattis faz declaração sobre a Coreia do Norte…,0.68,0.9,0.68,1.13
+86,REAL GHOST CAUGHT ON TAPE {Most Scary Ghost Video Busted},gpt/prompt2 X gpt/prompt4,gpt,prompt2,FANTASMA REAL CAPTURADO EM FITA {O Vídeo de Fantasma Mais Assustador Revelado},gpt,prompt4,FANTASMA REAL PEGO EM VÍDEO {O Vídeo de Fantasma Mais Assustador Revelado},0.94,0.74,0.56,0.93
+86,REAL GHOST CAUGHT ON TAPE {Most Scary Ghost Video Busted},gpt/prompt2 X gemini/prompt2,gpt,prompt2,FANTASMA REAL CAPTURADO EM FITA {O Vídeo de Fantasma Mais Assustador Revelado},gemini,prompt2,"FANTASMA REAL CAPTURADO EM VÍDEO {Vídeo de Fantasma Mais Assustador Desmascarado}
+",0.94,0.74,0.56,0.93
+86,REAL GHOST CAUGHT ON TAPE {Most Scary Ghost Video Busted},gpt/prompt4 X gemini/prompt2,gpt,prompt4,FANTASMA REAL PEGO EM VÍDEO {O Vídeo de Fantasma Mais Assustador Revelado},gemini,prompt2,"FANTASMA REAL CAPTURADO EM VÍDEO {Vídeo de Fantasma Mais Assustador Desmascarado}
+",0.93,0.74,0.56,0.93
+98,‘What a scumbag’! Dem Rep. Seth Moulton proudly disrespects #Vegas shooting victims,gpt/prompt2 X gemini/prompt4,gpt,prompt2,"""Que escória! O deputado democrata Seth Moulton desrespeita orgulhosamente as vítimas do tiroteio de #Vegas.""",gemini,prompt4,"Que canalha!
+",0.63,0.85,0.64,1.06
+98,‘What a scumbag’! Dem Rep. Seth Moulton proudly disrespects #Vegas shooting victims,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,"""Que escória! O deputado democrata Seth Moulton desrespeita orgulhosamente as vítimas do tiroteio de #Vegas.""",gemma3,prompt4,Que verme!,0.58,0.85,0.64,1.06
+98,‘What a scumbag’! Dem Rep. Seth Moulton proudly disrespects #Vegas shooting victims,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,Que lixo humano! Dem Rep. Seth Moulton desrespeita orgulhosamente as vítimas do tiroteio em #Vegas.,gemma3,prompt4,Que verme!,0.58,0.85,0.64,1.06
+98,‘What a scumbag’! Dem Rep. Seth Moulton proudly disrespects #Vegas shooting victims,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,"""Que canalha!"" O Deputado Democrata Seth Moulton orgulhosamente desrespeita as vítimas do tiroteio em #Vegas.
+",gemma3,prompt4,Que verme!,0.59,0.85,0.64,1.06
+98,‘What a scumbag’! Dem Rep. Seth Moulton proudly disrespects #Vegas shooting victims,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"""Que canalha! O deputado Dem Seth Moulton desrespeita orgulhosamente as vítimas do tiroteio em #Vegas.""",gemma3,prompt4,Que verme!,0.59,0.85,0.64,1.06
+98,‘What a scumbag’! Dem Rep. Seth Moulton proudly disrespects #Vegas shooting victims,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,Que verme!,gemmaX,sem_prompt,“Que canalha”! O deputado Seth Moulton desrespeita orgulhosamente as vítimas do tiroteio em #Vegas,0.57,0.85,0.64,1.06
+101,"AT LAST: Illegal Immigrant Deported 20 Times Sexually Assaults Woman, Finally Gets Hit Back By Karma",gpt/prompt2 X gpt/prompt4,gpt,prompt2,"FINALMENTE: Imigrante ilegal deportado 20 vezes que agrediu sexualmente uma mulher, finalmente recebe o troco do karma.",gpt,prompt4,"FINALMENTE: Imigrante ilegal deportado 20 vezes agride sexualmente mulher, finalmente recebe o troco do destino.",0.93,0.73,0.55,0.92
+129,"How to Eat a Keto Diet When You’re Vegan, Vegetarian, or Plant-Based",gpt/prompt2 X gemma3/prompt2,gpt,prompt2,"Como seguir uma dieta cetogênica sendo vegano, vegetariano ou à base de plantas.",gemma3,prompt2,"Como seguir uma dieta cetogênica sendo vegano, vegetariano ou com base em vegetais.",0.95,0.72,0.54,0.9
+129,"How to Eat a Keto Diet When You’re Vegan, Vegetarian, or Plant-Based",gpt/prompt4 X gemini/prompt2,gpt,prompt4,"Como Seguir uma Dieta Keto Sendo Vegano, Vegetariano ou Baseado em Plantas",gemini,prompt2,"Como Fazer a Dieta Keto Sendo Vegano, Vegetariano ou Baseado em Plantas
+",0.96,0.72,0.54,0.9
+129,"How to Eat a Keto Diet When You’re Vegan, Vegetarian, or Plant-Based",gemini/prompt2 X gemini/prompt4,gemini,prompt2,"Como Fazer a Dieta Keto Sendo Vegano, Vegetariano ou Baseado em Plantas
+",gemini,prompt4,"Como Navegar na Dieta Keto Sendo Vegano, Vegetariano ou à Base de Plantas
+",0.91,0.72,0.54,0.9
+130,Do the Dunes: Where You Can Ride the Sand,gpt/prompt2 X gpt/prompt4,gpt,prompt2,Faça as Dunas: Onde Você Pode Andar na Areia,gpt,prompt4,Faça as Dunas: Onde Você Pode Andar na Areia,1.0,0.78,0.58,0.97
+198,New Alien Hunting Telescope Makes First Attempt to Find ETs Around Sun-like Stars,gpt/prompt2 X gpt/prompt4,gpt,prompt2,Novo Telescópio de Caça a Alienígenas Faz a Primeira Tentativa de Encontrar ETs ao Redor de Estrelas Semelhantes ao Sol.,gpt,prompt4,Novo Telescópio de Caça a Alienígenas Faz Primeira Tentativa de Encontrar ETs ao Redor de Estrelas Semelhantes ao Sol.,0.99,0.77,0.58,0.97
+206,WATCH A Fox News Host SHRED David Clarke For Disrespecting John Lewis,gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,"Um apresentador da Fox News *desfiou* David Clarke por desrespeitar John Lewis.
+",gemmaX,sem_prompt,ASSISTIR A UM ANUNCIO DA FOX NEWS A DESTRUIR DAVID CLARKE POR DESRESPEITAR JOHN LEWIS,0.56,0.84,0.63,1.05
+206,WATCH A Fox News Host SHRED David Clarke For Disrespecting John Lewis,gemma3/prompt2 X gemmaX/sem_prompt,gemma3,prompt2,Assista a um apresentador da Fox News destruir David Clarke por desrespeitar John Lewis.,gemmaX,sem_prompt,ASSISTIR A UM ANUNCIO DA FOX NEWS A DESTRUIR DAVID CLARKE POR DESRESPEITAR JOHN LEWIS,0.56,0.84,0.63,1.05
+206,WATCH A Fox News Host SHRED David Clarke For Disrespecting John Lewis,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"Assista a um apresentador da Fox News destroçar David Clarke por desrespeitar John Lewis.
+",gemmaX,sem_prompt,ASSISTIR A UM ANUNCIO DA FOX NEWS A DESTRUIR DAVID CLARKE POR DESRESPEITAR JOHN LEWIS,0.56,0.84,0.63,1.05
+225,‘Oh no’: Dem Sen. Chris Murphy teases ‘bipartisan breakthrough on gun legislation’,gpt/prompt2 X gemini/prompt4,gpt,prompt2,"""‘Oh não’: O Senador Chris Murphy provoca um ‘avanço bipartidário na legislação sobre armas’.""",gemini,prompt4,"Ih, lascou!
+",0.56,0.81,0.61,1.02
+225,‘Oh no’: Dem Sen. Chris Murphy teases ‘bipartisan breakthrough on gun legislation’,gpt/prompt4 X gemini/prompt4,gpt,prompt4,Oh não: O Senador Chris Murphy provoca um 'avanço bipartidário na legislação sobre armas'.,gemini,prompt4,"Ih, lascou!
+",0.56,0.81,0.61,1.02
+225,‘Oh no’: Dem Sen. Chris Murphy teases ‘bipartisan breakthrough on gun legislation’,gemini/prompt2 X gemini/prompt4,gemini,prompt2,"""‘Oh não’: Senador democrata Chris Murphy insinua ‘avanço bipartidário em legislação sobre armas’""
+",gemini,prompt4,"Ih, lascou!
+",0.56,0.81,0.61,1.02
+225,‘Oh no’: Dem Sen. Chris Murphy teases ‘bipartisan breakthrough on gun legislation’,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"Ih, lascou!
+",gemma3,prompt2,"""Oh não': Senador Chris Murphy provoca 'avanço bipartidário na legislação sobre armas'.""",0.55,0.81,0.61,1.02
+225,‘Oh no’: Dem Sen. Chris Murphy teases ‘bipartisan breakthrough on gun legislation’,gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"Ih, lascou!
+",gemma3,prompt4,"Ai, meu Deus: Dem Sen. Chris Murphy insinua ""avanço bipartidário promissor na legislação sobre armas"".
+",0.58,0.81,0.61,1.02
+225,‘Oh no’: Dem Sen. Chris Murphy teases ‘bipartisan breakthrough on gun legislation’,gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,"Ih, lascou!
+",gemmaX,sem_prompt,“Oh não”: o senador democrata Chris Murphy brinca com a “investigação bipartidária sobre a legislação sobre armas”,0.56,0.81,0.61,1.02
+249,Trump on Report He Ordered Mueller's Firing: 'Fake News',gpt/prompt2 X gpt/prompt4,gpt,prompt2,Trump sobre a reportagem de que ordenou a demissão de Mueller: 'Notícia falsa'.,gpt,prompt4,Trump sobre a notícia de que ordenou a demissão de Mueller: 'Notícias falsas',0.93,0.74,0.55,0.92
+249,Trump on Report He Ordered Mueller's Firing: 'Fake News',gpt/prompt2 X gemma3/prompt2,gpt,prompt2,Trump sobre a reportagem de que ordenou a demissão de Mueller: 'Notícia falsa'.,gemma3,prompt2,Trump sobre relato de que ele ordenou a demissão de Mueller: 'Notícia falsa'.,0.96,0.74,0.55,0.92
+249,Trump on Report He Ordered Mueller's Firing: 'Fake News',gpt/prompt4 X gemini/prompt2,gpt,prompt4,Trump sobre a notícia de que ordenou a demissão de Mueller: 'Notícias falsas',gemini,prompt2,"Trump sobre relatório de que ordenou a demissão de Mueller: 'Notícias falsas'
+",0.96,0.74,0.55,0.92
+249,Trump on Report He Ordered Mueller's Firing: 'Fake News',gpt/prompt4 X gemmaX/sem_prompt,gpt,prompt4,Trump sobre a notícia de que ordenou a demissão de Mueller: 'Notícias falsas',gemmaX,sem_prompt,"Trump sobre o relatório de que ordenou o despedimento de Mueller: ""Notícias falsas""",0.93,0.74,0.55,0.92
+249,Trump on Report He Ordered Mueller's Firing: 'Fake News',gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,"Trump sobre relatório de que ordenou a demissão de Mueller: 'Notícias falsas'
+",gemmaX,sem_prompt,"Trump sobre o relatório de que ordenou o despedimento de Mueller: ""Notícias falsas""",0.95,0.74,0.55,0.92
+331,Big City Liberals Are Forcing Rural Counties To Secede -,gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,"Liberais das grandes cidades estão forçando condados rurais a se separar -
+",gemmaX,sem_prompt,Liberais das grandes cidades estão forçando os municípios rurais a se separarem -,0.97,0.77,0.58,0.97
+417,"Scarborough Spills Secrets Of Relationship With Mika, Says ‘Too Much Crazy There’",gemini/prompt2 X gemini/prompt4,gemini,prompt2,"Scarborough revela segredos do relacionamento com Mika, diz: ""Muita loucura lá"".
+",gemini,prompt4,"Scarborough revela segredos de relação com Mika, afirma: ""Muita loucura por lá.""
+",0.93,0.74,0.55,0.92
+419,Google Home Mini affected with bug that records conversations,gpt/prompt2 X gemini/prompt2,gpt,prompt2,Google Home Mini afetado por bug que grava conversas.,gemini,prompt2,"Google Home Mini afetado por bug que grava conversas.
+",1.0,0.78,0.59,0.98
+419,Google Home Mini affected with bug that records conversations,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,Google Home Mini afetado por bug que grava conversas.,gemma3,prompt2,Google Home Mini afetado por bug que grava conversas.,1.0,0.78,0.59,0.98
+419,Google Home Mini affected with bug that records conversations,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"Google Home Mini afetado por bug que grava conversas.
+",gemma3,prompt2,Google Home Mini afetado por bug que grava conversas.,1.0,0.78,0.59,0.98
+424,5 Things Ivanka Trump Could Do Right Now on Equal Pay,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,5 coisas que Ivanka Trump poderia fazer agora sobre igualdade salarial.,gemmaX,sem_prompt,5 coisas que Ivanka Trump poderia fazer agora sobre igualdade salarial,0.97,0.71,0.53,0.88
+424,5 Things Ivanka Trump Could Do Right Now on Equal Pay,gpt/prompt4 X gemini/prompt2,gpt,prompt4,5 Coisas que Ivanka Trump Poderia Fazer Agora sobre Igualdade Salarial,gemini,prompt2,"5 Coisas que Ivanka Trump Poderia Fazer Agora Sobre Igualdade Salarial
+",0.99,0.71,0.53,0.88
+424,5 Things Ivanka Trump Could Do Right Now on Equal Pay,gpt/prompt4 X gemini/prompt4,gpt,prompt4,5 Coisas que Ivanka Trump Poderia Fazer Agora sobre Igualdade Salarial,gemini,prompt4,"Aqui estão as 5 sugestões traduzidas, mantendo o tom metafórico:
+
+1.  **Get her hands dirty.**
+    *   Meter a mão na massa.
+
+2.  **Put her money where her mouth is.**
+    *   Mostrar serviço.
+
+3.  **Take a page from someone else's book.**
+    *   Seguir o exemplo.
+
+4.  **Break the glass ceiling.**
+    *   Romper a barreira.
+
+5.  **Lead by example.**
+    *   Dar o exemplo.
+",0.53,0.71,0.53,0.88
+424,5 Things Ivanka Trump Could Do Right Now on Equal Pay,gpt/prompt4 X gemma3/prompt2,gpt,prompt4,5 Coisas que Ivanka Trump Poderia Fazer Agora sobre Igualdade Salarial,gemma3,prompt2,5 Coisas que Ivanka Trump Poderia Fazer Agora Sobre Igualdade Salarial,0.99,0.71,0.53,0.88
+424,5 Things Ivanka Trump Could Do Right Now on Equal Pay,gemini/prompt2 X gemini/prompt4,gemini,prompt2,"5 Coisas que Ivanka Trump Poderia Fazer Agora Sobre Igualdade Salarial
+",gemini,prompt4,"Aqui estão as 5 sugestões traduzidas, mantendo o tom metafórico:
+
+1.  **Get her hands dirty.**
+    *   Meter a mão na massa.
+
+2.  **Put her money where her mouth is.**
+    *   Mostrar serviço.
+
+3.  **Take a page from someone else's book.**
+    *   Seguir o exemplo.
+
+4.  **Break the glass ceiling.**
+    *   Romper a barreira.
+
+5.  **Lead by example.**
+    *   Dar o exemplo.
+",0.52,0.71,0.53,0.88
+424,5 Things Ivanka Trump Could Do Right Now on Equal Pay,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"5 Coisas que Ivanka Trump Poderia Fazer Agora Sobre Igualdade Salarial
+",gemma3,prompt2,5 Coisas que Ivanka Trump Poderia Fazer Agora Sobre Igualdade Salarial,1.0,0.71,0.53,0.88
+424,5 Things Ivanka Trump Could Do Right Now on Equal Pay,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"Aqui estão as 5 sugestões traduzidas, mantendo o tom metafórico:
+
+1.  **Get her hands dirty.**
+    *   Meter a mão na massa.
+
+2.  **Put her money where her mouth is.**
+    *   Mostrar serviço.
+
+3.  **Take a page from someone else's book.**
+    *   Seguir o exemplo.
+
+4.  **Break the glass ceiling.**
+    *   Romper a barreira.
+
+5.  **Lead by example.**
+    *   Dar o exemplo.
+",gemma3,prompt2,5 Coisas que Ivanka Trump Poderia Fazer Agora Sobre Igualdade Salarial,0.52,0.71,0.53,0.88
+449,It’s confusing. There is no explanation': Some green card holders getting turned away from US Army,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"É confuso. Não há explicação.
+",gemma3,prompt2,É confuso. Não há explicação.,1.0,0.76,0.57,0.96
+548,"""We need water."" A cry for help from our fellow citizens in Puerto Rico",gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"""Precisamos de água."" Um grito de socorro de nossos conterrâneos em Porto Rico.
+",gemma3,prompt2,"""Precisamos de água."" Um grito de socorro de nossos concidadãos em Porto Rico.",0.96,0.75,0.57,0.94
+600,Trump Announces New Ways to Help Veterans Get Medical Care,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"Trump anuncia novas formas de ajudar veteranos a obter atendimento médico.
+",gemma3,prompt2,Trump anuncia novas formas de ajudar veteranos a obter atendimento médico.,1.0,0.78,0.59,0.98
+616,"FOX NEWS SUSPENDED ERIC BOLLING FOR ALLEGED ‘LEWD PICTURES’, BOLLING DENIES AND WILL PURSUE LEGAL ACTIONS",gpt/prompt2 X gpt/prompt4,gpt,prompt2,"A FOX NEWS SUSPENDEU ERIC BOLLING POR SUPOSTAS 'FOTOGRAFIAS OBSCENAS', BOLLING NEGA E VAI PLEITEAR AÇÕES JUDICIAIS.",gpt,prompt4,"FOX NEWS SUSPENDEU ERIC BOLLING POR SUPOSTAS 'FOTOS INDECOROSAS', BOLLING NEGA E VAI BUSCAR AÇÃO LEGAL.",0.9,0.58,0.43,0.72
+616,"FOX NEWS SUSPENDED ERIC BOLLING FOR ALLEGED ‘LEWD PICTURES’, BOLLING DENIES AND WILL PURSUE LEGAL ACTIONS",gpt/prompt2 X gemma3/prompt4,gpt,prompt2,"A FOX NEWS SUSPENDEU ERIC BOLLING POR SUPOSTAS 'FOTOGRAFIAS OBSCENAS', BOLLING NEGA E VAI PLEITEAR AÇÕES JUDICIAIS.",gemma3,prompt4,FOX NEWS AFROSTA ERIC BOLLING APÓS IMAGENS 'SUJAS' EMERGIR; BOLLING SE DEFENDE E BUSCARÁ AÇÃO LEGAL.,0.81,0.58,0.43,0.72
+616,"FOX NEWS SUSPENDED ERIC BOLLING FOR ALLEGED ‘LEWD PICTURES’, BOLLING DENIES AND WILL PURSUE LEGAL ACTIONS",gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,"A FOX NEWS SUSPENDEU ERIC BOLLING POR SUPOSTAS 'FOTOGRAFIAS OBSCENAS', BOLLING NEGA E VAI PLEITEAR AÇÕES JUDICIAIS.",gemmaX,sem_prompt,"FOX NEWS SUSPENSEU ERIC BOLLING POR ALEGAÇÕES DE “IMÁGENES INDECENTES”, BOLLING NEGA E IRÁ PROSSEGUIR AÇÕES JURÍDICAS",0.84,0.58,0.43,0.72
+616,"FOX NEWS SUSPENDED ERIC BOLLING FOR ALLEGED ‘LEWD PICTURES’, BOLLING DENIES AND WILL PURSUE LEGAL ACTIONS",gpt/prompt4 X gemma3/prompt4,gpt,prompt4,"FOX NEWS SUSPENDEU ERIC BOLLING POR SUPOSTAS 'FOTOS INDECOROSAS', BOLLING NEGA E VAI BUSCAR AÇÃO LEGAL.",gemma3,prompt4,FOX NEWS AFROSTA ERIC BOLLING APÓS IMAGENS 'SUJAS' EMERGIR; BOLLING SE DEFENDE E BUSCARÁ AÇÃO LEGAL.,0.88,0.58,0.43,0.72
+616,"FOX NEWS SUSPENDED ERIC BOLLING FOR ALLEGED ‘LEWD PICTURES’, BOLLING DENIES AND WILL PURSUE LEGAL ACTIONS",gpt/prompt4 X gemmaX/sem_prompt,gpt,prompt4,"FOX NEWS SUSPENDEU ERIC BOLLING POR SUPOSTAS 'FOTOS INDECOROSAS', BOLLING NEGA E VAI BUSCAR AÇÃO LEGAL.",gemmaX,sem_prompt,"FOX NEWS SUSPENSEU ERIC BOLLING POR ALEGAÇÕES DE “IMÁGENES INDECENTES”, BOLLING NEGA E IRÁ PROSSEGUIR AÇÕES JURÍDICAS",0.85,0.58,0.43,0.72
+616,"FOX NEWS SUSPENDED ERIC BOLLING FOR ALLEGED ‘LEWD PICTURES’, BOLLING DENIES AND WILL PURSUE LEGAL ACTIONS",gemini/prompt2 X gemini/prompt4,gemini,prompt2,"A FOX News suspendeu Eric Bolling por supostas ""fotos obscenas"", Bolling nega e buscará medidas legais.
+",gemini,prompt4,"A Fox News ""enforcou"" Eric Bolling por supostas ""fotos indecentes"". Bolling nega e vai ""botar a boca no trombone"" judicialmente.
+",0.86,0.58,0.43,0.72
+616,"FOX NEWS SUSPENDED ERIC BOLLING FOR ALLEGED ‘LEWD PICTURES’, BOLLING DENIES AND WILL PURSUE LEGAL ACTIONS",gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"A FOX News suspendeu Eric Bolling por supostas ""fotos obscenas"", Bolling nega e buscará medidas legais.
+",gemma3,prompt2,"A Fox News afastou Eric Bolling por conta de supostas ""imagens lascivas""; Bolling nega as acusações e irá buscar medidas legais.",0.89,0.58,0.43,0.72
+616,"FOX NEWS SUSPENDED ERIC BOLLING FOR ALLEGED ‘LEWD PICTURES’, BOLLING DENIES AND WILL PURSUE LEGAL ACTIONS",gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"A Fox News ""enforcou"" Eric Bolling por supostas ""fotos indecentes"". Bolling nega e vai ""botar a boca no trombone"" judicialmente.
+",gemma3,prompt2,"A Fox News afastou Eric Bolling por conta de supostas ""imagens lascivas""; Bolling nega as acusações e irá buscar medidas legais.",0.83,0.58,0.43,0.72
+616,"FOX NEWS SUSPENDED ERIC BOLLING FOR ALLEGED ‘LEWD PICTURES’, BOLLING DENIES AND WILL PURSUE LEGAL ACTIONS",gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,FOX NEWS AFROSTA ERIC BOLLING APÓS IMAGENS 'SUJAS' EMERGIR; BOLLING SE DEFENDE E BUSCARÁ AÇÃO LEGAL.,gemmaX,sem_prompt,"FOX NEWS SUSPENSEU ERIC BOLLING POR ALEGAÇÕES DE “IMÁGENES INDECENTES”, BOLLING NEGA E IRÁ PROSSEGUIR AÇÕES JURÍDICAS",0.81,0.58,0.43,0.72
+653,Derek Jeter Discusses His New Job and (Sort of) Giancarlo Stanton,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,Derek Jeter fala sobre seu novo emprego e (mais ou menos) Giancarlo Stanton.,gemma3,prompt2,Derek Jeter fala sobre seu novo emprego e (mais ou menos) Giancarlo Stanton.,1.0,0.78,0.59,0.98
+679,Steve Bannon told Ivanka Trump: You don’t know what you’re doing,gpt/prompt2 X gemini/prompt2,gpt,prompt2,Steve Bannon disse a Ivanka Trump: Você não sabe o que está fazendo.,gemini,prompt2,"Steve Bannon disse a Ivanka Trump: Você não sabe o que está fazendo.
+",1.0,0.77,0.58,0.96
+679,Steve Bannon told Ivanka Trump: You don’t know what you’re doing,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,Steve Bannon disse a Ivanka Trump: Você não sabe o que está fazendo.,gemma3,prompt2,Steve Bannon disse a Ivanka Trump: Você não sabe o que está fazendo.,1.0,0.77,0.58,0.96
+679,Steve Bannon told Ivanka Trump: You don’t know what you’re doing,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"Steve Bannon disse a Ivanka Trump: Você não sabe o que está fazendo.
+",gemma3,prompt2,Steve Bannon disse a Ivanka Trump: Você não sabe o que está fazendo.,1.0,0.77,0.58,0.96
+693,#Takeaknee Why you should watch a football game tomorrow!!,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,#Abaixeaknee Por que você deve assistir a um jogo de futebol amanhã!!,gemma3,prompt2,#AjoelheSePorQueVocêDeviaAssistirUmJogoDeFutebolAmanhã!!,0.62,0.84,0.63,1.05
+693,#Takeaknee Why you should watch a football game tomorrow!!,gpt/prompt4 X gemma3/prompt2,gpt,prompt4,#Ajoelhou Tem um motivo para assistir a um jogo de futebol amanhã!!,gemma3,prompt2,#AjoelheSePorQueVocêDeviaAssistirUmJogoDeFutebolAmanhã!!,0.61,0.84,0.63,1.05
+693,#Takeaknee Why you should watch a football game tomorrow!!,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"#Ajoelhe-se! Por que você deveria assistir a um jogo de futebol amanhã!!
+",gemma3,prompt2,#AjoelheSePorQueVocêDeviaAssistirUmJogoDeFutebolAmanhã!!,0.62,0.84,0.63,1.05
+693,#Takeaknee Why you should watch a football game tomorrow!!,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"Ajoelhe-se! Por que você deveria assistir ao jogo de amanhã!!
+",gemma3,prompt2,#AjoelheSePorQueVocêDeviaAssistirUmJogoDeFutebolAmanhã!!,0.62,0.84,0.63,1.05
+693,#Takeaknee Why you should watch a football game tomorrow!!,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,#AjoelheSePorQueVocêDeviaAssistirUmJogoDeFutebolAmanhã!!,gemma3,prompt4,"Ajoelhar-se em respeito. Por que você deve acompanhar um jogo de futebol amanhã!!
+",0.59,0.84,0.63,1.05
+693,#Takeaknee Why you should watch a football game tomorrow!!,gemma3/prompt2 X gemmaX/sem_prompt,gemma3,prompt2,#AjoelheSePorQueVocêDeviaAssistirUmJogoDeFutebolAmanhã!!,gemmaX,sem_prompt,#Takeaknee Por que você deve assistir a uma partida de futebol amanhã!!,0.59,0.84,0.63,1.05
+700,How We Used VR to Explore What Music Feels Like to a Deaf Person,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"Como Usamos VR para Explorar o Que a Música Parece para uma Pessoa Surda
+",gemma3,prompt2,Como Usamos RV para Explorar o Que a Música Sente para uma Pessoa Surda,0.96,0.76,0.57,0.96
+714,Lavar Ball Discusses His Son Getting Arrested In China,gpt/prompt2 X gemini/prompt2,gpt,prompt2,Lavar Ball discute a prisão de seu filho na China.,gemini,prompt2,"Lavar Ball discute a prisão de seu filho na China.
+",1.0,0.79,0.59,0.98
+738,"David Reid, Black Kos managing editor explains its need at DailyKos",gpt/prompt2 X gemma3/prompt4,gpt,prompt2,"David Reid, editor-chefe do Black Kos, explica sua necessidade no DailyKos.",gemma3,prompt4,"David Reid, editor-chefe do Black Kos, explica a sua necessidade no DailyKos:
+
+""O Black Kos não é um projeto de caridade. Não estamos apenas tentando 'entregar peixe' para a fome. Estamos tentando ensinar as pessoas a pescar. Estamos tentando construir uma rede de apoio para aqueles que precisam, e para que isso aconteça, precisamos de recursos. Precisamos de pessoas que se dispensem a 'carregar a lenha' para o nosso fogo, para que possamos continuar a 'iluminar a escuridão' para aqueles que ainda não veem. É um esforço de longo prazo, uma 'corrida de revezamento' que não podemos deixar 'cair no abismo' simplesmente porque o próximo corredor não está pronto. Precisamos manter a tocha acesa, para que a próxima geração possa 'herdar o legado' e continuar a luta.""
+",0.69,0.94,0.7,1.17
+738,"David Reid, Black Kos managing editor explains its need at DailyKos",gpt/prompt4 X gemma3/prompt4,gpt,prompt4,"David Reid, editor responsável pelo Black Kos, explica sua necessidade no DailyKos.",gemma3,prompt4,"David Reid, editor-chefe do Black Kos, explica a sua necessidade no DailyKos:
+
+""O Black Kos não é um projeto de caridade. Não estamos apenas tentando 'entregar peixe' para a fome. Estamos tentando ensinar as pessoas a pescar. Estamos tentando construir uma rede de apoio para aqueles que precisam, e para que isso aconteça, precisamos de recursos. Precisamos de pessoas que se dispensem a 'carregar a lenha' para o nosso fogo, para que possamos continuar a 'iluminar a escuridão' para aqueles que ainda não veem. É um esforço de longo prazo, uma 'corrida de revezamento' que não podemos deixar 'cair no abismo' simplesmente porque o próximo corredor não está pronto. Precisamos manter a tocha acesa, para que a próxima geração possa 'herdar o legado' e continuar a luta.""
+",0.69,0.94,0.7,1.17
+738,"David Reid, Black Kos managing editor explains its need at DailyKos",gemini/prompt2 X gemma3/prompt4,gemini,prompt2,"David Reid, editor administrativo do Black Kos, explica sua necessidade no DailyKos.
+",gemma3,prompt4,"David Reid, editor-chefe do Black Kos, explica a sua necessidade no DailyKos:
+
+""O Black Kos não é um projeto de caridade. Não estamos apenas tentando 'entregar peixe' para a fome. Estamos tentando ensinar as pessoas a pescar. Estamos tentando construir uma rede de apoio para aqueles que precisam, e para que isso aconteça, precisamos de recursos. Precisamos de pessoas que se dispensem a 'carregar a lenha' para o nosso fogo, para que possamos continuar a 'iluminar a escuridão' para aqueles que ainda não veem. É um esforço de longo prazo, uma 'corrida de revezamento' que não podemos deixar 'cair no abismo' simplesmente porque o próximo corredor não está pronto. Precisamos manter a tocha acesa, para que a próxima geração possa 'herdar o legado' e continuar a luta.""
+",0.69,0.94,0.7,1.17
+738,"David Reid, Black Kos managing editor explains its need at DailyKos",gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"David Reid, editor-chefe do Black Kos, explica sua razão de ser no DailyKos.
+",gemma3,prompt4,"David Reid, editor-chefe do Black Kos, explica a sua necessidade no DailyKos:
+
+""O Black Kos não é um projeto de caridade. Não estamos apenas tentando 'entregar peixe' para a fome. Estamos tentando ensinar as pessoas a pescar. Estamos tentando construir uma rede de apoio para aqueles que precisam, e para que isso aconteça, precisamos de recursos. Precisamos de pessoas que se dispensem a 'carregar a lenha' para o nosso fogo, para que possamos continuar a 'iluminar a escuridão' para aqueles que ainda não veem. É um esforço de longo prazo, uma 'corrida de revezamento' que não podemos deixar 'cair no abismo' simplesmente porque o próximo corredor não está pronto. Precisamos manter a tocha acesa, para que a próxima geração possa 'herdar o legado' e continuar a luta.""
+",0.68,0.94,0.7,1.17
+738,"David Reid, Black Kos managing editor explains its need at DailyKos",gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"David Reid, editor-chefe do Black Kos, explica a necessidade do site no DailyKos.",gemma3,prompt4,"David Reid, editor-chefe do Black Kos, explica a sua necessidade no DailyKos:
+
+""O Black Kos não é um projeto de caridade. Não estamos apenas tentando 'entregar peixe' para a fome. Estamos tentando ensinar as pessoas a pescar. Estamos tentando construir uma rede de apoio para aqueles que precisam, e para que isso aconteça, precisamos de recursos. Precisamos de pessoas que se dispensem a 'carregar a lenha' para o nosso fogo, para que possamos continuar a 'iluminar a escuridão' para aqueles que ainda não veem. É um esforço de longo prazo, uma 'corrida de revezamento' que não podemos deixar 'cair no abismo' simplesmente porque o próximo corredor não está pronto. Precisamos manter a tocha acesa, para que a próxima geração possa 'herdar o legado' e continuar a luta.""
+",0.69,0.94,0.7,1.17
+738,"David Reid, Black Kos managing editor explains its need at DailyKos",gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"David Reid, editor-chefe do Black Kos, explica a sua necessidade no DailyKos:
+
+""O Black Kos não é um projeto de caridade. Não estamos apenas tentando 'entregar peixe' para a fome. Estamos tentando ensinar as pessoas a pescar. Estamos tentando construir uma rede de apoio para aqueles que precisam, e para que isso aconteça, precisamos de recursos. Precisamos de pessoas que se dispensem a 'carregar a lenha' para o nosso fogo, para que possamos continuar a 'iluminar a escuridão' para aqueles que ainda não veem. É um esforço de longo prazo, uma 'corrida de revezamento' que não podemos deixar 'cair no abismo' simplesmente porque o próximo corredor não está pronto. Precisamos manter a tocha acesa, para que a próxima geração possa 'herdar o legado' e continuar a luta.""
+",gemmaX,sem_prompt,"David Reid, editor-gerente do Black Kos, explica a necessidade do mesmo no DailyKos",0.68,0.94,0.7,1.17
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gpt/prompt2 X gpt/prompt4,gpt,prompt2,"""O advogado de Clinton, Marc Elias, nega envolvimento no dossiê da Rússia de Trump... Sério?""",gpt,prompt4,"O ADVOGADO DE CLINTON, MARC ELIAS, NEGA ENVOLVIMENTO NO DOSSÊ RUSSIA DE TRUMP... É MESMO?",0.61,0.87,0.65,1.08
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,"""O advogado de Clinton, Marc Elias, nega envolvimento no dossiê da Rússia de Trump... Sério?""",gemmaX,sem_prompt,ADVOGADO DE CLINTON MARC ELIAS NEGA O ENVOLVIMENTO DE TRUMP NO DOSSIER DA RÚSSIA… SERÁ?,0.56,0.87,0.65,1.08
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gpt/prompt4 X gemini/prompt2,gpt,prompt4,"O ADVOGADO DE CLINTON, MARC ELIAS, NEGA ENVOLVIMENTO NO DOSSÊ RUSSIA DE TRUMP... É MESMO?",gemini,prompt2,"Advogado de Clinton, Marc Elias, nega envolvimento com dossiê Trump-Rússia...Sério mesmo?
+",0.62,0.87,0.65,1.08
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gpt/prompt4 X gemini/prompt4,gpt,prompt4,"O ADVOGADO DE CLINTON, MARC ELIAS, NEGA ENVOLVIMENTO NO DOSSÊ RUSSIA DE TRUMP... É MESMO?",gemini,prompt4,"O advogado de Clinton, Marc Elias, nega envolvimento com o dossiê Trump-Rússia... É sério mesmo?
+",0.62,0.87,0.65,1.08
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gpt/prompt4 X gemma3/prompt2,gpt,prompt4,"O ADVOGADO DE CLINTON, MARC ELIAS, NEGA ENVOLVIMENTO NO DOSSÊ RUSSIA DE TRUMP... É MESMO?",gemma3,prompt2,"Advogado de Clinton, Marc Elias, nega envolvimento com o dossiê russo de Trump…de verdade?",0.57,0.87,0.65,1.08
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,"O ADVOGADO DE CLINTON, MARC ELIAS, NEGA ENVOLVIMENTO NO DOSSÊ RUSSIA DE TRUMP... É MESMO?",gemma3,prompt4,"O advogado de Clinton, Marc Elias, nega envolvimento com o dossiê russo sobre Trump…de fato?",0.58,0.87,0.65,1.08
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,"Advogado de Clinton, Marc Elias, nega envolvimento com dossiê Trump-Rússia...Sério mesmo?
+",gemmaX,sem_prompt,ADVOGADO DE CLINTON MARC ELIAS NEGA O ENVOLVIMENTO DE TRUMP NO DOSSIER DA RÚSSIA… SERÁ?,0.56,0.87,0.65,1.08
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,"O advogado de Clinton, Marc Elias, nega envolvimento com o dossiê Trump-Rússia... É sério mesmo?
+",gemmaX,sem_prompt,ADVOGADO DE CLINTON MARC ELIAS NEGA O ENVOLVIMENTO DE TRUMP NO DOSSIER DA RÚSSIA… SERÁ?,0.55,0.87,0.65,1.08
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gemma3/prompt2 X gemmaX/sem_prompt,gemma3,prompt2,"Advogado de Clinton, Marc Elias, nega envolvimento com o dossiê russo de Trump…de verdade?",gemmaX,sem_prompt,ADVOGADO DE CLINTON MARC ELIAS NEGA O ENVOLVIMENTO DE TRUMP NO DOSSIER DA RÚSSIA… SERÁ?,0.55,0.87,0.65,1.08
+748,CLINTON LAWYER MARC ELIAS DENIES TRUMP RUSSIA DOSSIER INVOLVEMENT…REALLY?,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"O advogado de Clinton, Marc Elias, nega envolvimento com o dossiê russo sobre Trump…de fato?",gemmaX,sem_prompt,ADVOGADO DE CLINTON MARC ELIAS NEGA O ENVOLVIMENTO DE TRUMP NO DOSSIER DA RÚSSIA… SERÁ?,0.55,0.87,0.65,1.08
+801,Judge Rules Hate Crime For Gay Man Who Fell Off A Cliff,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"A homofobia empurrou-o para o abismo.
+",gemma3,prompt2,Juiz Declara Crime de Ódio por Homem Gay que Caiu de um Penhasco,0.63,0.87,0.65,1.08
+813,"If You Have Kids, Share This Video With Them",gpt/prompt2 X gpt/prompt4,gpt,prompt2,"Se você tem filhos, compartilhe este vídeo com eles.",gpt,prompt4,"Se Você Tem Filhos, Compartilhe Este Vídeo Com Eles",0.69,0.93,0.7,1.16
+813,"If You Have Kids, Share This Video With Them",gpt/prompt4 X gemini/prompt2,gpt,prompt4,"Se Você Tem Filhos, Compartilhe Este Vídeo Com Eles",gemini,prompt2,"Se você tem filhos, compartilhe este vídeo com eles.
+",0.69,0.93,0.7,1.16
+813,"If You Have Kids, Share This Video With Them",gpt/prompt4 X gemini/prompt4,gpt,prompt4,"Se Você Tem Filhos, Compartilhe Este Vídeo Com Eles",gemini,prompt4,"Se você tem filhos, passe este vídeo para eles.
+",0.65,0.93,0.7,1.16
+813,"If You Have Kids, Share This Video With Them",gpt/prompt4 X gemma3/prompt2,gpt,prompt4,"Se Você Tem Filhos, Compartilhe Este Vídeo Com Eles",gemma3,prompt2,"Se você tem filhos, compartilhe este vídeo com eles.",0.69,0.93,0.7,1.16
+813,"If You Have Kids, Share This Video With Them",gpt/prompt4 X gemma3/prompt4,gpt,prompt4,"Se Você Tem Filhos, Compartilhe Este Vídeo Com Eles",gemma3,prompt4,"Se você tem filhos, mostre este vídeo a eles.
+",0.65,0.93,0.7,1.16
+813,"If You Have Kids, Share This Video With Them",gpt/prompt4 X gemmaX/sem_prompt,gpt,prompt4,"Se Você Tem Filhos, Compartilhe Este Vídeo Com Eles",gemmaX,sem_prompt,"Se você tem filhos, compartilhe este vídeo com eles.",0.69,0.93,0.7,1.16
+826,When the Boss Wants You to Do Something Unethical,gpt/prompt2 X gemini/prompt2,gpt,prompt2,Quando o chefe quer que você faça algo antiético.,gemini,prompt2,"Quando o chefe quer que você faça algo antiético.
+",1.0,0.77,0.58,0.96
+826,When the Boss Wants You to Do Something Unethical,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,Quando o chefe quer que você faça algo antiético.,gemma3,prompt2,Quando o chefe quer que você faça algo antiético.,1.0,0.77,0.58,0.96
+826,When the Boss Wants You to Do Something Unethical,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"Quando o chefe quer que você faça algo antiético.
+",gemma3,prompt2,Quando o chefe quer que você faça algo antiético.,1.0,0.77,0.58,0.96
+854,Dylan Marron Wants to Know Why People Hate One Another,gpt/prompt2 X gpt/prompt4,gpt,prompt2,Dylan Marron Quer Saber Por Que As Pessoas Se Odeiam.,gpt,prompt4,Dylan Marron Quer Saber Por Que as Pessoas Se Odeiam.,0.99,0.76,0.57,0.95
+854,Dylan Marron Wants to Know Why People Hate One Another,gpt/prompt2 X gemini/prompt4,gpt,prompt2,Dylan Marron Quer Saber Por Que As Pessoas Se Odeiam.,gemini,prompt4,"Dylan Marron Quer Saber Por Que as Pessoas se Odeiam.
+",0.98,0.76,0.57,0.95
+854,Dylan Marron Wants to Know Why People Hate One Another,gpt/prompt4 X gemini/prompt4,gpt,prompt4,Dylan Marron Quer Saber Por Que as Pessoas Se Odeiam.,gemini,prompt4,"Dylan Marron Quer Saber Por Que as Pessoas se Odeiam.
+",0.98,0.76,0.57,0.95
+854,Dylan Marron Wants to Know Why People Hate One Another,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"Dylan Marron quer saber por que as pessoas se odeiam.
+",gemma3,prompt2,Dylan Marron quer saber por que as pessoas se odeiam.,1.0,0.76,0.57,0.95
+854,Dylan Marron Wants to Know Why People Hate One Another,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,"Dylan Marron quer saber por que as pessoas se odeiam.
+",gemma3,prompt4,Dylan Marron quer saber por que as pessoas se odeiam.,1.0,0.76,0.57,0.95
+854,Dylan Marron Wants to Know Why People Hate One Another,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,Dylan Marron quer saber por que as pessoas se odeiam.,gemma3,prompt4,Dylan Marron quer saber por que as pessoas se odeiam.,1.0,0.76,0.57,0.95
+862,And Then There Were Two: 2nd Woman Accuses Franken of Groping,gemini/prompt2 X gemini/prompt4,gemini,prompt2,"E Então Eram Duas: Segunda Mulher Acusa Franken de Agressão Sexual
+",gemini,prompt4,"E Então Sobraram Dois: Segunda Mulher Acusa Franken de Abuso
+",0.92,0.71,0.54,0.89
+876,Dragon Ball Super' give the clue to easily defeat UI Vegito,gpt/prompt2 X gemini/prompt2,gpt,prompt2,"""Dragon Ball Super"" dá a dica para derrotar facilmente o UI Vegito.",gemini,prompt2,"Dragon Ball Super dá a pista para facilmente derrotar o UI Vegito.
+",0.94,0.73,0.55,0.91
+876,Dragon Ball Super' give the clue to easily defeat UI Vegito,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,"""Dragon Ball Super"" dá a dica para derrotar facilmente o UI Vegito.",gemmaX,sem_prompt,Dragon Ball Super dá a dica para derrotar facilmente o UI Vegito,0.93,0.73,0.55,0.91
+876,Dragon Ball Super' give the clue to easily defeat UI Vegito,gpt/prompt4 X gemini/prompt2,gpt,prompt4,Dê a pista para derrotar facilmente o UI Vegito.,gemini,prompt2,"Dragon Ball Super dá a pista para facilmente derrotar o UI Vegito.
+",0.92,0.73,0.55,0.91
+876,Dragon Ball Super' give the clue to easily defeat UI Vegito,gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,"Dragon Ball Super dá a pista para facilmente derrotar o UI Vegito.
+",gemmaX,sem_prompt,Dragon Ball Super dá a dica para derrotar facilmente o UI Vegito,0.92,0.73,0.55,0.91
+878,SUDDEN JIHAD SYNDROME? Toronto police can’t seem to figure out the motive of a Muslim man who went on a shooting spree in Toronto,gpt/prompt2 X gpt/prompt4,gpt,prompt2,"""Síndrome do Jihad Repentina? A polícia de Toronto parece não conseguir entender o motivo de um homem muçulmano que saiu atirando em Toronto.""",gpt,prompt4,SÍNDROME DO JIHAD SÚBITO,0.57,0.78,0.58,0.97
+878,SUDDEN JIHAD SYNDROME? Toronto police can’t seem to figure out the motive of a Muslim man who went on a shooting spree in Toronto,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,SÍNDROME DO JIHAD SÚBITO,gemma3,prompt4,Síndrome do Jihad Fulminante? A polícia de Toronto parece não conseguir desvendar o porquê de um homem muçulmano ter desencadeado uma onda de disparos em Toronto.,0.56,0.78,0.58,0.97
+912,Witnesses Tell How Percoco Gave Developers Access to the ‘Albany Game’,gpt/prompt2 X gpt/prompt4,gpt,prompt2,Testemunhas Contam Como Percoco Deu Acesso aos Desenvolvedores ao 'Jogo de Albany',gpt,prompt4,Testemunhas Contam Como Percoco Deu Acesso aos Desenvolvedores ao 'Jogo de Albany',1.0,0.78,0.59,0.98
+977,"Modern Love Podcast: Betty Gilpin Reads ‘A Lost Child, but Not Mine’",gpt/prompt2 X gemma3/prompt4,gpt,prompt2,"Podcast Amor Moderno: Betty Gilpin Lê ‘Uma Criança Perdida, Mas Não Minha’",gemma3,prompt4,"**Amor Moderno: Betty Gilpin lê ‘Um Filho Perdido, Mas Não o Meu’**
+
+(Introdução musical)
+
+**Betty Gilpin:** Há um tipo de luto que você observa à distância, como um navio afundando no horizonte. Você joga um colete salva-vidas, mas a distância é traiçoeira. Você pode gritar, pode acenar, mas a vastidão do oceano engole seus esforços.
+
+Este conto, “Um Filho Perdido, Mas Não o Meu”, de Eileen Garvin, me pegou como uma onda inesperada. Uma onda que, ao que parece, a maioria das pessoas não sente. É sobre o estranho, o agridoce, o quase indecente espaço entre o amor que você tem e o amor que você *não* tem.
+
+A história acompanha uma mulher que se torna amiga da mãe de uma criança desaparecida. Uma amizade forjada no fogo da desesper",0.63,0.86,0.65,1.08
+977,"Modern Love Podcast: Betty Gilpin Reads ‘A Lost Child, but Not Mine’",gpt/prompt4 X gemma3/prompt4,gpt,prompt4,"Amor Moderno Podcast: Betty Gilpin lê ‘Uma Criança Perdida, Mas Não Minha’",gemma3,prompt4,"**Amor Moderno: Betty Gilpin lê ‘Um Filho Perdido, Mas Não o Meu’**
+
+(Introdução musical)
+
+**Betty Gilpin:** Há um tipo de luto que você observa à distância, como um navio afundando no horizonte. Você joga um colete salva-vidas, mas a distância é traiçoeira. Você pode gritar, pode acenar, mas a vastidão do oceano engole seus esforços.
+
+Este conto, “Um Filho Perdido, Mas Não o Meu”, de Eileen Garvin, me pegou como uma onda inesperada. Uma onda que, ao que parece, a maioria das pessoas não sente. É sobre o estranho, o agridoce, o quase indecente espaço entre o amor que você tem e o amor que você *não* tem.
+
+A história acompanha uma mulher que se torna amiga da mãe de uma criança desaparecida. Uma amizade forjada no fogo da desesper",0.64,0.86,0.65,1.08
+977,"Modern Love Podcast: Betty Gilpin Reads ‘A Lost Child, but Not Mine’",gemini/prompt2 X gemma3/prompt4,gemini,prompt2,"Podcast Modern Love: Betty Gilpin lê 'Uma Criança Perdida, Mas Não Minha'
+",gemma3,prompt4,"**Amor Moderno: Betty Gilpin lê ‘Um Filho Perdido, Mas Não o Meu’**
+
+(Introdução musical)
+
+**Betty Gilpin:** Há um tipo de luto que você observa à distância, como um navio afundando no horizonte. Você joga um colete salva-vidas, mas a distância é traiçoeira. Você pode gritar, pode acenar, mas a vastidão do oceano engole seus esforços.
+
+Este conto, “Um Filho Perdido, Mas Não o Meu”, de Eileen Garvin, me pegou como uma onda inesperada. Uma onda que, ao que parece, a maioria das pessoas não sente. É sobre o estranho, o agridoce, o quase indecente espaço entre o amor que você tem e o amor que você *não* tem.
+
+A história acompanha uma mulher que se torna amiga da mãe de uma criança desaparecida. Uma amizade forjada no fogo da desesper",0.62,0.86,0.65,1.08
+977,"Modern Love Podcast: Betty Gilpin Reads ‘A Lost Child, but Not Mine’",gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"Modern Love Podcast: Betty Gilpin lê ‘Uma Criança Perdida, Mas Não Minha’.
+",gemma3,prompt4,"**Amor Moderno: Betty Gilpin lê ‘Um Filho Perdido, Mas Não o Meu’**
+
+(Introdução musical)
+
+**Betty Gilpin:** Há um tipo de luto que você observa à distância, como um navio afundando no horizonte. Você joga um colete salva-vidas, mas a distância é traiçoeira. Você pode gritar, pode acenar, mas a vastidão do oceano engole seus esforços.
+
+Este conto, “Um Filho Perdido, Mas Não o Meu”, de Eileen Garvin, me pegou como uma onda inesperada. Uma onda que, ao que parece, a maioria das pessoas não sente. É sobre o estranho, o agridoce, o quase indecente espaço entre o amor que você tem e o amor que você *não* tem.
+
+A história acompanha uma mulher que se torna amiga da mãe de uma criança desaparecida. Uma amizade forjada no fogo da desesper",0.64,0.86,0.65,1.08
+977,"Modern Love Podcast: Betty Gilpin Reads ‘A Lost Child, but Not Mine’",gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"Podcast Modern Love: Betty Gilpin lê ‘Uma Criança Perdida, Mas Não Minha’",gemma3,prompt4,"**Amor Moderno: Betty Gilpin lê ‘Um Filho Perdido, Mas Não o Meu’**
+
+(Introdução musical)
+
+**Betty Gilpin:** Há um tipo de luto que você observa à distância, como um navio afundando no horizonte. Você joga um colete salva-vidas, mas a distância é traiçoeira. Você pode gritar, pode acenar, mas a vastidão do oceano engole seus esforços.
+
+Este conto, “Um Filho Perdido, Mas Não o Meu”, de Eileen Garvin, me pegou como uma onda inesperada. Uma onda que, ao que parece, a maioria das pessoas não sente. É sobre o estranho, o agridoce, o quase indecente espaço entre o amor que você tem e o amor que você *não* tem.
+
+A história acompanha uma mulher que se torna amiga da mãe de uma criança desaparecida. Uma amizade forjada no fogo da desesper",0.63,0.86,0.65,1.08
+977,"Modern Love Podcast: Betty Gilpin Reads ‘A Lost Child, but Not Mine’",gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"**Amor Moderno: Betty Gilpin lê ‘Um Filho Perdido, Mas Não o Meu’**
+
+(Introdução musical)
+
+**Betty Gilpin:** Há um tipo de luto que você observa à distância, como um navio afundando no horizonte. Você joga um colete salva-vidas, mas a distância é traiçoeira. Você pode gritar, pode acenar, mas a vastidão do oceano engole seus esforços.
+
+Este conto, “Um Filho Perdido, Mas Não o Meu”, de Eileen Garvin, me pegou como uma onda inesperada. Uma onda que, ao que parece, a maioria das pessoas não sente. É sobre o estranho, o agridoce, o quase indecente espaço entre o amor que você tem e o amor que você *não* tem.
+
+A história acompanha uma mulher que se torna amiga da mãe de uma criança desaparecida. Uma amizade forjada no fogo da desesper",gemmaX,sem_prompt,"Podcast Modern Love: Betty Gilpin lê ""A Lost Child, but Not Mine""",0.61,0.86,0.65,1.08
+993,WATCH: Driver Broadcasts Alleged High-Speed Chase on Facebook Live,gpt/prompt2 X gemini/prompt2,gpt,prompt2,ASSISTA: Motorista Transmite Suposta Perseguição em Alta Velocidade ao Vivo no Facebook,gemini,prompt2,Error: Could not resolve API token from the environment,0.6,0.82,0.61,1.02
+993,WATCH: Driver Broadcasts Alleged High-Speed Chase on Facebook Live,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,Error: Could not resolve API token from the environment,gemma3,prompt2,ASSISTA: Motorista Transmite Perseguição de Alta Velocidade Aparentemente ao Vivo no Facebook,0.6,0.82,0.61,1.02
+993,WATCH: Driver Broadcasts Alleged High-Speed Chase on Facebook Live,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,Error: Could not resolve API token from the environment,gemma3,prompt4,"**VEJA: Motorista Transmite Caçada de Alta Velocidade Suposta ao Vivo no Facebook.**
+",0.6,0.82,0.61,1.02
+996,Roy Moore reveals frightening reality: Many Evangelicals agree with and encourage child predation,gpt/prompt2 X gemini/prompt2,gpt,prompt2,Roy Moore revela uma realidade assustadora: muitos evangélicos concordam e incentivam a predação infantil.,gemini,prompt2,Error: Could not resolve API token from the environment,0.64,0.92,0.69,1.15
+996,Roy Moore reveals frightening reality: Many Evangelicals agree with and encourage child predation,gpt/prompt4 X gemini/prompt2,gpt,prompt4,Roy Moore revela uma realidade assustadora: Muitos evangélicos concordam e incentivam a predatória infantil.,gemini,prompt2,Error: Could not resolve API token from the environment,0.64,0.92,0.69,1.15
+996,Roy Moore reveals frightening reality: Many Evangelicals agree with and encourage child predation,gemini/prompt2 X gemini/prompt4,gemini,prompt2,Error: Could not resolve API token from the environment,gemini,prompt4,"Roy Moore revela um abismo assustador: Muitos evangélicos compactuam e incitam a predação infantil.
+",0.64,0.92,0.69,1.15
+996,Roy Moore reveals frightening reality: Many Evangelicals agree with and encourage child predation,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,Error: Could not resolve API token from the environment,gemma3,prompt2,Roy Moore revela uma realidade assustadora: Muitos evangélicos concordam e incentivam a predação sexual infantil.,0.64,0.92,0.69,1.15
+996,Roy Moore reveals frightening reality: Many Evangelicals agree with and encourage child predation,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,Error: Could not resolve API token from the environment,gemma3,prompt4,Roy Moore expõe uma realidade aterradora: muitos evangélicos concordam e incentivam a predação infantil.,0.64,0.92,0.69,1.15
+996,Roy Moore reveals frightening reality: Many Evangelicals agree with and encourage child predation,gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,Error: Could not resolve API token from the environment,gemmaX,sem_prompt,Roy Moore revela uma realidade assustadora: muitos evangélicos concordam e encorajam a predação de crianças,0.65,0.92,0.69,1.15
+1025,‘This is brutal’! Wolf Blitzer scolds CNN reporter for using ‘not good sources’,gpt/prompt2 X gemini/prompt2,gpt,prompt2,"""Isso é brutal""! Wolf Blitzer repreende repórter da CNN por usar 'fontes não confiáveis'.",gemini,prompt2,"""Isso é brutal!"" Wolf Blitzer repreende repórter da CNN por usar 'fontes não boas'.""",0.94,0.74,0.56,0.93
+1025,‘This is brutal’! Wolf Blitzer scolds CNN reporter for using ‘not good sources’,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"""Isso é brutal!"" Wolf Blitzer repreende repórter da CNN por usar 'fontes não boas'.""",gemma3,prompt2,"""Isso é brutal! Wolf Blitzer repreende repórter da CNN por usar 'fontes não boas'.""",0.95,0.74,0.56,0.93
+1046,"Days of Our Lives' spoilers: Ben returns, reveals stunning news about Will",gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"Spoilers de ""Days of Our Lives"": Ben retorna e revela notícias chocantes sobre Will.",gemma3,prompt2,"Spoilers de ""Days of Our Lives"": Ben retorna, revela notícias chocantes sobre Will.",0.98,0.77,0.57,0.96
+1071,"POTUS Proposes ‘Fake News Awards’, French Conservatives Have Been Doing it For Years and It’s Hilarious",gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"O POTUS propõe “Prêmios de Notícias Falsas”, Conservadores Franceses Fazem Isso Há Anos e É Hilário.",gemma3,prompt4,"O POTUS propõe ‘Prêmios de Notícias Falsas’, Conservadores Franceses Fazem Isso Há Anos e É Hilário.",1.0,0.79,0.59,0.99
+1072,"Trump Retweets, Quickly Deletes Post Saying ‘He’s a Fascist’ (SCREENSHOTS)",gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,"Trump retuíta, apaga rapidamente post que diz ""Ele é um fascista"" (CAPTURAS DE TELA)",gemmaX,sem_prompt,"Trump retuíta, apaga rapidamente post que diz ""Ele é um fascista"" (CAPTURAS DE ECRÃ)",0.97,0.76,0.57,0.95
+1142,BOMBSHELL: DOJ Reveals What Sessions Is Planning To Do To HILLARY – I Think You’ll LOVE This,gpt/prompt2 X gpt/prompt4,gpt,prompt2,BOMBA: O DOJ Revela O Que Sessions Está Planejando Fazer Com HILLARY – Acho Que Você Vai ADORAR Isso.,gpt,prompt4,BOMBA: DOJ Revela O Que Sessions Está Planejando Fazer Com HILLARY – Acho Que Você Vai ADORAR Isso.,0.99,0.77,0.58,0.97
+1142,BOMBSHELL: DOJ Reveals What Sessions Is Planning To Do To HILLARY – I Think You’ll LOVE This,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,BOMBA: Departamento de Justiça revela o que Sessions planeja fazer com HILLARY – Acho que você vai AMAR isso.,gemma3,prompt2,BOMBA: O Departamento de Justiça revela o que Sessions planeja fazer com HILLARY – Acho que você vai AMAR isso.,0.99,0.77,0.58,0.97
+1148,Pot meet kettle! WATCH: Al Sharpton says President Trump IS a racist,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,A panela chamando o caldeirão de sujo! VEJA: Al Sharpton diz que o Presidente Trump É racista.,gemma3,prompt2,O caldeirão chamou a panela! VEJA: Al Sharpton diz que o Presidente Trump É racista.,0.95,0.75,0.56,0.94
+1170,Watch EyeSwoon’s Athena Calderone Make Her Favorite Fall Recipe,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,Assista Athena Calderone do EyeSwoon preparar sua receita favorita de outono.,gemma3,prompt2,Assista Athena Calderone do EyeSwoon preparar sua receita favorita de outono.,1.0,0.79,0.59,0.99
+1183,New Scaramucci Tweet: 'I Made a Mistake Trusting a Reporter',gpt/prompt2 X gemini/prompt2,gpt,prompt2,Novo Tweet de Scaramucci: 'Cometi um erro ao confiar em um repórter',gemini,prompt2,Novo Tweet de Scaramucci: 'Cometi um erro ao confiar em um repórter',1.0,0.8,0.6,1.0
+1219,8 Frugal and Forgotten Ways Your Great-Grandparents Made it Through Hard Times,gpt/prompt2 X gpt/prompt4,gpt,prompt2,8 Maneiras Frugais e Esquecidas que Seus Bisavós Usaram para Superar Tempos Difíceis,gpt,prompt4,8 Maneiras Frugais e Esquecidas que Seus Bisavós Usaram para Superar Tempos Difíceis.,0.96,0.72,0.54,0.9
+1219,8 Frugal and Forgotten Ways Your Great-Grandparents Made it Through Hard Times,gpt/prompt2 X gemini/prompt4,gpt,prompt2,8 Maneiras Frugais e Esquecidas que Seus Bisavós Usaram para Superar Tempos Difíceis,gemini,prompt4,"Aqui está a tradução:
+
+1.  **Cultivando a Própria Mesa (Grow Your Own Grocery Store):** Transformando o Quintal em um Emporium Doméstico.
+2.  **Consertando, Reusando, Revivendo (Fix, Reuse, Revive):** A Arte da Sobrevivência Econômica.
+3.  **O Tesouro Escondido do Desperdício (The Hidden Treasure of Waste):** Onde o Lixo Vira Ouro.
+4.  **A Economia da Troca: Uma Moeda Invisível (The Barter Economy: An Invisible Currency):** Onde a Confiança é a Chave.
+5.  **O Poder da Comunidade: Juntos Somos Fortes (The Power of Community: United We Stand):** Uma Mão Lava a Outra.
+6.  **Armazenando para o Futuro: Uma Despensa para a Tempestade (Stockpiling for the Future: A Pantry for the Storm):** Preparando-se para Dias Sombrios.
+7.  **A Arte da Remodelação e Adaptação (The Art of Repurposing and Adaptation):** Uma Nova Vida para o Velho.
+8.  **A Disciplina da Gratidão: Contando as Bênçãos (The Discipline of Gratitude: Counting Your Blessings):** Encontrando a Riqueza no Simples.
+",0.52,0.72,0.54,0.9
+1219,8 Frugal and Forgotten Ways Your Great-Grandparents Made it Through Hard Times,gpt/prompt4 X gemini/prompt4,gpt,prompt4,8 Maneiras Frugais e Esquecidas que Seus Bisavós Usaram para Superar Tempos Difíceis.,gemini,prompt4,"Aqui está a tradução:
+
+1.  **Cultivando a Própria Mesa (Grow Your Own Grocery Store):** Transformando o Quintal em um Emporium Doméstico.
+2.  **Consertando, Reusando, Revivendo (Fix, Reuse, Revive):** A Arte da Sobrevivência Econômica.
+3.  **O Tesouro Escondido do Desperdício (The Hidden Treasure of Waste):** Onde o Lixo Vira Ouro.
+4.  **A Economia da Troca: Uma Moeda Invisível (The Barter Economy: An Invisible Currency):** Onde a Confiança é a Chave.
+5.  **O Poder da Comunidade: Juntos Somos Fortes (The Power of Community: United We Stand):** Uma Mão Lava a Outra.
+6.  **Armazenando para o Futuro: Uma Despensa para a Tempestade (Stockpiling for the Future: A Pantry for the Storm):** Preparando-se para Dias Sombrios.
+7.  **A Arte da Remodelação e Adaptação (The Art of Repurposing and Adaptation):** Uma Nova Vida para o Velho.
+8.  **A Disciplina da Gratidão: Contando as Bênçãos (The Discipline of Gratitude: Counting Your Blessings):** Encontrando a Riqueza no Simples.
+",0.54,0.72,0.54,0.9
+1219,8 Frugal and Forgotten Ways Your Great-Grandparents Made it Through Hard Times,gemini/prompt2 X gemini/prompt4,gemini,prompt2,8 Maneiras Econômicas e Esquecidas que Seus Tataravós Superaram Tempos Difíceis,gemini,prompt4,"Aqui está a tradução:
+
+1.  **Cultivando a Própria Mesa (Grow Your Own Grocery Store):** Transformando o Quintal em um Emporium Doméstico.
+2.  **Consertando, Reusando, Revivendo (Fix, Reuse, Revive):** A Arte da Sobrevivência Econômica.
+3.  **O Tesouro Escondido do Desperdício (The Hidden Treasure of Waste):** Onde o Lixo Vira Ouro.
+4.  **A Economia da Troca: Uma Moeda Invisível (The Barter Economy: An Invisible Currency):** Onde a Confiança é a Chave.
+5.  **O Poder da Comunidade: Juntos Somos Fortes (The Power of Community: United We Stand):** Uma Mão Lava a Outra.
+6.  **Armazenando para o Futuro: Uma Despensa para a Tempestade (Stockpiling for the Future: A Pantry for the Storm):** Preparando-se para Dias Sombrios.
+7.  **A Arte da Remodelação e Adaptação (The Art of Repurposing and Adaptation):** Uma Nova Vida para o Velho.
+8.  **A Disciplina da Gratidão: Contando as Bênçãos (The Discipline of Gratitude: Counting Your Blessings):** Encontrando a Riqueza no Simples.
+",0.53,0.72,0.54,0.9
+1219,8 Frugal and Forgotten Ways Your Great-Grandparents Made it Through Hard Times,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,8 Maneiras Econômicas e Esquecidas que Seus Tataravós Superaram Tempos Difíceis,gemma3,prompt2,8 Maneiras Econômicas e Esquecidas de Como Seus Bisavós Superaram Tempos Difíceis,0.93,0.72,0.54,0.9
+1219,8 Frugal and Forgotten Ways Your Great-Grandparents Made it Through Hard Times,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"Aqui está a tradução:
+
+1.  **Cultivando a Própria Mesa (Grow Your Own Grocery Store):** Transformando o Quintal em um Emporium Doméstico.
+2.  **Consertando, Reusando, Revivendo (Fix, Reuse, Revive):** A Arte da Sobrevivência Econômica.
+3.  **O Tesouro Escondido do Desperdício (The Hidden Treasure of Waste):** Onde o Lixo Vira Ouro.
+4.  **A Economia da Troca: Uma Moeda Invisível (The Barter Economy: An Invisible Currency):** Onde a Confiança é a Chave.
+5.  **O Poder da Comunidade: Juntos Somos Fortes (The Power of Community: United We Stand):** Uma Mão Lava a Outra.
+6.  **Armazenando para o Futuro: Uma Despensa para a Tempestade (Stockpiling for the Future: A Pantry for the Storm):** Preparando-se para Dias Sombrios.
+7.  **A Arte da Remodelação e Adaptação (The Art of Repurposing and Adaptation):** Uma Nova Vida para o Velho.
+8.  **A Disciplina da Gratidão: Contando as Bênçãos (The Discipline of Gratitude: Counting Your Blessings):** Encontrando a Riqueza no Simples.
+",gemma3,prompt2,8 Maneiras Econômicas e Esquecidas de Como Seus Bisavós Superaram Tempos Difíceis,0.54,0.72,0.54,0.9
+1219,8 Frugal and Forgotten Ways Your Great-Grandparents Made it Through Hard Times,gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,"Aqui está a tradução:
+
+1.  **Cultivando a Própria Mesa (Grow Your Own Grocery Store):** Transformando o Quintal em um Emporium Doméstico.
+2.  **Consertando, Reusando, Revivendo (Fix, Reuse, Revive):** A Arte da Sobrevivência Econômica.
+3.  **O Tesouro Escondido do Desperdício (The Hidden Treasure of Waste):** Onde o Lixo Vira Ouro.
+4.  **A Economia da Troca: Uma Moeda Invisível (The Barter Economy: An Invisible Currency):** Onde a Confiança é a Chave.
+5.  **O Poder da Comunidade: Juntos Somos Fortes (The Power of Community: United We Stand):** Uma Mão Lava a Outra.
+6.  **Armazenando para o Futuro: Uma Despensa para a Tempestade (Stockpiling for the Future: A Pantry for the Storm):** Preparando-se para Dias Sombrios.
+7.  **A Arte da Remodelação e Adaptação (The Art of Repurposing and Adaptation):** Uma Nova Vida para o Velho.
+8.  **A Disciplina da Gratidão: Contando as Bênçãos (The Discipline of Gratitude: Counting Your Blessings):** Encontrando a Riqueza no Simples.
+",gemmaX,sem_prompt,8 maneiras frugais e esquecidas de seus tataravós terem sobrevivido a tempos difíceis,0.5,0.72,0.54,0.9
+1390,GOLD IS MAKING A COMEBACK AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM,gpt/prompt2 X gpt/prompt4,gpt,prompt2,"""O OURO ESTÁ FAZENDO UM RETORNO NO CENTRO DO SISTEMA MONETÁRIO INTERNACIONAL.""",gpt,prompt4,O OURO ESTÁ RETORNANDO AO CENTRO DO SISTEMA MONETÁRIO INTERNACIONAL.,0.92,0.56,0.42,0.7
+1390,GOLD IS MAKING A COMEBACK AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,"""O OURO ESTÁ FAZENDO UM RETORNO NO CENTRO DO SISTEMA MONETÁRIO INTERNACIONAL.""",gemmaX,sem_prompt,O OURO ESTÁ A FAZER UM RETORNO AO CENTRO DO SISTEMA MONETÁRIO INTERNACIONAL,0.89,0.56,0.42,0.7
+1390,GOLD IS MAKING A COMEBACK AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM,gpt/prompt4 X gemmaX/sem_prompt,gpt,prompt4,O OURO ESTÁ RETORNANDO AO CENTRO DO SISTEMA MONETÁRIO INTERNACIONAL.,gemmaX,sem_prompt,O OURO ESTÁ A FAZER UM RETORNO AO CENTRO DO SISTEMA MONETÁRIO INTERNACIONAL,0.89,0.56,0.42,0.7
+1390,GOLD IS MAKING A COMEBACK AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM,gemini/prompt2 X gemini/prompt4,gemini,prompt2,O ouro está voltando ao centro do sistema monetário internacional.,gemini,prompt4,"O ouro reassume seu trono no sistema monetário internacional.
+",0.88,0.56,0.42,0.7
+1390,GOLD IS MAKING A COMEBACK AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,O ouro está voltando ao centro do sistema monetário internacional.,gemma3,prompt2,O ouro está ressurgindo como peça central do sistema monetário internacional.,0.91,0.56,0.42,0.7
+1390,GOLD IS MAKING A COMEBACK AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,O ouro está voltando ao centro do sistema monetário internacional.,gemma3,prompt4,O ouro ressurge no coração do sistema monetário internacional.,0.92,0.56,0.42,0.7
+1390,GOLD IS MAKING A COMEBACK AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"O ouro reassume seu trono no sistema monetário internacional.
+",gemma3,prompt2,O ouro está ressurgindo como peça central do sistema monetário internacional.,0.87,0.56,0.42,0.7
+1390,GOLD IS MAKING A COMEBACK AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM,gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"O ouro reassume seu trono no sistema monetário internacional.
+",gemma3,prompt4,O ouro ressurge no coração do sistema monetário internacional.,0.9,0.56,0.42,0.7
+1390,GOLD IS MAKING A COMEBACK AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,O ouro está ressurgindo como peça central do sistema monetário internacional.,gemma3,prompt4,O ouro ressurge no coração do sistema monetário internacional.,0.9,0.56,0.42,0.7
+1426,Germans Sentence Syrian Fighter to Three Years in Prison,gpt/prompt2 X gemini/prompt2,gpt,prompt2,Alemães sentenciam lutador sírio a três anos de prisão.,gemini,prompt2,Alemães sentenciam lutador sírio a três anos de prisão.,1.0,0.79,0.59,0.99
+1447,‘What in the world’? Report: Saudi Arabia says Lebanon has declared war on them,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,"""O que há de errado com o mundo? Relatório: a Arábia Saudita diz que o Líbano declarou guerra contra eles.""",gemma3,prompt4,Que diabo se passa?,0.64,0.86,0.65,1.08
+1447,‘What in the world’? Report: Saudi Arabia says Lebanon has declared war on them,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,"""O que está acontecendo no mundo?"" Relatório: A Arábia Saudita afirma que o Líbano declarou guerra contra eles.",gemma3,prompt4,Que diabo se passa?,0.63,0.86,0.65,1.08
+1447,‘What in the world’? Report: Saudi Arabia says Lebanon has declared war on them,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"""O que é isso?"" Relatório: Arábia Saudita diz que o Líbano declarou guerra a eles.",gemma3,prompt4,Que diabo se passa?,0.64,0.86,0.65,1.08
+1447,‘What in the world’? Report: Saudi Arabia says Lebanon has declared war on them,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,Que diabo se passa?,gemmaX,sem_prompt,‘Que raio’? Relatório: Arábia Saudita diz que o Líbano declarou guerra contra eles,0.64,0.86,0.65,1.08
+1491,"Burundi exits the ICC, an interview with David Paul Jacobs",gpt/prompt2 X gemma3/prompt4,gpt,prompt2,"""Burundi sai do CPI, uma entrevista com David Paul Jacobs.""",gemma3,prompt4,"## Burundi Sai do TPI, uma entrevista com David Paul Jacobs
+
+Burundi deu um rasante na Corte Penal Internacional, um adeus definitivo. É como se o país, cansado de ser cutucado, resolvesse esticar as pernas e seguir seu próprio caminho. David Paul Jacobs, que acompanha a região de perto, nos ajuda a entender o que se passa por trás dessa decisão.
+
+“É um movimento carregado de simbolismo,” explica Jacobs. “Para Burundi, era como carregar um fardo pesado demais. A Corte, para eles, talvez representasse mais uma acusação do que uma busca por justiça.”
+
+A decisão, que ecoa a desconfiança crescente em relação a organismos internacionais, levanta uma questão crucial: o que significa a justiça para um país que se sente injustiçado? Jacobs argumenta que Burundi está buscando, talvez de forma equivocada, se livrar de rótulos e reconstruir sua imagem. Mas o processo, ele",0.65,0.89,0.67,1.11
+1491,"Burundi exits the ICC, an interview with David Paul Jacobs",gpt/prompt4 X gemma3/prompt4,gpt,prompt4,"Burundi sai do CPI, uma entrevista com David Paul Jacobs.",gemma3,prompt4,"## Burundi Sai do TPI, uma entrevista com David Paul Jacobs
+
+Burundi deu um rasante na Corte Penal Internacional, um adeus definitivo. É como se o país, cansado de ser cutucado, resolvesse esticar as pernas e seguir seu próprio caminho. David Paul Jacobs, que acompanha a região de perto, nos ajuda a entender o que se passa por trás dessa decisão.
+
+“É um movimento carregado de simbolismo,” explica Jacobs. “Para Burundi, era como carregar um fardo pesado demais. A Corte, para eles, talvez representasse mais uma acusação do que uma busca por justiça.”
+
+A decisão, que ecoa a desconfiança crescente em relação a organismos internacionais, levanta uma questão crucial: o que significa a justiça para um país que se sente injustiçado? Jacobs argumenta que Burundi está buscando, talvez de forma equivocada, se livrar de rótulos e reconstruir sua imagem. Mas o processo, ele",0.64,0.89,0.67,1.11
+1491,"Burundi exits the ICC, an interview with David Paul Jacobs",gemini/prompt2 X gemma3/prompt4,gemini,prompt2,"Burundi sai do Tribunal Penal Internacional, uma entrevista com David Paul Jacobs.",gemma3,prompt4,"## Burundi Sai do TPI, uma entrevista com David Paul Jacobs
+
+Burundi deu um rasante na Corte Penal Internacional, um adeus definitivo. É como se o país, cansado de ser cutucado, resolvesse esticar as pernas e seguir seu próprio caminho. David Paul Jacobs, que acompanha a região de perto, nos ajuda a entender o que se passa por trás dessa decisão.
+
+“É um movimento carregado de simbolismo,” explica Jacobs. “Para Burundi, era como carregar um fardo pesado demais. A Corte, para eles, talvez representasse mais uma acusação do que uma busca por justiça.”
+
+A decisão, que ecoa a desconfiança crescente em relação a organismos internacionais, levanta uma questão crucial: o que significa a justiça para um país que se sente injustiçado? Jacobs argumenta que Burundi está buscando, talvez de forma equivocada, se livrar de rótulos e reconstruir sua imagem. Mas o processo, ele",0.65,0.89,0.67,1.11
+1491,"Burundi exits the ICC, an interview with David Paul Jacobs",gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"Burundi sai do Tribunal Penal Internacional: uma entrevista com David Paul Jacobs.
+",gemma3,prompt4,"## Burundi Sai do TPI, uma entrevista com David Paul Jacobs
+
+Burundi deu um rasante na Corte Penal Internacional, um adeus definitivo. É como se o país, cansado de ser cutucado, resolvesse esticar as pernas e seguir seu próprio caminho. David Paul Jacobs, que acompanha a região de perto, nos ajuda a entender o que se passa por trás dessa decisão.
+
+“É um movimento carregado de simbolismo,” explica Jacobs. “Para Burundi, era como carregar um fardo pesado demais. A Corte, para eles, talvez representasse mais uma acusação do que uma busca por justiça.”
+
+A decisão, que ecoa a desconfiança crescente em relação a organismos internacionais, levanta uma questão crucial: o que significa a justiça para um país que se sente injustiçado? Jacobs argumenta que Burundi está buscando, talvez de forma equivocada, se livrar de rótulos e reconstruir sua imagem. Mas o processo, ele",0.65,0.89,0.67,1.11
+1491,"Burundi exits the ICC, an interview with David Paul Jacobs",gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"Burundi sai do Tribunal Penal Internacional, uma entrevista com David Paul Jacobs.
+",gemma3,prompt4,"## Burundi Sai do TPI, uma entrevista com David Paul Jacobs
+
+Burundi deu um rasante na Corte Penal Internacional, um adeus definitivo. É como se o país, cansado de ser cutucado, resolvesse esticar as pernas e seguir seu próprio caminho. David Paul Jacobs, que acompanha a região de perto, nos ajuda a entender o que se passa por trás dessa decisão.
+
+“É um movimento carregado de simbolismo,” explica Jacobs. “Para Burundi, era como carregar um fardo pesado demais. A Corte, para eles, talvez representasse mais uma acusação do que uma busca por justiça.”
+
+A decisão, que ecoa a desconfiança crescente em relação a organismos internacionais, levanta uma questão crucial: o que significa a justiça para um país que se sente injustiçado? Jacobs argumenta que Burundi está buscando, talvez de forma equivocada, se livrar de rótulos e reconstruir sua imagem. Mas o processo, ele",0.65,0.89,0.67,1.11
+1491,"Burundi exits the ICC, an interview with David Paul Jacobs",gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"## Burundi Sai do TPI, uma entrevista com David Paul Jacobs
+
+Burundi deu um rasante na Corte Penal Internacional, um adeus definitivo. É como se o país, cansado de ser cutucado, resolvesse esticar as pernas e seguir seu próprio caminho. David Paul Jacobs, que acompanha a região de perto, nos ajuda a entender o que se passa por trás dessa decisão.
+
+“É um movimento carregado de simbolismo,” explica Jacobs. “Para Burundi, era como carregar um fardo pesado demais. A Corte, para eles, talvez representasse mais uma acusação do que uma busca por justiça.”
+
+A decisão, que ecoa a desconfiança crescente em relação a organismos internacionais, levanta uma questão crucial: o que significa a justiça para um país que se sente injustiçado? Jacobs argumenta que Burundi está buscando, talvez de forma equivocada, se livrar de rótulos e reconstruir sua imagem. Mas o processo, ele",gemmaX,sem_prompt,"Burundi sai do TPI, entrevista com David Paul Jacobs",0.64,0.89,0.67,1.11
+1577,LOCK HIM UP: Kyle Adam Maraghy arrested for sucker punching fan at Panthers-Eagles game,gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,"Botá-lo na jaula.
+",gemmaX,sem_prompt,DETENHA-O: Kyle Adam Maraghy detido por soco surpresa a um fã no jogo entre os Panthers e os Eagles,0.61,0.82,0.61,1.02
+1599,Big Government and Environmentalists Are Causing Massive Fires in Western States,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,O governo grande e os ambientalistas estão causando incêndios massivos nos estados do oeste.,gemma3,prompt2,"Governo grande e ambientalistas estão causando incêndios massivos nos estados do oeste.
+",0.96,0.77,0.57,0.96
+1647,‘UNACCEPTABLE’ Fleitz warns Russian money behind North Korean missile tests,gpt/prompt4 X gemini/prompt4,gpt,prompt4,INACEITÁVEL,gemini,prompt4,"Fleitz alerta: o dinheiro russo é o combustível que impulsiona os mísseis norte-coreanos.
+",0.57,0.82,0.62,1.03
+1647,‘UNACCEPTABLE’ Fleitz warns Russian money behind North Korean missile tests,gpt/prompt4 X gemma3/prompt2,gpt,prompt4,INACEITÁVEL,gemma3,prompt2,"""Inaceitável"", adverte Fleitz sobre o dinheiro russo por trás dos testes de mísseis norte-coreanos.",0.57,0.82,0.62,1.03
+1647,‘UNACCEPTABLE’ Fleitz warns Russian money behind North Korean missile tests,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,INACEITÁVEL,gemma3,prompt4,"Inadmissível, Fleitz alerta para o dinheiro russo por trás dos testes de mísseis norte-coreanos.",0.59,0.82,0.62,1.03
+1667,German Smoke Show Sprinter Will Have You Questioning Your Olympic Allegiance,gpt/prompt4 X gemma3/prompt2,gpt,prompt4,O espetáculo de fumaça alemão fará você questionar sua lealdade olímpica.,gemma3,prompt2,"O velocista alemão, um espetáculo de fumaça, fará você questionar sua lealdade olímpica.",0.92,0.73,0.55,0.91
+1667,German Smoke Show Sprinter Will Have You Questioning Your Olympic Allegiance,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"O velocista alemão, um espetáculo de fumaça, fará você questionar sua lealdade olímpica.",gemma3,prompt4,"O velocista alemão, um espetáculo de fumaça e velocidade, fará você repensar sua lealdade olímpica.",0.95,0.73,0.55,0.91
+1676,Students Criticize UCLA For Kicking Out Well-Rated Conservative Prof,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,Estudantes criticam a UCLA por expulsar um professor conservador bem avaliado.,gemma3,prompt2,Estudantes criticam a UCLA por expulsar professor conservador bem avaliado.,0.97,0.76,0.57,0.95
+1684,10 Ways My Wife And I Cut Our Grocery Bill By 75 Percent,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,10 maneiras pelas quais minha esposa e eu cortamos nossa conta de supermercado em 75 por cento.,gemmaX,sem_prompt,10 maneiras pelas quais minha esposa e eu reduzimos nossa conta de supermercado em 75%,0.92,0.67,0.5,0.83
+1684,10 Ways My Wife And I Cut Our Grocery Bill By 75 Percent,gpt/prompt4 X gemini/prompt2,gpt,prompt4,10 Maneiras de Como Minha Esposa e Eu Cortamos Nossa Conta do Mercado em 75 Por Cento,gemini,prompt2,10 Maneiras de Eu e Minha Esposa Reduzirmos Nossa Conta de Mercado em 75 Por Cento,0.89,0.67,0.5,0.83
+1684,10 Ways My Wife And I Cut Our Grocery Bill By 75 Percent,gpt/prompt4 X gemma3/prompt2,gpt,prompt4,10 Maneiras de Como Minha Esposa e Eu Cortamos Nossa Conta do Mercado em 75 Por Cento,gemma3,prompt2,10 Maneiras Como Minha Esposa e Eu Reduzimos Nossa Conta de Supermercado em 75 Por Cento,0.92,0.67,0.5,0.83
+1684,10 Ways My Wife And I Cut Our Grocery Bill By 75 Percent,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,10 Maneiras de Eu e Minha Esposa Reduzirmos Nossa Conta de Mercado em 75 Por Cento,gemma3,prompt2,10 Maneiras Como Minha Esposa e Eu Reduzimos Nossa Conta de Supermercado em 75 Por Cento,0.9,0.67,0.5,0.83
+1684,10 Ways My Wife And I Cut Our Grocery Bill By 75 Percent,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,10 Maneiras de Eu e Minha Esposa Reduzirmos Nossa Conta de Mercado em 75 Por Cento,gemma3,prompt4,10 Formas Pelo Qual Minha Esposa e Eu Reduzimos Nossa Conta de Supermercado em 75 Por Cento.,0.85,0.67,0.5,0.83
+1684,10 Ways My Wife And I Cut Our Grocery Bill By 75 Percent,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,10 Maneiras Como Minha Esposa e Eu Reduzimos Nossa Conta de Supermercado em 75 Por Cento,gemma3,prompt4,10 Formas Pelo Qual Minha Esposa e Eu Reduzimos Nossa Conta de Supermercado em 75 Por Cento.,0.88,0.67,0.5,0.83
+1764,‘This is not our America’: Hispanic CEO quits Trump’s diversity council,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,Esta não é a nossa América.,gemma3,prompt4,Esta não é a nossa América.,1.0,0.77,0.58,0.97
+1764,‘This is not our America’: Hispanic CEO quits Trump’s diversity council,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"""Esta não é a nossa América"": CEO hispânico renuncia ao conselho de diversidade de Trump.",gemma3,prompt2,"""Esta não é a nossa América"": CEO hispânico renuncia ao conselho de diversidade de Trump.",1.0,0.77,0.58,0.97
+1783,The Situation' is facing 15-years in prison for tax charges,gpt/prompt2 X gemini/prompt2,gpt,prompt2,'The Situation' enfrenta 15 anos de prisão por acusações fiscais.,gemini,prompt2,"""The Situation"" enfrenta 15 anos de prisão por acusações fiscais.",0.99,0.78,0.59,0.98
+1792,Has NASA Lost Its Way? | 1993 Washington Post Article by Peter Carlson,gpt/prompt2 X gemini/prompt2,gpt,prompt2,A NASA perdeu seu rumo? | Artigo do Washington Post de 1993 por Peter Carlson,gemini,prompt2,A NASA Perdeu o Rumo? | Artigo de 1993 do Washington Post por Peter Carlson,0.93,0.7,0.53,0.88
+1792,Has NASA Lost Its Way? | 1993 Washington Post Article by Peter Carlson,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,A NASA perdeu seu rumo? | Artigo do Washington Post de 1993 por Peter Carlson,gemma3,prompt2,A NASA Perdeu o Rumo? | Artigo de 1993 do Washington Post por Peter Carlson,0.93,0.7,0.53,0.88
+1792,Has NASA Lost Its Way? | 1993 Washington Post Article by Peter Carlson,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,A NASA perdeu seu rumo? | Artigo do Washington Post de 1993 por Peter Carlson,gemmaX,sem_prompt,A NASA perdeu o rumo? | Artigo de 1993 da Washington Post por Peter Carlson,0.97,0.7,0.53,0.88
+1792,Has NASA Lost Its Way? | 1993 Washington Post Article by Peter Carlson,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,A NASA Perdeu o Rumo? | Artigo de 1993 do Washington Post por Peter Carlson,gemma3,prompt2,A NASA Perdeu o Rumo? | Artigo de 1993 do Washington Post por Peter Carlson,1.0,0.7,0.53,0.88
+1792,Has NASA Lost Its Way? | 1993 Washington Post Article by Peter Carlson,gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,A NASA Perdeu o Rumo? | Artigo de 1993 do Washington Post por Peter Carlson,gemmaX,sem_prompt,A NASA perdeu o rumo? | Artigo de 1993 da Washington Post por Peter Carlson,0.96,0.7,0.53,0.88
+1792,Has NASA Lost Its Way? | 1993 Washington Post Article by Peter Carlson,gemma3/prompt2 X gemmaX/sem_prompt,gemma3,prompt2,A NASA Perdeu o Rumo? | Artigo de 1993 do Washington Post por Peter Carlson,gemmaX,sem_prompt,A NASA perdeu o rumo? | Artigo de 1993 da Washington Post por Peter Carlson,0.96,0.7,0.53,0.88
+1814,Randy Newman: And You Thought ‘Short People’ Was Controversial?,gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"E Você Achou que ""Gente Baixa"" Era Controversa?
+",gemma3,prompt4,"E você achava que “Pessoas Baixas” era polêmico?
+
+Bem, aqui vai, uma canção sobre um cara que vive na Califórnia,
+Ele é um homem de negócios, ele se veste de forma estranha.
+Ele tem um Cadillac e um poodle,
+E ele está começando a se sentir mal.
+
+Ele diz: ""Eu não gosto de andar de trem,
+Eu não gosto de comer comida francesa,
+Eu não gosto de pessoas que dizem que estão ‘em contato’ com a natureza.
+Eu não gosto de crianças que me chamam de ‘você’.""
+
+E você achava que “Pessoas Baixas” era polêmico?
+Espera só até as pessoas ouvirem esta.
+
+Eu sei que parece que estou reclamando,
+Mas eu não estou, eu estou apenas observando.
+Eu não estou tentando ser engraçado,
+Eu só estou dizendo o que eu vejo.
+
+E a",0.58,0.82,0.61,1.02
+1843,Will Trump Invade Iran? An Interview with Middle East Expert Lawrence Davidson,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,Trump irá invadir o Irã? Uma entrevista com o especialista em Oriente Médio Lawrence Davidson.,gemma3,prompt4,"Will Trump Invade Iran? An Interview with Middle East Expert Lawrence Davidson
+
+**Trump Invadirá o Irã? Uma Conversa com o Especialista em Oriente Médio Lawrence Davidson**
+
+O fantasma da invasão paira sobre o Oriente Médio. Será que o presidente Trump, em busca de um palco para sua bravata, decidirá finalmente chutar o balde e lançar os Estados Unidos em mais um conflito sangrento? Para tentar desvendar essa sombra, conversamos com Lawrence Davidson, um estudioso que acompanha de perto os meandros da política iraniana e as engrenagens da diplomacia americana.
+
+Davidson nos adverte contra a tentação de interpretar as declarações de Trump como um roteiro gravado em pedra. Ele enfatiza que o presidente é um mestre em jogar com o fogo, atirando lenha na fogueira para testar a reação do mundo e, ao mesmo tempo, manipular a opinião pública. É",0.68,0.92,0.69,1.15
+1843,Will Trump Invade Iran? An Interview with Middle East Expert Lawrence Davidson,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,Trump vai invadir o Irã? Uma entrevista com o especialista em Oriente Médio Lawrence Davidson.,gemma3,prompt4,"Will Trump Invade Iran? An Interview with Middle East Expert Lawrence Davidson
+
+**Trump Invadirá o Irã? Uma Conversa com o Especialista em Oriente Médio Lawrence Davidson**
+
+O fantasma da invasão paira sobre o Oriente Médio. Será que o presidente Trump, em busca de um palco para sua bravata, decidirá finalmente chutar o balde e lançar os Estados Unidos em mais um conflito sangrento? Para tentar desvendar essa sombra, conversamos com Lawrence Davidson, um estudioso que acompanha de perto os meandros da política iraniana e as engrenagens da diplomacia americana.
+
+Davidson nos adverte contra a tentação de interpretar as declarações de Trump como um roteiro gravado em pedra. Ele enfatiza que o presidente é um mestre em jogar com o fogo, atirando lenha na fogueira para testar a reação do mundo e, ao mesmo tempo, manipular a opinião pública. É",0.68,0.92,0.69,1.15
+1843,Will Trump Invade Iran? An Interview with Middle East Expert Lawrence Davidson,gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"Trump vai botar fogo no Irã? Uma entrevista com o especialista em Oriente Médio Lawrence Davidson.
+",gemma3,prompt4,"Will Trump Invade Iran? An Interview with Middle East Expert Lawrence Davidson
+
+**Trump Invadirá o Irã? Uma Conversa com o Especialista em Oriente Médio Lawrence Davidson**
+
+O fantasma da invasão paira sobre o Oriente Médio. Será que o presidente Trump, em busca de um palco para sua bravata, decidirá finalmente chutar o balde e lançar os Estados Unidos em mais um conflito sangrento? Para tentar desvendar essa sombra, conversamos com Lawrence Davidson, um estudioso que acompanha de perto os meandros da política iraniana e as engrenagens da diplomacia americana.
+
+Davidson nos adverte contra a tentação de interpretar as declarações de Trump como um roteiro gravado em pedra. Ele enfatiza que o presidente é um mestre em jogar com o fogo, atirando lenha na fogueira para testar a reação do mundo e, ao mesmo tempo, manipular a opinião pública. É",0.67,0.92,0.69,1.15
+1896,BREAKING NEWS About The CLINTON FOUNDATION… We KNEW IT!!,gpt/prompt2 X gemini/prompt4,gpt,prompt2,NOTÍCIAS DE ÚLTIMA HORA Sobre A FUNDAÇÃO CLINTON… NÓS SABÍAMOS DISSO!!,gemini,prompt4,"Última hora! A casa caiu para a Fundação Clinton! Já sabíamos!
+",0.59,0.79,0.59,0.99
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gpt/prompt2 X gpt/prompt4,gpt,prompt2,INCRÍVEL! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016.,gpt,prompt4,SURPREENDENTE! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016,0.96,0.68,0.51,0.85
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gpt/prompt2 X gemini/prompt2,gpt,prompt2,INCRÍVEL! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016.,gemini,prompt2,ESTUPEFACIENTE! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMEAÇÃO DE TRUMP EM 2016,0.95,0.68,0.51,0.85
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,INCRÍVEL! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016.,gemma3,prompt2,DEIXA A CABEÇA EXPLODIR! A LISTA DE 12 MESES DE ATACADOS CONTRA CONSERVADORES DESDE A INDICAÇÃO DE TRUMP EM 2016,0.89,0.68,0.51,0.85
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,INCRÍVEL! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016.,gemmaX,sem_prompt,ASSOMBRO! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016,0.96,0.68,0.51,0.85
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gpt/prompt4 X gemini/prompt2,gpt,prompt4,SURPREENDENTE! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016,gemini,prompt2,ESTUPEFACIENTE! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMEAÇÃO DE TRUMP EM 2016,0.96,0.68,0.51,0.85
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gpt/prompt4 X gemma3/prompt2,gpt,prompt4,SURPREENDENTE! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016,gemma3,prompt2,DEIXA A CABEÇA EXPLODIR! A LISTA DE 12 MESES DE ATACADOS CONTRA CONSERVADORES DESDE A INDICAÇÃO DE TRUMP EM 2016,0.9,0.68,0.51,0.85
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gpt/prompt4 X gemmaX/sem_prompt,gpt,prompt4,SURPREENDENTE! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016,gemmaX,sem_prompt,ASSOMBRO! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016,0.97,0.68,0.51,0.85
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,ESTUPEFACIENTE! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMEAÇÃO DE TRUMP EM 2016,gemma3,prompt2,DEIXA A CABEÇA EXPLODIR! A LISTA DE 12 MESES DE ATACADOS CONTRA CONSERVADORES DESDE A INDICAÇÃO DE TRUMP EM 2016,0.9,0.68,0.51,0.85
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,ESTUPEFACIENTE! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMEAÇÃO DE TRUMP EM 2016,gemmaX,sem_prompt,ASSOMBRO! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016,0.96,0.68,0.51,0.85
+1937,MINDBLOWING! THE 12-MONTH LIST OF ATTACKS AGAINST CONSERVATIVES SINCE TRUMP NOMINATION IN 2016,gemma3/prompt2 X gemmaX/sem_prompt,gemma3,prompt2,DEIXA A CABEÇA EXPLODIR! A LISTA DE 12 MESES DE ATACADOS CONTRA CONSERVADORES DESDE A INDICAÇÃO DE TRUMP EM 2016,gemmaX,sem_prompt,ASSOMBRO! A LISTA DE 12 MESES DE ATAQUES CONTRA CONSERVADORES DESDE A NOMINAÇÃO DE TRUMP EM 2016,0.91,0.68,0.51,0.85
+1974,Former FBI Head Comey Calling His Book 'A Higher Loyalty',gpt/prompt2 X gemini/prompt2,gpt,prompt2,Ex-chefe do FBI Comey chama seu livro de 'Uma Lealdade Maior',gemini,prompt2,"O ex-chefe do FBI, Comey, chamando seu livro de 'Uma Lealdade Superior'",0.92,0.72,0.54,0.9
+1974,Former FBI Head Comey Calling His Book 'A Higher Loyalty',gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,Ex-chefe do FBI Comey chama seu livro de 'Uma Lealdade Maior',gemmaX,sem_prompt,"Ex-diretor do FBI Comey chama seu livro de ""Uma Lealdade Mais Elevada""",0.95,0.72,0.54,0.9
+1974,Former FBI Head Comey Calling His Book 'A Higher Loyalty',gpt/prompt4 X gemini/prompt2,gpt,prompt4,O ex-diretor do FBI Comey chamando seu livro de 'Uma Lealdade Superior'.,gemini,prompt2,"O ex-chefe do FBI, Comey, chamando seu livro de 'Uma Lealdade Superior'",0.92,0.72,0.54,0.9
+1974,Former FBI Head Comey Calling His Book 'A Higher Loyalty',gpt/prompt4 X gemma3/prompt2,gpt,prompt4,O ex-diretor do FBI Comey chamando seu livro de 'Uma Lealdade Superior'.,gemma3,prompt2,O ex-diretor do FBI Comey chama seu livro de 'Lealdade Superior'.,0.95,0.72,0.54,0.9
+1975,LeBron James compliments Lonzo Ball after breaking his record,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,LeBron James elogia Lonzo Ball após quebrar seu recorde.,gemma3,prompt4,"""Ver o garoto finalmente florescer foi algo especial. Ele está realmente começando a encontrar o seu ritmo, e eu fico feliz por ele. Quebrar o meu recorde? É só o começo do que ele pode fazer. O futuro é dele.""
+
+**Tradução:**
+
+""Ver a flor desabrochar finalmente foi um espetáculo. Ele está, enfim, encontrando o seu compasso, e fico contente por isso. Derrubar o meu marco? É apenas a primeira nota de uma sinfonia que ele pode reger. O futuro lhe pertence.""",0.61,0.86,0.65,1.08
+1975,LeBron James compliments Lonzo Ball after breaking his record,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,LeBron James elogia Lonzo Ball após quebrar seu recorde.,gemma3,prompt4,"""Ver o garoto finalmente florescer foi algo especial. Ele está realmente começando a encontrar o seu ritmo, e eu fico feliz por ele. Quebrar o meu recorde? É só o começo do que ele pode fazer. O futuro é dele.""
+
+**Tradução:**
+
+""Ver a flor desabrochar finalmente foi um espetáculo. Ele está, enfim, encontrando o seu compasso, e fico contente por isso. Derrubar o meu marco? É apenas a primeira nota de uma sinfonia que ele pode reger. O futuro lhe pertence.""",0.61,0.86,0.65,1.08
+1975,LeBron James compliments Lonzo Ball after breaking his record,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,LeBron James elogia Lonzo Ball após quebrar seu recorde.,gemma3,prompt4,"""Ver o garoto finalmente florescer foi algo especial. Ele está realmente começando a encontrar o seu ritmo, e eu fico feliz por ele. Quebrar o meu recorde? É só o começo do que ele pode fazer. O futuro é dele.""
+
+**Tradução:**
+
+""Ver a flor desabrochar finalmente foi um espetáculo. Ele está, enfim, encontrando o seu compasso, e fico contente por isso. Derrubar o meu marco? É apenas a primeira nota de uma sinfonia que ele pode reger. O futuro lhe pertence.""",0.61,0.86,0.65,1.08
+1975,LeBron James compliments Lonzo Ball after breaking his record,gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"LeBron James, após superar seu recorde, tece elogios a Lonzo Ball.
+",gemma3,prompt4,"""Ver o garoto finalmente florescer foi algo especial. Ele está realmente começando a encontrar o seu ritmo, e eu fico feliz por ele. Quebrar o meu recorde? É só o começo do que ele pode fazer. O futuro é dele.""
+
+**Tradução:**
+
+""Ver a flor desabrochar finalmente foi um espetáculo. Ele está, enfim, encontrando o seu compasso, e fico contente por isso. Derrubar o meu marco? É apenas a primeira nota de uma sinfonia que ele pode reger. O futuro lhe pertence.""",0.62,0.86,0.65,1.08
+1975,LeBron James compliments Lonzo Ball after breaking his record,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,LeBron James elogia Lonzo Ball após quebrar seu recorde.,gemma3,prompt4,"""Ver o garoto finalmente florescer foi algo especial. Ele está realmente começando a encontrar o seu ritmo, e eu fico feliz por ele. Quebrar o meu recorde? É só o começo do que ele pode fazer. O futuro é dele.""
+
+**Tradução:**
+
+""Ver a flor desabrochar finalmente foi um espetáculo. Ele está, enfim, encontrando o seu compasso, e fico contente por isso. Derrubar o meu marco? É apenas a primeira nota de uma sinfonia que ele pode reger. O futuro lhe pertence.""",0.61,0.86,0.65,1.08
+1975,LeBron James compliments Lonzo Ball after breaking his record,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"""Ver o garoto finalmente florescer foi algo especial. Ele está realmente começando a encontrar o seu ritmo, e eu fico feliz por ele. Quebrar o meu recorde? É só o começo do que ele pode fazer. O futuro é dele.""
+
+**Tradução:**
+
+""Ver a flor desabrochar finalmente foi um espetáculo. Ele está, enfim, encontrando o seu compasso, e fico contente por isso. Derrubar o meu marco? É apenas a primeira nota de uma sinfonia que ele pode reger. O futuro lhe pertence.""",gemmaX,sem_prompt,LeBron James elogia Lonzo Ball após este bater o seu recorde,0.61,0.86,0.65,1.08
+2035,‘What???’ This update to the Vegas shooting case raises EVEN MORE questions,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,"""O que??? Esta atualização sobre o caso do tiroteio em Vegas levanta AINDA MAIS perguntas.""",gemma3,prompt4,"Nossa, lá vem mais?!",0.61,0.83,0.62,1.04
+2035,‘What???’ This update to the Vegas shooting case raises EVEN MORE questions,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,O que??? Essa atualização no caso do tiroteio em Vegas levanta AINDA MAIS perguntas.,gemma3,prompt4,"Nossa, lá vem mais?!",0.61,0.83,0.62,1.04
+2035,‘What???’ This update to the Vegas shooting case raises EVEN MORE questions,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,"""Quê??? Esta atualização sobre o caso do tiroteio em Las Vegas levanta AINDA MAIS questões.""",gemma3,prompt4,"Nossa, lá vem mais?!",0.59,0.83,0.62,1.04
+2035,‘What???’ This update to the Vegas shooting case raises EVEN MORE questions,gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"E agora? Essa atualização do caso do tiroteio em Vegas JOGA MAIS LENHA NA FOGUEIRA.
+",gemma3,prompt4,"Nossa, lá vem mais?!",0.6,0.83,0.62,1.04
+2035,‘What???’ This update to the Vegas shooting case raises EVEN MORE questions,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"""O quê??? Esta atualização sobre o caso do tiroteio em Las Vegas levanta AINDA MAIS questões.""",gemma3,prompt4,"Nossa, lá vem mais?!",0.61,0.83,0.62,1.04
+2035,‘What???’ This update to the Vegas shooting case raises EVEN MORE questions,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"Nossa, lá vem mais?!",gemmaX,sem_prompt,‘O quê???’ Esta atualização do caso do tiroteio em Las Vegas levanta MAIS PERGUNTAS,0.62,0.83,0.62,1.04
+2051,WYFP? I Wish I Had Something New to Tell You,gpt/prompt4 X gemma3/prompt2,gpt,prompt4,Eu gostaria de ter algo novo para te contar.,gemma3,prompt2,"""WYFP? I Wish I Had Something New to Tell You"" traduzido para o português é:
+
+""WYFP? Queria ter algo novo para te contar.""",0.62,0.83,0.63,1.04
+2051,WYFP? I Wish I Had Something New to Tell You,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"""WYFP? I Wish I Had Something New to Tell You"" traduzido para o português é:
+
+""WYFP? Queria ter algo novo para te contar.""",gemma3,prompt4,"Eu gostaria de ter uma novidade para te dar.
+",0.6,0.83,0.63,1.04
+2094,I.R.S. Says It Will Reject Tax Returns That Lack Health Insurance Disclosure,gpt/prompt2 X gpt/prompt4,gpt,prompt2,A Receita Federal diz que rejeitará declarações de impostos que não incluírem a divulgação do seguro de saúde.,gpt,prompt4,A Receita Federal afirma que rejeitará declarações de imposto que não incluam a revelação de seguro de saúde.,0.96,0.73,0.55,0.91
+2131,"VIDEO Protests ERUPT: DEMAND MAYOR BETSY HODGES’ RESIGNATION, shut down press conference",gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"Vídeo: Protestos entram em ebulição; exigem a renúncia da prefeita Betsy Hodges, e a coletiva de imprensa vai pelos ares.
+",gemma3,prompt2,"PROTESTOS EXPLODEM: EXIGEM A DEMISSÃO DA PREFEITA BETSY HODGES, INTERROMPEM CONFERÊNCIA DE IMPRENSA",0.53,0.77,0.58,0.96
+2191,"THE REAL RINO's AREN'T CONSERVATIVES AT ALL, NEITHER ARE THEIR VOTERS, THEY JUST USE THE BRAND.",gpt/prompt2 X gpt/prompt4,gpt,prompt2,"OS VERDADEIROS RINO NÃO SÃO CONSERVADORES NEM DE LONGE, NEM SEUS ELEITORES, ELES APENAS USAM A MARCA.",gpt,prompt4,"OS VERDADEIROS RINOs NÃO SÃO CONSERVADORES DE JEITO NENHUM, NEM SEUS ELEITORES, APENAS USAM A MARCA.",0.95,0.57,0.42,0.71
+2191,"THE REAL RINO's AREN'T CONSERVATIVES AT ALL, NEITHER ARE THEIR VOTERS, THEY JUST USE THE BRAND.",gpt/prompt2 X gemini/prompt2,gpt,prompt2,"OS VERDADEIROS RINO NÃO SÃO CONSERVADORES NEM DE LONGE, NEM SEUS ELEITORES, ELES APENAS USAM A MARCA.",gemini,prompt2,"OS VERDADEIROS FALSOS CONSERVADORES NÃO SÃO CONSERVADORES, NEM SEUS ELEITORES, ELES SÓ USAM A MARCA.",0.92,0.57,0.42,0.71
+2191,"THE REAL RINO's AREN'T CONSERVATIVES AT ALL, NEITHER ARE THEIR VOTERS, THEY JUST USE THE BRAND.",gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,"OS VERDADEIROS RINO NÃO SÃO CONSERVADORES NEM DE LONGE, NEM SEUS ELEITORES, ELES APENAS USAM A MARCA.",gemmaX,sem_prompt,"OS VERDADEIROS RINO NÃO SÃO CONSERVADORES EM NENHUMA FORMA, NEM SEUS ELEITORES, ELES APENAS USAM A MARCA.",0.96,0.57,0.42,0.71
+2191,"THE REAL RINO's AREN'T CONSERVATIVES AT ALL, NEITHER ARE THEIR VOTERS, THEY JUST USE THE BRAND.",gpt/prompt4 X gemini/prompt2,gpt,prompt4,"OS VERDADEIROS RINOs NÃO SÃO CONSERVADORES DE JEITO NENHUM, NEM SEUS ELEITORES, APENAS USAM A MARCA.",gemini,prompt2,"OS VERDADEIROS FALSOS CONSERVADORES NÃO SÃO CONSERVADORES, NEM SEUS ELEITORES, ELES SÓ USAM A MARCA.",0.92,0.57,0.42,0.71
+2191,"THE REAL RINO's AREN'T CONSERVATIVES AT ALL, NEITHER ARE THEIR VOTERS, THEY JUST USE THE BRAND.",gpt/prompt4 X gemmaX/sem_prompt,gpt,prompt4,"OS VERDADEIROS RINOs NÃO SÃO CONSERVADORES DE JEITO NENHUM, NEM SEUS ELEITORES, APENAS USAM A MARCA.",gemmaX,sem_prompt,"OS VERDADEIROS RINO NÃO SÃO CONSERVADORES EM NENHUMA FORMA, NEM SEUS ELEITORES, ELES APENAS USAM A MARCA.",0.96,0.57,0.42,0.71
+2191,"THE REAL RINO's AREN'T CONSERVATIVES AT ALL, NEITHER ARE THEIR VOTERS, THEY JUST USE THE BRAND.",gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,"OS VERDADEIROS FALSOS CONSERVADORES NÃO SÃO CONSERVADORES, NEM SEUS ELEITORES, ELES SÓ USAM A MARCA.",gemmaX,sem_prompt,"OS VERDADEIROS RINO NÃO SÃO CONSERVADORES EM NENHUMA FORMA, NEM SEUS ELEITORES, ELES APENAS USAM A MARCA.",0.92,0.57,0.42,0.71
+2191,"THE REAL RINO's AREN'T CONSERVATIVES AT ALL, NEITHER ARE THEIR VOTERS, THEY JUST USE THE BRAND.",gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"Os verdadeiros ""Rinos"" não são conservadores coisa nenhuma, nem seus eleitores, eles só usam a marca.
+",gemma3,prompt2,"Os verdadeiros rinocentes não são conservadores de jeito nenhum, nem seus eleitores, eles apenas usam a marca.",0.92,0.57,0.42,0.71
+2191,"THE REAL RINO's AREN'T CONSERVATIVES AT ALL, NEITHER ARE THEIR VOTERS, THEY JUST USE THE BRAND.",gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"Os verdadeiros ""Rinos"" não são conservadores coisa nenhuma, nem seus eleitores, eles só usam a marca.
+",gemma3,prompt4,"Os verdadeiros rinocerontes não são conservadores de jeito nenhum, nem tampouco seus eleitores; eles apenas se apropriam da marca.",0.84,0.57,0.42,0.71
+2191,"THE REAL RINO's AREN'T CONSERVATIVES AT ALL, NEITHER ARE THEIR VOTERS, THEY JUST USE THE BRAND.",gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"Os verdadeiros rinocentes não são conservadores de jeito nenhum, nem seus eleitores, eles apenas usam a marca.",gemma3,prompt4,"Os verdadeiros rinocerontes não são conservadores de jeito nenhum, nem tampouco seus eleitores; eles apenas se apropriam da marca.",0.9,0.57,0.42,0.71
+2205,"Minneapolis Muslim killer-cop’s NEIGHBOR says Mohamed Noor was “STRICT, ILL-TEMPERED,” “HE HAS LITTLE RESPECT FOR WOMEN AND BLACKS”",gpt/prompt4 X gemini/prompt4,gpt,prompt4,"O VIZINHO DO POLICIAL MUÇULMANO DE MINNEAPOLIS DIZ QUE MOHAMED NOOR ERA ""RIGOROSO, MAL-HUMORADO"", ""ELE TEM POUCO RESPEITO PELAS MULHERES E PELOS NEGROS"".",gemini,prompt4,"A vizinha do policial muçulmano de Minneapolis que matou diz que Mohamed Noor era um ""furacão temperamental"", ""não dava a mínima para mulheres e negros"".
+",0.55,0.77,0.58,0.96
+2205,"Minneapolis Muslim killer-cop’s NEIGHBOR says Mohamed Noor was “STRICT, ILL-TEMPERED,” “HE HAS LITTLE RESPECT FOR WOMEN AND BLACKS”",gpt/prompt4 X gemma3/prompt4,gpt,prompt4,"O VIZINHO DO POLICIAL MUÇULMANO DE MINNEAPOLIS DIZ QUE MOHAMED NOOR ERA ""RIGOROSO, MAL-HUMORADO"", ""ELE TEM POUCO RESPEITO PELAS MULHERES E PELOS NEGROS"".",gemma3,prompt4,"Vizinho do policial muçulmano assassino de Minneapolis diz que Mohamed Noor era ""rígido, de mau humor"", ""tem pouco respeito por mulheres e negros"".",0.56,0.77,0.58,0.96
+2248,HBO posts Jorah's love letter to Daenerys in full,gpt/prompt2 X gemini/prompt2,gpt,prompt2,A HBO publica a carta de amor de Jorah para Daenerys na íntegra.,gemini,prompt2,HBO publica a carta de amor de Jorah para Daenerys na íntegra.,0.99,0.61,0.46,0.77
+2248,HBO posts Jorah's love letter to Daenerys in full,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,A HBO publica a carta de amor de Jorah para Daenerys na íntegra.,gemma3,prompt2,HBO publica a carta de amor de Jorah a Daenerys por completo.,0.92,0.61,0.46,0.77
+2248,HBO posts Jorah's love letter to Daenerys in full,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,A HBO publica a carta de amor de Jorah para Daenerys na íntegra.,gemmaX,sem_prompt,HBO publica a carta de amor de Jorah a Daenerys na íntegra,0.92,0.61,0.46,0.77
+2248,HBO posts Jorah's love letter to Daenerys in full,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,HBO publica a carta de amor de Jorah para Daenerys na íntegra.,gemma3,prompt2,HBO publica a carta de amor de Jorah a Daenerys por completo.,0.93,0.61,0.46,0.77
+2248,HBO posts Jorah's love letter to Daenerys in full,gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,HBO publica a carta de amor de Jorah para Daenerys na íntegra.,gemmaX,sem_prompt,HBO publica a carta de amor de Jorah a Daenerys na íntegra,0.93,0.61,0.46,0.77
+2248,HBO posts Jorah's love letter to Daenerys in full,gemma3/prompt2 X gemmaX/sem_prompt,gemma3,prompt2,HBO publica a carta de amor de Jorah a Daenerys por completo.,gemmaX,sem_prompt,HBO publica a carta de amor de Jorah a Daenerys na íntegra,0.89,0.61,0.46,0.77
+2281,"Cigarette smoking has negative physical, emotional, and financial effects.",gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"Fumar cigarros tem efeitos negativos físicos, emocionais e financeiros.",gemma3,prompt2,"Fumar cigarros tem efeitos negativos físicos, emocionais e financeiros.",1.0,0.79,0.59,0.99
+2285,New York Times interview: Trump insists there was no collusion with Russia ... sixteen times,gpt/prompt2 X gemini/prompt4,gpt,prompt2,Entrevista ao New York Times: Trump insiste que não houve colusão com a Rússia ... dezesseis vezes.,gemini,prompt4,"Aqui estão as dezesseis traduções metafóricas da frase ""Trump insists there was no collusion with Russia"" (em uma entrevista ao New York Times), mantendo o tom original:
+
+1.  Trump jura de pés juntos que não houve conluio com a Rússia.
+2.  Trump bate o pé, negando qualquer mão na roda com a Rússia.
+3.  Trump crava as unhas no chão: não houve combinação com a Rússia.
+4.  Trump joga na lata do lixo a ideia de conluio com a Rússia.
+5.  Trump põe uma pedra em cima da história de conluio com a Rússia.
+6.  Trump enterra de vez a história de conluio com a Rússia.
+7.  Trump passa uma borracha na acusação de conluio com a Rússia.
+8.  Trump cospe no prato, negando qualquer ligação com a Rússia.
+9.  Trump faz vista grossa para a hipótese de conluio com a Rússia.
+10. Trump enterra a cabeça na areia: nega qualquer conluio com a Rússia.
+11. Trump lava as mãos da acusação de conluio com a Rússia.
+12. Trump risca do mapa a ideia de combinação com a Rússia.
+13. Trump fecha a porta na cara da suspeita de conluio com a Rússia.
+14. Trump dá um chega pra lá na história de conluio com a Rússia.
+15. Trump finca a bandeira: não houve aliança com a Rússia.
+16. Trump faz pouco caso da ideia de conluio com a Rússia.
+",0.65,0.89,0.67,1.11
+2285,New York Times interview: Trump insists there was no collusion with Russia ... sixteen times,gpt/prompt4 X gemini/prompt4,gpt,prompt4,Entrevista do New York Times: Trump insiste que não houve conluio com a Rússia... dezesseis vezes.,gemini,prompt4,"Aqui estão as dezesseis traduções metafóricas da frase ""Trump insists there was no collusion with Russia"" (em uma entrevista ao New York Times), mantendo o tom original:
+
+1.  Trump jura de pés juntos que não houve conluio com a Rússia.
+2.  Trump bate o pé, negando qualquer mão na roda com a Rússia.
+3.  Trump crava as unhas no chão: não houve combinação com a Rússia.
+4.  Trump joga na lata do lixo a ideia de conluio com a Rússia.
+5.  Trump põe uma pedra em cima da história de conluio com a Rússia.
+6.  Trump enterra de vez a história de conluio com a Rússia.
+7.  Trump passa uma borracha na acusação de conluio com a Rússia.
+8.  Trump cospe no prato, negando qualquer ligação com a Rússia.
+9.  Trump faz vista grossa para a hipótese de conluio com a Rússia.
+10. Trump enterra a cabeça na areia: nega qualquer conluio com a Rússia.
+11. Trump lava as mãos da acusação de conluio com a Rússia.
+12. Trump risca do mapa a ideia de combinação com a Rússia.
+13. Trump fecha a porta na cara da suspeita de conluio com a Rússia.
+14. Trump dá um chega pra lá na história de conluio com a Rússia.
+15. Trump finca a bandeira: não houve aliança com a Rússia.
+16. Trump faz pouco caso da ideia de conluio com a Rússia.
+",0.66,0.89,0.67,1.11
+2285,New York Times interview: Trump insists there was no collusion with Russia ... sixteen times,gemini/prompt2 X gemini/prompt4,gemini,prompt2,Entrevista ao New York Times: Trump insiste que não houve conluio com a Rússia... dezesseis vezes.,gemini,prompt4,"Aqui estão as dezesseis traduções metafóricas da frase ""Trump insists there was no collusion with Russia"" (em uma entrevista ao New York Times), mantendo o tom original:
+
+1.  Trump jura de pés juntos que não houve conluio com a Rússia.
+2.  Trump bate o pé, negando qualquer mão na roda com a Rússia.
+3.  Trump crava as unhas no chão: não houve combinação com a Rússia.
+4.  Trump joga na lata do lixo a ideia de conluio com a Rússia.
+5.  Trump põe uma pedra em cima da história de conluio com a Rússia.
+6.  Trump enterra de vez a história de conluio com a Rússia.
+7.  Trump passa uma borracha na acusação de conluio com a Rússia.
+8.  Trump cospe no prato, negando qualquer ligação com a Rússia.
+9.  Trump faz vista grossa para a hipótese de conluio com a Rússia.
+10. Trump enterra a cabeça na areia: nega qualquer conluio com a Rússia.
+11. Trump lava as mãos da acusação de conluio com a Rússia.
+12. Trump risca do mapa a ideia de combinação com a Rússia.
+13. Trump fecha a porta na cara da suspeita de conluio com a Rússia.
+14. Trump dá um chega pra lá na história de conluio com a Rússia.
+15. Trump finca a bandeira: não houve aliança com a Rússia.
+16. Trump faz pouco caso da ideia de conluio com a Rússia.
+",0.66,0.89,0.67,1.11
+2285,New York Times interview: Trump insists there was no collusion with Russia ... sixteen times,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"Aqui estão as dezesseis traduções metafóricas da frase ""Trump insists there was no collusion with Russia"" (em uma entrevista ao New York Times), mantendo o tom original:
+
+1.  Trump jura de pés juntos que não houve conluio com a Rússia.
+2.  Trump bate o pé, negando qualquer mão na roda com a Rússia.
+3.  Trump crava as unhas no chão: não houve combinação com a Rússia.
+4.  Trump joga na lata do lixo a ideia de conluio com a Rússia.
+5.  Trump põe uma pedra em cima da história de conluio com a Rússia.
+6.  Trump enterra de vez a história de conluio com a Rússia.
+7.  Trump passa uma borracha na acusação de conluio com a Rússia.
+8.  Trump cospe no prato, negando qualquer ligação com a Rússia.
+9.  Trump faz vista grossa para a hipótese de conluio com a Rússia.
+10. Trump enterra a cabeça na areia: nega qualquer conluio com a Rússia.
+11. Trump lava as mãos da acusação de conluio com a Rússia.
+12. Trump risca do mapa a ideia de combinação com a Rússia.
+13. Trump fecha a porta na cara da suspeita de conluio com a Rússia.
+14. Trump dá um chega pra lá na história de conluio com a Rússia.
+15. Trump finca a bandeira: não houve aliança com a Rússia.
+16. Trump faz pouco caso da ideia de conluio com a Rússia.
+",gemma3,prompt2,Entrevista do New York Times: Trump insiste que não houve conluio com a Rússia... dezesseis vezes.,0.66,0.89,0.67,1.11
+2285,New York Times interview: Trump insists there was no collusion with Russia ... sixteen times,gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"Aqui estão as dezesseis traduções metafóricas da frase ""Trump insists there was no collusion with Russia"" (em uma entrevista ao New York Times), mantendo o tom original:
+
+1.  Trump jura de pés juntos que não houve conluio com a Rússia.
+2.  Trump bate o pé, negando qualquer mão na roda com a Rússia.
+3.  Trump crava as unhas no chão: não houve combinação com a Rússia.
+4.  Trump joga na lata do lixo a ideia de conluio com a Rússia.
+5.  Trump põe uma pedra em cima da história de conluio com a Rússia.
+6.  Trump enterra de vez a história de conluio com a Rússia.
+7.  Trump passa uma borracha na acusação de conluio com a Rússia.
+8.  Trump cospe no prato, negando qualquer ligação com a Rússia.
+9.  Trump faz vista grossa para a hipótese de conluio com a Rússia.
+10. Trump enterra a cabeça na areia: nega qualquer conluio com a Rússia.
+11. Trump lava as mãos da acusação de conluio com a Rússia.
+12. Trump risca do mapa a ideia de combinação com a Rússia.
+13. Trump fecha a porta na cara da suspeita de conluio com a Rússia.
+14. Trump dá um chega pra lá na história de conluio com a Rússia.
+15. Trump finca a bandeira: não houve aliança com a Rússia.
+16. Trump faz pouco caso da ideia de conluio com a Rússia.
+",gemma3,prompt4,"Nova York Times: Trump insiste que não houve conluio com a Rússia… dezesseis vezes.
+",0.64,0.89,0.67,1.11
+2285,New York Times interview: Trump insists there was no collusion with Russia ... sixteen times,gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,"Aqui estão as dezesseis traduções metafóricas da frase ""Trump insists there was no collusion with Russia"" (em uma entrevista ao New York Times), mantendo o tom original:
+
+1.  Trump jura de pés juntos que não houve conluio com a Rússia.
+2.  Trump bate o pé, negando qualquer mão na roda com a Rússia.
+3.  Trump crava as unhas no chão: não houve combinação com a Rússia.
+4.  Trump joga na lata do lixo a ideia de conluio com a Rússia.
+5.  Trump põe uma pedra em cima da história de conluio com a Rússia.
+6.  Trump enterra de vez a história de conluio com a Rússia.
+7.  Trump passa uma borracha na acusação de conluio com a Rússia.
+8.  Trump cospe no prato, negando qualquer ligação com a Rússia.
+9.  Trump faz vista grossa para a hipótese de conluio com a Rússia.
+10. Trump enterra a cabeça na areia: nega qualquer conluio com a Rússia.
+11. Trump lava as mãos da acusação de conluio com a Rússia.
+12. Trump risca do mapa a ideia de combinação com a Rússia.
+13. Trump fecha a porta na cara da suspeita de conluio com a Rússia.
+14. Trump dá um chega pra lá na história de conluio com a Rússia.
+15. Trump finca a bandeira: não houve aliança com a Rússia.
+16. Trump faz pouco caso da ideia de conluio com a Rússia.
+",gemmaX,sem_prompt,Entrevista ao New York Times: Trump insiste que não houve conluio com a Rússia... dezasseis vezes,0.66,0.89,0.67,1.11
+2299,7 Ways a Design Kit or Template Can Save Your Project,gpt/prompt2 X gpt/prompt4,gpt,prompt2,7 Maneiras de um Kit de Design ou Modelo Pode Salvar Seu Projeto,gpt,prompt4,7 Maneiras de um Kit de Design ou Template Pode Salvar o Seu Projeto,0.94,0.75,0.56,0.94
+2324,THE NEW IPHONE X WILL BE LEAVING ITS “MARK” IN THE TECHNOLOGY SPACE,gpt/prompt2 X gpt/prompt4,gpt,prompt2,"""O NOVO IPHONE X DEIXARÁ SUA 'MARCA' NO ESPAÇO TECNOLÓGICO.""",gpt,prompt4,"O NOVO IPHONE X DEIXARÁ SUA ""MARCA"" NO MUNDO DA TECNOLOGIA.",0.91,0.61,0.46,0.76
+2324,THE NEW IPHONE X WILL BE LEAVING ITS “MARK” IN THE TECHNOLOGY SPACE,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,"""O NOVO IPHONE X DEIXARÁ SUA 'MARCA' NO ESPAÇO TECNOLÓGICO.""",gemmaX,sem_prompt,O NOVO IPHONE X DEIXARÁ A SUA “MARCA” NO ESPAÇO DA TECNOLOGIA,0.86,0.61,0.46,0.76
+2324,THE NEW IPHONE X WILL BE LEAVING ITS “MARK” IN THE TECHNOLOGY SPACE,gpt/prompt4 X gemmaX/sem_prompt,gpt,prompt4,"O NOVO IPHONE X DEIXARÁ SUA ""MARCA"" NO MUNDO DA TECNOLOGIA.",gemmaX,sem_prompt,O NOVO IPHONE X DEIXARÁ A SUA “MARCA” NO ESPAÇO DA TECNOLOGIA,0.89,0.61,0.46,0.76
+2324,THE NEW IPHONE X WILL BE LEAVING ITS “MARK” IN THE TECHNOLOGY SPACE,gemini/prompt2 X gemini/prompt4,gemini,prompt2,"O novo iPhone X vai deixar sua ""marca"" no espaço tecnológico.",gemini,prompt4,"O novo iPhone X vai **deixar sua marca** no mundo da tecnologia.
+",0.86,0.61,0.46,0.76
+2324,THE NEW IPHONE X WILL BE LEAVING ITS “MARK” IN THE TECHNOLOGY SPACE,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"O novo iPhone X vai deixar sua ""marca"" no espaço tecnológico.",gemma3,prompt2,"O novo iPhone X deixará sua ""marca"" no mundo da tecnologia.
+",0.92,0.61,0.46,0.76
+2324,THE NEW IPHONE X WILL BE LEAVING ITS “MARK” IN THE TECHNOLOGY SPACE,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,"O novo iPhone X vai deixar sua ""marca"" no espaço tecnológico.",gemma3,prompt4,"O novo iPhone X deixará sua ""assinatura"" no mundo da tecnologia.",0.89,0.61,0.46,0.76
+2324,THE NEW IPHONE X WILL BE LEAVING ITS “MARK” IN THE TECHNOLOGY SPACE,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"O novo iPhone X vai **deixar sua marca** no mundo da tecnologia.
+",gemma3,prompt2,"O novo iPhone X deixará sua ""marca"" no mundo da tecnologia.
+",0.9,0.61,0.46,0.76
+2324,THE NEW IPHONE X WILL BE LEAVING ITS “MARK” IN THE TECHNOLOGY SPACE,gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"O novo iPhone X vai **deixar sua marca** no mundo da tecnologia.
+",gemma3,prompt4,"O novo iPhone X deixará sua ""assinatura"" no mundo da tecnologia.",0.88,0.61,0.46,0.76
+2324,THE NEW IPHONE X WILL BE LEAVING ITS “MARK” IN THE TECHNOLOGY SPACE,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"O novo iPhone X deixará sua ""marca"" no mundo da tecnologia.
+",gemma3,prompt4,"O novo iPhone X deixará sua ""assinatura"" no mundo da tecnologia.",0.96,0.61,0.46,0.76
+2379,"CONGRESS SUBPOENAS DOJ AND FBI OVER TRUMP RUSSIA DOSSIER, ITS AUTHOR AND FBI ROLE IN SPREADING IT",gpt/prompt2 X gpt/prompt4,gpt,prompt2,"O CONGRESSO EMITE INTIMAÇÕES AO DOJ E AO FBI SOBRE O DOSSINHO DA RÚSSIA DE TRUMP, SEU AUTOR E O PAPEL DO FBI NA SUA DIVULGAÇÃO.",gpt,prompt4,"CONGRESSO INTIMA O DOJ E O FBI SOBRE O DOSSIÊ RÚSSIA DE TRUMP, SEU AUTOR E O PAPEL DO FBI NA SUA DIVULGAÇÃO.",0.94,0.6,0.45,0.75
+2379,"CONGRESS SUBPOENAS DOJ AND FBI OVER TRUMP RUSSIA DOSSIER, ITS AUTHOR AND FBI ROLE IN SPREADING IT",gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,"O CONGRESSO EMITE INTIMAÇÕES AO DOJ E AO FBI SOBRE O DOSSINHO DA RÚSSIA DE TRUMP, SEU AUTOR E O PAPEL DO FBI NA SUA DIVULGAÇÃO.",gemmaX,sem_prompt,"CONGRESSO CITA O DOJ E O FBI PARA DIZER O QUE SAIBA SOBRE O DOSSIER TRUMP-RÚSSIA, O SEU AUTOR E O PAPEL DO FBI NA SUA DIFUSÃO",0.85,0.6,0.45,0.75
+2379,"CONGRESS SUBPOENAS DOJ AND FBI OVER TRUMP RUSSIA DOSSIER, ITS AUTHOR AND FBI ROLE IN SPREADING IT",gpt/prompt4 X gemmaX/sem_prompt,gpt,prompt4,"CONGRESSO INTIMA O DOJ E O FBI SOBRE O DOSSIÊ RÚSSIA DE TRUMP, SEU AUTOR E O PAPEL DO FBI NA SUA DIVULGAÇÃO.",gemmaX,sem_prompt,"CONGRESSO CITA O DOJ E O FBI PARA DIZER O QUE SAIBA SOBRE O DOSSIER TRUMP-RÚSSIA, O SEU AUTOR E O PAPEL DO FBI NA SUA DIFUSÃO",0.88,0.6,0.45,0.75
+2379,"CONGRESS SUBPOENAS DOJ AND FBI OVER TRUMP RUSSIA DOSSIER, ITS AUTHOR AND FBI ROLE IN SPREADING IT",gemini/prompt2 X gemini/prompt4,gemini,prompt2,"O Congresso intima o DOJ e o FBI sobre o dossiê Trump-Rússia, seu autor e o papel do FBI em sua disseminação.",gemini,prompt4,"O Congresso intima o Departamento de Justiça e o FBI sobre o dossiê Trump-Rússia, seu autor e o papel do FBI em sua disseminação.
+",0.98,0.6,0.45,0.75
+2379,"CONGRESS SUBPOENAS DOJ AND FBI OVER TRUMP RUSSIA DOSSIER, ITS AUTHOR AND FBI ROLE IN SPREADING IT",gemini/prompt2 X gemma3/prompt2,gemini,prompt2,"O Congresso intima o DOJ e o FBI sobre o dossiê Trump-Rússia, seu autor e o papel do FBI em sua disseminação.",gemma3,prompt2,"O Congresso intima o Departamento de Justiça e o FBI a respeito do dossiê sobre Trump e a Rússia, seu autor e o papel do FBI na sua divulgação.",0.92,0.6,0.45,0.75
+2379,"CONGRESS SUBPOENAS DOJ AND FBI OVER TRUMP RUSSIA DOSSIER, ITS AUTHOR AND FBI ROLE IN SPREADING IT",gemini/prompt2 X gemma3/prompt4,gemini,prompt2,"O Congresso intima o DOJ e o FBI sobre o dossiê Trump-Rússia, seu autor e o papel do FBI em sua disseminação.",gemma3,prompt4,"O Congresso aciona o Departamento de Justiça e o FBI sob pressão, investigando o dossiê russo sobre Trump, seu autor e o papel do FBI na sua disseminação.",0.9,0.6,0.45,0.75
+2379,"CONGRESS SUBPOENAS DOJ AND FBI OVER TRUMP RUSSIA DOSSIER, ITS AUTHOR AND FBI ROLE IN SPREADING IT",gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"O Congresso intima o Departamento de Justiça e o FBI sobre o dossiê Trump-Rússia, seu autor e o papel do FBI em sua disseminação.
+",gemma3,prompt2,"O Congresso intima o Departamento de Justiça e o FBI a respeito do dossiê sobre Trump e a Rússia, seu autor e o papel do FBI na sua divulgação.",0.94,0.6,0.45,0.75
+2379,"CONGRESS SUBPOENAS DOJ AND FBI OVER TRUMP RUSSIA DOSSIER, ITS AUTHOR AND FBI ROLE IN SPREADING IT",gemini/prompt4 X gemma3/prompt4,gemini,prompt4,"O Congresso intima o Departamento de Justiça e o FBI sobre o dossiê Trump-Rússia, seu autor e o papel do FBI em sua disseminação.
+",gemma3,prompt4,"O Congresso aciona o Departamento de Justiça e o FBI sob pressão, investigando o dossiê russo sobre Trump, seu autor e o papel do FBI na sua disseminação.",0.92,0.6,0.45,0.75
+2379,"CONGRESS SUBPOENAS DOJ AND FBI OVER TRUMP RUSSIA DOSSIER, ITS AUTHOR AND FBI ROLE IN SPREADING IT",gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"O Congresso intima o Departamento de Justiça e o FBI a respeito do dossiê sobre Trump e a Rússia, seu autor e o papel do FBI na sua divulgação.",gemma3,prompt4,"O Congresso aciona o Departamento de Justiça e o FBI sob pressão, investigando o dossiê russo sobre Trump, seu autor e o papel do FBI na sua disseminação.",0.91,0.6,0.45,0.75
+2444,"Told by City They Are Increasing Homelessness, Church Ordered to Stop Feeding Homeless",gpt/prompt2 X gemini/prompt2,gpt,prompt2,"Informado pela cidade de que estão aumentando os sem-teto, igreja ordenada a parar de alimentar os sem-teto.",gemini,prompt2,"Informada pela cidade que estão aumentando a população de sem-teto, igreja é ordenada a parar de alimentar os sem-teto.",0.94,0.75,0.56,0.93
+2474,How and Why You Should Try a Sugar Detox,gpt/prompt2 X gemini/prompt2,gpt,prompt2,Como e Por Que Você Deveria Tentar uma Desintoxicação de Açúcar,gemini,prompt2,Como e Por que Você Deveria Tentar uma Desintoxicação de Açúcar,0.99,0.79,0.59,0.99
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gpt/prompt2 X gemini/prompt4,gpt,prompt2,"""A CORRUPTA DEPUTADA DEMOCRATA DE AUSTIN DAWNNA DUKES GASTOU $$51.000 EM UMA PSÍQUICA, TRABALHOU ALTA EM MORFINA, USOU ASSISTENTE COMO MOTORISTA DA FAMÍLIA.""",gemini,prompt4,"A Democrata Dawnna Dukes, de Austin, gastou uma fortuna em videntes, flutuou em morfina e transformou sua assessora em motorista da família.
+",0.53,0.81,0.61,1.01
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gpt/prompt2 X gemma3/prompt4,gpt,prompt2,"""A CORRUPTA DEPUTADA DEMOCRATA DE AUSTIN DAWNNA DUKES GASTOU $$51.000 EM UMA PSÍQUICA, TRABALHOU ALTA EM MORFINA, USOU ASSISTENTE COMO MOTORISTA DA FAMÍLIA.""",gemma3,prompt4,"A democrata austina, Dawnna Dukes, esvaziou 51 mil dólares em leituras de tarot, vagava em transe morfinizado e usou um assessor como motorista particular da família.",0.55,0.81,0.61,1.01
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gpt/prompt4 X gemini/prompt4,gpt,prompt4,"A CORRUPTA AUSTIN DEM REP. DAWNNA DUKES GASTOU $$51,000 EM PSÍQUICO, TRABALHOU EMBRIAGADA DE MORFINA, USOU ASSISTENTE COMO MOTORISTA DA FAMÍLIA.",gemini,prompt4,"A Democrata Dawnna Dukes, de Austin, gastou uma fortuna em videntes, flutuou em morfina e transformou sua assessora em motorista da família.
+",0.53,0.81,0.61,1.01
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gpt/prompt4 X gemma3/prompt4,gpt,prompt4,"A CORRUPTA AUSTIN DEM REP. DAWNNA DUKES GASTOU $$51,000 EM PSÍQUICO, TRABALHOU EMBRIAGADA DE MORFINA, USOU ASSISTENTE COMO MOTORISTA DA FAMÍLIA.",gemma3,prompt4,"A democrata austina, Dawnna Dukes, esvaziou 51 mil dólares em leituras de tarot, vagava em transe morfinizado e usou um assessor como motorista particular da família.",0.55,0.81,0.61,1.01
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gemini/prompt2 X gemini/prompt4,gemini,prompt2,"A DEPUTADA DEMOCRATA DE AUSTIN, DAWNNA DUKES, GASTOU US$ 51.000 COM VIDENTES, TRABALHOU SOB EFEITO DE MORFINA E USOU ASSISTENTE COMO MOTORISTA DA FAMÍLIA.",gemini,prompt4,"A Democrata Dawnna Dukes, de Austin, gastou uma fortuna em videntes, flutuou em morfina e transformou sua assessora em motorista da família.
+",0.55,0.81,0.61,1.01
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gemini/prompt2 X gemma3/prompt4,gemini,prompt2,"A DEPUTADA DEMOCRATA DE AUSTIN, DAWNNA DUKES, GASTOU US$ 51.000 COM VIDENTES, TRABALHOU SOB EFEITO DE MORFINA E USOU ASSISTENTE COMO MOTORISTA DA FAMÍLIA.",gemma3,prompt4,"A democrata austina, Dawnna Dukes, esvaziou 51 mil dólares em leituras de tarot, vagava em transe morfinizado e usou um assessor como motorista particular da família.",0.56,0.81,0.61,1.01
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gemini/prompt4 X gemma3/prompt2,gemini,prompt4,"A Democrata Dawnna Dukes, de Austin, gastou uma fortuna em videntes, flutuou em morfina e transformou sua assessora em motorista da família.
+",gemma3,prompt2,"DEPUTADA DEMOCRATA DE AUSTIN, DAWNNA DUKES, GASTOU $51.000 COM UMA VIDENTE, TRABALHOU SOB A INFLUÊNCIA DE MORFINA E USOU UM AUXILIAR COMO MOTORISTA DA FAMÍLIA.
+",0.54,0.81,0.61,1.01
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,"A Democrata Dawnna Dukes, de Austin, gastou uma fortuna em videntes, flutuou em morfina e transformou sua assessora em motorista da família.
+",gemmaX,sem_prompt,"A CORRUPTA DAWNNA DUKES, REPRESENTANTE DEMOCRÁTICA DE AUSTIN, GASTOU 51.000 DÓLARES EM UM PSICÓLOGO, TRABALHOU EM ALTO NÍVEL COM MORFINA, UTILIZOU UM ASSISTENTE COMO TAXISTA DA FAMÍLIA",0.54,0.81,0.61,1.01
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,"DEPUTADA DEMOCRATA DE AUSTIN, DAWNNA DUKES, GASTOU $51.000 COM UMA VIDENTE, TRABALHOU SOB A INFLUÊNCIA DE MORFINA E USOU UM AUXILIAR COMO MOTORISTA DA FAMÍLIA.
+",gemma3,prompt4,"A democrata austina, Dawnna Dukes, esvaziou 51 mil dólares em leituras de tarot, vagava em transe morfinizado e usou um assessor como motorista particular da família.",0.56,0.81,0.61,1.01
+2477,"CORRUPT AUSTIN DEM REP. DAWNNA DUKES SPENT $$51,000 ON PSYCHIC, WORKED HIGH ON MORPHINE, USED AIDE AS FAMILY DRIVER",gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"A democrata austina, Dawnna Dukes, esvaziou 51 mil dólares em leituras de tarot, vagava em transe morfinizado e usou um assessor como motorista particular da família.",gemmaX,sem_prompt,"A CORRUPTA DAWNNA DUKES, REPRESENTANTE DEMOCRÁTICA DE AUSTIN, GASTOU 51.000 DÓLARES EM UM PSICÓLOGO, TRABALHOU EM ALTO NÍVEL COM MORFINA, UTILIZOU UM ASSISTENTE COMO TAXISTA DA FAMÍLIA",0.57,0.81,0.61,1.01
+2533,HELLISH FLASHBACK: European royals are killing naked children for fun at human hunting parties?,gpt/prompt2 X gpt/prompt4,gpt,prompt2,FLASHBACK INFERNAL: Os royals europeus estão matando crianças nuas por diversão em festas de caça humana?,gpt,prompt4,FLASHBACK INFERNAL: Os royalties europeus estão ceifando crianças nuas por diversão em festas de caça humana.,0.93,0.73,0.55,0.91
+2533,HELLISH FLASHBACK: European royals are killing naked children for fun at human hunting parties?,gpt/prompt2 X gemini/prompt2,gpt,prompt2,FLASHBACK INFERNAL: Os royals europeus estão matando crianças nuas por diversão em festas de caça humana?,gemini,prompt2,FLASHBACK INFERNAL: A realeza europeia está matando crianças nuas por diversão em festas de caça humana?,0.96,0.73,0.55,0.91
+2533,HELLISH FLASHBACK: European royals are killing naked children for fun at human hunting parties?,gpt/prompt2 X gemma3/prompt2,gpt,prompt2,FLASHBACK INFERNAL: Os royals europeus estão matando crianças nuas por diversão em festas de caça humana?,gemma3,prompt2,FLASHBACK INFERNAL: Nobres europeus estão matando crianças nuas por diversão em festas de caça humana?,0.97,0.73,0.55,0.91
+2533,HELLISH FLASHBACK: European royals are killing naked children for fun at human hunting parties?,gpt/prompt2 X gemmaX/sem_prompt,gpt,prompt2,FLASHBACK INFERNAL: Os royals europeus estão matando crianças nuas por diversão em festas de caça humana?,gemmaX,sem_prompt,FLASHBACK DO INFERNO: A realeza europeia está matando crianças nuas por diversão em festas de caça humana?,0.94,0.73,0.55,0.91
+2533,HELLISH FLASHBACK: European royals are killing naked children for fun at human hunting parties?,gpt/prompt4 X gemma3/prompt2,gpt,prompt4,FLASHBACK INFERNAL: Os royalties europeus estão ceifando crianças nuas por diversão em festas de caça humana.,gemma3,prompt2,FLASHBACK INFERNAL: Nobres europeus estão matando crianças nuas por diversão em festas de caça humana?,0.92,0.73,0.55,0.91
+2533,HELLISH FLASHBACK: European royals are killing naked children for fun at human hunting parties?,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,FLASHBACK INFERNAL: A realeza europeia está matando crianças nuas por diversão em festas de caça humana?,gemma3,prompt2,FLASHBACK INFERNAL: Nobres europeus estão matando crianças nuas por diversão em festas de caça humana?,0.96,0.73,0.55,0.91
+2533,HELLISH FLASHBACK: European royals are killing naked children for fun at human hunting parties?,gemini/prompt2 X gemmaX/sem_prompt,gemini,prompt2,FLASHBACK INFERNAL: A realeza europeia está matando crianças nuas por diversão em festas de caça humana?,gemmaX,sem_prompt,FLASHBACK DO INFERNO: A realeza europeia está matando crianças nuas por diversão em festas de caça humana?,0.98,0.73,0.55,0.91
+2533,HELLISH FLASHBACK: European royals are killing naked children for fun at human hunting parties?,gemma3/prompt2 X gemmaX/sem_prompt,gemma3,prompt2,FLASHBACK INFERNAL: Nobres europeus estão matando crianças nuas por diversão em festas de caça humana?,gemmaX,sem_prompt,FLASHBACK DO INFERNO: A realeza europeia está matando crianças nuas por diversão em festas de caça humana?,0.94,0.73,0.55,0.91
