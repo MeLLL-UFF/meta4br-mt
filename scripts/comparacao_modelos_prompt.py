@@ -2,7 +2,7 @@ import os
 from itertools import combinations
 import numpy as np
 import pandas as pd
-from bert_score import BERTScorer
+from rouge import Rouge as RougeLib
 import sys
 from tqdm import tqdm
 
@@ -10,7 +10,11 @@ from tqdm import tqdm
 # python scripts/comparacao_modelos_prompt.py --calcular-ranking newsmet
 # python scripts/comparacao_modelos_prompt.py --calcular-ranking manual_data
 
-os.environ["LD_LIBRARY_PATH"] = ""  # evita segfault com CUDA
+# Para rodar o rouge em cima das frases consistentes
+# python scripts/comparacao_modelos_prompt.py --frases-consistentes newsmet
+# python scripts/comparacao_modelos_prompt.py --frases-consistentes manual_data
+
+os.environ["LD_LIBRARY_PATH"] = ""
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)  
 
@@ -86,6 +90,7 @@ def analisar_consistencia(dataset_nome, base_dir):
     #     ingles_original = ingles_original[:LIMITE_FRASES]
     num_frases = len(ingles_original)
 
+    from bert_score import BERTScorer
     scorer = BERTScorer(lang="pt", device="cuda", batch_size=64)
 
     saida_analise = os.path.join(BASE_DIR, f"dataset_{dataset_nome}", "[CSV] analise_modelos_prompts", f"analise_consistencia_{dataset_nome}.csv")
@@ -346,6 +351,86 @@ def calcular_ranking(dataset_nome):
     print(f"\nRanking salvo em: dataset_{dataset_nome}/[CSV] analise_modelos_prompts/ranking_consistencia_{dataset_nome}.csv\n")
 
 
+def calculo_rouge(rouge_inst, ref, hyp):
+    try:
+        scores = rouge_inst.get_scores(hyp, ref)[0]
+        return {
+            "rouge1": round(scores["rouge-1"]["f"], 4),
+            "rouge2": round(scores["rouge-2"]["f"], 4),
+            "rougeL": round(scores["rouge-l"]["f"], 4),
+        }
+    except Exception:
+        return {"rouge1": 0.0, "rouge2": 0.0, "rougeL": 0.0}
+
+
+def gerar_frases_consistentes(dataset_nome):
+    
+    arquivo_todas = os.path.join(
+        BASE_DIR, f"dataset_{dataset_nome}",
+        "[CSV] analise_modelos_prompts",
+        f"todas_comparacoes_{dataset_nome}.csv",
+    )
+
+    if not os.path.exists(arquivo_todas):
+        print(f"Erro: arquivo nao encontrado: {arquivo_todas}")
+        print("Execute primeiro a analise de consistencia.")
+        return
+
+    df = pd.read_csv(arquivo_todas)
+
+    # Respeitar status_manual se preenchido
+    if "status_manual" in df.columns:
+        df["status_final"] = df.apply(
+            lambda row: row["status_manual"]
+            if pd.notna(row["status_manual"]) and str(row["status_manual"]).strip() != ""
+            else row["status"],
+            axis=1,
+        )
+    else:
+        df["status_final"] = df["status"]
+
+    consistentes = df[df["status_final"] == "consistente"].copy()
+
+    if consistentes.empty:
+        print(f"Nenhum par consistente encontrado em {dataset_nome}.")
+        return
+
+    scorer_rouge = RougeLib()
+
+    resultados = []
+    for _, row in tqdm(consistentes.iterrows(), total=len(consistentes), desc="Calculando ROUGE", unit="par"):
+        rouge = calculo_rouge(scorer_rouge, str(row["trad_a"]), str(row["trad_b"]))
+        resultados.append({
+            "indice": row["indice"],
+            "ingles_original": row["ingles_original"],
+            "modelo_a": row["modelo_a"],
+            "prompt_a": row["prompt_a"],
+            "trad_a": row["trad_a"],
+            "modelo_b": row["modelo_b"],
+            "prompt_b": row["prompt_b"],
+            "trad_b": row["trad_b"],
+            "bertscore": row["bertscore"],
+            "mediana_bertscore": row["mediana_bertscore"],
+            "limite_inferior": row["limite_inferior"],
+            "limite_superior": row["limite_superior"],
+            "status": row["status"],
+            "rouge1": rouge["rouge1"],
+            "rouge2": rouge["rouge2"],
+            "rougeL": rouge["rougeL"],
+        })
+
+    saida = os.path.join(
+        BASE_DIR, f"dataset_{dataset_nome}",
+        "[CSV] analise_modelos_prompts",
+        f"frases_consistentes_{dataset_nome}.csv",
+    )
+    os.makedirs(os.path.dirname(saida), exist_ok=True)
+    pd.DataFrame(resultados).to_csv(saida, index=False)
+
+    print(f"Frases consistentes com ROUGE salvas em: {saida}")
+    print(f"  Total de pares consistentes: {len(resultados)}")
+
+
 if __name__ == "__main__":
     # Verificar modo de execução
     if len(sys.argv) > 1 and sys.argv[1] == "--calcular-ranking":
@@ -361,6 +446,16 @@ if __name__ == "__main__":
             sys.exit(1)
         
         calcular_ranking(dataset_nome)
+    elif len(sys.argv) > 1 and sys.argv[1] == "--frases-consistentes":
+        if len(sys.argv) < 3:
+            print("Datasets disponiveis: newsmet, manual_data")
+            sys.exit(1)
+        dataset_nome = sys.argv[2]
+        if dataset_nome not in DATASETS:
+            print(f"Erro: dataset '{dataset_nome}' nao encontrado.")
+            print(f"Datasets disponiveis: {', '.join(DATASETS.keys())}")
+            sys.exit(1)
+        gerar_frases_consistentes(dataset_nome)
     else:
         # análise de consistência inicial
         for dataset_nome, base_dir in DATASETS.items():
