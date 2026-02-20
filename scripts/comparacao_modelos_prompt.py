@@ -378,18 +378,29 @@ def gerar_frases_consistentes(dataset_nome):
 
     df = pd.read_csv(arquivo_todas)
 
-    # Respeitar status_manual se preenchido
-    if "status_manual" in df.columns:
-        df["status_final"] = df.apply(
+    # Buscar status final por frase em analise_consistencia (que tem status_manual)
+    arquivo_analise = os.path.join(
+        BASE_DIR, f"dataset_{dataset_nome}",
+        "[CSV] analise_modelos_prompts",
+        f"analise_consistencia_{dataset_nome}.csv",
+    )
+
+    if os.path.exists(arquivo_analise):
+        df_analise = pd.read_csv(arquivo_analise)
+        df_analise["status_final_frase"] = df_analise.apply(
             lambda row: row["status_manual"]
-            if pd.notna(row["status_manual"]) and str(row["status_manual"]).strip() != ""
+            if pd.notna(row.get("status_manual")) and str(row.get("status_manual", "")).strip() != ""
             else row["status"],
             axis=1,
         )
+        frases_consistentes_idx = set(
+            df_analise[df_analise["status_final_frase"] == "consistente"]["indice"].tolist()
+        )
+        consistentes = df[df["indice"].isin(frases_consistentes_idx)].copy()
     else:
+        # Fallback: usar status do proprio todas_comparacoes
         df["status_final"] = df["status"]
-
-    consistentes = df[df["status_final"] == "consistente"].copy()
+        consistentes = df[df["status_final"] == "consistente"].copy()
 
     if consistentes.empty:
         print(f"Nenhum par consistente encontrado em {dataset_nome}.")
@@ -435,27 +446,11 @@ if __name__ == "__main__":
     # Verificar modo de execução
     if len(sys.argv) > 1 and sys.argv[1] == "--calcular-ranking":
         # calcular ranking após ajustes manuais
-        if len(sys.argv) < 3:
-            print("Datasets disponiveis: newsmet, manual_data")
-            sys.exit(1)
-        
-        dataset_nome = sys.argv[2]
-        if dataset_nome not in DATASETS:
-            print(f"Erro: dataset '{dataset_nome}' nao encontrado.")
-            print(f"Datasets disponiveis: {', '.join(DATASETS.keys())}")
-            sys.exit(1)
-        
-        calcular_ranking(dataset_nome)
+        for dataset_nome in DATASETS:
+            calcular_ranking(dataset_nome)
     elif len(sys.argv) > 1 and sys.argv[1] == "--frases-consistentes":
-        if len(sys.argv) < 3:
-            print("Datasets disponiveis: newsmet, manual_data")
-            sys.exit(1)
-        dataset_nome = sys.argv[2]
-        if dataset_nome not in DATASETS:
-            print(f"Erro: dataset '{dataset_nome}' nao encontrado.")
-            print(f"Datasets disponiveis: {', '.join(DATASETS.keys())}")
-            sys.exit(1)
-        gerar_frases_consistentes(dataset_nome)
+        for dataset_nome in DATASETS:
+            gerar_frases_consistentes(dataset_nome)
     else:
         # análise de consistência inicial
         for dataset_nome, base_dir in DATASETS.items():
