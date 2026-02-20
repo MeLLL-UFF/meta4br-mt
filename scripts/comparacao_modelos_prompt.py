@@ -5,14 +5,21 @@ import pandas as pd
 from rouge import Rouge as RougeLib
 import sys
 from tqdm import tqdm
+import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
+import seaborn as sns
 
-# Esses comandos serão usados caso altere a anotação das frases como consistente ou discrepante
-# python scripts/comparacao_modelos_prompt.py --calcular-ranking newsmet
-# python scripts/comparacao_modelos_prompt.py --calcular-ranking manual_data
+# 1) Análise de consistência inicial (BERTScore entre todos os pares):
+#    python scripts/comparacao_modelos_prompt.py
 
-# Para rodar o rouge em cima das frases consistentes
-# python scripts/comparacao_modelos_prompt.py --frases-consistentes newsmet
-# python scripts/comparacao_modelos_prompt.py --frases-consistentes manual_data
+# 2) Recalcular ranking após ajustes manuais no status_manual:
+#    python scripts/comparacao_modelos_prompt.py --calcular-ranking
+
+# 3) Gerar CSV de frases consistentes com ROUGE (requer etapa 1 concluída):
+#    python scripts/comparacao_modelos_prompt.py --frases-consistentes
+
+# 4) Plotar distribuição dos valores de ROUGE e BERTScore (requer etapa 3 concluída):
+#    python scripts/comparacao_modelos_prompt.py --plotar-distribuicao
 
 os.environ["LD_LIBRARY_PATH"] = ""
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -33,12 +40,10 @@ VARIACAO_PERMITIDA = 0.25
 BATCH_SALVAMENTO = 5
 # LIMITE_FRASES = 20
 
-
 def preparar_arquivo_saida(caminho):
     os.makedirs(os.path.dirname(caminho), exist_ok=True)
     if os.path.exists(caminho):
         os.remove(caminho)
-
 
 def append_registros_csv(caminho, registros):
     if not registros:
@@ -46,7 +51,6 @@ def append_registros_csv(caminho, registros):
     df = pd.DataFrame(registros)
     escrever_cabecalho = not os.path.exists(caminho)
     df.to_csv(caminho, mode="a", header=escrever_cabecalho, index=False)
-
 
 def carregar_traducoes(base_dir, modelo, prompt):
     # Ajuste pra o gemmaX que não tem prompt
@@ -63,7 +67,6 @@ def carregar_traducoes(base_dir, modelo, prompt):
 
     df = df[colunas_necessarias]
     return df
-
 
 def analisar_consistencia(dataset_nome, base_dir):
    
@@ -260,7 +263,6 @@ def analisar_consistencia(dataset_nome, base_dir):
     print(f"  Frases consistentes: {num_consistentes} ({num_consistentes/num_frases*100:.1f}%)")
     print(f"  Frases discrepantes: {num_discrepantes} ({num_discrepantes/num_frases*100:.1f}%)")
 
-
 def calcular_ranking(dataset_nome):
     arquivo_analise = os.path.join(BASE_DIR, f"dataset_{dataset_nome}", "[CSV] analise_modelos_prompts", f"analise_consistencia_{dataset_nome}.csv")
     
@@ -350,7 +352,6 @@ def calcular_ranking(dataset_nome):
     print(ranking.to_string(index=False))
     print(f"\nRanking salvo em: dataset_{dataset_nome}/[CSV] analise_modelos_prompts/ranking_consistencia_{dataset_nome}.csv\n")
 
-
 def calculo_rouge(rouge_inst, ref, hyp):
     try:
         scores = rouge_inst.get_scores(hyp, ref)[0]
@@ -361,7 +362,6 @@ def calculo_rouge(rouge_inst, ref, hyp):
         }
     except Exception:
         return {"rouge1": 0.0, "rouge2": 0.0, "rougeL": 0.0}
-
 
 def gerar_frases_consistentes(dataset_nome):
     
@@ -441,6 +441,69 @@ def gerar_frases_consistentes(dataset_nome):
     print(f"Frases consistentes com ROUGE salvas em: {saida}")
     print(f"  Total de pares consistentes: {len(resultados)}")
 
+def plotar_distribuicao(dataset_nome=None):
+    """Plota a distribuição dos valores de ROUGE e BERTScore das frases consistentes."""
+    datasets_alvo = [dataset_nome] if dataset_nome else list(DATASETS.keys())
+
+    metricas = [
+        ("rouge1",   "ROUGE-1",    "#4C72B0"),
+        ("rouge2",   "ROUGE-2",    "#DD8452"),
+        ("rougeL",   "ROUGE-L",    "#55A868"),
+        ("bertscore","BERTScore",  "#C44E52"),
+    ]
+
+    for ds in datasets_alvo:
+        arquivo = os.path.join(
+            BASE_DIR, f"dataset_{ds}",
+            "[CSV] analise_modelos_prompts",
+            f"frases_consistentes_{ds}.csv",
+        )
+        if not os.path.exists(arquivo):
+            print(f"Arquivo nao encontrado: {arquivo}")
+            print("Execute primeiro --frases-consistentes.")
+            continue
+
+        df = pd.read_csv(arquivo)
+
+        fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+        fig.suptitle(f"Distribuição das Métricas — {ds}", fontsize=15, fontweight="bold", y=1.01)
+        axes = axes.flatten()
+
+        for ax, (col, titulo, cor) in zip(axes, metricas):
+            if col not in df.columns:
+                ax.set_title(f"{titulo} (dados não encontrados)")
+                ax.axis("off")
+                continue
+
+            dados = df[col].dropna()
+
+            sns.histplot(
+                dados,
+                bins=30,
+                kde=True,
+                ax=ax,
+                color=cor,
+                edgecolor="white",
+                linewidth=0.5,
+                alpha=0.75,
+            )
+            ax.axvline(dados.mean(), color="black", linestyle="--", linewidth=1.2, label=f"Média: {dados.mean():.3f}")
+            ax.axvline(dados.median(), color="gray", linestyle=":", linewidth=1.2, label=f"Mediana: {dados.median():.3f}")
+            ax.set_title(titulo, fontsize=12, fontweight="bold")
+            ax.set_xlabel("Valor", fontsize=10)
+            ax.set_ylabel("Frequência", fontsize=10)
+            ax.legend(fontsize=9)
+            ax.set_xlim(0, 1.05)
+
+        plt.tight_layout()
+
+        saida_dir = os.path.join(BASE_DIR, f"dataset_{ds}", "[CSV] analise_modelos_prompts")
+        os.makedirs(saida_dir, exist_ok=True)
+        saida = os.path.join(saida_dir, f"distribuicao_metricas_{ds}.png")
+        plt.savefig(saida, dpi=150, bbox_inches="tight")
+        plt.close()
+        print(f"Gráfico salvo em: {saida}")
+
 
 if __name__ == "__main__":
     # Verificar modo de execução
@@ -451,6 +514,10 @@ if __name__ == "__main__":
     elif len(sys.argv) > 1 and sys.argv[1] == "--frases-consistentes":
         for dataset_nome in DATASETS:
             gerar_frases_consistentes(dataset_nome)
+    elif len(sys.argv) > 1 and sys.argv[1] == "--plotar-distribuicao":
+        # python scripts/comparacao_modelos_prompt.py --plotar-distribuicao [dataset_nome]
+        ds_arg = sys.argv[2] if len(sys.argv) > 2 else None
+        plotar_distribuicao(ds_arg)
     else:
         # análise de consistência inicial
         for dataset_nome, base_dir in DATASETS.items():
