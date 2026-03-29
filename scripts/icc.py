@@ -44,7 +44,7 @@ def montar_df(modelos, dataset, object, metricas, frases, padrao):
     return df
         
 def gerar_icc(dataset, complemento, metrica, metaphor_or_not):
-    path = f"dataset_{dataset}/[CSV]calculo_icc/df_{complemento}_{metaphor_or_not}.csv"
+    path = f"dataset_{dataset}/[CSV] calculo_icc/df_{complemento}_{metaphor_or_not}.csv"
     if not os.path.exists(path):
         print(f"Arquivo {path} não encontrado. Pulando ICC para {complemento} - {metrica}.")
     df = pd.read_csv(path)
@@ -52,11 +52,11 @@ def gerar_icc(dataset, complemento, metrica, metaphor_or_not):
     df_metrica_atual = df[df["metrica"] == metrica]
 
     icc = pg.intraclass_corr(data=df_metrica_atual, targets='frases_ingles', raters='modelo', ratings='score').round(3)
-    icc.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/icc_{complemento}/icc_{metrica}_{complemento}_{metaphor_or_not}.csv", index=False)
+    icc.to_csv(f"dataset_{dataset}/[CSV] calculo_icc/icc_{complemento}/icc_{metrica}_{complemento}_{metaphor_or_not}.csv", index=False)
 
 
 def resumir_iccs(complemento, dataset, metaphor_or_not):
-    pasta_icc = f"dataset_{dataset}/[CSV]calculo_icc/icc_{complemento}/{metaphor_or_not}"
+    pasta_icc = f"dataset_{dataset}/[CSV] calculo_icc/icc_{complemento}/{metaphor_or_not}"
     arquivos = [f for f in os.listdir(pasta_icc) if f.endswith(".csv")]
 
     resultados = []
@@ -88,7 +88,7 @@ def resumir_iccs(complemento, dataset, metaphor_or_not):
 
     if resultados:
         df_resultados = pd.DataFrame(resultados)
-        caminho_saida = f"dataset_{dataset}/[CSV]calculo_icc/icc3k_{complemento}_{metaphor_or_not}_resumo.csv"
+        caminho_saida = f"dataset_{dataset}/[CSV] calculo_icc/icc3k_{complemento}_{metaphor_or_not}_resumo.csv"
         df_resultados.to_csv(caminho_saida, index=False)
         print(f"📁 Resumo salvo em: {caminho_saida}")
     else:
@@ -120,9 +120,9 @@ if __name__ == "__main__":
         #             "score": [],
         #         }
         #         df_com_metafora = montar_df(modelo, dataset, object, metricas, vet_manual_data, 0)
-        #         df_com_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_{modelo[0].split("/")[1]}_com_metafora.csv", index=False)
+        #         df_com_metafora.to_csv(f"dataset_{dataset}/[CSV] calculo_icc/df_{modelo[0].split("/")[1]}_com_metafora.csv", index=False)
         #         df_sem_metafora = montar_df(modelo, dataset, object, metricas, vet_manual_data, 1)
-        #         df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_{modelo[0].split("/")[1]}_sem_metafora.csv", index=False)
+        #         df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV] calculo_icc/df_{modelo[0].split("/")[1]}_sem_metafora.csv", index=False)
                 
         #     object = {
         #         "frases_ingles": [],
@@ -132,9 +132,9 @@ if __name__ == "__main__":
         #     }
 
         #     df_com_metafora = montar_df(modelos_gerais, dataset, object, metricas, vet_manual_data, 0)
-        #     df_com_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_geral_com_metafora.csv", index=False)
+        #     df_com_metafora.to_csv(f"dataset_{dataset}/[CSV] calculo_icc/df_geral_com_metafora.csv", index=False)
         #     df_sem_metafora = montar_df(modelos_gerais, dataset, object, metricas, vet_manual_data, 1)
-        #     df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_geral_sem_metafora.csv", index=False)
+        #     df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV] calculo_icc/df_geral_sem_metafora.csv", index=False)
 
         # elif dataset == "newsmet":
         #     for modelo in modelos:
@@ -145,9 +145,9 @@ if __name__ == "__main__":
         #             "score": [],
         #         }
         #         df_com_metafora = montar_df(modelo, dataset, object, metricas, vet_newsmet, "literal")
-        #         df_com_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_{modelo[0].split('/')[1]}_com_metafora.csv", index=False)
+        #         df_com_metafora.to_csv(f"dataset_{dataset}/[CSV] calculo_icc/df_{modelo[0].split('/')[1]}_com_metafora.csv", index=False)
         #         df_sem_metafora = montar_df(modelo, dataset, object, metricas, vet_newsmet, "metaphorical")
-        #         df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_{modelo[0].split('/')[1]}_sem_metafora.csv", index=False)
+        #         df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV] calculo_icc/df_{modelo[0].split('/')[1]}_sem_metafora.csv", index=False)
             
         #     object = {
         #         "frases_ingles": [],
@@ -156,9 +156,9 @@ if __name__ == "__main__":
         #         "score": [],
         #     }
         #     df_com_metafora = montar_df(modelos_gerais, dataset, object, metricas, vet_newsmet, "literal")
-        #     df_com_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_geral_com_metafora.csv", index=False)
+        #     df_com_metafora.to_csv(f"dataset_{dataset}/[CSV] calculo_icc/df_geral_com_metafora.csv", index=False)
         #     df_sem_metafora = montar_df(modelos_gerais, dataset, object, metricas, vet_newsmet, "metaphorical")
-        #     df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV]calculo_icc/df_geral_sem_metafora.csv", index=False)
+        #     df_sem_metafora.to_csv(f"dataset_{dataset}/[CSV] calculo_icc/df_geral_sem_metafora.csv", index=False)
 
         # for metrica in metricas:
         #     gerar_icc(dataset, "prompt1", metrica.split("/")[0], "com_metafora")

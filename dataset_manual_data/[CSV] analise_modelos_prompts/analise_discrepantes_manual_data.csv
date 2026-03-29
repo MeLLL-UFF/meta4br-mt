@@ -1,0 +1,35 @@
+indice,ingles_original,par_discrepante,modelo_a,prompt_a,trad_a,modelo_b,prompt_b,trad_b,bertscore,mediana_bertscore,limite_inferior,limite_superior
+24,color outside the lines,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,c colorir fora das linhas,gemma3,prompt4,Quebrar o molde.,0.61,0.86,0.65,1.08
+24,color outside the lines,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,pintar fora das linhas,gemma3,prompt4,Quebrar o molde.,0.63,0.86,0.65,1.08
+24,color outside the lines,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,Colorir fora das linhas,gemma3,prompt4,Quebrar o molde.,0.64,0.86,0.65,1.08
+24,color outside the lines,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,Quebrar o molde.,gemmaX,sem_prompt,cor fora das linhas,0.63,0.86,0.65,1.08
+26,blind as a bat,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,cego como um morcego,gemma3,prompt4,Ir para o beleléu.,0.7,0.95,0.71,1.19
+26,blind as a bat,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,cego como um morcego,gemma3,prompt4,Ir para o beleléu.,0.7,0.95,0.71,1.19
+222,blind as a bat,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,cego como um morcego,gemma3,prompt4,Ir para o andar dos mortos.,0.69,0.92,0.69,1.15
+222,blind as a bat,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,cego como um morcego,gemma3,prompt4,Ir para o andar dos mortos.,0.69,0.92,0.69,1.15
+222,blind as a bat,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,Ir para o andar dos mortos.,gemmaX,sem_prompt,Cego como um morcego,0.69,0.92,0.69,1.15
+229,blind as a bat,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,cego como um morcego,gemma3,prompt4,Ir para o beleléu.,0.7,0.95,0.71,1.19
+229,blind as a bat,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,cego como um morcego,gemma3,prompt4,Ir para o beleléu.,0.7,0.95,0.71,1.19
+233,"hope for the best, prepare for the worst",gpt/prompt2 X gemma3/prompt4,gpt,prompt2,"espere pelo melhor, prepare-se para o pior",gemma3,prompt4,"Aposte no sol, mas carregue o guarda-chuva.",0.66,0.89,0.67,1.11
+233,"hope for the best, prepare for the worst",gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,"Aposte no sol, mas carregue o guarda-chuva.",gemmaX,sem_prompt,"esperar o melhor, preparar-se para o pior",0.63,0.89,0.67,1.11
+353,burn the candle at both ends,gemini/prompt2 X gemini/prompt4,gemini,prompt2,Viver perigosamente,gemini,prompt4,Queimar a vela dos dois lados.,0.63,0.85,0.64,1.06
+353,burn the candle at both ends,gemini/prompt2 X gemma3/prompt2,gemini,prompt2,Viver perigosamente,gemma3,prompt2,Gastar as duas pontas da vela.,0.64,0.85,0.64,1.06
+353,burn the candle at both ends,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,Viver perigosamente,gemma3,prompt4,Gastar a vela em ambas as pontas.,0.63,0.85,0.64,1.06
+416,a blessing in disguise,gpt/prompt2 X gemini/prompt4,gpt,prompt2,uma bênção disfarçada,gemini,prompt4,Um mal que veio para o bem.,0.7,0.94,0.71,1.18
+416,a blessing in disguise,gpt/prompt4 X gemini/prompt4,gpt,prompt4,uma benção disfarçada,gemini,prompt4,Um mal que veio para o bem.,0.69,0.94,0.71,1.18
+416,a blessing in disguise,gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,Um mal que veio para o bem.,gemmaX,sem_prompt,uma bênção disfarçada,0.7,0.94,0.71,1.18
+439,flying high,gpt/prompt2 X gemini/prompt4,gpt,prompt2,voando alto,gemini,prompt4,Nas nuvens.,0.66,0.92,0.69,1.15
+439,flying high,gpt/prompt4 X gemini/prompt4,gpt,prompt4,voando alto,gemini,prompt4,Nas nuvens.,0.66,0.92,0.69,1.15
+439,flying high,gemini/prompt2 X gemini/prompt4,gemini,prompt2,Voando alto,gemini,prompt4,Nas nuvens.,0.68,0.92,0.69,1.15
+439,flying high,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,Nas nuvens.,gemma3,prompt2,Voando alto,0.68,0.92,0.69,1.15
+439,flying high,gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,Nas nuvens.,gemmaX,sem_prompt,voando alto,0.66,0.92,0.69,1.15
+479,full plate,gpt/prompt2 X gemma3/prompt4,gpt,prompt2,prato cheio,gemma3,prompt4,Armadura completa.,0.65,0.87,0.65,1.09
+479,full plate,gpt/prompt4 X gemma3/prompt4,gpt,prompt4,prato cheio,gemma3,prompt4,Armadura completa.,0.65,0.87,0.65,1.09
+479,full plate,gemini/prompt2 X gemma3/prompt4,gemini,prompt2,Prato cheio,gemma3,prompt4,Armadura completa.,0.64,0.87,0.65,1.09
+479,full plate,gemma3/prompt2 X gemma3/prompt4,gemma3,prompt2,Prato cheio,gemma3,prompt4,Armadura completa.,0.64,0.87,0.65,1.09
+479,full plate,gemma3/prompt4 X gemmaX/sem_prompt,gemma3,prompt4,Armadura completa.,gemmaX,sem_prompt,prato cheio,0.65,0.87,0.65,1.09
+646,against all odds,gpt/prompt2 X gemini/prompt4,gpt,prompt2,contra todas as probabilidades,gemini,prompt4,Contra vento e maré.,0.66,0.95,0.71,1.19
+646,against all odds,gpt/prompt4 X gemini/prompt4,gpt,prompt4,contra todas as probabilidades,gemini,prompt4,Contra vento e maré.,0.66,0.95,0.71,1.19
+646,against all odds,gemini/prompt2 X gemini/prompt4,gemini,prompt2,Contra todas as probabilidades,gemini,prompt4,Contra vento e maré.,0.68,0.95,0.71,1.19
+646,against all odds,gemini/prompt4 X gemma3/prompt2,gemini,prompt4,Contra vento e maré.,gemma3,prompt2,Contra todas as probabilidades,0.68,0.95,0.71,1.19
+646,against all odds,gemini/prompt4 X gemmaX/sem_prompt,gemini,prompt4,Contra vento e maré.,gemmaX,sem_prompt,contra todas as probabilidades,0.66,0.95,0.71,1.19

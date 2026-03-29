@@ -9,6 +9,7 @@ novel = pd.read_parquet("comparacao_datasets/novel.parquet", engine='pyarrow')
 trofi = pd.read_parquet("comparacao_datasets/trofi.parquet", engine='pyarrow') 
 moh = pd.read_csv("comparacao_datasets/moh.tsv", sep='\t')
 metaphor_cot = pd.read_json("comparacao_datasets/Metaphor_CoT_ft.json")
+newsmet = pd.read_csv("comparacao_datasets/newsmet.csv")
 
 
 
@@ -20,7 +21,8 @@ print("Número de linhas em manual_data:", len(manual_data), "\n")
 print("Número de linhas em novel:", len(novel), "\n")
 print("Número de linhas em trofi:", len(trofi), "\n")
 print("Número de linhas em moh:", len(moh), "\n")
-print("Número de linhas em metaphor_cot:", len(metaphor_cot), "\n\n")
+print("Número de linhas em metaphor_cot:", len(metaphor_cot), "\n")
+print("Número de linhas em newsmet:", len(newsmet), "\n\n")
 # print("Início do dataset manual_data:\n")
 # print(manual_data.head())
 

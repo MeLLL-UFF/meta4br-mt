@@ -1,0 +1,8 @@
+modelo_prompt,comparacoes_consistentes,total_comparacoes,percentual_consistencia
+gemma3/prompt2,4304,4308,99.91
+gemini/prompt2,4301,4308,99.84
+gemmaX/sem_prompt,4301,4308,99.84
+gpt/prompt4,4300,4308,99.81
+gpt/prompt2,4299,4308,99.79
+gemini/prompt4,4294,4308,99.68
+gemma3/prompt4,4289,4308,99.56
