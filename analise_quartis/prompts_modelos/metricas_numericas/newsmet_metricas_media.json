@@ -1,164 +1,191 @@
 [
   {
-    "modelo_prompt":"gemmaX\/",
-    "total":53,
-    "inteligibilidade_media":4.8421052632,
-    "compreensao_media":4.8421052632
-  },
-  {
-    "modelo_prompt":"marian\/",
-    "total":29,
-    "inteligibilidade_media":4.4666666667,
-    "compreensao_media":4.4666666667
-  },
-  {
-    "modelo_prompt":"meta\/",
-    "total":32,
-    "inteligibilidade_media":3.3636363636,
-    "compreensao_media":3.3636363636
-  },
-  {
-    "modelo_prompt":"gemini\/prompt1",
-    "total":47,
-    "inteligibilidade_media":4.7857142857,
-    "compreensao_media":4.7857142857
-  },
-  {
-    "modelo_prompt":"gemma3\/prompt1",
-    "total":44,
-    "inteligibilidade_media":4.7142857143,
-    "compreensao_media":4.7142857143
-  },
-  {
-    "modelo_prompt":"gpt\/prompt1",
-    "total":41,
-    "inteligibilidade_media":4.6923076923,
-    "compreensao_media":4.6923076923
-  },
-  {
-    "modelo_prompt":"llama\/prompt1",
-    "total":16,
-    "inteligibilidade_media":4.375,
-    "compreensao_media":4.375
-  },
-  {
-    "modelo_prompt":"mistral\/prompt1",
-    "total":26,
-    "inteligibilidade_media":4.6,
-    "compreensao_media":4.6
-  },
-  {
-    "modelo_prompt":"qwen\/prompt1",
-    "total":28,
-    "inteligibilidade_media":4.6666666667,
-    "compreensao_media":4.6666666667
-  },
-  {
-    "modelo_prompt":"gemini\/prompt2",
-    "total":38,
-    "inteligibilidade_media":4.6923076923,
-    "compreensao_media":4.6923076923
-  },
-  {
-    "modelo_prompt":"gemma3\/prompt2",
-    "total":45,
-    "inteligibilidade_media":4.7333333333,
-    "compreensao_media":4.7333333333
-  },
-  {
-    "modelo_prompt":"gpt\/prompt2",
-    "total":26,
-    "inteligibilidade_media":4.5714285714,
-    "compreensao_media":4.5714285714
-  },
-  {
-    "modelo_prompt":"llama\/prompt2",
-    "total":20,
-    "inteligibilidade_media":4.5714285714,
-    "compreensao_media":4.5714285714
-  },
-  {
-    "modelo_prompt":"mistral\/prompt2",
-    "total":30,
-    "inteligibilidade_media":4.2222222222,
-    "compreensao_media":4.2222222222
+    "modelo_prompt":"gemma3\/prompt3",
+    "total":18,
+    "inteligibilidade_media":3.2142857143,
+    "compreensao_media":3.2142857143,
+    "media_geral":3.2142857143
   },
   {
     "modelo_prompt":"qwen\/prompt2",
     "total":26,
     "inteligibilidade_media":4.625,
-    "compreensao_media":4.625
+    "compreensao_media":4.625,
+    "media_geral":4.625
   },
   {
-    "modelo_prompt":"gemini\/prompt3",
-    "total":6,
-    "inteligibilidade_media":3.8333333333,
-    "compreensao_media":3.8333333333
+    "modelo_prompt":"gemini\/prompt1",
+    "total":47,
+    "inteligibilidade_media":4.7857142857,
+    "compreensao_media":4.7857142857,
+    "media_geral":4.7857142857
   },
   {
-    "modelo_prompt":"gemma3\/prompt3",
-    "total":18,
-    "inteligibilidade_media":3.2142857143,
-    "compreensao_media":3.2142857143
+    "modelo_prompt":"gemini\/prompt2",
+    "total":38,
+    "inteligibilidade_media":4.6923076923,
+    "compreensao_media":4.6923076923,
+    "media_geral":4.6923076923
+  },
+  {
+    "modelo_prompt":"gemma3\/prompt1",
+    "total":44,
+    "inteligibilidade_media":4.7142857143,
+    "compreensao_media":4.7142857143,
+    "media_geral":4.7142857143
+  },
+  {
+    "modelo_prompt":"gemma3\/prompt2",
+    "total":45,
+    "inteligibilidade_media":4.7333333333,
+    "compreensao_media":4.7333333333,
+    "media_geral":4.7333333333
+  },
+  {
+    "modelo_prompt":"gemmaX\/",
+    "total":53,
+    "inteligibilidade_media":4.8421052632,
+    "compreensao_media":4.8421052632,
+    "media_geral":4.8421052632
+  },
+  {
+    "modelo_prompt":"gpt\/prompt1",
+    "total":41,
+    "inteligibilidade_media":4.6923076923,
+    "compreensao_media":4.6923076923,
+    "media_geral":4.6923076923
+  },
+  {
+    "modelo_prompt":"gpt\/prompt2",
+    "total":26,
+    "inteligibilidade_media":4.5714285714,
+    "compreensao_media":4.5714285714,
+    "media_geral":4.5714285714
   },
   {
     "modelo_prompt":"gpt\/prompt3",
     "total":1,
     "inteligibilidade_media":null,
-    "compreensao_media":null
-  },
-  {
-    "modelo_prompt":"llama\/prompt3",
-    "total":14,
-    "inteligibilidade_media":3.8333333333,
-    "compreensao_media":3.8333333333
-  },
-  {
-    "modelo_prompt":"mistral\/prompt3",
-    "total":3,
-    "inteligibilidade_media":1.0,
-    "compreensao_media":1.0
-  },
-  {
-    "modelo_prompt":"qwen\/prompt3",
-    "total":2,
-    "inteligibilidade_media":null,
-    "compreensao_media":null
-  },
-  {
-    "modelo_prompt":"gemini\/prompt4",
-    "total":7,
-    "inteligibilidade_media":4.8333333333,
-    "compreensao_media":4.8333333333
-  },
-  {
-    "modelo_prompt":"gemma3\/prompt4",
-    "total":10,
-    "inteligibilidade_media":4.4,
-    "compreensao_media":4.4
+    "compreensao_media":null,
+    "media_geral":null
   },
   {
     "modelo_prompt":"gpt\/prompt4",
     "total":7,
     "inteligibilidade_media":5.0,
-    "compreensao_media":5.0
+    "compreensao_media":5.0,
+    "media_geral":5.0
+  },
+  {
+    "modelo_prompt":"meta\/",
+    "total":32,
+    "inteligibilidade_media":3.3636363636,
+    "compreensao_media":3.3636363636,
+    "media_geral":3.3636363636
+  },
+  {
+    "modelo_prompt":"mistral\/prompt1",
+    "total":26,
+    "inteligibilidade_media":4.6,
+    "compreensao_media":4.6,
+    "media_geral":4.6
+  },
+  {
+    "modelo_prompt":"mistral\/prompt2",
+    "total":30,
+    "inteligibilidade_media":4.2222222222,
+    "compreensao_media":4.2222222222,
+    "media_geral":4.2222222222
+  },
+  {
+    "modelo_prompt":"mistral\/prompt3",
+    "total":3,
+    "inteligibilidade_media":1.0,
+    "compreensao_media":1.0,
+    "media_geral":1.0
+  },
+  {
+    "modelo_prompt":"qwen\/prompt1",
+    "total":28,
+    "inteligibilidade_media":4.6666666667,
+    "compreensao_media":4.6666666667,
+    "media_geral":4.6666666667
+  },
+  {
+    "modelo_prompt":"llama\/prompt3",
+    "total":14,
+    "inteligibilidade_media":3.8333333333,
+    "compreensao_media":3.8333333333,
+    "media_geral":3.8333333333
   },
   {
     "modelo_prompt":"llama\/prompt4",
     "total":14,
     "inteligibilidade_media":3.1111111111,
-    "compreensao_media":3.1111111111
+    "compreensao_media":3.1111111111,
+    "media_geral":3.1111111111
   },
   {
-    "modelo_prompt":"mistral\/prompt4",
-    "total":4,
-    "inteligibilidade_media":3.5,
-    "compreensao_media":3.5
+    "modelo_prompt":"marian\/",
+    "total":29,
+    "inteligibilidade_media":4.4666666667,
+    "compreensao_media":4.4666666667,
+    "media_geral":4.4666666667
   },
   {
     "modelo_prompt":"qwen\/prompt4",
     "total":8,
     "inteligibilidade_media":3.3333333333,
-    "compreensao_media":3.3333333333
+    "compreensao_media":3.3333333333,
+    "media_geral":3.3333333333
+  },
+  {
+    "modelo_prompt":"llama\/prompt1",
+    "total":16,
+    "inteligibilidade_media":4.375,
+    "compreensao_media":4.375,
+    "media_geral":4.375
+  },
+  {
+    "modelo_prompt":"llama\/prompt2",
+    "total":20,
+    "inteligibilidade_media":4.5714285714,
+    "compreensao_media":4.5714285714,
+    "media_geral":4.5714285714
+  },
+  {
+    "modelo_prompt":"gemini\/prompt4",
+    "total":7,
+    "inteligibilidade_media":4.8333333333,
+    "compreensao_media":4.8333333333,
+    "media_geral":4.8333333333
+  },
+  {
+    "modelo_prompt":"gemma3\/prompt4",
+    "total":10,
+    "inteligibilidade_media":4.4,
+    "compreensao_media":4.4,
+    "media_geral":4.4
+  },
+  {
+    "modelo_prompt":"gemini\/prompt3",
+    "total":6,
+    "inteligibilidade_media":3.8333333333,
+    "compreensao_media":3.8333333333,
+    "media_geral":3.8333333333
+  },
+  {
+    "modelo_prompt":"mistral\/prompt4",
+    "total":4,
+    "inteligibilidade_media":3.5,
+    "compreensao_media":3.5,
+    "media_geral":3.5
+  },
+  {
+    "modelo_prompt":"qwen\/prompt3",
+    "total":2,
+    "inteligibilidade_media":null,
+    "compreensao_media":null,
+    "media_geral":null
   }
 ]
