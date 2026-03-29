@@ -88,3 +88,4 @@ Os scripts `analise_quartis_modelos` e `analise_quartis_prompts_modelos` leem a 
 
 ***OBS:*** Não rodamos os prompts nos modelos nllb, opus e gemmaX porque eles não usam prompt, como são puramente de tradução, só recebem a frase como input.
 
+pip install parascore==1.0.5

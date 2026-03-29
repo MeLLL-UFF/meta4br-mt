@@ -1,0 +1,12 @@
+# pip install -r requirements.txt
+
+parascore==1.0.5
+torch
+transformers
+pandas
+numpy
+rouge
+matplotlib
+nltk
+seaborn
+
