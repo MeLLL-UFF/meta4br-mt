@@ -24,13 +24,15 @@ Depois, pegamos esse "traducaoPT" para virar a nova frase no arquivo `genPTtoEN`
 }
 ```
 
+
 Ordem que estou rodando os scripts:
 1) `genENtoPT_*.py`
 2) `genPTtoEN_*.py`
-3) `script/juntar_jsons.py`
-4) `script/metricas.py`
-5) `script/rodar_comet.py`
-6) `script/tokens*.py`
+3) `scripts/arquivos_dados/juntar_jsons.py`
+4) `scripts/arquivos_dados/metricas.py`
+5) `scripts/arquivos_dados/rodar_comet.py`
+6) `scripts/tokens/tokens*.py`
+7) `scripts/selecionar_frases/convert_xlxs.py` (opcional, para exportar para Excel)
 
 \* Existem algumas variações no nome, várias opções de arquivos com a mesma sintaxe.
 
@@ -88,4 +90,103 @@ Os scripts `analise_quartis_modelos` e `analise_quartis_prompts_modelos` leem a 
 
 ***OBS:*** Não rodamos os prompts nos modelos nllb, opus e gemmaX porque eles não usam prompt, como são puramente de tradução, só recebem a frase como input.
 
-pip install parascore==1.0.5
+
+## Scripts por pasta
+
+**scripts/analise/**
+- analise_quartis_modelos.py
+- analise_quartis_prompts_modelos.py
+- comparacao_modelos_prompt.py
+- icc.py
+- media_desvio_junto.py
+- media_desvio_separado.py
+
+**scripts/arquivos_dados/**
+- juntar_jsons.py
+- matriz.py
+- metricas.py
+- rodar_comet.py
+- tamanho_matrizes.py
+
+**scripts/metricas/**
+- anotacao_manual_metricas.py
+- melhor_traducao_xcomet.py
+
+**scripts/selecionar_frases/**
+- anotacao_frases_quartis.py
+- convert_xlxs.py
+- selecionando_frases.py
+- selecionando_frases_quartis.py
+
+**scripts/tokens/**
+- tokens.py
+- tokens_gemini.py
+- tokens_gemma3.py
+- tokens_gemmaX.py
+- tokens_gpt.py
+
+## O que cada script faz?
+
+### Arquivos para analisar os dados:
+
+**scripts/analise/analise_quartis_modelos.py**
+Realiza análise estatística dos resultados dos modelos, separando e avaliando as traduções por quartis de desempenho, permitindo identificar padrões de qualidade entre diferentes modelos.
+
+**scripts/analise/analise_quartis_prompts_modelos.py**
+Faz análise dos resultados considerando tanto modelos quanto prompts, separando as traduções em quartis para avaliar o impacto dos diferentes prompts na qualidade das traduções, gerando gráficos que nos permitiram escolher quais modelos e pormpts continuar analisando.
+
+**scripts/analise/comparacao_modelos_prompt.py**
+Compara traduções de diferentes modelos e prompts, analisando consistência, recalculando rankings e gerando relatórios e gráficos comparativos de desempenho.
+
+**scripts/analise/icc.py**
+Calcula o coeficiente de correlação intraclasse (ICC) para avaliar a consistência entre diferentes avaliadores ou métricas nas anotações manuais das traduções.
+
+**scripts/analise/media_desvio_junto.py**
+Calcula médias e desvios padrão das métricas de tradução para todos os modelos juntos, permitindo uma visão geral do desempenho agregado.
+
+**scripts/analise/media_desvio_separado.py**
+Calcula médias e desvios padrão das métricas de tradução separadamente para cada modelo, facilitando a comparação individual de desempenho.
+
+### Arquivos para organizar os dados dos datasets:
+
+**scripts/arquivos_dados/juntar_jsons.py**
+Une os arquivos ENtoPT.json e PTtoEN.json de cada modelo/prompt/dataset, gerando um único frases_traduzidas.json com as frases originais, traduzidas para o português e novamente para o inglês, facilitando o processamento posterior.
+
+**scripts/arquivos_dados/matriz.py**
+Gera o arquivo matriz.csv para cada modelo/prompt/dataset, já incluindo frases originais/traduzidas, label, rankings das métricas e a coluna Soma_ranking, padronizando o formato para etapas posteriores.
+
+**scripts/arquivos_dados/metricas.py**
+Calcula automaticamente as métricas ROUGE, BLEU, BERTScore e BLEURT para cada frase traduzida, salvando os resultados em frases_traduzidas_com_metricas.json para cada modelo/prompt/dataset.
+
+**scripts/arquivos_dados/rodar_comet.py**
+Executa modelos de avaliação automática (COMET22, KIWI-XL, XCOMET-XL) sobre as traduções geradas, salvando os scores dessas métricas para cada frase.
+
+**scripts/arquivos_dados/tamanho_matrizes.py**
+Verifica e imprime o tamanho (linhas e colunas) de cada arquivo matriz.csv, ajudando a identificar inconsistências ou problemas nos dados gerados.
+
+### Arquivos para analisar as métricas:
+
+**scripts/metricas/anotacao_manual_metricas.py**
+Calcula métricas automáticas e estatísticas a partir das anotações manuais feitas sobre as traduções, permitindo comparar avaliações humanas e automáticas.
+
+**scripts/metricas/criando_dataset_xcomet.py**
+Seleciona, para cada frase, a melhor tradução baseada exclusivamente na métrica XCOMET-XL, separando os resultados por quartis e por tipo de frase (metafórica ou literal) para criar o dataset final.
+
+### Arquivos para selecionar frases para análise manual:
+
+**scripts/selecionar_frases/anotacao_frases_quartis.py**
+Auxilia na anotação manual de frases selecionadas por quartis, facilitando a avaliação humana de subconjuntos representativos das traduções geradas pelos modelos.
+
+**scripts/selecionar_frases/convert_xlxs.py**
+Converte arquivos frases_traduzidas.json em planilhas Excel (.xlsx) para facilitar a visualização e análise manual dos dados.
+
+**scripts/selecionar_frases/selecionando_frases_quartis.py**
+Seleciona frases de acordo com os quartis das métricas, permitindo focar em subconjuntos de maior ou menor qualidade para análise ou anotação.
+
+**scripts/selecionar_frases/selecionando_frases.py**
+Seleciona frases específicas do conjunto de traduções com base em critérios definidos (como melhores ou piores rankings), para análises ou anotações posteriores.
+
+### Arquivos para tokenizar as frases:
+
+**scripts/tokens/tokens.py, scripts/tokens/tokens_gemini.py, scripts/tokens/tokens_gemma3.py, scripts/tokens/tokens_gemmaX.py, scripts/tokens/tokens_gpt.py**
+Calculam e salvam a contagem de tokens das frases originais e traduzidas para diferentes modelos, permitindo análises de custo e complexidade das traduções.
