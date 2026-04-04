@@ -1,0 +1,172 @@
+indice,dataset,modelo,prompt,ingles_original,portugues_traduzido,label,xcomet_xl,quartil
+4,manual_data,gemma3,prompt4,He likes to watch movies in his free time.,"Ele se perde nas telonas quando o tempo é dele.
+",0,636,Q1
+5,manual_data,gemini,prompt4,She enjoys painting in her free time.,"Ela se entrega à pintura nos intervalos da vida.
+",0,609,Q1
+23,manual_data,gemini,prompt4,He went to a birthday party last night.,"Ele foi à festa de aniversário ontem à noite.
+",0,651,Q1
+39,manual_data,gemma3,prompt4,They went to the theater to watch a play.,Foram ao palco assistir à encenação.,0,623,Q1
+42,manual_data,gemini,prompt4,She is talking on the phone.,"Ela está no fio.
+",0,617,Q1
+58,manual_data,gemini,prompt4,He is building a model airplane.,"Ele está arquitetando um voo.
+",0,585,Q2
+63,manual_data,gemini,prompt4,He is attending a business meeting.,"Ele está na arena dos negócios.
+",0,612,Q1
+65,manual_data,gemma3,prompt4,He took the bus to work.,"Ele pegou a carruagem para o labor.
+",0,677,Q1
+68,manual_data,gemma3,prompt4,They watched a TV show in the evening.,"Eles se entregaram à tela ao cair da noite.
+",0,593,Q1
+69,manual_data,gemini,prompt4,She is brushing her teeth before bed.,"Ela está preparando a noite para dormir.
+",0,633,Q1
+71,manual_data,gemma3,prompt4,He is feeding his pet hamster.,Ele nutre seu pequeno companheiro.,0,544,Q2
+72,manual_data,gemma3,prompt4,I like to drink coffee in the morning.,A manhã me abraça com o aroma escuro.,0,645,Q1
+77,manual_data,gemma3,prompt4,She is baking cookies in the kitchen.,Ela está aprimorando memórias no coração do lar.,0,665,Q1
+79,manual_data,gemini,prompt4,She is cleaning the kitchen after dinner.,"Ela está lavando a alma da cozinha depois do jantar.
+",0,527,Q2
+81,manual_data,gemini,prompt4,They are having coffee at the café.,"Estão a tomar um café no ninho da conversa.
+",0,648,Q1
+84,manual_data,gemini,prompt4,They are visiting a museum this afternoon.,"Eles vão passear nos olhos da tarde por um museu.
+",0,551,Q2
+87,manual_data,gemini,prompt4,She is talking to her friend on the phone.,"Ela está tecendo confidências ao telefone.
+",0,511,Q2
+88,manual_data,gemma3,prompt4,He is walking his dog in the park.,"Ele passeia seu tempo no parque.
+",0,617,Q1
+99,manual_data,gemini,prompt4,He is attending a wedding.,"Ele está de copo cheio.
+",0,638,Q1
+100,manual_data,gemini,prompt4,He is making a cup of coffee.,"Ele está botando o bule pra chiar.
+",0,603,Q1
+104,manual_data,gemma3,prompt4,He is having breakfast with his family.,Ele está rompendo o jejum com quem o espera à mesa.,0,648,Q1
+114,manual_data,gemini,prompt4,He enjoyed a cup of coffee in the morning.,"Ele tomou um gole de sol pela manhã.
+",0,523,Q2
+126,manual_data,gemini,prompt4,He is cutting vegetables for dinner.,"Ele está fatiando a noite.
+",0,531,Q2
+153,manual_data,gemma3,prompt4,They watched a movie on the weekend.,"Eles se perderam na tela do fim de semana.
+",0,517,Q2
+162,manual_data,gemini,prompt4,He went to the gym to lift weights.,"Ele foi à academia para inflar os músculos.
+",0,564,Q2
+181,manual_data,gemini,prompt4,He is cleaning the windows.,"Ele está limpando a barra.
+",0,522,Q2
+189,manual_data,gemma3,prompt4,He went to the doctor for a check-up.,Foi dar um trato no corpo.,0,667,Q1
+190,manual_data,gemma3,prompt4,She is watching the sunset from the balcony.,Ela contempla o crepúsculo do dia a partir do vão da janela.,0,553,Q2
+193,manual_data,gemma3,prompt4,He is playing the guitar in the living room.,Ele dedilha o violão na sala.,0,676,Q1
+196,manual_data,gemma3,prompt4,I went to the beach for vacation.,Deixei-me levar pela orla da alma.,0,628,Q1
+203,manual_data,gemini,prompt4,They are making pizza together.,"Estão botando a mão na massa juntos.
+",0,530,Q2
+208,manual_data,gemini,prompt4,He called his parents yesterday.,"Ele ligou para a base ontem.
+",0,563,Q2
+210,manual_data,gemma3,prompt4,She danced at the party last night.,Ela se entregou à dança na festa passada.,0,618,Q1
+228,manual_data,gemma3,prompt4,She is listening to music while cooking.,"Ela dança com os sabores enquanto a cozinha se rende.
+",0,598,Q1
+244,manual_data,gemma3,prompt4,He went fishing with his friends.,"Partiu à pesca com a turma.
+",0,568,Q2
+254,manual_data,gemini,prompt4,She plays the piano beautifully.,"Ela acaricia o piano com alma.
+",0,540,Q2
+262,manual_data,gemini,prompt4,He is repairing the broken chair.,"Ele está consertando os pedaços da vida.
+",0,583,Q2
+263,manual_data,gemma3,prompt4,She is watching a movie at the theater.,Ela se entrega à tela na penumbra do palco.,0,557,Q2
+273,manual_data,gemma3,prompt4,He watched a football match on TV.,"Ele acompanhou um espetáculo de embates em uma tela.
+",0,554,Q2
+285,manual_data,gemma3,prompt4,He is working on his laptop.,Ele está debruçado sobre o teclado.,0,614,Q1
+288,manual_data,gemini,prompt4,She had a cup of soup for lunch.,"Ela almoçou uma caneca de sopa.
+",0,647,Q1
+294,manual_data,gemma3,prompt4,The sun rises in the east.,A aurora desponta no oriente.,0,519,Q2
+300,manual_data,gemma3,prompt4,She is walking through the forest.,"Ela se aventura pela mata.
+",0,616,Q1
+306,manual_data,gemini,prompt4,She is arranging flowers in a vase.,"Ela está lapidando a beleza.
+",0,584,Q2
+307,manual_data,gemini,prompt4,They went shopping for new clothes.,"Foram às compras para trocar de pele.
+",0,615,Q1
+316,manual_data,gemini,prompt4,He is writing an essay for school.,"Ele está botando as tripas no papel.
+",0,528,Q2
+319,manual_data,gemini,prompt4,He visited his grandmother in the hospital.,"Ele foi fazer companhia à avó no corredor da esperança.
+",0,562,Q2
+328,manual_data,gemma3,prompt4,He is eating dinner with his family.,Ele está partilhando o pão com os seus.,0,542,Q2
+332,manual_data,gemini,prompt4,I am playing video games in my room.,"Estou navegando em mundos virtuais no meu refúgio.
+",0,593,Q1
+336,manual_data,gemma3,prompt4,He is going to the post office.,Ele vai levar os anseios à agência.,0,550,Q2
+339,manual_data,gemma3,prompt4,She is playing piano in the evening.,Ela tece melodias ao cair da noite.,0,585,Q2
+342,manual_data,gemma3,prompt4,They cleaned the house on Saturday.,Deixaram a casa brilhando no sábado.,0,620,Q1
+346,manual_data,gemma3,prompt4,She played cards with her friends.,Ela passou a tarde se divertindo com as cartas e as amigas.,0,613,Q1
+352,manual_data,gemma3,prompt4,I called my friend last night.,"Estiquei o fio da noite até o meu amigo.
+",0,514,Q2
+354,manual_data,gemini,prompt4,They are attending a concert tonight.,"Eles vão se jogar no som hoje à noite.
+",0,537,Q2
+368,manual_data,gemma3,prompt4,She visited the art gallery on Sunday.,Ela passeou pelo templo das cores no domingo.,0,536,Q2
+369,manual_data,gemini,prompt4,They went to a restaurant for dinner.,"Foram jantar no ninho da cegonha.
+",0,574,Q2
+382,manual_data,gemini,prompt4,She is practicing yoga in the park.,"Ela está se alongando com a natureza.
+",0,524,Q2
+383,manual_data,gemini,prompt4,He made a sandwich for lunch.,"Ele preparou um lanche para o almoço.
+",0,577,Q2
+390,manual_data,gemma3,prompt4,They are playing volleyball at the beach.,"Eles estão se divertindo na areia, buscando o ponto.",0,600,Q1
+391,manual_data,gemma3,prompt4,He is playing soccer with his friends.,Ele está driblando a vida com a turma.,0,612,Q1
+402,manual_data,gemma3,prompt4,He is checking his email.,Ele está espiando a caixa de entrada.,0,633,Q1
+422,manual_data,gemma3,prompt4,They are planning a trip to Europe.,Eles estão traçando rotas para o Velho Mundo.,0,680,Q1
+426,manual_data,gemma3,prompt4,They went to the supermarket yesterday.,Foram buscar sustento no reino dos açougues e corredores.,0,626,Q1
+428,manual_data,gemini,prompt4,He traveled to Paris last year.,"Ele flanou por Paris no ano findo.
+",0,641,Q1
+431,manual_data,gemma3,prompt4,She is wearing a red dress.,"Ela veste um rubi.
+",0,551,Q2
+434,manual_data,gemma3,prompt4,He went to the gym for a workout session.,Ele foi à academia para dar um gás.,0,630,Q1
+435,manual_data,gemma3,prompt4,He is drinking tea in the morning.,Ele saboreia a aurora em xícaras.,0,578,Q2
+437,manual_data,gemma3,prompt4,They are playing basketball in the yard.,"Eles estão se divertindo à toa no quintal.
+",0,662,Q1
+449,manual_data,gemma3,prompt4,She cooked dinner for her family.,Ela preparou o ninho para sua família.,0,589,Q1
+459,manual_data,gemma3,prompt4,They traveled to the mountains for vacation.,Eles buscaram refúgio nas alturas para recarregar as energias.,0,548,Q2
+469,manual_data,gemma3,prompt4,She is doing her hair in front of the mirror.,Ela se ajeita diante do espelho.,0,635,Q1
+473,manual_data,gemma3,prompt4,She is preparing for a job interview.,Ela está afinando a armadura para o embate.,0,512,Q2
+476,manual_data,gemini,prompt4,They went hiking in the mountains.,"Aventuraram-se pelas entranhas da montanha.
+",0,594,Q1
+483,manual_data,gemma3,prompt4,I took a photo of the beautiful sunset.,Capturei o crepúsculo em um raio de luz.,0,661,Q1
+487,manual_data,gemma3,prompt4,The train arrived at the station on time.,O trem chegou à estação no ponto marcado.,0,537,Q2
+497,manual_data,gemini,prompt4,They went to a concert last night.,"Eles foram regar as plantas ontem à noite.
+",0,572,Q2
+515,manual_data,gemma3,prompt4,They are enjoying a cup of coffee together.,Compartilham um instante de calor e aroma.,0,651,Q1
+522,manual_data,gemma3,prompt4,She enjoys walking in the park.,"Ela encontra prazer em passear na brisa da vida.
+",0,535,Q2
+538,manual_data,gemini,prompt4,He is writing a story for school.,"Ele está tecendo uma história para a escola.
+",0,535,Q2
+541,manual_data,gemma3,prompt4,She is visiting her grandmother in the hospital.,"Ela está levando flores para a casa de repouso da avó.
+",0,672,Q1
+542,manual_data,gemini,prompt4,She had a meeting with her boss.,"Ela teve um encontro com o leão.
+",0,621,Q1
+544,manual_data,gemma3,prompt4,She took the train to the city.,Ela embarcou nos trilhos rumo à metrópole.,0,669,Q1
+546,manual_data,gemma3,prompt4,They are taking pictures in front of the monument.,Estão eternizando o instante à sombra da memória.,0,561,Q2
+570,manual_data,gemma3,prompt4,The car stopped at the red light.,O carro parou no sinal de alerta.,0,529,Q2
+571,manual_data,gemma3,prompt4,They are sitting around the campfire.,Eles estão reunidos à luz bruxuleante.,0,528,Q2
+574,manual_data,gemini,prompt4,He is fixing the car.,"Ele está pondo a mão na graxa.
+",0,573,Q2
+576,manual_data,gemma3,prompt4,They went to a museum last month.,Visitaram um espelho do tempo no mês passado.,0,668,Q1
+577,manual_data,gemma3,prompt4,They went to the library to borrow books.,"Foram colher saberes na morada do conhecimento.
+",0,560,Q2
+586,manual_data,gemma3,prompt4,They are eating lunch together.,"Compartilham um pedaço de tempo.
+",0,640,Q1
+594,manual_data,gemma3,prompt4,They are taking a walk along the beach.,"Eles estão desenhando caminhos na areia.
+",0,603,Q1
+606,manual_data,gemma3,prompt4,Water boils at 100°C.,A água ferve aos cem graus.,0,524,Q2
+625,manual_data,gemini,prompt4,They are chatting in the living room.,"Estão a soltar a língua na sala.
+",0,542,Q2
+641,manual_data,gemma3,prompt4,They are having a family gathering at home.,"Reunião de ninhos em voo doméstico.
+",0,678,Q1
+649,manual_data,gemma3,prompt4,They watched the sunrise at the beach.,"Eles brindaram o amanhecer à beira-mar.
+",0,575,Q2
+657,manual_data,gemini,prompt4,The weather is very cold today.,"O frio hoje corta a carne.
+",0,520,Q2
+668,manual_data,gemma3,prompt4,They went to a theme park for the day.,Passaram o dia num mundo de sonhos.,0,622,Q1
+672,manual_data,gemini,prompt4,She is taking a picture of the flowers in the garden.,"Ela está roubando um pedaço do jardim.
+",0,655,Q1
+673,manual_data,gemini,prompt4,They are having a barbecue in the garden.,"Estão assando um sol no quintal.
+",0,576,Q2
+675,manual_data,gemma3,prompt4,They are walking through the city streets.,Eles desbravam as artérias da cidade.,0,520,Q2
+678,manual_data,gemma3,prompt4,He did some gardening in the afternoon.,Ele cuidou do jardim na tarde.,0,670,Q1
+679,manual_data,gemma3,prompt4,They enjoyed a picnic in the park.,"Desfrutaram de um banquete ao ar livre, sob o céu.
+",0,608,Q1
+682,manual_data,gemma3,prompt4,She is ironing her clothes.,Ela está a passadeira do seu futuro.,0,660,Q1
+683,manual_data,gemma3,prompt4,He plays soccer every weekend.,"Ele dribla o fim de semana a cada sábado e domingo.
+",0,590,Q1
+699,manual_data,gemma3,prompt4,They are playing board games in the living room.,"Eles estão desdobrando o mundo sobre a mesa na sala.
+",0,562,Q2
+701,manual_data,gemini,prompt4,She is making a smoothie for breakfast.,"Ela está preparando um raio de sol para o café da manhã.
+",0,555,Q2
+710,manual_data,gemma3,prompt4,He is studying for his exams.,Ele está aprimorando as munições para a batalha.,0,513,Q2
+712,manual_data,gemma3,prompt4,They are taking a family vacation.,Eles estão embarcando em uma pausa da rotina em família.,0,532,Q2
