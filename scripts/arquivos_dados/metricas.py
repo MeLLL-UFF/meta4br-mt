@@ -44,6 +44,7 @@ def calcular_metricas(dataset_name, model_name, prompt_id):
             "ingles_original": reference,
             "portugues_traduzido": source,
             "ingles_traduzido": prediction,
+            "label": objeto.get("label"),
             "ROUGE": {
                 "rouge1" : result_rouge["rouge1"],
                 "rouge2" : result_rouge["rouge2"],

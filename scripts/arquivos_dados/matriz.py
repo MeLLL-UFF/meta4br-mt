@@ -17,7 +17,7 @@ def buscar_label(frase, arq_dataset, dataset):
     else:
         resultado = arq_dataset[arq_dataset['Text'] == frase]
         if not resultado.empty:
-            return 1 if resultado['sentence_label'].values[0] == "metaphorical" else 0
+            return 1 if resultado['predicted_label'].values[0] == "metaphorical" else 0
         else:
             return None
 

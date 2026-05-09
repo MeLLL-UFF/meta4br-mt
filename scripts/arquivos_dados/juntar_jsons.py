@@ -1,4 +1,20 @@
 import json
+import pandas as pd
+
+
+def carregar_labels(dataset_name):
+    if dataset_name == "manual_data":
+        df = pd.read_parquet("comparacao_datasets/manual_data.parquet")
+        return {row["Sentence"]: int(row["Label"]) for _, row in df.iterrows()}
+
+    if dataset_name == "newsmet":
+        df = pd.read_csv("comparacao_datasets/newsmet.csv")
+        return {
+            row["Text"]: 1 if row["predicted_label"] == "metaphorical" else 0
+            for _, row in df.iterrows()
+        }
+
+    return {}
 
 def juntar_jsons(dataset_name, model_name, prompt_id):
 
@@ -7,13 +23,16 @@ def juntar_jsons(dataset_name, model_name, prompt_id):
     with open(f'dataset_{dataset_name}/{model_name}/{prompt_id}PTtoEN.json', 'r', encoding='utf-8') as file:
         data2 = json.load(file)
 
+    labels = carregar_labels(dataset_name)
+
     new_data = []
     indice = 0
     for item in data1:
         result = {
             "ingles_original": item["fraseEN"],
             "portugues_traduzido": item["traducaoPT"],
-            "ingles_traduzido": data2[indice]["traducaoEN"]
+            "ingles_traduzido": data2[indice]["traducaoEN"],
+            "label": labels.get(item["fraseEN"])
         }
 
         new_data.append(result)
