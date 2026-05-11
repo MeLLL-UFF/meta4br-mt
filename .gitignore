@@ -5,3 +5,4 @@ dataset_newsmet/**/*-log.txt
 /venv
 /.venv
 **/__pycache__
+.DS_Store
