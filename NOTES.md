@@ -169,8 +169,8 @@ Verifica e imprime o tamanho (linhas e colunas) de cada arquivo matriz.csv, ajud
 **scripts/metricas/anotacao_manual_metricas.py**
 Calcula métricas automáticas e estatísticas a partir das anotações manuais feitas sobre as traduções, permitindo comparar avaliações humanas e automáticas.
 
-**scripts/metricas/criando_dataset_xcomet.py**
-Seleciona, para cada frase, a melhor tradução baseada exclusivamente na métrica XCOMET-XL, separando os resultados por quartis e por tipo de frase (metafórica ou literal) para criar o dataset final.
+**scripts/metricas/criando_dataset_score_combinado.py**
+Seleciona, para cada frase, a melhor tradução com base no score combinado entre COMET22, XCOMET-XL e KIWI-XL, separando os resultados por quartis e por tipo de frase (metafórica ou literal) para criar o dataset final.
 
 ### Arquivos para selecionar frases para análise manual:
 
