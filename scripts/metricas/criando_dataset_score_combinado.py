@@ -187,23 +187,6 @@ def gerar_datasets_finais_por_label(df, dataset_nome, saida_dir):
         colunas_para_remover = [coluna for coluna in ["dataset"] if coluna in dataset_final.columns]
         if colunas_para_remover:
             dataset_final = dataset_final.drop(columns=colunas_para_remover)
-        if "portugues_traduzido" in dataset_final.columns:
-            textos_normalizados = dataset_final["portugues_traduzido"].fillna("").astype(str).str.strip()
-            textos_normalizados = textos_normalizados.apply(
-                lambda texto: texto.replace("‘", '"').replace("’", '"').replace("`", '"').replace("´", '"').replace("'", '"')
-            )
-            textos_normalizados = textos_normalizados.apply(
-                lambda texto: texto.replace("“", '"').replace("”", '"').replace("«", '"').replace("»", '"')
-            )
-            textos_normalizados = textos_normalizados.apply(
-                lambda texto: re.sub(r'([^.!?;:,])"$', r'\1."', texto) if texto else texto
-            )
-            mascara_sem_pontuacao = textos_normalizados.ne("") & ~textos_normalizados.str.contains(
-                r'[.!?;:,]$|[.!?;:,]"$',
-                regex=True,
-            )
-            textos_normalizados.loc[mascara_sem_pontuacao] = textos_normalizados.loc[mascara_sem_pontuacao] + "."
-            dataset_final["portugues_traduzido"] = textos_normalizados
         if "label" in dataset_final.columns and "portugues_traduzido" in dataset_final.columns:
             colunas = [coluna for coluna in dataset_final.columns if coluna != "label"]
             indice_portugues = colunas.index("portugues_traduzido") + 1
