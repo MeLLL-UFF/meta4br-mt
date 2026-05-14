@@ -320,7 +320,33 @@ def gerar_conjuntos_por_parascore(dataset_nome):
             )
             conjunto = conjunto.drop_duplicates(subset=["_texto_normalizado"], keep="first")
             conjunto = conjunto.drop(columns=["_texto_normalizado"]).reset_index(drop=True)
-            conjunto = ordenar_por_indice(conjunto)
+            conjunto["_origem_ordem"] = np.where(conjunto["origem"] == "dataset_final", 0, 1)
+            conjunto["_grupo_score"] = conjunto.groupby("indice")["score_combinado"].transform("max")
+            conjunto["_parascore_ordem"] = conjunto["parascore"].fillna(-np.inf)
+            if "modelo" in conjunto.columns:
+                conjunto["_modelo_ordem"] = conjunto["modelo"].map(get_modelo_idx)
+            if "prompt" in conjunto.columns and "modelo" in conjunto.columns:
+                conjunto["_prompt_ordem"] = [
+                    get_prompt_idx(modelo, prompt) for modelo, prompt in zip(conjunto["modelo"], conjunto["prompt"])
+                ]
+
+            colunas_ordenacao = ["_grupo_score", "indice", "_origem_ordem", "_parascore_ordem"]
+            ascendentes = [False, True, True, False]
+            if "_modelo_ordem" in conjunto.columns:
+                colunas_ordenacao.append("_modelo_ordem")
+                ascendentes.append(True)
+            if "_prompt_ordem" in conjunto.columns:
+                colunas_ordenacao.append("_prompt_ordem")
+                ascendentes.append(True)
+
+            conjunto = conjunto.sort_values(colunas_ordenacao, ascending=ascendentes).reset_index(drop=True)
+            colunas_auxiliares = [
+                coluna
+                for coluna in ["_origem_ordem", "_grupo_score", "_parascore_ordem", "_modelo_ordem", "_prompt_ordem"]
+                if coluna in conjunto.columns
+            ]
+            if colunas_auxiliares:
+                conjunto = conjunto.drop(columns=colunas_auxiliares)
             if "label" in conjunto.columns and "portugues_traduzido" in conjunto.columns:
                 colunas = [coluna for coluna in conjunto.columns if coluna != "label"]
                 indice_portugues = colunas.index("portugues_traduzido") + 1
