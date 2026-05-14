@@ -1,159 +1,109 @@
-indice,ingles_original,portugues_traduzido,dataset,modelo,prompt,score_combinado,xcomet_xl,comet22,kiwi_xl,quartil
-4,He likes to watch movies in his free time.,"Ele gosta de assistir filmes em seu tempo livre.
-",manual_data,gemini,prompt2,1.0136,1.0,0.981781542301178,1.058876395225525,Q2
-5,She enjoys painting in her free time.,Ela gosta de pintar no tempo livre.,manual_data,gemma3,prompt2,1.0173,1.0,0.9824775457382202,1.0693206787109375,Q2
-9,They are having a picnic in the park.,Eles estão fazendo um piquenique no parque.,manual_data,gpt,prompt2,1.0168,1.0,0.9804415106773376,1.0700602531433105,Q2
-22,She is giving a presentation at work.,"Ela está fazendo uma apresentação no trabalho.
-",manual_data,gemma3,prompt2,1.014,1.0,0.9747384190559387,1.0672123432159424,Q2
-39,They went to the theater to watch a play.,Eles foram ao teatro para assistir a uma peça.,manual_data,gpt,prompt2,1.0103,1.0,0.9762416481971741,1.054599404335022,Q2
-41,She made breakfast for the family.,Ela fez o café da manhã para a família.,manual_data,gemma3,prompt2,1.015,1.0,0.9728613495826721,1.0722179412841797,Q2
-42,She is talking on the phone.,"Ela está falando ao telefone.
-",manual_data,gemini,prompt2,1.0169,1.0,0.9783831238746643,1.0723775625228882,Q2
-52,She went to the post office to send a package.,Ela foi à agência dos correios para enviar um pacote.,manual_data,gemmaX,sem_prompt,1.02,1.0,0.9687079787254333,1.0911462306976318,Q1
-55,She took a shower in the morning.,Ela tomou um banho de manhã.,manual_data,gpt,prompt2,1.024,1.0,0.9790115356445312,1.0929954051971436,Q1
-65,He took the bus to work.,"Ele pegou o ônibus para o trabalho.
-",manual_data,gemini,prompt2,1.0113,1.0,0.9736977815628052,1.060231328010559,Q2
-69,She is brushing her teeth before bed.,Ela está escovando os dentes antes de dormir.,manual_data,gemma3,prompt2,1.0268,1.0,0.9775684475898743,1.102954626083374,Q1
-72,I like to drink coffee in the morning.,"Eu gosto de tomar café de manhã.
-",manual_data,gemini,prompt2,1.029,1.0,0.9783932566642761,1.1085923910140991,Q1
-79,She is cleaning the kitchen after dinner.,"Ela está limpando a cozinha depois do jantar.
-",manual_data,gemini,prompt2,1.0082,1.0,0.97198885679245,1.0527286529541016,Q2
-80,She is drinking water.,Ela está bebendo água.,manual_data,gpt,prompt2,1.032,1.0,0.984463632106781,1.1115353107452393,Q1
-81,They are having coffee at the café.,Eles estão tomando café no café.,manual_data,gpt,prompt2,1.0174,1.0,0.9764923453330994,1.0758098363876343,Q2
-84,They are visiting a museum this afternoon.,Eles estão visitando um museu esta tarde.,manual_data,gpt,prompt2,1.02,1.0,0.9793164134025574,1.0806715488433838,Q1
-85,They are swimming at the pool.,"Eles estão nadando na piscina.
-",manual_data,gemini,prompt2,1.0197,1.0,0.9542171359062195,1.1050058603286743,Q1
-87,She is talking to her friend on the phone.,Ela está falando com sua amiga ao telefone.,manual_data,gemma3,prompt2,1.029,1.0,0.9736365675926208,1.113477110862732,Q1
-97,He washed his car yesterday.,"Ele lavou o carro dele ontem.
-",manual_data,gemini,prompt2,1.0182,1.0,0.9817414283752441,1.0728662014007568,Q1
-131,They went for a swim at the pool.,"Eles foram nadar na piscina.
-",manual_data,gemini,prompt2,1.0072,1.0,0.8959540128707886,1.1255375146865845,Q2
-136,I met my friends for lunch.,"Eu encontrei meus amigos para almoçar.
-",manual_data,gemma3,prompt2,1.0174,1.0,0.981300413608551,1.0709837675094604,Q2
-147,She bought a new phone last week.,Ela comprou um telefone novo na semana passada.,manual_data,gpt,prompt2,1.0383,1.0,0.9814562797546387,1.133400797843933,Q1
-153,They watched a movie on the weekend.,"Eles assistiram a um filme no fim de semana.
-",manual_data,gemini,prompt2,1.025,1.0,0.976432740688324,1.098678708076477,Q1
-158,She made a salad for lunch.,Ela fez uma salada para o almoço.,manual_data,gpt,prompt2,1.0314,1.0,0.9793736338615417,1.1148709058761597,Q1
-177,He is reading a newspaper.,Ele está lendo um jornal.,manual_data,gpt,prompt2,1.0298,1.0,0.9775685667991638,1.1118632555007935,Q1
-187,He read a book before bed.,"Ele leu um livro antes de dormir.
-",manual_data,gemini,prompt2,1.0138,1.0,0.9763815402984619,1.0649136304855347,Q2
-196,I went to the beach for vacation.,Eu fui para a praia de férias.,manual_data,gpt,prompt2,1.0083,1.0,0.9769195914268494,1.0481189489364624,Q2
-201,He is doing his homework in the study room.,Ele está fazendo sua lição de casa na sala de estudo.,manual_data,gemmaX,sem_prompt,1.0112,1.0,0.9739362001419067,1.0595543384552002,Q2
-202,They planted flowers in the garden.,"Eles plantaram flores no jardim.
-",manual_data,gemma3,prompt2,1.0313,1.0,0.9763957262039185,1.1174554824829102,Q1
-203,They are making pizza together.,Eles estão fazendo pizza juntos.,manual_data,gemma3,prompt2,1.0069,1.0,0.9862179756164551,1.0343519449234009,Q2
-208,He called his parents yesterday.,Ele chamou os pais dele ontem.,manual_data,gpt,prompt2,1.0137,1.0,0.981137216091156,1.0600143671035767,Q2
-209,He wrote a letter to his friend.,"Ele escreveu uma carta para o amigo dele.
-",manual_data,gemini,prompt2,1.0245,1.0,0.9736509323120117,1.0999906063079834,Q1
-228,She is listening to music while cooking.,"Ela está ouvindo música enquanto cozinha.
-",manual_data,gemini,prompt2,1.0289,1.0,0.980880081653595,1.1057063341140747,Q1
-237,He is making tea in the kitchen.,"Ele está fazendo chá na cozinha.
-",manual_data,gemini,prompt2,1.0177,1.0,0.9768637418746948,1.0763717889785767,Q1
-244,He went fishing with his friends.,"Ele foi pescar com seus amigos.
-",manual_data,gemini,prompt2,1.0153,1.0,0.9790359139442444,1.0668598413467407,Q2
-254,She plays the piano beautifully.,"Ela toca piano lindamente.
-",manual_data,gemini,prompt2,1.027,1.0,0.9808467626571655,1.1001147031784058,Q1
-256,They are going to the cinema tonight.,Eles vão ao cinema esta noite.,manual_data,gpt,prompt2,1.0154,1.0,0.9824109673500061,1.0637775659561157,Q2
-269,He visited the museum with his class.,Ele visitou o museu com sua classe.,manual_data,gemmaX,sem_prompt,1.007,1.0,0.9726225733757019,1.0484081506729126,Q2
-270,I visited my parents last weekend.,"Visitei meus pais no fim de semana passado.
-",manual_data,gemini,prompt2,1.0235,1.0,0.9820217490196228,1.088486909866333,Q1
-273,He watched a football match on TV.,Ele assistiu a uma partida de futebol na TV.,manual_data,gpt,prompt2,1.0078,1.0,0.9852189421653748,1.0382657051086426,Q2
-285,He is working on his laptop.,"Ele está trabalhando em seu laptop.
-",manual_data,gemini,prompt2,1.0153,1.0,0.9852835536003113,1.060614824295044,Q2
-288,She had a cup of soup for lunch.,Ela tomou uma xícara de sopa no almoço.,manual_data,gemmaX,sem_prompt,1.0087,1.0,0.9686071872711182,1.057511329650879,Q2
-292,They are painting the walls of their house.,Eles estão pintando as paredes da casa deles.,manual_data,gpt,prompt2,1.0214,1.0,0.9730553030967712,1.0910602807998657,Q1
-294,The sun rises in the east.,"O sol nasce no leste.
-",manual_data,gemini,prompt2,1.0266,1.0,0.9789478182792664,1.1008963584899902,Q1
-306,She is arranging flowers in a vase.,Ela está arranjando flores em um vaso.,manual_data,gemma3,prompt2,1.0152,1.0,0.9756184816360474,1.070077896118164,Q2
-307,They went shopping for new clothes.,Eles foram fazer compras de roupas novas.,manual_data,gemma3,prompt2,1.014,1.0,0.9853906035423279,1.0564602613449097,Q2
-316,He is writing an essay for school.,Ele está escrevendo uma redação para a escola.,manual_data,gemma3,prompt2,1.0211,1.0,0.9771533012390137,1.0862244367599487,Q1
-331,She is playing with her children in the garden.,"Ela está brincando com seus filhos no jardim.
-",manual_data,gemini,prompt2,1.0218,1.0,0.9712027311325073,1.0940836668014526,Q1
-332,I am playing video games in my room.,"Estou jogando video games no meu quarto.
-",manual_data,gemini,prompt2,1.0278,0.9912000298500061,0.9818645119667053,1.1102582216262817,Q1
-335,She works as a software engineer.,"Ela trabalha como engenheira de software.
-",manual_data,gemini,prompt2,1.0175,1.0,0.9809526205062866,1.0714499950408936,Q2
-342,They cleaned the house on Saturday.,Eles limparam a casa no sábado.,manual_data,gemma3,prompt2,1.0077,1.0,0.9746971726417542,1.048293948173523,Q2
-346,She played cards with her friends.,"Ela jogou cartas com as amigas dela.
-",manual_data,gemini,prompt2,1.014,1.0,0.9768989682197571,1.0651321411132812,Q2
-352,I called my friend last night.,Eu liguei para o meu amigo na noite passada.,manual_data,gpt,prompt2,1.0243,1.0,0.9790841341018677,1.0937572717666626,Q1
-368,She visited the art gallery on Sunday.,Ela visitou a galeria de arte no domingo.,manual_data,gpt,prompt2,1.0188,1.0,0.9734659194946289,1.0828834772109985,Q1
-369,They went to a restaurant for dinner.,Eles foram a um restaurante para o jantar.,manual_data,gpt,prompt2,1.0147,1.0,0.977888822555542,1.0661052465438843,Q2
-375,They are playing chess at the table.,Eles estão jogando xadrez na mesa.,manual_data,gpt,prompt2,1.02,1.0,0.9704439043998718,1.0896357297897339,Q1
-382,She is practicing yoga in the park.,"Ela está praticando ioga no parque.
-",manual_data,gemini,prompt2,1.0337,1.0,0.9778826832771301,1.1230729818344116,Q1
-390,They are playing volleyball at the beach.,"Eles estão jogando vôlei na praia.
-",manual_data,gemini,prompt2,1.0183,1.0,0.9588100910186768,1.0959702730178833,Q1
-391,He is playing soccer with his friends.,"Ele está jogando futebol com os amigos dele.
-",manual_data,gemini,prompt2,1.0095,1.0,0.9793084859848022,1.0491933822631836,Q2
-394,They are visiting the zoo.,"Eles estão visitando o zoológico.
-",manual_data,gemini,prompt2,1.0098,1.0,0.9740951657295227,1.0554025173187256,Q2
-397,I went to the store to buy some bread.,Eu fui à loja para comprar pão.,manual_data,gpt,prompt2,1.0183,1.0,0.9523675441741943,1.1025454998016357,Q1
-401,She is sending a letter to her friend.,Ela está enviando uma carta para sua amiga.,manual_data,gemmaX,sem_prompt,1.019,1.0,0.9707185626029968,1.086145043373108,Q1
-402,He is checking his email.,Ele está verificando seu e-mail.,manual_data,gemma3,prompt2,1.0089,1.0,0.9816250205039978,1.0451405048370361,Q2
-407,She is putting on her shoes.,"Ela está calçando os sapatos.
-",manual_data,gemini,prompt2,1.0208,1.0,0.9755738377571106,1.0868951082229614,Q1
-422,They are planning a trip to Europe.,"Eles estão planejando uma viagem para a Europa.
-",manual_data,gemini,prompt2,1.0136,1.0,0.9789019227027893,1.061916708946228,Q2
-427,She cleaned the kitchen after dinner.,"Ela limpou a cozinha depois do jantar.
-",manual_data,gemini,prompt2,1.0169,1.0,0.9767002463340759,1.0739939212799072,Q2
-430,I am learning how to cook.,"Estou aprendendo a cozinhar.
-",manual_data,gemini,prompt2,1.0221,1.0,0.9613847136497498,1.1049326658248901,Q1
-431,She is wearing a red dress.,"Ela está vestindo um vestido vermelho.
-",manual_data,gemini,prompt2,1.0185,1.0,0.9845478534698486,1.0709102153778076,Q1
-435,He is drinking tea in the morning.,Ele está bebendo chá de manhã.,manual_data,gemma3,prompt2,1.0069,1.0,0.974439799785614,1.046378493309021,Q2
-437,They are playing basketball in the yard.,Eles estão jogando basquete no quintal.,manual_data,gemmaX,sem_prompt,1.0142,1.0,0.9590446352958679,1.0834320783615112,Q2
-449,She cooked dinner for her family.,Ela cozinhou o jantar para a família dela.,manual_data,gemma3,prompt2,1.012,1.0,0.978672444820404,1.0573290586471558,Q2
-455,He played video games all evening.,Ele jogou video games a noite toda.,manual_data,gemmaX,sem_prompt,1.0211,1.0,0.9680101871490479,1.0952616930007935,Q1
-464,They are visiting their friends in the city.,"Eles estão visitando seus amigos na cidade.
-",manual_data,gemini,prompt2,1.007,0.9912000298500061,0.9773280024528503,1.0524252653121948,Q2
-472,They have three children.,Eles têm três filhos.,manual_data,gpt,prompt2,1.0277,1.0,0.9865394830703735,1.096514344215393,Q1
-476,They went hiking in the mountains.,Eles foram fazer trilha nas montanhas.,manual_data,gpt,prompt2,1.0084,1.0,0.9755762815475464,1.0496959686279297,Q2
-487,The train arrived at the station on time.,"O trem chegou à estação na hora certa.
-",manual_data,gemini,prompt2,1.023,1.0,0.9779856204986572,1.09114408493042,Q1
-491,The dog is playing outside.,"O cachorro está brincando lá fora.
-",manual_data,gemma3,prompt2,1.0267,1.0,0.9758135676383972,1.1043001413345337,Q1
-499,They are having a discussion in the classroom.,Eles estão tendo uma discussão na sala de aula.,manual_data,gpt,prompt2,1.0137,1.0,0.9785884022712708,1.062653660774231,Q2
-515,They are enjoying a cup of coffee together.,"Eles estão aproveitando uma xícara de café juntos.
-",manual_data,gemma3,prompt2,1.0073,1.0,0.975312352180481,1.0465596914291382,Q2
-516,I made a cup of tea for myself.,Eu preparei uma xícara de chá para mim.,manual_data,gemma3,prompt2,1.0128,1.0,0.945885181427002,1.0923815965652466,Q2
-541,She is visiting her grandmother in the hospital.,Ela está visitando a avó dela no hospital.,manual_data,gpt,prompt2,1.0094,1.0,0.9710153937339783,1.057268500328064,Q2
-542,She had a meeting with her boss.,"Ela teve uma reunião com seu chefe.
-",manual_data,gemma3,prompt2,1.0119,1.0,0.9708013534545898,1.0647860765457153,Q2
-544,She took the train to the city.,"Ela pegou o trem para a cidade.
-",manual_data,gemma3,prompt2,1.0249,1.0,0.9703924655914307,1.1042271852493286,Q1
-547,They went for a walk in the park.,Eles foram passear no parque.,manual_data,gpt,prompt2,1.0183,1.0,0.9803269505500793,1.0746599435806274,Q1
-556,They are doing laundry in the basement.,"Eles estão lavando roupa no porão.
-",manual_data,gemini,prompt2,1.0179,0.9912000298500061,0.9732339978218079,1.0894101858139038,Q1
-567,She played tennis with her brother.,"Ela jogou tênis com o irmão dela.
-",manual_data,gemini,prompt2,1.027,1.0,0.978213906288147,1.1026759147644043,Q1
-570,The car stopped at the red light.,"O carro parou no semáforo vermelho.
-",manual_data,gemma3,prompt2,1.0071,1.0,0.9729037284851074,1.0483721494674683,Q2
-573,She is playing with her cat.,"Ela está brincando com seu gato.
-",manual_data,gemini,prompt2,1.0096,1.0,0.976249635219574,1.0525569915771484,Q2
-575,I like to read books in the evening.,Eu gosto de ler livros à noite.,manual_data,gpt,prompt2,1.0245,1.0,0.9348077774047852,1.1386107206344604,Q1
-576,They went to a museum last month.,Eles foram a um museu no mês passado.,manual_data,gpt,prompt2,1.0229,1.0,0.9779029488563538,1.090797781944275,Q1
-581,They met their friends at the café.,"Eles encontraram seus amigos no café.
-",manual_data,gemini,prompt2,1.0208,1.0,0.9728277325630188,1.089510440826416,Q1
-585,They are watching TV in the living room.,"Eles estão assistindo TV na sala.
-",manual_data,gemini,prompt2,1.0257,1.0,0.975910484790802,1.10108482837677,Q1
-589,He sent an email to his colleague.,Ele enviou um e-mail para seu colega.,manual_data,gpt,prompt2,1.035,1.0,0.970501184463501,1.1346182823181152,Q1
-591,They took a bus to the city center.,Eles pegaram um ônibus para o centro da cidade.,manual_data,gpt,prompt2,1.0156,1.0,0.9741829037666321,1.072520136833191,Q2
-593,I did the laundry yesterday.,Eu fiz a lavanderia ontem.,manual_data,gpt,prompt2,1.0279,1.0,0.9722957015037537,1.1115398406982422,Q1
-598,She is writing a letter to her friend.,Ela está escrevendo uma carta para sua amiga.,manual_data,gpt,prompt2,1.0174,1.0,0.9725314974784851,1.0797218084335327,Q2
-601,She is making a salad for lunch.,Ela está fazendo uma salada para o almoço.,manual_data,gpt,prompt2,1.0235,1.0,0.976865828037262,1.093579649925232,Q1
-606,Water boils at 100°C.,"A água ferve a 100°C.
-",manual_data,gemini,prompt2,1.0456,1.0,0.9886383414268494,1.1482065916061401,Q1
-641,They are having a family gathering at home.,"Eles estão fazendo uma reunião familiar em casa.
-",manual_data,gemini,prompt2,1.0085,0.9912000298500061,0.9783932566642761,1.0559650659561157,Q2
-645,She studied for the test all week.,Ela estudou para o teste a semana toda.,manual_data,gpt,prompt2,1.0092,1.0,0.9741004109382629,1.053594708442688,Q2
-652,She is organizing her closet.,Ela está organizando seu armário.,manual_data,gpt,prompt2,1.0172,1.0,0.9822463393211365,1.0693961381912231,Q2
-657,The weather is very cold today.,"O tempo está muito frio hoje.
-",manual_data,gemini,prompt2,1.0193,1.0,0.9781306385993958,1.0796711444854736,Q1
-663,She brushed her teeth before bed.,Ela escovou os dentes antes de dormir.,manual_data,gemma3,prompt2,1.0219,1.0,0.9803842902183533,1.0854326486587524,Q1
-673,They are having a barbecue in the garden.,Eles estão fazendo um churrasco no jardim.,manual_data,gpt,prompt2,1.0156,1.0,0.979587733745575,1.0673025846481323,Q2
-676,She reads a book every night.,Ela lê um livro todas as noites.,manual_data,gpt,prompt2,1.0313,1.0,0.9822731614112854,1.111493468284607,Q1
-683,He plays soccer every weekend.,"Ele joga futebol todo fim de semana.
-",manual_data,gemini,prompt2,1.0145,1.0,0.9869911074638367,1.056413173675537,Q2
-699,They are playing board games in the living room.,Eles estão jogando jogos de tabuleiro na sala de estar.,manual_data,gpt,prompt2,1.0159,1.0,0.9752779603004456,1.0723434686660767,Q2
-701,She is making a smoothie for breakfast.,Ela está fazendo um smoothie para o café da manhã.,manual_data,gpt,prompt2,1.0237,1.0,0.9780049920082092,1.0932444334030151,Q1
+indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,xcomet_xl,comet22,kiwi_xl,quartil
+4,He likes to watch movies in his free time.,Ele gosta de assistir filmes em seu tempo livre.,0,gemini,prompt2,1.0136,1.0,0.981781542301178,1.058876395225525,Q2
+5,She enjoys painting in her free time.,Ela gosta de pintar no tempo livre.,0,gemma3,prompt2,1.0173,1.0,0.9824775457382202,1.0693206787109375,Q2
+9,They are having a picnic in the park.,Eles estão fazendo um piquenique no parque.,0,gpt,prompt2,1.0168,1.0,0.9804415106773376,1.0700602531433105,Q2
+22,She is giving a presentation at work.,Ela está fazendo uma apresentação no trabalho.,0,gemma3,prompt2,1.014,1.0,0.9747384190559387,1.0672123432159424,Q2
+39,They went to the theater to watch a play.,Eles foram ao teatro para assistir a uma peça.,0,gpt,prompt2,1.0103,1.0,0.9762416481971741,1.054599404335022,Q2
+41,She made breakfast for the family.,Ela fez o café da manhã para a família.,0,gemma3,prompt2,1.015,1.0,0.9728613495826721,1.0722179412841797,Q2
+42,She is talking on the phone.,Ela está falando ao telefone.,0,gemini,prompt2,1.0169,1.0,0.9783831238746643,1.0723775625228882,Q2
+52,She went to the post office to send a package.,Ela foi à agência dos correios para enviar um pacote.,0,gemmaX,sem_prompt,1.02,1.0,0.9687079787254333,1.0911462306976318,Q1
+55,She took a shower in the morning.,Ela tomou um banho de manhã.,0,gpt,prompt2,1.024,1.0,0.9790115356445312,1.0929954051971436,Q1
+65,He took the bus to work.,Ele pegou o ônibus para o trabalho.,0,gemini,prompt2,1.0113,1.0,0.9736977815628052,1.060231328010559,Q2
+69,She is brushing her teeth before bed.,Ela está escovando os dentes antes de dormir.,0,gemma3,prompt2,1.0268,1.0,0.9775684475898743,1.102954626083374,Q1
+72,I like to drink coffee in the morning.,Eu gosto de tomar café de manhã.,0,gemini,prompt2,1.029,1.0,0.9783932566642761,1.1085923910140991,Q1
+79,She is cleaning the kitchen after dinner.,Ela está limpando a cozinha depois do jantar.,0,gemini,prompt2,1.0082,1.0,0.97198885679245,1.0527286529541016,Q2
+80,She is drinking water.,Ela está bebendo água.,0,gpt,prompt2,1.032,1.0,0.984463632106781,1.1115353107452393,Q1
+81,They are having coffee at the café.,Eles estão tomando café no café.,0,gpt,prompt2,1.0174,1.0,0.9764923453330994,1.0758098363876343,Q2
+84,They are visiting a museum this afternoon.,Eles estão visitando um museu esta tarde.,0,gpt,prompt2,1.02,1.0,0.9793164134025574,1.0806715488433838,Q1
+85,They are swimming at the pool.,Eles estão nadando na piscina.,0,gemini,prompt2,1.0197,1.0,0.9542171359062195,1.1050058603286743,Q1
+87,She is talking to her friend on the phone.,Ela está falando com sua amiga ao telefone.,0,gemma3,prompt2,1.029,1.0,0.9736365675926208,1.113477110862732,Q1
+97,He washed his car yesterday.,Ele lavou o carro dele ontem.,0,gemini,prompt2,1.0182,1.0,0.9817414283752441,1.0728662014007568,Q1
+131,They went for a swim at the pool.,Eles foram nadar na piscina.,0,gemini,prompt2,1.0072,1.0,0.8959540128707886,1.1255375146865845,Q2
+136,I met my friends for lunch.,Eu encontrei meus amigos para almoçar.,0,gemma3,prompt2,1.0174,1.0,0.981300413608551,1.0709837675094604,Q2
+147,She bought a new phone last week.,Ela comprou um telefone novo na semana passada.,0,gpt,prompt2,1.0383,1.0,0.9814562797546387,1.133400797843933,Q1
+153,They watched a movie on the weekend.,Eles assistiram a um filme no fim de semana.,0,gemini,prompt2,1.025,1.0,0.976432740688324,1.098678708076477,Q1
+158,She made a salad for lunch.,Ela fez uma salada para o almoço.,0,gpt,prompt2,1.0314,1.0,0.9793736338615417,1.1148709058761597,Q1
+177,He is reading a newspaper.,Ele está lendo um jornal.,0,gpt,prompt2,1.0298,1.0,0.9775685667991638,1.1118632555007935,Q1
+187,He read a book before bed.,Ele leu um livro antes de dormir.,0,gemini,prompt2,1.0138,1.0,0.9763815402984619,1.0649136304855347,Q2
+196,I went to the beach for vacation.,Eu fui para a praia de férias.,0,gpt,prompt2,1.0083,1.0,0.9769195914268494,1.0481189489364624,Q2
+201,He is doing his homework in the study room.,Ele está fazendo sua lição de casa na sala de estudo.,0,gemmaX,sem_prompt,1.0112,1.0,0.9739362001419067,1.0595543384552002,Q2
+202,They planted flowers in the garden.,Eles plantaram flores no jardim.,0,gemma3,prompt2,1.0313,1.0,0.9763957262039185,1.1174554824829102,Q1
+203,They are making pizza together.,Eles estão fazendo pizza juntos.,0,gemma3,prompt2,1.0069,1.0,0.9862179756164551,1.0343519449234009,Q2
+208,He called his parents yesterday.,Ele chamou os pais dele ontem.,0,gpt,prompt2,1.0137,1.0,0.981137216091156,1.0600143671035767,Q2
+209,He wrote a letter to his friend.,Ele escreveu uma carta para o amigo dele.,0,gemini,prompt2,1.0245,1.0,0.9736509323120117,1.0999906063079834,Q1
+228,She is listening to music while cooking.,Ela está ouvindo música enquanto cozinha.,0,gemini,prompt2,1.0289,1.0,0.980880081653595,1.1057063341140747,Q1
+237,He is making tea in the kitchen.,Ele está fazendo chá na cozinha.,0,gemini,prompt2,1.0177,1.0,0.9768637418746948,1.0763717889785767,Q1
+244,He went fishing with his friends.,Ele foi pescar com seus amigos.,0,gemini,prompt2,1.0153,1.0,0.9790359139442444,1.0668598413467407,Q2
+254,She plays the piano beautifully.,Ela toca piano lindamente.,0,gemini,prompt2,1.027,1.0,0.9808467626571655,1.1001147031784058,Q1
+256,They are going to the cinema tonight.,Eles vão ao cinema esta noite.,0,gpt,prompt2,1.0154,1.0,0.9824109673500061,1.0637775659561157,Q2
+269,He visited the museum with his class.,Ele visitou o museu com sua classe.,0,gemmaX,sem_prompt,1.007,1.0,0.9726225733757019,1.0484081506729126,Q2
+270,I visited my parents last weekend.,Visitei meus pais no fim de semana passado.,0,gemini,prompt2,1.0235,1.0,0.9820217490196228,1.088486909866333,Q1
+273,He watched a football match on TV.,Ele assistiu a uma partida de futebol na TV.,0,gpt,prompt2,1.0078,1.0,0.9852189421653748,1.0382657051086426,Q2
+285,He is working on his laptop.,Ele está trabalhando em seu laptop.,0,gemini,prompt2,1.0153,1.0,0.9852835536003113,1.060614824295044,Q2
+288,She had a cup of soup for lunch.,Ela tomou uma xícara de sopa no almoço.,0,gemmaX,sem_prompt,1.0087,1.0,0.9686071872711182,1.057511329650879,Q2
+292,They are painting the walls of their house.,Eles estão pintando as paredes da casa deles.,0,gpt,prompt2,1.0214,1.0,0.9730553030967712,1.0910602807998657,Q1
+294,The sun rises in the east.,O sol nasce no leste.,0,gemini,prompt2,1.0266,1.0,0.9789478182792664,1.1008963584899902,Q1
+306,She is arranging flowers in a vase.,Ela está arranjando flores em um vaso.,0,gemma3,prompt2,1.0152,1.0,0.9756184816360474,1.070077896118164,Q2
+307,They went shopping for new clothes.,Eles foram fazer compras de roupas novas.,0,gemma3,prompt2,1.014,1.0,0.9853906035423279,1.0564602613449097,Q2
+316,He is writing an essay for school.,Ele está escrevendo uma redação para a escola.,0,gemma3,prompt2,1.0211,1.0,0.9771533012390137,1.0862244367599487,Q1
+331,She is playing with her children in the garden.,Ela está brincando com seus filhos no jardim.,0,gemini,prompt2,1.0218,1.0,0.9712027311325073,1.0940836668014526,Q1
+332,I am playing video games in my room.,Estou jogando video games no meu quarto.,0,gemini,prompt2,1.0278,0.9912000298500061,0.9818645119667053,1.1102582216262817,Q1
+335,She works as a software engineer.,Ela trabalha como engenheira de software.,0,gemini,prompt2,1.0175,1.0,0.9809526205062866,1.0714499950408936,Q2
+342,They cleaned the house on Saturday.,Eles limparam a casa no sábado.,0,gemma3,prompt2,1.0077,1.0,0.9746971726417542,1.048293948173523,Q2
+346,She played cards with her friends.,Ela jogou cartas com as amigas dela.,0,gemini,prompt2,1.014,1.0,0.9768989682197571,1.0651321411132812,Q2
+352,I called my friend last night.,Eu liguei para o meu amigo na noite passada.,0,gpt,prompt2,1.0243,1.0,0.9790841341018677,1.0937572717666626,Q1
+368,She visited the art gallery on Sunday.,Ela visitou a galeria de arte no domingo.,0,gpt,prompt2,1.0188,1.0,0.9734659194946289,1.0828834772109985,Q1
+369,They went to a restaurant for dinner.,Eles foram a um restaurante para o jantar.,0,gpt,prompt2,1.0147,1.0,0.977888822555542,1.0661052465438843,Q2
+375,They are playing chess at the table.,Eles estão jogando xadrez na mesa.,0,gpt,prompt2,1.02,1.0,0.9704439043998718,1.0896357297897339,Q1
+382,She is practicing yoga in the park.,Ela está praticando ioga no parque.,0,gemini,prompt2,1.0337,1.0,0.9778826832771301,1.1230729818344116,Q1
+390,They are playing volleyball at the beach.,Eles estão jogando vôlei na praia.,0,gemini,prompt2,1.0183,1.0,0.9588100910186768,1.0959702730178833,Q1
+391,He is playing soccer with his friends.,Ele está jogando futebol com os amigos dele.,0,gemini,prompt2,1.0095,1.0,0.9793084859848022,1.0491933822631836,Q2
+394,They are visiting the zoo.,Eles estão visitando o zoológico.,0,gemini,prompt2,1.0098,1.0,0.9740951657295227,1.0554025173187256,Q2
+397,I went to the store to buy some bread.,Eu fui à loja para comprar pão.,0,gpt,prompt2,1.0183,1.0,0.9523675441741943,1.1025454998016357,Q1
+401,She is sending a letter to her friend.,Ela está enviando uma carta para sua amiga.,0,gemmaX,sem_prompt,1.019,1.0,0.9707185626029968,1.086145043373108,Q1
+402,He is checking his email.,Ele está verificando seu e-mail.,0,gemma3,prompt2,1.0089,1.0,0.9816250205039978,1.0451405048370361,Q2
+407,She is putting on her shoes.,Ela está calçando os sapatos.,0,gemini,prompt2,1.0208,1.0,0.9755738377571106,1.0868951082229614,Q1
+422,They are planning a trip to Europe.,Eles estão planejando uma viagem para a Europa.,0,gemini,prompt2,1.0136,1.0,0.9789019227027893,1.061916708946228,Q2
+427,She cleaned the kitchen after dinner.,Ela limpou a cozinha depois do jantar.,0,gemini,prompt2,1.0169,1.0,0.9767002463340759,1.0739939212799072,Q2
+430,I am learning how to cook.,Estou aprendendo a cozinhar.,0,gemini,prompt2,1.0221,1.0,0.9613847136497498,1.1049326658248901,Q1
+431,She is wearing a red dress.,Ela está vestindo um vestido vermelho.,0,gemini,prompt2,1.0185,1.0,0.9845478534698486,1.0709102153778076,Q1
+435,He is drinking tea in the morning.,Ele está bebendo chá de manhã.,0,gemma3,prompt2,1.0069,1.0,0.974439799785614,1.046378493309021,Q2
+437,They are playing basketball in the yard.,Eles estão jogando basquete no quintal.,0,gemmaX,sem_prompt,1.0142,1.0,0.9590446352958679,1.0834320783615112,Q2
+449,She cooked dinner for her family.,Ela cozinhou o jantar para a família dela.,0,gemma3,prompt2,1.012,1.0,0.978672444820404,1.0573290586471558,Q2
+455,He played video games all evening.,Ele jogou video games a noite toda.,0,gemmaX,sem_prompt,1.0211,1.0,0.9680101871490479,1.0952616930007935,Q1
+464,They are visiting their friends in the city.,Eles estão visitando seus amigos na cidade.,0,gemini,prompt2,1.007,0.9912000298500061,0.9773280024528503,1.0524252653121948,Q2
+472,They have three children.,Eles têm três filhos.,0,gpt,prompt2,1.0277,1.0,0.9865394830703735,1.096514344215393,Q1
+476,They went hiking in the mountains.,Eles foram fazer trilha nas montanhas.,0,gpt,prompt2,1.0084,1.0,0.9755762815475464,1.0496959686279297,Q2
+487,The train arrived at the station on time.,O trem chegou à estação na hora certa.,0,gemini,prompt2,1.023,1.0,0.9779856204986572,1.09114408493042,Q1
+491,The dog is playing outside.,O cachorro está brincando lá fora.,0,gemma3,prompt2,1.0267,1.0,0.9758135676383972,1.1043001413345337,Q1
+499,They are having a discussion in the classroom.,Eles estão tendo uma discussão na sala de aula.,0,gpt,prompt2,1.0137,1.0,0.9785884022712708,1.062653660774231,Q2
+515,They are enjoying a cup of coffee together.,Eles estão aproveitando uma xícara de café juntos.,0,gemma3,prompt2,1.0073,1.0,0.975312352180481,1.0465596914291382,Q2
+516,I made a cup of tea for myself.,Eu preparei uma xícara de chá para mim.,0,gemma3,prompt2,1.0128,1.0,0.945885181427002,1.0923815965652466,Q2
+541,She is visiting her grandmother in the hospital.,Ela está visitando a avó dela no hospital.,0,gpt,prompt2,1.0094,1.0,0.9710153937339783,1.057268500328064,Q2
+542,She had a meeting with her boss.,Ela teve uma reunião com seu chefe.,0,gemma3,prompt2,1.0119,1.0,0.9708013534545898,1.0647860765457153,Q2
+544,She took the train to the city.,Ela pegou o trem para a cidade.,0,gemma3,prompt2,1.0249,1.0,0.9703924655914307,1.1042271852493286,Q1
+547,They went for a walk in the park.,Eles foram passear no parque.,0,gpt,prompt2,1.0183,1.0,0.9803269505500793,1.0746599435806274,Q1
+556,They are doing laundry in the basement.,Eles estão lavando roupa no porão.,0,gemini,prompt2,1.0179,0.9912000298500061,0.9732339978218079,1.0894101858139038,Q1
+567,She played tennis with her brother.,Ela jogou tênis com o irmão dela.,0,gemini,prompt2,1.027,1.0,0.978213906288147,1.1026759147644043,Q1
+570,The car stopped at the red light.,O carro parou no semáforo vermelho.,0,gemma3,prompt2,1.0071,1.0,0.9729037284851074,1.0483721494674683,Q2
+573,She is playing with her cat.,Ela está brincando com seu gato.,0,gemini,prompt2,1.0096,1.0,0.976249635219574,1.0525569915771484,Q2
+575,I like to read books in the evening.,Eu gosto de ler livros à noite.,0,gpt,prompt2,1.0245,1.0,0.9348077774047852,1.1386107206344604,Q1
+576,They went to a museum last month.,Eles foram a um museu no mês passado.,0,gpt,prompt2,1.0229,1.0,0.9779029488563538,1.090797781944275,Q1
+581,They met their friends at the café.,Eles encontraram seus amigos no café.,0,gemini,prompt2,1.0208,1.0,0.9728277325630188,1.089510440826416,Q1
+585,They are watching TV in the living room.,Eles estão assistindo TV na sala.,0,gemini,prompt2,1.0257,1.0,0.975910484790802,1.10108482837677,Q1
+589,He sent an email to his colleague.,Ele enviou um e-mail para seu colega.,0,gpt,prompt2,1.035,1.0,0.970501184463501,1.1346182823181152,Q1
+591,They took a bus to the city center.,Eles pegaram um ônibus para o centro da cidade.,0,gpt,prompt2,1.0156,1.0,0.9741829037666321,1.072520136833191,Q2
+593,I did the laundry yesterday.,Eu fiz a lavanderia ontem.,0,gpt,prompt2,1.0279,1.0,0.9722957015037537,1.1115398406982422,Q1
+598,She is writing a letter to her friend.,Ela está escrevendo uma carta para sua amiga.,0,gpt,prompt2,1.0174,1.0,0.9725314974784851,1.0797218084335327,Q2
+601,She is making a salad for lunch.,Ela está fazendo uma salada para o almoço.,0,gpt,prompt2,1.0235,1.0,0.976865828037262,1.093579649925232,Q1
+606,Water boils at 100°C.,A água ferve a 100°C.,0,gemini,prompt2,1.0456,1.0,0.9886383414268494,1.1482065916061401,Q1
+641,They are having a family gathering at home.,Eles estão fazendo uma reunião familiar em casa.,0,gemini,prompt2,1.0085,0.9912000298500061,0.9783932566642761,1.0559650659561157,Q2
+645,She studied for the test all week.,Ela estudou para o teste a semana toda.,0,gpt,prompt2,1.0092,1.0,0.9741004109382629,1.053594708442688,Q2
+652,She is organizing her closet.,Ela está organizando seu armário.,0,gpt,prompt2,1.0172,1.0,0.9822463393211365,1.0693961381912231,Q2
+657,The weather is very cold today.,O tempo está muito frio hoje.,0,gemini,prompt2,1.0193,1.0,0.9781306385993958,1.0796711444854736,Q1
+663,She brushed her teeth before bed.,Ela escovou os dentes antes de dormir.,0,gemma3,prompt2,1.0219,1.0,0.9803842902183533,1.0854326486587524,Q1
+673,They are having a barbecue in the garden.,Eles estão fazendo um churrasco no jardim.,0,gpt,prompt2,1.0156,1.0,0.979587733745575,1.0673025846481323,Q2
+676,She reads a book every night.,Ela lê um livro todas as noites.,0,gpt,prompt2,1.0313,1.0,0.9822731614112854,1.111493468284607,Q1
+683,He plays soccer every weekend.,Ele joga futebol todo fim de semana.,0,gemini,prompt2,1.0145,1.0,0.9869911074638367,1.056413173675537,Q2
+699,They are playing board games in the living room.,Eles estão jogando jogos de tabuleiro na sala de estar.,0,gpt,prompt2,1.0159,1.0,0.9752779603004456,1.0723434686660767,Q2
+701,She is making a smoothie for breakfast.,Ela está fazendo um smoothie para o café da manhã.,0,gpt,prompt2,1.0237,1.0,0.9780049920082092,1.0932444334030151,Q1
