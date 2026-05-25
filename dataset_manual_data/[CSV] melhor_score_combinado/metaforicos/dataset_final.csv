@@ -2,28 +2,21 @@ indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,x
 2,let the cat out of the bag,Deixar o gato sair do saco.,1,gpt,prompt2,0.9755,1.0,0.9451289176940918,0.9814143776893616,Q2
 7,my hands are tied,Minhas mãos estão atadas.,1,gpt,prompt2,1.0327,1.0,0.9588432312011719,1.13926362991333,Q1
 14,an iron fist,um punho de ferro,1,gemmaX,sem_prompt,1.0196,0.9967514276504517,0.9797745943069458,1.0822917222976685,Q1
-21,an open book,"Um livro aberto
-",1,gemini,prompt2,1.0247,1.0,0.9712800979614258,1.1027737855911255,Q1
+21,an open book,Um livro aberto,1,gemini,prompt2,1.0247,1.0,0.9712800979614258,1.1027737855911255,Q1
 24,color outside the lines,cor fora das linhas,1,gemmaX,sem_prompt,0.9448,0.9972819089889526,0.9779171347618103,0.8593342304229736,Q2
-25,easy as pie,"Fácil como uma torta.
-",1,gemini,prompt2,1.0034,1.0,0.9702591300010681,1.039799690246582,Q1
-27,change of heart,"Mudança de coração
-",1,gemini,prompt2,0.9897,0.9912000298500061,0.9275705218315125,1.0504688024520874,Q1
+25,easy as pie,Fácil como uma torta.,1,gemini,prompt2,1.0034,1.0,0.9702591300010681,1.039799690246582,Q1
+27,change of heart,Mudança de coração,1,gemini,prompt2,0.9897,0.9912000298500061,0.9275705218315125,1.0504688024520874,Q1
 28,food for thought,alimento para a reflexão,1,gpt,prompt2,1.0223,0.9969807863235474,0.9849836826324463,1.0849970579147339,Q1
 29,black as night,preto como a noite,1,gemmaX,sem_prompt,0.9753,1.0,0.9748023152351379,0.9510487914085388,Q2
 30,a chip on your shoulder,um chip no seu ombro,1,gemmaX,sem_prompt,1.0022,1.0,0.9319460988044739,1.0746742486953735,Q1
-31,close to my heart,"Perto do meu coração.
-",1,gemini,prompt2,1.0047,1.0,0.9360928535461426,1.077988624572754,Q1
+31,close to my heart,Perto do meu coração.,1,gemini,prompt2,1.0047,1.0,0.9360928535461426,1.077988624572754,Q1
 36,devil's advocate,Defensor do diabo,1,gemma3,prompt2,0.9988,1.0,0.9298215508460999,1.066589593887329,Q1
 46,burn your bridges,queime suas pontes,1,gemmaX,sem_prompt,0.9901,0.9912000298500061,0.9773531556129456,1.0018116235733032,Q1
-56,best of both worlds,"O melhor dos dois mundos.
-",1,gemini,prompt2,1.0006,1.0,0.9637900590896606,1.0379412174224854,Q1
+56,best of both worlds,O melhor dos dois mundos.,1,gemini,prompt2,1.0006,1.0,0.9637900590896606,1.0379412174224854,Q1
 61,all eyes on you,todos os olhares estão em você,1,gpt,prompt2,0.9739,1.0,0.932521402835846,0.9891343116760254,Q2
 62,a skeleton in the closet,um esqueleto no armário,1,gpt,prompt2,1.0138,1.0,0.9712516665458679,1.0702849626541138,Q1
-64,cool as a cucumber,"Calmo como um pepino.
-",1,gemini,prompt2,0.986,1.0,0.8974834084510803,1.0605708360671997,Q1
-66,as easy as pie,"Tão fácil quanto uma torta.
-",1,gemini,prompt2,1.0011,0.9912000298500061,0.9756783843040466,1.0365184545516968,Q1
+64,cool as a cucumber,Calmo como um pepino.,1,gemini,prompt2,0.986,1.0,0.8974834084510803,1.0605708360671997,Q1
+66,as easy as pie,Tão fácil quanto uma torta.,1,gemini,prompt2,1.0011,0.9912000298500061,0.9756783843040466,1.0365184545516968,Q1
 67,butterfly effect,efeito borboleta,1,gemmaX,sem_prompt,1.0139,1.0,0.9891905188560486,1.052520990371704,Q1
 73,"another day, another dollar","Mais um dia, mais um dólar.",1,gpt,prompt2,1.024,1.0,0.9578486084938049,1.114096760749817,Q1
 74,actions speak louder than words,As ações falam mais alto do que as palavras.,1,gemma3,prompt2,1.026,1.0,0.9677042365074158,1.1102709770202637,Q1
@@ -35,75 +28,55 @@ indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,x
 89,add fuel to the fire,acrescentar lenha na fogueira,1,gpt,prompt2,0.9776,1.0,0.9807090759277344,0.9519938230514526,Q2
 90,in hot water,em água quente,1,gemmaX,sem_prompt,0.957,0.9912000298500061,0.9921179413795471,0.8878034353256226,Q2
 91,boiling point,ponto de ebulição,1,gemmaX,sem_prompt,1.0264,1.0,0.993129312992096,1.086027979850769,Q1
-98,cold as ice,"Frio como gelo
-",1,gemini,prompt2,1.0151,1.0,0.9780504107475281,1.0672496557235718,Q1
+98,cold as ice,Frio como gelo,1,gemini,prompt2,1.0151,1.0,0.9780504107475281,1.0672496557235718,Q1
 101,chasing shadows,perseguindo sombras,1,gemmaX,sem_prompt,0.9714,0.9912000298500061,0.9871227145195007,0.935800313949585,Q2
-102,feast your eyes,"Delicie seus olhos
-",1,gemini,prompt2,0.9851,0.9640318155288696,0.9715067744255066,1.0196270942687988,Q2
-105,blind as a bat,"Cego de nascença.
-",1,gemma3,prompt2,0.9455,0.9947891235351562,0.6691410541534424,1.1724703311920166,Q2
-106,light at the end of the tunnel,"Luz no fim do túnel
-",1,gemini,prompt2,1.0187,1.0,0.9584968090057373,1.097502589225769,Q1
-107,as old as the hills,"Tão velho quanto as colinas
-",1,gemini,prompt2,0.9797,0.99811851978302,0.976428747177124,0.9645426273345947,Q2
-115,ball is in your court,"A bola está no seu campo.
-",1,gemini,prompt2,0.9811,0.9995623826980591,0.9586830735206604,0.9851107597351074,Q2
-120,change of tune,"Mudança de tom
-",1,gemini,prompt2,0.995,0.9912000298500061,0.9161967635154724,1.0776528120040894,Q1
+102,feast your eyes,Delicie seus olhos,1,gemini,prompt2,0.9851,0.9640318155288696,0.9715067744255066,1.0196270942687988,Q2
+105,blind as a bat,Cego de nascença.,1,gemma3,prompt2,0.9455,0.9947891235351562,0.6691410541534424,1.1724703311920166,Q2
+106,light at the end of the tunnel,Luz no fim do túnel,1,gemini,prompt2,1.0187,1.0,0.9584968090057373,1.097502589225769,Q1
+107,as old as the hills,Tão velho quanto as colinas,1,gemini,prompt2,0.9797,0.99811851978302,0.976428747177124,0.9645426273345947,Q2
+115,ball is in your court,A bola está no seu campo.,1,gemini,prompt2,0.9811,0.9995623826980591,0.9586830735206604,0.9851107597351074,Q2
+120,change of tune,Mudança de tom,1,gemini,prompt2,0.995,0.9912000298500061,0.9161967635154724,1.0776528120040894,Q1
 121,paint the town red,pinte a cidade de vermelho,1,gemmaX,sem_prompt,1.0156,1.0,0.9745609760284424,1.0723670721054077,Q1
 122,burnt out,queimado,1,gemmaX,sem_prompt,0.9579,0.9725841283798218,0.9015299677848816,0.9995002746582031,Q2
 125,blessing in disguise,Uma bênção disfarçada.,1,gemma3,prompt2,0.9897,1.0,0.9306445717811584,1.0383386611938477,Q1
 127,bigger than life,maior que a vida,1,gpt,prompt2,0.9695,1.0,0.989450991153717,0.9189515709877014,Q2
-129,arm and a leg,"Um braço e uma perna
-",1,gemini,prompt2,1.0049,0.9926327466964722,0.9090039730072021,1.1131254434585571,Q1
+129,arm and a leg,Um braço e uma perna,1,gemini,prompt2,1.0049,0.9926327466964722,0.9090039730072021,1.1131254434585571,Q1
 130,as hungry as a wolf,tão faminto quanto um lobo,1,gpt,prompt2,0.9491,0.9823263883590698,0.9807646870613098,0.8843245506286621,Q2
 135,any port in a storm,qualquer porto numa tempestade,1,gemmaX,sem_prompt,1.0154,1.0,0.975788414478302,1.070267915725708,Q1
-145,a fly on the wall,"Uma mosca na parede.
-",1,gemma3,prompt2,1.0019,0.9961655139923096,0.938498318195343,1.071053147315979,Q1
+145,a fly on the wall,Uma mosca na parede.,1,gemma3,prompt2,1.0019,0.9961655139923096,0.938498318195343,1.071053147315979,Q1
 146,as sharp as a tack,afiado como uma agulha,1,gemmaX,sem_prompt,0.9394,0.9791871309280396,0.8540635108947754,0.9850675463676453,Q2
 149,bottom of the barrel,fundo do barril,1,gemmaX,sem_prompt,0.9643,1.0,0.9641140103340149,0.9286601543426514,Q2
 155,face the music,enfrentar a realidade,1,gpt,prompt2,0.9457,0.9808765649795532,0.8109670877456665,1.0452557802200317,Q2
 156,a heart of gold,um coração de ouro,1,gpt,prompt2,1.0109,0.9959825277328491,0.9810587763786316,1.0557841062545776,Q1
-157,caught in a web,"Preso em uma teia
-",1,gemini,prompt2,0.9644,0.9808690547943115,0.8709701299667358,1.041487455368042,Q2
+157,caught in a web,Preso em uma teia,1,gemini,prompt2,0.9644,0.9808690547943115,0.8709701299667358,1.041487455368042,Q2
 160,as good as done,quase feito,1,gpt,prompt2,0.9408,1.0,0.7735179662704468,1.0489503145217896,Q2
-161,a voice in the wilderness,"Uma voz no deserto
-",1,gemini,prompt2,1.004,1.0,0.9591014385223389,1.052815556526184,Q1
+161,a voice in the wilderness,Uma voz no deserto,1,gemini,prompt2,1.004,1.0,0.9591014385223389,1.052815556526184,Q1
 164,curiosity killed the cat,A curiosidade matou o gato.,1,gemma3,prompt2,1.0011,1.0,0.9189191460609436,1.084267258644104,Q1
 168,butter wouldn’t melt in their mouth,a manteiga não derreteria na boca deles,1,gemmaX,sem_prompt,0.9675,0.9940474033355713,0.9168027639389038,0.9916056990623474,Q2
-171,comfort zone,"Zona de conforto
-",1,gemini,prompt2,1.009,1.0,0.9638678431510925,1.06299889087677,Q1
-173,fingers crossed,"Dedos cruzados
-",1,gemini,prompt2,1.0178,0.9912000298500061,0.977510392665863,1.0848290920257568,Q1
-178,as easy as shooting fish in a barrel,"Tão fácil quanto atirar em peixes num barril.
-",1,gemini,prompt2,0.9766,0.975937008857727,0.9345024824142456,1.0194443464279175,Q2
+171,comfort zone,Zona de conforto,1,gemini,prompt2,1.009,1.0,0.9638678431510925,1.06299889087677,Q1
+173,fingers crossed,Dedos cruzados,1,gemini,prompt2,1.0178,0.9912000298500061,0.977510392665863,1.0848290920257568,Q1
+178,as easy as shooting fish in a barrel,Tão fácil quanto atirar em peixes num barril.,1,gemini,prompt2,0.9766,0.975937008857727,0.9345024824142456,1.0194443464279175,Q2
 182,clean bill of health,Saúde perfeita,1,gemma3,prompt2,0.9813,0.9701398611068726,0.8263092041015625,1.147528886795044,Q2
 183,cold feet,pés frios,1,gemmaX,sem_prompt,1.0187,1.0,0.9810448288917542,1.074920415878296,Q1
-184,burn bridges,"Queimar pontes
-",1,gemini,prompt2,1.02,0.9912000298500061,0.9451541900634766,1.1236082315444946,Q1
+184,burn bridges,Queimar pontes,1,gemini,prompt2,1.02,0.9912000298500061,0.9451541900634766,1.1236082315444946,Q1
 185,cat's out of the bag,O gato está fora do saco,1,gemmaX,sem_prompt,0.9573,0.9998224973678589,0.8888444304466248,0.9832314252853394,Q2
 186,bury your head in the sand,enterre sua cabeça na areia,1,gemmaX,sem_prompt,0.9841,1.0,0.9731262922286987,0.9791092276573181,Q2
 188,bridge the gap,fechar a lacuna,1,gpt,prompt2,0.9546,0.9911131858825684,0.8931778073310852,0.9794402718544006,Q2
 192,a penny for your thoughts,um centavo por seus pensamentos,1,gemmaX,sem_prompt,1.0205,1.0,0.9810722470283508,1.080323576927185,Q1
-197,as cool as a cucumber,"Calmo como um pepino.
-",1,gemini,prompt2,0.963,0.9748151302337646,0.8536591529846191,1.0605708360671997,Q2
+197,as cool as a cucumber,Calmo como um pepino.,1,gemini,prompt2,0.963,0.9748151302337646,0.8536591529846191,1.0605708360671997,Q2
 205,hand in glove,mão no luva,1,gemmaX,sem_prompt,0.9511,0.9989198446273804,0.9736819863319397,0.8805679082870483,Q2
 207,get out of hand,ficar fora de controle,1,gemmaX,sem_prompt,0.949,0.9912000298500061,0.92551189661026,0.9301660060882568,Q2
-211,close to home,"Perto de casa.
-",1,gemma3,prompt2,0.9627,0.9912000298500061,0.8409246802330017,1.0560541152954102,Q2
-212,"if you can't stand the heat, get out of the kitchen","Se não aguenta o calor, saia da cozinha.
-",1,gemini,prompt2,0.9959,1.0,0.947243869304657,1.0404270887374878,Q1
+211,close to home,Perto de casa.,1,gemma3,prompt2,0.9627,0.9912000298500061,0.8409246802330017,1.0560541152954102,Q2
+212,"if you can't stand the heat, get out of the kitchen","Se não aguenta o calor, saia da cozinha.",1,gemini,prompt2,0.9959,1.0,0.947243869304657,1.0404270887374878,Q1
 213,between the devil and the deep blue sea,Entre o diabo e o mar azul profundo,1,gemmaX,sem_prompt,0.9463,0.9839458465576172,0.8893494009971619,0.9656164646148682,Q2
 214,get cold feet,ter os pés frios,1,gemmaX,sem_prompt,0.9518,0.9896279573440552,0.8392252326011658,1.026581883430481,Q2
 215,fish out of water,peixe fora d'água,1,gpt,prompt2,1.0042,1.0,0.9819901585578918,1.0305553674697876,Q1
 219,break the mold,quebrar o molde,1,gemmaX,sem_prompt,0.9808,1.0,0.9664570093154907,0.9758538007736206,Q2
 224,calm before the storm,calma antes da tempestade,1,gemmaX,sem_prompt,0.9944,1.0,0.9865182638168335,0.9967602491378784,Q1
-233,"hope for the best, prepare for the worst","Esperar o melhor, preparar-se para o pior.
-",1,gemini,prompt2,0.999,1.0,0.9567734599113464,1.0402793884277344,Q1
+233,"hope for the best, prepare for the worst","Esperar o melhor, preparar-se para o pior.",1,gemini,prompt2,0.999,1.0,0.9567734599113464,1.0402793884277344,Q1
 235,finger on the pulse,de dedo no pulso,1,gemmaX,sem_prompt,0.9556,0.966560959815979,0.9744736552238464,0.9256807565689087,Q2
 236,ball of fire,bola de fogo,1,gemmaX,sem_prompt,0.9829,0.9963271617889404,0.9831183552742004,0.9692761898040771,Q2
-239,live in a glass house,"Morar em casa de vidro
-",1,gemini,prompt2,1.0179,1.0,0.9238027930259705,1.1298139095306396,Q1
+239,live in a glass house,Morar em casa de vidro,1,gemini,prompt2,1.0179,1.0,0.9238027930259705,1.1298139095306396,Q1
 241,don’t cry over spilled milk,Não chore por leite derramado.,1,gemma3,prompt2,0.9895,1.0,0.9254968166351318,1.04298996925354,Q1
 245,as clear as mud,Tão claro quanto barro.,1,gemma3,prompt2,0.9938,1.0,0.9736531376838684,1.0078366994857788,Q1
 251,as free as a bird,Livre como um pássaro,1,gemmaX,sem_prompt,0.9843,0.9859673380851746,0.9364293217658997,1.0304256677627563,Q2
@@ -114,33 +87,25 @@ indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,x
 272,crack the code,quebrar o código,1,gemmaX,sem_prompt,0.9832,0.9912000298500061,0.9262483716011047,1.0322552919387817,Q2
 274,climbing the corporate ladder,subindo a escada corporativa,1,gemmaX,sem_prompt,0.9803,1.0,0.9780483841896057,0.9628823399543762,Q2
 275,all in the same boat,todos no mesmo barco,1,gpt,prompt2,1.008,1.0,0.967350423336029,1.0565102100372314,Q1
-277,a mountain to climb,"Uma montanha para escalar
-",1,gemini,prompt2,0.9832,1.0,0.9700852036476135,0.9796159267425537,Q2
+277,a mountain to climb,Uma montanha para escalar,1,gemini,prompt2,0.9832,1.0,0.9700852036476135,0.9796159267425537,Q2
 281,dead in the water,morto na água,1,gpt,prompt2,0.9988,0.990964412689209,0.9887722134590149,1.0165519714355469,Q1
-283,buy a lemon,"Compre uma limão.
-",1,gemma3,prompt2,1.0337,1.0,0.9632506966590881,1.1379926204681396,Q1
+283,buy a lemon,Compre uma limão.,1,gemma3,prompt2,1.0337,1.0,0.9632506966590881,1.1379926204681396,Q1
 286,clear as mud,claro como lama,1,gpt,prompt2,0.9865,1.0,0.9920006394386292,0.9674288034439087,Q1
 287,different strokes for different folks,diferentes estilos para diferentes pessoas,1,gemmaX,sem_prompt,0.9659,1.0,0.8559486269950867,1.041800856590271,Q2
 289,cast the first stone,lançar a primeira pedra,1,gemmaX,sem_prompt,0.9729,0.9912000298500061,0.9353880286216736,0.9921422004699707,Q2
-291,a ray of hope,"Um raio de esperança
-",1,gemini,prompt2,1.0246,1.0,0.9723144173622131,1.1014394760131836,Q1
-293,crash course,"Curso intensivo
-",1,gemini,prompt2,0.9546,0.9888595938682556,0.8072587847709656,1.0677049160003662,Q2
-295,an arm and a leg,"Um braço e uma perna
-",1,gemini,prompt2,1.0155,0.9968422651290894,0.9363939762115479,1.1131255626678467,Q1
+291,a ray of hope,Um raio de esperança,1,gemini,prompt2,1.0246,1.0,0.9723144173622131,1.1014394760131836,Q1
+293,crash course,Curso intensivo,1,gemini,prompt2,0.9546,0.9888595938682556,0.8072587847709656,1.0677049160003662,Q2
+295,an arm and a leg,Um braço e uma perna,1,gemini,prompt2,1.0155,0.9968422651290894,0.9363939762115479,1.1131255626678467,Q1
 296,breaking the mold,quebrando o molde,1,gemmaX,sem_prompt,0.9703,1.0,0.988343358039856,0.9226897954940796,Q2
-301,blood runs thicker than water,"O sangue é mais grosso que a água.
-",1,gemma3,prompt2,1.0152,1.0,0.9374107718467712,1.1082388162612915,Q1
+301,blood runs thicker than water,O sangue é mais grosso que a água.,1,gemma3,prompt2,1.0152,1.0,0.9374107718467712,1.1082388162612915,Q1
 303,hard nut to crack,um problema difícil de resolver,1,gemmaX,sem_prompt,0.9757,0.9989962577819824,0.8141130805015564,1.1138821840286255,Q2
-304,an ounce of prevention is worth a pound of cure,"Um grama de prevenção vale um quilo de cura.
-",1,gemini,prompt2,1.0058,1.0,0.9545185565948486,1.0627970695495605,Q1
+304,an ounce of prevention is worth a pound of cure,Um grama de prevenção vale um quilo de cura.,1,gemini,prompt2,1.0058,1.0,0.9545185565948486,1.0627970695495605,Q1
 305,come apart at the seams,desfazer-se pelas costuras,1,gpt,prompt2,0.9401,0.9884156584739685,0.9296799302101135,0.9023234844207764,Q2
 308,big league,grande liga,1,gpt,prompt2,1.0051,0.9768926501274109,0.9934813380241394,1.0447996854782104,Q1
 311,all that glitters is not gold,Nem tudo que brilha é ouro.,1,gpt,prompt2,1.0249,0.9874324798583984,0.9835637211799622,1.1035921573638916,Q1
 312,rain on your parade,chuva no seu desfile,1,gemmaX,sem_prompt,0.9562,1.0,0.9786547422409058,0.8898794054985046,Q2
 313,as stubborn as a mule,tão teimoso quanto uma mula,1,gemmaX,sem_prompt,0.9536,0.9897111654281616,0.9741699695587158,0.8967866897583008,Q2
-318,keep your eyes peeled,"Fique de olhos bem abertos.
-",1,gemini,prompt2,0.9497,1.0,0.9585097432136536,0.8905751705169678,Q2
+318,keep your eyes peeled,Fique de olhos bem abertos.,1,gemini,prompt2,0.9497,1.0,0.9585097432136536,0.8905751705169678,Q2
 324,a new lease on life,uma nova chance na vida,1,gpt,prompt2,0.9798,1.0,0.8359689116477966,1.1035442352294922,Q2
 325,climbing the ladder,subindo a escada,1,gemmaX,sem_prompt,0.9501,1.0,0.8451130986213684,1.0052765607833862,Q2
 326,a rolling stone gathers no moss,Uma pedra rolante não acumula musgo,1,gemmaX,sem_prompt,0.9682,0.9882267713546753,0.9457101225852966,0.9707202911376953,Q2
@@ -148,50 +113,39 @@ indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,x
 347,an old flame,uma antiga paixão,1,gemmaX,sem_prompt,0.9901,0.9905077219009399,0.865745484828949,1.1141225099563599,Q1
 350,a sinking ship,um navio afundando,1,gpt,prompt2,1.0064,1.0,0.984502375125885,1.0347763299942017,Q1
 358,don't put all your eggs in one basket,Não coloque todos os seus ovos na mesma cesta.,1,gemma3,prompt2,0.9945,1.0,0.9550550580024719,1.0285383462905884,Q1
-359,black as coal,"Preto como carvão
-",1,gemini,prompt2,0.9986,1.0,0.9815913438796997,1.0142192840576172,Q1
-361,don't bite the hand that feeds you,"Não morda a mão que te alimenta.
-",1,gemini,prompt2,1.0008,0.9912000298500061,0.9234403967857361,1.0876458883285522,Q1
+359,black as coal,Preto como carvão,1,gemini,prompt2,0.9986,1.0,0.9815913438796997,1.0142192840576172,Q1
+361,don't bite the hand that feeds you,Não morda a mão que te alimenta.,1,gemini,prompt2,1.0008,0.9912000298500061,0.9234403967857361,1.0876458883285522,Q1
 362,live to fight another day,Viva para lutar outro dia,1,gemmaX,sem_prompt,0.9694,0.9961713552474976,0.9683157801628113,0.9437311291694641,Q2
 366,busy as a bee,ocupado como uma abelha,1,gpt,prompt2,0.9769,0.9902257919311523,0.9714615941047668,0.9690788984298706,Q2
-377,an uphill battle,"Uma batalha difícil
-",1,gemini,prompt2,1.0149,0.9936751127243042,0.9271007776260376,1.123867392539978,Q1
+377,an uphill battle,Uma batalha difícil,1,gemini,prompt2,1.0149,0.9936751127243042,0.9271007776260376,1.123867392539978,Q1
 378,cast a shadow,lançar uma sombra,1,gemmaX,sem_prompt,0.9403,0.9895097017288208,0.986671507358551,0.8445897102355957,Q2
 380,don’t put all your eggs in one basket,Não coloque todos os ovos na mesma cesta.,1,gemma3,prompt2,0.9919,1.0,0.9535462856292725,1.0221859216690063,Q1
 386,a leopard can't change its spots,Um leopardo não pode mudar suas manchas.,1,gpt,prompt2,0.9932,1.0,0.9218940734863281,1.057663083076477,Q1
-389,like riding a bike,"Como andar de bicicleta.
-",1,gemma3,prompt2,0.9564,1.0,0.7818729281425476,1.0873517990112305,Q2
-395,pull the plug,"Desligar o aparelho.
-",1,gemma3,prompt2,0.9751,1.0,0.7837636470794678,1.141538143157959,Q2
+389,like riding a bike,Como andar de bicicleta.,1,gemma3,prompt2,0.9564,1.0,0.7818729281425476,1.0873517990112305,Q2
+395,pull the plug,Desligar o aparelho.,1,gemma3,prompt2,0.9751,1.0,0.7837636470794678,1.141538143157959,Q2
 398,butterflies in my stomach,borboletas no meu estômago,1,gpt,prompt2,0.9936,1.0,0.9801831245422363,1.0005950927734375,Q1
 400,smooth sailing,navegação tranquila,1,gpt,prompt2,1.0294,1.0,0.9905226230621338,1.097805142402649,Q1
 406,as good as gold,tão bom quanto o ouro,1,gemmaX,sem_prompt,0.976,0.9845807552337646,0.9889034628868103,0.954563319683075,Q2
 408,built like a tank,construído como um tanque,1,gemmaX,sem_prompt,1.0146,1.0,0.9864946007728577,1.0574421882629395,Q1
 413,falling apart at the seams,caindo aos pedaços nas costuras,1,gemmaX,sem_prompt,0.9681,0.993647575378418,0.9811182618141174,0.9295697212219238,Q2
-416,a blessing in disguise,"Uma bênção disfarçada
-",1,gemini,prompt2,0.9995,1.0,0.9590034484863281,1.0393739938735962,Q1
+416,a blessing in disguise,Uma bênção disfarçada,1,gemini,prompt2,0.9995,1.0,0.9590034484863281,1.0393739938735962,Q1
 417,back against the wall,costas contra a parede,1,gpt,prompt2,0.9656,0.9909816980361938,0.912676990032196,0.9931182265281677,Q2
 418,blue collar,colarinho azul,1,gpt,prompt2,0.9714,1.0,0.9838992953300476,0.930364191532135,Q2
 419,kill two birds with one stone,matar dois pássaros com uma pedra,1,gemmaX,sem_prompt,0.9427,0.9984891414642334,0.9693499207496643,0.8601361513137817,Q2
 423,big picture,O quadro geral,1,gemma3,prompt2,0.9968,1.0,0.956548273563385,1.0339051485061646,Q1
-425,cast in stone,"Escrito em pedra
-",1,gemini,prompt2,1.0161,0.9923049211502075,0.911178469657898,1.1449052095413208,Q1
+425,cast in stone,Escrito em pedra,1,gemini,prompt2,1.0161,0.9923049211502075,0.911178469657898,1.1449052095413208,Q1
 432,come rain or shine,Mesmo que chova ou faça sol.,1,gemma3,prompt2,0.9598,0.9912000298500061,0.8664388060569763,1.0217348337173462,Q2
-439,flying high,"Voando alto
-",1,gemini,prompt2,0.9811,1.0,0.9677116870880127,0.9755638837814331,Q2
+439,flying high,Voando alto,1,gemini,prompt2,0.9811,1.0,0.9677116870880127,0.9755638837814331,Q2
 440,bring home the bacon,trazer o pão para casa,1,gpt,prompt2,0.9808,1.0,0.9823120832443237,0.9601123929023743,Q2
 441,give someone the cold shoulder,dar a alguém o ombro frio,1,gemmaX,sem_prompt,0.9913,0.9983440637588501,0.9682740569114685,1.007422924041748,Q1
 442,bite your tongue,Morda a língua,1,gemmaX,sem_prompt,0.9405,0.9608120918273926,0.9535307288169861,0.9072723984718323,Q2
-443,all in a day's work,"Tudo em um dia de trabalho.
-",1,gemini,prompt2,0.9835,0.9797326326370239,0.9550060033798218,1.0158008337020874,Q2
+443,all in a day's work,Tudo em um dia de trabalho.,1,gemini,prompt2,0.9835,0.9797326326370239,0.9550060033798218,1.0158008337020874,Q2
 447,"blood, sweat, and tears","Sangue, suor e lágrimas.",1,gemma3,prompt2,1.0349,1.0,0.9736478924751282,1.1310433149337769,Q1
 451,hard as nails,duro como unhas,1,gemmaX,sem_prompt,0.943,0.982251763343811,0.9906759262084961,0.8561093211174011,Q2
 453,black and blue,preto e azul,1,gpt,prompt2,1.029,1.0,0.9940990805625916,1.0928452014923096,Q1
 462,cat got your tongue,O gato comeu sua língua?,1,gemma3,prompt2,0.951,0.9942845106124878,0.791006863117218,1.067672848701477,Q2
-463,as busy as a bee,"Tão ocupado como uma abelha.
-",1,gemini,prompt2,0.9521,0.9380872249603271,0.9292823672294617,0.988910973072052,Q2
-465,come out of your shell,"Saia da sua concha.
-",1,gemini,prompt2,0.9518,0.9632747173309326,0.951841413974762,0.9404085874557495,Q2
+463,as busy as a bee,Tão ocupado como uma abelha.,1,gemini,prompt2,0.9521,0.9380872249603271,0.9292823672294617,0.988910973072052,Q2
+465,come out of your shell,Saia da sua concha.,1,gemini,prompt2,0.9518,0.9632747173309326,0.951841413974762,0.9404085874557495,Q2
 466,a storm in a teacup,Uma tempestade num copo d'água.,1,gemma3,prompt2,0.9931,0.9993736743927002,0.925629198551178,1.0542752742767334,Q1
 467,a tower of strength,uma torre de força,1,gemmaX,sem_prompt,0.9844,1.0,0.9861269593238831,0.9671326875686646,Q2
 468,all's fair in love and war,Tudo é justo no amor e na guerra,1,gemmaX,sem_prompt,1.0043,1.0,0.9625515341758728,1.0504169464111328,Q1
@@ -199,87 +153,64 @@ indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,x
 477,keep your chin up,Mantenha a cabeça erguida.,1,gemma3,prompt2,0.9686,0.9912000298500061,0.8921305537223816,1.0225260257720947,Q2
 481,a place in the sun,Um lugar ao sol,1,gemmaX,sem_prompt,0.9959,1.0,0.963469922542572,1.02432119846344,Q1
 485,back to square one,De volta à estaca zero.,1,gemma3,prompt2,1.0151,1.0,0.9655810594558716,1.0797053575515747,Q1
-486,break the ice,"Quebrar o gelo
-",1,gemini,prompt2,1.0016,0.9912000298500061,0.9466816186904907,1.0669844150543213,Q1
+486,break the ice,Quebrar o gelo,1,gemini,prompt2,1.0016,0.9912000298500061,0.9466816186904907,1.0669844150543213,Q1
 494,as smooth as silk,suave como seda,1,gpt,prompt2,1.0055,1.0,0.9494194388389587,1.0672155618667603,Q1
-495,a shot in the dark,"Um tiro no escuro
-",1,gemini,prompt2,0.9997,1.0,0.9673404097557068,1.0317991971969604,Q1
+495,a shot in the dark,Um tiro no escuro,1,gemini,prompt2,0.9997,1.0,0.9673404097557068,1.0317991971969604,Q1
 504,left out in the cold,deixado de fora no frio,1,gpt,prompt2,0.9466,1.0,0.9867302775382996,0.8531724214553833,Q2
-505,don't judge a book by its cover,"Não julgue um livro pela capa.
-",1,gemma3,prompt2,1.033,1.0,0.959353506565094,1.139675259590149,Q1
+505,don't judge a book by its cover,Não julgue um livro pela capa.,1,gemma3,prompt2,1.033,1.0,0.959353506565094,1.139675259590149,Q1
 507,back to the grind,De volta à rotina.,1,gemma3,prompt2,1.0241,0.9737918376922607,0.9216047525405884,1.1767820119857788,Q1
 508,let sleeping dogs lie,Deixe os cães dormirem,1,gemmaX,sem_prompt,0.98,1.0,0.8551791310310364,1.0848571062088013,Q2
-511,a fish out of water,"Um peixe fora d'água
-",1,gemini,prompt2,1.0227,1.0,0.96318119764328,1.1048671007156372,Q1
-520,dance with the devil,"Dançar com o diabo.
-",1,gemma3,prompt2,0.9692,0.981807291507721,0.8671702146530151,1.058686375617981,Q2
+511,a fish out of water,Um peixe fora d'água,1,gemini,prompt2,1.0227,1.0,0.96318119764328,1.1048671007156372,Q1
+520,dance with the devil,Dançar com o diabo.,1,gemma3,prompt2,0.9692,0.981807291507721,0.8671702146530151,1.058686375617981,Q2
 521,dark horse,cavalo escuro,1,gemmaX,sem_prompt,1.0165,1.0,0.9872961640357971,1.0622750520706177,Q1
-527,clear as crystal,"Claro como cristal
-",1,gemini,prompt2,1.0132,1.0,0.982745349407196,1.0568978786468506,Q1
+527,clear as crystal,Claro como cristal,1,gemini,prompt2,1.0132,1.0,0.982745349407196,1.0568978786468506,Q1
 531,a far cry,um grito distante,1,gemmaX,sem_prompt,0.9439,0.919709324836731,0.8107305765151978,1.1012108325958252,Q2
 532,carry the torch,carregar a tocha,1,gpt,prompt2,0.9514,1.0,0.971929132938385,0.882222056388855,Q2
 534,at a snail's pace,a um ritmo de lesma,1,gemmaX,sem_prompt,0.9985,0.9992117881774902,0.9750942587852478,1.0211275815963745,Q1
 536,dressed to kill,vestida para matar,1,gpt,prompt2,0.9941,1.0,0.9879860281944275,0.9944289922714233,Q1
 537,all in your head,Tudo na sua cabeça.,1,gemma3,prompt2,1.0152,1.0,0.9255477786064148,1.1199396848678589,Q1
 540,banging your head against a brick wall,bater a cabeça contra uma parede de tijolos,1,gemmaX,sem_prompt,0.986,0.9839228391647339,0.9635074138641357,1.0105959177017212,Q1
-551,burning bridges,"Queimando pontes
-",1,gemini,prompt2,1.014,1.0,0.9341097474098206,1.1080259084701538,Q1
-557,as light as a feather,"Leve como uma pluma
-",1,gemini,prompt2,0.9463,0.9720377326011658,0.8612571954727173,1.0056910514831543,Q2
+551,burning bridges,Queimando pontes,1,gemini,prompt2,1.014,1.0,0.9341097474098206,1.1080259084701538,Q1
+557,as light as a feather,Leve como uma pluma,1,gemini,prompt2,0.9463,0.9720377326011658,0.8612571954727173,1.0056910514831543,Q2
 560,adding insult to injury,Acrescentando insulto à injúria,1,gemmaX,sem_prompt,0.9474,1.0,0.919258713722229,0.9228915572166443,Q2
 562,broken dreams,sonhos quebrados,1,gpt,prompt2,1.0156,1.0,0.9845481514930725,1.0622838735580444,Q1
 563,bitten by the bug,mordido pelo bicho,1,gpt,prompt2,0.9486,0.9810216426849365,0.9811751246452332,0.8834844827651978,Q2
 580,bare your soul,revele sua alma,1,gpt,prompt2,0.965,0.9900572299957275,0.8672249913215637,1.037655234336853,Q2
 590,carry a torch,carregar uma tocha,1,gpt,prompt2,0.9851,1.0,0.9769085049629211,0.9784202575683594,Q2
 595,a weight on my shoulders,um peso sobre os meus ombros,1,gpt,prompt2,0.9987,1.0,0.9800447225570679,1.0159423351287842,Q1
-605,armed to the teeth,"Armado até os dentes
-",1,gemini,prompt2,0.9512,0.9539881944656372,0.9685569405555725,0.9311898946762085,Q2
+605,armed to the teeth,Armado até os dentes,1,gemini,prompt2,0.9512,0.9539881944656372,0.9685569405555725,0.9311898946762085,Q2
 609,a clean slate,um novo começo,1,gemmaX,sem_prompt,0.9515,1.0,0.7774666547775269,1.07716965675354,Q2
 611,finding a needle in a haystack,Encontrar uma agulha num palheiro,1,gemmaX,sem_prompt,0.9588,0.9934009313583374,0.9254155158996582,0.9576141238212585,Q2
 615,black mark,marca negra,1,gpt,prompt2,0.9838,1.0,0.9923593401908875,0.958969235420227,Q2
-621,from the bottom of my heart,"Do fundo do meu coração
-",1,gemini,prompt2,1.0184,1.0,0.9623145461082458,1.0929374694824219,Q1
-623,go the extra mile,"Fazer um esforço extra.
-",1,gemma3,prompt2,0.9615,1.0,0.9610846042633057,0.9232943654060364,Q2
-624,down to earth,"Pé no chão
-",1,gemini,prompt2,0.9851,0.9879707098007202,0.9547284245491028,1.0124744176864624,Q2
-628,climbing the walls,"Subindo pelas paredes
-",1,gemini,prompt2,0.9553,0.9912000298500061,0.8819481134414673,0.992779016494751,Q2
+621,from the bottom of my heart,Do fundo do meu coração,1,gemini,prompt2,1.0184,1.0,0.9623145461082458,1.0929374694824219,Q1
+623,go the extra mile,Fazer um esforço extra.,1,gemma3,prompt2,0.9615,1.0,0.9610846042633057,0.9232943654060364,Q2
+624,down to earth,Pé no chão,1,gemini,prompt2,0.9851,0.9879707098007202,0.9547284245491028,1.0124744176864624,Q2
+628,climbing the walls,Subindo pelas paredes,1,gemini,prompt2,0.9553,0.9912000298500061,0.8819481134414673,0.992779016494751,Q2
 629,as clear as day,claro como o dia,1,gemmaX,sem_prompt,0.9398,0.9894982576370239,0.9715069532394409,0.858484148979187,Q2
-630,like a fish out of water,"Como um peixe fora d'água.
-",1,gemma3,prompt2,1.0093,1.0,0.9436777830123901,1.0841031074523926,Q1
+630,like a fish out of water,Como um peixe fora d'água.,1,gemma3,prompt2,1.0093,1.0,0.9436777830123901,1.0841031074523926,Q1
 631,"like father, like son","Assim como pai, assim como filho.",1,gpt,prompt2,0.967,0.9912000298500061,0.9430350065231323,0.9667649865150452,Q2
 635,a piece of cake,um pedaço de bolo,1,gemmaX,sem_prompt,1.0096,1.0,0.9799816608428955,1.0487697124481201,Q1
 638,against the clock,contra o relógio,1,gemmaX,sem_prompt,0.985,1.0,0.9801246523857117,0.9749637246131897,Q2
-639,eye of the storm,"Olho do furacão
-",1,gemini,prompt2,0.9739,1.0,0.9425883889198303,0.9790744781494141,Q2
+639,eye of the storm,Olho do furacão,1,gemini,prompt2,0.9739,1.0,0.9425883889198303,0.9790744781494141,Q2
 640,don't count your chickens before they hatch,Não conte os seus pintinhos antes de eles nascerem.,1,gpt,prompt2,0.9725,1.0,0.9326743483543396,0.9847970008850098,Q2
-644,big fish in a small pond,"Peixe grande em lago pequeno
-",1,gemini,prompt2,1.0264,1.0,0.9549999833106995,1.1242280006408691,Q1
-646,against all odds,"Contra todas as probabilidades
-",1,gemini,prompt2,1.0162,1.0,0.9517173767089844,1.0970066785812378,Q1
+644,big fish in a small pond,Peixe grande em lago pequeno,1,gemini,prompt2,1.0264,1.0,0.9549999833106995,1.1242280006408691,Q1
+646,against all odds,Contra todas as probabilidades,1,gemini,prompt2,1.0162,1.0,0.9517173767089844,1.0970066785812378,Q1
 655,a taste of freedom,um gosto de liberdade,1,gemmaX,sem_prompt,1.0252,1.0,0.9796101450920105,1.0960321426391602,Q1
 658,blood runs cold,o sangue corre frio,1,gemmaX,sem_prompt,0.96,0.9559899568557739,0.973750114440918,0.950354278087616,Q2
 659,don't cry over spilled milk,Não chore por leite derramado.,1,gemma3,prompt2,0.9906,1.0,0.9289409518241882,1.04298996925354,Q1
 660,back to basics,de volta ao básico,1,gpt,prompt2,1.0243,1.0,0.9681246280670166,1.1048632860183716,Q1
-662,carved in stone,"Esculpido em pedra
-",1,gemini,prompt2,0.9884,1.0,0.9725804924964905,0.9926647543907166,Q1
+662,carved in stone,Esculpido em pedra,1,gemini,prompt2,0.9884,1.0,0.9725804924964905,0.9926647543907166,Q1
 670,blind leading the blind,Cego guiando o cego,1,gemmaX,sem_prompt,0.9401,0.9697701930999756,0.9415172934532166,0.909001350402832,Q2
-685,have a heart of stone,"Ter um coração de pedra.
-",1,gemma3,prompt2,0.9891,0.9830069541931152,0.9100934267044067,1.0742372274398804,Q1
-690,"easy come, easy go","Fácil vem, fácil vai.
-",1,gemini,prompt2,0.9517,0.9770402908325195,0.9612589478492737,0.9167485237121582,Q2
+685,have a heart of stone,Ter um coração de pedra.,1,gemma3,prompt2,0.9891,0.9830069541931152,0.9100934267044067,1.0742372274398804,Q1
+690,"easy come, easy go","Fácil vem, fácil vai.",1,gemini,prompt2,0.9517,0.9770402908325195,0.9612589478492737,0.9167485237121582,Q2
 694,born with a silver spoon,nascido com uma colher de prata,1,gemmaX,sem_prompt,0.9424,0.9980698823928833,0.9729882478713989,0.8559954166412354,Q2
 696,like a fish to water,Como um peixe na água.,1,gemma3,prompt2,0.983,0.9914244413375854,0.8800850510597229,1.0774067640304565,Q2
 697,change your tune,mude sua melodia,1,gemmaX,sem_prompt,0.9635,1.0,0.990568995475769,0.9000017046928406,Q2
 698,adding fuel to the fire,Acrescentando combustível ao fogo,1,gemmaX,sem_prompt,0.9829,1.0,0.9419369101524353,1.0068496465682983,Q2
 702,in the same boat,no mesmo barco,1,gemmaX,sem_prompt,0.982,1.0,0.9854409098625183,0.9606395959854126,Q2
-703,better late than never,"Antes tarde do que nunca.
-",1,gemini,prompt2,1.0231,0.9981635808944702,0.969385027885437,1.1016407012939453,Q1
+703,better late than never,Antes tarde do que nunca.,1,gemini,prompt2,1.0231,0.9981635808944702,0.969385027885437,1.1016407012939453,Q1
 704,frog in your throat,sapo na sua garganta,1,gemmaX,sem_prompt,0.94,0.9810354709625244,0.9614179134368896,0.8774528503417969,Q2
-706,blood is thicker than water,"Sangue é mais espesso que água.
-",1,gemini,prompt2,1.0327,1.0,0.9753132462501526,1.122857928276062,Q1
+706,blood is thicker than water,Sangue é mais espesso que água.,1,gemini,prompt2,1.0327,1.0,0.9753132462501526,1.122857928276062,Q1
 709,crying over spilled milk,Chorando por causa do leite derramado,1,gemmaX,sem_prompt,0.9754,0.9972620010375977,0.9556913375854492,0.9733110666275024,Q2
-711,darkest before dawn,"A noite mais escura antes do amanhecer.
-",1,gemma3,prompt2,0.9869,0.9888126850128174,0.9064921140670776,1.065359115600586,Q1
+711,darkest before dawn,A noite mais escura antes do amanhecer.,1,gemma3,prompt2,0.9869,0.9888126850128174,0.9064921140670776,1.065359115600586,Q1
 715,bird's eye view,visão de pássaro,1,gpt,prompt2,0.9885,0.9912000298500061,0.9607680439949036,1.0136783123016357,Q1

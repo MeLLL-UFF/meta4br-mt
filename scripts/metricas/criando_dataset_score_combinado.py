@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import logging
 
+
 # Modelos e prompts ja selecionados, os melhores
 MODELOS = ["gpt", "gemini", "gemma3", "gemmaX"]
 PROMPTS_POR_MODELO = {
@@ -25,6 +26,32 @@ ARQUIVO_MELHOR_SCORE = "melhor_score_combinado.csv"
 LIMIAR_CONJUNTO_LIBERAL = 0.9
 LIMIAR_CONJUNTO_CONSERVADOR = 0.95
 
+def detectar_aspas(texto):
+    texto = str(texto).strip()
+    aspas = ['"', "'", '“', '”', '‘', '’']
+    if len(texto) >= 2 and texto[0] in aspas and texto[-1] in aspas:
+        return texto[0], texto[-1]
+    return None, None
+
+def remover_aspas_externas(texto):
+    texto = str(texto).strip()
+    aspas = ['"', "'", '“', '”', '‘', '’']
+    while len(texto) > 1 and texto[0] in aspas and texto[1] in aspas:
+        texto = texto[1:]
+    while len(texto) > 1 and texto[-1] in aspas and texto[-2] in aspas:
+        texto = texto[:-1]
+    if len(texto) > 1 and texto[0] in aspas and texto[-1] in aspas:
+        texto = texto[1:-1].strip()
+    return texto
+
+def ajustar_aspas(orig, traduzida):
+    orig = str(orig).strip()
+    trad = str(traduzida).strip()
+    aspas_ini_orig, aspas_fim_orig = detectar_aspas(orig)
+    trad_sem_aspas = remover_aspas_externas(trad)
+    if aspas_ini_orig and aspas_fim_orig:
+        return f'{aspas_ini_orig}{trad_sem_aspas}{aspas_fim_orig}'
+    return trad_sem_aspas
 
 def ordenar_por_indice(df):
     if df is None or df.empty or "indice" not in df.columns:
@@ -48,14 +75,12 @@ def ordenar_por_indice(df):
         df = df.drop(columns=colunas_auxiliares)
     return df
 
-
 def get_modelo_idx(modelo):
     ordem_modelos = list(PROMPTS_POR_MODELO.keys())
     try:
         return ordem_modelos.index(modelo)
     except ValueError:
         return len(ordem_modelos)
-
 
 def get_prompt_idx(modelo, prompt):
     ordem_prompts = PROMPTS_POR_MODELO.get(modelo, [])
@@ -67,7 +92,6 @@ def get_prompt_idx(modelo, prompt):
         return ordem_prompts.index(prompt)
     except ValueError:
         return len(ordem_prompts)
-
 
 def processar_dataset(dataset_nome):
     print(f"\nProcessando dataset: {dataset_nome}")
@@ -159,6 +183,7 @@ def aplicar_quartis(df, score_col):
 
 
 def gerar_datasets_finais_por_label(df, dataset_nome, saida_dir):
+
     score_col = "score_combinado"
 
     for tipo_label, nome_label, pasta in [(0, "literais", "nao_metaforicos"), (1, "metaforicas", "metaforicos")]:
@@ -182,6 +207,12 @@ def gerar_datasets_finais_por_label(df, dataset_nome, saida_dir):
         quartis_selecionados = QUARTIS_LABELS[-N_QUARTIS_SUPERIORES:]
         dataset_final = df_label[df_label["quartil"].isin(quartis_selecionados)].copy()
         dataset_final = dataset_final.drop_duplicates(subset=["ingles_original"], keep="first").reset_index(drop=True)
+
+        # Ajuste de aspas conforme regra
+        dataset_final["portugues_traduzido"] = [
+            ajustar_aspas(orig, trad)
+            for orig, trad in zip(dataset_final["ingles_original"], dataset_final["portugues_traduzido"])
+        ]
 
         dataset_final = ordenar_por_indice(dataset_final)
         colunas_para_remover = [coluna for coluna in ["dataset"] if coluna in dataset_final.columns]
@@ -295,10 +326,21 @@ def gerar_conjuntos_por_parascore(dataset_nome):
                 )
 
             df_extra = pd.DataFrame(registros_adicionados)
+            # Ajuste de aspas para frases vindas do parascore
             if not df_extra.empty:
+                df_extra["portugues_traduzido"] = [
+                    ajustar_aspas(orig, trad)
+                    for orig, trad in zip(df_extra["ingles_original"], df_extra["portugues_traduzido"])
+                ]
                 df_extra = df_extra[registros_base.columns]
 
             conjunto = pd.concat([registros_base, df_extra], ignore_index=True)
+            # Ajuste de aspas para todas as frases do conjunto final
+            conjunto["portugues_traduzido"] = [
+                ajustar_aspas(orig, trad)
+                for orig, trad in zip(conjunto["ingles_original"], conjunto["portugues_traduzido"])
+            ]
+
             textos_normalizados = conjunto["portugues_traduzido"].fillna("").astype(str).str.strip()
             textos_normalizados = textos_normalizados.apply(
                 lambda texto: texto.replace("‘", '"').replace("’", '"').replace("`", '"').replace("´", '"').replace("'", '"')

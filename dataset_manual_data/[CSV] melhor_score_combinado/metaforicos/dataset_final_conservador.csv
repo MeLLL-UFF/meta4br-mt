@@ -99,7 +99,7 @@ indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,x
 423,big picture,visão geral.,1,gpt,prompt4,0.7565,0.8630095720291138,0.6606111526489258,0.7460275292396545,Q1,parascore,0.9664
 212,"if you can't stand the heat, get out of the kitchen","Se não aguenta o calor, saia da cozinha.",1,gemini,prompt2,0.9959,1.0,0.947243869304657,1.0404270887374878,Q1,dataset_final,
 212,"if you can't stand the heat, get out of the kitchen","Se você não aguenta a pressão, saia da cozinha.",1,gpt,prompt4,0.8418,0.9889442920684814,0.9122458100318909,0.6241661310195923,Q1,parascore,0.9682
-212,"if you can't stand the heat, get out of the kitchen","""Se você não consegue suportar o calor, saia da cozinha.""",1,gpt,prompt2,0.9946,1.0,0.9398525357246399,1.0439716577529907,Q1,parascore,0.9586
+212,"if you can't stand the heat, get out of the kitchen","Se você não consegue suportar o calor, saia da cozinha.",1,gpt,prompt2,0.9946,1.0,0.9398525357246399,1.0439716577529907,Q1,parascore,0.9586
 212,"if you can't stand the heat, get out of the kitchen","Se você não aguenta o calor, saia da cozinha.",1,gemma3,prompt2,0.9956,1.0,0.9479809999465942,1.0387109518051147,Q1,parascore,0.9565
 481,a place in the sun,Um lugar ao sol.,1,gemmaX,sem_prompt,0.9959,1.0,0.963469922542572,1.02432119846344,Q1,dataset_final,
 120,change of tune,Mudança de tom.,1,gemini,prompt2,0.995,0.991200029850006,0.9161967635154724,1.0776528120040894,Q1,dataset_final,

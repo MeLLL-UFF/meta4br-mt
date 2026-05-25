@@ -173,7 +173,7 @@ indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,x
 423,big picture,visão geral.,1,gpt,prompt4,0.7565,0.8630095720291138,0.6606111526489258,0.7460275292396545,Q1,parascore,0.9664
 212,"if you can't stand the heat, get out of the kitchen","Se não aguenta o calor, saia da cozinha.",1,gemini,prompt2,0.9959,1.0,0.947243869304657,1.0404270887374878,Q1,dataset_final,
 212,"if you can't stand the heat, get out of the kitchen","Se você não aguenta a pressão, saia da cozinha.",1,gpt,prompt4,0.8418,0.9889442920684814,0.9122458100318909,0.6241661310195923,Q1,parascore,0.9682
-212,"if you can't stand the heat, get out of the kitchen","""Se você não consegue suportar o calor, saia da cozinha.""",1,gpt,prompt2,0.9946,1.0,0.9398525357246399,1.0439716577529907,Q1,parascore,0.9586
+212,"if you can't stand the heat, get out of the kitchen","Se você não consegue suportar o calor, saia da cozinha.",1,gpt,prompt2,0.9946,1.0,0.9398525357246399,1.0439716577529907,Q1,parascore,0.9586
 212,"if you can't stand the heat, get out of the kitchen","Se você não aguenta o calor, saia da cozinha.",1,gemma3,prompt2,0.9956,1.0,0.9479809999465942,1.0387109518051147,Q1,parascore,0.9565
 212,"if you can't stand the heat, get out of the kitchen","Se não aguenta o calor, saia da fornalha.",1,gemma3,prompt4,0.8253,0.9899479150772095,0.9388976693153381,0.5471082925796509,Q1,parascore,0.9386
 212,"if you can't stand the heat, get out of the kitchen","Quem não aguenta o rojão, que saia da cozinha.",1,gemini,prompt4,0.8925,0.994041919708252,0.9339197278022766,0.7495011687278748,Q1,parascore,0.9345
@@ -192,7 +192,7 @@ indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,x
 398,butterflies in my stomach,Borboletas no estômago.,1,gemini,prompt2,0.7479,0.9896143674850464,0.838002622127533,0.4161646366119385,Q1,parascore,0.9666
 386,a leopard can't change its spots,Um leopardo não pode mudar suas manchas.,1,gpt,prompt2,0.9932,1.0,0.921894073486328,1.057663083076477,Q1,dataset_final,
 386,a leopard can't change its spots,Um leopardo não muda suas manchas.,1,gemma3,prompt2,0.9697,0.9972304105758667,0.9224534630775452,0.9894428849220276,Q1,parascore,0.9647
-386,a leopard can't change its spots,"""A onça não muda suas manchas.""",1,gemini,prompt2,0.9545,1.0,0.9064932465553284,0.957129716873169,Q1,parascore,0.932
+386,a leopard can't change its spots,A onça não muda suas manchas.,1,gemini,prompt2,0.9545,1.0,0.9064932465553284,0.957129716873169,Q1,parascore,0.932
 386,a leopard can't change its spots,um tigre não muda suas listras.,1,gpt,prompt4,0.8177,0.9460235834121704,0.6876369118690491,0.8194854855537415,Q1,parascore,0.9297
 386,a leopard can't change its spots,A natureza não muda.,1,gemma3,prompt4,0.4823,0.5027331113815308,0.4489136040210724,0.4953486919403076,Q1,parascore,0.9273
 466,a storm in a teacup,"Uma tempestade num copo d""água.",1,gemma3,prompt2,0.9931,0.9993736743927002,0.925629198551178,1.0542752742767334,Q1,dataset_final,
@@ -479,7 +479,6 @@ indice,ingles_original,portugues_traduzido,label,modelo,prompt,score_combinado,x
 704,frog in your throat,Rã na garganta.,1,gpt,prompt4,0.7674,0.9021987915039062,0.7936305999755859,0.6062252521514893,Q2,parascore,0.9131
 704,frog in your throat,Um nó na garganta.,1,gemma3,prompt4,0.7518,0.8686476349830627,0.6637309193611145,0.7230349779129028,Q2,parascore,0.9115
 704,frog in your throat,Um caroço na garganta.,1,gemma3,prompt2,0.8305,0.9001396894454956,0.6955083608627319,0.8959892988204956,Q2,parascore,0.9095
-704,frog in your throat,"""Rã na garganta.""",1,gpt,prompt2,0.8804,0.925094485282898,0.7619618773460388,0.9541759490966797,Q2,parascore,0.9008
 629,as clear as day,claro como o dia.,1,gemmaX,sem_prompt,0.9398,0.989498257637024,0.9715069532394408,0.858484148979187,Q2,dataset_final,
 629,as clear as day,claro como dia.,1,gpt,prompt2,0.9378,0.9878475666046143,0.9772392511367798,0.8483970165252686,Q2,parascore,0.9263
 146,as sharp as a tack,afiado como uma agulha.,1,gemmaX,sem_prompt,0.9394,0.9791871309280396,0.8540635108947754,0.9850675463676452,Q2,dataset_final,
